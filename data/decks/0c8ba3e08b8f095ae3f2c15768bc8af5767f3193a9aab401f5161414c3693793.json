@@ -1,0 +1,528 @@
+{
+  "id": "0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793",
+  "source_sha256": "3dc0bdc29898f05793cb66028e189b42226b94d2125b414c13558fd81a5d6493",
+  "provenance": "original",
+  "pdf": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/original.pdf",
+  "slides": [
+    {
+      "id": "823NdL",
+      "number": 1,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0001.jpg",
+      "width": 1600,
+      "height": 1000,
+      "text": "DevFest Nantes 2022 What About Logs? Daniel “phrawzty” Maher DevRel @ Scaleway",
+      "title": "",
+      "original_description_html": "<p>DevFest Nantes 2022\nWhat About Logs? Daniel “phrawzty” Maher DevRel @ Scaleway</p>\n"
+    },
+    {
+      "id": "kLmBVk",
+      "number": 2,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "About Scaleway → European cloud service provider → Servers and instances → Managed Kubernetes → Serverless! 2 — @phrawzty // Scaleway !",
+      "title": "",
+      "original_description_html": "<p>About Scaleway → European cloud service provider → Servers and instances → Managed Kubernetes → Serverless!\n2 — @phrawzty // Scaleway\n!</p>\n"
+    },
+    {
+      "id": "MfUzO9",
+      "number": 3,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "About Dan → Recovering system administrator → Active open source contributor → Conference organiser → Je parle le français 3 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>About Dan → Recovering system administrator → Active open source contributor → Conference organiser → Je parle le français\n3 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "yzDnGY",
+      "number": 4,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs 4 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Logs 4 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "bIwb8x",
+      "number": 5,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "DcfP1M",
+      "number": 6,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "pwOCtl",
+      "number": 7,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "SG70mA",
+      "number": 8,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs 8 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Logs 8 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "4ZpoeZ",
+      "number": 9,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt (for coffee) → https://www.tripadvisor.com/ LocationPhotoDirectLinkg293924-d7608412-i383931027Starbucks_Lan_Vien-Hanoi.html 9 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt (for coffee) →\nhttps://www.tripadvisor.com/ LocationPhotoDirectLinkg293924-d7608412-i383931027Starbucks_Lan_Vien-Hanoi.html\n9 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "gtYcWy",
+      "number": 10,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Date and time 10 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Date and time\n10 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "JDHQPN",
+      "number": 11,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Date and time → Something happened 11 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Date and time → Something happened\n11 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "vX0EHm",
+      "number": 12,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Date and time → Something happened → Formatting! 12 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Date and time → Something happened → Formatting!\n12 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "Xqj2AB",
+      "number": 13,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Date and time → Something happened → Formatting? → [d]d/[m]m/yyyy & HH:MM 13 — @phrawzty // Scaleway !",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Date and time → Something happened → Formatting? →\n[d]d/[m]m/yyyy\n&amp; HH:MM\n13 — @phrawzty // Scaleway\n!</p>\n"
+    },
+    {
+      "id": "AARq2a",
+      "number": 14,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter 14 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter\n14 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "mUAduz",
+      "number": 15,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Source of the message 15 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Source of the message\n15 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "OntRnO",
+      "number": 16,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Source of the message → Source of the event 16 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Source of the message → Source of the event\n16 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "17cFfn",
+      "number": 17,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Source of the message → Source of the event → A challenger appears! 17 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Source of the message → Source of the event → A challenger appears!\n17 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "dRL3YC",
+      "number": 18,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Source of the message → Source of the event → A challenger appears! → Empty values! Oh no! 18 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Source of the message → Source of the event → A challenger appears! → Empty values! Oh no!\n18 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "Fl3rQb",
+      "number": 19,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things 19 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things\n19 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "s4mfJ0",
+      "number": 20,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → metadata 20 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log →\nmetadata\n20 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "UOVTBP",
+      "number": 21,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → metadata → Tags 21 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → metadata → Tags\n21 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "6iEH3o",
+      "number": 22,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → metadata → Tags → Tagging can be hard 22 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → metadata → Tags → Tagging can be hard\n22 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "j1x4wD",
+      "number": 23,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things → Metadata is not the message (also: tags) 23 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things → Metadata is not the message (also: tags)\n23 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "LLfsoc",
+      "number": 24,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Message 24 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Message\n24 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "xfOgh1",
+      "number": 25,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0025.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Message → Description of event 25 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Message → Description of event\n25 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "Zz7UZQ",
+      "number": 26,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Message → Description of event → Structure 26 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Message → Description of event → Structure\n26 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "CIqIRp",
+      "number": 27,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0027.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Receipt as log → Message → Description of event → Structure → Presentation 27 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>Receipt as log → Message → Description of event → Structure → Presentation\n27 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "ocZ6KE",
+      "number": 28,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0028.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things → Metadata is not the message (also: tags) → Presentation is everything 28 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>What have we learnt so far? → Minimum: datestamp and event → Structure and interpretation matter → Logs and events are separate things → Metadata is not the message (also: tags) → Presentation is everything 28 — @phrawzty // Scaleway</p>\n"
+    },
+    {
+      "id": "QwHuCd",
+      "number": 29,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "3G0i52",
+      "number": 30,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "fZjVxR",
+      "number": 31,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "HtSJpq",
+      "number": 32,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "uDB7iF",
+      "number": 33,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "WWtvae",
+      "number": 34,
+      "image": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "https://speaking.dark.ca/ 34 — @phrawzty // Scaleway",
+      "title": "",
+      "original_description_html": "<p>https://speaking.dark.ca/ 34 — @phrawzty // Scaleway</p>\n"
+    }
+  ],
+  "page_count": 34,
+  "files": [
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0001.jpg",
+      "sha256": "3fc8b1632a0a20f39002d648fa1d2ff91dd087999d90ab5789e882eb4c896cbb",
+      "bytes": 179280
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0002.png",
+      "sha256": "cd44f337a6779066b8b58f615d32691a6ac891a497ca344b560935c4daeef1a9",
+      "bytes": 368719
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0003.jpg",
+      "sha256": "86013d63c684ff2c71f077a0160f013f3b29cbfc19a26d6b499edcfcde8e1a2a",
+      "bytes": 229908
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0004.png",
+      "sha256": "edc4630880e69af7eb15843f5a872fdf39436d4c1d820b3e2bcb0819d7e68b49",
+      "bytes": 86069
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0005.jpg",
+      "sha256": "ebd0f5c7bd3ada8ad654ce2c7ad1a86916108079232d26275abc5f133078c64d",
+      "bytes": 372794
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0006.jpg",
+      "sha256": "011f235fa5a0eeabcdc7cf25eae8fe0bf5fe5cfab96dc9a4239d5dcde581a599",
+      "bytes": 313319
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0007.jpg",
+      "sha256": "529d0dd1841792104eb8a28826a730dba0dd5760d346744b294a3e52cff3f88f",
+      "bytes": 299851
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0008.jpg",
+      "sha256": "9fd2aacdbb557b69efd19c0b8a50c2454b2f44fe1d98b4b38d5cbaeeb0f9c4fe",
+      "bytes": 57772
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0009.jpg",
+      "sha256": "929e003274b6989b362dc8a1206815d3ab00038c136bf12d841a685c635fafd0",
+      "bytes": 241544
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0010.jpg",
+      "sha256": "5f668eba31c45819f1c3e36f643814574688b5627c9e58f700d8475baf65d6b6",
+      "bytes": 183717
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0011.jpg",
+      "sha256": "6d8e318e2269e901bb6d1e30951c70908b070bd793ff80994047226267f973b7",
+      "bytes": 196853
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0012.jpg",
+      "sha256": "bfe680e93d4a01168fe59ba787599d7c58ca9ce817f06f828ab77e5291362fa2",
+      "bytes": 203439
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0013.jpg",
+      "sha256": "a27cf381468b730ca39d3f4af6853a8c182d2e903cde6d344c9a27f82f8b6432",
+      "bytes": 216795
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0014.png",
+      "sha256": "da90acb337ba114fe2b5fdec5bce82f5ec921d93515e22fec67be4e846b56f72",
+      "bytes": 219831
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0015.jpg",
+      "sha256": "b4bd58228e0319cdfe41a649b44a235f76e18a990626619e281f8add1182cf9e",
+      "bytes": 188484
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0016.jpg",
+      "sha256": "a991c98073ffda32f838b443654ba9b83d05f0ca48f727381d60f20a659c64db",
+      "bytes": 199325
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0017.jpg",
+      "sha256": "7821adc022de9d19e5ab3029750fb5d4b7b79dd70133cc14a8745bed2084b505",
+      "bytes": 212066
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0018.jpg",
+      "sha256": "a7adb9cc62ea57a7e2703184fbecb1e4a82233de5945fdc6057c7f6cbea2b2c3",
+      "bytes": 222238
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0019.png",
+      "sha256": "36f893771baa8697f96795f635c4da7752d37b936b8c3df565f03451fedda43f",
+      "bytes": 288054
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0020.jpg",
+      "sha256": "7d7ff80c0b1feabdb263134e35e19772a14bb12a0efc86a1892f91b5007a83f1",
+      "bytes": 187531
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0021.jpg",
+      "sha256": "e84708ac72e0cc5fd58af414feab317dfc83f264bf456c5a921e7236a419433e",
+      "bytes": 188764
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0022.jpg",
+      "sha256": "ee882248eb50439095e43936b0c5c54b482015c440827bb340ea366e67005820",
+      "bytes": 200276
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0023.png",
+      "sha256": "6517a4b95501ec938867e3fa44f1d5672f1613c02d4271be1bcfddc7bf0ef6f4",
+      "bytes": 368296
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0024.jpg",
+      "sha256": "bc9ae80f791f50c9168daa583b528a791c505bc9f14d8b3de9715faa534f4428",
+      "bytes": 186228
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0025.jpg",
+      "sha256": "605ebdb7e172e1505c0ca8432a5ddc7c57335f65d61c38007a034e8593d62cae",
+      "bytes": 197503
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0026.jpg",
+      "sha256": "e6e95f452a5de549e20251e97a8d260f4730abef0e2b2b900b03c109e1a0f41b",
+      "bytes": 202739
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0027.jpg",
+      "sha256": "5238d1f56f31566bddb4e3bd2d73f00c2691a203ea8437fd15c65eccac68bfe8",
+      "bytes": 210158
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0028.png",
+      "sha256": "912c8aef8bfcbb3720c27133cb65449e5f7fc56fc704c040b804b71b9913a740",
+      "bytes": 419262
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0029.png",
+      "sha256": "017692a0817b45adf3cbed0c73d4f69b2a5119445281026023bcaa79b847ab78",
+      "bytes": 10896
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0030.jpg",
+      "sha256": "f6f1d24ee5057325b8e5eeecec7afa9d59a38d267b9493ce090b74c78ec4c085",
+      "bytes": 175130
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0031.jpg",
+      "sha256": "c2c643982b59eed1ea19addb8ed0360ebf6aca6c75bcc69fbf7147a71fa146ab",
+      "bytes": 179701
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0032.jpg",
+      "sha256": "926f7d3a8664173e484fc90275feb29ca3ad11b8f0d150282fbad98c95305b26",
+      "bytes": 332230
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0033.jpg",
+      "sha256": "689677d1b557c2b8dfc37f5861401dbd3d0aa45fb4608bdb481c64d67c5bd4b7",
+      "bytes": 225197
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/0034.png",
+      "sha256": "de35de2027f20ae5c0401f16ab473e2e087a42c0f618008aa6818d0453a3e0dc",
+      "bytes": 182647
+    },
+    {
+      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/original.pdf",
+      "sha256": "3dc0bdc29898f05793cb66028e189b42226b94d2125b414c13558fd81a5d6493",
+      "bytes": 11270375
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/GDG8Lu/what-about-logs"
+}

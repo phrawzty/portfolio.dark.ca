@@ -1,0 +1,663 @@
+{
+  "id": "3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102",
+  "source_sha256": "fbfb184d53174606141c6f8e7fc7d25a395c472e89a910da4110203f8a693c84",
+  "provenance": "original",
+  "pdf": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/original.pdf",
+  "slides": [
+    {
+      "id": "aqxUtQ",
+      "number": 1,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "MONITORING K8S: FOLLOW THE DATA DANIEL MAHER, DATADOG @phrawzty",
+      "title": "",
+      "original_description_html": "<p>MONITORING K8S: FOLLOW THE DATA\nDANIEL MAHER, DATADOG\n@phrawzty</p>\n"
+    },
+    {
+      "id": "DAgIlp",
+      "number": 2,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "TRENDS IN CONTAINERISATION 2. THE QUALITIES OF GOOD METRICS 3. SCALING KUBERNETES (W/ METRICS)",
+      "title": "",
+      "original_description_html": "<ol>\n<li>TRENDS IN CONTAINERISATION 2. THE QUALITIES OF GOOD METRICS 3. SCALING KUBERNETES (W/ METRICS)</li>\n</ol>\n"
+    },
+    {
+      "id": "pUP6eE",
+      "number": 3,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "DANIEL MAHER D O C S & TA L K S D E V O P S D AY S G R E AT O U T D O O R S GOURMAND SUITS FOR NO REASON @phrawzty",
+      "title": "",
+      "original_description_html": "<p>DANIEL MAHER D O C S &amp; TA L K S D E V O P S D AY S G R E AT O U T D O O R S GOURMAND SUITS FOR NO REASON @phrawzty</p>\n"
+    },
+    {
+      "id": "Ro7uWd",
+      "number": 4,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "D ATA D O G SAAS-BASED MONITORING T R I L L I O N S O F P O I N T S / D AY WE’RE HIRING: w w w. d a t a d o g h q . c o m / c a r e e r s @datadoghq",
+      "title": "",
+      "original_description_html": "<p>D ATA D O G SAAS-BASED MONITORING T R I L L I O N S O F P O I N T S / D AY WE’RE HIRING: w w w. d a t a d o g h q . c o m / c a r e e r s @datadoghq</p>\n"
+    },
+    {
+      "id": "47qiP2",
+      "number": 5,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "gRZWHR",
+      "number": 6,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/docker-adoption/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/docker-adoption/</p>\n"
+    },
+    {
+      "id": "IlIK9q",
+      "number": 7,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-orchestration/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-orchestration/</p>\n"
+    },
+    {
+      "id": "v5182F",
+      "number": 8,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter.",
+      "title": "",
+      "original_description_html": "<p>Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter.</p>\n"
+    },
+    {
+      "id": "XOjvue",
+      "number": 9,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter: the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month.",
+      "title": "",
+      "original_description_html": "<p>Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter: the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month.</p>\n"
+    },
+    {
+      "id": "9iSjn3",
+      "number": 10,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter: the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month. Abandoner: a currently active company that used Docker in the past, but hasn’t used it at all in the last month.",
+      "title": "",
+      "original_description_html": "<p>Docker Adoption Dabbler: used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter: the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month. Abandoner: a currently active company that used Docker in the past, but hasn’t used it at all in the last month.</p>\n"
+    },
+    {
+      "id": "m2BXfS",
+      "number": 11,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "OLuLXr",
+      "number": 12,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "0fd9QG",
+      "number": 13,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "czLxIf",
+      "number": 14,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "WHAT’S RUNNING?",
+      "title": "",
+      "original_description_html": "<p>WHAT’S RUNNING?</p>\n"
+    },
+    {
+      "id": "FJ4lB4",
+      "number": 15,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "NGINX Redis Postgres FluentD Elasticsearch Mongo MySQL etcd RabbitMQ HAproxy 0% 10 % 20 % 30 % % Customers Running a Tech in Containers 40 %",
+      "title": "",
+      "original_description_html": "<p>NGINX Redis Postgres FluentD Elasticsearch Mongo MySQL etcd RabbitMQ HAproxy 0%\n10 %\n20 %\n30 %\n% Customers Running a Tech in Containers\n40 %</p>\n"
+    },
+    {
+      "id": "rcnZ3T",
+      "number": 16,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Redis Postgres Elasticsearch MySQL MongoDB etcd RabbitMQ 0% 10 % 20 % 30 % % Customers Running Data Stores in Containers 40 %",
+      "title": "",
+      "original_description_html": "<p>Redis Postgres Elasticsearch MySQL MongoDB etcd RabbitMQ 0%\n10 %\n20 %\n30 %\n% Customers Running Data Stores in Containers\n40 %</p>\n"
+    },
+    {
+      "id": "TwWMvs",
+      "number": 17,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "ENTER: ORCHESTRATION",
+      "title": "",
+      "original_description_html": "<p>ENTER: ORCHESTRATION</p>\n"
+    },
+    {
+      "id": "6GFAoH",
+      "number": 18,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "iZxygg",
+      "number": 19,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "KtgmZ5",
+      "number": 20,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "xDPaRU",
+      "number": 21,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "NEW CONTAINER: WHO DIS?",
+      "title": "",
+      "original_description_html": "<p>NEW CONTAINER: WHO DIS?</p>\n"
+    },
+    {
+      "id": "ZX8OJt",
+      "number": 22,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "BqrCCI",
+      "number": 23,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "oAa04h",
+      "number": 24,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "WHAT’S RUNNING? PART 2: THE RUNNINATING",
+      "title": "",
+      "original_description_html": "<p>WHAT’S RUNNING? PART 2: THE RUNNINATING</p>\n"
+    },
+    {
+      "id": "QUInx6",
+      "number": 25,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "2o1bpV",
+      "number": 26,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0026.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "f7kPhu",
+      "number": 27,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "4 QUALITIES OF GOOD METRICS NOT ALL METRICS ARE EQUAL",
+      "title": "",
+      "original_description_html": "<p>4 QUALITIES OF GOOD METRICS NOT ALL METRICS ARE EQUAL</p>\n"
+    },
+    {
+      "id": "HRTDaJ",
+      "number": 28,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "MUST BE WELL UNDERSTOOD",
+      "title": "",
+      "original_description_html": "<ol>\n<li>MUST BE WELL UNDERSTOOD</li>\n</ol>\n"
+    },
+    {
+      "id": "tlC1Si",
+      "number": 29,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0029.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SUFFICIENT GRANULARITY",
+      "title": "",
+      "original_description_html": "<ol start=\"2\">\n<li>SUFFICIENT GRANULARITY</li>\n</ol>\n"
+    },
+    {
+      "id": "W4upL7",
+      "number": 30,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "TAGGED & FILTERABLE",
+      "title": "",
+      "original_description_html": "<ol start=\"3\">\n<li>TAGGED &amp; FILTERABLE</li>\n</ol>\n"
+    },
+    {
+      "id": "8OddDW",
+      "number": 31,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "LONG-LIVED",
+      "title": "",
+      "original_description_html": "<ol start=\"4\">\n<li>LONG-LIVED</li>\n</ol>\n"
+    },
+    {
+      "id": "kiMR5v",
+      "number": 32,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0032.png",
+      "width": 1600,
+      "height": 900,
+      "text": "CUSTOM METRICS & K8S",
+      "title": "",
+      "original_description_html": "<p>CUSTOM METRICS &amp; K8S</p>\n"
+    },
+    {
+      "id": "N25EyK",
+      "number": 33,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "zLo2qj",
+      "number": 34,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "MUST BE WELL UNDERSTOOD $ kubectl autoscale rs foo !—min=5 !—max=10 !—cpu-percent=80 Questions: What does cpu percent mean exactly? Of user-space only? Does that even matter? Is that on any one instance? Across the pod? Of a single core? Multi-core? And what about spikes - do those count?",
+      "title": "",
+      "original_description_html": "<ol>\n<li>MUST BE WELL UNDERSTOOD $ kubectl autoscale rs foo !—min=5 !—max=10 !—cpu-percent=80 Questions: What does cpu percent mean exactly? Of user-space only? Does that even matter? Is that on any one instance? Across the pod? Of a single core? Multi-core? And what about spikes - do those count?</li>\n</ol>\n"
+    },
+    {
+      "id": "bfWqj8",
+      "number": 35,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0035.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SUFFICIENT GRANULARITY 1 second Peak 46% 1 minute Peak 36% 5 minutes Peak 12%",
+      "title": "",
+      "original_description_html": "<ol start=\"2\">\n<li>SUFFICIENT GRANULARITY 1 second Peak 46% 1 minute Peak 36% 5 minutes Peak 12%</li>\n</ol>\n"
+    },
+    {
+      "id": "DzFebX",
+      "number": 36,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0036.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "TAGGED & FILTERABLE “Add more web servers when the frontend is getting busy.” metric: nginx.net.request_per_s scope: kube_container_name: frontend “oh no”",
+      "title": "",
+      "original_description_html": "<ol start=\"3\">\n<li>TAGGED &amp; FILTERABLE “Add more web servers when the frontend is getting busy.” metric: nginx.net.request_per_s scope: kube_container_name: frontend\n“oh no”</li>\n</ol>\n"
+    },
+    {
+      "id": "qIySTw",
+      "number": 37,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0037.png",
+      "width": 1600,
+      "height": 900,
+      "text": "LONG-LIVED “There always seems to be ten web servers running. Should we increase the maximum number in the set?” Questions: What does normal even look like? Is normal stable over time? What about week-ends? Did you just notice now? Seriously, how long has it been this way?",
+      "title": "",
+      "original_description_html": "<ol start=\"4\">\n<li>LONG-LIVED “There always seems to be ten web servers running. Should we increase the maximum number in the set?” Questions: What does normal even look like? Is normal stable over time? What about week-ends? Did you just notice now? Seriously, how long has it been this way?</li>\n</ol>\n"
+    },
+    {
+      "id": "SchGML",
+      "number": 38,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0038.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "4wQ4Ek",
+      "number": 39,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0039.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "hG8s79",
+      "number": 40,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0040.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "M T W TH F M T W TH F M T W TH F M T W TH F",
+      "title": "",
+      "original_description_html": "<p>M T W TH F\nM T W TH F\nM T W TH F\nM T W TH F</p>\n"
+    },
+    {
+      "id": "JZrfzY",
+      "number": 41,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0041.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "M T W TH F M T W TH F M T W TH F ALSO, WHAT HAPPENED HERE? M T W TH F",
+      "title": "",
+      "original_description_html": "<p>M T W TH F\nM T W TH F\nM T W TH F\nALSO, WHAT HAPPENED HERE?\nM T W TH F</p>\n"
+    },
+    {
+      "id": "vtaTrx",
+      "number": 42,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0042.png",
+      "width": 1600,
+      "height": 900,
+      "text": "TRENDS IN CONTAINERISATION 2. THE QUALITIES OF GOOD METRICS 3. SCALING KUBERNETES (W/ METRICS)",
+      "title": "",
+      "original_description_html": "<ol>\n<li>TRENDS IN CONTAINERISATION 2. THE QUALITIES OF GOOD METRICS 3. SCALING KUBERNETES (W/ METRICS)</li>\n</ol>\n"
+    },
+    {
+      "id": "YDJHkM",
+      "number": 43,
+      "image": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0043.png",
+      "width": 1600,
+      "height": 900,
+      "text": "MERCI ! DANIEL MAHER @phrawzty daniel.maher@datadoghq.com",
+      "title": "",
+      "original_description_html": "<p>MERCI !\nDANIEL MAHER\n@phrawzty daniel.maher@datadoghq.com</p>\n"
+    }
+  ],
+  "page_count": 43,
+  "files": [
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0001.png",
+      "sha256": "18d7d29199ca883a6b0dc6476493ab4de5538d951902b42a50dbcc10bcd4c16f",
+      "bytes": 156809
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0002.png",
+      "sha256": "b6512c230c32e33ca67af6e68f8c727769712d872009415dc011edb699c4776e",
+      "bytes": 273383
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0003.jpg",
+      "sha256": "36a7e711782b8c4fb3510f395ef77644efcebe5cb86caedf9f60229e645a1fe3",
+      "bytes": 278332
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0004.jpg",
+      "sha256": "05d9f819bab5d7054b634cb04c57221292002aadc681b7e2c83db09323c3deff",
+      "bytes": 112993
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0005.jpg",
+      "sha256": "83c36bdc1330c162b3f6386b030b875daa94833af152ca501d582729c70996ec",
+      "bytes": 116657
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0006.jpg",
+      "sha256": "19fb2e52568e1d28517bd2d0d2461b507b43d313f3f263fc9b305d2070d8e1d1",
+      "bytes": 179830
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0007.jpg",
+      "sha256": "f6a37e43299e98a7c0eaa4c2ca16105bbdb81e310a9b207a272118a2f58793d3",
+      "bytes": 205297
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0008.png",
+      "sha256": "62d0a780475a6e72c2f8861e4f89a0619c9763cfe557d3cd6862d17cad7b3b30",
+      "bytes": 175057
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0009.png",
+      "sha256": "d21c2439993db8bf44103c2cfe81060ecfa611edbcccb9c6b48a24b99fa365b5",
+      "bytes": 368527
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0010.png",
+      "sha256": "1d071d70959afa302f27229ab2990ee11743d7bfcd908e30a7186ee3666b20de",
+      "bytes": 473834
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0011.jpg",
+      "sha256": "3724cadfdeb0f91e10798f2e5363b801ac104f47a7b03c8f20eff115a0b4a321",
+      "bytes": 99288
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0012.png",
+      "sha256": "04d06f394890bbed43aef6d24c4e3f2d52f4b571c9725b4b1056c01c4faef970",
+      "bytes": 368169
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0013.png",
+      "sha256": "0d134f20a89bda9bbcd3cd58c2ab2c8514d9e741ece1bda76a38d3635fa75cb7",
+      "bytes": 271358
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0014.png",
+      "sha256": "c7b111552c82cf92163d6bc2916d234013ca9d6a65f13856fca23e01a8cce8aa",
+      "bytes": 84842
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0015.png",
+      "sha256": "4dc099e1d9dd5ec4645c5134c58207da3934be3db206501682d00706f5978f9f",
+      "bytes": 199333
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0016.png",
+      "sha256": "bfad0a074a50c2ca1b6823e615f6b0199144d7a6f51234c31f6b36227a68c563",
+      "bytes": 177599
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0017.png",
+      "sha256": "b325524d037b25ee98d8ea1419b1c0444bbe554f0dccaae62a906c50d3e01e2a",
+      "bytes": 88291
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0018.jpg",
+      "sha256": "6f670446d18d0846f79456ae662891f5f62f232b1c4f7334e52c906358a7eb9c",
+      "bytes": 113936
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0019.png",
+      "sha256": "1bb442afacacf5551764e3c4fe2a16f58920adf2762cfc65f8f97a556c69a74f",
+      "bytes": 352974
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0020.png",
+      "sha256": "a6434c3d50485fd17ba04d3c1f1b3c170db2240d0f53c31f7208903c60655d5d",
+      "bytes": 294844
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0021.png",
+      "sha256": "269c3562946037d5151567cb2d409764cf6a8fcf6c6548042fc47fdf704bed5f",
+      "bytes": 102089
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0022.jpg",
+      "sha256": "4bcf3a7a2aa650a13521a1744fb9b107a7921935adff9bc7add70f7219e6e6e2",
+      "bytes": 150856
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0023.jpg",
+      "sha256": "3d93056ec4e521bc32e74ceae41d4e63a9b0463cb35fbe97df4247fb28882256",
+      "bytes": 150684
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0024.png",
+      "sha256": "f4c28a47aba0a4d8b78f3868a7c9feafe9c78be5aaa58280c8b3d6fa15c46106",
+      "bytes": 120430
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0025.png",
+      "sha256": "4f3a72c039f934076661e6b934254dde8d1b945d4321dd7dc970e3c6040424bc",
+      "bytes": 258865
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0026.png",
+      "sha256": "c18c1d8636a0c312b23604f598ecf2b43ac1e04e6ce8433ee8b795cd67da982e",
+      "bytes": 267830
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0027.png",
+      "sha256": "be2a11b4040f6fc0295bb358adf49048cc5ff8c13dd08cdd602d98557840be6c",
+      "bytes": 132733
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0028.jpg",
+      "sha256": "a57490454c8af6d574a45ecbfa94de2fe75c98c883ddf17767fcbb68e1b3253c",
+      "bytes": 203484
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0029.jpg",
+      "sha256": "d3f4d01df9f9ffcde48bf1b24f1d7f4c35df57b9228cf442935066a429d0632d",
+      "bytes": 386706
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0030.jpg",
+      "sha256": "587d12cbe1776521812b4435652175fdff63276976d52c94e1c0655e1aee6f4a",
+      "bytes": 481853
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0031.jpg",
+      "sha256": "71dc874cbc49ab83cdf23d93515e47fd3ecb060ac673996015ffbe4315e99606",
+      "bytes": 661677
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0032.png",
+      "sha256": "06d7608c6c08f09a4712cd744182b9ae3cb5adb75b79d1f450945e50d4027dba",
+      "bytes": 103017
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0033.jpg",
+      "sha256": "c3980910b4d4a4270f8380b0e1e59e48103efa270a92771d4876bea632f4fcb5",
+      "bytes": 79533
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0034.png",
+      "sha256": "8d709da2a22cb245832133e2956107fe4668b56058b792fa6cc00ff4cb10f8c7",
+      "bytes": 386835
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0035.jpg",
+      "sha256": "9845435cee2a494ab0dcf83b7b10d0de8536cb495ded2a708dce468498540159",
+      "bytes": 162081
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0036.jpg",
+      "sha256": "e8d9cc99ac35f8d159a1d6de66f55516316110e373cbd02b6a95f2dd0a9663d0",
+      "bytes": 135663
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0037.png",
+      "sha256": "444c7f9aeb341b4d938ace01dc3fb3061bbc0c8a1bce9305526d1931929e5c4e",
+      "bytes": 335551
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0038.jpg",
+      "sha256": "00b692dbebbf46466870c1c20c9ce30b183964a8d65efdfd878d6097ea322d4b",
+      "bytes": 98565
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0039.jpg",
+      "sha256": "6a34ddde3bcaefb0e089e5e33a79282f51f3bad31bf89d7d5fefe221309008da",
+      "bytes": 145866
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0040.jpg",
+      "sha256": "2dff27b315b013f2e03aeb4e79c1a3a61c238de342d00c1a81b54b21cd554948",
+      "bytes": 169453
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0041.jpg",
+      "sha256": "9f6f3192e04f80a9b2926825e3dfca878d0167d897e2055243901e2ec880d900",
+      "bytes": 191348
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0042.png",
+      "sha256": "236f61ac520e18ae0c02e780caa39de5069dd13e4ff7df02d50bc4533aa90ef0",
+      "bytes": 273383
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/0043.png",
+      "sha256": "f1002b809a18557a6609e8f3cd55d6f0d22ce2d2c1c6bbb1ef8936ae430b55b4",
+      "bytes": 151393
+    },
+    {
+      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/original.pdf",
+      "sha256": "fbfb184d53174606141c6f8e7fc7d25a395c472e89a910da4110203f8a693c84",
+      "bytes": 24628645
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/IQT1rJ/monitoring-kubernetes-follow-the-data"
+}

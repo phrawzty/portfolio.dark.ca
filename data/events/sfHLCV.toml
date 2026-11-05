@@ -1,0 +1,12 @@
+id = "ev_sfHLCV"
+title = "DevOpsDays Cape Town 2019"
+slug = "devopsdays-cape-town-2019"
+starts_on = "2019-09-05 08:00:00"
+ends_on = "2019-09-06 18:00:00"
+timezone = "Africa/Johannesburg"
+address = "Cape Town, South Africa"
+latitude = "-33.924869"
+longitude = "18.424055"
+country_code = "ZA"
+
+[blurb]

@@ -1,0 +1,12 @@
+id = "ev_KJ1r2h"
+title = "DevOpsDays Cape Town 2016"
+slug = "devopsdays-cape-town-2016"
+starts_on = "2016-11-07 08:00:00"
+ends_on = "2016-11-08 18:00:00"
+timezone = "Africa/Johannesburg"
+address = "Cape Town, South Africa"
+latitude = "-33.924869"
+longitude = "18.424055"
+country_code = "ZA"
+
+[blurb]

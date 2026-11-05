@@ -1,0 +1,9 @@
+id = "ev_Ha9h5a"
+title = "DevOps.com Webinar"
+slug = "devops-com-webinar"
+starts_on = "2021-05-06 08:00:00"
+ends_on = "2021-05-06 18:00:00"
+timezone = "GMT"
+address = "Virtual"
+
+[blurb]

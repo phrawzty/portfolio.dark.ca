@@ -1,0 +1,303 @@
+{
+  "id": "297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853",
+  "source_sha256": "971126a7c4ee746a55bc5f24d0ecc7b06ef2ad2793c060a4bbdd53ee6b64666e",
+  "provenance": "reconstructed",
+  "pdf": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/reconstructed.pdf",
+  "slides": [
+    {
+      "id": "DgnAKe",
+      "number": 1,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "DANIEL MAHER // DATADOG SERVERLESS, REVEALED!",
+      "title": "",
+      "original_description_html": "<p>DANIEL MAHER // DATADOG\nSERVERLESS, REVEALED!</p>\n"
+    },
+    {
+      "id": "q0VyD3",
+      "number": 2,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "OLD MEME IS OLD THERE IS NO CLOUD - IT’S JUST SOMEONE ELSE’S COMPUTER The Internet",
+      "title": "",
+      "original_description_html": "<p>OLD MEME IS OLD\nTHERE IS NO CLOUD - IT’S JUST SOMEONE ELSE’S COMPUTER The Internet</p>\n"
+    },
+    {
+      "id": "SKEm5S",
+      "number": 3,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "THERE IS NO SERVERLESS IT’S JUST FUNCTIONS AS A SERVICE",
+      "title": "",
+      "original_description_html": "<p>THERE IS NO SERVERLESS IT’S JUST FUNCTIONS AS A SERVICE</p>\n"
+    },
+    {
+      "id": "4dxZxr",
+      "number": 4,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "FaaS is NOT MAGIC",
+      "title": "",
+      "original_description_html": "<p>FaaS is NOT MAGIC</p>\n"
+    },
+    {
+      "id": "gxgNqG",
+      "number": 5,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "EVENT DRIVEN ARCHITECTURE",
+      "title": "",
+      "original_description_html": "<p>EVENT DRIVEN ARCHITECTURE</p>\n"
+    },
+    {
+      "id": "JHPBif",
+      "number": 6,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "STILL A THING RESOURCE UTILISATION",
+      "title": "",
+      "original_description_html": "<p>STILL A THING\nRESOURCE UTILISATION</p>\n"
+    },
+    {
+      "id": "vb7zb4",
+      "number": 7,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "XuqnTT",
+      "number": 8,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "AEZbLs",
+      "number": 9,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "BASICALLY THE SAME THING",
+      "title": "",
+      "original_description_html": "<p>BASICALLY THE SAME THING</p>\n"
+    },
+    {
+      "id": "mYIPEH",
+      "number": 10,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "Os1D6g",
+      "number": 11,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "1Bk0z5",
+      "number": 12,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "JAVASCRIPT JAVA, PYTHON, C# ET AL. AWS LINUX",
+      "title": "",
+      "original_description_html": "<p>JAVASCRIPT JAVA, PYTHON, C# ET AL. AWS LINUX</p>\n"
+    },
+    {
+      "id": "dVSorU",
+      "number": 13,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "JAVASCRIPT C#, F#, AND EVEN BASH IF YOU’RE READY TO YOLO",
+      "title": "",
+      "original_description_html": "<p>JAVASCRIPT\nC#, F#, AND EVEN BASH IF YOU’RE READY TO YOLO</p>\n"
+    },
+    {
+      "id": "FpBcjt",
+      "number": 14,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "JAVASCRIPT THAT’S IT.",
+      "title": "",
+      "original_description_html": "<p>JAVASCRIPT THAT’S IT.</p>\n"
+    },
+    {
+      "id": "s8uQcI",
+      "number": 15,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "JAVASCRIPT BUT ALSO DOCKER!",
+      "title": "",
+      "original_description_html": "<p>JAVASCRIPT BUT ALSO DOCKER!</p>\n"
+    },
+    {
+      "id": "USdEUh",
+      "number": 16,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "COMMODITY PRICING",
+      "title": "",
+      "original_description_html": "<p>COMMODITY PRICING</p>\n"
+    },
+    {
+      "id": "6mM2N6",
+      "number": 17,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "LANGUAGE SUPPORT PROVIDER ECOSYSTEM IN-HOUSE KNOWLEDGE",
+      "title": "",
+      "original_description_html": "<p>LANGUAGE SUPPORT PROVIDER ECOSYSTEM IN-HOUSE KNOWLEDGE</p>\n"
+    },
+    {
+      "id": "j64qFV",
+      "number": 18,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SERVERLESS THERE IS NO MAGIC",
+      "title": "",
+      "original_description_html": "<p>SERVERLESS\nTHERE IS NO MAGIC</p>\n"
+    },
+    {
+      "id": "LPne7u",
+      "number": 19,
+      "image": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "DANIEL MAHER // DATADOG SERVERLESS, REVEALED.",
+      "title": "",
+      "original_description_html": "<p>DANIEL MAHER // DATADOG\nSERVERLESS, REVEALED.</p>\n"
+    }
+  ],
+  "page_count": 19,
+  "files": [
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0001.png",
+      "sha256": "6e03a2cfa8b660e2d246ab9cfa9e7adafbe60320feba4b593ceb1ab25e25f538",
+      "bytes": 166126
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0002.png",
+      "sha256": "c3cea83b550f33dfc35d86dc437dd408c63d3229e274ef691c5d4f59be466956",
+      "bytes": 148279
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0003.png",
+      "sha256": "29e5be70a2fd694ce3dc1fb5ca33e5cab7e26c3ddc0818eb39829a6079a353e3",
+      "bytes": 182157
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0004.png",
+      "sha256": "6fc9bef128d8563cfebef31ded233e65f0cfec271646347ef6a0a7d8cb3107c9",
+      "bytes": 160641
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0005.jpg",
+      "sha256": "8f9e5d2f32a32180d76b5fa577f376bff1266dfb9b88693b406f449b543f9d80",
+      "bytes": 116727
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0006.png",
+      "sha256": "88bdb7eb50562751d4039791ffc6b46e00e459aa2a7884291d2f40491bed1b13",
+      "bytes": 117046
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0007.jpg",
+      "sha256": "0525fadf5b1fa4f4a5dd7fe838ca0223a2426c09910ab8df0796f3c802b036cc",
+      "bytes": 480639
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0008.jpg",
+      "sha256": "88f7b062c6aa0530b92301d67e90b3725f223a00e40ac3d9458b1de9a333d50b",
+      "bytes": 111898
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0009.jpg",
+      "sha256": "4d81b5bbd11fc6b03eb7c13bcce60968ab833b7a0fe2fe055b41f91206738b07",
+      "bytes": 218747
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0010.jpg",
+      "sha256": "de22ed08618243588b7b69b8446bc1f9b7ec89074df5c339a3f3be5064a76421",
+      "bytes": 176963
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0011.jpg",
+      "sha256": "338ad76e60796ed2365c72d56517b43709b42b8d7b9b037a9f317b5333fb358a",
+      "bytes": 421036
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0012.png",
+      "sha256": "56d1dae28f08ce2e2591fdb772f322f1e1939a553f938128dae42e0c1f9e2ff9",
+      "bytes": 307766
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0013.png",
+      "sha256": "5acb04f68f9abde66915c61a2942c293cfdb0ae206ae4d1e2995df5ad30e7217",
+      "bytes": 280728
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0014.jpg",
+      "sha256": "cd47c882f1a55b1412627b145833931b46568decdad1b9effdf82a43f24e4f5b",
+      "bytes": 81865
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0015.png",
+      "sha256": "52347e0e84de19b20ad310c36bc9f04b35912b236695782c725bf68e4728846f",
+      "bytes": 236415
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0016.jpg",
+      "sha256": "d5752571eba6ee64a0195a54873e8ba3d585be71297432101b0def1dc11686f6",
+      "bytes": 183388
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0017.jpg",
+      "sha256": "ba7ed6a468faf95ef90a2479b67a0e50b7fe5b5a3f146a4ae649b83064212aa8",
+      "bytes": 251029
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0018.png",
+      "sha256": "394dc2e89549fb24f4c40883f8ce2df191dcd6da0f89ff1a643c1a0b6ee4eba5",
+      "bytes": 133703
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/0019.png",
+      "sha256": "f9f75ccc6ea00ca8f3f4f0069019c8143aae9729fde5d8a805957045ae8a654c",
+      "bytes": 150785
+    },
+    {
+      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/reconstructed.pdf",
+      "sha256": "971126a7c4ee746a55bc5f24d0ecc7b06ef2ad2793c060a4bbdd53ee6b64666e",
+      "bytes": 3355741
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/HZ4wld/serverless-revealed"
+}

@@ -1,0 +1,12 @@
+id = "ev_EJSm2r"
+title = "Devops DDay"
+slug = "devops-dday"
+starts_on = "2018-11-15 08:00:00"
+ends_on = "2018-11-15 18:00:00"
+timezone = "GMT"
+address = "Marseille, France"
+latitude = "43.296482"
+longitude = "5.369780"
+country_code = "FR"
+
+[blurb]

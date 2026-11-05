@@ -1,0 +1,12 @@
+id = "ev_xqB8GA"
+title = "Infobip Shift"
+slug = "infobip-shift"
+starts_on = "2026-09-13 08:00:00"
+ends_on = "2026-09-15 18:00:00"
+timezone = "Europe/Zagreb"
+address = "Zadar, Croatia"
+latitude = "44.119371"
+longitude = "15.231365"
+country_code = "HR"
+
+[blurb]

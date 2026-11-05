@@ -1,0 +1,12 @@
+id = "ev_h3MFsd"
+title = "DevOpsDays Kiev"
+slug = "devopsdays-kiev"
+starts_on = "2019-05-17 08:00:00"
+ends_on = "2019-05-18 18:00:00"
+timezone = "Europe/Kiev"
+address = "Kyiv, Ukraine, 02000"
+latitude = "50.450100"
+longitude = "30.523400"
+country_code = "UA"
+
+[blurb]

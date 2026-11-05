@@ -1,0 +1,318 @@
+{
+  "id": "54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0",
+  "source_sha256": "99134a0a52cbdde7cffd9916d28e38820f6bcaa437ba13afe26c1507843879eb",
+  "provenance": "original",
+  "pdf": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/original.pdf",
+  "slides": [
+    {
+      "id": "59vlmZ",
+      "number": 1,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0001.png",
+      "width": 1600,
+      "height": 1132,
+      "text": "The Open Source Baggage That We Carry Daniel “phrawzty” Maher Recovering sysadmin Militantly open source https://speaking.dark.ca @phrawzty ✊! 1",
+      "title": "",
+      "original_description_html": "<p>The Open Source Baggage That We Carry Daniel “phrawzty” Maher Recovering sysadmin Militantly open source https://speaking.dark.ca @phrawzty</p>\n<h1>✊!</h1>\n<p>1</p>\n"
+    },
+    {
+      "id": "hTeZey",
+      "number": 2,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Open Source Culture • Transparency • Collaboration • Community • Meritocracy • Licensing @phrawzty 2",
+      "title": "",
+      "original_description_html": "<p>Open Source Culture • Transparency • Collaboration • Community • Meritocracy • Licensing\n@phrawzty\n2</p>\n"
+    },
+    {
+      "id": "JnNNXN",
+      "number": 3,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Let’s do it. Let’s get dramatic @phrawzty 3",
+      "title": "",
+      "original_description_html": "<p>Let’s do it.\nLet’s get\ndramatic @phrawzty\n3</p>\n"
+    },
+    {
+      "id": "w76BPm",
+      "number": 4,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Something is rotten in the state of Denmark OSS @phrawzty 4",
+      "title": "",
+      "original_description_html": "<p>Something is rotten in the state of Denmark OSS\n@phrawzty\n4</p>\n"
+    },
+    {
+      "id": "YQozIB",
+      "number": 5,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Transparency @phrawzty 5",
+      "title": "",
+      "original_description_html": "<p>Transparency\n@phrawzty\n5</p>\n"
+    },
+    {
+      "id": "AkXnAa",
+      "number": 6,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Collaboration @phrawzty 6",
+      "title": "",
+      "original_description_html": "<p>Collaboration\n@phrawzty\n6</p>\n"
+    },
+    {
+      "id": "n4Gb2z",
+      "number": 7,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Community @phrawzty 7",
+      "title": "",
+      "original_description_html": "<p>Community\n@phrawzty\n7</p>\n"
+    },
+    {
+      "id": "PNzOvO",
+      "number": 8,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Meritocracy @phrawzty 8",
+      "title": "",
+      "original_description_html": "<p>Meritocracy\n@phrawzty\n8</p>\n"
+    },
+    {
+      "id": "1hiCnn",
+      "number": 9,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Licensing @phrawzty 9",
+      "title": "",
+      "original_description_html": "<p>Licensing\n@phrawzty\n9</p>\n"
+    },
+    {
+      "id": "e1R0gC",
+      "number": 10,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Act I, Scene IV (more or less) @phrawzty 10",
+      "title": "",
+      "original_description_html": "<p>Act I, Scene IV (more or less)\n@phrawzty\n10</p>\n"
+    },
+    {
+      "id": "GL9oYb",
+      "number": 11,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Code is personal @phrawzty 11",
+      "title": "",
+      "original_description_html": "<p>Code is personal\n@phrawzty\n11</p>\n"
+    },
+    {
+      "id": "sescR0",
+      "number": 12,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Code is life @phrawzty 12",
+      "title": "",
+      "original_description_html": "<p>Code is life\n@phrawzty\n12</p>\n"
+    },
+    {
+      "id": "UybQJP",
+      "number": 13,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Maybe not super healthy, actually? @phrawzty 13",
+      "title": "",
+      "original_description_html": "<p>Maybe not super healthy, actually? @phrawzty\n13</p>\n"
+    },
+    {
+      "id": "7IKEBo",
+      "number": 14,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Healthy detachment @phrawzty 14",
+      "title": "",
+      "original_description_html": "<p>Healthy detachment\n@phrawzty\n14</p>\n"
+    },
+    {
+      "id": "jc324D",
+      "number": 15,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Document everything @phrawzty 15",
+      "title": "",
+      "original_description_html": "<p>Document everything @phrawzty\n15</p>\n"
+    },
+    {
+      "id": "Lvlpwc",
+      "number": 16,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Automate @phrawzty 16",
+      "title": "",
+      "original_description_html": "<p>Automate\n@phrawzty\n16</p>\n"
+    },
+    {
+      "id": "yFUdp1",
+      "number": 17,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Identify and nurture leaders @phrawzty 17",
+      "title": "",
+      "original_description_html": "<p>Identify and nurture leaders @phrawzty\n17</p>\n"
+    },
+    {
+      "id": "aZDRhQ",
+      "number": 18,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Establish a succession plan @phrawzty 18",
+      "title": "",
+      "original_description_html": "<p>Establish a succession plan @phrawzty\n18</p>\n"
+    },
+    {
+      "id": "CswFZp",
+      "number": 19,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Set clear boundaries @phrawzty 19",
+      "title": "",
+      "original_description_html": "<p>Set clear boundaries\n@phrawzty\n19</p>\n"
+    },
+    {
+      "id": "pCf3SE",
+      "number": 20,
+      "image": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Take breaks (scheduled or not) @phrawzty 20",
+      "title": "",
+      "original_description_html": "<p>Take breaks (scheduled or not)\n@phrawzty\n20</p>\n"
+    }
+  ],
+  "page_count": 20,
+  "files": [
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0001.png",
+      "sha256": "ace2e3708bd29178f79cee8610dfaaf088d5ea174126c8e4a179004bb4fc4e3c",
+      "bytes": 176641
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0002.png",
+      "sha256": "a793a12e552d703a67a02a1438ed38aca2e85b045e8d573df3128f5c8e44d4d3",
+      "bytes": 167718
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0003.png",
+      "sha256": "9d165742d6b4ea0b282b4bfbde75dcc9330b77862f20b0fa34908ba8ea4a44dc",
+      "bytes": 92311
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0004.png",
+      "sha256": "3322091f07878db8571173268c262bd55da3115ed6ef5e63285471194d5c8a22",
+      "bytes": 142387
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0005.png",
+      "sha256": "933a858bb66b80f8982bbd6d2301724c735ae996a9c439bb00d5a68145992e8e",
+      "bytes": 64771
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0006.png",
+      "sha256": "25d3bdb1e680e6dc669cad7d16e8f05b5e726a12533bd8413c5f21cd4ea59e9c",
+      "bytes": 68740
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0007.png",
+      "sha256": "e381eb4bb45b38e12667cc0129e465bafb14149ab850e63889ead4754551196e",
+      "bytes": 56406
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0008.png",
+      "sha256": "f053a8fef280c39f6a4a66233588ad4de04a1676065968e82643ab1a7b485544",
+      "bytes": 68036
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0009.png",
+      "sha256": "0654c70ea02eadb83cb3579e5fd417099855755d845423e8bc4919cd562d506e",
+      "bytes": 53619
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0010.png",
+      "sha256": "c7de8afb5670067ed9bb309cf12719c9adae512b6750eb45a893484d4575cb2d",
+      "bytes": 97861
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0011.png",
+      "sha256": "8afc84eabe5a0c63f681e34548d5ca7a945f431e535d6e898ec865326cc08a8d",
+      "bytes": 81115
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0012.png",
+      "sha256": "456e1aec5a5cbab7c545d6fe0da319604076d6f531adccfe1b0769e42bad5c98",
+      "bytes": 64701
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0013.png",
+      "sha256": "21e763a94d499704b29ed47df7482d15f242cce2db430117369ee0871b3e70fd",
+      "bytes": 123872
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0014.png",
+      "sha256": "acc566bbb35867a9729d303390e1ff94901aa8c640eb4557f7716142a2d959cd",
+      "bytes": 79066
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0015.png",
+      "sha256": "0b1fea947441d336f9117f7591128cc0d1030e193f91a28dee1cf92bf752bd93",
+      "bytes": 101372
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0016.png",
+      "sha256": "67a0dd6ea696869f75fc6a270a2aded4654916f541459adc4720f24166aceea9",
+      "bytes": 52661
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0017.png",
+      "sha256": "a48b110241fbb967f48435ff10f22c5676a7ac9f4cb6b5d45c7177718125a029",
+      "bytes": 100031
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0018.png",
+      "sha256": "fb9b22133f8b292d30be2cadd7c5dde94ab7cd9fc51e18ed4eb406cb8e7b3725",
+      "bytes": 109512
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0019.png",
+      "sha256": "0539b2e125401ccec5e39ec692d16d05c5c7e8388b000c1a0961bb896a1043c8",
+      "bytes": 91440
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/0020.png",
+      "sha256": "f6dfbade13bf9127e12a11622085632e172356b4225ad3cb030df168d878500f",
+      "bytes": 99795
+    },
+    {
+      "path": "decks/54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0/original.pdf",
+      "sha256": "99134a0a52cbdde7cffd9916d28e38820f6bcaa437ba13afe26c1507843879eb",
+      "bytes": 276547
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/2z1MmO/the-slings-and-arrows-of-open-source"
+}

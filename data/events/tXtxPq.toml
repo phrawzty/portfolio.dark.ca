@@ -1,0 +1,12 @@
+id = "ev_tXtxPq"
+title = "Snowfroc (OWASP Denver)"
+slug = "snowfroc-owasp-denver"
+starts_on = "2025-03-14 08:00:00"
+ends_on = "2025-03-14 18:00:00"
+timezone = "America/Denver"
+address = "Denver, CO, USA"
+latitude = "39.739236"
+longitude = "-104.990251"
+country_code = "US"
+
+[blurb]

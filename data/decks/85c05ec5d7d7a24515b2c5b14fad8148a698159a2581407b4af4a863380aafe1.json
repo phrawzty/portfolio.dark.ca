@@ -1,0 +1,678 @@
+{
+  "id": "85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1",
+  "source_sha256": "68ed652fc1ea940f0ec1cbc82d8b6122c6a3fbd780788d36749be511a102361c",
+  "provenance": "original",
+  "pdf": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/original.pdf",
+  "slides": [
+    {
+      "id": "xsE2ZB",
+      "number": 1,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Debugging in the Cloud with Datadog and HashiCorp",
+      "title": "",
+      "original_description_html": "<p>Debugging in the Cloud with Datadog and HashiCorp</p>\n"
+    },
+    {
+      "id": "aBwqRa",
+      "number": 2,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Taylor Dolezal Daniel Maher Developer Advocate HashiCorp @onlydole Developer Advocate Datadog @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Taylor Dolezal\nDaniel Maher\nDeveloper Advocate HashiCorp @onlydole\nDeveloper Advocate Datadog @phrawzty</p>\n"
+    },
+    {
+      "id": "CVfeJz",
+      "number": 3,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Agenda What is infrastructure as code? Understanding observability Live demo",
+      "title": "",
+      "original_description_html": "<h2>Agenda</h2>\n<h2>What is infrastructure as code?</h2>\n<h2>Understanding observability</h2>\n<p>Live demo</p>\n"
+    },
+    {
+      "id": "opOSCO",
+      "number": 4,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure as Code",
+      "title": "",
+      "original_description_html": "<p>Infrastructure as Code</p>\n"
+    },
+    {
+      "id": "R97G4n",
+      "number": 5,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure as Code",
+      "title": "",
+      "original_description_html": "<p>Infrastructure as Code</p>\n"
+    },
+    {
+      "id": "3Sq3xC",
+      "number": 6,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure as Code",
+      "title": "",
+      "original_description_html": "<p>Infrastructure as Code</p>\n"
+    },
+    {
+      "id": "fmYrpb",
+      "number": 7,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure as Code ▪ executable documentation",
+      "title": "",
+      "original_description_html": "<p>Infrastructure as Code\n▪ executable documentation</p>\n"
+    },
+    {
+      "id": "I6Hfi0",
+      "number": 8,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration",
+      "title": "",
+      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration</p>\n"
+    },
+    {
+      "id": "uQ0TaP",
+      "number": 9,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration ▪ safe and predictable",
+      "title": "",
+      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration ▪ safe and predictable</p>\n"
+    },
+    {
+      "id": "WjjHSo",
+      "number": 10,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration ▪ safe and predictable",
+      "title": "",
+      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration ▪ safe and predictable</p>\n"
+    },
+    {
+      "id": "93S5LD",
+      "number": 11,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "HashiCorp Configuration Language",
+      "title": "",
+      "original_description_html": "<p>HashiCorp Configuration Language</p>\n"
+    },
+    {
+      "id": "lNAtDc",
+      "number": 12,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "HashiCorp Configuration Language",
+      "title": "",
+      "original_description_html": "<p>HashiCorp Configuration Language</p>\n"
+    },
+    {
+      "id": "Ngth61",
+      "number": 13,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "00cUyQ",
+      "number": 14,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "cKLIqp",
+      "number": 15,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR HashiCorp Configuration Language",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language</p>\n"
+    },
+    {
+      "id": "Ee46jE",
+      "number": 16,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR HashiCorp Configuration Language service { key = “value” }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language\nservice { key = “value” }</p>\n"
+    },
+    {
+      "id": "qxmubd",
+      "number": 17,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR HashiCorp Configuration Language service { key = “value” }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language\nservice { key = “value” }</p>\n"
+    },
+    {
+      "id": "THViU2",
+      "number": 18,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR HashiCorp Configuration Language",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language</p>\n"
+    },
+    {
+      "id": "5bEWMR",
+      "number": 19,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\n}</p>\n"
+    },
+    {
+      "id": "huxKEq",
+      "number": 20,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\n}</p>\n"
+    },
+    {
+      "id": "KEg87F",
+      "number": 21,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language listen_addr = “127.0.0.1:8080” }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\nlisten_addr = “127.0.0.1:8080”\n}</p>\n"
+    },
+    {
+      "id": "wYOvze",
+      "number": 22,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+    },
+    {
+      "id": "Ys7js3",
+      "number": 23,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+    },
+    {
+      "id": "BBqXkS",
+      "number": 24,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+    },
+    {
+      "id": "nVZLcr",
+      "number": 25,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0025.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+    },
+    {
+      "id": "PpI9VG",
+      "number": 26,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+    },
+    {
+      "id": "290xNf",
+      "number": 27,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0027.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { }",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” {\n}</p>\n"
+    },
+    {
+      "id": "eSjlG4",
+      "number": 28,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "GmSZ8T",
+      "number": 29,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0029.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "t6BN0s",
+      "number": 30,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "VPuAtH",
+      "number": 31,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "7jcylg",
+      "number": 32,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "k3Lme5",
+      "number": 33,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:${var.port}” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:${var.port}”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "MN4aWU",
+      "number": 34,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0034.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:${var.port}” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
+      "title": "",
+      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:${var.port}”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+    },
+    {
+      "id": "ygnOOt",
+      "number": 35,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0035.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Understanding observability",
+      "title": "",
+      "original_description_html": "<p>Understanding observability</p>\n"
+    },
+    {
+      "id": "b0WCHI",
+      "number": 36,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0036.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "DKF09h",
+      "number": 37,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0037.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "pdxo26",
+      "number": 38,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0038.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "One platform with seamlessly integrated, smart tooling Try a free trial at datadoghq.com",
+      "title": "",
+      "original_description_html": "<p>One platform with seamlessly integrated, smart tooling\nTry a free trial at datadoghq.com</p>\n"
+    },
+    {
+      "id": "RxgbuV",
+      "number": 39,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0039.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "How do Datadog & Terraform integrate?",
+      "title": "",
+      "original_description_html": "<p>How do Datadog &amp; Terraform integrate?</p>\n"
+    },
+    {
+      "id": "4HPPmu",
+      "number": 40,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0040.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog Provider for Terraform",
+      "title": "",
+      "original_description_html": "<p>Datadog Provider for Terraform</p>\n"
+    },
+    {
+      "id": "gb8DfJ",
+      "number": 41,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0041.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Demo",
+      "title": "",
+      "original_description_html": "<p>Demo</p>\n"
+    },
+    {
+      "id": "Iur1Xi",
+      "number": 42,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0042.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Sign up for Datadog datadoghq.com/free-datadog-trial/ Resources Sign up for Terraform Cloud app.terraform.io/signup/account Datadog Provider for Terraform terraform.io/docs/providers/datadog/ Demo: StoreDog Application github.com/datadog/ecommerce-workshop Demo: Debugging the Cloud https://github.com/onlydole/debugging-the-cloud © 2019 HashiCorp 42",
+      "title": "",
+      "original_description_html": "<p>Sign up for Datadog datadoghq.com/free-datadog-trial/\nResources\nSign up for Terraform Cloud app.terraform.io/signup/account\nDatadog Provider for Terraform terraform.io/docs/providers/datadog/\nDemo: StoreDog Application github.com/datadog/ecommerce-workshop\nDemo: Debugging the Cloud https://github.com/onlydole/debugging-the-cloud\n© 2019 HashiCorp\n42</p>\n"
+    },
+    {
+      "id": "vEZpQ7",
+      "number": 43,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0043.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Q&A",
+      "title": "",
+      "original_description_html": "<p>Q&amp;A</p>\n"
+    },
+    {
+      "id": "XYIdIW",
+      "number": 44,
+      "image": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0044.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank You 44",
+      "title": "",
+      "original_description_html": "<p>Thank You\n44</p>\n"
+    }
+  ],
+  "page_count": 44,
+  "files": [
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0001.jpg",
+      "sha256": "0673ba0238403fd8f1a38b021f46f10063d1c27ebfb5e06dd86eb89854166f0e",
+      "bytes": 216708
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0002.jpg",
+      "sha256": "3c4d51c885fb193a5f99188281af297d5cfd36a44311562c90515583ccd107fd",
+      "bytes": 153496
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0003.jpg",
+      "sha256": "9afdb101406307350546c996dbd9ef9bd27e0655495f430bcb8cebe57b0f9e85",
+      "bytes": 69166
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0004.jpg",
+      "sha256": "ba8bbd29de0e6d6ffef34a5adf85d9aa825003b72cd34ec629b771303034288e",
+      "bytes": 183263
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0005.png",
+      "sha256": "3254ce2c2175daf15d5e0e16cfa1eac24249d8b39384dd6a71eeda715c10537c",
+      "bytes": 44954
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0006.png",
+      "sha256": "a5cd142f901587507e813f0e5d21b599590c14b889bd693e64ebad009effc81e",
+      "bytes": 44954
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0007.jpg",
+      "sha256": "8f6b195f35f97e9ced98277534252bef6a74a5712f3c3e647f59b3f59a9d6298",
+      "bytes": 64102
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0008.jpg",
+      "sha256": "d634cebc582a0f3fd9c1f2eee4fe22cc2c68c90043bd7af78a004c10d10c060c",
+      "bytes": 68397
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0009.jpg",
+      "sha256": "66a25a2fa51b1406bb7d1114c5377badf8e7e3200b9a24774cb85186ceb672c4",
+      "bytes": 73133
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0010.png",
+      "sha256": "bb9c117fae56805ffd1f1d04a575282eb683bce00e215c778f4d2cd40b9b75df",
+      "bytes": 197350
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0011.jpg",
+      "sha256": "f18992fce4cb5ed1d50cc0b7f3a68d05c361d9d31cd6581ceeb1dd2ed1fa61fb",
+      "bytes": 142093
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0012.png",
+      "sha256": "9f876c955fe465425dad9da74d39e19c4860a63eac54d6b5b393927231731044",
+      "bytes": 52301
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0013.jpg",
+      "sha256": "cf2874234d2d96c4feaf8b7559d39d519f239b2009f820494621296fc42512d1",
+      "bytes": 196114
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0014.jpg",
+      "sha256": "428cda5037e57d341c5d68b57b3d26c4af6941a2cf5301b821a0788ccb1a718d",
+      "bytes": 154942
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0015.jpg",
+      "sha256": "b0f9fc319df0566ecd84e875ca7901a6244777efb209d065115d97575bf207d3",
+      "bytes": 75226
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0016.jpg",
+      "sha256": "3f89aaf3feb50b4f27f1e5b3df5c1982be81c33b3681f2ae30584762c3a7fcb0",
+      "bytes": 81327
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0017.jpg",
+      "sha256": "b4e381fe44674517718791fbf20e229f08115e4551eb73782a524ccd746d9927",
+      "bytes": 87400
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0018.jpg",
+      "sha256": "b0f9fc319df0566ecd84e875ca7901a6244777efb209d065115d97575bf207d3",
+      "bytes": 75226
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0019.jpg",
+      "sha256": "198c4e789aaf3dda78fa74139a1bfefa5f0c30595941276a9b217a125ed8c518",
+      "bytes": 84051
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0020.jpg",
+      "sha256": "b0c3b3474702826a0b46bea9fba0138ad9ba36cfb37936ea83209a110e3ed9f2",
+      "bytes": 91096
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0021.jpg",
+      "sha256": "767af33cea33cf53de3aecaf573b0dfb49246ce4d4897a9ee28a16722e06965c",
+      "bytes": 99875
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0022.jpg",
+      "sha256": "767a799440745778d64ee51babd97203785b8ad3ba3ec10cf05bb28afa770c2c",
+      "bytes": 106119
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0023.jpg",
+      "sha256": "2a469c154a6c9aee4f368b9aa13b4830008a06b7b35a35cff3a862ad2cdd60b0",
+      "bytes": 119302
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0024.jpg",
+      "sha256": "a5e6f33f17e0f93476983f67b07ed56e2acceac26db2d56565f7c19e4691255b",
+      "bytes": 114272
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0025.jpg",
+      "sha256": "767a799440745778d64ee51babd97203785b8ad3ba3ec10cf05bb28afa770c2c",
+      "bytes": 106119
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0026.jpg",
+      "sha256": "767a799440745778d64ee51babd97203785b8ad3ba3ec10cf05bb28afa770c2c",
+      "bytes": 106119
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0027.jpg",
+      "sha256": "e3a099a8fc29f8be89d97b71ebda400ffcd2383c7914342ef289ff9888a1a367",
+      "bytes": 110762
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0028.jpg",
+      "sha256": "65885472ea862669df3b71bc29435b5b8f1a9928b01e1c8db371230dd031a0ce",
+      "bytes": 129169
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0029.jpg",
+      "sha256": "75316cf514c84f9d38315ef133ae3d6459471eb20e75dc218d5c16c549ef5df0",
+      "bytes": 129428
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0030.jpg",
+      "sha256": "4ae20379c1476f6b5c9caf13b088997329a0087ebc9e57acfbffd92a237d1da2",
+      "bytes": 132438
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0031.jpg",
+      "sha256": "98f6c0c018ecbc6c5e63fab5052f31080c291b4f6765f5350eea7859b406efbd",
+      "bytes": 123490
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0032.jpg",
+      "sha256": "589b919a8088cfa1c0789cd3fd739377f4d2ba36e7d47097933e9e1433456031",
+      "bytes": 133621
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0033.jpg",
+      "sha256": "102796745bdad18e746d1b244f4b077cfd6074ea1218516c7abb6cc83ac70809",
+      "bytes": 133186
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0034.jpg",
+      "sha256": "c844a8cf34e348b2c37c7faa549623eb540373098d1b91d474c30c37670c755a",
+      "bytes": 139000
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0035.jpg",
+      "sha256": "905fdd3948f9947de14f6a5204434f654df52911223b2087fcec30f68a57fc5e",
+      "bytes": 327897
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0036.jpg",
+      "sha256": "9f012515d2d33cd23353afd021388d92427d887a5428da5b7f3338a5b765b5a5",
+      "bytes": 265769
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0037.jpg",
+      "sha256": "8795355e86b379751876cd57c7b598c04d8547a632f2caf80f1cc4285855f56b",
+      "bytes": 239802
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0038.jpg",
+      "sha256": "ca122a174f14a57e8aa63b1f8187afc24429ca8fb6e79b21850021d3caacdaec",
+      "bytes": 202075
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0039.jpg",
+      "sha256": "a4a3c1d346d4c13aa80ef27e1e9ae5f84f0de4d408e4788a08cdeebd1e84884a",
+      "bytes": 335246
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0040.jpg",
+      "sha256": "e2816c8329ba20b428461cc80264895c1526a5f32e9068d3dc01aa2680c97871",
+      "bytes": 126224
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0041.jpg",
+      "sha256": "d240afc16638e9f0433accb635f892ad9de35c53f29123ebb898a4cacac47403",
+      "bytes": 316340
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0042.png",
+      "sha256": "568f0ffbaa7ef76704c3cfc8659c29597b128fadd64302321d4ea4555c9f372f",
+      "bytes": 380353
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0043.jpg",
+      "sha256": "093fa613ab2e6ff6608ad75fbcd378f2acaf098459ee956ff9769ee6d6e099cf",
+      "bytes": 316628
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/0044.jpg",
+      "sha256": "3a65829e7cf23037dce1065809dd8a1d056fd7cef300d4b9970c2c6dc32f376b",
+      "bytes": 162289
+    },
+    {
+      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/original.pdf",
+      "sha256": "68ed652fc1ea940f0ec1cbc82d8b6122c6a3fbd780788d36749be511a102361c",
+      "bytes": 4530149
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/FE566O/debugging-in-the-cloud-with-datadog-and-hashicorp"
+}

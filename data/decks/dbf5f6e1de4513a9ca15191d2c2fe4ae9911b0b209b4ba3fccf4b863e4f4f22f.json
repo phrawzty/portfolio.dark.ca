@@ -1,0 +1,318 @@
+{
+  "id": "dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f",
+  "source_sha256": "9d608ed6da352229287b3a8d94e4e68b081b0ad3c79d2ada567cdc2087d0a3aa",
+  "provenance": "original",
+  "pdf": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/original.pdf",
+  "slides": [
+    {
+      "id": "haaPzo",
+      "number": 1,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "JuJDsD",
+      "number": 2,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Tokyo Drift Containers : Immuabilité au service de la sécurité Cloud Native Speaker : Daniel Maher // Datadog // @phrawzty 2",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nTokyo Drift Containers : Immuabilité au service de la sécurité Cloud Native Speaker : Daniel Maher // Datadog // @phrawzty\n2</p>\n"
+    },
+    {
+      "id": "wE21kc",
+      "number": 3,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Maîtriser la dérive des conteneurs Les mythes et la réalité Techniques de détection Stratégies de remédiation ● ● ● 3",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nMaîtriser la dérive des conteneurs Les mythes et la réalité Techniques de détection Stratégies de remédiation\n● ● ●\n3</p>\n"
+    },
+    {
+      "id": "YXkpd1",
+      "number": 4,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Qui suis-je ? Daniel “phrawzty” Maher Senior Security Advocate chez Datadog Trajet : Admin Sys → DevOps Engineer → Analyste en Sécurité ● ● ● 4",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nQui suis-je ? Daniel “phrawzty” Maher Senior Security Advocate chez Datadog Trajet : Admin Sys → DevOps Engineer → Analyste en Sécurité\n● ● ●\n4</p>\n"
+    },
+    {
+      "id": "ArTdVQ",
+      "number": 5,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Le Contrat Cloud Native Immuabilité : L’artefact est scellé au build Reproductibilité : De la CI au Cluster, rien ne bouge Prédictibilité : On sait exactement ce qui tourne ● ● ● 5",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nLe Contrat Cloud Native Immuabilité : L’artefact est scellé au build Reproductibilité : De la CI au Cluster, rien ne bouge Prédictibilité : On sait exactement ce qui tourne\n● ● ●\n5</p>\n"
+    },
+    {
+      "id": "nBCRNp",
+      "number": 6,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR La Réalité : Drift Happens kubectl exec : Le pêché originel du debug Les sidecars qui modifient le réseau ou le FS Les scripts d’entrypoint qui font des pip install ou apt upgrade Résultat : Votre conteneur en prod est un snowflake ● ● ● ● 6",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nLa Réalité : Drift Happens kubectl exec : Le pêché originel du debug Les sidecars qui modifient le réseau ou le FS Les scripts d’entrypoint qui font des pip install ou apt upgrade Résultat : Votre conteneur en prod est un snowflake\n● ● ● ●\n6</p>\n"
+    },
+    {
+      "id": "PUvFGE",
+      "number": 7,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Anatomie d’une dérive : la Kill Chain Recon : Scan de vulnérabilité (e.g. Log4Shell) Exploit : Injection de code en mémoire Mutation : Téléchargement d’un binaire dans /tmp Persistance : Modification d’un script pour rester là ● ● ● ● 7",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nAnatomie d’une dérive : la Kill Chain Recon : Scan de vulnérabilité (e.g. Log4Shell) Exploit : Injection de code en mémoire Mutation : Téléchargement d’un binaire dans /tmp Persistance : Modification d’un script pour rester là\n● ● ● ●\n7</p>\n"
+    },
+    {
+      "id": "1oe38d",
+      "number": 8,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Shift Left : Forger l’immuabilité Réduire la surface d’attaque Supprimer les outils de mutation Rendre le conteneur “stupide” et focalisé ● ● ● 8",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR</p>\n<ol>\n<li>Shift Left : Forger l’immuabilité Réduire la surface d’attaque Supprimer les outils de mutation Rendre le conteneur “stupide” et focalisé\n● ● ●\n8</li>\n</ol>\n"
+    },
+    {
+      "id": "e8Mr12",
+      "number": 9,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR L’approche “Distroless” Pas de gestionnaire de paquets (apt, apk, etc.) Pas de Shell (bash, zsh, etc.) Uniquement le runtime (Go, Node, JRE, etc. selon le besoin) et l’application elle-même ● ● ● 9",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nL’approche “Distroless” Pas de gestionnaire de paquets (apt, apk, etc.) Pas de Shell (bash, zsh, etc.) Uniquement le runtime (Go, Node, JRE, etc. selon le besoin) et l’application elle-même\n● ● ●\n9</p>\n"
+    },
+    {
+      "id": "GS5etR",
+      "number": 10,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Visibilité & SBOM 10",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nVisibilité &amp; SBOM\n10</p>\n"
+    },
+    {
+      "id": "sloSlq",
+      "number": 11,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR 2. Le Runtime : Le moment de vérité Kubernetes est-il une passoire ? Les limites des outils traditionnels Pourquoi l’observabilité doit être kernel-level ● ● ● 11",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\n2. Le Runtime : Le moment de vérité Kubernetes est-il une passoire ? Les limites des outils traditionnels Pourquoi l’observabilité doit être kernel-level\n● ● ●\n11</p>\n"
+    },
+    {
+      "id": "V5XGeF",
+      "number": 12,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Protection Native Kubernetes securityContext: readOnlyRootFilesystem: true runAsNonRoot: true allowPrivilegeEscalation: false 12",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nProtection Native Kubernetes securityContext: readOnlyRootFilesystem: true runAsNonRoot: true allowPrivilegeEscalation: false\n12</p>\n"
+    },
+    {
+      "id": "7PG4We",
+      "number": 13,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Pourquoi l’eBPF change la donne Logs ? Faciles à effacer ou à bypasser, souvent cryptique Sidecars ? Lourds, ne voient pas tout eBPF ! Directement dans le noyau, faible latence, visibilité absolue sur les syscalls 👍 ● ● ● 13",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nPourquoi l’eBPF change la donne Logs ? Faciles à effacer ou à bypasser, souvent cryptique Sidecars ? Lourds, ne voient pas tout eBPF ! Directement dans le noyau, faible latence, visibilité absolue sur les syscalls 👍\n● ● ●\n13</p>\n"
+    },
+    {
+      "id": "jiysP3",
+      "number": 14,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Détecter la dérive en temps réel 14",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nDétecter la dérive en temps réel\n14</p>\n"
+    },
+    {
+      "id": "M2hgHS",
+      "number": 15,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Processus inattendu 15",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nProcessus inattendu\n15</p>\n"
+    },
+    {
+      "id": "yMQU9r",
+      "number": 16,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR 3. Réponse sur Incident : “Cattle, not Pets” On ne patche pas un conteneur en prod On ne “nettoie” pas une dérive On termine et on remplace 👍 ● ● ● 16",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\n3. Réponse sur Incident : “Cattle, not Pets” On ne patche pas un conteneur en prod On ne “nettoie” pas une dérive On termine et on remplace 👍\n● ● ●\n16</p>\n"
+    },
+    {
+      "id": "ag9I2G",
+      "number": 17,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Rollback immuable Isolation : Couper le réseau du pod déviant Snapshot : Garder une trace pour l’analyse Termination : kubectl delete pod Fix : Mettre à jour l’image à la source (Dockerfile) ● ● ● ● 17",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nRollback immuable Isolation : Couper le réseau du pod déviant Snapshot : Garder une trace pour l’analyse Termination : kubectl delete pod Fix : Mettre à jour l’image à la source (Dockerfile)\n● ● ● ●\n17</p>\n"
+    },
+    {
+      "id": "Czs5uf",
+      "number": 18,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Le cycle de vie complet 18",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nLe cycle de vie complet\n18</p>\n"
+    },
+    {
+      "id": "pJatn4",
+      "number": 19,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Conclusion La dérive est inévitable sans mécanismes de contrôle Le Shift Left simplifie le runtime. Le Runtime Observability (eBPF) est votre source de vérité. Ne réparez jamais : remplacez ! ● ● ● ● 19",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nConclusion La dérive est inévitable sans mécanismes de contrôle Le Shift Left simplifie le runtime. Le Runtime Observability (eBPF) est votre source de vérité. Ne réparez jamais : remplacez !\n● ● ● ●\n19</p>\n"
+    },
+    {
+      "id": "RdJhfT",
+      "number": 20,
+      "image": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "#CloudNativeDaysFR Avis : 20",
+      "title": "",
+      "original_description_html": "<p>#CloudNativeDaysFR\nAvis :\n20</p>\n"
+    }
+  ],
+  "page_count": 20,
+  "files": [
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0001.jpg",
+      "sha256": "666da90d0b80e17c2ce284142567bf5168f82b143928ce1b5fe1ce9ba5789de8",
+      "bytes": 180220
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0002.jpg",
+      "sha256": "7387a231d9feadc433470cfff1d00e6f8d66c1d89623ff2d8b733605259f1951",
+      "bytes": 128230
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0003.png",
+      "sha256": "044e9df53e13ccae68a78d609b3f29ae1f3ec786d1af750ddfb7e1b96512cf03",
+      "bytes": 207685
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0004.png",
+      "sha256": "e07598736d082e1428d48eadd31a307f9ab7615cc9f1a68c102e14a7945b0e70",
+      "bytes": 219995
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0005.png",
+      "sha256": "4b067428c4b5fbd06c847c847d15f94a606a1a3bb53c0e23800fe7f4d7a47a94",
+      "bytes": 232597
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0006.png",
+      "sha256": "bc765d4e23aa6b66fca91fd68f6619cff1ada0f477f6fe4685f059843de6121d",
+      "bytes": 313173
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0007.png",
+      "sha256": "acbd671c7c73a1a34f3ada4a98d733c0bb830103c71114f472c3fa44ef40ff9b",
+      "bytes": 314501
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0008.png",
+      "sha256": "ae3a6c18bc3ad96e571794564a59b2fdb706fc6c8f01f56b541e20dbb3dc4cfc",
+      "bytes": 220575
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0009.png",
+      "sha256": "8129897fa340f69d07c72e3a4f750988a3b9412980b6715bbfbef76e94f846b7",
+      "bytes": 262807
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0010.jpg",
+      "sha256": "7755a19b208d5e1e6e0a796c389329b1ed39af20daf63a942d8b70060215c92b",
+      "bytes": 109005
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0011.png",
+      "sha256": "eb2fd779c0526817a598bb1ecef89387a7717487adaf0bdfd3057569b8ec5601",
+      "bytes": 226204
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0012.png",
+      "sha256": "eb528c25e4174113e665cc105593090a12604baad1d25f224137beb06a0b2faa",
+      "bytes": 244126
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0013.png",
+      "sha256": "54541172045d41b4763ce4a1f3521d5c1c3673b41ad46e598016e27ad7906b77",
+      "bytes": 285549
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0014.jpg",
+      "sha256": "de3dc8d968c6d1486f7a016e425b84cbdb933066ebf9c010c92f51384636dcf4",
+      "bytes": 160201
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0015.jpg",
+      "sha256": "cf1cff054d35c68d50998e1a11d60997e0f2a3cdd31ca56b674832675d2d2c1a",
+      "bytes": 228463
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0016.png",
+      "sha256": "0a6f5077b5aa700f5ab5a21319707c17411f4a9a4b0b42def6a47a6229f44e77",
+      "bytes": 241139
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0017.png",
+      "sha256": "be43488a7f7041e35a204993e73e50f9fa4f188d78f7a284584bc5ab54886afb",
+      "bytes": 265100
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0018.jpg",
+      "sha256": "4cc8d87dcf5c893b64f15a1f5b45b40221b126bd4ec34e57f2d58636e5be8f18",
+      "bytes": 150068
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0019.png",
+      "sha256": "d78e9605e969a9f6d13f015d1b8316be74fade5d7c57a8cb7fd862a1e143056d",
+      "bytes": 244538
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/0020.jpg",
+      "sha256": "d85a00996cd4183bd240cbe5c2366db8ec149a5549aff9e13a6b7c6b31d2ab89",
+      "bytes": 118375
+    },
+    {
+      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/original.pdf",
+      "sha256": "9d608ed6da352229287b3a8d94e4e68b081b0ad3c79d2ada567cdc2087d0a3aa",
+      "bytes": 1090109
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/4F6mZi/tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native"
+}

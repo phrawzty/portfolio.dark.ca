@@ -1,0 +1,20 @@
+{
+  "id": "speaker",
+  "files": [
+    {
+      "path": "speaker/259d8b2b7454fc4bc8b53914b2c91ee7760267aae6f7be29bbca114fc4af36f0/headshot.jpg",
+      "sha256": "259d8b2b7454fc4bc8b53914b2c91ee7760267aae6f7be29bbca114fc4af36f0",
+      "bytes": 617928
+    },
+    {
+      "path": "speaker/2ebbe6b1b7a636936dccedff99b1df958cb11714cefcd537ce965a80b3a23f17/headshot.jpg",
+      "sha256": "2ebbe6b1b7a636936dccedff99b1df958cb11714cefcd537ce965a80b3a23f17",
+      "bytes": 89941
+    },
+    {
+      "path": "speaker/624574fd7bfaa53968965d40024e1970faee192bec8dc556294e4e1b46a64652/headshot.jpg",
+      "sha256": "624574fd7bfaa53968965d40024e1970faee192bec8dc556294e4e1b46a64652",
+      "bytes": 2180346
+    }
+  ]
+}

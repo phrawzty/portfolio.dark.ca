@@ -1,0 +1,513 @@
+{
+  "id": "e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d",
+  "source_sha256": "f335a9b20fd0d09a9a7d2512b5ddd31b9155086ec5efeca5947674f385f5d026",
+  "provenance": "reconstructed",
+  "pdf": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/reconstructed.pdf",
+  "slides": [
+    {
+      "id": "ol9Jbp",
+      "number": 1,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Facts About Real-World Container Use Daniel “phrawzty” Maher Developer Relations",
+      "title": "",
+      "original_description_html": "<p>Facts About Real-World Container Use Daniel “phrawzty” Maher Developer Relations</p>\n"
+    },
+    {
+      "id": "R4s7UE",
+      "number": 2,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "3OavMd",
+      "number": 3,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "fiJjF2",
+      "number": 4,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "n a D",
+      "title": "",
+      "original_description_html": "<p>n a D</p>\n"
+    },
+    {
+      "id": "I22X7R",
+      "number": 5,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "n a D",
+      "title": "",
+      "original_description_html": "<p>n a D</p>\n"
+    },
+    {
+      "id": "uLlKzq",
+      "number": 6,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "WfU8sF",
+      "number": 7,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "8zCwke",
+      "number": 8,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "lIvkd3",
+      "number": 9,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "NceYVS",
+      "number": 10,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "zwNMNr",
+      "number": 11,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-report/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-report/</p>\n"
+    },
+    {
+      "id": "cG6AGG",
+      "number": 12,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "EZoy8f",
+      "number": 13,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "qtXm14",
+      "number": 14,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "One platform with seamlessly integrated, smart tooling Visit datadoghq.com",
+      "title": "",
+      "original_description_html": "<p>One platform with seamlessly integrated, smart tooling\nVisit datadoghq.com</p>\n"
+    },
+    {
+      "id": "TDGZtT",
+      "number": 15,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-report/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-report/</p>\n"
+    },
+    {
+      "id": "5WzNls",
+      "number": 16,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-report/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-report/</p>\n"
+    },
+    {
+      "id": "hqiBeH",
+      "number": 17,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-report/",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-report/</p>\n"
+    },
+    {
+      "id": "KAQzWg",
+      "number": 18,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Orchestration en 2018 … 0 2 8 1",
+      "title": "",
+      "original_description_html": "<p>Orchestration en 2018 …\n0 2\n8 1</p>\n"
+    },
+    {
+      "id": "wU9nP5",
+      "number": 19,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Presque 90 % des conteneurs sont orchestrés",
+      "title": "",
+      "original_description_html": "<p>Presque 90 % des conteneurs sont orchestrés</p>\n"
+    },
+    {
+      "id": "YnsbHU",
+      "number": 20,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Kubernetes : la montée d’une puissance 2018",
+      "title": "",
+      "original_description_html": "<p>Kubernetes : la montée d’une puissance\n2018</p>\n"
+    },
+    {
+      "id": "B7bP9t",
+      "number": 21,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Kubernetes == la moitié des envs conteneurisés",
+      "title": "",
+      "original_description_html": "<p>Kubernetes == la moitié des envs conteneurisés</p>\n"
+    },
+    {
+      "id": "nRKD2I",
+      "number": 22,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "K8s dans le cloud == service spécifique",
+      "title": "",
+      "original_description_html": "<p>K8s dans le cloud == service spécifique</p>\n"
+    },
+    {
+      "id": "Pl30uh",
+      "number": 23,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "K8s dans le cloud en 2018 … 2 8 1 0",
+      "title": "",
+      "original_description_html": "<p>K8s dans le cloud en 2018 …\n2\n8 1 0</p>\n"
+    },
+    {
+      "id": "24lon6",
+      "number": 24,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "K8s dans le cloud == service spécifique",
+      "title": "",
+      "original_description_html": "<p>K8s dans le cloud == service spécifique</p>\n"
+    },
+    {
+      "id": "eOUcfV",
+      "number": 25,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0025.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "AWS Fargate : usurpateur du trône ?",
+      "title": "",
+      "original_description_html": "<p>AWS Fargate : usurpateur du trône ?</p>\n"
+    },
+    {
+      "id": "GiDQXu",
+      "number": 26,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "K8s : sur-allocation des ressources",
+      "title": "",
+      "original_description_html": "<p>K8s : sur-allocation des ressources</p>\n"
+    },
+    {
+      "id": "t1wEQJ",
+      "number": 27,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0027.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "K8s : sur-allocation des ressources",
+      "title": "",
+      "original_description_html": "<p>K8s : sur-allocation des ressources</p>\n"
+    },
+    {
+      "id": "VLf2Ii",
+      "number": 28,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "corr(cluster,node);",
+      "title": "",
+      "original_description_html": "<p>corr(cluster,node);</p>\n"
+    },
+    {
+      "id": "7fNqB7",
+      "number": 29,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0029.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "🎊 Bonus : les images dans les conteneurs 0 2 8 1",
+      "title": "",
+      "original_description_html": "<p>🎊 Bonus : les images dans les conteneurs\n0 2\n8 1</p>\n"
+    },
+    {
+      "id": "jz6e3W",
+      "number": 30,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "🎊 Bonus : les images dans les conteneurs 0 2 8 1",
+      "title": "",
+      "original_description_html": "<p>🎊 Bonus : les images dans les conteneurs\n0 2\n8 1</p>\n"
+    },
+    {
+      "id": "MIpRvv",
+      "number": 31,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Les images dans Docker",
+      "title": "",
+      "original_description_html": "<p>Les images dans Docker</p>\n"
+    },
+    {
+      "id": "ycYFoK",
+      "number": 32,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Les images dans StatefulSets",
+      "title": "",
+      "original_description_html": "<p>Les images dans StatefulSets</p>\n"
+    },
+    {
+      "id": "awH3gj",
+      "number": 33,
+      "image": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/container-report/ Moi : @phrawzty on all the things :) Merci !",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/container-report/ Moi : @phrawzty on all the things :)\nMerci !</p>\n"
+    }
+  ],
+  "page_count": 33,
+  "files": [
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0001.jpg",
+      "sha256": "228abc8b2df883555d47d97babfb21481ea59e0eb40e1ba19d96a74c6f4b3f29",
+      "bytes": 169040
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0002.jpg",
+      "sha256": "9a83095fe1daf7994e472b6738bd7fe4f96f9d0205b1a7487b7efe8463959ea5",
+      "bytes": 114655
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0003.jpg",
+      "sha256": "5ec85c5248467582ce2df029e52a86d6f2b2bc6e1adecd041896083110cc53f6",
+      "bytes": 205748
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0004.jpg",
+      "sha256": "e15badbe03b026aef7622ca51d1239ded2361e5051d007c67d14da0cff5360b2",
+      "bytes": 207413
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0005.jpg",
+      "sha256": "02c50a353399b5a4c535eb9564593dff99f3b40f9b52ee5cb443a46b4fab6924",
+      "bytes": 205862
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0006.jpg",
+      "sha256": "a326a6d4c0e9d4359d1930d381c08d2c0f01bcaf6b397fa03ad37001678c707a",
+      "bytes": 115559
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0007.jpg",
+      "sha256": "a852d7a6a6b5225ab7a98fd050339ad3f2ffc2e9b9874a7805e3bd974a048256",
+      "bytes": 152113
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0008.jpg",
+      "sha256": "ca7db696258cc227260e487ff7aab10b4939698dde24ff23ac5140c99f834b01",
+      "bytes": 191524
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0009.jpg",
+      "sha256": "95af5e1f8f5d09ca039d72d6b5cbbb968cdb1b2d6eae95d3c0c1187df452751c",
+      "bytes": 230189
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0010.jpg",
+      "sha256": "3d337074077bb475abd179a4196121a0cc97acfda055658e69b6618ad83b3dc8",
+      "bytes": 262408
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0011.jpg",
+      "sha256": "673943e61fd6f618a8eb821cbaa88407c8fd01c1b4d95a559ee8226d883b6e03",
+      "bytes": 217921
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0012.jpg",
+      "sha256": "b265146136b327675a19d54c59b6b44d48f764f6b22074bca5e591ef6812b371",
+      "bytes": 265769
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0013.jpg",
+      "sha256": "b8b7bed180cf5ee81197f6c308389b035c244b1769ec05962fcebb8954eb50f6",
+      "bytes": 239802
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0014.jpg",
+      "sha256": "dfca5269db2ba22fd2e207d06d2579b9ea39173906093b871e0e903002a912b4",
+      "bytes": 196256
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0015.jpg",
+      "sha256": "b6343cea079135c2aad6823b67ab5011304a2766a5850c14de3bb21a78875c2d",
+      "bytes": 207100
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0016.jpg",
+      "sha256": "1c314fb25179bfa01143b34d40ef1f6f639c7c3d07be9561d4605170aff15fc8",
+      "bytes": 216608
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0017.jpg",
+      "sha256": "6d69b9086699254446ba229b0c51fa17ac016f49ff17fd1f65fcccd58f59bc57",
+      "bytes": 204688
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0018.jpg",
+      "sha256": "16c2f9aae35135767113c768dd641f20a591fe79a6eed10b15c27311abce2b15",
+      "bytes": 164961
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0019.jpg",
+      "sha256": "af3b3e656d899e6f75fbbc064b348a33306772546edeb907942eda02ac87dafe",
+      "bytes": 184112
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0020.jpg",
+      "sha256": "83a8d3cb7211e33e94dbd03047f5f222ea0b56861af40f2efbd323837ec0ada6",
+      "bytes": 189113
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0021.jpg",
+      "sha256": "625e0e639296d243a97a309b20c1efd3a4b68e3ada7f66a46549d833e4cec51b",
+      "bytes": 167155
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0022.jpg",
+      "sha256": "1822b52de295453add4a81ab391106768073c1174b422a77ed87c98a4f36802f",
+      "bytes": 197148
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0023.jpg",
+      "sha256": "75e2e11f19a4cc52d874cd5f811c597aabc1d80acbef9be93d263bc4f860ab06",
+      "bytes": 188140
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0024.jpg",
+      "sha256": "1822b52de295453add4a81ab391106768073c1174b422a77ed87c98a4f36802f",
+      "bytes": 197148
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0025.jpg",
+      "sha256": "4ce6a1ca86180d1506d3d5a6af15289b9927802e85c93105a439b3358ae1bb49",
+      "bytes": 176730
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0026.jpg",
+      "sha256": "5907df01aaed51e305780a483509306cde7d210175e14a19272faae031d1e6c3",
+      "bytes": 177452
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0027.jpg",
+      "sha256": "56a6a069ad094066ef432b978ecec032f61190f1b93b7a92e64916c9d7dd2798",
+      "bytes": 181131
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0028.jpg",
+      "sha256": "416010a34a9dc3cd9ee9195797e68dd9e66ca59d04189fdfa9de85303710bccc",
+      "bytes": 168968
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0029.jpg",
+      "sha256": "f7a1929ee998131286921010fb5f1513802c260eb43838eed25e4a93fba879f1",
+      "bytes": 192361
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0030.jpg",
+      "sha256": "e49a48ed67b12db0322f3e96fba2d9c924747746d2bba2a9661325c5a331107b",
+      "bytes": 179262
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0031.jpg",
+      "sha256": "0f6358a9209a8776a85390586862c06d8764ee6924ee6faec4670c95797ae26b",
+      "bytes": 164274
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0032.jpg",
+      "sha256": "73296924c57494476cd327dd77cd422f4970642602a49e0f22898704f5b4100b",
+      "bytes": 168549
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/0033.jpg",
+      "sha256": "b5b9eef0f1c62470eec87666a3a2e5b3f4eac317bc1d0487deae31a7d7392cce",
+      "bytes": 187117
+    },
+    {
+      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/reconstructed.pdf",
+      "sha256": "f335a9b20fd0d09a9a7d2512b5ddd31b9155086ec5efeca5947674f385f5d026",
+      "bytes": 7598102
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/glWuoa/facts-about-real-world-container-use"
+}

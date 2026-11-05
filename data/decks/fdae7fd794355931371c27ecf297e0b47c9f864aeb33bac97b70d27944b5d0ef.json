@@ -1,0 +1,738 @@
+{
+  "id": "fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef",
+  "source_sha256": "d87d11707135244a638783f660c6850b0089c2e34961b8591ab31516fa6138d2",
+  "provenance": "reconstructed",
+  "pdf": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/reconstructed.pdf",
+  "slides": [
+    {
+      "id": "22EFc7",
+      "number": 1,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "DEVOPSDAYS CAIRO 2026 Your supply chain has an identity problem Dan Maher — Senior Technical Advocate & Researcher",
+      "title": "",
+      "original_description_html": "<p>DEVOPSDAYS CAIRO 2026\nYour supply chain has an identity problem Dan Maher — Senior Technical Advocate &amp; Researcher</p>\n"
+    },
+    {
+      "id": "eLx3UW",
+      "number": 2,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Why this matters A supply-chain incident is not (just) a tooling problem The risk surface is not new; the speed is Agents act at machine speed Sustainable DevOps means safer by default 2",
+      "title": "",
+      "original_description_html": "<p>Why this matters A supply-chain incident is not (just) a tooling problem The risk surface is not new; the speed is Agents act at machine speed Sustainable DevOps means safer by default\n2</p>\n"
+    },
+    {
+      "id": "GffrMv",
+      "number": 3,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "whoami Dan Senior Technical Advocate & Researcher Security research Global core organiser, DevOpsDays AI-powered observability and security Ask me about the Tetris easter egg! 3",
+      "title": "",
+      "original_description_html": "<p>whoami Dan Senior Technical Advocate &amp; Researcher Security research Global core organiser, DevOpsDays\nAI-powered observability and security Ask me about the Tetris easter egg!\n3</p>\n"
+    },
+    {
+      "id": "szOfFK",
+      "number": 4,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Many systems turn a trusted identity into authority too easily, too broadly, and for too long. 5",
+      "title": "",
+      "original_description_html": "<p>Many systems turn a trusted identity into authority too easily, too broadly, and for too long. 5</p>\n"
+    },
+    {
+      "id": "VJ7T7j",
+      "number": 5,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Execution context People, CI jobs and agents hold identities Dependencies run inside those contexts Malicious or merely flawed, the potential for harm is real 6",
+      "title": "",
+      "original_description_html": "<p>Execution context People, CI jobs and agents hold identities Dependencies run inside those contexts Malicious or merely flawed, the potential for harm is real\n6</p>\n"
+    },
+    {
+      "id": "7cqH08",
+      "number": 6,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SHIFT ONE Identity and access management 7",
+      "title": "",
+      "original_description_html": "<p>SHIFT ONE\nIdentity and access management\n7</p>\n"
+    },
+    {
+      "id": "jwZ4sX",
+      "number": 7,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Identity and authority 01 02 03 The maintainer’s account The CI job The laptop in front of you Upstream, on a registry you do not control Publishing on behalf of the project Right now, in this room 8",
+      "title": "",
+      "original_description_html": "<p>Identity and authority\n01\n02\n03\nThe maintainer’s account\nThe CI job\nThe laptop in front of you\nUpstream, on a registry you do not control\nPublishing on behalf of the project\nRight now, in this room\n8</p>\n"
+    },
+    {
+      "id": "MGHskw",
+      "number": 8,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "OWASP top 10 #1 #3 Broken Access Control Software Supply Chain Failures 9",
+      "title": "",
+      "original_description_html": "<p>OWASP top 10\n#1\n#3\nBroken Access Control\nSoftware Supply Chain Failures\n9</p>\n"
+    },
+    {
+      "id": "ya0gdL",
+      "number": 9,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "INCIDENT 01 — SEPTEMBER 2025 The npm maintainer compromise debug · chalk · and more 10",
+      "title": "",
+      "original_description_html": "<p>INCIDENT 01 — SEPTEMBER 2025\nThe npm maintainer compromise debug · chalk · and more\n10</p>\n"
+    },
+    {
+      "id": "atjUVk",
+      "number": 10,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Adversary-in-the-middle phishing A reverse proxy on npmjs.help A plausible two-factor-reset email The maintainer signed in for real The attacker got the live session 11",
+      "title": "",
+      "original_description_html": "<p>Adversary-in-the-middle phishing A reverse proxy on npmjs.help A plausible two-factor-reset email\nThe maintainer signed in for real The attacker got the live session\n11</p>\n"
+    },
+    {
+      "id": "DDSIO9",
+      "number": 11,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Version management did the distribution 18+ packages, published from a real account Downstream, it looked like maintenance No suspicious link; no PR to approve 12",
+      "title": "",
+      "original_description_html": "<p>Version management did the distribution 18+ packages, published from a real account Downstream, it looked like maintenance No suspicious link; no PR to approve\n12</p>\n"
+    },
+    {
+      "id": "pXB6GY",
+      "number": 12,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "50% of organisations pull a third-party library within a day of its release *Datadog, 2026 State of DevSecOps 13",
+      "title": "",
+      "original_description_html": "<p>50% of organisations pull a third-party library within a day of its release *Datadog, 2026 State of DevSecOps 13</p>\n"
+    },
+    {
+      "id": "Rqtu8x",
+      "number": 13,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "AiTM-resistant authentication FIDO2 keys and passkeys bind to a domain A passkey for npmjs.com cannot sign in to a proxy Defeats this vector of attack 14",
+      "title": "",
+      "original_description_html": "<p>AiTM-resistant authentication FIDO2 keys and passkeys bind to a domain A passkey for npmjs.com cannot sign in to a proxy Defeats this vector of attack\n14</p>\n"
+    },
+    {
+      "id": "4Aci1M",
+      "number": 14,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Automated publishing A long-lived NPM_TOKEN in CI secrets The job can read it; so can an attacker Spoiler alert: there’s no reason for a long-lived token here 15",
+      "title": "",
+      "original_description_html": "<p>Automated publishing A long-lived NPM_TOKEN in CI secrets The job can read it; so can an attacker Spoiler alert: there’s no reason for a long-lived token here\n15</p>\n"
+    },
+    {
+      "id": "gULVtl",
+      "number": 15,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Trusted Publishing From the PyPI community, 2023 CI presents an OIDC identity token The registry mints a token for that release Nothing standing left to steal 16",
+      "title": "",
+      "original_description_html": "<p>Trusted Publishing From the PyPI community, 2023\nCI presents an OIDC identity token The registry mints a token for that release Nothing standing left to steal\n16</p>\n"
+    },
+    {
+      "id": "Io4JmA",
+      "number": 16,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "INCIDENT 02 — SEPTEMBER 2025 Shai-Hulud a self-propagating npm worm 17",
+      "title": "",
+      "original_description_html": "<p>INCIDENT 02 — SEPTEMBER 2025\nShai-Hulud a self-propagating npm worm\n17</p>\n"
+    },
+    {
+      "id": "v7n7eZ",
+      "number": 17,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shai-Hulud was fundamentally lazy Found publish tokens on infected machines Backdoored every accessible package A later variant took cloud credentials too 18",
+      "title": "",
+      "original_description_html": "<p>Shai-Hulud was fundamentally lazy Found publish tokens on infected machines\nBackdoored every accessible package A later variant took cloud credentials too\n18</p>\n"
+    },
+    {
+      "id": "XRVvWy",
+      "number": 18,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SURPRISE! The developer laptop is now part of production. 19",
+      "title": "",
+      "original_description_html": "<p>SURPRISE!\nThe developer laptop is now part of production. 19</p>\n"
+    },
+    {
+      "id": "9lEjPN",
+      "number": 19,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What the laptop is holding Registry tokens, cloud credentials, SSH keys Broader access than most production servers It can trigger a production change 20",
+      "title": "",
+      "original_description_html": "<p>What the laptop is holding Registry tokens, cloud credentials, SSH keys Broader access than most production servers It can trigger a production change\n20</p>\n"
+    },
+    {
+      "id": "m4xXHm",
+      "number": 20,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SCOPE AND TIME Decide which actors may act, and make their authority temporary and specific. 21",
+      "title": "",
+      "original_description_html": "<p>SCOPE AND TIME\nDecide which actors may act, and make their authority temporary and specific. 21</p>\n"
+    },
+    {
+      "id": "OOgLAB",
+      "number": 21,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SHIFT TWO Verify continuously 22",
+      "title": "",
+      "original_description_html": "<p>SHIFT TWO\nVerify continuously\n22</p>\n"
+    },
+    {
+      "id": "0iP92a",
+      "number": 22,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0022.png",
+      "width": 1600,
+      "height": 900,
+      "text": "A checksum proves integrity, not legitimacy It proves the download matches the registry A poisoned release matches just as well Nobody vouched for the contents 23",
+      "title": "",
+      "original_description_html": "<p>A checksum proves integrity, not legitimacy It proves the download matches the registry A poisoned release matches just as well Nobody vouched for the contents\n23</p>\n"
+    },
+    {
+      "id": "d27wuz",
+      "number": 23,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Quarantine a new release, then check it against known-bad Pinning works until you want to upgrade Quarantine new versions, check osv.dev No mirror? Use scfw at the package manager Catches what the community already found 24",
+      "title": "",
+      "original_description_html": "<p>Quarantine a new release, then check it against known-bad Pinning works until you want to upgrade\nQuarantine new versions, check osv.dev No mirror? Use scfw at the package manager Catches what the community already found\n24</p>\n"
+    },
+    {
+      "id": "FLqknO",
+      "number": 24,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Pin your GitHub Actions to a commit hash, not a version tag 4% A tag can start pointing at new code A commit hash cannot move You’re probably vulnerable right now of organisations pin every public GitHub Action *Datadog, 2026 State of DevSecOps 25",
+      "title": "",
+      "original_description_html": "<p>Pin your GitHub Actions to a commit hash, not a version tag\n4%\nA tag can start pointing at new code A commit hash cannot move\nYou’re probably vulnerable right now\nof organisations pin every public GitHub Action *Datadog, 2026 State of DevSecOps\n25</p>\n"
+    },
+    {
+      "id": "rfZYfn",
+      "number": 25,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Provenance: where did this actually come from? SLSA Sigstore Supply-chain Levels for Software Artifacts Signing, without a key to guard forever Checkable metadata showing which source repository and build pipeline produced an artefact. Signs the artefact with a short-lived certificate tied to the CI identity that built it. git blame , but for the finished thing you installed. Not a private key someone has to protect indefinitely. 26",
+      "title": "",
+      "original_description_html": "<p>Provenance: where did this actually come from?\nSLSA\nSigstore\nSupply-chain Levels for Software Artifacts\nSigning, without a key to guard forever\nCheckable metadata showing which source repository and build pipeline produced an artefact.\nSigns the artefact with a short-lived certificate tied to the CI identity that built it.\ngit blame , but for the finished thing you installed.\nNot a private key someone has to protect indefinitely.\n26</p>\n"
+    },
+    {
+      "id": "TzIMYC",
+      "number": 26,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0026.png",
+      "width": 1600,
+      "height": 900,
+      "text": "A malicious release can look legitimate Checksum matches Not in a threat database (yet) Built via a legitimate pipeline You probably pulled it already 27",
+      "title": "",
+      "original_description_html": "<p>A malicious release can look legitimate Checksum matches\nNot in a threat database (yet) Built via a legitimate pipeline You probably pulled it already\n27</p>\n"
+    },
+    {
+      "id": "6J1AQb",
+      "number": 27,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "INCIDENT 03 SANDWORM_MODE a new target: the AI coding environment 28",
+      "title": "",
+      "original_description_html": "<p>INCIDENT 03\nSANDWORM_MODE a new target: the AI coding environment\n28</p>\n"
+    },
+    {
+      "id": "icjyJ0",
+      "number": 28,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0028.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The attack was a tool description Local MCP server, wired into your editor Harmless names like lint_check, scan_dependencies Prompt injection in the description Looks legit—the linter did lint! 29",
+      "title": "",
+      "original_description_html": "<p>The attack was a tool description Local MCP server, wired into your editor\nHarmless names like lint_check, scan_dependencies Prompt injection in the description Looks legit—the linter did lint!\n29</p>\n"
+    },
+    {
+      "id": "KwSmBP",
+      "number": 29,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Persistence and the limits of static matching Malicious Git hooks in local repositories And in Git’s global init.templateDir A dormant code-rewrite component, disabled Changing code defeats fingerprints 30",
+      "title": "",
+      "original_description_html": "<p>Persistence and the limits of static matching Malicious Git hooks in local repositories\nAnd in Git’s global init.templateDir A dormant code-rewrite component, disabled Changing code defeats fingerprints\n30</p>\n"
+    },
+    {
+      "id": "xGBa3o",
+      "number": 30,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0030.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Three controls, three different questions Provenance Threat database Runtime Where did this come from? Has someone already flagged it? Is it doing the job we expected — and nothing else? 31",
+      "title": "",
+      "original_description_html": "<p>Three controls, three different questions\nProvenance\nThreat database\nRuntime\nWhere did this come from?\nHas someone already flagged it?\nIs it doing the job we expected — and nothing else?\n31</p>\n"
+    },
+    {
+      "id": "ZZuNwD",
+      "number": 31,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "A tool called lint_check should not read your SSH keys. 32",
+      "title": "",
+      "original_description_html": "<p>A tool called lint_check should not read your SSH keys. 32</p>\n"
+    },
+    {
+      "id": "BtdBoc",
+      "number": 32,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0032.png",
+      "width": 1600,
+      "height": 900,
+      "text": "INCIDENT 04 — MARCH 2026 LiteLLM two malicious releases, quarantined in ~40 minutes 33",
+      "title": "",
+      "original_description_html": "<p>INCIDENT 04 — MARCH 2026\nLiteLLM two malicious releases, quarantined in ~40 minutes\n33</p>\n"
+    },
+    {
+      "id": "oDLzh1",
+      "number": 33,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0033.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The pipeline handed the attacker the key The attacker compromised Trivy first LiteLLM ran Trivy in CI The action took the PyPI credential No social engineering. No guessed password 2,500+ organisations potentially exposed 34",
+      "title": "",
+      "original_description_html": "<p>The pipeline handed the attacker the key The attacker compromised Trivy first\nLiteLLM ran Trivy in CI The action took the PyPI credential\nNo social engineering. No guessed password 2,500+ organisations potentially exposed\n34</p>\n"
+    },
+    {
+      "id": "QX4nZQ",
+      "number": 34,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Same scenario, different machine Trusted authority, outside its intended job An immutable pin closes that entry path Runtime gives you a second chance A tool call deserves the same scrutiny 35",
+      "title": "",
+      "original_description_html": "<p>Same scenario, different machine Trusted authority, outside its intended job\nAn immutable pin closes that entry path Runtime gives you a second chance A tool call deserves the same scrutiny\n35</p>\n"
+    },
+    {
+      "id": "2qnbRp",
+      "number": 35,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0035.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "REPEATED FOREVER Validate what enters the system, where it came from, and whether it behaves within the limits you set. 36",
+      "title": "",
+      "original_description_html": "<p>REPEATED FOREVER\nValidate what enters the system, where it came from, and whether it behaves within the limits you set. 36</p>\n"
+    },
+    {
+      "id": "fAWPKE",
+      "number": 36,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0036.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SHIFT THREE Guardrails that scale 37",
+      "title": "",
+      "original_description_html": "<p>SHIFT THREE\nGuardrails that scale\n37</p>\n"
+    },
+    {
+      "id": "HUFDCd",
+      "number": 37,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0037.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Guardrails enforce the safety decisions that humans have already made. 38",
+      "title": "",
+      "original_description_html": "<p>Guardrails enforce the safety decisions that humans have already made. 38</p>\n"
+    },
+    {
+      "id": "tny152",
+      "number": 38,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0038.png",
+      "width": 1600,
+      "height": 900,
+      "text": "INCIDENT 05 — MARCH 2026 Axios 70 million weekly downloads · live for ~3 hours 39",
+      "title": "",
+      "original_description_html": "<p>INCIDENT 05 — MARCH 2026\nAxios 70 million weekly downloads · live for ~3 hours\n39</p>\n"
+    },
+    {
+      "id": "W7goxR",
+      "number": 39,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0039.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The simplest defence: turn off post-install hooks A script npm runs automatically on install Axios used it. Shai-Hulud used it first No need to know the attacker or the payload One less thing for people to worry about 40",
+      "title": "",
+      "original_description_html": "<p>The simplest defence: turn off post-install hooks A script npm runs automatically on install\nAxios used it. Shai-Hulud used it first No need to know the attacker or the payload One less thing for people to worry about\n40</p>\n"
+    },
+    {
+      "id": "8RPcpq",
+      "number": 40,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0040.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Give a dependency update an observation window 8/10 You do not ship everywhere at once Make the window a week by default Time for a bad release to be pulled high-profile supply-chain attacks had exploitation windows shorter than a week *2025 analysis of ten high-profile attacks 41",
+      "title": "",
+      "original_description_html": "<p>Give a dependency update an observation window\n8/10\nYou do not ship everywhere at once Make the window a week by default\nTime for a bad release to be pulled\nhigh-profile supply-chain attacks had exploitation windows shorter than a week *2025 analysis of ten high-profile attacks\n41</p>\n"
+    },
+    {
+      "id": "kl8QiF",
+      "number": 41,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0041.png",
+      "width": 1600,
+      "height": 900,
+      "text": "You have a coding agent? Put it in a sandbox Nono: a kernel-enforced micro-sandbox gh gets a phantom credential, not your token SSH keys are off the filesystem entirely The agent cannot talk past the kernel 42",
+      "title": "",
+      "original_description_html": "<p>You have a coding agent? Put it in a sandbox Nono: a kernel-enforced micro-sandbox\ngh gets a phantom credential, not your token SSH keys are off the filesystem entirely The agent cannot talk past the kernel\n42</p>\n"
+    },
+    {
+      "id": "N4rEae",
+      "number": 42,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0042.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Automate the routine Block the build, open the fix, quarantine Route real judgment to a person People set the boundaries and the exceptions The system enforces them every time 43",
+      "title": "",
+      "original_description_html": "<p>Automate the routine Block the build, open the fix, quarantine\nRoute real judgment to a person People set the boundaries and the exceptions The system enforces them every time\n43</p>\n"
+    },
+    {
+      "id": "zOa2T3",
+      "number": 43,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0043.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SUSTAINABLE SECURITY Humans set the boundaries. Systems enforce them. 44",
+      "title": "",
+      "original_description_html": "<p>SUSTAINABLE SECURITY\nHumans set the boundaries. Systems enforce them. 44</p>\n"
+    },
+    {
+      "id": "biIqLS",
+      "number": 44,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0044.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Incident round-up npm maintainer Lookalike login page (AiTM) Shai-Hulud Long-lived standing credentials SANDWORM_MODE Poisoned tool descriptions LiteLLM Compromised security scanner Axios Maintainer’s laptop as launchpad 45",
+      "title": "",
+      "original_description_html": "<p>Incident round-up npm maintainer\nLookalike login page (AiTM)\nShai-Hulud\nLong-lived standing credentials\nSANDWORM_MODE\nPoisoned tool descriptions\nLiteLLM\nCompromised security scanner\nAxios\nMaintainer’s laptop as launchpad\n45</p>\n"
+    },
+    {
+      "id": "E21eDr",
+      "number": 45,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0045.png",
+      "width": 1600,
+      "height": 900,
+      "text": "An actor operating with trusted authority, crossing a boundary it should not have been able to. That is not five problems. It is one problem, five times. 46",
+      "title": "",
+      "original_description_html": "<p>An actor operating with trusted authority, crossing a boundary it should not have been able to. That is not five problems. It is one problem, five times. 46</p>\n"
+    },
+    {
+      "id": "qLkS6G",
+      "number": 46,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0046.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Three questions to take home 01 02 03 Authority Verification Guardrails Phishing-resistant authentication, and temporary, specific credentials. Provenance, known-bad checks, and runtime policy. Block unnecessary mechanisms, create observation windows, and sandbox agent access. 47",
+      "title": "",
+      "original_description_html": "<p>Three questions to take home\n01\n02\n03\nAuthority\nVerification\nGuardrails\nPhishing-resistant authentication, and temporary, specific credentials.\nProvenance, known-bad checks, and runtime policy.\nBlock unnecessary mechanisms, create observation windows, and sandbox agent access.\n47</p>\n"
+    },
+    {
+      "id": "SfTFyf",
+      "number": 47,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0047.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "We are who society has implicitly agreed to trust with this We need to do a better job of earning it 48",
+      "title": "",
+      "original_description_html": "<p>We are who society has implicitly agreed to trust with this\nWe need to do a better job of earning it 48</p>\n"
+    },
+    {
+      "id": "4zC3r4",
+      "number": 48,
+      "image": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0048.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank you Dan Maher — Senior Technical Advocate & Researcher",
+      "title": "",
+      "original_description_html": "<p>Thank you Dan Maher — Senior Technical Advocate &amp; Researcher</p>\n"
+    }
+  ],
+  "page_count": 48,
+  "files": [
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0001.jpg",
+      "sha256": "2a706250b6784e900c3d34f342299eaeaa52959f33d2f576e49f9c68054d8480",
+      "bytes": 184475
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0002.png",
+      "sha256": "87e990a8359a63f23489b448b3f824f05c5b6dcd202a0edf92d33c6239391ddd",
+      "bytes": 170177
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0003.jpg",
+      "sha256": "ade897b0f3af51c8e1d47fff72f371decbce7ce8317f76c9e329221a6a9603c2",
+      "bytes": 133308
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0004.jpg",
+      "sha256": "04a167d6574e4cfa38e834d5cc8c8ca801c722f549cf73fb858359ef2a27bc70",
+      "bytes": 156188
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0005.png",
+      "sha256": "87f8801ec431ef398ddda7f719c16d0779573d4e9c31157488260574e3232a9c",
+      "bytes": 138644
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0006.jpg",
+      "sha256": "68b43da205ec0e4c3d4830147d9e15f3b6cc99d16eb76eefc8888b10f4654e42",
+      "bytes": 126290
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0007.png",
+      "sha256": "ce2ab2403867d1cc810f8932f09541b73080cb43f9a641d56c96ff79827371ff",
+      "bytes": 200160
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0008.png",
+      "sha256": "b15ce1228230bb54c7931ec59748ee5aa11f045cc16ad967aa4824d162d04dd9",
+      "bytes": 127948
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0009.png",
+      "sha256": "2a7f69c31e90b5897a1d6b6a0e4f83cc50eb4b1a202605a8a243ce69b138d8ac",
+      "bytes": 164413
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0010.png",
+      "sha256": "87bcf5c55fff639dab73485ef2e6e107a6afa312db5662bdab306f9d2c383214",
+      "bytes": 154267
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0011.png",
+      "sha256": "014d08e998e39b142728f4656d7d25b24d1cb6f27b0df7af6b1b41846116a35d",
+      "bytes": 153085
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0012.png",
+      "sha256": "8158af5a6c2f6991f062f195089244b5eb765ffb3c57372e1113b78b099fb283",
+      "bytes": 162502
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0013.png",
+      "sha256": "50bed174981e15833a4a96baa34d7b3d4eed00eddbca3fcf2c71b418b456666c",
+      "bytes": 160832
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0014.png",
+      "sha256": "46807d7f7ae84bcb3cf50aac1921db47377587697aee33341dff4b94d012f44b",
+      "bytes": 144618
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0015.png",
+      "sha256": "58f0484ee09b122e471771b1ad7070794749ac6e8837b056da88c31ca8e28301",
+      "bytes": 149921
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0016.png",
+      "sha256": "d8697f7a640df99b201cd24de0156c83e7c6c14d50ffd1985ecfffd93efa6470",
+      "bytes": 124076
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0017.png",
+      "sha256": "0d18d9228bb6e336ad7115da26c1824d49eb5911df099376b032046dd9843196",
+      "bytes": 149855
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0018.jpg",
+      "sha256": "995d17fa41780b4e905011c0a501b430be71911d6730627f3c3a690addc1bc28",
+      "bytes": 127108
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0019.png",
+      "sha256": "dc3565520a4700fb9e1a7de2d4307cebe5b363918aa6b6df4cd2663eae090598",
+      "bytes": 149248
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0020.jpg",
+      "sha256": "c9dc5899ef4a57e6478f8393b2cb4a0bf693ed4bb631cb4ea97855bfe153adc5",
+      "bytes": 160719
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0021.jpg",
+      "sha256": "3079f92d4a6dc6cba73c86f4dbb9978a233233228588f65ce08818f71ba0d60d",
+      "bytes": 94823
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0022.png",
+      "sha256": "edfd604491181da69ea51f8b56fe64adc340ce68388d43a2f4040a65dbbe300f",
+      "bytes": 161911
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0023.png",
+      "sha256": "ff1b7dac98df266bce361bf41f3dbee25600aa42c3d20b9bc0955ce6862155d1",
+      "bytes": 197849
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0024.png",
+      "sha256": "dc661f46917ac95471d3856adc96ea29952103baedf4f2940d64647a89945d90",
+      "bytes": 232890
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0025.png",
+      "sha256": "4a43ae419525396eb2c59e4f24c9d0adf680ab4a0d830b40d0006f457ea7f4ed",
+      "bytes": 323847
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0026.png",
+      "sha256": "a592949d8fddd4d2fd91a85f8284720ec928b1da07df5ba14c8924d30721d73a",
+      "bytes": 148172
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0027.png",
+      "sha256": "20d69c3df83720df4f341a01ca00722c2d8f46b58c4d5067874c6b02adb2e2e4",
+      "bytes": 141793
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0028.png",
+      "sha256": "70d1add3420c19713f31877173470051129bd8749e3e5f7683279939a16707a5",
+      "bytes": 165719
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0029.png",
+      "sha256": "e6feeb500527484e9362ba613168b75fbf56ca112a6a4b45619ac38ab24efd52",
+      "bytes": 182911
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0030.png",
+      "sha256": "90f564766629119dc88aa21f5d5c12a69c1468e797f90b9b5a62b23270e5d9c8",
+      "bytes": 232074
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0031.jpg",
+      "sha256": "2472846d1f2c7f30b5dd905204a88543a047fd180d303443622f5094f19bf73b",
+      "bytes": 120790
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0032.png",
+      "sha256": "845798216f074a6d249d4b1f55cb437d1e4cebcfa3da24e076ce2f3066d2f24e",
+      "bytes": 139063
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0033.png",
+      "sha256": "5fc5cff178ea2510bc202111f912037aefed33be7984022d99e20197ea3cc07e",
+      "bytes": 191165
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0034.png",
+      "sha256": "69240806ed322dac4c48f176fb1fc56ba29f9b67899ba73fd8a420c5e5044ccf",
+      "bytes": 172466
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0035.jpg",
+      "sha256": "f404a4442ade670a079304040d8dec260511d08f233689ef59fb78a4ddaca9a2",
+      "bytes": 180159
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0036.jpg",
+      "sha256": "612004929a79dc4cd7cb7ca9035ce9cda6fa38b760b5916b35ba680da44bdad2",
+      "bytes": 110399
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0037.jpg",
+      "sha256": "949035208c1c69d856805bef88a67672009b396a1285814e672628a7a1f76d3b",
+      "bytes": 147503
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0038.png",
+      "sha256": "1c2acc7ff28a216450f8e1264100246015f4d0b0f5e60bd7f3f7846f4830e8bc",
+      "bytes": 139370
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0039.png",
+      "sha256": "eb3e308b16bf02dcf5bed71c88a53fa3ee59cce4a81537138e96cf4a22181ac4",
+      "bytes": 185714
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0040.png",
+      "sha256": "4fa1eaf619799a530f3a45a3fcf6e35ea58a871bc1371ed89c273030aaa79838",
+      "bytes": 267873
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0041.png",
+      "sha256": "97b21008786f5c5bdbee0c27ad93187dfef47bfb4792894e262fba2fd3a8c82c",
+      "bytes": 187755
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0042.png",
+      "sha256": "d646d7ef5de84148607cda4a0b42fba03d6ea8b7839956d86b4c8b476b2acd4d",
+      "bytes": 161484
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0043.jpg",
+      "sha256": "d0054672b0b8a7bda87a6252a300f26862067430653ab12c8e17761a426cef93",
+      "bytes": 116603
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0044.png",
+      "sha256": "c6ef91c35a18aa4baf05857cf3807b39bbb69fd923612f6ac95f53cebf2edc55",
+      "bytes": 198336
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0045.png",
+      "sha256": "dc72afd254046240e6cff0e7db330308e8592db8e2b5b6d54a5f9a162e7ced38",
+      "bytes": 224262
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0046.png",
+      "sha256": "6fbb80e0d021131e37105aae43529c27c75733d4a167fb8c97eead5b13cfd59c",
+      "bytes": 266333
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0047.jpg",
+      "sha256": "c08d2c45f6faa2f580233174473e85d4d81a8dc8cd4e1dbdb883451cff8d7250",
+      "bytes": 140656
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/0048.jpg",
+      "sha256": "dd50ed91af0d4b94ce622c71615a61597af7f35c3c5ad41d98c7dd8614776617",
+      "bytes": 127955
+    },
+    {
+      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/reconstructed.pdf",
+      "sha256": "d87d11707135244a638783f660c6850b0089c2e34961b8591ab31516fa6138d2",
+      "bytes": 4987242
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/l9Lc4N/your-supply-chain-has-an-identity-problem"
+}

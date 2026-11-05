@@ -1,0 +1,28 @@
+{
+  "id": "bd1d7887ea5cd22f8a70199c1924b8782e06c9b9ca6afefab4233ff44d5b5844",
+  "source_sha256": null,
+  "provenance": "image-only",
+  "pdf": "",
+  "slides": [
+    {
+      "id": "LYVEgm",
+      "number": 1,
+      "image": "decks/bd1d7887ea5cd22f8a70199c1924b8782e06c9b9ca6afefab4233ff44d5b5844/0001.png",
+      "width": 1600,
+      "height": 886,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    }
+  ],
+  "page_count": 1,
+  "files": [
+    {
+      "path": "decks/bd1d7887ea5cd22f8a70199c1924b8782e06c9b9ca6afefab4233ff44d5b5844/0001.png",
+      "sha256": "b8ae2372935a484217e72cb021ac30fe872388723dfeb17cb321a3f149e335cd",
+      "bytes": 600520
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/TrWhrC/panel-future-of-observability"
+}

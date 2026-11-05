@@ -1,0 +1,318 @@
+{
+  "id": "f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112",
+  "source_sha256": "cf2d860a00fd44e10225c790743985d4bbde0b13d84c30ae1605608c5ddb8d0c",
+  "provenance": "original",
+  "pdf": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/original.pdf",
+  "slides": [
+    {
+      "id": "hXYNM6",
+      "number": 1,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Princples of Observability ! Daniel “phrawzty” Maher Community Team",
+      "title": "",
+      "original_description_html": "<p>Princples of Observability ! Daniel “phrawzty” Maher Community Team</p>\n"
+    },
+    {
+      "id": "JrHBEV",
+      "number": 2,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observability ≠ Monitoring Photo: CC-BY-2.0 Steve Parker (https://flic.kr/p/afiseM) @phrawzty // Datadog 2",
+      "title": "",
+      "original_description_html": "<p>Observability ≠ Monitoring Photo: CC-BY-2.0 Steve Parker (https://flic.kr/p/afiseM) @phrawzty // Datadog\n2</p>\n"
+    },
+    {
+      "id": "wAzz6u",
+      "number": 3,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observability ≠ Dashboards Photo: CC-BY-2.0 Jacob Frey 4A (https://flic.kr/p/CkXwn6) @phrawzty // Datadog 3",
+      "title": "",
+      "original_description_html": "<p>Observability ≠ Dashboards Photo: CC-BY-2.0 Jacob Frey 4A (https://flic.kr/p/CkXwn6) @phrawzty // Datadog\n3</p>\n"
+    },
+    {
+      "id": "YUimzJ",
+      "number": 4,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observability ≠ DevOps Photo: © DevOpsDays Zurich (https://flic.kr/p/TNbJPm) @phrawzty // Datadog 4",
+      "title": "",
+      "original_description_html": "<p>Observability ≠ DevOps Photo: © DevOpsDays Zurich (https://flic.kr/p/TNbJPm) @phrawzty // Datadog\n4</p>\n"
+    },
+    {
+      "id": "AoRari",
+      "number": 5,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observability is a measure of how well internal states of a system can be inferred from knowledge of its external outputs. Photo: CC-BY-2.0 Tim Rechmann (https://flic.kr/p/2kvnyb3) @phrawzty // Datadog 5",
+      "title": "",
+      "original_description_html": "<p>Observability is a measure of how well internal states of a system can be inferred from knowledge of its external outputs. Photo: CC-BY-2.0 Tim Rechmann (https://flic.kr/p/2kvnyb3) @phrawzty // Datadog\n5</p>\n"
+    },
+    {
+      "id": "n8AOk7",
+      "number": 6,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Measure Photo: CC-BY-2.0 Andrew Malone (https://flic.kr/p/aqhCH8) @phrawzty // Datadog 6",
+      "title": "",
+      "original_description_html": "<p>Measure\nPhoto: CC-BY-2.0 Andrew Malone (https://flic.kr/p/aqhCH8) @phrawzty // Datadog\n6</p>\n"
+    },
+    {
+      "id": "PRtCcW",
+      "number": 7,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "State Photo: CC-BY-2.0 BenGrantham (https://flic.kr/p/eQA3Zk) @phrawzty // Datadog 7",
+      "title": "",
+      "original_description_html": "<p>State\nPhoto: CC-BY-2.0 BenGrantham (https://flic.kr/p/eQA3Zk) @phrawzty // Datadog\n7</p>\n"
+    },
+    {
+      "id": "1lc0Uv",
+      "number": 8,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "System Photo: CC-BY-2.0 Krzysztof Pędrys (https://flic.kr/p/4tUNYV) @phrawzty // Datadog 8",
+      "title": "",
+      "original_description_html": "<p>System\nPhoto: CC-BY-2.0 Krzysztof Pędrys (https://flic.kr/p/4tUNYV) @phrawzty // Datadog\n8</p>\n"
+    },
+    {
+      "id": "e5KoNK",
+      "number": 9,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Knowledge Photo: CC-BY-2.0 Fredrik Rubensson (https://flic.kr/p/dC1gvd) @phrawzty // Datadog 9",
+      "title": "",
+      "original_description_html": "<p>Knowledge\nPhoto: CC-BY-2.0 Fredrik Rubensson (https://flic.kr/p/dC1gvd) @phrawzty // Datadog\n9</p>\n"
+    },
+    {
+      "id": "GP3cFj",
+      "number": 10,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Output Photo: CC-BY-2.0 Rob Brewer (https://flic.kr/p/VXgQqu) @phrawzty // Datadog 10",
+      "title": "",
+      "original_description_html": "<p>Output\nPhoto: CC-BY-2.0 Rob Brewer (https://flic.kr/p/VXgQqu) @phrawzty // Datadog\n10</p>\n"
+    },
+    {
+      "id": "simQ88",
+      "number": 11,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Context is important (…and control theory is vast) Photo: CC-BY-SA dilettantiquity (https://flic.kr/p/ppsKuz) @phrawzty // Datadog 11",
+      "title": "",
+      "original_description_html": "<p>Context is important (…and control theory is vast)\nPhoto: CC-BY-SA dilettantiquity (https://flic.kr/p/ppsKuz) @phrawzty // Datadog\n11</p>\n"
+    },
+    {
+      "id": "V2VE0X",
+      "number": 12,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "State observer Photo: CC-BY-SA John Dyhouse (https://flic.kr/p/7ErCMc) @phrawzty // Datadog 12",
+      "title": "",
+      "original_description_html": "<p>State observer\nPhoto: CC-BY-SA John Dyhouse (https://flic.kr/p/7ErCMc) @phrawzty // Datadog\n12</p>\n"
+    },
+    {
+      "id": "7ME1sw",
+      "number": 13,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Multi & Bounding observer Interval & Luenberger observers Positive systems! Moving horizon estimations! Kalman filters in general topological spaces! Photo: CC-BY-SA https://en.wikipedia.org/wiki/State_observer @phrawzty // Datadog 13",
+      "title": "",
+      "original_description_html": "<p>Multi &amp; Bounding observer Interval &amp; Luenberger observers Positive systems! Moving horizon estimations! Kalman filters in general topological spaces! Photo: CC-BY-SA https://en.wikipedia.org/wiki/State_observer @phrawzty // Datadog\n13</p>\n"
+    },
+    {
+      "id": "jfwplL",
+      "number": 14,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "“The Three Pillars” Photo: CC-BY-2.0 Andrew (https://flic.kr/p/xy6rdF) @phrawzty // Datadog 14",
+      "title": "",
+      "original_description_html": "<p>“The Three Pillars”\nPhoto: CC-BY-2.0 Andrew (https://flic.kr/p/xy6rdF) @phrawzty // Datadog\n14</p>\n"
+    },
+    {
+      "id": "Lzfddk",
+      "number": 15,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Events, Signals, Telemetry, Paths, Stories… Photo: CC-BY-2.0 Steve Jurvetson (https://flic.kr/p/2mbX3RZ) @phrawzty // Datadog 15",
+      "title": "",
+      "original_description_html": "<p>Events, Signals, Telemetry, Paths, Stories… Photo: CC-BY-2.0 Steve Jurvetson (https://flic.kr/p/2mbX3RZ) @phrawzty // Datadog\n15</p>\n"
+    },
+    {
+      "id": "yJORW9",
+      "number": 16,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Understanding and Comprehension Photo: CC-ND-2.0 Hans Splinter (https://flic.kr/p/2kLH9NF) @phrawzty // Datadog 16",
+      "title": "",
+      "original_description_html": "<p>Understanding and\nComprehension Photo: CC-ND-2.0 Hans Splinter (https://flic.kr/p/2kLH9NF) @phrawzty // Datadog\n16</p>\n"
+    },
+    {
+      "id": "ad7FOY",
+      "number": 17,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Unknown unknowns Photo: CC-BY-SA Stinging Eyes (https://flic.kr/p/9kreao) @phrawzty // Datadog 17",
+      "title": "",
+      "original_description_html": "<p>Unknown unknowns\nPhoto: CC-BY-SA Stinging Eyes (https://flic.kr/p/9kreao) @phrawzty // Datadog\n17</p>\n"
+    },
+    {
+      "id": "Cwq3Gx",
+      "number": 18,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ok, so, practically-speaking, what is observability?! Photo: CC-BY-2.0 Becks (https://flic.kr/p/p1dHTN) @phrawzty // Datadog 18",
+      "title": "",
+      "original_description_html": "<p>Ok, so,\npractically-speaking,\nwhat is observability?! Photo: CC-BY-2.0 Becks (https://flic.kr/p/p1dHTN) @phrawzty // Datadog\n18</p>\n"
+    },
+    {
+      "id": "pGYr9M",
+      "number": 19,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observer / observed relationship Photo: CC-BY-SA Matt Brown (https://flic.kr/p/2hwn1DV) @phrawzty // Datadog 19",
+      "title": "",
+      "original_description_html": "<p>Observer / observed relationship Photo: CC-BY-SA Matt Brown (https://flic.kr/p/2hwn1DV) @phrawzty // Datadog\n19</p>\n"
+    },
+    {
+      "id": "RaHf1l",
+      "number": 20,
+      "image": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Observability as a property of a system is important—but so is the observer’s capacity to make use of that property. Photo: Public Domain fdctsevilla (https://flic.kr/p/23rPAvU) @phrawzty // Datadog 20",
+      "title": "",
+      "original_description_html": "<p>Observability as a property of a system is important—but so is the observer’s capacity to make use of that property. Photo: Public Domain fdctsevilla (https://flic.kr/p/23rPAvU) @phrawzty // Datadog\n20</p>\n"
+    }
+  ],
+  "page_count": 20,
+  "files": [
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0001.jpg",
+      "sha256": "a7cf598f3b2dd0d1d3c60bb69efaa18f81755687a8215ceea3d1bcd41b7d07b1",
+      "bytes": 99181
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0002.jpg",
+      "sha256": "e7e6c34b5ac37bcc42363ad06d642dbbfc39058708877bae391e17b636bdb034",
+      "bytes": 218518
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0003.jpg",
+      "sha256": "a277af4dff02bd51a27380cc9b4d1e33ed77fec8ac0f30c1205aa1fd73ca4312",
+      "bytes": 154385
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0004.jpg",
+      "sha256": "d5b6429586c18b6fb58b0d646b087dc2dbb24b75d2f7d47db1be69a5078cf9c1",
+      "bytes": 233282
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0005.jpg",
+      "sha256": "bbf554687f753200901f50e5c9694c00a4e1e26c299513e7ae0d6b8e8d7a83d5",
+      "bytes": 270181
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0006.jpg",
+      "sha256": "87ab30e21fba5d14cd5b60e241a0f2036b74126ffd9c486583bb6fb34de467c2",
+      "bytes": 431444
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0007.jpg",
+      "sha256": "e5d91815de331ed26ebdefdf1cf09d2fa635ed3f41f6eaceb2707cf59cd6a9c2",
+      "bytes": 106271
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0008.jpg",
+      "sha256": "1533e4f757f94051c0bfac20d6ea7411420fbb435d11413d7ecc19eb00582542",
+      "bytes": 179513
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0009.jpg",
+      "sha256": "744b213430022733b71a9f8639be27d2c81b14dd6dda7c62a02c72b3a6287090",
+      "bytes": 150187
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0010.jpg",
+      "sha256": "ed406350157dce993645697d942bc76258e44cd0ac36fe4da817c873bc786dbe",
+      "bytes": 90841
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0011.jpg",
+      "sha256": "7e5dc7faae66f2bb143209931dab2d9bc5b4ef867fb1d6da43ebc4bcb29b3167",
+      "bytes": 258927
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0012.jpg",
+      "sha256": "7c74c6259ed9c5045e0a8d843ce79b732a4799b1b32027a5a1fb1abff231664a",
+      "bytes": 272408
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0013.jpg",
+      "sha256": "b267b84388a7aacf15dfd33fb3e270c12c0f038cd0c638e44f1db6ad577cadbe",
+      "bytes": 179740
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0014.jpg",
+      "sha256": "b89425ff9c8d6c1cd5b1ab1c533c9f848826e96a7e11f3c3113fcf16e79eaa8d",
+      "bytes": 211078
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0015.jpg",
+      "sha256": "aef84e3063a6d12ab5524cad1b3a9e07763ef5c852d889b596af18fdf570c383",
+      "bytes": 237345
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0016.jpg",
+      "sha256": "b3edaf18d708b78df59233255d071b0a9578dc73e2af7f3984b2db245bff23bf",
+      "bytes": 326500
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0017.jpg",
+      "sha256": "213759773d4761de24849a0e1c3f8a8de6e9044077e81663a678dd1c6fa58c7e",
+      "bytes": 201962
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0018.jpg",
+      "sha256": "b8620f44c835b5b143cac5268fa94b584ba0373f04a15b6bfc5639100135c3d8",
+      "bytes": 191152
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0019.jpg",
+      "sha256": "38639d94996cdc9be8543ac70f5aa02af3005793c9cc7f7f093057180438cb89",
+      "bytes": 143569
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/0020.jpg",
+      "sha256": "7bff593c98db9e2a36ab74bfbb35895bb64c5061d0c5072e93f4cb993b07ac7c",
+      "bytes": 363766
+    },
+    {
+      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/original.pdf",
+      "sha256": "cf2d860a00fd44e10225c790743985d4bbde0b13d84c30ae1605608c5ddb8d0c",
+      "bytes": 43543955
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/Dc18kv/principles-of-observability-ignite"
+}

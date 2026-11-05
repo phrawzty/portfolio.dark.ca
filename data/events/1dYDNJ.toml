@@ -1,0 +1,12 @@
+id = "ev_1dYDNJ"
+title = "Paris DevRel Salon"
+slug = "paris-devrel-salon"
+starts_on = "2019-11-05 08:00:00"
+ends_on = "2019-11-05 18:00:00"
+timezone = "Europe/Paris"
+address = "Paris, France"
+latitude = "48.856614"
+longitude = "2.352222"
+country_code = "FR"
+
+[blurb]

@@ -1,0 +1,363 @@
+{
+  "id": "94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46",
+  "source_sha256": "5eb3be89fe0cd52f35dcd9044be6f3234fca9ad6ffdefcbf76ff74f3f30de113",
+  "provenance": "original",
+  "pdf": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/original.pdf",
+  "slides": [
+    {
+      "id": "3x2VXs",
+      "number": 1,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Building on Quicksand Dependency Security Foundations Daniel ‘phrawzty’ Maher Senior Security Advocate, Datadog 1 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Building on Quicksand Dependency Security Foundations Daniel ‘phrawzty’ Maher Senior Security Advocate, Datadog\n1\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "gGlJQH",
+      "number": 2,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Building on Quicksand: Dependency Security Foundations What systematic assessment of major registries actually found 2 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Building on Quicksand: Dependency Security Foundations What systematic assessment of major registries actually found\n2\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "IaU7Ig",
+      "number": 3,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "About me • Senior Security Advocate at Datadog • Previously: large-scale production systems at Ubisoft and Mozilla • Slide minimalist 3 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>About me • Senior Security Advocate at Datadog • Previously: large-scale production systems at Ubisoft and Mozilla • Slide minimalist\n3\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "uuCvB5",
+      "number": 4,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "A note on the research • This research is not yet publicly released • The questions and methodology are still being refined • More registries to come • Goal is a community-driven model: open submissions, collective assessment, fewer individual biases 4 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>A note on the research • This research is not yet publicly released • The questions and methodology are still being refined • More registries to come • Goal is a community-driven model: open submissions, collective assessment, fewer individual biases\n4\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "XDvj3U",
+      "number": 5,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "“crates.io is probably more secure than npm” • Rust: a language built around security and correctness • npm: repeated high-profile supply chain incidents • crates.io: smaller, more curated, community-governed • …right? 5 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>“crates.io is probably more secure than npm” • Rust: a language built around security and correctness • npm: repeated high-profile supply chain incidents • crates.io: smaller, more curated, community-governed • …right?\n5\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "9XeWvt",
+      "number": 6,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Software Supply Chain Security Scorecard (SSCSS) • 52 questions across 8 security domains • Questions are concrete and enforceable • “Partially implemented” is not a security boundary • Assessed 6 registries and counting… • npm, PyPI, RubyGems, crates.io, Packagist, Hex.pm (yes it is pronounced suss cuss) 6 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Software Supply Chain Security Scorecard (SSCSS) • 52 questions across 8 security domains • Questions are concrete and enforceable • “Partially implemented” is not a security boundary • Assessed 6 registries and counting… • npm, PyPI, RubyGems, crates.io, Packagist, Hex.pm\n(yes it is pronounced suss cuss) 6\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "lrNKoI",
+      "number": 7,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Eight domains (sections) 7 Section Max S1: Identity & Authentication (Human) 4 S2: Automated Publishing Security (Machine) 7 S3: Authorisation & Access Control 7 S4: Build & Provenance 8 S5: Integrity & Signing 6 S6: Vulnerability Management 7 S7: Abuse Prevention & Response 6 S8: Transparency & Auditability 7 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Eight domains (sections)\n7\nSection\nMax\nS1: Identity &amp; Authentication (Human)\n4\nS2: Automated Publishing Security (Machine)\n7\nS3: Authorisation &amp; Access Control\n7\nS4: Build &amp; Provenance\n8\nS5: Integrity &amp; Signing\n6\nS6: Vulnerability Management\n7\nS7: Abuse Prevention &amp; Response\n6\nS8: Transparency &amp; Auditability\n7\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "OB68gh",
+      "number": 8,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Headline scores 8 Registry Score % npm 44/52 85% PyPI 32/52 62% RubyGems 31/52 60% crates.io 24/52 46% Hex.pm 24/52 46% Packagist 18/52 35% @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Headline scores\n8\nRegistry\nScore\n%\nnpm\n44/52\n85%\nPyPI\n32/52\n62%\nRubyGems\n31/52\n60%\ncrates.io\n24/52\n46%\nHex.pm\n24/52\n46%\nPackagist\n18/52\n35%\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "0UowZ6",
+      "number": 9,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Section-by-section: the full picture Domain PyPI RubyGems crates.io Hex.pm Packagist Max S1 Auth (Human) 3 3 0 1 0 0 4 S2 Auth (Machine) 6 4 4 4 2 2 7 S3 Access Control 6 4 4 4 5 4 7 S4 Build & Provenance 6 4 3 2 2 2 8 S5 Integrity & Signing 5 5 6 2 3 2 6 S6 Vulnerability Mgmt 7 3 4 3 4 4 7 S7 Abuse Prevention 6 5 5 5 5 2 6 S8 Transparency 5 4 5 3 3 2 7 9 @phrawzty // Datadog npm",
+      "title": "",
+      "original_description_html": "<p>Section-by-section: the full picture Domain\nPyPI\nRubyGems\ncrates.io\nHex.pm\nPackagist\nMax\nS1 Auth (Human) 3\n3\n0\n1\n0\n0\n4\nS2 Auth (Machine)\n6\n4\n4\n4\n2\n2\n7\nS3 Access Control 6\n4\n4\n4\n5\n4\n7\nS4 Build &amp; Provenance\n6\n4\n3\n2\n2\n2\n8\nS5 Integrity &amp; Signing\n5\n5\n6\n2\n3\n2\n6\nS6 Vulnerability Mgmt\n7\n3\n4\n3\n4\n4\n7\nS7 Abuse Prevention\n6\n5\n5\n5\n5\n2\n6\nS8 Transparency 5\n4\n5\n3\n3\n2\n7\n9\n@phrawzty // Datadog\nnpm</p>\n"
+    },
+    {
+      "id": "coXkRV",
+      "number": 10,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "S2, S3, S6, S7: the steadier ground • S2 (Machine auth): npm 6/7, improving via OIDC trusted publishing across the field • S3 (Access control): broadly consistent 4–6/7; namespace protection widespread • S6 (Vulnerability mgmt): npm perfect (7/7); most others 3–4/7; active scanning the differentiator • S7 (Abuse prevention): 5 of 6 registries score 5–6/6 — visible failures drove investment • n.b. Packagist (2/6) 10 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>S2, S3, S6, S7: the steadier ground • S2 (Machine auth): npm 6/7, improving via OIDC trusted publishing across the field • S3 (Access control): broadly consistent 4–6/7; namespace protection widespread • S6 (Vulnerability mgmt): npm perfect (7/7); most others 3–4/7; active scanning the differentiator • S7 (Abuse prevention): 5 of 6 registries score 5–6/6 — visible failures drove investment • n.b. Packagist (2/6) 10\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "F8GYJu",
+      "number": 11,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "npm: the best-in-class gaps • S1: 3/4 — MFA and verified identity, but no enforced SSO for organisations • S4: 6/8 — no reproducible builds, no isolated build environments • S8: 5/7 — no public audit logs of account events, no security metrics published 11 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>npm: the best-in-class gaps • S1: 3/4 — MFA and verified identity, but no enforced SSO for organisations • S4: 6/8 — no reproducible builds, no isolated build environments • S8: 5/7 — no public audit logs of account events, no security metrics published\n11\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "rRzMCJ",
+      "number": 12,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "crates.io: the security-culture paradox • Rust has a strong security engineering culture • crates.io scores 24/52 — tied with Hex.pm, near the bottom of the field • S4: 2/8 — only source linking and lockfile support • S5: 2/6 — checksums only; no cryptographic signing, no attestations • S8: 3/7 — no transparency log, no build logs, no security metrics 12 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>crates.io: the security-culture paradox • Rust has a strong security engineering culture • crates.io scores 24/52 — tied with Hex.pm, near the bottom of the field • S4: 2/8 — only source linking and lockfile support • S5: 2/6 — checksums only; no cryptographic signing, no attestations • S8: 3/7 — no transparency log, no build logs, no security metrics\n12\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "TliA4i",
+      "number": 13,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "S1: Human authentication — still uneven Registry MFA enforced SSO/Federation Publisher verified Org link npm Yes No Yes Yes PyPI Yes No Yes Yes RubyGems No No No No crates.io Yes (via GitHub) No No No Packagist No No No No Hex.pm No No No No 13 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>S1: Human authentication — still uneven Registry\nMFA enforced\nSSO/Federation\nPublisher verified Org link\nnpm\nYes\nNo\nYes\nYes\nPyPI\nYes\nNo\nYes\nYes\nRubyGems\nNo\nNo\nNo\nNo\ncrates.io\nYes (via GitHub)\nNo\nNo\nNo\nPackagist\nNo\nNo\nNo\nNo\nHex.pm\nNo\nNo\nNo\nNo\n13\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "65Qxx7",
+      "number": 14,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "S4: Build & Provenance — the persistent gap • Reproducible builds: 0/6 registries • Sandboxed build environments: 0/6 registries • SLSA provenance metadata: npm and PyPI only • Source repository linking: 6/6 registries • SBOM availability: npm only 14 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>S4: Build &amp; Provenance — the persistent gap • Reproducible builds: 0/6 registries • Sandboxed build environments: 0/6 registries • SLSA provenance metadata: npm and PyPI only • Source repository linking: 6/6 registries • SBOM availability: npm only\n14\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "iP9lpW",
+      "number": 15,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "S5: Integrity — a brighter spot, with caveats • Checksums near-universal: published and verified on install • Cryptographic signing by publishers: RubyGems and PyPI • Keyless signing via Sigstore: RubyGems, npm, and PyPI • Attestation verification: RubyGems, npm, PyPI • crates.io, Packagist: checksums only; Hex.pm adds registry-level verification 15 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>S5: Integrity — a brighter spot, with caveats • Checksums near-universal: published and verified on install • Cryptographic signing by publishers: RubyGems and PyPI • Keyless signing via Sigstore: RubyGems, npm, and PyPI • Attestation verification: RubyGems, npm, PyPI • crates.io, Packagist: checksums only; Hex.pm adds registry-level verification\n15\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "KisZhv",
+      "number": 16,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "S8: Transparency — the audit trail problem • Transparency log of publications: npm, PyPI, RubyGems • Build log access: npm only • Public audit logs of account events: Hex.pm only • Malicious package removal feed: npm, RubyGems, crates.io • Security researcher APIs: most registries 16 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>S8: Transparency — the audit trail problem • Transparency log of publications: npm, PyPI, RubyGems • Build log access: npm only • Public audit logs of account events: Hex.pm only • Malicious package removal feed: npm, RubyGems, crates.io • Security researcher APIs: most registries\n16\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "x2bNaK",
+      "number": 17,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The pattern: visible vs invisible controls Visible controls (enforced at interaction time) - MFA: you either log in or you don’t - Checksums: verified on install, failure is immediate Invisible controls (benefit is diffuse, failure is silent) - Provenance: pip install succeeds whether or not it was attested - Transparency logs: you don’t know you needed them until an incident - Audit trails: absence is only noticed during forensics 17 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>The pattern: visible vs invisible controls Visible controls (enforced at interaction time) - MFA: you either log in or you don’t - Checksums: verified on install, failure is immediate Invisible controls (benefit is diffuse, failure is silent) - Provenance: pip install succeeds whether or not it was attested - Transparency logs: you don’t know you needed them until an incident - Audit trails: absence is only noticed during forensics\n17\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "ZMKBSj",
+      "number": 18,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Why this matters for consumers • You cannot control the registry’s security policies • You can control your own verification practices • The invisible gaps require compensating controls on your side • Build your pipeline to verify what the registry does not 18 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Why this matters for consumers • You cannot control the registry’s security policies • You can control your own verification practices • The invisible gaps require compensating controls on your side • Build your pipeline to verify what the registry does not\n18\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "Bg2zL8",
+      "number": 19,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Where to focus: a priority map High priority (registry gaps + high consumer impact) - Provenance verification where available (npm, PyPI via SLSA) - Dependency pinning and lockfile enforcement across all ecosystems - Monitor for unexpected version changes in your dependency graph Medium priority (emerging capability, worth tracking) - Sigstore-based signature verification (RubyGems, npm, PyPI) - Private registry proxies with approval gates before packages reach builds Baseline (already widely implemented by registries — lean on them) - Checksum verification — the registries handle this - MFA on your publisher accounts — enforce it yourself if the registry won’t 19 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Where to focus: a priority map High priority (registry gaps + high consumer impact) - Provenance verification where available (npm, PyPI via SLSA) - Dependency pinning and lockfile enforcement across all ecosystems - Monitor for unexpected version changes in your dependency graph Medium priority (emerging capability, worth tracking) - Sigstore-based signature verification (RubyGems, npm, PyPI) - Private registry proxies with approval gates before packages reach builds Baseline (already widely implemented by registries — lean on them) - Checksum verification — the registries handle this - MFA on your publisher accounts — enforce it yourself if the registry won’t 19\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "nzlnDX",
+      "number": 20,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Engaging the ecosystem • Advocate to registries that haven’t mandated MFA to do so • Fund or contribute engineering time toward the gaps • Reach out to critical maintainers in your chain — help them enable MFA • Use OIDC trusted publishing where supported (npm, PyPI) — eliminate long-lived CI tokens 20 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Engaging the ecosystem • Advocate to registries that haven’t mandated MFA to do so • Fund or contribute engineering time toward the gaps • Reach out to critical maintainers in your chain — help them enable MFA • Use OIDC trusted publishing where supported (npm, PyPI) — eliminate long-lived CI tokens\n20\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "QJUb5w",
+      "number": 21,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What the data tells us about trajectory • Authentication: improving — npm, PyPI have moved; others lagging but moving • Trusted publishing (OIDC-based tokens): gaining traction on npm, PyPI • Provenance infrastructure: being built, slowly, in the right ecosystems • Transparency & Auditability: most neglected domain; investment consistently deferred 21 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>What the data tells us about trajectory • Authentication: improving — npm, PyPI have moved; others lagging but moving • Trusted publishing (OIDC-based tokens): gaining traction on npm, PyPI • Provenance infrastructure: being built, slowly, in the right ecosystems • Transparency &amp; Auditability: most neglected domain; investment consistently deferred\n21\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "2dDOyL",
+      "number": 22,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0022.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Summary • Systematic measurement reveals gaps that intuition misses • npm leads at 85%, but still has provenance and transparency gaps • crates.io — a reminder that security culture doesn’t automatically translate into registry infrastructure • S4 (Build & Provenance) and S8 (Transparency) show the widest crossregistry gaps — most registries fall furthest short here • The visible-versus-invisible pattern explains where the gaps cluster • Consumer compensating controls matter most where S4 and S8 are absent 22 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Summary • Systematic measurement reveals gaps that intuition misses • npm leads at 85%, but still has provenance and transparency gaps • crates.io — a reminder that security culture doesn’t automatically translate into registry infrastructure • S4 (Build &amp; Provenance) and S8 (Transparency) show the widest crossregistry gaps — most registries fall furthest short here • The visible-versus-invisible pattern explains where the gaps cluster • Consumer compensating controls matter most where S4 and S8 are absent 22\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "ewwCqk",
+      "number": 23,
+      "image": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank you Questions? • https://securitylabs.datadoghq.com/ • Super great blog, really! • Sign up for our human-written monthly newsletter :) 23 @phrawzty // Datadog",
+      "title": "",
+      "original_description_html": "<p>Thank you Questions? • https://securitylabs.datadoghq.com/ • Super great blog, really! • Sign up for our human-written monthly newsletter :)\n23\n@phrawzty // Datadog</p>\n"
+    }
+  ],
+  "page_count": 23,
+  "files": [
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0001.png",
+      "sha256": "a07b4e11f49e3ff60fe8ac40b7bef3e9cf8dd8865150a801f897e7cbf890b719",
+      "bytes": 235384
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0002.png",
+      "sha256": "da7d8b9be54f5ea39c141c2752f22eb780f1e068d85dbed8eddc8b9ff742c7c9",
+      "bytes": 299268
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0003.png",
+      "sha256": "288201ed96b96f91df70b20e86774d1d05b699e36a3ded92c1d167262712aaa1",
+      "bytes": 215677
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0004.png",
+      "sha256": "eec890a5be4ad23b6dd9a5a48f1d38a2e77ebc0b4d1850cf418c6460dba07a51",
+      "bytes": 368578
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0005.png",
+      "sha256": "d414030b20e8657f03793f994f36ab951756b6ddd16fba7d48e124d548785085",
+      "bytes": 344816
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0006.png",
+      "sha256": "2fb35aeac7f2022107782b8daba28c32c8911fc7f31869897fc2be7817104c6c",
+      "bytes": 496735
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0007.png",
+      "sha256": "e0a4ea4eaac433b7b3adb507df24f986f9f87bda2b851b7ab543a021e5cd019c",
+      "bytes": 365667
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0008.jpg",
+      "sha256": "28cd928bb52ce274684b87b030ce60c9897fa1ed3a146ee64fe2f6eaffd5038e",
+      "bytes": 71679
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0009.png",
+      "sha256": "460be399368855c9c92f4af0f35ba1438432595389c349c3fca8426e9071eee5",
+      "bytes": 319274
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0010.png",
+      "sha256": "6be9ed9e2ae8ccbb11f9df89e70f558b70d5d75fee75c54401c707650cfd553a",
+      "bytes": 628856
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0011.png",
+      "sha256": "9f8a838108edd0f08048fed9dce9ccff936449a84732ed85a983e41c843318a7",
+      "bytes": 382417
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0012.png",
+      "sha256": "811809e836824411ca91ab55991dace36c3fd03ff1b30cbca786d99d00d118ad",
+      "bytes": 500315
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0013.png",
+      "sha256": "b4729f5492656a4638e9f31097710efdaaa5894b12d03cb916476f9b6e5babf9",
+      "bytes": 358201
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0014.png",
+      "sha256": "e13d7633476862f3202af2e64b42a27573f795afc9987ce069cb35e128dc612b",
+      "bytes": 419009
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0015.png",
+      "sha256": "4d86145230cee0bedd8da7e6a92b4ead69495f951e122c8550546dfb7f4056a5",
+      "bytes": 540010
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0016.png",
+      "sha256": "943bd753a0f1d6a5f14ebfe5c94f9123b86b6cab67a502ca32e2ce815883c28a",
+      "bytes": 455962
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0017.png",
+      "sha256": "4fc8cf6094216e12530eb84dd1f697880a6c020e5c9c617f9f8ecc3c7e854b9d",
+      "bytes": 568031
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0018.png",
+      "sha256": "09a17ce29caf2ee90332d3e1f6c308e25abca89a031bec04a3cd421ff9fb9bed",
+      "bytes": 383901
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0019.png",
+      "sha256": "54c0f13be9855b19894414e60efff4eb0897bc96bdae6eea5bfd0e63acfd816f",
+      "bytes": 890481
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0020.png",
+      "sha256": "27af8e70d47d90169f32edbdb92437e852d1abc513c4e1b153ca633a75ac9025",
+      "bytes": 432091
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0021.png",
+      "sha256": "6ff3d58ef7e3e2a827af99d91ab8258954ce167e4b8d22f4af1e0c930fa21d26",
+      "bytes": 503241
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0022.png",
+      "sha256": "d5362b48a7c457843537842fd2e4e77fa1d3079c9625d9dee48a89229e55cba1",
+      "bytes": 676305
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/0023.png",
+      "sha256": "679cdeb44a495d0c375edfb88c7bfed37cfbbaff95dfa09a294c7e34cc7cf5b5",
+      "bytes": 235451
+    },
+    {
+      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/original.pdf",
+      "sha256": "5eb3be89fe0cd52f35dcd9044be6f3234fca9ad6ffdefcbf76ff74f3f30de113",
+      "bytes": 904647
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/RvNyhJ/building-on-quicksand-dependency-security-foundations"
+}

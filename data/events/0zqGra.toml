@@ -1,0 +1,12 @@
+id = "ev_0zqGra"
+title = "DevOpsDays Oslo 2018"
+slug = "devopsdays-oslo-2018"
+starts_on = "2018-10-29 08:00:00"
+ends_on = "2018-10-30 18:00:00"
+timezone = "Europe/Oslo"
+address = "Oslo, Norway"
+latitude = "59.913869"
+longitude = "10.752245"
+country_code = "NO"
+
+[blurb]

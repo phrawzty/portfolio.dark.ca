@@ -1,0 +1,12 @@
+id = "ev_YOOyni"
+title = "DevOpsDays Amsterdam 2019"
+slug = "devopsdays-amsterdam-2019"
+starts_on = "2019-06-26 08:00:00"
+ends_on = "2019-06-28 18:00:00"
+timezone = "Europe/Amsterdam"
+address = "Amsterdam, Netherlands"
+latitude = "52.370216"
+longitude = "4.895168"
+country_code = "NL"
+
+[blurb]

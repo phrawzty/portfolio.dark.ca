@@ -1,0 +1,48 @@
+/* Small portfolio additions to the same Terminus theme used at dark.ca. */
+.introduction { margin: 1.5rem 0 3.5rem; }
+.introduction h1 { max-width: 24ch; font-size: clamp(1.7rem, 5vw, 2.6rem); line-height: 1.23; }
+.eyebrow { color: var(--accent-color); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+.muted { color: color-mix(in srgb, var(--text-color) 66%, var(--background-color)); }
+.small { font-size: .8rem; }
+.section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+.section-heading > a { font-size: .8rem; }
+main > section, article > section { margin-block: 3rem; }
+.appearance-row { display: grid; grid-template-columns: 8rem 1fr; gap: 1.25rem; padding: 1.3rem 0; border-bottom: 1px solid color-mix(in srgb, var(--accent-color) 18%, transparent); }
+.appearance-row time { font-size: .8rem; color: var(--accent-color); padding-top: .2rem; }
+.appearance-row h3, .appearance-row p { margin: 0 0 .45rem; }
+.appearance-row h3 { font-size: 1rem; }
+.appearance-row h3 a { text-decoration: none; }
+.appearance-links { display: flex; gap: 1rem; }
+.talk-row { border-bottom: 1px solid color-mix(in srgb, var(--accent-color) 18%, transparent); padding-block: .5rem; }
+.badge, .preview-label { font-size: .7rem; border: 1px solid var(--accent-color); padding: .15rem .4rem; color: var(--accent-color); }
+.preview-label { width: fit-content; }
+.appearance-header { margin-bottom: 2rem; }
+.deck { background: #151411; border: 1px solid #504537; outline-offset: 4px; }
+.deck figure { margin: 0; }
+.deck-slide[hidden] { display: none; }
+.deck-slide img { width: 100%; height: auto; margin: 0; }
+.slide-transcript { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.deck-controls { display: flex; align-items: center; gap: .75rem; padding: .65rem; border-top: 1px solid #504537; }
+.deck-controls button { font: inherit; padding: .25rem .6rem; border: 1px solid #74624d; background: transparent; color: var(--accent-color); cursor: pointer; }
+.deck-controls button:disabled { opacity: .35; cursor: default; }
+.deck-controls output { margin-right: auto; font-size: .8rem; }
+.deck-footer { display: flex; flex-wrap: wrap; gap: 1.5rem; padding-block: 1rem; font-size: .8rem; }
+.deck:fullscreen { display: flex; flex-direction: column; justify-content: center; background: #151411; }
+.deck:fullscreen .slide-stage { overflow: hidden; min-height: 0; }
+.deck:fullscreen .deck-slide img { max-height: calc(100vh - 4rem); object-fit: contain; }
+.deck:fullscreen .deck-controls { width: 100%; }
+.transcript-slide { margin-block: 3rem; }
+.transcript-slide img { width: 100%; height: auto; }
+.slide-text { white-space: pre-wrap; color: color-mix(in srgb, var(--text-color) 80%, var(--background-color)); }
+.resource-list li { margin-block: 1rem; }
+.recording-player iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; }
+.recording-player button { font: inherit; padding: .6rem 1rem; color: var(--accent-color); background: transparent; border: 1px solid var(--accent-color); cursor: pointer; }
+.headshots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.headshots figure, .headshots img { margin: 0; }
+blockquote cite { font-size: .8rem; }
+.skip-link { position: absolute; top: -10rem; }
+.skip-link:focus { top: 0; z-index: 2000; background: var(--background-color); padding: 1rem; }
+.appearance-map { height: 360px; background: #2a2824; isolation: isolate; }
+.leaflet-container img { max-width: none !important; max-inline-size: none !important; margin: 0 !important; }
+.leaflet-popup-content { font-family: inherit; font-size: .8rem; }
+@media (max-width: 600px) { .appearance-row { grid-template-columns: 1fr; gap: .35rem; } .deck-controls { gap: .4rem; } }

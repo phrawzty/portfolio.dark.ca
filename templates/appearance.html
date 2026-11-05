@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block main %}
+<article><header class="appearance-header"><p class="eyebrow">{{ page.extra.event }}{% if page.draft %} · Draft{% endif %}</p><h1>{{ page.title }}</h1>
+<p class="muted"><time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format='%d %B %Y') }}</time> · {{ page.extra.location }}</p>
+{% if page.extra.event_url %}<a class="small" href="{{ page.extra.event_url }}">Event website ↗</a>{% endif %}</header>
+<div class="prose">{{ page.content | safe }}</div>
+{% if page.extra.deck %}{% include "partials/deck.html" %}{% endif %}
+{% if page.extra.recording_url %}<section id="recording"><h2>Recording</h2><div class="recording-player" data-recording="{{ page.extra.recording_url }}"><button type="button" data-play-recording hidden>Play here</button></div><p><a class="button-link" href="{{ page.extra.recording_url }}">Watch the recording ↗</a></p></section>{% endif %}
+{% if page.extra.resources %}<section id="resources"><h2>Resources</h2><ul class="resource-list">{% for resource in page.extra.resources %}<li><a href="{{ resource.url }}">{{ resource.title }}</a>{% if resource.description %}<div class="muted">{{ resource.description | markdown | safe }}</div>{% endif %}</li>{% endfor %}</ul></section>{% endif %}
+{% if page.extra.feedback %}<section id="feedback"><h2>Buzz and feedback</h2>{% for feedback in page.extra.feedback %}<blockquote><p>{{ feedback.text }}</p>{% if feedback.url %}<cite><a href="{{ feedback.url }}">{{ feedback.author | default(value='Original post') }}</a></cite>{% endif %}</blockquote>{% endfor %}</section>{% endif %}
+<p class="small"><a href="{{ get_url(path='talks/' ~ page.extra.talk ~ '/') }}">More appearances of this talk →</a></p>
+</article>
+{% endblock %}

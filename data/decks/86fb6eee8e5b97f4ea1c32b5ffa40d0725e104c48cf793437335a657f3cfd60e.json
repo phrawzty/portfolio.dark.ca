@@ -1,0 +1,528 @@
+{
+  "id": "86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e",
+  "source_sha256": "a5f9fcd89407f4c83ed67367ec1b185a8ef0b203859af000a09ee9b96d097778",
+  "provenance": "reconstructed",
+  "pdf": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/reconstructed.pdf",
+  "slides": [
+    {
+      "id": "5FTcJF",
+      "number": 1,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Real-time Container Monitoring Best Practices Presented by AWS & Datadog",
+      "title": "",
+      "original_description_html": "<p>Real-time Container Monitoring Best Practices Presented by AWS &amp; Datadog</p>\n"
+    },
+    {
+      "id": "hZCQBe",
+      "number": 2,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Today’s Speakers Daniel Maher Developer Advocate Datadog Igor Alekseev Data & Analytics Partner AWS",
+      "title": "",
+      "original_description_html": "<p>Today’s Speakers Daniel Maher Developer Advocate Datadog\nIgor Alekseev Data &amp; Analytics Partner AWS</p>\n"
+    },
+    {
+      "id": "JsvE43",
+      "number": 3,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Agenda – Introduction & Session Overview – Containers at AWS – Real-world Containers Best Practices & Use Cases – What’s Next? – Audience Q&A",
+      "title": "",
+      "original_description_html": "<p>Agenda – Introduction &amp; Session Overview – Containers at AWS – Real-world Containers Best Practices &amp; Use Cases – What’s Next? – Audience Q&amp;A</p>\n"
+    },
+    {
+      "id": "wCe1wS",
+      "number": 4,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Poll Question What container runtime are you currently using? – Docker – Containerd – CRI-O – Other",
+      "title": "",
+      "original_description_html": "<p>Poll Question What container runtime are you currently using? – Docker – Containerd – CRI-O – Other</p>\n"
+    },
+    {
+      "id": "YWMpor",
+      "number": 5,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Containers at AWS More options and power than ever before © 2022, Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>Containers at AWS More options and power than ever before\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "Aq5dhG",
+      "number": 6,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "What customers ask for Build applications, not infrastructure © 2022 Amazon Web Services, Inc. or its Affiliates. Manage infrastructure to their requirements Scale quickly and seamlessly Security and isolation by design",
+      "title": "",
+      "original_description_html": "<p>What customers ask for\nBuild applications, not infrastructure\n© 2022 Amazon Web Services, Inc. or its Affiliates.\nManage infrastructure to their requirements\nScale quickly and seamlessly\nSecurity and isolation by design</p>\n"
+    },
+    {
+      "id": "n9oRZf",
+      "number": 7,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "What are our customers building? © 2022, Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>What are our customers building?\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "PTXFS4",
+      "number": 8,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Applications Shared services platform Enterprise app migration Machine learning Mobile & web applications CI/CD .NET Classic Windows apps Autonomous vehicle Back-end web services IaaS Linux apps Recommendation engines IoT Management, security, & governance Third-party applications Fraud detection Data processing Logging & monitoring © 2020, 2022, Amazon Web Services, Inc. or its Affiliates. Chatbots",
+      "title": "",
+      "original_description_html": "<p>Applications\nShared services platform\nEnterprise app migration\nMachine learning\nMobile &amp; web applications\nCI/CD\n.NET Classic Windows apps\nAutonomous vehicle\nBack-end web services\nIaaS\nLinux apps\nRecommendation engines\nIoT\nManagement, security, &amp; governance\nThird-party applications\nFraud detection\nData processing\nLogging &amp; monitoring\n© 2020, 2022, Amazon Web Services, Inc. or its Affiliates.\nChatbots</p>\n"
+    },
+    {
+      "id": "1nG3KT",
+      "number": 9,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "How are customers building? © 2022, Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>How are customers building?\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "e6yrCs",
+      "number": 10,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Compute operational models Least AWS Lambda Serverless functions AWS manages Customer manages Data source integrations Application code Physical hardware, software, networking, and facilities Provisioning Application code What you manage Container orchestration, provisioning AWS Fargate Cluster scaling Data source integrations Serverless containers Physical hardware, host OS/kernel, networking, and facilities Security config and updates Network config Management tasks Application code Amazon ECS/EKS Container-management -as-a-service Container orchestration control plane Physical hardware software, networking, and facilities Data source integrations Work clusters Security config and updates, network config, firewall, management tasks Application code Amazon EC2 Infrastructure-as-a-Service Most © 2022 Amazon Web Services, Inc. or its Affiliates. Physical hardware software, networking, and facilities Data source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers",
+      "title": "",
+      "original_description_html": "<p>Compute operational models\nLeast\nAWS Lambda Serverless functions\nAWS manages\nCustomer manages\nData source integrations\nApplication code\nPhysical hardware, software, networking, and facilities Provisioning Application code\nWhat you manage\nContainer orchestration, provisioning\nAWS Fargate\nCluster scaling\nData source integrations\nServerless containers\nPhysical hardware, host OS/kernel, networking, and facilities\nSecurity config and updates Network config Management tasks Application code\nAmazon ECS/EKS Container-management -as-a-service\nContainer orchestration control plane Physical hardware software, networking, and facilities\nData source integrations Work clusters Security config and updates, network config, firewall, management tasks\nApplication code\nAmazon EC2 Infrastructure-as-a-Service\nMost © 2022 Amazon Web Services, Inc. or its Affiliates.\nPhysical hardware software, networking, and facilities\nData source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers</p>\n"
+    },
+    {
+      "id": "GQhf5H",
+      "number": 11,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Poll Question Are you using or have aspirations to have aspirations to use AWS serverless technologies such as Fargate or Lambda? - Yes - No - Not yet, but we are planning to implement © 2022 Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>Poll Question Are you using or have aspirations to have aspirations to use AWS serverless technologies such as Fargate or Lambda? - Yes - No - Not yet, but we are planning to implement\n© 2022 Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "skQSxg",
+      "number": 12,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The containers stack on AWS CONTAINERS CONTAINER SERVICE MANAGED KUBERNETES STORE & RETRIEVE DOCKER IMAGES COMPUTE AUTO SCALING HYBRID ARCHITECTURE AWS-SERVICES ON-PREMISES ACCESS CONTROL DATA INTEGRATION APPLICATION LIFECYCLE MANAGEMENT ASSESSMENT & REPORTING INTEGRATED DEVICES & EDGE SYSTEMS AUTHORING CONFIGURATION COMPLIANCE INTEGRATED IDENTITY & ACCESS BUILD & TEST DATA PROTECTION INTEGRATED NETWORKING CONTAINERS DDOS PROTECTION INTEGRATED RESOURCE & DEPLOYMENT MANAGEMENT DEVOPS RESOURCE MANAGEMENT IDENTITY MANAGEMENT VMWARE CLOUD ON AWS ONE CLICK APP DEVELOPMENT KEY MANAGEMENT & STORAGE PATCHING MONITORING & LODGING PIPELINE ORCHESTRATION RESOURCE MANAGEMENT RESOURCE TEMPLATES THREAT DETECTION TRIGGERS BATCH JOBS EVENT-DRIVEN SERVERLESS COMPUTING INFRASTRUCTURE INSTANCE TYPES AVAILABILITY ZONES MANAGED REPOSITORY FOR SERVERLESS APPS CUSTOM HARDWARE RUN & MANAGE WEB APPS DATA CENTER INFRASTRUCTURE SERVERLESS COMPUTE POINT OF PRESENCE ISOLATED COMPUTE ENVIRONMENTS (FOR NITRO ENCLAVES) ANALYSE & DEBUG WEB APPLICATION FIREWALL MANAGED VIRTUAL PRIVATE SERVERS VIRTUAL SERVERS GLOBAL NETWORK BACKBONE THREAT DETECTION & INVESTIGATION FOR AMAZON DETECTIVE AUTOMATED SECURITY POSTURE CHECKS FOR AWS SECURITY HUB DEVELOPMENT FRAMEWORK REGIONS STORAGE APPLICATION DELIVERY ARCHIVE STORAGE DEDICATED NETWORK CONNECTION BACKUP & RESTORE DOMAIN NAMING SERVICE BLOCK STORAGE LOAD BALANCING DATA TRANSFER MONITOR APIS EDGE PROCESSING & COMPUTING MONITOR MICROSERVICES FILE STORAGE NETWORK TOPOLOGY HIGH PERFORMANCE FILE SYSTEM NETWORKING HUG HYBRID CLOUD STORAGE PRIVATE CONNECTION TO APPS OBJECT STORAGE SCALE VPS & ACCOUNT CONNECTIONS WINDOWS FILE SYSTEM © SERVICE 2022 Amazon Web Services, Inc. or its Affiliates. DISCOVERY VIRTUAL PRIVATE CLOUD MOBILE API GATEWAY POWER INFRASTRUCTURE IDENTITY MANAGEMENT & GOVERNANCE NETWORKING & CONTENT DELIVERY DEV TOOLS SECURITY, IDENTITY, & COMPLIANCE MOBILE ANALYTICS MOBILE APP TESTING ACTIVITY & API USAGE TRACKING SINGLE INTEGRATED CONSOLE CHATBOT SYNC CONFIGURATION TRACKING TARGETED PUSH NOTIFICATIONS GOVERNANCE INVENTORY TRACKING LICENSE MANAGER MANAGE POLICIES MANAGE RESOURCES MONITORING PROVISIONING RESOURCE TEMPLATES SECURITY RECOMMENDATIONS SERVER MANAGEMENT SERVICE CATALOG SYSTEM MANAGER APPLICATION INTEGRATION EMAIL MESSAGE BROKER QUEUING & NOTIFICATIONS SEARCH TRANSCODING WORKFLOW",
+      "title": "",
+      "original_description_html": "<p>The containers stack on AWS CONTAINERS CONTAINER SERVICE MANAGED KUBERNETES STORE &amp; RETRIEVE DOCKER IMAGES\nCOMPUTE AUTO SCALING\nHYBRID ARCHITECTURE AWS-SERVICES ON-PREMISES\nACCESS CONTROL\nDATA INTEGRATION\nAPPLICATION LIFECYCLE MANAGEMENT\nASSESSMENT &amp; REPORTING\nINTEGRATED DEVICES &amp; EDGE SYSTEMS\nAUTHORING\nCONFIGURATION COMPLIANCE\nINTEGRATED IDENTITY &amp; ACCESS\nBUILD &amp; TEST\nDATA PROTECTION\nINTEGRATED NETWORKING\nCONTAINERS\nDDOS PROTECTION\nINTEGRATED RESOURCE &amp; DEPLOYMENT MANAGEMENT\nDEVOPS RESOURCE MANAGEMENT\nIDENTITY MANAGEMENT\nVMWARE CLOUD ON AWS\nONE CLICK APP DEVELOPMENT\nKEY MANAGEMENT &amp; STORAGE\nPATCHING\nMONITORING &amp; LODGING\nPIPELINE ORCHESTRATION\nRESOURCE MANAGEMENT\nRESOURCE TEMPLATES\nTHREAT DETECTION\nTRIGGERS\nBATCH JOBS EVENT-DRIVEN SERVERLESS COMPUTING\nINFRASTRUCTURE\nINSTANCE TYPES AVAILABILITY ZONES\nMANAGED REPOSITORY FOR SERVERLESS APPS\nCUSTOM HARDWARE\nRUN &amp; MANAGE WEB APPS\nDATA CENTER INFRASTRUCTURE\nSERVERLESS COMPUTE\nPOINT OF PRESENCE\nISOLATED COMPUTE ENVIRONMENTS (FOR NITRO ENCLAVES)\nANALYSE &amp; DEBUG\nWEB APPLICATION FIREWALL\nMANAGED VIRTUAL PRIVATE SERVERS\nVIRTUAL SERVERS\nGLOBAL NETWORK BACKBONE\nTHREAT DETECTION &amp; INVESTIGATION FOR AMAZON DETECTIVE AUTOMATED SECURITY POSTURE CHECKS FOR AWS SECURITY HUB\nDEVELOPMENT FRAMEWORK\nREGIONS\nSTORAGE\nAPPLICATION DELIVERY\nARCHIVE STORAGE\nDEDICATED NETWORK CONNECTION\nBACKUP &amp; RESTORE\nDOMAIN NAMING SERVICE\nBLOCK STORAGE\nLOAD BALANCING\nDATA TRANSFER\nMONITOR APIS\nEDGE PROCESSING &amp; COMPUTING\nMONITOR MICROSERVICES\nFILE STORAGE\nNETWORK TOPOLOGY\nHIGH PERFORMANCE FILE SYSTEM\nNETWORKING HUG\nHYBRID CLOUD STORAGE\nPRIVATE CONNECTION TO APPS\nOBJECT STORAGE\nSCALE VPS &amp; ACCOUNT CONNECTIONS\nWINDOWS FILE SYSTEM\n© SERVICE 2022 Amazon Web Services, Inc. or its Affiliates. DISCOVERY VIRTUAL PRIVATE CLOUD\nMOBILE API GATEWAY\nPOWER INFRASTRUCTURE\nIDENTITY\nMANAGEMENT &amp; GOVERNANCE NETWORKING &amp; CONTENT DELIVERY\nDEV TOOLS\nSECURITY, IDENTITY, &amp; COMPLIANCE\nMOBILE ANALYTICS MOBILE APP TESTING\nACTIVITY &amp; API USAGE TRACKING\nSINGLE INTEGRATED CONSOLE\nCHATBOT\nSYNC\nCONFIGURATION TRACKING\nTARGETED PUSH NOTIFICATIONS\nGOVERNANCE INVENTORY TRACKING LICENSE MANAGER MANAGE POLICIES MANAGE RESOURCES MONITORING PROVISIONING RESOURCE TEMPLATES SECURITY RECOMMENDATIONS SERVER MANAGEMENT SERVICE CATALOG SYSTEM MANAGER\nAPPLICATION INTEGRATION EMAIL MESSAGE BROKER QUEUING &amp; NOTIFICATIONS SEARCH TRANSCODING WORKFLOW</p>\n"
+    },
+    {
+      "id": "V49Gq5",
+      "number": 13,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "AWS has the richest container portfolio anywhere APPLICATION NETWORKING Service discovery and service mesh MANAGEMENT Deployment, scheduling, scaling, and management of containerized applications HOSTING Where the containers run IMAGE REGISTRY Container image repository © 2022, Amazon Web Services, Inc. or its Affiliates. AWS Cloud Map AWS App Mesh Amazon Elastic Container Service (Amazon ECS) Amazon Elastic Kubernetes Service (Amazon EKS) Amazon Elastic Compute Cloud (Amazon EC2) AWS Fargate Amazon Elastic Container Registry (Amazon ECR) Red Hat OpenShift Service for AWS (ROSA)",
+      "title": "",
+      "original_description_html": "<p>AWS has the richest container portfolio anywhere APPLICATION NETWORKING Service discovery and service mesh\nMANAGEMENT Deployment, scheduling, scaling, and management of containerized applications\nHOSTING Where the containers run\nIMAGE REGISTRY Container image repository © 2022, Amazon Web Services, Inc. or its Affiliates.\nAWS Cloud Map\nAWS App Mesh\nAmazon Elastic Container Service (Amazon ECS)\nAmazon Elastic Kubernetes Service (Amazon EKS)\nAmazon Elastic Compute Cloud (Amazon EC2)\nAWS Fargate\nAmazon Elastic Container Registry (Amazon ECR)\nRed Hat OpenShift Service for AWS (ROSA)</p>\n"
+    },
+    {
+      "id": "7Ns4iU",
+      "number": 14,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Container technology © 2022, Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>Container technology\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "jhasat",
+      "number": 15,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Management: Amazon EKS, Amazon ECS and now ROSA ECS EKS ROSA Powerful simplicity Open flexibility Opinionated platform © 2022, Amazon Web Services, Inc. or its Affiliates.",
+      "title": "",
+      "original_description_html": "<p>Management: Amazon EKS, Amazon ECS and now ROSA\nECS\nEKS\nROSA\nPowerful simplicity\nOpen flexibility\nOpinionated platform\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+    },
+    {
+      "id": "M1JgTI",
+      "number": 16,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Powerful simplicity AWS-opinionated way to run containers at scale Reduce decisions without sacrificing scale or features ECS © 2022, Amazon Web Services, Inc. or its Affiliates. Reduce time to build, deploy, and migrate applications",
+      "title": "",
+      "original_description_html": "<p>Powerful simplicity\nAWS-opinionated way to run containers at scale Reduce decisions without sacrificing scale or features\nECS\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nReduce time to build, deploy, and migrate applications</p>\n"
+    },
+    {
+      "id": "yL2ULh",
+      "number": 17,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Open flexibility Gain agility and efficiency with AWS-optimized Kubernetes, and standardize operations everywhere Secure, highly available, with observability across all Kubernetes deployments EKS © 2022, Amazon Web Services, Inc. or its Affiliates. Build with choice of solutions from the broader community around Kubernetes",
+      "title": "",
+      "original_description_html": "<p>Open flexibility\nGain agility and efficiency with AWS-optimized Kubernetes, and standardize operations everywhere Secure, highly available, with observability across all Kubernetes deployments\nEKS\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nBuild with choice of solutions from the broader community around Kubernetes</p>\n"
+    },
+    {
+      "id": "aelIE6",
+      "number": 18,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Opinionated container platform Leverage integrated tools and services for developers and operators Transfer OpenShift skills and processes from on-prem environments ROSA © 2022, Amazon Web Services, Inc. or its Affiliates. Simplify management, support and billing of OpenShift environments",
+      "title": "",
+      "original_description_html": "<p>Opinionated container platform\nLeverage integrated tools and services for developers and operators Transfer OpenShift skills and processes from on-prem environments\nROSA\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nSimplify management, support and billing of OpenShift environments</p>\n"
+    },
+    {
+      "id": "CyU66V",
+      "number": 19,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Customers usually mix and match Team GitHub Jenkins ECR Flux CloudWatch ALB, NLB, NGINX, Traefik AWS App Mesh EKS Fargate © 2022, Amazon Web Services, Inc. or its Affiliates. OR ECS EC2 CloudFormation Application User",
+      "title": "",
+      "original_description_html": "<p>Customers usually mix and match\nTeam\nGitHub\nJenkins\nECR\nFlux\nCloudWatch ALB, NLB, NGINX, Traefik\nAWS App Mesh\nEKS Fargate\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nOR\nECS EC2\nCloudFormation\nApplication\nUser</p>\n"
+    },
+    {
+      "id": "pICtyu",
+      "number": 20,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "AWS App Runner Fully managed service for web applications AWS App Runner Web application Serverless Platform Backend server provides a highly abstracted and simple managed experience for running web applications and API hosting services © 2022 Amazon Web Services, Inc. or its Affiliates. • https://www.datadoghq.com/blog/aws-app-runner-monitoring",
+      "title": "",
+      "original_description_html": "<p>AWS App Runner Fully managed service for web applications AWS App Runner Web application\nServerless Platform\nBackend server provides a highly abstracted and simple managed experience for running web applications and API hosting services\n© 2022 Amazon Web Services, Inc. or its Affiliates.\n• https://www.datadoghq.com/blog/aws-app-runner-monitoring</p>\n"
+    },
+    {
+      "id": "RbvhrJ",
+      "number": 21,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Run your containers anywhere based on your workload needs Serverless EC2 options AWS Fargate Amazon EC2 Spot instance © 2022 Amazon Web Services, Inc. or its Affiliates. Edge and 5G AWS Local Zones AWS Wavelength On-premises AWS Outposts ECS EKS Anywhere Anywhere",
+      "title": "",
+      "original_description_html": "<p>Run your containers anywhere based on your workload needs\nServerless\nEC2 options\nAWS Fargate\nAmazon EC2\nSpot instance\n© 2022 Amazon Web Services, Inc. or its Affiliates.\nEdge and 5G\nAWS Local Zones\nAWS Wavelength\nOn-premises\nAWS Outposts\nECS EKS Anywhere Anywhere</p>\n"
+    },
+    {
+      "id": "3veVji",
+      "number": 22,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Containers are worth looking at",
+      "title": "",
+      "original_description_html": "<p>Containers are worth looking at</p>\n"
+    },
+    {
+      "id": "gFNJc7",
+      "number": 23,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Containers monitoring is not magic",
+      "title": "",
+      "original_description_html": "<p>Containers monitoring is not magic</p>\n"
+    },
+    {
+      "id": "IZ67UW",
+      "number": 24,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Kubernetes is sort of magic though…",
+      "title": "",
+      "original_description_html": "<p>Kubernetes is sort of magic though…</p>\n"
+    },
+    {
+      "id": "usovMv",
+      "number": 25,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0025.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "10 Trends in Real World Containers https://datadoghq.com/container-report/",
+      "title": "",
+      "original_description_html": "<p>10 Trends in Real World Containers https://datadoghq.com/container-report/</p>\n"
+    },
+    {
+      "id": "XCXjFK",
+      "number": 26,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "EKS had a 20% increase in adoption among AWS orgs",
+      "title": "",
+      "original_description_html": "<p>EKS had a 20% increase in adoption among AWS orgs</p>\n"
+    },
+    {
+      "id": "9WGX7j",
+      "number": 27,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0027.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Stateful workloads, containers, and you",
+      "title": "",
+      "original_description_html": "<p>Stateful workloads, containers, and you</p>\n"
+    },
+    {
+      "id": "lpzL08",
+      "number": 28,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Images: the hot top ten!",
+      "title": "",
+      "original_description_html": "<p>Images: the hot top ten!</p>\n"
+    },
+    {
+      "id": "O9i8sX",
+      "number": 29,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0029.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Images: the hot top ten (DJ k8s remix!)",
+      "title": "",
+      "original_description_html": "<p>Images: the hot top ten (DJ k8s remix!)</p>\n"
+    },
+    {
+      "id": "0TQwkw",
+      "number": 30,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Docker is champ, but new challengers are rising…",
+      "title": "",
+      "original_description_html": "<p>Docker is champ, but new challengers are rising…</p>\n"
+    },
+    {
+      "id": "cn9kdL",
+      "number": 31,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "How it started vs. how it’s going",
+      "title": "",
+      "original_description_html": "<p>How it started vs. how it’s going</p>\n"
+    },
+    {
+      "id": "F6sYVk",
+      "number": 32,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "It’s Speculation Time! – Edge computing (containers on the edge) – Increased importance of orchestration / mesh technology – Docker for dev, containerd (or other) for prod? – Moving towards higher levels of abstraction – Containers as a packaging and dependency mechanism",
+      "title": "",
+      "original_description_html": "<p>It’s Speculation Time! – Edge computing (containers on the edge) – Increased importance of orchestration / mesh technology – Docker for dev, containerd (or other) for prod? – Moving towards higher levels of abstraction – Containers as a packaging and dependency mechanism</p>\n"
+    },
+    {
+      "id": "rQbMO9",
+      "number": 33,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Q&A",
+      "title": "",
+      "original_description_html": "<p>Q&amp;A</p>\n"
+    },
+    {
+      "id": "TkKAGY",
+      "number": 34,
+      "image": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0034.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank You",
+      "title": "",
+      "original_description_html": "<p>Thank You</p>\n"
+    }
+  ],
+  "page_count": 34,
+  "files": [
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0001.jpg",
+      "sha256": "58610b761a845a296ae210153d6f49a48b49cfcecf891a328baf6ac758af6f3a",
+      "bytes": 166329
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0002.jpg",
+      "sha256": "eb8cba6a14a39c1e30904457ecc24988b710f61619187a910798c3bd5ba9b13e",
+      "bytes": 148416
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0003.jpg",
+      "sha256": "8da98665ea97f5d970ef1c4dfe7dd20680d06f944f0749909005d077a396af60",
+      "bytes": 145696
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0004.jpg",
+      "sha256": "7f2ebf52130e5d8a64f8cca6767d1a3253043aedf8d3be36503e53ee11006be8",
+      "bytes": 120434
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0005.jpg",
+      "sha256": "6967cdaafd817ab06f0602a5ea774760d802fd5b8c8455f3265a42acba4cc0ef",
+      "bytes": 162673
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0006.jpg",
+      "sha256": "3ba47271ad3e0e1f0a45173c0738c4d2841e2235d20627f6c175c19edbf193bc",
+      "bytes": 122880
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0007.jpg",
+      "sha256": "1aaa1c675b13751d287e5448b00cf488e70cb185cb40865d36cda0aa2037dbfa",
+      "bytes": 107240
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0008.png",
+      "sha256": "ebfc7f0cea87574bbdc35ddee73b260c70dfae21144a22706371a07c8fecdb15",
+      "bytes": 342562
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0009.jpg",
+      "sha256": "6bfb1770db534661fb286c576ecac17440f7d65dbb3f787268c8ab9d0bf9d966",
+      "bytes": 102787
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0010.png",
+      "sha256": "40d119386a97b48cb5492587a4eaad3bf6a46de5e652306718408f586dfb57a3",
+      "bytes": 699510
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0011.png",
+      "sha256": "76ef7b8a8ce633da306c9854a15438deffae59e5108447d3c79990aabafd1d6f",
+      "bytes": 296427
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0012.png",
+      "sha256": "43950e71fb3fdbf48a27d57041ef725702583adc4781dc68bc4d5130e29d08ec",
+      "bytes": 971802
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0013.jpg",
+      "sha256": "67dee54fbe6dc6aa726e89bc1eb9d2f6632bfebe73a73dadbc44b578389f12f0",
+      "bytes": 237402
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0014.jpg",
+      "sha256": "80f6140273c06d1edc25790d0cd2b54b10700c71db9291e7f884b72ec94d9cb6",
+      "bytes": 96114
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0015.jpg",
+      "sha256": "a2fc64aaf1af4512beac5aeddb3d93801f72b35742e67fab5ec4576299150114",
+      "bytes": 134615
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0016.jpg",
+      "sha256": "f2e7e28f4e8d1857b237686573a24159fb017eb1c8c72cb4961793c293369ea4",
+      "bytes": 111182
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0017.jpg",
+      "sha256": "acafdf978b2f67f22d63ce3a921c61cde2a0f23dc0075bd594065847f3ce1e79",
+      "bytes": 141718
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0018.jpg",
+      "sha256": "a74209eac92bae7ef09d6b5aeaf14de083786dd5b2bf128e2d8b220570590f99",
+      "bytes": 129721
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0019.png",
+      "sha256": "2a547f608360f45d3a8ffc1955cd0ce8934009a27e47db527f7a949f75a79361",
+      "bytes": 242994
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0020.png",
+      "sha256": "39cc50d1df6256a1d42951e0bc5c0bfc3a6bf5842952535a71f8e688aa7e4d99",
+      "bytes": 465897
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0021.jpg",
+      "sha256": "9ade07c3060dc6e3950898018ccdfc3f0f5f54a1a92c0d4fc64a6c9deae68947",
+      "bytes": 154705
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0022.jpg",
+      "sha256": "f3727624683cd0504e01c345018510599d83fcf1836e71b9f8306943e977e877",
+      "bytes": 214212
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0023.jpg",
+      "sha256": "194951ee2ace1c11d2d9bdc8863532c4b92323d97a7e836267e5db46f17db608",
+      "bytes": 154058
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0024.jpg",
+      "sha256": "876ff05e8a45cfe199c415dcb1e18a35e038ba0e30843e6866e7b990a69c0d60",
+      "bytes": 253525
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0025.jpg",
+      "sha256": "dd81a47395dc769d49a5de560a006a66d1fd17bcd954af3f06e59b8c3e2afde5",
+      "bytes": 163173
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0026.jpg",
+      "sha256": "cd73040b93a8eea4ebfb6bef5b414c02a6484c6ac61ba58c06ec55f23ba0f291",
+      "bytes": 135378
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0027.jpg",
+      "sha256": "0708b3461ee088c53bf501a6ecdaf9450ce49a78b8f982ce8f1bb1d6d67895cc",
+      "bytes": 125421
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0028.jpg",
+      "sha256": "94ca940ad91846d085f883d177870289369fc5d91966cac5c35bcf5d240bcb38",
+      "bytes": 110064
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0029.jpg",
+      "sha256": "982ff01e5c03425835ca8d5207b7d7760828315af9fab10b70b35bff83e4ca78",
+      "bytes": 109563
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0030.jpg",
+      "sha256": "16b87d6ce06ec883673ebdf45cdc7d97da5ac06fff431a12339e430a8a479416",
+      "bytes": 139487
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0031.jpg",
+      "sha256": "60402483431686de6217dec21cb5764a4df09f231dbdaa63058b71c3cdd47333",
+      "bytes": 123006
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0032.jpg",
+      "sha256": "b1be0d57088e3a208bc4b7f4652143ab16f6391cf94af8e36a76218ad23d0bd3",
+      "bytes": 184465
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0033.jpg",
+      "sha256": "678863810b790467d2dce6ee8e13bc7478d9adc75baaf4e2903ebf4330fe1a4b",
+      "bytes": 100864
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/0034.jpg",
+      "sha256": "b6cb795aa1263893912e3d8b822681f50f6724bae70e26fb225886d57c13fd70",
+      "bytes": 105613
+    },
+    {
+      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/reconstructed.pdf",
+      "sha256": "a5f9fcd89407f4c83ed67367ec1b185a8ef0b203859af000a09ee9b96d097778",
+      "bytes": 6262423
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/ARNBw1/real-time-container-monitoring-best-practices"
+}

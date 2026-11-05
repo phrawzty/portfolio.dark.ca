@@ -1,0 +1,30 @@
++++
+title = "Building on Quicksand: Dependency Security Foundations"
+date = 2026-02-27T08:00:00Z
+draft = false
+path = "RvNyhJ"
+template = "appearance.html"
+aliases = ["RvNyhJ/building-on-quicksand-dependency-security-foundations"]
+
+[extra]
+id = "RvNyhJ"
+talk = "building-on-quicksand-dependency-security-foundations"
+event = "Securi-Tay 2026"
+event_url = ""
+location = "Dundee, UK"
+timezone = "Europe/London"
+virtual = false
+deck = "94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46"
+recording_url = ""
+source_url = "https://speaking.dark.ca/RvNyhJ/building-on-quicksand-dependency-security-foundations"
+source_event_id = "ev_7l42Kh"
+source_published_on = "2026-02-27 08:00:00"
+resources = []
+feedback = []
+latitude = 56.462018
+longitude = -2.970721
++++
+
+<p>Every major package registry has foundational security gaps. Meanwhile, the software industry has spent years building sophisticated supply chain security solutions while the basics often remain unaddressed. These aren’t technical problems—they’re systemic incentive problems. Registries balance developer experience against security (often with limited resources), and security controls create immediate friction while breach impacts are diffuse and downstream.</p>
+<p>Using data from systematic assessments of major package registries, this talk examines which foundational gaps downstream consumers can actually mitigate and which they simply cannot. For example, you might not be able to verify who built the package, or whether their account was compromised, but you can verify what was built and whether it’s vulnerable. This leads to a realistic (and mildly terrifying) threat model for package consumption: assume that upstream is compromised and design artifact-layer resilience accordingly.</p>
+<p>This talk is about concrete strategies for verification, monitoring, and policy enforcement that work despite weak foundations. Some involve tooling, such as provenance verification, cryptographic validation, behavioral analysis, and continuous monitoring. Others are about changing how you consume dependencies, such as version pinning, vetting publishers, establishing allowlists, and making explicit risk decisions about what level of uncertainty you’ll accept. The goal isn’t to pretend you can fix upstream problems, but to build resilient systems that survive when registries fail to provide the security boundaries you need.</p>

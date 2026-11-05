@@ -1,0 +1,12 @@
+id = "ev_VrclIF"
+title = "FOSS North 2025"
+slug = "foss-north-2025"
+starts_on = "2025-04-14 08:00:00"
+ends_on = "2025-04-15 18:00:00"
+timezone = "Europe/Stockholm"
+address = "Gothenburg, Sweden"
+latitude = "57.708870"
+longitude = "11.974560"
+country_code = "SE"
+
+[blurb]

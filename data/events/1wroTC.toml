@@ -1,0 +1,12 @@
+id = "ev_1wroTC"
+title = "DevOpsDays Berlin 2019"
+slug = "devopsdays-berlin-2019"
+starts_on = "2019-11-27 08:00:00"
+ends_on = "2019-11-28 18:00:00"
+timezone = "Europe/Berlin"
+address = "Berlin, Germany"
+latitude = "52.520007"
+longitude = "13.404954"
+country_code = "DE"
+
+[blurb]

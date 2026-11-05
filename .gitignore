@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.part
+/tmp/
+/.venv/
+/.portfolio/
+/public/
+/assets/
+/archive/
+/audit/
+/output/
+/.portfolio-build-env/

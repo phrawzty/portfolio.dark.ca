@@ -1,0 +1,288 @@
+{
+  "id": "f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e",
+  "source_sha256": "9884de35e4ea6290b9b22784c1ec24d41594b4043d680c07ec517b8b164bc36a",
+  "provenance": "original",
+  "pdf": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/original.pdf",
+  "slides": [
+    {
+      "id": "Ajp1yU",
+      "number": 1,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "When Geography and the Cloud Collide Deploying and Debugging Multi-Cloud Applications HashiCorp Cloud Operating Model Virtual Day (January 2021)",
+      "title": "",
+      "original_description_html": "<p>When Geography and the Cloud Collide Deploying and Debugging Multi-Cloud Applications HashiCorp Cloud Operating Model Virtual Day (January 2021)</p>\n"
+    },
+    {
+      "id": "n3Xpqt",
+      "number": 2,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Your operators for today 🎙 Rick Sherman 🐦 @shermdog01 🎙 Daniel Maher 🐦 @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Your operators for today\n🎙 Rick Sherman 🐦 @shermdog01\n🎙 Daniel Maher 🐦 @phrawzty</p>\n"
+    },
+    {
+      "id": "PNGdjI",
+      "number": 3,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "1gzRbh",
+      "number": 4,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "e0iFU6",
+      "number": 5,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "GKR3MV",
+      "number": 6,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "se9rEu",
+      "number": 7,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "Uxsf7J",
+      "number": 8,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "7HbSzi",
+      "number": 9,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Let’s look at some Terraform code!",
+      "title": "",
+      "original_description_html": "<p>Let’s look at some Terraform code!</p>\n"
+    },
+    {
+      "id": "jbKGs7",
+      "number": 10,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "Lv34kW",
+      "number": 11,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Let’s look at some Datadog!",
+      "title": "",
+      "original_description_html": "<p>Let’s look at some Datadog!</p>\n"
+    },
+    {
+      "id": "yElscv",
+      "number": 12,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "aYUgVK",
+      "number": 13,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "CsDUNj",
+      "number": 14,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "pBwIG8",
+      "number": 15,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "RVf68X",
+      "number": 16,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "3pNu0w",
+      "number": 17,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "g96htL",
+      "number": 18,
+      "image": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Sign up for a free 14-day trial at datadoghq.com Check out our learning centre at learn.datadoghq.com Join the conversation at chat.datadoghq.com All the Terraform code and Ansible playbooks from this demo: github.com/shermdog/comvd_2021 Rick: @shermdog01 ← 🐦 → Dan: @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Sign up for a free 14-day trial at datadoghq.com Check out our learning centre at learn.datadoghq.com Join the conversation at chat.datadoghq.com All the Terraform code and Ansible playbooks from this demo: github.com/shermdog/comvd_2021 Rick: @shermdog01 ← 🐦 → Dan: @phrawzty</p>\n"
+    }
+  ],
+  "page_count": 18,
+  "files": [
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0001.jpg",
+      "sha256": "7c25f216d023677aef544c1918aaa3ab66db45ba4dd40b3ce61e6c5f0c7474a0",
+      "bytes": 165279
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0002.jpg",
+      "sha256": "47479a3bb4e114780a990b43a44f75d93c5fe859cee6726c30ff856a4846ed4b",
+      "bytes": 173399
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0003.jpg",
+      "sha256": "cb1b843b2a253860f3dff0b8e21e62ab5fd44e411d2f6ea384b37bebb6a15b6e",
+      "bytes": 125231
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0004.jpg",
+      "sha256": "0e3758a89345f1736822fb1c7bb5511aa74241beb3af7213739da49b6fefda80",
+      "bytes": 107843
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0005.jpg",
+      "sha256": "062315c3538cb1d0cbd269f1904f00d6d59d181c76dd45154e7f9e0cff141d2b",
+      "bytes": 145533
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0006.jpg",
+      "sha256": "bb57465c1e781e045455f2036c96c2b68de4693e6660cc525f5e6ba1f8ea3ded",
+      "bytes": 54202
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0007.jpg",
+      "sha256": "12f285bd8ebb164407efcacd243233c75a7d55d51669b8980214808d071a90a5",
+      "bytes": 133451
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0008.jpg",
+      "sha256": "01f210269f28ece307c47d772302dc73984ed628a5608a17c6bbf45251a8d872",
+      "bytes": 153757
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0009.jpg",
+      "sha256": "73a687ce1f94aef5c189113cb4f99b998af6b7dd94d73db5ae6064405d3f3fa4",
+      "bytes": 99565
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0010.jpg",
+      "sha256": "9abd13b7ad139610d12c8b6e24bb05ecb1b99c05d0a7cdfc0ccb5923aa0cac1a",
+      "bytes": 126689
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0011.jpg",
+      "sha256": "93d9b7d35dba0caae0d9ff5923c122b396cda72946c0175d9ffbd903b1f9420f",
+      "bytes": 99321
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0012.jpg",
+      "sha256": "a88c708c23fcc6170cc15081861223269cbe352aa2dd4e504db563da7f236c54",
+      "bytes": 224906
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0013.jpg",
+      "sha256": "9f240da72ec7e66a93e483db7ef33ef4489ec25fbbeefe947390247ff3784c3f",
+      "bytes": 187411
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0014.jpg",
+      "sha256": "c42e3e622f810efc8bfd6e652d65358b2efa10ea59011786315198f8807e4788",
+      "bytes": 281509
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0015.jpg",
+      "sha256": "29fca04a08b25880b4b177b5fbe2132f3885c305bfdba0510126bafcbc59af28",
+      "bytes": 209752
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0016.jpg",
+      "sha256": "7ddc19051a9625f67e87b4e5518396b0340d2f113892009a7e0f3db52a85848f",
+      "bytes": 233361
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0017.jpg",
+      "sha256": "ea637e467522b6491e687cd990ca4ad869c4e073fcfe23f06cfea030a437aa3c",
+      "bytes": 337859
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/0018.jpg",
+      "sha256": "f3942ca5c0adea3a75fae6419d0901c4982ae81b29be46b6052bc252d773ecaa",
+      "bytes": 231974
+    },
+    {
+      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/original.pdf",
+      "sha256": "9884de35e4ea6290b9b22784c1ec24d41594b4043d680c07ec517b8b164bc36a",
+      "bytes": 2967061
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/PCrTkq/when-geography-and-the-cloud-collide"
+}

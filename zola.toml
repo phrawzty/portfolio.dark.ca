@@ -1,0 +1,44 @@
+base_url = "https://portfolio.dark.ca"
+title = 'Daniel "phrawzty" Maher'
+description = "Talks, slides, recordings, and resources from Daniel Maher."
+author = "Dan Maher"
+theme = "terminus"
+generate_feeds = true
+compile_sass = true
+hard_link_static = true
+skip_content_templating = ["**/*.md"]
+
+[slugify]
+paths = "off"
+
+[markdown.highlighting]
+theme = "nord"
+style = "class"
+
+[extra]
+header_title = "phrawzty / speaking"
+color_scheme = "terminus"
+layout = "center"
+copyright = "© $YEAR Dan Maher"
+show_default_author = false
+copy_button = false
+fediverse_creator = "@phrawzty@hachyderm.io"
+asset_base = "/assets"
+preview = false
+main_menu = [
+  { name = "appearances", url = "appearances", trailing_slash = true },
+  { name = "talks", url = "talks", trailing_slash = true },
+  { name = "videos", url = "videos", trailing_slash = true },
+  { name = "about", url = "bio", trailing_slash = true },
+  { name = "dark.ca", url = "https://dark.ca/" },
+]
+
+[extra.content_security_policy]
+enable = true
+allowed_domains = [
+  { directive = "base-uri", domains = ["'self'"] },
+  { directive = "object-src", domains = ["'none'"] },
+  { directive = "frame-src", domains = ["https://www.youtube-nocookie.com", "https://player.vimeo.com"] },
+  { directive = "img-src", domains = ["'self'", "data:", "https://basemaps.cartocdn.com", "https://*.basemaps.cartocdn.com"] },
+  { directive = "style-src", domains = ["'self'", "'unsafe-inline'"] },
+]

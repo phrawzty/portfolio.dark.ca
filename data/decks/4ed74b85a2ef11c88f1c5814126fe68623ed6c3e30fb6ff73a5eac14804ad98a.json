@@ -1,0 +1,378 @@
+{
+  "id": "4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a",
+  "source_sha256": "0290f1180035500edac40ff9ed81608c2cbe86c8f7f3a1d62e018d551e3103e5",
+  "provenance": "reconstructed",
+  "pdf": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/reconstructed.pdf",
+  "slides": [
+    {
+      "id": "HqCdhB",
+      "number": 1,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "You are cordially invited to attend a short presentation on the subject of sponsorship of events of a technical nature within the context of the Community team at Datadog including a description of said team and a discussion of the nature of commmunity with a brief but not unpleasant diversion into the role of events within the greater technical industry in this year of our lord two-thousand-and-nineteen.",
+      "title": "Preamble",
+      "original_description_html": "<p>You are cordially invited to attend a short presentation on the subject of sponsorship of events of a technical nature within the context of the Community team at Datadog including a description of said team and a discussion of the nature of commmunity with a brief but not unpleasant diversion into the role of events within the greater technical industry in this year of our lord two-thousand-and-nineteen.</p>\n"
+    },
+    {
+      "id": "u9vRZa",
+      "number": 2,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "COMMUNITY SPONSORSHIP AT DATADOG",
+      "original_description_html": ""
+    },
+    {
+      "id": "WTeFRz",
+      "number": 3,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "IT'S NOT SALES",
+      "original_description_html": ""
+    },
+    {
+      "id": "8nN3KO",
+      "number": 4,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "IT'S NOT NOT SALES",
+      "original_description_html": ""
+    },
+    {
+      "id": "l75rCn",
+      "number": 5,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "IT'S NOT MARKETING",
+      "original_description_html": ""
+    },
+    {
+      "id": "NQof5C",
+      "number": 6,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "IT'S NOT NOT MARKETING",
+      "original_description_html": ""
+    },
+    {
+      "id": "zkXSxb",
+      "number": 7,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "(AND WE’RE NOT IT.)",
+      "title": "DATADOG HAS A GREAT EVENTS TEAM",
+      "original_description_html": "<p>(AND WE’RE NOT IT.)</p>\n"
+    },
+    {
+      "id": "c4GGq0",
+      "number": 8,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "(THE COMMUNITY TEAM, THAT IS.)",
+      "title": "SO, WHO ARE WE?",
+      "original_description_html": "<p>(THE COMMUNITY TEAM, THAT IS.)</p>\n"
+    },
+    {
+      "id": "ENz4iP",
+      "number": 9,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "DOCS & TALKS!",
+      "original_description_html": ""
+    },
+    {
+      "id": "qhhsao",
+      "number": 10,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "DOCS & TALKS & EDUCATION!",
+      "original_description_html": ""
+    },
+    {
+      "id": "T1QgTD",
+      "number": 11,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "DOCS & TALKS & EDUCATION & OPEN SOURCE!",
+      "original_description_html": ""
+    },
+    {
+      "id": "5L9ULc",
+      "number": 12,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "DOCS & TALKS & EDUCATION & OPEN SOURCE & ENABLEMENT!",
+      "original_description_html": ""
+    },
+    {
+      "id": "hesIE1",
+      "number": 13,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "DOCS & TALKS & EDUCATION & OPEN SOURCE & ENABLEMENT & LOTS OF STUFF",
+      "title": "LOTS OF STUFF",
+      "original_description_html": "<p>DOCS &amp; TALKS &amp; EDUCATION &amp; OPEN SOURCE &amp; ENABLEMENT &amp;\nLOTS OF STUFF</p>\n"
+    },
+    {
+      "id": "Jyb66Q",
+      "number": 14,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "A SERVICE",
+      "original_description_html": ""
+    },
+    {
+      "id": "wIJtyp",
+      "number": 15,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "IN SERVICE",
+      "original_description_html": ""
+    },
+    {
+      "id": "Yc2hrE",
+      "number": 16,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "WE ARE IN SERVICE OF THE COMMUNITY ✽",
+      "original_description_html": ""
+    },
+    {
+      "id": "AvlVjd",
+      "number": 17,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "✽ We’re also all employed by a for-profit commercial entity which exists inside of a larger industry built on the principles of regulated market capitalism and are therefore beholden to both the macro-scale market concerns and micro-scale personal concerns (i.e. continued gainful employement) therein. @phrawzty // Datadog",
+      "title": "✽ Asterisk",
+      "original_description_html": "<p>✽ We’re also all employed by a for-profit commercial entity which exists inside of a larger industry built on the principles of regulated market capitalism and are therefore beholden to both the macro-scale market concerns and micro-scale personal concerns (i.e. continued gainful employement) therein.\n@phrawzty // Datadog</p>\n"
+    },
+    {
+      "id": "nFUJc2",
+      "number": 18,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "RESPONSIBILITIES: COMPLICATED",
+      "original_description_html": ""
+    },
+    {
+      "id": "PZD7UR",
+      "number": 19,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "(EVEN IF IT HURTS A LITTLE.)",
+      "title": "DO RIGHT BY THE COMMUNITY",
+      "original_description_html": "<p>(EVEN IF IT HURTS A LITTLE.)</p>\n"
+    },
+    {
+      "id": "1svvMq",
+      "number": 20,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "ACT THOUGHTFULLY, DELIBERATELY, AND SUSTAINABLY",
+      "title": "BE A GOOD ACTOR",
+      "original_description_html": "<p>ACT THOUGHTFULLY, DELIBERATELY, AND SUSTAINABLY</p>\n"
+    },
+    {
+      "id": "eCejFF",
+      "number": 21,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "CONFERENCES MUST BE GOOD ACTORS",
+      "original_description_html": ""
+    },
+    {
+      "id": "GWNX7e",
+      "number": 22,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0022.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "LOCALE + CONF + US = GOOD?",
+      "original_description_html": ""
+    },
+    {
+      "id": "sq6L03",
+      "number": 23,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "(AND IS JUST AS RARE.)",
+      "title": "IT FEELS LIKE ✨ MAGIC ✨",
+      "original_description_html": "<p>(AND IS JUST AS RARE.)</p>\n"
+    },
+    {
+      "id": "V9p8sS",
+      "number": 24,
+      "image": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "FIN.",
+      "original_description_html": ""
+    }
+  ],
+  "page_count": 24,
+  "files": [
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0001.png",
+      "sha256": "cdbf3e803bdbf647b217f3f7139177333ef0d82cb3e4d452de28cb2386c4bb8d",
+      "bytes": 472826
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0002.png",
+      "sha256": "3f517867d586569fe6d53e7a1daabc7f6b89c7427b147967a98c7b36828148ab",
+      "bytes": 273153
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0003.png",
+      "sha256": "7956f84965e30de94077fc5e217a488d1a1bb224a63dd621602cb28d9bcbe5b6",
+      "bytes": 130024
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0004.png",
+      "sha256": "782dcb781b112a5325af1235f771c2508373dfa0d73f0eed43f4fef024bf8e99",
+      "bytes": 201681
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0005.png",
+      "sha256": "f2bcfca7130f120c8c66032392c8228b8f079b4524dcaa1d01de2e0c50190a7e",
+      "bytes": 142494
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0006.png",
+      "sha256": "c217cefee453ae57466e4486930e4e1a2d1b2bfdb816fe80cf53c3ff17774966",
+      "bytes": 214261
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0007.png",
+      "sha256": "987975448390871760dd9b7d5f6046be713de57f143cf49af770f1b80bfdd47f",
+      "bytes": 237277
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0008.png",
+      "sha256": "718d635ed7aeb281563d5dab7a095fbe6453b18aba25e4325afe891640ace902",
+      "bytes": 228987
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0009.png",
+      "sha256": "052f6eb059a779e570b41edc304592b754745c1d274523a3c28563bcf5194da0",
+      "bytes": 149451
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0010.png",
+      "sha256": "350c344b8ce5c8c2486fd0b8f895d83d9cd46b0bd280e6b938877d087755f90c",
+      "bytes": 175072
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0011.png",
+      "sha256": "3100a90730c68327121f51c5d01711e9ef6562458f2d7ff479d6e4a9bca8e73d",
+      "bytes": 198816
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0012.png",
+      "sha256": "8231b7d347a5301a6d8060907b60dee164690597b1a611a7f5b8c9fcd5d6051f",
+      "bytes": 226435
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0013.png",
+      "sha256": "b471e26d6d6deb551a0b0cdc2cad681c8e3b08bcbc44876eeb437c96e9f68d1e",
+      "bytes": 272582
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0014.png",
+      "sha256": "629e1aa3efc6c49ad767d0260fae0047a3bff3dce665b482c8a5f9fdd18585ea",
+      "bytes": 104651
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0015.png",
+      "sha256": "f391574652a9ceae6f1700e663738e8e3b35efd9652af1b6bbdbab94ddb86089",
+      "bytes": 137632
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0016.png",
+      "sha256": "607784c63e24e7da1d54acb266a70a2229f5f9444a27299ca9f1d7a05571624d",
+      "bytes": 202553
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0017.png",
+      "sha256": "3ea2a9ba57dfe89f87870435df9ca64df29ee31404b5468e75c4098204f2e3ed",
+      "bytes": 388442
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0018.png",
+      "sha256": "e0ba60c4dfaedd8e6c3fde8911c3351e802bd0ec5712af3cb4408c38508d69d9",
+      "bytes": 164035
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0019.png",
+      "sha256": "a94c8c0bb41d56c11a4af9fbd251e0e9dbdee99b59875070187f0624223aec11",
+      "bytes": 212346
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0020.png",
+      "sha256": "2e6efa4339578871d24410d2baec2bac42d6473b477bce5458d4ba8e9727dcf9",
+      "bytes": 245021
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0021.png",
+      "sha256": "dbf33157eae4e85a348cad6e8982cb2710b2aa3fce436d31cbca3d2dcfbd09c2",
+      "bytes": 197625
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0022.png",
+      "sha256": "2304a45f70423a7e3b7ae423dab10dff3b7723740e463d2256c0a2263140cbce",
+      "bytes": 154334
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0023.jpg",
+      "sha256": "f871ad1f1c4ea1d98bdada02224a9e2eaf78f4c360718179a1fc5fbfb6d8f93b",
+      "bytes": 116388
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/0024.png",
+      "sha256": "faebaa9bff11d5234d50fb18d683ff38781e99fdf9517d4cab91dd35320d061c",
+      "bytes": 35536
+    },
+    {
+      "path": "decks/4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a/reconstructed.pdf",
+      "sha256": "0290f1180035500edac40ff9ed81608c2cbe86c8f7f3a1d62e018d551e3103e5",
+      "bytes": 2384952
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/oIBjG1/community-and-event-sponsorship-at-datadog"
+}

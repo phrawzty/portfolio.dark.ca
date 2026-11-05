@@ -1,0 +1,12 @@
+id = "ev_2KtuYm"
+title = "DevOpsDays Cairo 2024"
+slug = "devopsdays-cairo-2024"
+starts_on = "2024-09-25 08:00:00"
+ends_on = "2024-09-25 18:00:00"
+timezone = "Africa/Cairo"
+address = "Cairo, Cairo Governorate, Egypt"
+latitude = "30.044420"
+longitude = "31.235712"
+country_code = "EG"
+
+[blurb]

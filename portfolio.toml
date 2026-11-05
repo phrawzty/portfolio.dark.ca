@@ -1,0 +1,8 @@
+[assets]
+directory = "../assets.dark.ca/files"
+repository = "phrawzty/assets.dark.ca"
+release = "portfolio-assets-v1"
+
+[map]
+tiles = "https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4jz5_1_bda2f8c0b12b1acd38167b70"
+attribution = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · © <a href="https://carto.com/attributions">CARTO</a>'

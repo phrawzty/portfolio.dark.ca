@@ -1,0 +1,498 @@
+{
+  "id": "ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7",
+  "source_sha256": "151694fe3917eb64db332fdbb4ae1d08bcb474db7394fff1aaf6110122e0c616",
+  "provenance": "original",
+  "pdf": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/original.pdf",
+  "slides": [
+    {
+      "id": "GlbSJT",
+      "number": 1,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Cost Optimisation A Primer Daniel Maher Engineer (Community Team) at Datadog @phrawzty Kerim Satirli Sr. Developer Advocate at HashiCorp @ksatirli 6 October 2021",
+      "title": "",
+      "original_description_html": "<p>Cloud Cost Optimisation A Primer Daniel Maher Engineer (Community Team) at Datadog @phrawzty\nKerim Satirli Sr. Developer Advocate at HashiCorp @ksatirli\n6 October 2021</p>\n"
+    },
+    {
+      "id": "t5KGBs",
+      "number": 2,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Daniel Maher Engineer (Community Team) at Datadog he/him @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Daniel Maher Engineer (Community Team) at Datadog he/him @phrawzty</p>\n"
+    },
+    {
+      "id": "VP344H",
+      "number": 3,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Kerim Satirli Sr. Developer Advocate at HashiCorp he/him @ksatirli",
+      "title": "",
+      "original_description_html": "<p>Kerim Satirli Sr. Developer Advocate at HashiCorp he/him @ksatirli</p>\n"
+    },
+    {
+      "id": "7ilrwg",
+      "number": 4,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "01 Challenge Let’s talk about… The Cloud",
+      "title": "",
+      "original_description_html": "<p>01\nChallenge\nLet’s talk about…\nThe Cloud</p>\n"
+    },
+    {
+      "id": "k2Ufp5",
+      "number": 5,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Market revenue (USD) market share (%) YoY growth (%) Amazon Web Services 26,20 40.8 28.7 Microsoft Azure 12,69 19.7 59.2 Alibaba Cloud 6,12 9.5 52.8 Google Cloud Platform 3,93 6.1 202.8 Others 15,34 24 25.6 Source: gtnr.it/3B9xxhE",
+      "title": "",
+      "original_description_html": "<p>Cloud Market revenue (USD)\nmarket share (%)\nYoY growth (%)\nAmazon Web Services\n26,20\n40.8\n28.7\nMicrosoft Azure\n12,69\n19.7\n59.2\nAlibaba Cloud\n6,12\n9.5\n52.8\nGoogle Cloud Platform\n3,93\n6.1\n202.8\nOthers\n15,34\n24\n25.6\nSource: gtnr.it/3B9xxhE</p>\n"
+    },
+    {
+      "id": "MMDThU",
+      "number": 6,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Market $64B Annual spend on public cloud Source: gtnr.it/3B9xxhE",
+      "title": "",
+      "original_description_html": "<p>Cloud Market\n$64B Annual spend on public cloud\nSource: gtnr.it/3B9xxhE</p>\n"
+    },
+    {
+      "id": "yfwHZt",
+      "number": 7,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Market $64B 41% Annual spend on public cloud Annual growth of public cloud Source: gtnr.it/3B9xxhE",
+      "title": "",
+      "original_description_html": "<p>Cloud Market\n$64B\n41%\nAnnual spend on public cloud\nAnnual growth of public cloud\nSource: gtnr.it/3B9xxhE</p>\n"
+    },
+    {
+      "id": "azf5SI",
+      "number": 8,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste $64B Annual spend on public cloud Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste $17.6B Annual public cloud waste",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste\n$64B Annual spend on public cloud\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste\n$17.6B Annual public cloud waste</p>\n"
+    },
+    {
+      "id": "DJNtKh",
+      "number": 9,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste $64B Annual spend on public cloud $17.6B Annual public cloud waste 20-30% Spend attributed to cloud waste Source: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste\n$64B Annual spend on public cloud\n$17.6B Annual public cloud waste\n20-30% Spend attributed to cloud waste\nSource: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report</p>\n"
+    },
+    {
+      "id": "pd6hD6",
+      "number": 10,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste “Between idle and over-provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.” $11B Annual public cloud waste $6.6B Wasted from over-sized resources Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste “Between idle and over-provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.”\n$11B Annual public cloud waste\n$6.6B Wasted from over-sized resources\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste</p>\n"
+    },
+    {
+      "id": "RwpV5V",
+      "number": 11,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste Side - Effects",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste Side - Effects</p>\n"
+    },
+    {
+      "id": "4GYIxu",
+      "number": 12,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste Side - Effects Reduced Productivity Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.</p>\n"
+    },
+    {
+      "id": "gaH6qJ",
+      "number": 13,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste Side - Effects Reduced Productivity Risk Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. Lack of governance and oversight across the enterprise results in an increased risk surface. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again. Validated models are easier to reason about, which is part of a heightened security posture.",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity\nRisk\nWasted spend is correlated with poor standardisation, or worse yet: anti-patterns.\nLack of governance and oversight across the enterprise results in an increased risk surface.\nIf there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.\nValidated models are easier to reason about, which is part of a heightened security posture.</p>\n"
+    },
+    {
+      "id": "Itzuii",
+      "number": 14,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Waste Side - Effects Reduced Productivity Risk Misallocation Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. Lack of governance and oversight across the enterprise results in an increased risk surface. Literally: money that could and should - be spent on other things. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again. Validated models are easier to reason about, which is part of a heightened security posture. Brass tacks: wasted cloud spend is basically a vampire that is making your organisation weaker.",
+      "title": "",
+      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity\nRisk\nMisallocation\nWasted spend is correlated with poor standardisation, or worse yet: anti-patterns.\nLack of governance and oversight across the enterprise results in an increased risk surface.\nLiterally: money that could and should - be spent on other things.\nIf there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.\nValidated models are easier to reason about, which is part of a heightened security posture.\nBrass tacks: wasted cloud spend is basically a vampire that is making your organisation weaker.</p>\n"
+    },
+    {
+      "id": "vDiib7",
+      "number": 15,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "02 Opportunity Let’s talk about… Opportunity",
+      "title": "",
+      "original_description_html": "<p>02\nOpportunity\nLet’s talk about…\nOpportunity</p>\n"
+    },
+    {
+      "id": "XXRWTW",
+      "number": 16,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers</p>\n"
+    },
+    {
+      "id": "9rAKLv",
+      "number": 17,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae</p>\n"
+    },
+    {
+      "id": "mAt8EK",
+      "number": 18,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data</p>\n"
+    },
+    {
+      "id": "OUbw6j",
+      "number": 19,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data</p>\n"
+    },
+    {
+      "id": "0oKjz8",
+      "number": 20,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics?",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics?</p>\n"
+    },
+    {
+      "id": "d83XrX",
+      "number": 21,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments?",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments?</p>\n"
+    },
+    {
+      "id": "FRmLjw",
+      "number": 22,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0022.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments? ▪ This sounds like a job for dashboards!",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments? ▪ This sounds like a job for dashboards!</p>\n"
+    },
+    {
+      "id": "rlV9cL",
+      "number": 23,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend …y tho?",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend …y tho?</p>\n"
+    },
+    {
+      "id": "U5DxUk",
+      "number": 24,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions</p>\n"
+    },
+    {
+      "id": "6OwlN9",
+      "number": 25,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions</p>\n"
+    },
+    {
+      "id": "iifZFY",
+      "number": 26,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0026.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value</p>\n"
+    },
+    {
+      "id": "L2ON7x",
+      "number": 27,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value ▪ Level-up your career",
+      "title": "",
+      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value ▪ Level-up your career</p>\n"
+    },
+    {
+      "id": "xM7B0M",
+      "number": 28,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Demo",
+      "title": "",
+      "original_description_html": "<p>Demo</p>\n"
+    },
+    {
+      "id": "Zfpysl",
+      "number": 29,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0029.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste",
+      "title": "",
+      "original_description_html": "<p>🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste</p>\n"
+    },
+    {
+      "id": "BzYmlA",
+      "number": 30,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0030.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste",
+      "title": "",
+      "original_description_html": "<p>🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste</p>\n"
+    },
+    {
+      "id": "oJHadZ",
+      "number": 31,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "🔒 app.datadoghq.com/dashboard/aws-ec2-cost-optimiser",
+      "title": "",
+      "original_description_html": "<p>🔒 app.datadoghq.com/dashboard/aws-ec2-cost-optimiser</p>\n"
+    },
+    {
+      "id": "Qd0OVy",
+      "number": 32,
+      "image": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank You! daniel.maher@datadoghq.com kerim@hashicorp.com",
+      "title": "",
+      "original_description_html": "<p>Thank You! daniel.maher@datadoghq.com kerim@hashicorp.com</p>\n"
+    }
+  ],
+  "page_count": 32,
+  "files": [
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0001.jpg",
+      "sha256": "5d7f20baa47f07ea4251cdae3ec50fc507fa7d6d94369e45d7aaeb6221c207d7",
+      "bytes": 166397
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0002.jpg",
+      "sha256": "6ba68fb4d4e0a8939c8ad5601e8d6e07575e7cf38fe0425506a058a73a4aa968",
+      "bytes": 180896
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0003.jpg",
+      "sha256": "268d4369d9bfe44c94f9dab43af7753064af30cfb24496961158200bcf4d9a0d",
+      "bytes": 177782
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0004.jpg",
+      "sha256": "909aa92c088038f150755198c24b256a06d5ece89882503e91f1213013c1a354",
+      "bytes": 140408
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0005.png",
+      "sha256": "2b607e5daf15e4ee2e4afa6a3af8f24f83651556a1af84ce17097c78f2bf50c6",
+      "bytes": 147494
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0006.png",
+      "sha256": "cccbe6fc19b6e569a02fcc80878ee8c0f9c98fbaa334535aba6c8195bc8c6ff0",
+      "bytes": 90291
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0007.png",
+      "sha256": "c38a287ac7d1898675688f37438e14132f362feff612da5bfde5682f277c8d1f",
+      "bytes": 118661
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0008.png",
+      "sha256": "7d4c1d31ecd2da4547cc93a22e0c7457d06eeabf92089245ec891b16d3dd0d7c",
+      "bytes": 192590
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0009.png",
+      "sha256": "d467fa221164ea82243095a9aa3b13de998502503a6ed03acfafb6fb2c20a5eb",
+      "bytes": 328286
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0010.png",
+      "sha256": "0318fc2a3e30a09e2466dfabb441ba7f4430a4e3f40d48a2c2562275c4c204a7",
+      "bytes": 440814
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0011.png",
+      "sha256": "a4253085332ee63a116eb20bf2cf0e730613f0b64ad871bec680a8b86e15d444",
+      "bytes": 21457
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0012.png",
+      "sha256": "8d466c2e7940baf81cad7bc60708fabb638a5b5ba329709610e8b4450362fe36",
+      "bytes": 244463
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0013.png",
+      "sha256": "ddef270cef02edcef9e0518ea5a3f16ed44a2816dcc2a8e72c8c0840e1884c38",
+      "bytes": 424208
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0014.png",
+      "sha256": "37597fa50d97b2a49eabe571bb9fed546c56dfe4dd82869291c928dd1134e574",
+      "bytes": 577532
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0015.jpg",
+      "sha256": "d5025324339ba17bc3f996609357b81c24a161cfb115e57b4f87b20cdddf68e5",
+      "bytes": 144433
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0016.png",
+      "sha256": "821b92870cae4a5d82c1a02e8010312a88d673f361297fb79a6f53f8b1d9e40f",
+      "bytes": 28380
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0017.png",
+      "sha256": "64e0dad97419fb68902e1ddcc373299c3cdf14ef5fc0ecd562e1c077b1b2426a",
+      "bytes": 91657
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0018.png",
+      "sha256": "5bd89874a2608929d191947df93c04db4b3a00a97c7624117f875066dc4b966f",
+      "bytes": 121145
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0019.png",
+      "sha256": "91601f5c1beeb8097730e5ff283c12b2cef81cfba7c7a3363e431d4ed921835b",
+      "bytes": 155728
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0020.png",
+      "sha256": "b2f41d119347e90683fe2b6fb02a100e1d07f74859156e41ea4711bccd05d85a",
+      "bytes": 193107
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0021.png",
+      "sha256": "992a5e2faf967124e995bcad7b22f71b862e0ad54537f16a791b6f9b2787e086",
+      "bytes": 240416
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0022.png",
+      "sha256": "1949db80a9f47b4e2793be72419933e8459670e7fb4c8fd14ae628d261344370",
+      "bytes": 282300
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0023.png",
+      "sha256": "5bb8cf1b3d6a01278d86ad837abaeb1978deb6a2c0037e2ae497d128dc0de9a0",
+      "bytes": 18706
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0024.png",
+      "sha256": "bbd7ec76c476a1da02d4779ce3f6127e6b38b6b7f365739eecceb2250f05187a",
+      "bytes": 77107
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0025.png",
+      "sha256": "aa2bf6fe690a10d7fba454a6949854120567bbe4d1833d36e84651ecaa125ea8",
+      "bytes": 113977
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0026.png",
+      "sha256": "93ea1b4297f6e1951d62bb10f87a2c1252277f59e8e773be68999bd957c22c88",
+      "bytes": 155375
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0027.png",
+      "sha256": "df27ac5de45f49d69b5bc6326b7aba972f334c54214102681754bcecc9b6e029",
+      "bytes": 179015
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0028.jpg",
+      "sha256": "f43500c4895c6e759a6e30d380bee1ee41725080dc6654580a758d2634357a50",
+      "bytes": 181530
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0029.jpg",
+      "sha256": "370b2095461348dc596e69d41d3462bd83a28230eebf44ced4548ede9d3b09a7",
+      "bytes": 119806
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0030.jpg",
+      "sha256": "b7f6824fbcaca549b9adc7a54ccd48ba3847863df70dfbd8ae9f8fe959d7cdf0",
+      "bytes": 125891
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0031.jpg",
+      "sha256": "ceb9407ab2ccbfb6f6361b9aa9ef8294e9576cec4dabe521db0d3581c983253b",
+      "bytes": 219758
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/0032.jpg",
+      "sha256": "1e5af82a819411278e26830850a74ea9ff1d6dd55f9db98bb5e6311413a05e2b",
+      "bytes": 206231
+    },
+    {
+      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/original.pdf",
+      "sha256": "151694fe3917eb64db332fdbb4ae1d08bcb474db7394fff1aaf6110122e0c616",
+      "bytes": 15488388
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/DE8pT3/cloud-cost-optimisation-a-primer"
+}

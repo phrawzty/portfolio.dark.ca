@@ -1,0 +1,10 @@
+{% set deck = load_data(path='data/decks/' ~ page.extra.deck ~ '.json') %}
+<section id="slides" class="slides-section"><div class="section-heading"><h2>Slides</h2><a href="{{ get_url(path=page.extra.id ~ '/slides/') }}">All slides &amp; transcript →</a></div>
+<div class="deck" data-deck tabindex="0" aria-label="Presentation slides; use left and right arrow keys">
+<div class="slide-stage">{% for slide in deck.slides %}<figure class="deck-slide" id="{{ slide.id }}" data-slide{% if not loop.first %} hidden{% endif %}>
+<img src="{{ config.extra.asset_base ~ '/' ~ slide.image }}" alt="{% if slide.title %}{{ slide.title }}{% else %}Slide {{ slide.number }}{% endif %}" width="{{ slide.width }}" height="{{ slide.height }}"{% if not loop.first %} loading="lazy"{% endif %}>
+<figcaption class="slide-transcript">{% if slide.title %}<strong>{{ slide.title }}</strong>{% endif %}<p>{{ slide.text }}</p></figcaption></figure>{% endfor %}</div>
+<div class="deck-controls"><button type="button" data-previous aria-label="Previous slide">←</button><output data-counter aria-live="polite">1 / {{ deck.slides | length }}</output><button type="button" data-next aria-label="Next slide">→</button><button type="button" data-fullscreen>Fullscreen</button></div>
+</div>
+<div class="deck-footer">{% if deck.pdf %}<a href="{{ deck.pdf_url }}" download>Download PDF</a>{% endif %}<a href="{{ get_url(path=page.extra.id ~ '/present/') }}">Presentation view</a></div>
+<noscript><p><a href="{{ get_url(path=page.extra.id ~ '/slides/') }}">Read every slide and its transcript</a>.</p></noscript></section>

@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block main %}<h1>{{ section.title }}</h1><p class="muted">Every event is its own chapter, even when the talk comes around again.</p>
+{% for appearance in section.pages %}{% include "partials/appearance-row.html" %}{% endfor %}
+{% endblock %}

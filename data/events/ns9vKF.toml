@@ -1,0 +1,12 @@
+id = "ev_ns9vKF"
+title = "DevOpsDays Berlin"
+slug = "devopsdays-berlin"
+starts_on = "2018-09-12 08:00:00"
+ends_on = "2018-09-13 18:00:00"
+timezone = "Europe/Berlin"
+address = "Berlin, Germany"
+latitude = "52.520007"
+longitude = "13.404954"
+country_code = "DE"
+
+[blurb]

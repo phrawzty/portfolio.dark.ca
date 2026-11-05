@@ -1,0 +1,318 @@
+{
+  "id": "957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4",
+  "source_sha256": "8070d6e0501c1ba97da26abe402f38a663887b3deb20fea50b3216bca8161986",
+  "provenance": "original",
+  "pdf": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/original.pdf",
+  "slides": [
+    {
+      "id": "0I0EvM",
+      "number": 1,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Le paysage de Serverless en 2021 Daniel “phrawzty” Maher Ingénieur // Équipe Communauté",
+      "title": "",
+      "original_description_html": "<p>Le paysage de Serverless en 2021 Daniel “phrawzty” Maher Ingénieur // Équipe Communauté</p>\n"
+    },
+    {
+      "id": "cbj2nl",
+      "number": 2,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 https://speaking.dark.ca/",
+      "title": "",
+      "original_description_html": "<p>📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 https://speaking.dark.ca/</p>\n"
+    },
+    {
+      "id": "EvRqgA",
+      "number": 3,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/state-of-serverless",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/state-of-serverless</p>\n"
+    },
+    {
+      "id": "rFAeYZ",
+      "number": 4,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "TYtSQy",
+      "number": 5,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "5scGJN",
+      "number": 6,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "iCL4Bm",
+      "number": 7,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "KW3s4B",
+      "number": 8,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "wpmfwa",
+      "number": 9,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "Z9VToz",
+      "number": 10,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "BTEHhO",
+      "number": 11,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "nmx5Zn",
+      "number": 12,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "Q6ftSC",
+      "number": 13,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "2QOhKb",
+      "number": 14,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "ek7VD0",
+      "number": 15,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "H3qJ5P",
+      "number": 16,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "tNZ6xo",
+      "number": 17,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "VhHuqD",
+      "number": 18,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "810iic",
+      "number": 19,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "https://www.datadoghq.com/state-of-serverless",
+      "title": "",
+      "original_description_html": "<p>https://www.datadoghq.com/state-of-serverless</p>\n"
+    },
+    {
+      "id": "kKjWb1",
+      "number": 20,
+      "image": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "à é t s i s s a e r r i è o p v s a ’ e ’ j d , i e c c r e n e M r é f n o c ! e u t l p cet a s u o v 3 e l l < e y t qu’ z w a r h p — @",
+      "title": "",
+      "original_description_html": "<p>à é t s i s s a e r r i è o p v s a ’ e ’ j d , i e c c r e n e M r é f n o c ! e u t l p cet a s u o v 3 e l l &lt; e y t qu’ z w a r h p — @</p>\n"
+    }
+  ],
+  "page_count": 20,
+  "files": [
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0001.jpg",
+      "sha256": "10f3f039094c396150a0138a42cf66e79d1b08ee59c3f59623376a77a3944fc0",
+      "bytes": 171189
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0002.jpg",
+      "sha256": "b5ba0fee69701bed04d6c23ea8a6b5f5aa65679f4b043587b1dd77c1c15eae9d",
+      "bytes": 192172
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0003.jpg",
+      "sha256": "ce9c73e963a990a2392621f0409de099922f93108795f08cdb36bd65d0e59de5",
+      "bytes": 310548
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0004.jpg",
+      "sha256": "48dded115b4ba6646a0f5d2b19f5c9f17e920258cf0affdacda5934f77610639",
+      "bytes": 168380
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0005.jpg",
+      "sha256": "a10408860eaf7c9460d405fcfbc64be1ee79912a525c11e9f6849549dec2b687",
+      "bytes": 165807
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0006.jpg",
+      "sha256": "a10408860eaf7c9460d405fcfbc64be1ee79912a525c11e9f6849549dec2b687",
+      "bytes": 165807
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0007.jpg",
+      "sha256": "119299fac4f983b22e608f517395ee7c93d567528ded360fdb86285e5cbb4864",
+      "bytes": 193969
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0008.jpg",
+      "sha256": "119299fac4f983b22e608f517395ee7c93d567528ded360fdb86285e5cbb4864",
+      "bytes": 193969
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0009.jpg",
+      "sha256": "9b6ab640c5815987cef6f9fecbbd5cacb84fd2dc5be1c7172dc7388ff033b447",
+      "bytes": 189826
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0010.jpg",
+      "sha256": "9b6ab640c5815987cef6f9fecbbd5cacb84fd2dc5be1c7172dc7388ff033b447",
+      "bytes": 189826
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0011.jpg",
+      "sha256": "9deb664e427f2c10cd84e81c19cbe0ed53443c2fdf9ea2c5bb25bf1f96387123",
+      "bytes": 154632
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0012.jpg",
+      "sha256": "29309c82c617209446c7b52235623aa61661b5a7a99d2c07272601c6b5467d51",
+      "bytes": 168020
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0013.jpg",
+      "sha256": "e52a029f68620d162c04b529db1aaf4854c67af6681d7413534435650ffe7512",
+      "bytes": 195840
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0014.jpg",
+      "sha256": "e52a029f68620d162c04b529db1aaf4854c67af6681d7413534435650ffe7512",
+      "bytes": 195840
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0015.jpg",
+      "sha256": "35230c405aa75357894b4fc3150b388b46eea86a4672f884a1ce878c1f0ed2ac",
+      "bytes": 199109
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0016.jpg",
+      "sha256": "94ca5797accb022ba172a2805066599e5fad58e7af17370234c3819dae4e95ce",
+      "bytes": 172649
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0017.jpg",
+      "sha256": "ea5346599d5ca609f25ef327c3f71b77701c28da836d8dd4ef99c82ec6925309",
+      "bytes": 151332
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0018.jpg",
+      "sha256": "6c1ad0e327977e178ba2efac210e7885eb67d71166478a89469923a8bc20da59",
+      "bytes": 157184
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0019.jpg",
+      "sha256": "3947e2d8093e767b070217be39ffce041d290b9be7929890cfeb5dcc7b08d75c",
+      "bytes": 200554
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/0020.jpg",
+      "sha256": "f9039bd0f261a12bb7852ef05764ce5137dda722773eef82dc5eafaf72ce0dba",
+      "bytes": 145173
+    },
+    {
+      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/original.pdf",
+      "sha256": "8070d6e0501c1ba97da26abe402f38a663887b3deb20fea50b3216bca8161986",
+      "bytes": 3691318
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/2Qn5yt/le-paysage-de-serverless-en-2021"
+}

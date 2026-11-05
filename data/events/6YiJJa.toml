@@ -1,0 +1,12 @@
+id = "ev_6YiJJa"
+title = "DevOpsDays Zürich"
+slug = "devopsdays-zuerich"
+starts_on = "2019-05-14 08:00:00"
+ends_on = "2019-05-15 18:00:00"
+timezone = "Europe/Zurich"
+address = "Zürich, Switzerland"
+latitude = "47.376887"
+longitude = "8.541694"
+country_code = "CH"
+
+[blurb]

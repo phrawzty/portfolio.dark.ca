@@ -1,0 +1,12 @@
+id = "ev_KXmjwb"
+title = "HashiConf US"
+slug = "hashiconf-us"
+starts_on = "2015-09-28 08:00:00"
+ends_on = "2015-09-29 18:00:00"
+timezone = "America/Los_Angeles"
+address = "Portland, OR, USA"
+latitude = "45.523062"
+longitude = "-122.676482"
+country_code = "US"
+
+[blurb]

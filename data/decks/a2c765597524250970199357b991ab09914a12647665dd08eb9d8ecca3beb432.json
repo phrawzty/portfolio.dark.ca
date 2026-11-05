@@ -1,0 +1,348 @@
+{
+  "id": "a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432",
+  "source_sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
+  "provenance": "original",
+  "pdf": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/original.pdf",
+  "slides": [
+    {
+      "id": "KEaC0m",
+      "number": 1,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Daniel “phrawzty” Maher Datadog Demystifying DevOps & SRE 1",
+      "title": "",
+      "original_description_html": "<p>Daniel “phrawzty” Maher Datadog\nDemystifying DevOps &amp; SRE\n1</p>\n"
+    },
+    {
+      "id": "wYIztB",
+      "number": 2,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "2",
+      "title": "",
+      "original_description_html": "<p>2</p>\n"
+    },
+    {
+      "id": "Ys1nla",
+      "number": 3,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "3",
+      "title": "",
+      "original_description_html": "<p>3</p>\n"
+    },
+    {
+      "id": "BBkbdz",
+      "number": 4,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 4",
+      "title": "",
+      "original_description_html": "<p>Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n4</p>\n"
+    },
+    {
+      "id": "nVTPWO",
+      "number": 5,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 5",
+      "title": "",
+      "original_description_html": "<p>Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n5</p>\n"
+    },
+    {
+      "id": "PpCDOn",
+      "number": 6,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "DevOps: CAMS — Culture — Automation — Measurement — Sharing @phrawzty // Datadog 6",
+      "title": "",
+      "original_description_html": "<p>DevOps: CAMS — Culture — Automation — Measurement — Sharing\n@phrawzty // Datadog\n6</p>\n"
+    },
+    {
+      "id": "28v1HC",
+      "number": 7,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "7",
+      "title": "",
+      "original_description_html": "<p>7</p>\n"
+    },
+    {
+      "id": "eSdp9b",
+      "number": 8,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 8",
+      "title": "",
+      "original_description_html": "<p>Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n8</p>\n"
+    },
+    {
+      "id": "GmMd20",
+      "number": 9,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Organising your organisation — Product teams — Squads — Guilds @phrawzty // Datadog 9",
+      "title": "",
+      "original_description_html": "<p>Organising your organisation — Product teams — Squads — Guilds\n@phrawzty // Datadog\n9</p>\n"
+    },
+    {
+      "id": "t65QuP",
+      "number": 10,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Product Teams 10",
+      "title": "",
+      "original_description_html": "<p>Product Teams\n10</p>\n"
+    },
+    {
+      "id": "VPoEmo",
+      "number": 11,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Squads 11",
+      "title": "",
+      "original_description_html": "<p>Squads\n11</p>\n"
+    },
+    {
+      "id": "7jX2fD",
+      "number": 12,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Guilds 12",
+      "title": "",
+      "original_description_html": "<p>Guilds\n12</p>\n"
+    },
+    {
+      "id": "k3FqXc",
+      "number": 13,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "DevOps is an idea; SRE is a practice — A cohort of Site Reliability Engineers, organised and managed as a group, form an SRE team. — SRE teams are versatile! — Code reviews, incident reports, facilitate postmortems — Support a dedicate portfolio or a product team — Individual SREs may rotate in and out of projects / sprints (or not!) @phrawzty // Datadog 13",
+      "title": "",
+      "original_description_html": "<p>DevOps is an idea; SRE is a practice — A cohort of Site Reliability Engineers, organised and managed as a group, form an SRE team. — SRE teams are versatile! — Code reviews, incident reports, facilitate postmortems — Support a dedicate portfolio or a product team — Individual SREs may rotate in and out of projects / sprints (or not!) @phrawzty // Datadog\n13</p>\n"
+    },
+    {
+      "id": "MMyeQ1",
+      "number": 14,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 14",
+      "title": "",
+      "original_description_html": "<p>Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n14</p>\n"
+    },
+    {
+      "id": "yghSIQ",
+      "number": 15,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SREs have personalities — Patience for staring at code — Enjoy problem-solving — Capacity for self-teaching — Wide range of technical interests — Great at communicating in different ways — Big on teamwork and mutual trust — Interested in mentoring / teaching @phrawzty // Datadog 15",
+      "title": "",
+      "original_description_html": "<p>SREs have personalities — Patience for staring at code — Enjoy problem-solving — Capacity for self-teaching — Wide range of technical interests — Great at communicating in different ways — Big on teamwork and mutual trust — Interested in mentoring / teaching @phrawzty // Datadog\n15</p>\n"
+    },
+    {
+      "id": "b0QGAp",
+      "number": 16,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SREs have backgrounds — Traditional “ops” or “dev” profiles — Customer success agent — PhD in computer science — Dropped out of high school Great SRE talent can come from anywhere! @phrawzty // Datadog 16",
+      "title": "",
+      "original_description_html": "<p>SREs have backgrounds — Traditional “ops” or “dev” profiles — Customer success agent — PhD in computer science — Dropped out of high school Great SRE talent can come from anywhere!\n@phrawzty // Datadog\n16</p>\n"
+    },
+    {
+      "id": "DK943E",
+      "number": 17,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 17",
+      "title": "",
+      "original_description_html": "<p>Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n17</p>\n"
+    },
+    {
+      "id": "pdrrvd",
+      "number": 18,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SRE: Standalone? Embedded? Other?! — Depends on your organisation and your realities. — Try a few different things—see what works! — This is where the CAMS acronym comes into play. @phrawzty // Datadog 18",
+      "title": "",
+      "original_description_html": "<p>SRE: Standalone? Embedded? Other?! — Depends on your organisation and your realities. — Try a few different things—see what works! — This is where the CAMS acronym comes into play.\n@phrawzty // Datadog\n18</p>\n"
+    },
+    {
+      "id": "Rxafo2",
+      "number": 19,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Archaeology is the search for fact — not truth. If it’s truth you’re looking for, Dr. Tyree’s philosophy class is right down the hall. — Indiana Jones @phrawzty // Datadog 19",
+      "title": "",
+      "original_description_html": "<p>Archaeology is the search for fact — not truth. If it’s truth you’re looking for, Dr. Tyree’s philosophy class is right down the hall. — Indiana Jones\n@phrawzty // Datadog\n19</p>\n"
+    },
+    {
+      "id": "4HJTgR",
+      "number": 20,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "20",
+      "title": "",
+      "original_description_html": "<p>20</p>\n"
+    },
+    {
+      "id": "gb2HYq",
+      "number": 21,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Topics, reprised 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 21",
+      "title": "",
+      "original_description_html": "<p>Topics, reprised 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls!\n@phrawzty // Datadog\n21</p>\n"
+    },
+    {
+      "id": "Iul5RF",
+      "number": 22,
+      "image": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thanks! @phrawzty // Datadog 22",
+      "title": "",
+      "original_description_html": "<p>Thanks!\n@phrawzty // Datadog\n22</p>\n"
+    }
+  ],
+  "page_count": 22,
+  "files": [
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0001.png",
+      "sha256": "f33171f87e3be1b3193f6786633ddb5372ae6bbbe6a16edc45ffc271a89904ee",
+      "bytes": 46112
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0002.jpg",
+      "sha256": "db2b667a341122d2838e179d3ee6f0f7556b77d034ffa5802ec1d4e22d41d210",
+      "bytes": 147328
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0003.jpg",
+      "sha256": "8c75eec907d25a79acd606bac58836b13a03dc572a247c718b54026567085516",
+      "bytes": 98063
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0004.png",
+      "sha256": "5d50e243789089a39a2b4f08e4688e537888453c70746049d940f654081e7fe0",
+      "bytes": 76896
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0005.png",
+      "sha256": "91e9ae04dcffda5478c50e1fbc4d108c06af643385ef3e0daedb9fe025b59292",
+      "bytes": 76113
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0006.png",
+      "sha256": "6b2fdeb29b5ba1a05583a42ad31a3cfaf8a735b9f93e30870037793204fc68e2",
+      "bytes": 81462
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0007.jpg",
+      "sha256": "a1a999c8c7356be1f2611319da90c7811f030025ba648c211515741fefcf0c9f",
+      "bytes": 339153
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0008.png",
+      "sha256": "b159c53eea0f5cbe5127ac57d12d353efb18ce27768a3ba8aabdca6c02bf250c",
+      "bytes": 76286
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0009.png",
+      "sha256": "c8fbc57502d911a1d59ae1adf22efc2c9a712f4c5d44122b7f6e38b21a4734a4",
+      "bytes": 32411
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0010.jpg",
+      "sha256": "9756487f3192051a3fbff0d9bfa65fb7a289ea5488706cad3f000d1e52e93382",
+      "bytes": 472237
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0011.jpg",
+      "sha256": "49052acaa7e5d226ef6d725f09206d922336c3235829fc072c61fd7095ba9594",
+      "bytes": 488140
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0012.jpg",
+      "sha256": "c482ea57e45bf0a9f225ccd7e029aaaa5037de172e24f38f501ca77ea8968537",
+      "bytes": 390670
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0013.png",
+      "sha256": "8a15303755e00765cd0d40f6facac5190634b0865dd66356b052e49cb909229a",
+      "bytes": 120294
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0014.png",
+      "sha256": "02bff802eb8719363e10b6067c5527aa5d105adb33ac79485cf07431c7108696",
+      "bytes": 76042
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0015.png",
+      "sha256": "d0019d136727badddb2222952823221c96826a2145c0a485e8e3a6419cab1b41",
+      "bytes": 97335
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0016.png",
+      "sha256": "7a284f5d3524e5f6e73fb4d251ab54e5cf38a9b58c5ea89efe4ccbba6a2f5498",
+      "bytes": 173864
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0017.png",
+      "sha256": "25ad2ce69b2a0818a2455c15e0e8999556b005cf64cb7daa8b957e4455d0ed54",
+      "bytes": 76421
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0018.png",
+      "sha256": "95c3c9bcbb763c516745438c7436c72ceb284770eefddec9d4f58b5d326760b0",
+      "bytes": 72112
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0019.png",
+      "sha256": "57e4a5ca803876ef2c1499fc6f66b2c09ba34c8603ed79b7a132fa5720096866",
+      "bytes": 204484
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0020.jpg",
+      "sha256": "9e5dff87ba5dfb2071b4caedbc958ff5f2794f956b4139bb00a57b9e7417373d",
+      "bytes": 439153
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0021.png",
+      "sha256": "02514f05c71139305f4d0ffbe3c3ce457db76613a88a4b49c46a9fbb818bd72e",
+      "bytes": 79522
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/0022.jpg",
+      "sha256": "a3a0434542691ca6bc7e2e0cf43b4fc1005577600b54922aa0d92e06d1eb067b",
+      "bytes": 78168
+    },
+    {
+      "path": "decks/a2c765597524250970199357b991ab09914a12647665dd08eb9d8ecca3beb432/original.pdf",
+      "sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
+      "bytes": 7153874
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/PN3eSl/demystifying-devops-sre"
+}

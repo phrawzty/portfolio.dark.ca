@@ -1,0 +1,43 @@
++++
+title = "Serverless, Revealed!"
+date = 2018-06-01T08:00:00+02:00
+draft = false
+path = "HZ4wld"
+template = "appearance.html"
+aliases = ["HZ4wld/serverless-revealed", "videos/HZ4wld"]
+
+[extra]
+id = "HZ4wld"
+talk = "serverless-revealed"
+event = "dotScale 2018"
+event_url = ""
+location = "Paris, France"
+timezone = "Europe/Paris"
+virtual = false
+deck = "297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853"
+recording_url = "https://www.youtube.com/watch?v=0s8ATQmhQPE"
+source_url = "https://speaking.dark.ca/HZ4wld/serverless-revealed"
+source_event_id = "ev_hzJ3AI"
+source_published_on = "2018-06-01 08:00:00"
+latitude = 48.856614
+longitude = 2.352222
+
+[[extra.resources]]
+title = "Event Listing"
+url = "https://www.dotconferences.com/2018/06/daniel-maher-serverless-revealed"
+description = ""
+
+[[extra.feedback]]
+text = "Really nice lightning talk from @phrawzty here at @dotScale 👍Nice summary about Serverless and what questions we should now be asking to choose a FaaS platform 💡 Go and watch the video afterward if you're not there ! Hint: maybe you'll be able to see him speaking again soon 😉 pic.twitter.com/3nSNFPD39T — Alexis \"Horgix\" Chotard (@Horgix) June 1, 2018"
+url = "https://twitter.com/Horgix/status/1002525602438664192?ref_src=twsrc%5Etfw"
+author = "@Horgix"
+source_links = ["https://t.co/3nSNFPD39T", "https://twitter.com/Horgix/status/1002525602438664192?ref_src=twsrc%5Etfw", "https://twitter.com/dotScale?ref_src=twsrc%5Etfw", "https://twitter.com/phrawzty?ref_src=twsrc%5Etfw"]
+
+[[extra.feedback]]
+text = "@phrawzty nice talk dude, really well done! — Tim Carry (@pixelastic) June 1, 2018"
+url = "https://twitter.com/pixelastic/status/1002522454550630401?ref_src=twsrc%5Etfw"
+author = "@pixelastic"
+source_links = ["https://twitter.com/phrawzty?ref_src=twsrc%5Etfw", "https://twitter.com/pixelastic/status/1002522454550630401?ref_src=twsrc%5Etfw"]
++++
+
+<p>A whirlwind introduction to Serverless, covering major providers, differentiators, and pricing. As an added bonus, the terrible secret of Serverless is revealed (spoiler: there is no magic).</p>

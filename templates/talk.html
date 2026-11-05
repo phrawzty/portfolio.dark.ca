@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block main %}<p class="eyebrow">Talk</p><h1>{{ page.title }}</h1><div class="prose">{{ page.content | safe }}</div>
+<h2>Appearances</h2>{% set appearances = get_section(path='appearances/_index.md') %}
+{% for appearance in appearances.pages %}{% if appearance.extra.talk == page.slug %}{% include "partials/appearance-row.html" %}{% endif %}{% endfor %}
+{% endblock %}

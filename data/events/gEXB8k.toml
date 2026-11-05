@@ -1,0 +1,12 @@
+id = "ev_gEXB8k"
+title = "Kubernetes Community Days France 2023"
+slug = "kubernetes-community-days-france-2023"
+starts_on = "2023-03-07 08:00:00"
+ends_on = "2023-03-07 18:00:00"
+timezone = "Europe/Paris"
+address = "Paris, France"
+latitude = "48.856614"
+longitude = "2.352222"
+country_code = "FR"
+
+[blurb]

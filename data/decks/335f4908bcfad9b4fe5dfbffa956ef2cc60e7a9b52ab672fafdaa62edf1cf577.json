@@ -1,0 +1,588 @@
+{
+  "id": "335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577",
+  "source_sha256": "cf11298f550fb3b466795e0c9efd105674152baee23d6420371f58dab27bf74e",
+  "provenance": "original",
+  "pdf": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/original.pdf",
+  "slides": [
+    {
+      "id": "r0AMrh",
+      "number": 1,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "TJtAk6",
+      "number": 2,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "DEV315-S Building SRE from scratch at Coinbase during hypergrowth Niall O’Higgins Daniel Maher © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>DEV315-S\nBuilding SRE from scratch at Coinbase during hypergrowth Niall O’Higgins\nDaniel Maher\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "5dbycV",
+      "number": 3,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "“Our goal is to make Coinbase the most trusted and easiest to use digital currency exchange.” Brian Armstrong Co-founder & CEO of Coinbase",
+      "title": "",
+      "original_description_html": "<p>“Our goal is to make Coinbase the most trusted and easiest to use digital currency exchange.” Brian Armstrong Co-founder &amp; CEO of Coinbase</p>\n"
+    },
+    {
+      "id": "hxKmUu",
+      "number": 4,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What is SRE? • New field • Definitions vary • Many misconceptions © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>What is SRE? • New field • Definitions vary • Many misconceptions\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "KH3aNJ",
+      "number": 5,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Is this SRE? • Endless firefighting? • Being on-call? • Operational toil? Those are the symptoms; SRE is the cure. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Is this SRE? • Endless firefighting? • Being on-call? • Operational toil?\nThose are the symptoms; SRE is the cure.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "wamOFi",
+      "number": 6,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "What about DevOps? SRE satisfies many, if not all, of the operational and cultural elements of DevOps. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>What about DevOps? SRE satisfies many, if not all, of the operational and cultural elements of DevOps.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "YuVC87",
+      "number": 7,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Key SRE insight #1 Measure and improve human, organisational, and machine systems. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Key SRE insight #1 Measure and improve human, organisational, and machine systems.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "BEE00W",
+      "number": 8,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Key SRE insight #2 Move from reactive to proactive. Go find sources of toil and eliminate them! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Key SRE insight #2 Move from reactive to proactive. Go find sources of toil and eliminate them!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "nXwnsv",
+      "number": 9,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Key SRE insight #3 Provide an organisational backpressure mechanism. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Key SRE insight #3 Provide an organisational backpressure mechanism.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "PrfblK",
+      "number": 10,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Set early expectations • New language and fresh set of concepts. • Takes time to absorb - no instant results! • The best way to begin, is to begin. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Set early expectations • New language and fresh set of concepts. • Takes time to absorb - no instant results! • The best way to begin, is to begin.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "2BOPdj",
+      "number": 11,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The Coinbase strategy • Service Level Indicators • The “Four Golden Signals” © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>The Coinbase strategy • Service Level Indicators • The “Four Golden Signals”\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "eV7DW8",
+      "number": 12,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Metrics: the core of SLIs • Natural tendency to over-engineer. • Lots of data, none of it actionable or useful. Optimise for KPIs, or high signal/noise. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Metrics: the core of SLIs • Natural tendency to over-engineer. • Lots of data, none of it actionable or useful.\nOptimise for KPIs, or high signal/noise.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "Goq1OX",
+      "number": 13,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "The Four Golden Signals • • • • Latency Traffic Errors Saturation © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>The Four Golden Signals • • • •\nLatency Traffic Errors Saturation\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "t8YpGw",
+      "number": 14,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Latency • Direct impact on customer experience. • Where and how you measure it is important. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Latency • Direct impact on customer experience. • Where and how you measure it is important.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "VSHd9L",
+      "number": 15,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Traffic • The amount of work being done - or attempted. • Direct relationship with business value. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Traffic • The amount of work being done - or attempted. • Direct relationship with business value.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "7m0R1k",
+      "number": 16,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Errors • A nice, defined target to aim at. • Direct impact on customer experience. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Errors • A nice, defined target to aim at. • Direct impact on customer experience.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "k5jEu9",
+      "number": 17,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Saturation • Real Talk: this is a tricky one. • Direct relationship to both scaling and capacity planning. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Saturation • Real Talk: this is a tricky one. • Direct relationship to both scaling and capacity planning.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "MPS2mY",
+      "number": 18,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Humans and the Four Golden Signals • • • • Latency Traffic Errors Saturation © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Humans and the Four Golden Signals • • • •\nLatency Traffic Errors Saturation\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "yjAqex",
+      "number": 19,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Start, then iterate • Start with an initial specification - even if it’s not ideal. • Iterating on feedback is the key to getting it right. • Keep it simple! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Start, then iterate • Start with an initial specification - even if it’s not ideal. • Iterating on feedback is the key to getting it right. • Keep it simple!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "b2teXM",
+      "number": 20,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Spreadsheets are simple, right? Service Latency Errors Saturation Traffic Foo foo.latency foo.error_rate Disc space TPS Bar bar.response_time bar.error_rate Memory TPS © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Spreadsheets are simple, right?\nService\nLatency\nErrors\nSaturation\nTraffic\nFoo\nfoo.latency\nfoo.error_rate\nDisc space\nTPS\nBar\nbar.response_time\nbar.error_rate\nMemory\nTPS\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "DMcSPl",
+      "number": 21,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLIs: Defining “done” • Per-service dashboard in Datadog with timeseries chart for each indicator. • Document describing the indicators and why they are important. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>SLIs: Defining “done” • Per-service dashboard in Datadog with timeseries chart for each\nindicator. • Document describing the indicators and why they are important.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "pgLGIA",
+      "number": 22,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog Dashboards © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Datadog Dashboards\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "S044AZ",
+      "number": 23,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog Dashboards © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Datadog Dashboards\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "4Jms2y",
+      "number": 24,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Specification Documentation • • • Spec vs. implementation Where do you want to instrument? Where is it easy to instrument? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Specification Documentation • • •\nSpec vs. implementation Where do you want to instrument? Where is it easy to instrument?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "gdVfvN",
+      "number": 25,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "First SLIs, then Promises • Plain-language statements; easy to parse, easy to understand. • Plenty of potential stakeholders. • Start simple! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>First SLIs, then Promises • Plain-language statements; easy to parse, easy to understand. • Plenty of potential stakeholders. • Start simple!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "IxETnm",
+      "number": 26,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "“You can rely on us to buy or sell crypto whenever you want.” Coinbase’s “Prime Promise”",
+      "title": "",
+      "original_description_html": "<p>“You can rely on us to buy or sell crypto whenever you want.” Coinbase’s “Prime Promise”</p>\n"
+    },
+    {
+      "id": "vGxHgB",
+      "number": 27,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0027.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Essential Reading Thinking in Promises by Mark Burgess © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Essential Reading Thinking in Promises by Mark Burgess\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "Xag5Ya",
+      "number": 28,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0028.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Concerning Promises • Promises have two parties. • Promises can be human to machine, human to human, or machine to machine. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Concerning Promises • Promises have two parties. • Promises can be human to machine, human to human, or machine to\nmachine.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "9uOtQz",
+      "number": 29,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Example Promises • You service promises to respond to clients within 50ms. • A service you depend on promises that its error rate will be < 1%. • On-call promises they will engage an incident within 15 minutes. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Example Promises • You service promises to respond to clients within 50ms. • A service you depend on promises that its error rate will be &lt; 1%. • On-call promises they will engage an incident within 15 minutes.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "mE7hJO",
+      "number": 30,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0030.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Promise enumeration • Each team must formalise the promises they are willing to keep. • They must also understand the promises they rely upon to function. • When a promise you rely upon is broken, what should you do? Who should you contact? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Promise enumeration • Each team must formalise the promises they are willing to keep. • They must also understand the promises they rely upon to function. • When a promise you rely upon is broken, what should you do? Who\nshould you contact?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "OXqVBn",
+      "number": 31,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Promises: defining “done” Promises are done when they have a Datadog monitor (alert). © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Promises: defining “done” Promises are done when they have a Datadog monitor (alert).\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "0rZJ4C",
+      "number": 32,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0032.png",
+      "width": 1600,
+      "height": 900,
+      "text": "When Promises are broken… • It is inevitable that a promises will be broken at some point. • What to do when that happens? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>When Promises are broken… • It is inevitable that a promises will be broken at some point. • What to do when that happens?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "dBI6wb",
+      "number": 33,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0033.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Blameless post-mortems • Is “blameless post-mortem” a real thing? • What about data-driven post-mortems? • How does this relate to promises - specifically broken ones? • https://v.gd/jpr_post_mortems • https://v.gd/jyee_datadriven © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Blameless post-mortems • Is “blameless post-mortem” a real thing? • What about data-driven post-mortems? • How does this relate to promises - specifically broken ones?\n• https://v.gd/jpr_post_mortems • https://v.gd/jyee_datadriven\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "FV0up0",
+      "number": 34,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0034.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Interpreting incidents • • • Build a shared language. Practise communicating. Understand that incidents and outages are broken promises. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Interpreting incidents • • •\nBuild a shared language. Practise communicating. Understand that incidents and outages are broken promises.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "rojihP",
+      "number": 35,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0035.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Measuring incident response • Quantify and measure the quality of your incident responses. • Quantitative: Time to detect, time to engage, time to fix. • Qualitative: Quality of communication. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Measuring incident response • Quantify and measure the quality of your incident responses. • Quantitative: Time to detect, time to engage, time to fix. • Qualitative: Quality of communication.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "U8SWZo",
+      "number": 36,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0036.png",
+      "width": 1600,
+      "height": 900,
+      "text": "The end-game • Have a clear answer for “why SRE?” • Start with instrumentation keep it simple to start. • Enumerate your promises. • Measure your response when promises are broken. • Transparency • Understanding • Confidence © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>The end-game • Have a clear answer for\n“why SRE?” • Start with instrumentation keep it simple to start. • Enumerate your promises. • Measure your response when promises are broken.\n• Transparency • Understanding • Confidence\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "6SBKSD",
+      "number": 37,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0037.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank you! Niall O’Higgins Daniel Maher © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>Thank you! Niall O’Higgins\nDaniel Maher\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    },
+    {
+      "id": "ilu8Kc",
+      "number": 38,
+      "image": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0038.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
+      "title": "",
+      "original_description_html": "<p>© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+    }
+  ],
+  "page_count": 38,
+  "files": [
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0001.jpg",
+      "sha256": "8f31218b3e923b32a34d253b9b7758a50e1058b2faa5ba5d12141ca43b00e899",
+      "bytes": 85450
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0002.jpg",
+      "sha256": "ed79728e67e247f7872015f46e2645812fb118aa9804890d8a119cdf0228f31b",
+      "bytes": 118390
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0003.jpg",
+      "sha256": "48c691b6a550dc2a57db0c00ba54d160681d40124fe267f51b87f11088e41c6a",
+      "bytes": 182458
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0004.png",
+      "sha256": "86e5b7c07531cb535b2dc7a3290ed6ed339f93fa6d3de572c536b15b99472d95",
+      "bytes": 58881
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0005.png",
+      "sha256": "41669d8cf27ddf9c61e4073211ff5b8304f5c8ba5b0eca966872cfb547ad05d6",
+      "bytes": 76634
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0006.jpg",
+      "sha256": "e956be5073521453c51a1200f906d6bc0ea738691fcdf1d0a14243030d81a1e8",
+      "bytes": 128728
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0007.jpg",
+      "sha256": "af52cc9f1beae21495b1d2dc9aeb2df044b81716935a4ef3c46ca21a0a6d536d",
+      "bytes": 216121
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0008.jpg",
+      "sha256": "4485d9607f99af50584063df7760d7da0d7d95caa35fdad7ff3b38f29a4221af",
+      "bytes": 232456
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0009.jpg",
+      "sha256": "5373ac77369e5cc7c7d3969a4c884b6d69e961a0ea1f1d0daae366f3efc1d7f5",
+      "bytes": 228802
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0010.png",
+      "sha256": "d2a4bca134cdc7db418e5cc62413911448cff7cb74e8e56a13bd95fdecb79f6d",
+      "bytes": 92007
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0011.png",
+      "sha256": "b273377ec3046b43b08f67462aecdf2f78cd93c867fb308fcd14d27253e021cf",
+      "bytes": 63591
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0012.png",
+      "sha256": "6fd43295711626a8cb4c61b87e748fb0c1040ecb072f08740347c770991d32a8",
+      "bytes": 89063
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0013.jpg",
+      "sha256": "ec290e102e16136ce7ac8f7926fa7128462bf1461c6f9fa076b3dc522bf25473",
+      "bytes": 211018
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0014.png",
+      "sha256": "43e5f5ef0c15dd49dd8b8a67dc65cb9bfeae2ac3799703ebc54769f2fdbdaa1c",
+      "bytes": 64856
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0015.png",
+      "sha256": "b0169975c51be625efaf13538dfef847f5deb9a65ee376abb21a3cf030ba4a47",
+      "bytes": 63716
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0016.png",
+      "sha256": "0bf83037f4a1004bc51df176187d053c7dfa5cb021ad4b499b1484acb2cd1541",
+      "bytes": 57878
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0017.png",
+      "sha256": "b50b1b2e8e6df2e6b3ad6fb6318fe7fcb75cbabbb0cc679eacb76ef06a577aa4",
+      "bytes": 68426
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0018.jpg",
+      "sha256": "8bebfaa8a668428a75c3d59a2445a7640e29cb6ee05b14e994c9ff5cc2b348d9",
+      "bytes": 295460
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0019.png",
+      "sha256": "cf103550e85d8006c635c6057b03ed2c1d572a6a70fdf5bc59b297e7b5100a26",
+      "bytes": 84772
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0020.png",
+      "sha256": "bd193d439c916f44f1dae76db08b75de0135d6b1f90bea50316c989386173e32",
+      "bytes": 254424
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0021.png",
+      "sha256": "a30635ed0671e3605316e94af3b0e95393894384ede54ee9f5653b489ccc971f",
+      "bytes": 91769
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0022.jpg",
+      "sha256": "62cce0da8c5b5c2f79a4bfe83fae8542a13821ced04a9da9553a85b335102897",
+      "bytes": 100503
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0023.jpg",
+      "sha256": "96415ecbe53400467f3f8b98c2df5dede7ee7ba6096f7dce8e67274de07c09ba",
+      "bytes": 128233
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0024.jpg",
+      "sha256": "7007ec5b90287166497f6cd0edb432001120cafc237cc3a79ea805c06c4eddcc",
+      "bytes": 161712
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0025.png",
+      "sha256": "557c63b5ff588dbf55c27dca39a7e925adb15cb40540e10499c53e7439c51ab5",
+      "bytes": 86148
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0026.jpg",
+      "sha256": "09f36a6b171db6ce9d97d2d0b69486d1aad16c4766368a3b5b72b4eacce6ee45",
+      "bytes": 138770
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0027.jpg",
+      "sha256": "90f6f79075ab7957310eba9bf6e6359643a147f5ca91292c98eeff9bbd104bbc",
+      "bytes": 196637
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0028.png",
+      "sha256": "f5163c95ef943687d17dbeb561efc3874aac0c341937f09859b8685b87fdc1c0",
+      "bytes": 75673
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0029.png",
+      "sha256": "4e8ce9b707d1b8a476660bf28d3ecd0e3175bd9f8cdd18b3fd42b27832cd2e45",
+      "bytes": 110241
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0030.png",
+      "sha256": "020fb159908d0707e68e24f5451bbb59204ef61089a2db924418b000d8e565d7",
+      "bytes": 121407
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0031.jpg",
+      "sha256": "3818a5616d5b72eb57c9fcebddc85568130e27fb00474566f6ebab44d495c16e",
+      "bytes": 139465
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0032.png",
+      "sha256": "25dcb8f6d4eed7353811fe417617aee2f91a3383813a90dd6a4f38df4cdbf732",
+      "bytes": 82051
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0033.png",
+      "sha256": "c917d1e3065f9ebfe9bcc3991eeba3b8b1ec3bc18a0555908ccbdb6b86e20803",
+      "bytes": 128299
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0034.jpg",
+      "sha256": "64edcdd305c803eff2323f220dbe0c419b3c895289ac3cfe62962696219edefa",
+      "bytes": 118448
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0035.png",
+      "sha256": "7f55323f8b4d70ce8ac3e3caf9646ae1baaae5a244198d1c4f2c8ba3b5e915d5",
+      "bytes": 102723
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0036.png",
+      "sha256": "6f548700b1c82e32a9cc0fd6929e70f760e09344d65d07afd29f55fd72a7af2d",
+      "bytes": 127251
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0037.jpg",
+      "sha256": "ba55bbf330cfa78b7685064aedafd6759c87279a8181b2eac384cf84fb0f522f",
+      "bytes": 129080
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/0038.jpg",
+      "sha256": "36af57419ef4b7b36ad1a32026729d1b747019dc6ecb3fc49432ff139e915d08",
+      "bytes": 137448
+    },
+    {
+      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/original.pdf",
+      "sha256": "cf11298f550fb3b466795e0c9efd105674152baee23d6420371f58dab27bf74e",
+      "bytes": 9601135
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/RTIcE6/building-sre-from-scratch-at-coinbase-during-hypergrowth"
+}

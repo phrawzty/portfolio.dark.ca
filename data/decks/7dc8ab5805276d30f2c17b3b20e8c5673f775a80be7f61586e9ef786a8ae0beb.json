@@ -1,0 +1,633 @@
+{
+  "id": "7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb",
+  "source_sha256": "e662054fef147a2d513b2be5084584f00b5128f1f970b9f714a3dd685d831af3",
+  "provenance": "original",
+  "pdf": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/original.pdf",
+  "slides": [
+    {
+      "id": "6a02u4",
+      "number": 1,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020",
+      "title": "",
+      "original_description_html": "<p>The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020</p>\n"
+    },
+    {
+      "id": "itiqmT",
+      "number": 2,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020",
+      "title": "",
+      "original_description_html": "<p>The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020</p>\n"
+    },
+    {
+      "id": "LDRees",
+      "number": 3,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Your Safety Dancer Daniel Maher Twitter: @phrawzty Email: daniel.maher@datadoghq.com Web: www.dark.ca",
+      "title": "",
+      "original_description_html": "<p>Your Safety Dancer Daniel Maher\nTwitter: @phrawzty Email: daniel.maher@datadoghq.com Web: www.dark.ca</p>\n"
+    },
+    {
+      "id": "xXASXH",
+      "number": 4,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Your Safety Dancers Daniel Maher ← that’s me! Andrew Krug ← shout out!",
+      "title": "",
+      "original_description_html": "<p>Your Safety Dancers Daniel Maher ← that’s me!\nAndrew Krug ← shout out!</p>\n"
+    },
+    {
+      "id": "ZqtGPg",
+      "number": 5,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "What we’re going to do today",
+      "title": "",
+      "original_description_html": "<p>What we’re going to do today</p>\n"
+    },
+    {
+      "id": "CAc4I5",
+      "number": 6,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk: A Crash Course",
+      "title": "",
+      "original_description_html": "<p>Risk: A Crash Course</p>\n"
+    },
+    {
+      "id": "oUKsAU",
+      "number": 7,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What is risk? What is safety science? Kaplan and Garrick (1989) What can go wrong? What is the likelihood? (probability) How bad could it be?",
+      "title": "",
+      "original_description_html": "<p>What is risk? What is safety science? Kaplan and Garrick (1989) What can go wrong? What is the likelihood? (probability) How bad could it be?</p>\n"
+    },
+    {
+      "id": "Qo3g2t",
+      "number": 8,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What is risk? What is safety science? Classic calculation R=f(s,p,c) Risk = f (scenario, probability, consequence)",
+      "title": "",
+      "original_description_html": "<p>What is risk? What is safety science? Classic calculation\nR=f(s,p,c) Risk = f (scenario, probability, consequence)</p>\n"
+    },
+    {
+      "id": "37mTvI",
+      "number": 9,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Qualitative vs Quantitative Qualitative reasoning ranks likelihood using a scale score metric. 👍 👎 Speedy Light data gathering? Easy Low precision Light data gathering!",
+      "title": "",
+      "original_description_html": "<p>Qualitative vs Quantitative Qualitative reasoning ranks likelihood using a scale score metric.\n👍\n👎\nSpeedy\nLight data gathering?\nEasy\nLow precision\nLight data gathering!</p>\n"
+    },
+    {
+      "id": "fRVHnh",
+      "number": 10,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Qualitative vs Quantitative Quantitative reasoning uses data to reason about probabilities and consequences. 👍 👎 Accuracy Time Data Relative risks (adjacent)",
+      "title": "",
+      "original_description_html": "<p>Qualitative vs Quantitative Quantitative reasoning uses data to reason about probabilities and consequences. 👍\n👎\nAccuracy\nTime Data Relative risks (adjacent)</p>\n"
+    },
+    {
+      "id": "HlE5g6",
+      "number": 11,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Hybrid Models T. Aven, “Three influential risk foundation papers from the 80s and 90s: Are they still state-of-the-art?,” Reliability Engineering & System Safety, 28-Sep-2019. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0951832019302649?via=ihub. [Accessed: 15-Oct-2020].",
+      "title": "",
+      "original_description_html": "<p>Hybrid Models\nT. Aven, “Three influential risk foundation papers from the 80s and 90s: Are they still state-of-the-art?,” Reliability Engineering &amp; System Safety, 28-Sep-2019. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0951832019302649?via=ihub. [Accessed: 15-Oct-2020].</p>\n"
+    },
+    {
+      "id": "u4wtYV",
+      "number": 12,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What is risk? What is safety science? Hybrid calculation R=f(s,p,c,k) Risk = f(scenario, probability, consequence, knowledge) knowledge = (mix of both quantitative and qualitative data)",
+      "title": "",
+      "original_description_html": "<p>What is risk? What is safety science? Hybrid calculation\nR=f(s,p,c,k) Risk = f(scenario, probability, consequence, knowledge) knowledge = (mix of both quantitative and qualitative data)</p>\n"
+    },
+    {
+      "id": "WOfhQu",
+      "number": 13,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "The Knowledge Dimension (This is where you come in!)",
+      "title": "",
+      "original_description_html": "<p>The Knowledge Dimension (This is where you come in!)</p>\n"
+    },
+    {
+      "id": "8iOVJJ",
+      "number": 14,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech Triforce of fear! DDoS Failed Deploy Certificate Issues Load Issues Reputation Information Security Tampering SQL Injection Impersonation Authentication Bypass Productivity Data Exfiltration SQL Injection XSS Financial",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech Triforce of fear! DDoS Failed Deploy Certificate Issues Load Issues\nReputation Information Security\nTampering SQL Injection Impersonation Authentication Bypass\nProductivity\nData Exfiltration SQL Injection XSS\nFinancial</p>\n"
+    },
+    {
+      "id": "l27JBi",
+      "number": 15,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech Triad of consequences! Headline news? Brand damage Customer trust Reputation Information Security How long to restore? How much forensics? Time to rollback? Employee Safety Doxxing Productivity Fines! Legal damages Identity insurance Financial",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech Triad of consequences! Headline news? Brand damage Customer trust\nReputation Information Security\nHow long to restore? How much forensics? Time to rollback? Employee Safety Doxxing\nProductivity\nFines! Legal damages Identity insurance\nFinancial</p>\n"
+    },
+    {
+      "id": "NLq747",
+      "number": 16,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech What we know vs. what we feel Less Damage More Damage 1 Low 2 Medium 3 High 4 Maximum Low 1 Medium 2 High 3 Maximum 4 Less Likely More Likely",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech What we know vs. what we feel Less Damage\nMore Damage\n1 Low\n2 Medium\n3 High\n4 Maximum\nLow 1\nMedium 2\nHigh 3\nMaximum 4\nLess Likely\nMore Likely</p>\n"
+    },
+    {
+      "id": "zfYuwW",
+      "number": 17,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech What we know vs. what we feel Less Damage More Damage 1 Low 2 Medium 3 High 4 Maximum Low 1 Medium 2 High 3 Maximum 4 Less Likely More Likely",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech What we know vs. what we feel Less Damage\nMore Damage\n1 Low\n2 Medium\n3 High\n4 Maximum\nLow 1\nMedium 2\nHigh 3\nMaximum 4\nLess Likely\nMore Likely</p>\n"
+    },
+    {
+      "id": "bzHiov",
+      "number": 18,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech What we feel High 3 + Maximum 4 7?",
+      "title": "",
+      "original_description_html": "<h1>Risk in the age of tech What we feel\nHigh 3\n+\nMaximum 4</h1>\n<p>7?</p>\n"
+    },
+    {
+      "id": "EJ0WhK",
+      "number": 19,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech What we know 0.5 confidence 0.9 confidence 0.7 confidence High 3 Maximum 4 Hi/Max 3.5 1.5 + 3.6 5.1",
+      "title": "",
+      "original_description_html": "<h1>Risk in the age of tech What we know\n0.5 confidence\n0.9 confidence\n0.7 confidence\nHigh 3\nMaximum 4\nHi/Max 3.5\n1.5\n+\n3.6</h1>\n<p>5.1</p>\n"
+    },
+    {
+      "id": "qcjKZj",
+      "number": 20,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Real risks in the real world",
+      "title": "",
+      "original_description_html": "<p>Real risks in the real world</p>\n"
+    },
+    {
+      "id": "SwS8S8",
+      "number": 21,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+    },
+    {
+      "id": "5GAwKX",
+      "number": 22,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+    },
+    {
+      "id": "hZtkCw",
+      "number": 23,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0023.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech, in all industries G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech, in all industries\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+    },
+    {
+      "id": "JtcY5L",
+      "number": 24,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0024.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk in the age of tech, in tech itself G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
+      "title": "",
+      "original_description_html": "<p>Risk in the age of tech, in tech itself\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+    },
+    {
+      "id": "wDLLxk",
+      "number": 25,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0025.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk budgets (Hope for the best; plan for the worst)",
+      "title": "",
+      "original_description_html": "<p>Risk budgets (Hope for the best; plan for the worst)</p>\n"
+    },
+    {
+      "id": "YX49q9",
+      "number": 26,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0026.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "You may have heard this song before…",
+      "title": "",
+      "original_description_html": "<p>You may have heard this song before…</p>\n"
+    },
+    {
+      "id": "AqmxiY",
+      "number": 27,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What is your risk budget based on?",
+      "title": "",
+      "original_description_html": "<p>What is your risk budget based on?</p>\n"
+    },
+    {
+      "id": "nAVlax",
+      "number": 28,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0028.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Base your budget on your data!",
+      "title": "",
+      "original_description_html": "<p>Base your budget on your data!</p>\n"
+    },
+    {
+      "id": "PUEZTM",
+      "number": 29,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk budgets You already have the data… Tools Signal Visibility & Detection Signal Time-based risk",
+      "title": "",
+      "original_description_html": "<p>Risk budgets You already have the data…\nTools\nSignal\nVisibility &amp; Detection\nSignal\nTime-based risk</p>\n"
+    },
+    {
+      "id": "1nxNLl",
+      "number": 30,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0030.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Risk budgets You just need to think about it differently Qualitative risk = Time-based risk Comprehensive Visibility",
+      "title": "",
+      "original_description_html": "<p>Risk budgets You just need to think about it differently</p>\n<ul>\n<li>Qualitative risk\n= Time-based risk\nComprehensive Visibility</li>\n</ul>\n"
+    },
+    {
+      "id": "e7gBEA",
+      "number": 31,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0031.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Using your data to level up!",
+      "title": "",
+      "original_description_html": "<p>Using your data to level up!</p>\n"
+    },
+    {
+      "id": "GROz6Z",
+      "number": 32,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0032.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Rapid risk assessment event_probability = ( recommendations * max_impact ) a.k.a the more things are wrong the more likely an incident will occur",
+      "title": "",
+      "original_description_html": "<p>Rapid risk assessment\nevent_probability = ( recommendations * max_impact )\na.k.a the more things are wrong the more likely an incident will occur</p>\n"
+    },
+    {
+      "id": "sl7myy",
+      "number": 33,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0033.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Use the common language and framework SEV-1 SEV-2 SEV-3 SEV-4 SEV-5 INFO WARN ERROR CRITICAL Low 1 Medium 2 LOW MED HIGH High 3 Maximum 4",
+      "title": "",
+      "original_description_html": "<p>Use the common language and framework\nSEV-1 SEV-2 SEV-3 SEV-4 SEV-5\nINFO WARN ERROR CRITICAL\nLow 1\nMedium 2\nLOW MED HIGH\nHigh 3\nMaximum 4</p>\n"
+    },
+    {
+      "id": "V4qarN",
+      "number": 34,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Dynamic Risk A method for calculating : Assign a weight to the number of findings Low 1 Medium 2 High 3 WARNING = 1 point CRITICAL = 20 points likelihood = ( points * 0.25 ) Since we’re using a 4 point scale “id”: “W41”, “type”: “WARN”, “message”: “S3 Bucket should have encryption option set”, Maximum 4",
+      "title": "",
+      "original_description_html": "<p>Dynamic Risk A method for calculating : Assign a weight to the number of findings Low 1\nMedium 2\nHigh 3\nWARNING = 1 point CRITICAL = 20 points likelihood = ( points * 0.25 ) Since we’re using a 4 point scale “id”: “W41”, “type”: “WARN”, “message”: “S3 Bucket should have encryption option set”,\nMaximum 4</p>\n"
+    },
+    {
+      "id": "7OZOjm",
+      "number": 35,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0035.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Aggregate the data",
+      "title": "",
+      "original_description_html": "<p>Aggregate the data</p>\n"
+    },
+    {
+      "id": "jiICcB",
+      "number": 36,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0036.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Use the data",
+      "title": "",
+      "original_description_html": "<p>Use the data</p>\n"
+    },
+    {
+      "id": "M210Ua",
+      "number": 37,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0037.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "yLjoMz",
+      "number": 38,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0038.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "So in summary…",
+      "title": "",
+      "original_description_html": "<p>So in summary…</p>\n"
+    },
+    {
+      "id": "afScFO",
+      "number": 39,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0039.png",
+      "width": 1600,
+      "height": 900,
+      "text": "In summary… tl;dr – The best risk assessments balance both speed and accuracy, with a healthy dose of testable fact – Your environment is already giving you risk signals – You are an important piece of the security puzzle! – Risk budgets are a tool that organisations can add to their toolbox in order to help their business go fast and stay safe",
+      "title": "",
+      "original_description_html": "<p>In summary… tl;dr – The best risk assessments balance both speed and accuracy, with a healthy dose of testable fact – Your environment is already giving you risk signals – You are an important piece of the security puzzle! – Risk budgets are a tool that organisations can add to their toolbox in order to help their business go fast and stay safe</p>\n"
+    },
+    {
+      "id": "CzBQ7n",
+      "number": 40,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0040.png",
+      "width": 1600,
+      "height": 900,
+      "text": "In summary… Keep the party going! Mozilla Rapid Risk Assessment: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html Rapid Risk Assessment Training https://www.youtube.com/watch?v=jxpuafW-H8U Better Reliability Through SLOs (Fique em Casa Conf 2020) https://www.youtube.com/watch?v=JOFYhFbrsK8 Verizon Data Breach Investigations Report 2020 https://enterprise.verizon.com/resources/reports/dbir/ @phrawzty | daniel.maher@datadog.com | www.dark.ca",
+      "title": "",
+      "original_description_html": "<p>In summary… Keep the party going! Mozilla Rapid Risk Assessment: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html Rapid Risk Assessment Training https://www.youtube.com/watch?v=jxpuafW-H8U Better Reliability Through SLOs (Fique em Casa Conf 2020) https://www.youtube.com/watch?v=JOFYhFbrsK8 Verizon Data Breach Investigations Report 2020 https://enterprise.verizon.com/resources/reports/dbir/\n@phrawzty | daniel.maher@datadog.com | www.dark.ca</p>\n"
+    },
+    {
+      "id": "pIuE0C",
+      "number": 41,
+      "image": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0041.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Daniel Maher // @phrawzty // dark.ca And remember: We can dance—everything’s under control.",
+      "title": "",
+      "original_description_html": "<p>Daniel Maher // @phrawzty // dark.ca And remember: We can dance—everything’s under control.</p>\n"
+    }
+  ],
+  "page_count": 41,
+  "files": [
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0001.jpg",
+      "sha256": "d599d902271a2286f79217282be7337c8b235ec85ec1659f7c170a7e62af1c65",
+      "bytes": 161975
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0002.jpg",
+      "sha256": "d599d902271a2286f79217282be7337c8b235ec85ec1659f7c170a7e62af1c65",
+      "bytes": 161975
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0003.jpg",
+      "sha256": "a67b55453e6ee5db53e7e230432b900fc34eb8413baacf0cc9d7c0f3c7e61d5e",
+      "bytes": 105324
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0004.jpg",
+      "sha256": "9c4ac6e36f298036c76bcebf91b10b3d73af6c9b0368aebc14f8822144e2fb80",
+      "bytes": 147622
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0005.jpg",
+      "sha256": "d08bafd6365ee6a92f0f88394ce4475ebe4e9ac58be00368a3b646dd594a56b4",
+      "bytes": 105058
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0006.jpg",
+      "sha256": "80ca8cb1d48345bb0aa7db5ed4247c4f300d9fb261833af7d17eb44ce771b53c",
+      "bytes": 94488
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0007.png",
+      "sha256": "de79662c1a0b828c21b4beab83f4392372e76301728fe0b1bf181b1d20db1876",
+      "bytes": 217616
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0008.png",
+      "sha256": "4d94a803c43148a7a664cbe5c772119cd5dbe5e88cc3f41adc6922d290fa75d5",
+      "bytes": 171632
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0009.png",
+      "sha256": "30bccfca7fa18d7880b534d7b6417f70689892480ed4408e86536f125a4daeaf",
+      "bytes": 211162
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0010.png",
+      "sha256": "8b406f86872776ffcf22781f346a627a171c2823fb1b2ca0ca27a6994f48de06",
+      "bytes": 209710
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0011.jpg",
+      "sha256": "754c089e2282405b42749fa80a982bafd9420660764474aea90bad5a788420a6",
+      "bytes": 160758
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0012.png",
+      "sha256": "0a3f00ff2cfb1fe8c54c699521454bc57bb8184ef71a25efc821985050becb64",
+      "bytes": 240767
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0013.jpg",
+      "sha256": "c1943939f69c24e92f71dc45f36bcd57876ba8d1bfbf1af36fe8ad8f1c2f23b2",
+      "bytes": 130910
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0014.png",
+      "sha256": "44f36d1ba9c9934eef8b55cf3810faa18836edf06fe0695271e816a97e853aed",
+      "bytes": 422460
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0015.png",
+      "sha256": "59f3e49f2752cec2af11101ea6181515fae2946aa2ae56d62d0e2cad27f8331e",
+      "bytes": 441290
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0016.png",
+      "sha256": "9662ecb157888a678490920be4787ccfd4fbbea8d649c79c7fbea5aaba55eff7",
+      "bytes": 216829
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0017.png",
+      "sha256": "5a71a15c7b55095e50b10306735713f281ce9a2150f8c8aa5350424cee455a98",
+      "bytes": 241133
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0018.png",
+      "sha256": "3f78d50d35f13fe9dc503d3905e5c99b6011d0f77036887e054647257cf27955",
+      "bytes": 109824
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0019.png",
+      "sha256": "164b6d43d0dab6c8998f3a0336f3dd12b16d3e6657c47c959ff6102684288f68",
+      "bytes": 186375
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0020.jpg",
+      "sha256": "13f9a4fca76042940cc5f5e4d9ad510b240886934424479a40edf71b6ffa2223",
+      "bytes": 98466
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0021.jpg",
+      "sha256": "76641bc6c471f416ea303b7418262a7df414ae5e4c86b23cd120767f6badc814",
+      "bytes": 119279
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0022.jpg",
+      "sha256": "1057d181adeb6ab631d710e5264676bf79cffda3b1d5c70fad63526ad92ff122",
+      "bytes": 134108
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0023.jpg",
+      "sha256": "f61e5a1dcd39cce5544017dbaae3d32a4278a32dbfcd9dff810319864806d951",
+      "bytes": 123698
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0024.jpg",
+      "sha256": "07070e67c0569e1da1c37117631d8584fbdf0a42859e81d2d5abe16221d1efa0",
+      "bytes": 130726
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0025.jpg",
+      "sha256": "a6ce940d2b8ed46bbe948703c9c60e89578174e82dea190a74ee9dd30384a4ff",
+      "bytes": 140444
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0026.jpg",
+      "sha256": "e3afb8198cf786bde77edb281a9f30f03ed973ddc591b96ba7402de105d42183",
+      "bytes": 155666
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0027.png",
+      "sha256": "619f178fc449352318fd112f8191aceca19005953096d7792350fe7898f64bec",
+      "bytes": 152341
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0028.png",
+      "sha256": "614850704515799ee5b66a15e6ac9a6d79341ceb9128161bd1b589cc7e609c62",
+      "bytes": 176268
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0029.png",
+      "sha256": "874a8989a6bb8c9d4d1d4d50e6c414db017df746b04b120c4f87f429641cf429",
+      "bytes": 325155
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0030.png",
+      "sha256": "63e5a1f53c0118a017da9a290dabaea5453aa4cba85cb0b6b709ca019d6cdd09",
+      "bytes": 442609
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0031.jpg",
+      "sha256": "b5b38cd98a2826e0f1fb5fb59b93e58a226e456a080c47e2003aec5eab304545",
+      "bytes": 84041
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0032.jpg",
+      "sha256": "c33a18b2ebb42c3810cbdd4163f63ae2c6bf73748da6dad972bd65974386255e",
+      "bytes": 168684
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0033.png",
+      "sha256": "496973d2f340cc7e37253bddabe30f58445916c39c4052a6afdb919db1eaff59",
+      "bytes": 198651
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0034.png",
+      "sha256": "1060e8fbe8a3cfe3d6a6c70040b8260df6f0030204c5757f87eca6b8bd050d37",
+      "bytes": 243633
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0035.jpg",
+      "sha256": "e83bcea186b59b1d984a831d88bbdbd8b770ac0bcd414dfd11efd8a04c3595ed",
+      "bytes": 124088
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0036.jpg",
+      "sha256": "be18c91558c8b3e1b87bd27e4d1cece4fafbfe956b0ef48a3c60bee09228210b",
+      "bytes": 148187
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0037.jpg",
+      "sha256": "672e15de269a8328c3bf3f8c8fcd84c00cd0de000614e20df34d7a98cc39c275",
+      "bytes": 155287
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0038.jpg",
+      "sha256": "84f4bc965f6a21da82028af8411bd87bf80d45f1a44f6133bea870cd406924dd",
+      "bytes": 71853
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0039.png",
+      "sha256": "03725cafcf4f3e7a7b754702a64ff7e4b637ea3197feff8a23eb8a01160809da",
+      "bytes": 319623
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0040.png",
+      "sha256": "207ac775e6a2174c08533f0f618c085e7a77ec98df0731d4fd891685976565fc",
+      "bytes": 408231
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/0041.jpg",
+      "sha256": "6f89256ff0d35e86f7f8f1cbab9a3298bc7b3fa039b325db377a53e7b2a8253a",
+      "bytes": 155968
+    },
+    {
+      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/original.pdf",
+      "sha256": "e662054fef147a2d513b2be5084584f00b5128f1f970b9f714a3dd685d831af3",
+      "bytes": 4294657
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/Rj8FRx/the-safety-dance-risk-assessment-for-devops-practitioners"
+}

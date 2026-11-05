@@ -1,0 +1,6 @@
+Vendored from https://github.com/ebkalderon/terminus
+Revision: a166dc26883e507066f16e9bbb862d6e84b0d861
+Same Sass, fonts and header/footer as dark.ca.
+Only the five used partials are retained; unused Tera 1 blog templates are omitted for Zola 0.23 compatibility.
+Site templates live in templates/.
+Zola 0.23 compatibility: menu test uses named arguments; CSP/footer use equivalent Tera 2 templates.

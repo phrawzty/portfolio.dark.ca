@@ -1,0 +1,1 @@
+Run `uv run portfolio notes`, choose a talk by title and event, and edit its slide titles and transcriptions in the file that opens. Commit edits here with the talk. Source PDFs and images remain unchanged.

@@ -1,0 +1,648 @@
+{
+  "id": "f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209",
+  "source_sha256": "9eac4f06b9d35e6303c67fdaaea281491365cd169411ac66dc26174f6aa958db",
+  "provenance": "original",
+  "pdf": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/original.pdf",
+  "slides": [
+    {
+      "id": "hDXmM8",
+      "number": 1,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Better Reliability With SLOs Daniel Maher Developer Relations",
+      "title": "",
+      "original_description_html": "<p>Better Reliability With SLOs Daniel Maher Developer Relations</p>\n"
+    },
+    {
+      "id": "JXGaEX",
+      "number": 2,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Better Reliability With SLOs Daniel “phrawzty” Maher Developer Relations",
+      "title": "",
+      "original_description_html": "<p>Better Reliability With SLOs Daniel “phrawzty” Maher Developer Relations</p>\n"
+    },
+    {
+      "id": "vqzO6w",
+      "number": 3,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0003.png",
+      "width": 1600,
+      "height": 900,
+      "text": "What we’ll cover today – SLIs, SLOs, and SLAs – Defining quality targets – Error budgets – Practical examples @phrawzty",
+      "title": "",
+      "original_description_html": "<p>What we’ll cover today\n– SLIs, SLOs, and SLAs – Defining quality targets – Error budgets – Practical examples\n@phrawzty</p>\n"
+    },
+    {
+      "id": "YAiBzL",
+      "number": 4,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "SLIs, SLOs, & SLAs @phrawzty",
+      "title": "",
+      "original_description_html": "<p>SLIs, SLOs, &amp; SLAs @phrawzty</p>\n"
+    },
+    {
+      "id": "AUQzrk",
+      "number": 5,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric). SLIs @phrawzty Image credit: Indicator by Nhor from the Noun Project",
+      "title": "",
+      "original_description_html": "<p>A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric).\nSLIs @phrawzty\nImage credit: Indicator by Nhor from the Noun Project</p>\n"
+    },
+    {
+      "id": "mo9nk9",
+      "number": 6,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "A Service Level Objective is a target value for a service, as measured via an SLI. SLOs @phrawzty Image credit: Objective by priyanka from the Noun Project",
+      "title": "",
+      "original_description_html": "<p>A Service Level Objective is a target value for a service, as measured via an SLI.\nSLOs @phrawzty\nImage credit: Objective by priyanka from the Noun Project</p>\n"
+    },
+    {
+      "id": "P7sbcY",
+      "number": 7,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs. SLAs @phrawzty Image credit: Checked document by Rockicon from the Noun Project",
+      "title": "",
+      "original_description_html": "<p>A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs.\nSLAs @phrawzty\nImage credit: Checked document by Rockicon from the Noun Project</p>\n"
+    },
+    {
+      "id": "1RbPUx",
+      "number": 8,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Multiple Stakeholders Product Managers Developers, SREs Executives Customers @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Multiple Stakeholders Product Managers\nDevelopers, SREs\nExecutives\nCustomers\n@phrawzty</p>\n"
+    },
+    {
+      "id": "dlKDNM",
+      "number": 9,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Focus on user experience SLIs @phrawzty SLOs SLAs",
+      "title": "",
+      "original_description_html": "<p>Focus on user experience\nSLIs @phrawzty\nSLOs\nSLAs</p>\n"
+    },
+    {
+      "id": "G531Fl",
+      "number": 10,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Defining quality targets",
+      "title": "",
+      "original_description_html": "<p>Defining quality targets</p>\n"
+    },
+    {
+      "id": "sOlp8A",
+      "number": 11,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "User experience is everything ● How are they interacting with your product? @phrawzty",
+      "title": "",
+      "original_description_html": "<p>User experience is everything ● How are they interacting with your product?\n@phrawzty</p>\n"
+    },
+    {
+      "id": "UiUd0Z",
+      "number": 12,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? @phrawzty",
+      "title": "",
+      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow?\n@phrawzty</p>\n"
+    },
+    {
+      "id": "72DQsy",
+      "number": 13,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? @phrawzty",
+      "title": "",
+      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with?\n@phrawzty</p>\n"
+    },
+    {
+      "id": "jLwElN",
+      "number": 14,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? ● What do they want? What do they expect? @phrawzty",
+      "title": "",
+      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? ● What do they want? What do they expect?\n@phrawzty</p>\n"
+    },
+    {
+      "id": "Lff2dm",
+      "number": 15,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Not all values make good SLIs @phrawzty – Free resources (CPU, Memory, Disk Space) – Quorum state (does the leader matter?) – Number of lines of code per commit.",
+      "title": "",
+      "original_description_html": "<p>Not all values make good SLIs\n@phrawzty\n– Free resources (CPU, Memory, Disk Space) – Quorum state (does the leader matter?) – Number of lines of code per commit.</p>\n"
+    },
+    {
+      "id": "xzNqWB",
+      "number": 16,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Identifying good SLIs Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
+      "title": "",
+      "original_description_html": "<p>Identifying good SLIs Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+    },
+    {
+      "id": "aJ6eOa",
+      "number": 17,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLIs are applied values Indicators must have represent user experience. The number of requests to an endpoint that complete successfully. @phrawzty The number of requests to an endpoint that complete within 500ms.",
+      "title": "",
+      "original_description_html": "<p>SLIs are applied values Indicators must have represent user experience. The number of requests to an endpoint that complete successfully.\n@phrawzty\nThe number of requests to an endpoint that complete within 500ms.</p>\n"
+    },
+    {
+      "id": "CcpSGz",
+      "number": 18,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLOs are applied SLIs Objectives have both a target and a time window. Requests are 99.95% successful in the last 24 hours. @phrawzty 90% of requests complete under 500ms in the 30 days.",
+      "title": "",
+      "original_description_html": "<p>SLOs are applied SLIs Objectives have both a target and a time window. Requests are 99.95% successful in the last 24 hours.\n@phrawzty\n90% of requests complete under 500ms in the 30 days.</p>\n"
+    },
+    {
+      "id": "owYG9O",
+      "number": 19,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0019.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLAs are applied SLOs Agreements address expectations and impacts. The customer expects a given service to have a 0.05% maximum error rate daily, or they’ll receive a rebate. @phrawzty The customer expects only 10% of monthly requests to take longer than 500ms to complete, or they’ll be reimbursed for the compute overage.",
+      "title": "",
+      "original_description_html": "<p>SLAs are applied SLOs Agreements address expectations and impacts. The customer expects a given service to have a 0.05% maximum error rate daily, or they’ll receive a rebate.\n@phrawzty\nThe customer expects only 10% of monthly requests to take longer than 500ms to complete, or they’ll be reimbursed for the compute overage.</p>\n"
+    },
+    {
+      "id": "RGH41n",
+      "number": 20,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0020.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Error Budgets",
+      "title": "",
+      "original_description_html": "<p>Error Budgets</p>\n"
+    },
+    {
+      "id": "3ZzruC",
+      "number": 21,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0021.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Move fast and fix things! @phrawzty – Failure is unavoidable; how you respond is important. – Balance innovation and novelty with reliability and stability. – Similar to an SLA.",
+      "title": "",
+      "original_description_html": "<p>Move fast and fix things!\n@phrawzty\n– Failure is unavoidable; how you respond is important. – Balance innovation and novelty with reliability and stability. – Similar to an SLA.</p>\n"
+    },
+    {
+      "id": "ftifmb",
+      "number": 22,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0022.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Building an Error Budget ● An SLO is identified by the product owner. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "IDRTf0",
+      "number": 23,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system).\n@phrawzty</p>\n"
+    },
+    {
+      "id": "uXAHXP",
+      "number": 24,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). ● The difference between the actual measurement and the objective is the error budget. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). ● The difference between the actual measurement and the objective is the error budget. @phrawzty</p>\n"
+    },
+    {
+      "id": "Wqt5Po",
+      "number": 25,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Using the budget Spend the budget Build the budget If the SLO is currently being met, you have room to move. Add new features! Deploy a new version! Trigger some planned downtime… If the budget is zero (or negative), you should concentrate on that. Freeze new features. Improve the observability story. Prioritise dealing with technical debt. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Using the budget Spend the budget\nBuild the budget\nIf the SLO is currently being met, you have room to move. Add new features! Deploy a new version! Trigger some planned downtime…\nIf the budget is zero (or negative), you should concentrate on that. Freeze new features. Improve the observability story. Prioritise dealing with technical debt.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "9AbtID",
+      "number": 26,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0026.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Practical examples",
+      "title": "",
+      "original_description_html": "<p>Practical examples</p>\n"
+    },
+    {
+      "id": "lUKhAc",
+      "number": 27,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "fotosite.neð (not real) – A fun site for uploading, sharing, and viewing photos. – Make friends! Build communities! – Buy print-quality photos. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>fotosite.neð (not real)\n– A fun site for uploading, sharing, and viewing photos. – Make friends! Build communities! – Buy print-quality photos.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "No3V31",
+      "number": 28,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0028.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "07mIvQ",
+      "number": 29,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "cRV6np",
+      "number": 30,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0030.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. ● What services do they interact with? ○ Accounts backend, upload service @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download. ● What services do they interact with?\n○ Accounts backend, upload service @phrawzty</p>\n"
+    },
+    {
+      "id": "ElDugE",
+      "number": 31,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0031.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. ● What services do they interact with? ○ Accounts backend, upload service ● What do they want? What do they expect? ○ They want it to be fast!",
+      "title": "",
+      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download. ● What services do they interact with?\n○ Accounts backend, upload service ● What do they want? What do they expect?\n○ They want it to be fast!</p>\n"
+    },
+    {
+      "id": "r4wiYd",
+      "number": 32,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0032.png",
+      "width": 1600,
+      "height": 900,
+      "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
+      "title": "",
+      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+    },
+    {
+      "id": "TOfWR2",
+      "number": 33,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0033.png",
+      "width": 1600,
+      "height": 900,
+      "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
+      "title": "",
+      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+    },
+    {
+      "id": "5iOKJR",
+      "number": 34,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
+      "title": "",
+      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+    },
+    {
+      "id": "i278Bq",
+      "number": 35,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0035.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Bonus: More tips!",
+      "title": "",
+      "original_description_html": "<p>Bonus: More tips!</p>\n"
+    },
+    {
+      "id": "KLpw4F",
+      "number": 36,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0036.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Measuring SLIs with Datadog Monitor-based Event-based Based on monitors, which are generally tied to metrics. - Values within a set time frame. - ex. “99% of the time, latency for this request is less than 200ms” Based on events, which are more akin to statements. - Effectively a success ratio. - ex. “99% of requests have latency less than 200ms” @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Measuring SLIs with Datadog Monitor-based\nEvent-based</p>\n<ul>\n<li>Based on monitors, which are generally tied to metrics. - Values within a set time frame. - ex. “99% of the time, latency for this request is less than 200ms”</li>\n<li>Based on events, which are more akin to statements. - Effectively a success ratio. - ex. “99% of requests have latency less than 200ms”\n@phrawzty</li>\n</ul>\n"
+    },
+    {
+      "id": "wfYjwe",
+      "number": 37,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0037.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Four Golden Signals Latency Traffic Errors Saturation @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Four Golden Signals Latency\nTraffic\nErrors\nSaturation\n@phrawzty</p>\n"
+    },
+    {
+      "id": "YzHXp3",
+      "number": 38,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0038.png",
+      "width": 1600,
+      "height": 900,
+      "text": "– Step back from the internals. Focus on your users. @phrawzty – Define user stories / journeys first, then SLIs. – Involve all stakeholders, especially product.",
+      "title": "",
+      "original_description_html": "<p>– Step back from the internals.\nFocus on your users.\n@phrawzty\n– Define user stories / journeys first, then SLIs. – Involve all stakeholders, especially product.</p>\n"
+    },
+    {
+      "id": "BJ0LhS",
+      "number": 39,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0039.png",
+      "width": 1600,
+      "height": 900,
+      "text": "– Gain experience; experiment by hand if that’s easier! Start small. – Build out data sets to establish reasonable baselines. – Error on the side of naïveté (at first). @phrawzty",
+      "title": "",
+      "original_description_html": "<p>– Gain experience; experiment by hand if that’s easier!\nStart small.\n– Build out data sets to establish reasonable baselines. – Error on the side of naïveté (at first).\n@phrawzty</p>\n"
+    },
+    {
+      "id": "ncj9Zr",
+      "number": 40,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0040.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLOs change. @phrawzty – Re-evaluate your SLIs and SLOs as your environment evolves. – SLAs must have the capacity to evolve, too!",
+      "title": "",
+      "original_description_html": "<p>SLOs change.\n@phrawzty\n– Re-evaluate your SLIs and SLOs as your environment evolves. – SLAs must have the capacity to evolve, too!</p>\n"
+    },
+    {
+      "id": "PwRxSG",
+      "number": 41,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0041.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Tooling matters. @phrawzty",
+      "title": "",
+      "original_description_html": "<p>Tooling matters.\n@phrawzty</p>\n"
+    },
+    {
+      "id": "2GAlKf",
+      "number": 42,
+      "image": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0042.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Obrigado!",
+      "title": "",
+      "original_description_html": "<p>Obrigado!</p>\n"
+    }
+  ],
+  "page_count": 42,
+  "files": [
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0001.jpg",
+      "sha256": "3b7f380f35267b088ebd68d6286050991b1067800ea24596ca7abc371a9d5ee8",
+      "bytes": 111642
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0002.jpg",
+      "sha256": "07893c6f321526430612df672dd79c13dd98ff5618f620e3c38939e8e4cd31bb",
+      "bytes": 116338
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0003.png",
+      "sha256": "819227a144ac91b822222d3c3fe0a4b133d0746d3348d28cf4712e8c219edf96",
+      "bytes": 234430
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0004.jpg",
+      "sha256": "1f5154bf7fe8de60476f4a4cd007701ba5e9ef70749374647b9dce4f4ced2275",
+      "bytes": 93889
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0005.png",
+      "sha256": "b057adf0d85bb2ac40c858b546011ef0f8ca7785b769062541118f95b9268412",
+      "bytes": 419873
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0006.jpg",
+      "sha256": "c461b36426f3faa20412bebdb5f7585f5b488c2caa038bb9bdb2f5f5f688711b",
+      "bytes": 115710
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0007.png",
+      "sha256": "d3c7448bce82c134b061f618cc43c406c953183d034bd91d6b4c73a7a8e4e9c9",
+      "bytes": 415707
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0008.png",
+      "sha256": "69735a7d076914ffebbe268e7f7e8d7d371e1edc167168055b2558297556a53e",
+      "bytes": 190071
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0009.png",
+      "sha256": "bfe2dba3a66266bae86dfe88a2f1fad83cee05de1df040dcf37ee87b5925e5d4",
+      "bytes": 462760
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0010.png",
+      "sha256": "08fc488e8fa76c495f94c57097e2812138968d5c00734937bbd5ad4a2bc98c5c",
+      "bytes": 209856
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0011.png",
+      "sha256": "4cf8f81ea45d86c0270eb7171b7470d7774f110ec942e2c1dc1a0bd82031b3f9",
+      "bytes": 177418
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0012.png",
+      "sha256": "5415ee0263d692aedbf1d8ed8a221e3ea158e0a99048c21b8c6458be027f3e28",
+      "bytes": 222920
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0013.png",
+      "sha256": "3481808681e34c2edf69b60c46aac9bb2384be257484e3ede56cd93168078127",
+      "bytes": 286658
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0014.png",
+      "sha256": "a243f5a18abc67f540ad038191eecd62de563fb41b93095c641d518c5e62e90b",
+      "bytes": 354871
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0015.png",
+      "sha256": "722fe2bed6dac102b7d32850a497f94bfa004247ca8154caf2f03f110fd5c560",
+      "bytes": 248650
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0016.png",
+      "sha256": "88c11bf7a401aa817875fb9d7d923f0fda364979a50f66c3c253b71dcb4c44f1",
+      "bytes": 467870
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0017.png",
+      "sha256": "355d1b53d4c305569ac470eb38ff034242e7534994b2ce5154b934d0437b08e2",
+      "bytes": 294660
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0018.png",
+      "sha256": "917de57109567ae0070f0b2a84ce8e69a97478becf6b3ad636a6cc531a0162d9",
+      "bytes": 286969
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0019.png",
+      "sha256": "8bd9d3412968e2c0ed0a642333747d52cd876d2f095f37bdf060417d0033ad42",
+      "bytes": 431381
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0020.png",
+      "sha256": "a5eff3c7aeed9da6f8a13283d534843ec8be42bff182fef0e417ac2abb4c4c1b",
+      "bytes": 200563
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0021.png",
+      "sha256": "49cc25597a239e00af92d0c58d0aa8e492c8d9fe6f39b2a08aa38ce6f2051213",
+      "bytes": 235995
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0022.png",
+      "sha256": "8d8419f6471f67ea47a98033dbcda0bb0ac2bccd44e09339d3615834f7441558",
+      "bytes": 158184
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0023.png",
+      "sha256": "95fa72d60db6844b318d577482709b5cff992476fbca84d96bf29a5c89a517a4",
+      "bytes": 280740
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0024.png",
+      "sha256": "298834c4c756d71acdf48a7cc89e13552cc6eed2cd1d1186c050b3d9f4ec9e7c",
+      "bytes": 399265
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0025.png",
+      "sha256": "1134afca3c071ce819196aace994c238e28bfb269cbb4190c20b0eea2dc61f6d",
+      "bytes": 399074
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0026.png",
+      "sha256": "4ba73534f7be1b6dbc223d289239d64813fcaf62b907fe9d41720d43af11dce0",
+      "bytes": 252585
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0027.png",
+      "sha256": "312e44e23582906aa95d5c611f920bd6f3c2a526cada2a0b142c1c1b0e1a8218",
+      "bytes": 198392
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0028.png",
+      "sha256": "0466c681c352becedc24c303666cb1961e4ca09b73db3260674c8ab50ab4068f",
+      "bytes": 233644
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0029.png",
+      "sha256": "8d9d8c299250ed3c87b82cc1f9a78c1589ff5587aab790193410051503133cbe",
+      "bytes": 367662
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0030.png",
+      "sha256": "2cd5774d92294d213fab80522484208dd7465823eb785242208382f07d1e61a0",
+      "bytes": 509659
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0031.png",
+      "sha256": "efb42feca86c04e4555b5ff48dc97900fdb769af4bc158f0a6ba229f7222abaf",
+      "bytes": 612469
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0032.png",
+      "sha256": "711be0530d2820566a02d68b457b07ab4ff562428faf5c23b50ef9ff32eb137e",
+      "bytes": 466058
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0033.png",
+      "sha256": "8fcef4ee368fbd855d1a7577d49ca361aeb9ac025f4ab2987f159bb977f149de",
+      "bytes": 471254
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0034.png",
+      "sha256": "c1b0da2cb40067df84cee7cf47f72703a2d3ae85d43c6911990e4a21725afce7",
+      "bytes": 477388
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0035.png",
+      "sha256": "7441b13e1cf423ce20e69866a3a66c6724b602fe5111e6c92af4d7fbe0ef2b3a",
+      "bytes": 227496
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0036.png",
+      "sha256": "490a856415ac9892aa98e690eac6caa8a095fd05eb1a64c091e1ef2e74511e34",
+      "bytes": 430256
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0037.png",
+      "sha256": "d5368b6f609f74d0320e62d76e47c5d9e555670c16a40fc803e075fae9d14bec",
+      "bytes": 133847
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0038.png",
+      "sha256": "a1ab76f21292cbaa01fcafe4cd88dfbf04c549d8e877839cc703f8badf04215d",
+      "bytes": 200733
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0039.png",
+      "sha256": "1c854a8bf3f8356dfc0aacf9515ab564e6e8b3eccc70c26fbb8340831d9aa4c8",
+      "bytes": 215450
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0040.png",
+      "sha256": "b2d9f408798b60513c564d5b0f76d610ddf87a4f723c6b4e7756711d5f6bca83",
+      "bytes": 189079
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0041.jpg",
+      "sha256": "f1709cf1aa45bb4ef74db07e18e99ba0e44c93db6a14cf502f5024cc7edc837c",
+      "bytes": 133483
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/0042.jpg",
+      "sha256": "32a61306dd8758cfa3828f408e501ef2e59f0b595c8e0b6d5bf19263141a56cc",
+      "bytes": 52730
+    },
+    {
+      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/original.pdf",
+      "sha256": "9eac4f06b9d35e6303c67fdaaea281491365cd169411ac66dc26174f6aa958db",
+      "bytes": 745964
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/9yWekH/better-reliability-through-slos"
+}

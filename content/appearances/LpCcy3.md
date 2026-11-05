@@ -1,0 +1,46 @@
++++
+title = "Did you accept the risk? Dynamic risk metrics in your environment."
+date = 2020-10-22T19:55:00Z
+draft = false
+path = "LpCcy3"
+template = "appearance.html"
+aliases = ["LpCcy3/did-you-accept-the-risk-dynamic-risk-metrics-in-your-environment"]
+
+[extra]
+id = "LpCcy3"
+talk = "did-you-accept-the-risk-dynamic-risk-metrics-in-your-environment"
+event = "SnykCon"
+event_url = ""
+location = "Virtual"
+timezone = "GMT"
+virtual = true
+deck = "8f9c1130b61eb3b8fd7ca811d2f472c83b89a5a460bf0138ac44ff407f98b021"
+recording_url = ""
+source_url = "https://speaking.dark.ca/LpCcy3/did-you-accept-the-risk-dynamic-risk-metrics-in-your-environment"
+source_event_id = "ev_CDDoHW"
+source_published_on = "2020-10-22 19:55:00"
+
+[[extra.resources]]
+title = "Event listing"
+url = "https://sched.co/er57"
+description = ""
+
+[[extra.resources]]
+title = "RRA assessment workshop"
+url = "https://www.youtube.com/watch?v=jxpuafW-H8U"
+description = "<p>This training shows how to walk through a risk assessment for an individual service using the Mozilla Rapid Risk Assessment Framework developed by Guillaume Destuynder and Julien Vehent.</p>\n"
+
+[[extra.feedback]]
+text = "#SnykCon 🔴 & Andrew Krug & @phrawzty from @datadoghq in Crash Course Risk Management Now live! pic.twitter.com/YOG8ElPQr4 — Liran Tal 🔴 Live #SnykCon https://snyk.io/snykcon (@liran_tal) October 22, 2020"
+url = "https://twitter.com/liran_tal/status/1319339080640061440?ref_src=twsrc%5Etfw"
+author = "@liran_tal"
+source_links = ["https://t.co/YOG8ElPQr4", "https://twitter.com/datadoghq?ref_src=twsrc%5Etfw", "https://twitter.com/hashtag/SnykCon?src=hash&ref_src=twsrc%5Etfw", "https://twitter.com/liran_tal/status/1319339080640061440?ref_src=twsrc%5Etfw", "https://twitter.com/phrawzty?ref_src=twsrc%5Etfw"]
+
+[[extra.feedback]]
+text = "If you're looking for the supplemental risk framework training from our #SnykCon talk upcoming with @phrawzty . Here is the training as promised with @kangsterizer . Reminder Mozilla RRA was created by @kangsterizer and @jvehent all the way back in 2014. https://t.co/15EgSbD5Xo — Andrew Krug (@andrewkrug) October 22, 2020"
+url = "https://twitter.com/andrewkrug/status/1319328165404106757?ref_src=twsrc%5Etfw"
+author = "@andrewkrug"
+source_links = ["https://t.co/15EgSbD5Xo", "https://twitter.com/andrewkrug/status/1319328165404106757?ref_src=twsrc%5Etfw", "https://twitter.com/hashtag/SnykCon?src=hash&ref_src=twsrc%5Etfw", "https://twitter.com/jvehent?ref_src=twsrc%5Etfw", "https://twitter.com/kangsterizer?ref_src=twsrc%5Etfw", "https://twitter.com/phrawzty?ref_src=twsrc%5Etfw"]
++++
+
+<p>Risk management is relatively new to the security industry but in reality insurance teams, government, and finance have been using risk assessments to make decisions for years. In this talk we’ll demonstrate how to apply classical risk management concepts to modern DevOps practices. You’ll learn how to communicate across your organisation using a standard vocabulary to calculate risk at a service level, then see a demonstration of how to dynamically calculate and increase risk levels using Security Scores.</p>

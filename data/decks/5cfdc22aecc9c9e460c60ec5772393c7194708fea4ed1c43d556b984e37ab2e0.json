@@ -1,0 +1,243 @@
+{
+  "id": "5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0",
+  "source_sha256": "a1235105d847f94e0e144f59f91f1ff2cd311a9185ba132a95746c6bd769cf79",
+  "provenance": "original",
+  "pdf": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/original.pdf",
+  "slides": [
+    {
+      "id": "wIwj4S",
+      "number": 1,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Cloud Cost Optimisation: A Primer (or: Shift-left on Cloud Spend) Daniel “phrawzty” Maher Engineer // Community Team",
+      "title": "",
+      "original_description_html": "<p>Cloud Cost Optimisation: A Primer (or: Shift-left on Cloud Spend) Daniel “phrawzty” Maher Engineer // Community Team</p>\n"
+    },
+    {
+      "id": "YcfWwr",
+      "number": 2,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Recovering sysadmin - Devopsdays global team - Really into measuring stuff b e p i u Éq g u ea ! e oss 📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 speaking.dark.ca/",
+      "title": "",
+      "original_description_html": "<ul>\n<li>Recovering sysadmin - Devopsdays global team - Really into measuring stuff\nb e p i u Éq\ng u ea\n! e oss\n📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 speaking.dark.ca/</li>\n</ul>\n"
+    },
+    {
+      "id": "AwOKpG",
+      "number": 3,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "☁ Let’s talk about… The Cloud",
+      "title": "",
+      "original_description_html": "<p>☁ Let’s talk about…\nThe Cloud</p>\n"
+    },
+    {
+      "id": "nG78hf",
+      "number": 4,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Public cloud market Revenue (USD) Market Share (%) YoY Growth (%) Amazon Web Services 26.20B 40.8 28.7 Microsoft Azure 12.69B 19.7 59.2 Alibaba Cloud 6.12B 9.5 52.8 Google Cloud Platform 3.93B 6.1 202.8 Others 15.34B 24 25.6 Source: gtnr.it/3B9xxhE",
+      "title": "",
+      "original_description_html": "<p>Public cloud market Revenue (USD)\nMarket Share (%)\nYoY Growth (%)\nAmazon Web Services\n26.20B\n40.8\n28.7\nMicrosoft Azure\n12.69B\n19.7\n59.2\nAlibaba Cloud\n6.12B\n9.5\n52.8\nGoogle Cloud Platform\n3.93B\n6.1\n202.8\nOthers\n15.34B\n24\n25.6\nSource: gtnr.it/3B9xxhE</p>\n"
+    },
+    {
+      "id": "PZpwa4",
+      "number": 5,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Real money is getting spent $64B Annual spend Source: gtnr.it/3B9xxhE 41% Annual growth",
+      "title": "",
+      "original_description_html": "<p>Real money is getting spent\n$64B Annual spend Source: gtnr.it/3B9xxhE\n41% Annual growth</p>\n"
+    },
+    {
+      "id": "1tYkST",
+      "number": 6,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Real money is getting wasted $64B $17B Annual spend Annual waste Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste",
+      "title": "",
+      "original_description_html": "<p>Real money is getting wasted\n$64B\n$17B\nAnnual spend\nAnnual waste\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste</p>\n"
+    },
+    {
+      "id": "eDHYKs",
+      "number": 7,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Real money is getting wasted “Between idle and over provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.” $6.6B Over-sized resources Source: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report",
+      "title": "",
+      "original_description_html": "<p>Real money is getting wasted “Between idle and over provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.”\n$6.6B\nOver-sized resources\nSource: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report</p>\n"
+    },
+    {
+      "id": "GX0MDH",
+      "number": 8,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Side-effects of cloud waste Reduced productivity - Increased risk - Resource misallocation",
+      "title": "",
+      "original_description_html": "<p>Side-effects of cloud waste</p>\n<ul>\n<li>Reduced productivity - Increased risk - Resource misallocation</li>\n</ul>\n"
+    },
+    {
+      "id": "sqjA5g",
+      "number": 9,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Wasted cloud spend is a vampire that is making your organisation weaker. ��",
+      "title": "",
+      "original_description_html": "<p>Wasted cloud spend is a vampire that is making your organisation weaker.\n��</p>\n"
+    },
+    {
+      "id": "VARxy5",
+      "number": 10,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Let’s talk about… Opportunity",
+      "title": "",
+      "original_description_html": "<p>Let’s talk about…\nOpportunity</p>\n"
+    },
+    {
+      "id": "7UAlqU",
+      "number": 11,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Shift-left on cloud spend Availability of billing minutiae Billing data is just that: data Programmatic access to that data The data is metrics! This is absolutely our wheelhouse",
+      "title": "",
+      "original_description_html": "<h2>Shift-left on cloud spend</h2>\n<p>Availability of billing minutiae Billing data is just that: data Programmatic access to that data The data is metrics! This is absolutely our wheelhouse</p>\n"
+    },
+    {
+      "id": "jntZit",
+      "number": 12,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Yeah but why though? Get involved in product discussions Bring insight to business decisions Literally generate new value Level-up your career",
+      "title": "",
+      "original_description_html": "<h2>Yeah but why though?</h2>\n<p>Get involved in product discussions Bring insight to business decisions Literally generate new value Level-up your career</p>\n"
+    },
+    {
+      "id": "M7cNbI",
+      "number": 13,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "…yeah you probably saw that one coming ;)",
+      "title": "",
+      "original_description_html": "<p>…yeah you probably saw that one coming ;)</p>\n"
+    },
+    {
+      "id": "yRLBTh",
+      "number": 14,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "al3zM6",
+      "number": 15,
+      "image": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    }
+  ],
+  "page_count": 15,
+  "files": [
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0001.jpg",
+      "sha256": "ea88c722cf3e3ce86c5521f83117c27ad657258b08411fa1428ebdf13957dae2",
+      "bytes": 199781
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0002.jpg",
+      "sha256": "b51190e5666ea9034ebeb79a36dd36fb4d7432e8ec331911eb0c1b93a48977ea",
+      "bytes": 235014
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0003.jpg",
+      "sha256": "2fe0fed0a592353e4c619239acf510497a97a54180a31aaa2393fbf4dfa6a42d",
+      "bytes": 108122
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0004.jpg",
+      "sha256": "6024012bb5cc15a90fa41f5ddf6064d503432127b1216d5cb57b7eb8afae4dac",
+      "bytes": 224697
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0005.jpg",
+      "sha256": "fb54fb528f0b598d1d30e32bc77251a2a2b9f3776118dda796f0bcccc12634fb",
+      "bytes": 167481
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0006.jpg",
+      "sha256": "599e397929e7b6a03772c2fce63c90ed65c8bf4e4e5fe78753844dcf09f54d1c",
+      "bytes": 178117
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0007.jpg",
+      "sha256": "c82851108b040ba5a2a88fa2716a9b8769da71a265ce10612764a20640a126c5",
+      "bytes": 270328
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0008.jpg",
+      "sha256": "f73b676dc6b73739d3f1e91119bd8d9c9514c3e6937d3d351c60670422bd1a93",
+      "bytes": 166836
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0009.jpg",
+      "sha256": "91e54e6a7f2aa06e4dac8fe7a297df987ff8ead6a1d4f99f87af1a3c9dff5c5e",
+      "bytes": 181660
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0010.jpg",
+      "sha256": "d44d68aeb99388ec626da080345579c4011f707132a93707117bd51c37ebc8ea",
+      "bytes": 111334
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0011.jpg",
+      "sha256": "5f27870762c9291b76da8d11b7689e502dbde7bfeeeee44baa65b4c32707d107",
+      "bytes": 253250
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0012.jpg",
+      "sha256": "ee529310ab063a843cdb420d71d7bf50063012402640b19aeaae43d97d8b1f23",
+      "bytes": 221777
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0013.jpg",
+      "sha256": "8ebea002a96d6bacbfd7b4e6ab129f8aaa241d7757b372d5481b12ee2f5c1624",
+      "bytes": 139823
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0014.jpg",
+      "sha256": "8f1d24dd05cadaf408697bf56064130139ef69df7682934f2610f5baa654bf90",
+      "bytes": 274682
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/0015.jpg",
+      "sha256": "92073f68c3138df06a648c82fc2e0c819e04b4bfc09d239729100fe358643571",
+      "bytes": 200679
+    },
+    {
+      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/original.pdf",
+      "sha256": "a1235105d847f94e0e144f59f91f1ff2cd311a9185ba132a95746c6bd769cf79",
+      "bytes": 2864600
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/E0yCMk/cloud-cost-optimisation-shift-left-on-cloud-costs"
+}

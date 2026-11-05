@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include "partials/content_security_policy.html" %}
+  {% if page %}{% set title = page.title %}{% elif section %}{% set title = section.title %}{% else %}{% set title = config.title %}{% endif %}
+  <title>{{ title }} · {{ config.title }}</title>
+  <meta name="description" content="{% if page and page.description %}{{ page.description }}{% else %}{{ config.description }}{% endif %}">
+  <link rel="canonical" href="{{ current_url | safe }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:url" content="{{ current_url | safe }}">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:type" content="{% if page %}article{% else %}website{% endif %}">
+  <meta name="fediverse:creator" content="{{ config.extra.fediverse_creator }}">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#211f1a">
+  <link rel="preload" href="{{ get_url(path='fonts/FiraCode-Regular.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+  <link rel="stylesheet" href="{{ get_url(path='css/portfolio.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="Appearances" href="{{ get_url(path='atom.xml') }}">
+  <script defer src="{{ get_url(path='js/deck.js') }}"></script>
+  <script defer src="{{ get_url(path='js/recording.js') }}"></script>
+  {% if config.extra.preview %}<meta name="robots" content="noindex,nofollow"><script defer src="{{ get_url(path='js/preview.js') }}"></script>{% endif %}
+  {% if page and page.extra.deck %}
+    {% set deck = load_data(path='data/decks/' ~ page.extra.deck ~ '.json') %}
+    {% if deck.slides | length > 0 %}<meta property="og:image" content="{{ config.extra.asset_base ~ '/' ~ deck.slides[0].image }}">{% endif %}
+  {% endif %}
+</head>
+<body class="layout-center" data-theme="terminus">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% if config.extra.preview %}<p class="preview-label">Local preview · drafts visible</p>{% endif %}
+  <header class="header">{% include "partials/header.html" %}</header>
+  <main id="main">{% block main %}{% endblock %}</main>
+  <footer class="footer">{% include "partials/footer.html" %}</footer>
+</body>
+</html>

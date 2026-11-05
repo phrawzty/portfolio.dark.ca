@@ -1,0 +1,138 @@
+{
+  "id": "7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a",
+  "source_sha256": "6c0b72165f29cbc0c52046ae36dcb6a2726de5dc13948a5e45876bc8d0dde2f1",
+  "provenance": "original",
+  "pdf": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/original.pdf",
+  "slides": [
+    {
+      "id": "LHZ5qx",
+      "number": 1,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Paris DevRel Salon Goodies. Ideas. Ethics. @phrawzty // Datadog 1",
+      "title": "",
+      "original_description_html": "<p>Paris DevRel Salon\nGoodies. Ideas. Ethics. @phrawzty // Datadog\n1</p>\n"
+    },
+    {
+      "id": "xbHtjM",
+      "number": 2,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Goodies @phrawzty // Datadog !” 2",
+      "title": "",
+      "original_description_html": "<p>Goodies\n@phrawzty // Datadog\n!”\n2</p>\n"
+    },
+    {
+      "id": "Zv0hbl",
+      "number": 3,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Goodies 4 Physical objects 4 Low commercial value 4 Given away for “free” 4 Ambiguous rationale https://hildakweisburg.com/2017/11/06/on-libraries-confessions-of-a-conference-junkie/ @phrawzty // Datadog 3",
+      "title": "",
+      "original_description_html": "<p>Goodies 4 Physical objects 4 Low commercial value 4 Given away for “free” 4 Ambiguous rationale\nhttps://hildakweisburg.com/2017/11/06/on-libraries-confessions-of-a-conference-junkie/ @phrawzty // Datadog\n3</p>\n"
+    },
+    {
+      "id": "CEjVUA",
+      "number": 4,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ideas @phrawzty // Datadog !” 4",
+      "title": "",
+      "original_description_html": "<p>Ideas\n@phrawzty // Datadog\n!”\n4</p>\n"
+    },
+    {
+      "id": "oYSJMZ",
+      "number": 5,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ideas 4 Physical or intangible 4 Reasonable value 4 Elucidated relationship 4 Concrete metrics https://onetreeplanted.photoshelter.com/index @phrawzty // Datadog 5",
+      "title": "",
+      "original_description_html": "<p>Ideas 4 Physical or intangible 4 Reasonable value 4 Elucidated relationship 4 Concrete metrics\nhttps://onetreeplanted.photoshelter.com/index @phrawzty // Datadog\n5</p>\n"
+    },
+    {
+      "id": "QsB7Ey",
+      "number": 6,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ethics @phrawzty // Datadog !” 6",
+      "title": "",
+      "original_description_html": "<p>Ethics\n@phrawzty // Datadog\n!”\n6</p>\n"
+    },
+    {
+      "id": "3Btv7N",
+      "number": 7,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ethics 4 Ecological impact 4 Socio-economic concerns 4 Equitable exchange 4 Morally-defensible actions https://commons.wikimedia.org/wiki/File:Rodin%27sTheThinker.jpg @phrawzty // Datadog 7",
+      "title": "",
+      "original_description_html": "<p>Ethics 4 Ecological impact 4 Socio-economic concerns 4 Equitable exchange 4 Morally-defensible actions\nhttps://commons.wikimedia.org/wiki/File:Rodin%27sTheThinker.jpg @phrawzty // Datadog\n7</p>\n"
+    },
+    {
+      "id": "fVcizm",
+      "number": 8,
+      "image": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Merci ! @phrawzty // Datadog !” 8",
+      "title": "",
+      "original_description_html": "<p>Merci !\n@phrawzty // Datadog\n!”\n8</p>\n"
+    }
+  ],
+  "page_count": 8,
+  "files": [
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0001.png",
+      "sha256": "4991d99f198260de87cb366b9e18017399121ecbd81d4a43d05124e4c4334fc0",
+      "bytes": 239536
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0002.jpg",
+      "sha256": "34de50db384c9f44f807683c6f5b9618965567b636841eaf33e73874445302af",
+      "bytes": 49827
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0003.jpg",
+      "sha256": "622546cafa483466c9e85c6a9794ea86db849ee13560fc4b8bafd1c24eab3f20",
+      "bytes": 378966
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0004.jpg",
+      "sha256": "eea22c2f47570d2cdb720797722f3421553b8566a156b428f630fdb589d070fd",
+      "bytes": 43124
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0005.jpg",
+      "sha256": "604a0bdb204587807c79a62b9d39025e851c686acec8f4db77ebccd65db0d7be",
+      "bytes": 245172
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0006.jpg",
+      "sha256": "d0e370104fda361121a5da47dfbeebcd0b22456521d42f8a6affdcf39b289153",
+      "bytes": 46454
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0007.jpg",
+      "sha256": "e08a759f150cc768bab86571c628a80d6f84d873da490b535a25dc6470f0c46d",
+      "bytes": 196637
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/0008.jpg",
+      "sha256": "51c533cbdee325de155e7c6fd2f2361a69b205a3b793334608f5ae43a84cb224",
+      "bytes": 46587
+    },
+    {
+      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/original.pdf",
+      "sha256": "6c0b72165f29cbc0c52046ae36dcb6a2726de5dc13948a5e45876bc8d0dde2f1",
+      "bytes": 16979900
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/Lsgaq5/goodies-ideas-ethics"
+}

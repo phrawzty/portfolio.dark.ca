@@ -1,0 +1,6 @@
+<article class="appearance-row">
+  <time datetime="{{ appearance.date | date(format='%Y-%m-%d') }}">{{ appearance.date | date(format='%d %b %Y') }}</time>
+  <div><h3><a href="{{ appearance.permalink }}">{{ appearance.title }}</a>{% if appearance.draft %} <span class="badge">Draft</span>{% endif %}</h3>
+  <p class="muted">{{ appearance.extra.event }} <span aria-hidden="true">·</span> {{ appearance.extra.location }}</p>
+  <p class="small appearance-links">{% if appearance.extra.deck %}<a href="{{ appearance.permalink }}#slides">Slides</a>{% endif %}{% if appearance.extra.recording_url %}<a href="{{ appearance.permalink }}#recording">Recording</a>{% endif %}</p></div>
+</article>

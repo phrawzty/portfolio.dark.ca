@@ -1,0 +1,318 @@
+{
+  "id": "5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64",
+  "source_sha256": "5239a2e43bcf3ff541b4b81043d9ff637f7a214e06fc2253980f5d295821e32f",
+  "provenance": "original",
+  "pdf": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/original.pdf",
+  "slides": [
+    {
+      "id": "4dZBJZ",
+      "number": 1,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0001.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "AWS + Datadog Sécuriser l’angle mort de votre pipeline Daniel « phrawzty » Maher Senior Security Advocate & Researcher",
+      "title": "",
+      "original_description_html": "<p>AWS + Datadog\nSécuriser l’angle mort de votre pipeline Daniel « phrawzty » Maher Senior Security Advocate &amp; Researcher</p>\n"
+    },
+    {
+      "id": "gxHzBy",
+      "number": 2,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0002.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "ç Vous savez ce qui entre dans votre application ? 2",
+      "title": "",
+      "original_description_html": "<p>ç\nVous savez ce qui entre dans votre application ?\n2</p>\n"
+    },
+    {
+      "id": "JH0n4N",
+      "number": 3,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Ce que les données nous disent npm PyPI RubyGems crates.io Hex.pm Packagist Max Auth (Human) 3 3 0 1 0 0 4 Auth (Machine) 6 4 4 4 2 2 7 Access Control 6 4 4 4 5 4 7 Build & Provenance 6 4 3 2 2 2 8 Integrity & Signing 5 5 6 2 3 2 6 Vulnerability Mgmt 7 3 4 3 4 4 7 Abuse Prevention 6 5 5 5 5 2 6 Transparency 5 4 5 3 3 2 7 3",
+      "title": "",
+      "original_description_html": "<p>Ce que les données nous disent npm\nPyPI\nRubyGems\ncrates.io\nHex.pm\nPackagist\nMax\nAuth (Human)\n3\n3\n0\n1\n0\n0\n4\nAuth (Machine)\n6\n4\n4\n4\n2\n2\n7\nAccess Control\n6\n4\n4\n4\n5\n4\n7\nBuild &amp; Provenance\n6\n4\n3\n2\n2\n2\n8\nIntegrity &amp; Signing\n5\n5\n6\n2\n3\n2\n6\nVulnerability Mgmt\n7\n3\n4\n3\n4\n4\n7\nAbuse Prevention\n6\n5\n5\n5\n5\n2\n6\nTransparency\n5\n4\n5\n3\n3\n2\n7\n3</p>\n"
+    },
+    {
+      "id": "vajawm",
+      "number": 4,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0004.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé 4",
+      "title": "",
+      "original_description_html": "<p>Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé\n4</p>\n"
+    },
+    {
+      "id": "XuSOpB",
+      "number": 5,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0005.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé Les registres ne sont pas votre équipe sécurité. Ce sont des infrastructures. 5",
+      "title": "",
+      "original_description_html": "<p>Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé\nLes registres ne sont pas votre équipe sécurité. Ce sont des infrastructures.\n5</p>\n"
+    },
+    {
+      "id": "AEBCha",
+      "number": 6,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0006.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "L’IA amplifie le problème ● Les assistants IA ajoutent des dépendances automatiquement ● Le dernier point de friction humain vient de disparaître ● Ce qui était déjà invisible est maintenant plus rapide 6",
+      "title": "",
+      "original_description_html": "<p>L’IA amplifie le problème ● Les assistants IA ajoutent des dépendances automatiquement ● Le dernier point de friction humain vient de disparaître ● Ce qui était déjà invisible est maintenant plus rapide\n6</p>\n"
+    },
+    {
+      "id": "mXu0Zz",
+      "number": 7,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0007.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "2 h le mat … un mainteneur compromis une version malveillante publiée un build « latest » automatisé 7",
+      "title": "",
+      "original_description_html": "<p>2 h le mat … un mainteneur compromis une version malveillante publiée un build « latest » automatisé 7</p>\n"
+    },
+    {
+      "id": "OrcoSO",
+      "number": 8,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0008.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "AWS CodeArtifact : le contrôle préventif ● Service managé de dépôt d’artefacts ● Compatible avec npm, pip, Maven, NuGet, et plus encore ● Vos outils, votre workflow ● Vous définissez ce qui entre 8",
+      "title": "",
+      "original_description_html": "<p>AWS CodeArtifact : le contrôle préventif ● Service managé de dépôt d’artefacts ● Compatible avec npm, pip, Maven, NuGet, et plus encore ● Vos outils, votre workflow ● Vous définissez ce qui entre\n8</p>\n"
+    },
+    {
+      "id": "1BLcKn",
+      "number": 9,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0009.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Architecture de contrôle 9",
+      "title": "",
+      "original_description_html": "<p>Architecture de contrôle\n9</p>\n"
+    },
+    {
+      "id": "dV4QDC",
+      "number": 10,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0010.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Trois barrières ● Isolation architecturale ○ vos builds ne parlent jamais aux registres publics ● Validation automatisée ○ chaque nouvelle version est scannée avant décision ● Promotion explicite ○ par défaut, rien ne passe (spoiler : version pinning) 10",
+      "title": "",
+      "original_description_html": "<p>Trois barrières ● Isolation architecturale ○ vos builds ne parlent jamais aux registres publics ● Validation automatisée ○ chaque nouvelle version est scannée avant décision ● Promotion explicite ○ par défaut, rien ne passe (spoiler : version pinning)\n10</p>\n"
+    },
+    {
+      "id": "FonE5b",
+      "number": 11,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0011.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Trois barrières ● Quarantaine architecturée ○ la version malveillante n’atteint jamais vos builds ● Épinglage de version ○ pas de mise à jour automatique ● Validation automatisée ○ workflow déclenché, promotion bloquée si échec 11",
+      "title": "",
+      "original_description_html": "<p>Trois barrières ● Quarantaine architecturée ○ la version malveillante n’atteint jamais vos builds ● Épinglage de version ○ pas de mise à jour automatique ● Validation automatisée ○ workflow déclenché, promotion bloquée si échec\n11</p>\n"
+    },
+    {
+      "id": "s8W1y0",
+      "number": 12,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0012.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (que ça) Runtime Code Analysis 12",
+      "title": "",
+      "original_description_html": "<p>Datadog Code Security\nSCA\nSAST\nSoftware Composition Analysis\nStatic Code Analysis\nSecret Scanning\nIAST\n(que ça)\nRuntime Code Analysis\n12</p>\n"
+    },
+    {
+      "id": "USEpqP",
+      "number": 13,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0013.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (que ça) Runtime Code Analysis 13",
+      "title": "",
+      "original_description_html": "<p>Datadog Code Security\nSCA\nSAST\nSoftware Composition Analysis\nStatic Code Analysis\nSecret Scanning\nIAST\n(que ça)\nRuntime Code Analysis\n13</p>\n"
+    },
+    {
+      "id": "6lxdio",
+      "number": 14,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0014.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "6 mois plus tard … paquet malveillante publié (oups) vulnérabilité en prod (OUPS) panique ?! 14",
+      "title": "",
+      "original_description_html": "<p>6 mois plus tard … paquet malveillante publié (oups) vulnérabilité en prod (OUPS) panique ?! 14</p>\n"
+    },
+    {
+      "id": "j5gRbD",
+      "number": 15,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0015.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Six mois plus tard ● SCA « actif » (Software Composition Analysis) ○ la bibliothèque vulnérable est détectée (service, version, CVE, …) ● IAST (Interactive Application Security Testing) ○ le chemin d’appel est exercé et l’impact est confirmé 15",
+      "title": "",
+      "original_description_html": "<p>Six mois plus tard ● SCA « actif » (Software Composition Analysis) ○ la bibliothèque vulnérable est détectée (service, version, CVE, …) ● IAST (Interactive Application Security Testing) ○ le chemin d’appel est exercé et l’impact est confirmé\n15</p>\n"
+    },
+    {
+      "id": "LPPFTc",
+      "number": 16,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0016.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Préventif vs détectif ● Préventif : bloquer avant que ça entre ○ CodeArtifact, SAST, SCA (mode statique) ● Détectif : savoir ce qui est déjà là — et agir ○ SCA (mode actif), IAST 16",
+      "title": "",
+      "original_description_html": "<p>Préventif vs détectif ● Préventif : bloquer avant que ça entre ○ CodeArtifact, SAST, SCA (mode statique) ● Détectif : savoir ce qui est déjà là — et agir ○ SCA (mode actif), IAST\n16</p>\n"
+    },
+    {
+      "id": "xj83M1",
+      "number": 17,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0017.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "ç AWS et Datadog ensemble : défense en profondeur 17",
+      "title": "",
+      "original_description_html": "<p>ç\nAWS et Datadog ensemble : défense en profondeur\n17</p>\n"
+    },
+    {
+      "id": "a2qrEQ",
+      "number": 18,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0018.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production 18",
+      "title": "",
+      "original_description_html": "<p>Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production\n18</p>\n"
+    },
+    {
+      "id": "CMZf6p",
+      "number": 19,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production Ce ne sont pas quatre projets sur six mois. Ce sont quatre étapes que vous pouvez commencer dès cette semaine ! 19",
+      "title": "",
+      "original_description_html": "<p>Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production\nCe ne sont pas quatre projets sur six mois. Ce sont quatre étapes que vous pouvez commencer dès cette semaine !\n19</p>\n"
+    },
+    {
+      "id": "ogISzE",
+      "number": 20,
+      "image": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Merci ! AWS CodeArtifact https://aws.amazon.com/codeartifact Datadog Code Security https://docs.datadoghq.com/security/code_security Notre blog super intéressant 😁 https://securitylabs.datadoghq.com 20",
+      "title": "",
+      "original_description_html": "<p>Merci ! AWS CodeArtifact https://aws.amazon.com/codeartifact\nDatadog Code Security https://docs.datadoghq.com/security/code_security\nNotre blog super intéressant 😁 https://securitylabs.datadoghq.com 20</p>\n"
+    }
+  ],
+  "page_count": 20,
+  "files": [
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0001.jpg",
+      "sha256": "487e17fa2afc8276a297067f8a86fca2184361483a253b3cbfa3d154972fbf40",
+      "bytes": 188879
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0002.jpg",
+      "sha256": "a358212d8ea016010ef959df7d72b0e3715e30d08045d63cd9ff7851182fbfda",
+      "bytes": 123675
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0003.jpg",
+      "sha256": "21a6ce537a7d5a888cd788c187c9f86a50d396fe9100f791b582e11e7f35b1c1",
+      "bytes": 156093
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0004.jpg",
+      "sha256": "4e51e4b757ce4f8a47769e926b9e1194cec999e737578c817c7336817c01eeb4",
+      "bytes": 92949
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0005.jpg",
+      "sha256": "2a8edb993cd79378dc7f54455a92489d3239f59a3c570b91a0040ea61f2e491e",
+      "bytes": 110012
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0006.jpg",
+      "sha256": "a8db70ecad401ef39244c263ae31cbe81f244451516fd5ea3dbf32a1d0618562",
+      "bytes": 90046
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0007.jpg",
+      "sha256": "288517ca0b82ffa991bf7c53533ca5ed7d4d933b331a3a6f18be504390a13343",
+      "bytes": 151095
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0008.jpg",
+      "sha256": "613bc0ccd414a2c56163dacbeb4be7bf0ddc849cbc3978adbe0e9c6f945878a4",
+      "bytes": 97987
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0009.jpg",
+      "sha256": "15bb0a6b23c2bbb9fe000d74f188a89085492d85e8af6c11d5118016e1281945",
+      "bytes": 110318
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0010.jpg",
+      "sha256": "1f2111afc382c7f0ed0cbbd6a5e95f1502423c7de1edae814c2ba355da398d36",
+      "bytes": 101098
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0011.jpg",
+      "sha256": "71b7e861364f3496c3d8e7d1746bf49dbf9924bbf41ba5eeed43a3adc84f164d",
+      "bytes": 96694
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0012.jpg",
+      "sha256": "d7ecafe895bf56f9362fc4ffcc86f5483a5f76207e5437837f1c702531d7473c",
+      "bytes": 102787
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0013.jpg",
+      "sha256": "80511262959901120d8355700b796d1a071493a05b85ac9fd93727c5f2099448",
+      "bytes": 102784
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0014.jpg",
+      "sha256": "89b796acc0657169ecff092d204c2ba6cbacb279050bd43ec74199b586ef5cc2",
+      "bytes": 149180
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0015.jpg",
+      "sha256": "242d62c4e39de897b678e49e92d961dd8bac7c48560f5e3e00329e29deeac0d3",
+      "bytes": 98804
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0016.jpg",
+      "sha256": "26e26ac31d2f935b468a818719eaef307c3e7520e25f14ba7fd9ea320932b9be",
+      "bytes": 84387
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0017.jpg",
+      "sha256": "9bce2be1c78323cb8c2a475beec89f8575fa3893885247e5305d47fc267a6ef3",
+      "bytes": 106947
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0018.jpg",
+      "sha256": "62926459e5cf8dd79b64fe1387018e28be5b6f54d5343ed1758f49be1b7f30c8",
+      "bytes": 94280
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0019.jpg",
+      "sha256": "eb6073dc85e7446a732373017b94a7ad05e8bc28eccdd84afb7c066c73b5826a",
+      "bytes": 121511
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/0020.jpg",
+      "sha256": "6f7a82bdecade009ae6c98fa8d2e5ad96b2ac88b0733981e549400699b34c3fd",
+      "bytes": 141479
+    },
+    {
+      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/original.pdf",
+      "sha256": "5239a2e43bcf3ff541b4b81043d9ff637f7a214e06fc2253980f5d295821e32f",
+      "bytes": 993431
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/WWZEvd/aws-datadog-securiser-langle-mort-de-votre-pipeline"
+}

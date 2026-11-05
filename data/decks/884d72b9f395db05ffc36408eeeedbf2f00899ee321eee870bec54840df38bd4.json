@@ -1,0 +1,813 @@
+{
+  "id": "884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4",
+  "source_sha256": "d8b7d2bb70970575d606716526f775e983848787f11eee54d667ad95fe655f6f",
+  "provenance": "original",
+  "pdf": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/original.pdf",
+  "slides": [
+    {
+      "id": "9GYvPZ",
+      "number": 1,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0001.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Modern frameworks for modern alerting Daniel Maher @phrawzty Ara Pulido @arapulido",
+      "title": "",
+      "original_description_html": "<p>Modern frameworks for modern alerting Daniel Maher @phrawzty Ara Pulido @arapulido</p>\n"
+    },
+    {
+      "id": "laHjHy",
+      "number": 2,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0002.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Datadog is a monitoring and analytics platform that helps companies improve observability of their infrastructure and applications",
+      "title": "",
+      "original_description_html": "<p>Datadog is a monitoring and analytics platform that helps companies improve observability of their infrastructure and applications</p>\n"
+    },
+    {
+      "id": "Nu0XAN",
+      "number": 3,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0003.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Daniel Maher, Developer Relations dan.maher@datadoghq.com @phrawzty Ara Pulido, Technical Evangelist ara.pulido@datadoghq.com @arapulido",
+      "title": "",
+      "original_description_html": "<p>Daniel Maher, Developer Relations dan.maher@datadoghq.com @phrawzty\nAra Pulido, Technical Evangelist ara.pulido@datadoghq.com @arapulido</p>\n"
+    },
+    {
+      "id": "0DjL2m",
+      "number": 4,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0004.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Endpoint foobar is unavailable",
+      "title": "",
+      "original_description_html": "<p>Endpoint foobar is unavailable</p>\n"
+    },
+    {
+      "id": "cXS8vB",
+      "number": 5,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0005.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs",
+      "title": "",
+      "original_description_html": "<p>Logs</p>\n"
+    },
+    {
+      "id": "ErAwna",
+      "number": 6,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0006.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs Infrastructure metrics",
+      "title": "",
+      "original_description_html": "<p>Logs\nInfrastructure metrics</p>\n"
+    },
+    {
+      "id": "rAtkfz",
+      "number": 7,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0007.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs Work metrics Infrastructure metrics",
+      "title": "",
+      "original_description_html": "<p>Logs\nWork metrics\nInfrastructure metrics</p>\n"
+    },
+    {
+      "id": "TUcYYO",
+      "number": 8,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0008.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Logs Work metrics RUM data Infrastructure metrics",
+      "title": "",
+      "original_description_html": "<p>Logs\nWork metrics\nRUM data\nInfrastructure metrics</p>\n"
+    },
+    {
+      "id": "5oLMQn",
+      "number": 9,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0009.png",
+      "width": 1600,
+      "height": 900,
+      "text": "RUM Logs data Resource metrics Work metrics Infrastructure metrics",
+      "title": "",
+      "original_description_html": "<p>RUM Logs data Resource metrics Work metrics\nInfrastructure metrics</p>\n"
+    },
+    {
+      "id": "i84AJC",
+      "number": 10,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0010.png",
+      "width": 1600,
+      "height": 900,
+      "text": "RUM Logs data Resource metrics Work metrics Infrastructure metrics Traces",
+      "title": "",
+      "original_description_html": "<p>RUM Logs data Resource metrics Work metrics\nInfrastructure metrics\nTraces</p>\n"
+    },
+    {
+      "id": "KRmyBb",
+      "number": 11,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0011.png",
+      "width": 1600,
+      "height": 900,
+      "text": "RUM Logs data Resource metrics Work metrics Infrastructure metrics Events in our app Traces",
+      "title": "",
+      "original_description_html": "<p>RUM Logs data Resource metrics Work metrics\nInfrastructure metrics Events in our app Traces</p>\n"
+    },
+    {
+      "id": "wlVm40",
+      "number": 12,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0012.png",
+      "width": 1600,
+      "height": 900,
+      "text": "RUM Logs data Resource metrics Infrastructure metrics Events in our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>RUM Logs data Resource metrics\nInfrastructure metrics Events in our app Traces\nWork metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "Z5EZwP",
+      "number": 13,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0013.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Browser/UI tests RUM Logs Infrastructure data metrics Resource metrics Events in our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Browser/UI tests RUM Logs Infrastructure data metrics Resource metrics Events in our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "BOxNoo",
+      "number": 14,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0014.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Browser/UI tests RUM Logs Infrastructure data metrics Resource Business metrics Events in metrics our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Browser/UI tests RUM Logs Infrastructure data metrics Resource Business metrics Events in metrics our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "nigBhD",
+      "number": 15,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0015.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Browser/UI tests RUM Logs Infrastructure data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Browser/UI tests RUM Logs Infrastructure data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "Q2OzZc",
+      "number": 16,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0016.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Browser/UI tests RUM Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Browser/UI tests RUM Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "2M7nS1",
+      "number": 17,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0017.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "efqbKQ",
+      "number": 18,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0018.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data",
+      "title": "",
+      "original_description_html": "<p>Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data</p>\n"
+    },
+    {
+      "id": "GzZPCp",
+      "number": 19,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0019.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data FOUR",
+      "title": "",
+      "original_description_html": "<p>Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data\nFOUR</p>\n"
+    },
+    {
+      "id": "tJID5E",
+      "number": 20,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0020.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data FOUR GOLDEN",
+      "title": "",
+      "original_description_html": "<p>Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data\nFOUR GOLDEN</p>\n"
+    },
+    {
+      "id": "Vd10xd",
+      "number": 21,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0021.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data FOUR GOLDEN SIGNALS",
+      "title": "",
+      "original_description_html": "<p>Security RUM Browser/UI tests Logs Infrastructure data Networking data metrics Resource Business metrics Events in metrics Events outside our app our app Traces Work metrics AI/ML aggregated data\nFOUR GOLDEN SIGNALS</p>\n"
+    },
+    {
+      "id": "7wjoq2",
+      "number": 22,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0022.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "kGSciR",
+      "number": 23,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0023.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Alert Fatigue",
+      "title": "",
+      "original_description_html": "<p>Alert\nFatigue</p>\n"
+    },
+    {
+      "id": "MaBQaq",
+      "number": 24,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0024.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Information Overload",
+      "title": "",
+      "original_description_html": "<p>Information Overload</p>\n"
+    },
+    {
+      "id": "ytuETF",
+      "number": 25,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0025.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Service Level Indicators Objectives Agreements",
+      "title": "",
+      "original_description_html": "<p>Service Level Indicators Objectives Agreements</p>\n"
+    },
+    {
+      "id": "bDd2Le",
+      "number": 26,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0026.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Alerts Pages",
+      "title": "",
+      "original_description_html": "<p>Alerts Pages</p>\n"
+    },
+    {
+      "id": "DXLqE3",
+      "number": 27,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0027.png",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "pr4e6S",
+      "number": 28,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0028.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "SAnRyr",
+      "number": 29,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0029.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Symptoms vs. Causes",
+      "title": "",
+      "original_description_html": "<p>Symptoms vs. Causes</p>\n"
+    },
+    {
+      "id": "4UWFrG",
+      "number": 30,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0030.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Symptom 18 % of queries are returning an error",
+      "title": "",
+      "original_description_html": "<p>Symptom 18 % of queries are returning an error</p>\n"
+    },
+    {
+      "id": "goF3jf",
+      "number": 31,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0031.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Cause 3 nodes of the cluster are down",
+      "title": "",
+      "original_description_html": "<p>Cause 3 nodes of the cluster are down</p>\n"
+    },
+    {
+      "id": "J7xrc4",
+      "number": 32,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0032.png",
+      "width": 1600,
+      "height": 900,
+      "text": "It is so tempting to page on causes",
+      "title": "",
+      "original_description_html": "<p>It is so tempting to page on causes</p>\n"
+    },
+    {
+      "id": "vRgfUT",
+      "number": 33,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0033.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "DON’T",
+      "title": "",
+      "original_description_html": "<p>DON’T</p>\n"
+    },
+    {
+      "id": "XlPTMs",
+      "number": 34,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0034.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLAs are written based on symptoms",
+      "title": "",
+      "original_description_html": "<p>SLAs are written based on symptoms</p>\n"
+    },
+    {
+      "id": "A58HFH",
+      "number": 35,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0035.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Symptoms Causes",
+      "title": "",
+      "original_description_html": "<p>Symptoms\nCauses</p>\n"
+    },
+    {
+      "id": "mOr57g",
+      "number": 36,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0036.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Urgency",
+      "title": "",
+      "original_description_html": "<p>Urgency</p>\n"
+    },
+    {
+      "id": "OiZt05",
+      "number": 37,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0037.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "12IgsU",
+      "number": 38,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0038.png",
+      "width": 1600,
+      "height": 900,
+      "text": "High p99 latency > 100ms",
+      "title": "",
+      "original_description_html": "<p>High p99 latency &gt; 100ms</p>\n"
+    },
+    {
+      "id": "dM1Ukt",
+      "number": 39,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0039.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Only page on these Related to your SLOs",
+      "title": "",
+      "original_description_html": "<p>Only page on these Related to your SLOs</p>\n"
+    },
+    {
+      "id": "FfkIdI",
+      "number": 40,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0040.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Medium 1 node of the cluster is down",
+      "title": "",
+      "original_description_html": "<p>Medium 1 node of the cluster is down</p>\n"
+    },
+    {
+      "id": "rzT6Vh",
+      "number": 41,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0041.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Notify on these",
+      "title": "",
+      "original_description_html": "<p>Notify on these</p>\n"
+    },
+    {
+      "id": "UJBuO6",
+      "number": 42,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0042.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Low Database I/O is slower than usual",
+      "title": "",
+      "original_description_html": "<p>Low Database I/O is slower than usual</p>\n"
+    },
+    {
+      "id": "6cuiGV",
+      "number": 43,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0043.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Log these",
+      "title": "",
+      "original_description_html": "<p>Log these</p>\n"
+    },
+    {
+      "id": "iwdW8u",
+      "number": 44,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0044.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Symptoms Causes",
+      "title": "",
+      "original_description_html": "<p>Symptoms\nCauses</p>\n"
+    },
+    {
+      "id": "LGMK1J",
+      "number": 45,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0045.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Error Budget",
+      "title": "",
+      "original_description_html": "<p>Error Budget</p>\n"
+    },
+    {
+      "id": "xa57ti",
+      "number": 46,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0046.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Urgency; but make it (error) budget",
+      "title": "",
+      "original_description_html": "<p>Urgency; but make it (error) budget</p>\n"
+    },
+    {
+      "id": "Ztnvm7",
+      "number": 47,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0047.png",
+      "width": 1600,
+      "height": 900,
+      "text": "SLOs & SLAs Alert or Page?",
+      "title": "",
+      "original_description_html": "<p>SLOs &amp; SLAs Alert or Page?</p>\n"
+    },
+    {
+      "id": "CDWjeW",
+      "number": 48,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0048.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    },
+    {
+      "id": "oXFXWv",
+      "number": 49,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0049.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Availability vs. Accessibility",
+      "title": "",
+      "original_description_html": "<p>Availability vs. Accessibility</p>\n"
+    },
+    {
+      "id": "QqyLPK",
+      "number": 50,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0050.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Organise data by team",
+      "title": "",
+      "original_description_html": "<p>Organise data by team</p>\n"
+    },
+    {
+      "id": "3Ah9Hj",
+      "number": 51,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0051.jpg",
+      "width": 1600,
+      "height": 900,
+      "text": "Team A",
+      "title": "",
+      "original_description_html": "<p>Team A</p>\n"
+    },
+    {
+      "id": "fUPxA8",
+      "number": 52,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0052.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Information Underload (?)",
+      "title": "",
+      "original_description_html": "<p>Information Underload (?)</p>\n"
+    },
+    {
+      "id": "Ho8l2X",
+      "number": 53,
+      "image": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0053.png",
+      "width": 1600,
+      "height": 900,
+      "text": "Thank you! https://www.datadoghq.com Daniel Maher @phrawzty Ara Pulido @arapulido",
+      "title": "",
+      "original_description_html": "<p>Thank you! https://www.datadoghq.com\nDaniel Maher @phrawzty Ara Pulido @arapulido</p>\n"
+    }
+  ],
+  "page_count": 53,
+  "files": [
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0001.png",
+      "sha256": "0286fb570e19e79f2726e13665fdc6f35ddcf3172f2308578ceb37a84a46d3da",
+      "bytes": 213931
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0002.png",
+      "sha256": "624968d73f735235076c839d9e215c291092225039fe4d40d0393e6842df1be8",
+      "bytes": 290371
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0003.jpg",
+      "sha256": "bb05f0f387613e2fce028095c83194a61834a9f4881d77e98b1e5229b954890a",
+      "bytes": 160092
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0004.png",
+      "sha256": "373c3d59d241de62361b3c60d93c6946e9d3641a086a0cf512b560ce85b7d2ba",
+      "bytes": 116047
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0005.png",
+      "sha256": "c547aea8aa91eb7780676d7f7831346a98e95e2d131fcedff1756501b54ceefc",
+      "bytes": 31149
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0006.png",
+      "sha256": "b849cabeb66d79fc94a5cfb32c48c53be92db287a40001d0018f8cdf3f119f94",
+      "bytes": 86437
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0007.png",
+      "sha256": "c2c855f3c25c95878e47b5f958dd4ed90005b33805fb54a784c828c1994347fb",
+      "bytes": 126737
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0008.png",
+      "sha256": "5a8dc0c2466ef9438d9f29f9e3300573a133e8fe2767965fb2353d0fb8bcdd4c",
+      "bytes": 151887
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0009.png",
+      "sha256": "b8121a834a17ad337c41b82399f12641e4c82c475ec8c963a60a2f197b6f7c0e",
+      "bytes": 206963
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0010.png",
+      "sha256": "9e16a346458b6a5ec6f257e0fc637e11c97452d9f47ca23beabc2ea3be7f412d",
+      "bytes": 229076
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0011.png",
+      "sha256": "6ae443d55a033b1ae14d4cfdfeca10670a255139847eb80529de4a7b22b77d25",
+      "bytes": 271799
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0012.png",
+      "sha256": "b33286d7e6200e71330870c74b42896cc2f6b46a0331c9500c440a404e326a2a",
+      "bytes": 345888
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0013.png",
+      "sha256": "7cb0ed01262cef097b53d80c9893b3652e7fa57d4fb6e8b21997af81f0533885",
+      "bytes": 402718
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0014.png",
+      "sha256": "025a05345e0dc64c7bf23f0a83b1313f79c437fa070f49a98d956553d6266e55",
+      "bytes": 451627
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0015.png",
+      "sha256": "bd838edc0a120259de0cc59f1c25ff1d3d24a1bc5a7643c63807b0a17e2b1646",
+      "bytes": 510062
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0016.png",
+      "sha256": "cfc2b28175a48604231922d2b170ec7d04a23f2a07bee1ed666a9dd4a33a20f8",
+      "bytes": 561296
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0017.png",
+      "sha256": "a7d55edfa343e1fa1f7bcc53ca755f55f2c020b27f1eb8d1dac670203a546f29",
+      "bytes": 645270
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0018.png",
+      "sha256": "fce8b7c52d4f7613176a78e914b125e0f2a4ae59c6d5a4bd27be08bffadf2570",
+      "bytes": 226171
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0019.jpg",
+      "sha256": "3092b6ee2456f0d70f6f975b364bf52d1e68b3e578db5be3456b473b0227705e",
+      "bytes": 115708
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0020.jpg",
+      "sha256": "704db4741e2b1850a8063c6ba152601a6c58b3207b9e70e05a1f540adb36cbe1",
+      "bytes": 137190
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0021.jpg",
+      "sha256": "30e78c62506d0122db0be692174deccc08dc8860a0a2d890c2af2a5771d59b0c",
+      "bytes": 165346
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0022.jpg",
+      "sha256": "1e9ab34a6a6e806bdf97201278af2dfc42b6d735fe55d02ae683af4a9e9db2d8",
+      "bytes": 83608
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0023.png",
+      "sha256": "0b38bcc89e71232239314c78ff27493c51db7711182a714e93606f793376fffc",
+      "bytes": 134957
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0024.png",
+      "sha256": "368e921aca1e6facbcdfbe7b6c141497a488a8f1ddfe274a9ba74144dad536af",
+      "bytes": 183387
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0025.png",
+      "sha256": "61b73d72ac07fc08c5afcdd607ba4f0666288507feea0e2d4b6b53df955c4bec",
+      "bytes": 317549
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0026.png",
+      "sha256": "d17ac02a1905565640971808a5fe888bbd5142b1415d7972a176d46b032120f2",
+      "bytes": 222919
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0027.png",
+      "sha256": "3f82dab0fe99962e101f57e4a949fa121515f56f18ac8313f2ccc79e51bf2365",
+      "bytes": 46490
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0028.jpg",
+      "sha256": "1e9ab34a6a6e806bdf97201278af2dfc42b6d735fe55d02ae683af4a9e9db2d8",
+      "bytes": 83608
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0029.png",
+      "sha256": "afc99751b1b2cb887733d15e6e9fdc8da70ecb93f0a4e57bdb1db9cb508be09b",
+      "bytes": 130155
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0030.png",
+      "sha256": "d6ff4a44176490c2cacee22a98248fefe8aa4fc159ed2ea503241b0036a733d8",
+      "bytes": 238020
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0031.png",
+      "sha256": "1b39e00e39b587d38aa6a4bb21179eb5bfa15ed8140da99a1ed5e3ee3a4c5b23",
+      "bytes": 251522
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0032.png",
+      "sha256": "b46e5cf1f5b3887ca68f8154cd9c18a9779bbad3a7f03225e6523c42bbf4184f",
+      "bytes": 172889
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0033.jpg",
+      "sha256": "af9751819036d74d050d40ddb081b5d12d8f7e8daa8a9e1f1b8d8b5123e707b9",
+      "bytes": 50228
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0034.png",
+      "sha256": "5a42682aa5d5411930b1668d51ae0c4c762c18904fe0d516d3697cc26b2cfee0",
+      "bytes": 189981
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0035.jpg",
+      "sha256": "4fbd924006a5e542ad0e795563efe03e4f9ce6906ada97e9633b9bea61d47e25",
+      "bytes": 116847
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0036.png",
+      "sha256": "6f8c531d014a966931d5d3bece4b027cd119b2608ba525d4d9294f8dd35ed068",
+      "bytes": 118391
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0037.jpg",
+      "sha256": "02e7c1f962047f2a65b13aa373a159c3262908f100cc5990c615531cdd7cb35b",
+      "bytes": 61700
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0038.png",
+      "sha256": "06dbcd21eaa164694bbba4cfc26ab50f1f95293066e0340a05e2e524f1595330",
+      "bytes": 162904
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0039.png",
+      "sha256": "917e84634304f5fe6c3bf75fd29eb0d2b9967534a75ef0be784a0952761e9e36",
+      "bytes": 162233
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0040.png",
+      "sha256": "6738bd90f39ec3e18cab1611d5abff99da655506b30372b33219dd7b47da3a4c",
+      "bytes": 199400
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0041.jpg",
+      "sha256": "1988bc111af001f20ee20ff5a17c41cff1c6576425e0fbba22d1240d3793ed94",
+      "bytes": 75035
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0042.png",
+      "sha256": "3b025505582d49e6b556dcc4cde5ebaa59583cbcb1b826edeafacb68d2ae3c5c",
+      "bytes": 231638
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0043.jpg",
+      "sha256": "2e803fd265e06ebdbf955f7f963693a4d9e3a02b4b3cd11023395ee661c49153",
+      "bytes": 71626
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0044.png",
+      "sha256": "15dabc8289bf4179870006600d74a8c3fb9eb205c9acc9a5b1dcb5066a0af9b1",
+      "bytes": 370334
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0045.png",
+      "sha256": "ea0a22530a192de4756ea7be89cc6bda9560d96f33c37fc494b5fe925e0d40e7",
+      "bytes": 110313
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0046.png",
+      "sha256": "05fe40e5c80f4a6a36b1bcb7b25bb355925815b067ff7b252e145ddaeeb67946",
+      "bytes": 237021
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0047.png",
+      "sha256": "8a5258f7c46bbc7a6ff1892c976a272e2e26f5efbfe381fb249ea0c2138a5cdf",
+      "bytes": 196195
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0048.jpg",
+      "sha256": "425014e3f486a84930325a8633801723c46148c699e370770ea6f4987d5eac01",
+      "bytes": 58580
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0049.png",
+      "sha256": "bae5be9ef2dc970033732447ee48adbb7984d517265656a441465eedfc2351ef",
+      "bytes": 182483
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0050.png",
+      "sha256": "291db3a8a218da1e31888ab07fc577a16b638f97de422919dc28f5786bebdc46",
+      "bytes": 225291
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0051.jpg",
+      "sha256": "618278ab5d33fa73bf1e330fe3c789b901040daaa45007136a609c93d42dd993",
+      "bytes": 87678
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0052.png",
+      "sha256": "a2016c5a13d65d2076ea33305c4087339b30ccc68b3338c18b1278a984db1b0a",
+      "bytes": 214610
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/0053.png",
+      "sha256": "99ecc0c9edf2a8899597dd76a3e8b7bcb4a31b4601590fc0287bf9afb374e75b",
+      "bytes": 240716
+    },
+    {
+      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/original.pdf",
+      "sha256": "d8b7d2bb70970575d606716526f775e983848787f11eee54d667ad95fe655f6f",
+      "bytes": 1775028
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/Zq12X5/modern-frameworks-for-modern-alerting"
+}

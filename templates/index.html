@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block main %}
+{% set appearances = get_section(path='appearances/_index.md') %}
+{% set today = now() | date(format='%Y-%m-%d') %}
+<section class="introduction"><p class="eyebrow">Daniel “phrawzty” Maher</p><h1>{{ section.title }}</h1>{{ section.content | safe }}</section>
+<section aria-labelledby="upcoming-title"><h2 id="upcoming-title">Coming up</h2>
+{% set_global upcoming_count = 0 %}
+{% for appearance in appearances.pages | reverse %}{% if appearance.date | date(format='%Y-%m-%d') >= today %}
+  {% set_global upcoming_count = upcoming_count + 1 %}{% include "partials/appearance-row.html" %}
+{% endif %}{% endfor %}
+{% if upcoming_count == 0 %}<p class="muted">No upcoming appearances announced here yet.</p>{% endif %}
+</section>
+<section aria-labelledby="recent-title"><div class="section-heading"><h2 id="recent-title">Recent appearances</h2><a href="{{ get_url(path='appearances/') }}">All appearances →</a></div>
+{% set_global recent_count = 0 %}
+{% for appearance in appearances.pages %}{% if appearance.date | date(format='%Y-%m-%d') < today and recent_count < 8 %}
+{% set_global recent_count = recent_count + 1 %}{% include "partials/appearance-row.html" %}
+{% endif %}{% endfor %}
+{% if recent_count == 0 %}<p class="muted">Talks, slides, and recordings will appear here.</p>{% endif %}
+</section>
+{% if appearances.pages | length > 0 %}
+<section><h2>Along the way</h2><p class="muted">Places where these conversations have happened.</p>
+<link rel="stylesheet" href="{{ get_url(path='css/leaflet/leaflet.css') }}">
+<div id="appearance-map" class="appearance-map" role="region" aria-label="Map of speaking appearances"></div>
+<p class="muted small">Every location is also listed in the <a href="{{ get_url(path='appearances/') }}">appearance archive</a>.</p>
+<script defer src="{{ get_url(path='js/leaflet/leaflet.js') }}"></script><script defer src="{{ get_url(path='js/map.js') }}"></script></section>
+{% endif %}
+{% endblock %}

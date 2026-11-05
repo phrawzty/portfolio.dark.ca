@@ -1,0 +1,28 @@
+{
+  "id": "f27a2cfc1fc731f0b646f120f3c088c8875901fcbbaed068a67269f5cecfb644",
+  "source_sha256": null,
+  "provenance": "image-only",
+  "pdf": "",
+  "slides": [
+    {
+      "id": "9s1RAv",
+      "number": 1,
+      "image": "decks/f27a2cfc1fc731f0b646f120f3c088c8875901fcbbaed068a67269f5cecfb644/0001.png",
+      "width": 1422,
+      "height": 872,
+      "text": "",
+      "title": "",
+      "original_description_html": ""
+    }
+  ],
+  "page_count": 1,
+  "files": [
+    {
+      "path": "decks/f27a2cfc1fc731f0b646f120f3c088c8875901fcbbaed068a67269f5cecfb644/0001.png",
+      "sha256": "ab804502ce100e25f211ec267f9f30863644ee562cf0ca2aa0b168986fedda5a",
+      "bytes": 514106
+    }
+  ],
+  "processor": "notist-preserved-display-v1",
+  "source_url": "https://speaking.dark.ca/6BFVjb/building-a-datadog-integration-introduction"
+}

@@ -236,11 +236,11 @@ class Portfolio:
         event = answer(args.event, "Event name")
         event_date = date.fromisoformat(answer(args.date, "Event date (YYYY-MM-DD)"))
         location = answer(args.location, "Location (city, country; or Virtual)")
-        timezone = answer(args.timezone, "Timezone", "Europe/Paris")
-        try:
-            ZoneInfo(timezone)
-        except ZoneInfoNotFoundError as error:
-            raise PortfolioError(f"Unknown timezone: {timezone}") from error
+        if args.timezone is not None:
+            try:
+                ZoneInfo(args.timezone)
+            except (ZoneInfoNotFoundError, ValueError) as error:
+                raise PortfolioError(f"Unknown timezone: {args.timezone}") from error
         ident = identifier(args.id or f"{event_date.isoformat()}-{slug(event)}")
         destination = self.root / "content/appearances" / (ident + ".md")
         if not args.id:
@@ -266,8 +266,10 @@ class Portfolio:
         meta.update(title=title, date=event_date, draft=not args.publish, path=ident, template="appearance.html")
         extra = tomlkit.table()
         extra.update(id=ident, talk=talk_id, event=event, event_url=args.event_url or "", location=location,
-                     timezone=timezone, virtual=location.casefold() in ("virtual", "online"),
+                     virtual=location.casefold() in ("virtual", "online"),
                      deck=prior_extra.get("deck", "") if args.reuse_slides else "", recording_url="")
+        if args.timezone is not None:
+            extra["timezone"] = args.timezone
         # Resources may be reused; reactions and recordings belong to their event.
         if previous and prior_extra.get("resources"):
             extra["resources"] = prior_extra["resources"]
@@ -470,7 +472,7 @@ class Portfolio:
 
     def validate_page(self, path, meta):
         extra = meta.get("extra", {})
-        for key in ("id", "talk", "event", "location", "timezone"):
+        for key in ("id", "talk", "event", "location"):
             if not extra.get(key):
                 raise PortfolioError(f"{path.name}: extra.{key} is required")
         if extra["id"] != path.stem or meta.get("path") != extra["id"]:
@@ -481,10 +483,11 @@ class Portfolio:
             raise PortfolioError(f"{path.name}: title and TOML date are required")
         if not (self.root / "content/talks" / (extra["talk"] + ".md")).is_file():
             raise PortfolioError(f"{path.name}: missing talk {extra['talk']}")
-        try:
-            ZoneInfo(extra["timezone"])
-        except ZoneInfoNotFoundError as error:
-            raise PortfolioError(f"{path.name}: unknown timezone") from error
+        if "timezone" in extra:
+            try:
+                ZoneInfo(extra["timezone"])
+            except (ZoneInfoNotFoundError, ValueError) as error:
+                raise PortfolioError(f"{path.name}: unknown timezone") from error
         for key in ("event_url", "recording_url"):
             if extra.get(key):
                 validate_url(extra[key])
@@ -780,8 +783,9 @@ def parser():
     commands = cli.add_subparsers(dest="command")
     commands.add_parser("menu", help="Open the interactive authoring menu")
     new = commands.add_parser("new", help="Create an editable appearance, optionally from a previous one")
-    for name in ("title", "event", "date", "location", "timezone", "id", "talk", "event-url"):
+    for name in ("title", "event", "date", "location", "id", "talk", "event-url"):
         new.add_argument("--" + name)
+    new.add_argument("--timezone", help="Optional IANA timezone metadata; dates do not require one")
     new.add_argument("--from", dest="from_appearance")
     new.add_argument("--reuse-slides", action="store_true", help="Explicitly reuse the previous deck with --from; repeats otherwise start without slides")
     new.add_argument("--publish", action="store_true", help="Include in production immediately; otherwise start as a draft")

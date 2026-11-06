@@ -84,6 +84,34 @@ class WorkflowTests(unittest.TestCase):
                   "--date", "2030-05-01", "--location", "Paris, France", "--timezone", "Europe/Paris",
                   *(["--publish"] if publish else []))
 
+    def test_new_appearance_does_not_prompt_for_timezone(self):
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=[
+            "A living portfolio", "Example event", "2030-05-01", "Rio de Janeiro, RJ, Brazil",
+        ]) as prompt:
+            self.call("new", "--id", "rio")
+        self.assertEqual(prompt.call_count, 4)
+        path = self.root / "content/appearances/rio.md"
+        meta, _ = read_page(path)
+        self.assertNotIn("timezone", meta["extra"])
+        self.project.validate_page(path, meta)
+        self.project.build()
+
+    def test_optional_timezone_is_preserved_and_validated(self):
+        self.create()
+        path = self.root / "content/appearances/first.md"
+        meta, _ = read_page(path)
+        self.assertEqual(meta["extra"]["timezone"], "Europe/Paris")
+        self.project.validate_page(path, meta)
+        for timezone in ("Unknown/Timezone", ""):
+            with self.subTest(timezone=timezone):
+                meta["extra"]["timezone"] = timezone
+                with self.assertRaisesRegex(PortfolioError, "unknown timezone"):
+                    self.project.validate_page(path, meta)
+                with self.assertRaises(AssertionError):
+                    self.call("new", "--id", "invalid", "--title", "Example", "--event", "Event",
+                              "--date", "2030-05-01", "--location", "Virtual", "--timezone", timezone)
+                self.assertFalse((self.root / "content/appearances/invalid.md").exists())
+
     def test_three_everyday_cases_and_deck_isolation(self):
         # Upcoming announcement without slides.
         self.create(publish=True)
@@ -280,7 +308,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(read_page(self.root / "content/appearances/first.md")[0]["extra"]["deck"], self.v1)
 
     def test_menu_creates_a_draft_and_opens_its_markdown(self):
-        answers = ["1", "A new talk", "Another event", "2031-02-03", "Paris, France", "", "", "q"]
+        answers = ["1", "A new talk", "Another event", "2031-02-03", "Paris, France", "", "q"]
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=answers), patch.object(Portfolio, "open_editor") as editor:
             self.call()
         path = self.root / "content/appearances/2031-02-03-another-event.md"
@@ -294,7 +322,7 @@ class WorkflowTests(unittest.TestCase):
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         self.project.recording("first", "https://example.com/recording")
         previous = (self.root / "content/appearances/first.md").read_bytes()
-        answers = ["1", "", "Another event", "2031-02-03", "Paris, France", "", ""]
+        answers = ["1", "", "Another event", "2031-02-03", "Paris, France", ""]
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=answers), patch.object(Portfolio, "open_editor"):
             self.call("repeat")
         meta, _ = read_page(self.root / "content/appearances/2031-02-03-another-event.md")
@@ -305,7 +333,7 @@ class WorkflowTests(unittest.TestCase):
     def test_repeat_can_explicitly_reuse_previous_slides(self):
         self.create()
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
-        answers = ["1", "", "Another event", "2031-02-03", "Paris, France", "", "reuse"]
+        answers = ["1", "", "Another event", "2031-02-03", "Paris, France", "reuse"]
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=answers), patch.object(Portfolio, "open_editor"):
             self.call("repeat")
         meta, _ = read_page(self.root / "content/appearances/2031-02-03-another-event.md")

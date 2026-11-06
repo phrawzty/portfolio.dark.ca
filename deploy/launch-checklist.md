@@ -38,7 +38,7 @@ Set these environment variables for the production build being tested. Leave `PY
 - [x] Record the first successful deployment from Daniel's screenshot: source `2fe31b6`, deployment `724b1e84.portfolio-dark-ca.pages.dev`.
 - [x] Codex: verify the deployed response after success (2026-11-06).
 
-Hosted HTTP preflight on 2026-11-06 passed: 400 HTML routes, 119 sampled static assets, complete smallest/largest PDF downloads (0.19 / 72.70 MiB), temporary-host canonical/navigation URLs, legacy redirects and draft exclusion. Browser controls, recordings, map rendering and mobile layout remain unchecked. The local receipt is `.portfolio/hosted-check.json` (ignored).
+Hosted HTTP preflight on 2026-11-06 passed: 400 HTML routes, 119 sampled static assets, complete smallest/largest PDF downloads (0.19 / 72.70 MiB), temporary-host canonical/navigation URLs, legacy redirects and draft exclusion. Daniel subsequently validated the browser checks on 2026-11-06. The local receipt is `.portfolio/hosted-check.json` (ignored).
 
 ## 3. CARTO website restrictions — Daniel, then both
 
@@ -56,46 +56,48 @@ CARTO completed on 2026-11-06: Daniel updated and tested the key. Codex rechecke
 
 Codex checks HTTP responses and generated links; Daniel checks browser interactions and layout.
 
-- [x] Homepage, appearance list, talk groupings, video list and biography return successfully on the test hostname; browser layout remains below.
-- [ ] Slides advance with buttons/keyboard; all-slides transcript works.
+- [x] Homepage, appearance list, talk groupings, video list and biography return successfully on the test hostname; Daniel subsequently validated browser layout on 2026-11-06.
+- [x] Slides advance with buttons/keyboard; all-slides transcript works. Daniel validated on 2026-11-06.
 - [x] PDF downloads work, including a complete 72.70 MiB PDF matched to its SHA-256; image-only entries have no PDF button.
-- [ ] YouTube/Vimeo recordings load after clicking; external Watch links work.
-- [ ] Resources, feedback, headshots, map pins and attribution are present.
-- [ ] Review mobile layout and check browser console/network failures.
-- [x] Initial hosted test verified draft exclusion across pages/feed/sitemap/map and a 404 direct URL. Daniel has since intentionally published Portugal in `89f8bcd`; its hosted appearance is pending Git integration repair.
+- [x] YouTube/Vimeo recordings load after clicking; external Watch links work. Daniel validated on 2026-11-06.
+- [x] Resources, feedback, headshots, map pins and attribution are present. Daniel validated on 2026-11-06.
+- [x] Review mobile layout and check browser console/network failures. Daniel validated on 2026-11-06.
+- [x] Initial hosted test verified draft exclusion across pages/feed/sitemap/map and a 404 direct URL. Daniel has since intentionally published Portugal in `89f8bcd`; its hosted appearance has been verified after the Git integration repair.
 - [x] Legacy presentation slug redirects work, for example `/QfIYtz/statements-about-stateless`.
 - [x] Sampled legacy slide route preserves its slide fragment and lands on the Pages hostname.
-- [ ] Browser review: primary navigation, controls and recording actions stay on the intended destinations.
+- [x] Browser review: primary navigation, controls and recording actions stay on the intended destinations. Daniel validated on 2026-11-06.
 
 ## 5. Canonical domain and speaking.dark.ca cutover — Daniel, then Codex
 
 - [x] Save public DNS answers before cutover in `.portfolio/dns-before-cutover.json`; speaking.dark.ca still reaches the old site, and portfolio.dark.ca does not yet resolve.
-- [ ] Daniel: record speaking.dark.ca proxy state and any existing redirect rules from the dashboard (public DNS cannot establish those settings).
+- [x] Daniel recorded the former speaking.dark.ca target as `inbound.noti.st`. His post-change DNS screenshot shows the new CNAME target `portfolio-dark-ca.pages.dev`, Proxied, TTL Auto. No additional speaking.dark.ca DNS records were reported; existing zone redirect rules have not been inspected.
 - [x] Add `portfolio.dark.ca` through Pages, complete DNS setup and activate HTTPS. Daniel's dashboard shows Active/SSL enabled; Codex verified the served page with normal TLS certificate validation using the current public DNS address.
-- [ ] Remove the temporary `PORTFOLIO_BASE_URL` override; redeploy and verify canonical navigation/feed URLs.
-- [ ] Verify portfolio.dark.ca fully before switching the older hostname.
-- [ ] Add `speaking.dark.ca` as a Pages custom domain and replace its Noti.st DNS target using the Pages-provided configuration.
-- [ ] Add the single host redirect from `deploy/hostname-redirect-rule.json` to the zone's existing rules (do not replace the ruleset). Preserve path and query string.
-- [ ] Codex: verify HTTPS, canonical URLs, old presentation/slide paths and query preservation on both domains; check for redirect loops.
+- [x] Remove the temporary `PORTFOLIO_BASE_URL` override and redeploy. The successful automatic deployment serves canonical/navigation URLs at https://portfolio.dark.ca; the Portugal event is present in the feed.
+- [x] Verify portfolio.dark.ca fully before switching the older hostname. Daniel validated on 2026-11-06.
+- [x] Add `speaking.dark.ca` as a Pages custom domain and replace its Noti.st DNS target using the Pages-provided configuration. Daniel's dashboard screenshot confirms Active / SSL enabled on 2026-11-06.
+- [x] Add the single host redirect from `deploy/hostname-redirect-rule.json` to the zone's existing rules (do not replace the ruleset). Daniel deployed the 301 redirect on 2026-11-06; path and query preservation verified.
+- [x] Codex: verify HTTPS, canonical URLs, old presentation/slide paths and query preservation on both domains; check for redirect loops. Ten HTTPS requests passed on 2026-11-06; legacy slide 3 redirects retain `#3` and both query parameters. Receipt: `.portfolio/hostname-cutover-check.json` (ignored).
 
-portfolio.dark.ca is Active with SSL enabled. The served page still declares portfolio-dark-ca.pages.dev as canonical and uses it for navigation. Next remove the production `PORTFOLIO_BASE_URL` override and redeploy. Daniel fixed the GitHub repository access and the warning disappeared; a fresh push will test automatic deployment. Do not change speaking.dark.ca yet.
+portfolio.dark.ca is Active with SSL enabled. Source `65eb37d` deployed automatically after the GitHub access fix and now serves canonical/navigation links on portfolio.dark.ca. Portugal publication is verified. Daniel validated the production deployment and browser acceptance checks on 2026-11-06 after pushing `998ae42`. The speaking.dark.ca cutover is complete: Pages custom domain Active/SSL enabled, DNS Proxied to Pages, and permanent redirects verified on 2026-11-06.
 
 ## 6. Routine publishing and rollback — both
 
 - [ ] Exercise draft announcement -> preview -> PDF attachment -> assets commit/push -> portfolio commit/push -> hosted result. Use an isolated test branch/project for synthetic content; publish real content only when Daniel intends it to be public.
 - [x] Resolve the disconnected-account banner: Daniel added portfolio.dark.ca to the existing GitHub App repository access; the warning disappeared. Automatic push-triggered deployment is checked separately below.
-- [ ] Confirm a normal Git push triggers Pages deployment and that its build uses the pinned assets commit.
-  - Daniel pushed real upcoming-talk publication `89f8bcd` successfully. Cloudflare initially stayed on `2fe31b6` while repository access was missing. Access is now fixed; push the pending launch-progress documentation to test a fresh event and include the Portugal change. Do not create a duplicate talk or reprocess any slides.
-- [ ] Record the first good production deployment and source/assets commits.
+- [x] Confirm a normal Git push triggers Pages deployment: documentation commit `65eb37d` started the Cloudflare Pages check automatically and completed successfully. It includes Portugal publication `89f8bcd`; assets remain pinned by the committed lock.
+  - Daniel pushed real upcoming-talk publication `89f8bcd` successfully. Cloudflare initially stayed on `2fe31b6` while repository access was missing. After the repair, Codex pushed real progress documentation in `65eb37d`; it deployed automatically and Portugal is now served on the canonical domain without slides. No duplicate talk or PDF processing was needed.
+- [x] Record the verified canonical production deployment: `c68ad739-b10c-4189-adb9-8c1920a686b0`, source `65eb37d4d93f62a0c0bdfed5b6b8bed5ff93b90d`, assets `0580c25a8274d473d7f6cca5eea53d783ee1e641`. Local HTTP/GitHub receipt: `.portfolio/automatic-deploy-check.json`.
 - [ ] Confirm the Pages dashboard's rollback action is available for a previous successful production deployment. Preview deployments are not rollback targets.
-- [ ] Document that a source rollback restores its recorded assets revision. Leave referenced assets commits reachable.
+- [x] Document that a source rollback restores its recorded assets revision in the root `README.md`; keep referenced assets commits reachable.
 
 ## 7. Documentation — Codex
 
 - [x] Keep both READMEs focused on everyday use, clone/setup, publishing and the grouped asset layout.
-- [x] Put deployment settings, cutover steps and rollback instructions in `deploy/README.md`.
+- [x] Consolidate deployment settings and rollback instructions into the root `README.md`; keep cutover progress in this checklist.
 - [x] Keep this file as the actual launch progress record; distinguish local tests from hosted acceptance checks.
 - [x] Separate migration history/backup details from normal website maintenance.
+- [x] Apply the README drafts approved by Daniel on 2026-11-06 to both repositories. Consolidate the portfolio's authoring and deployment guides into its README and remove those separate guides.
+- [ ] Revisit both READMEs for fitness and purpose after everyday use: [portfolio issue #2](https://github.com/phrawzty/portfolio.dark.ca/issues/2).
 
 ## 8. Migration and local cleanup — Daniel decides; Codex can execute
 

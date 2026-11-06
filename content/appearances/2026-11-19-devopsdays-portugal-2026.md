@@ -1,7 +1,7 @@
 +++
 title = "Your Supply Chain Has an Identity Problem"
 date = 2026-11-19
-draft = true
+draft = false
 path = "2026-11-19-devopsdays-portugal-2026"
 template = "appearance.html"
 

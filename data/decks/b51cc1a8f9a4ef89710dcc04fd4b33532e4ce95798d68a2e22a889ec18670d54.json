@@ -2,7 +2,7 @@
   "id": "b51cc1a8f9a4ef89710dcc04fd4b33532e4ce95798d68a2e22a889ec18670d54",
   "source_sha256": "4a750914cbd5f1d5bd9a17d89dde55ae8ad27e45981c060534c74b8c1559458e",
   "provenance": "reconstructed",
-  "pdf": "decks/b51cc1a8f9a4ef89710dcc04fd4b33532e4ce95798d68a2e22a889ec18670d54/reconstructed.pdf",
+  "pdf": "pdfs/2019-06-26-public-speaking-for-technologists-devopsdays-amsterdam-2019.pdf",
   "slides": [
     {
       "id": "qCS7qz",
@@ -293,7 +293,7 @@
       "bytes": 47370
     },
     {
-      "path": "decks/b51cc1a8f9a4ef89710dcc04fd4b33532e4ce95798d68a2e22a889ec18670d54/reconstructed.pdf",
+      "path": "pdfs/2019-06-26-public-speaking-for-technologists-devopsdays-amsterdam-2019.pdf",
       "sha256": "4a750914cbd5f1d5bd9a17d89dde55ae8ad27e45981c060534c74b8c1559458e",
       "bytes": 2259027
     }

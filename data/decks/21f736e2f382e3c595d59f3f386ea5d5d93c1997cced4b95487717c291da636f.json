@@ -2,7 +2,7 @@
   "id": "21f736e2f382e3c595d59f3f386ea5d5d93c1997cced4b95487717c291da636f",
   "source_sha256": "9e4c3cbe3418dab213f6ebef14e4c9d801bf16805e11a6e90da3db646cd313ca",
   "provenance": "original",
-  "pdf": "decks/21f736e2f382e3c595d59f3f386ea5d5d93c1997cced4b95487717c291da636f/original.pdf",
+  "pdf": "pdfs/2019-11-27-quickwhat-time-is-it-devopsdays-berlin-2019.pdf",
   "slides": [
     {
       "id": "s2A8NB",
@@ -308,7 +308,7 @@
       "bytes": 328497
     },
     {
-      "path": "decks/21f736e2f382e3c595d59f3f386ea5d5d93c1997cced4b95487717c291da636f/original.pdf",
+      "path": "pdfs/2019-11-27-quickwhat-time-is-it-devopsdays-berlin-2019.pdf",
       "sha256": "9e4c3cbe3418dab213f6ebef14e4c9d801bf16805e11a6e90da3db646cd313ca",
       "bytes": 18596213
     }

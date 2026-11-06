@@ -2,7 +2,7 @@
   "id": "dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f",
   "source_sha256": "9d608ed6da352229287b3a8d94e4e68b081b0ad3c79d2ada567cdc2087d0a3aa",
   "provenance": "original",
-  "pdf": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/original.pdf",
+  "pdf": "pdfs/2026-02-03-tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native-cloud-native-days-france-2026.pdf",
   "slides": [
     {
       "id": "haaPzo",
@@ -308,7 +308,7 @@
       "bytes": 118375
     },
     {
-      "path": "decks/dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f/original.pdf",
+      "path": "pdfs/2026-02-03-tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native-cloud-native-days-france-2026.pdf",
       "sha256": "9d608ed6da352229287b3a8d94e4e68b081b0ad3c79d2ada567cdc2087d0a3aa",
       "bytes": 1090109
     }

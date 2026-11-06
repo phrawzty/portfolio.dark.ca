@@ -2,7 +2,7 @@
   "id": "86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e",
   "source_sha256": "a5f9fcd89407f4c83ed67367ec1b185a8ef0b203859af000a09ee9b96d097778",
   "provenance": "reconstructed",
-  "pdf": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/reconstructed.pdf",
+  "pdf": "pdfs/2022-01-27-real-time-container-monitoring-best-practices-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "5FTcJF",
@@ -518,7 +518,7 @@
       "bytes": 105613
     },
     {
-      "path": "decks/86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e/reconstructed.pdf",
+      "path": "pdfs/2022-01-27-real-time-container-monitoring-best-practices-devops-com-webinar.pdf",
       "sha256": "a5f9fcd89407f4c83ed67367ec1b185a8ef0b203859af000a09ee9b96d097778",
       "bytes": 6262423
     }

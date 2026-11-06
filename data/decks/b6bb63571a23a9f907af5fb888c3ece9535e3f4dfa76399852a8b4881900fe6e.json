@@ -2,7 +2,7 @@
   "id": "b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e",
   "source_sha256": "51f85915be683a7f38a7ce5d2c8560e3e0171d4e7eeca6e44cc6580eec70a0fb",
   "provenance": "reconstructed",
-  "pdf": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/reconstructed.pdf",
+  "pdf": "pdfs/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
   "slides": [
     {
       "id": "gd2ddS",
@@ -878,7 +878,7 @@
       "bytes": 151433
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/reconstructed.pdf",
+      "path": "pdfs/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
       "sha256": "51f85915be683a7f38a7ce5d2c8560e3e0171d4e7eeca6e44cc6580eec70a0fb",
       "bytes": 10819480
     }

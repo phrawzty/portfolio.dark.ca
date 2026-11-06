@@ -2,7 +2,7 @@
   "id": "94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46",
   "source_sha256": "5eb3be89fe0cd52f35dcd9044be6f3234fca9ad6ffdefcbf76ff74f3f30de113",
   "provenance": "original",
-  "pdf": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/original.pdf",
+  "pdf": "pdfs/2026-02-27-building-on-quicksand-dependency-security-foundations-securi-tay-2026.pdf",
   "slides": [
     {
       "id": "3x2VXs",
@@ -353,7 +353,7 @@
       "bytes": 235451
     },
     {
-      "path": "decks/94e92160dce687662ffdff122dbbf88bb310c58ecd87a249165787ab997bfa46/original.pdf",
+      "path": "pdfs/2026-02-27-building-on-quicksand-dependency-security-foundations-securi-tay-2026.pdf",
       "sha256": "5eb3be89fe0cd52f35dcd9044be6f3234fca9ad6ffdefcbf76ff74f3f30de113",
       "bytes": 904647
     }

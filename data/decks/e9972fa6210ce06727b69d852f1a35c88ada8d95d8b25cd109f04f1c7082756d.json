@@ -2,7 +2,7 @@
   "id": "e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d",
   "source_sha256": "f335a9b20fd0d09a9a7d2512b5ddd31b9155086ec5efeca5947674f385f5d026",
   "provenance": "reconstructed",
-  "pdf": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/reconstructed.pdf",
+  "pdf": "pdfs/2021-06-02-facts-about-real-world-container-use-paris-container-day-2021.pdf",
   "slides": [
     {
       "id": "ol9Jbp",
@@ -503,7 +503,7 @@
       "bytes": 187117
     },
     {
-      "path": "decks/e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d/reconstructed.pdf",
+      "path": "pdfs/2021-06-02-facts-about-real-world-container-use-paris-container-day-2021.pdf",
       "sha256": "f335a9b20fd0d09a9a7d2512b5ddd31b9155086ec5efeca5947674f385f5d026",
       "bytes": 7598102
     }

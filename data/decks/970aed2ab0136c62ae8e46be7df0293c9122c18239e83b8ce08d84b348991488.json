@@ -2,7 +2,7 @@
   "id": "970aed2ab0136c62ae8e46be7df0293c9122c18239e83b8ce08d84b348991488",
   "source_sha256": "e24cc0a8b97f5e5fd3bce45804eb50adbc6ec6583ef9a1e6af2778fc24fe3b44",
   "provenance": "original",
-  "pdf": "decks/970aed2ab0136c62ae8e46be7df0293c9122c18239e83b8ce08d84b348991488/original.pdf",
+  "pdf": "pdfs/2018-11-15-les-conteneurs-pieces-et-main-doeuvre-devops-dday.pdf",
   "slides": [
     {
       "id": "eBncQF",
@@ -878,7 +878,7 @@
       "bytes": 151433
     },
     {
-      "path": "decks/970aed2ab0136c62ae8e46be7df0293c9122c18239e83b8ce08d84b348991488/original.pdf",
+      "path": "pdfs/2018-11-15-les-conteneurs-pieces-et-main-doeuvre-devops-dday.pdf",
       "sha256": "e24cc0a8b97f5e5fd3bce45804eb50adbc6ec6583ef9a1e6af2778fc24fe3b44",
       "bytes": 9325010
     }

@@ -2,7 +2,7 @@
   "id": "47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8",
   "source_sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
   "provenance": "original",
-  "pdf": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/original.pdf",
+  "pdf": "pdfs/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
   "slides": [
     {
       "id": "YGfE6h",
@@ -338,7 +338,7 @@
       "bytes": 78168
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/original.pdf",
+      "path": "pdfs/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
       "sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
       "bytes": 7153874
     }

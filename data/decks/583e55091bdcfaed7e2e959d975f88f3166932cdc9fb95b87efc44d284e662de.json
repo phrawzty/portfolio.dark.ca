@@ -2,7 +2,7 @@
   "id": "583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de",
   "source_sha256": "4d1ddad37dc350d1033303ae7495cb3818e175649845d794f61de35b8a6e9e30",
   "provenance": "reconstructed",
-  "pdf": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/reconstructed.pdf",
+  "pdf": "pdfs/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
   "slides": [
     {
       "id": "KYMpOa",
@@ -338,7 +338,7 @@
       "bytes": 168050
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/reconstructed.pdf",
+      "path": "pdfs/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
       "sha256": "4d1ddad37dc350d1033303ae7495cb3818e175649845d794f61de35b8a6e9e30",
       "bytes": 3566497
     }

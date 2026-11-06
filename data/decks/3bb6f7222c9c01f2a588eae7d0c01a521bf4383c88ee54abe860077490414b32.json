@@ -2,7 +2,7 @@
   "id": "3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32",
   "source_sha256": "e5b3ed175e4508bad4f227a994498a9d84a1c320fd07d7693e38bc1a2714f9a3",
   "provenance": "original",
-  "pdf": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/original.pdf",
+  "pdf": "pdfs/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "vUj2FO",
@@ -353,7 +353,7 @@
       "bytes": 47263
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/original.pdf",
+      "path": "pdfs/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
       "sha256": "e5b3ed175e4508bad4f227a994498a9d84a1c320fd07d7693e38bc1a2714f9a3",
       "bytes": 1597229
     }

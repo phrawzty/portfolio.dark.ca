@@ -2,7 +2,7 @@
   "id": "5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0",
   "source_sha256": "a1235105d847f94e0e144f59f91f1ff2cd311a9185ba132a95746c6bd769cf79",
   "provenance": "original",
-  "pdf": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/original.pdf",
+  "pdf": "pdfs/2021-12-09-cloud-cost-optimisation-shift-left-on-cloud-costs-hashicorp-maximizing-cloud-efficiency-virtual-roadshow.pdf",
   "slides": [
     {
       "id": "wIwj4S",
@@ -233,7 +233,7 @@
       "bytes": 200679
     },
     {
-      "path": "decks/5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0/original.pdf",
+      "path": "pdfs/2021-12-09-cloud-cost-optimisation-shift-left-on-cloud-costs-hashicorp-maximizing-cloud-efficiency-virtual-roadshow.pdf",
       "sha256": "a1235105d847f94e0e144f59f91f1ff2cd311a9185ba132a95746c6bd769cf79",
       "bytes": 2864600
     }

@@ -2,7 +2,7 @@
   "id": "5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64",
   "source_sha256": "5239a2e43bcf3ff541b4b81043d9ff637f7a214e06fc2253980f5d295821e32f",
   "provenance": "original",
-  "pdf": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/original.pdf",
+  "pdf": "pdfs/2026-04-01-aws-datadog-securiser-langle-mort-de-votre-pipeline-aws-summit-paris-2026.pdf",
   "slides": [
     {
       "id": "4dZBJZ",
@@ -308,7 +308,7 @@
       "bytes": 141479
     },
     {
-      "path": "decks/5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64/original.pdf",
+      "path": "pdfs/2026-04-01-aws-datadog-securiser-langle-mort-de-votre-pipeline-aws-summit-paris-2026.pdf",
       "sha256": "5239a2e43bcf3ff541b4b81043d9ff637f7a214e06fc2253980f5d295821e32f",
       "bytes": 993431
     }

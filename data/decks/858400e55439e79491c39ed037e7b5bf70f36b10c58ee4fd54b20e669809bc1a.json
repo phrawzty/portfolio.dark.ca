@@ -2,7 +2,7 @@
   "id": "858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a",
   "source_sha256": "dd094e5498163caceee9c703dae74436eb729700c8b1724d3f82886d511bdeb4",
   "provenance": "original",
-  "pdf": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/original.pdf",
+  "pdf": "pdfs/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
   "slides": [
     {
       "id": "Iyo1hf",
@@ -488,7 +488,7 @@
       "bytes": 45862
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/original.pdf",
+      "path": "pdfs/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
       "sha256": "dd094e5498163caceee9c703dae74436eb729700c8b1724d3f82886d511bdeb4",
       "bytes": 4395992
     }

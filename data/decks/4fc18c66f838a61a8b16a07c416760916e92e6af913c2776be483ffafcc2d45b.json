@@ -2,7 +2,7 @@
   "id": "4fc18c66f838a61a8b16a07c416760916e92e6af913c2776be483ffafcc2d45b",
   "source_sha256": "81f2440af92cb3fadf3ade74ae72ccf76a2635b3d01a435b1eaac40139fb68fb",
   "provenance": "reconstructed",
-  "pdf": "decks/4fc18c66f838a61a8b16a07c416760916e92e6af913c2776be483ffafcc2d45b/reconstructed.pdf",
+  "pdf": "pdfs/2019-05-17-quickwhat-time-is-it-devopsdays-kiev.pdf",
   "slides": [
     {
       "id": "Tq02Iv",
@@ -308,7 +308,7 @@
       "bytes": 328497
     },
     {
-      "path": "decks/4fc18c66f838a61a8b16a07c416760916e92e6af913c2776be483ffafcc2d45b/reconstructed.pdf",
+      "path": "pdfs/2019-05-17-quickwhat-time-is-it-devopsdays-kiev.pdf",
       "sha256": "81f2440af92cb3fadf3ade74ae72ccf76a2635b3d01a435b1eaac40139fb68fb",
       "bytes": 4721563
     }

@@ -2,7 +2,7 @@
   "id": "f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e",
   "source_sha256": "9884de35e4ea6290b9b22784c1ec24d41594b4043d680c07ec517b8b164bc36a",
   "provenance": "original",
-  "pdf": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/original.pdf",
+  "pdf": "pdfs/2021-01-21-when-geography-and-the-cloud-collide-hashicorp-cloud-operating-model-virtual-day.pdf",
   "slides": [
     {
       "id": "Ajp1yU",
@@ -278,7 +278,7 @@
       "bytes": 231974
     },
     {
-      "path": "decks/f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e/original.pdf",
+      "path": "pdfs/2021-01-21-when-geography-and-the-cloud-collide-hashicorp-cloud-operating-model-virtual-day.pdf",
       "sha256": "9884de35e4ea6290b9b22784c1ec24d41594b4043d680c07ec517b8b164bc36a",
       "bytes": 2967061
     }

@@ -2,7 +2,7 @@
   "id": "3d613c94f58decde7f7a56f95c1c956a54b286fcd5eb89fa3dbc912e0f3a1cd4",
   "source_sha256": "5ae78651a1dc9f1f1032c8ef47291c7d0afd8f8932bc6e659eca5e4895bae9fe",
   "provenance": "reconstructed",
-  "pdf": "decks/3d613c94f58decde7f7a56f95c1c956a54b286fcd5eb89fa3dbc912e0f3a1cd4/reconstructed.pdf",
+  "pdf": "pdfs/2019-05-14-quickwhat-time-is-it-devopsdays-zurich.pdf",
   "slides": [
     {
       "id": "aFBPWe",
@@ -308,7 +308,7 @@
       "bytes": 328497
     },
     {
-      "path": "decks/3d613c94f58decde7f7a56f95c1c956a54b286fcd5eb89fa3dbc912e0f3a1cd4/reconstructed.pdf",
+      "path": "pdfs/2019-05-14-quickwhat-time-is-it-devopsdays-zurich.pdf",
       "sha256": "5ae78651a1dc9f1f1032c8ef47291c7d0afd8f8932bc6e659eca5e4895bae9fe",
       "bytes": 4721563
     }

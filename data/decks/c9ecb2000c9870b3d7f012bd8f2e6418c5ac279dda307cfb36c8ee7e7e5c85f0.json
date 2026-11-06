@@ -2,7 +2,7 @@
   "id": "c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0",
   "source_sha256": "68dcd0a7b4e052a6de62d4da66a3ccf59d0d3483a9458ee33283d4eaaac9bccf",
   "provenance": "original",
-  "pdf": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/original.pdf",
+  "pdf": "pdfs/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
   "slides": [
     {
       "id": "Nl2ta7",
@@ -338,7 +338,7 @@
       "bytes": 158088
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/original.pdf",
+      "path": "pdfs/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
       "sha256": "68dcd0a7b4e052a6de62d4da66a3ccf59d0d3483a9458ee33283d4eaaac9bccf",
       "bytes": 3323527
     }

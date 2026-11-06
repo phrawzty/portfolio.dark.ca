@@ -2,7 +2,7 @@
   "id": "7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a",
   "source_sha256": "6c0b72165f29cbc0c52046ae36dcb6a2726de5dc13948a5e45876bc8d0dde2f1",
   "provenance": "original",
-  "pdf": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/original.pdf",
+  "pdf": "pdfs/2019-11-05-goodies-ideas-ethics-paris-devrel-salon.pdf",
   "slides": [
     {
       "id": "LHZ5qx",
@@ -128,7 +128,7 @@
       "bytes": 46587
     },
     {
-      "path": "decks/7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a/original.pdf",
+      "path": "pdfs/2019-11-05-goodies-ideas-ethics-paris-devrel-salon.pdf",
       "sha256": "6c0b72165f29cbc0c52046ae36dcb6a2726de5dc13948a5e45876bc8d0dde2f1",
       "bytes": 16979900
     }

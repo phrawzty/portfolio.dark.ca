@@ -2,7 +2,7 @@
   "id": "244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62",
   "source_sha256": "a233d55cfdd53881f383a6a3f8c5caf7ad095b2646571f79cb5ab3098ed550f5",
   "provenance": "original",
-  "pdf": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/original.pdf",
+  "pdf": "pdfs/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
   "slides": [
     {
       "id": "V2NCUq",
@@ -218,7 +218,7 @@
       "bytes": 148218
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/original.pdf",
+      "path": "pdfs/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
       "sha256": "a233d55cfdd53881f383a6a3f8c5caf7ad095b2646571f79cb5ab3098ed550f5",
       "bytes": 549303
     }

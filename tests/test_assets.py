@@ -1,110 +1,96 @@
-"""Exercise public asset restoration, corruption rejection and safe extraction."""
-import contextlib
-from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
-import io
+"""Verify ordinary Git publication, pinned checkouts and portable PDF hosting."""
 import json
 from pathlib import Path
-import tarfile
+import subprocess
 import tempfile
-import threading
 from types import SimpleNamespace
 import unittest
-from unittest.mock import Mock
 
-from portfolio.assets import AssetError, Distribution, digest, download, extract_images, fingerprint
+from portfolio.assets import AssetError, AssetRepository
+
+
+def git(root, *args):
+    return subprocess.check_output(["git", "-C", str(root), *args], stderr=subprocess.PIPE).decode().strip()
 
 
 class AssetTests(unittest.TestCase):
     def setUp(self):
         self.work = tempfile.TemporaryDirectory()
         self.root = Path(self.work.name)
-        self.files = self.root / "files"
-        self.files.mkdir()
         self.source = self.root / "source"
         self.source.mkdir()
-        image = self.source / "slide.webp"
-        image.write_bytes(b"a complete image payload")
-        self.item = {"path": "decks/example/0001.webp", "sha256": digest(image), "bytes": image.stat().st_size}
-        self.archive = self.source / "images.tar"
-        with tarfile.open(self.archive, "w") as archive:
-            archive.add(image, arcname=self.item["path"])
-        class Handler(SimpleHTTPRequestHandler):
-            def __init__(inner, *args, **kwargs):
-                super().__init__(*args, directory=str(self.source), **kwargs)
-            def log_message(*args):
-                pass
-        self.server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
-        self.thread = threading.Thread(target=self.server.serve_forever, daemon=True)
-        self.thread.start()
-        self.record = {"name": "images.tar", "url": f"http://127.0.0.1:{self.server.server_port}/images.tar",
-                       "bytes": self.archive.stat().st_size, "sha256": digest(self.archive)}
+        git(self.source, "init", "-b", "main")
+        git(self.source, "config", "user.name", "Asset test")
+        git(self.source, "config", "user.email", "assets@example.invalid")
+        (self.source / "files/pdfs").mkdir(parents=True)
+        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"preserved pdf bytes")
+        git(self.source, "add", "files")
+        git(self.source, "commit", "-m", "Original assets")
+        self.revision = git(self.source, "rev-parse", "HEAD")
+        self.site = self.root / "site"
+        (self.site / "data").mkdir(parents=True)
+        (self.site / "data/assets-lock.json").write_text(json.dumps({"revision": self.revision}))
+        self.bundle = {"files": [{"path": "pdfs/a-readable-talk.pdf"}]}
+        self.checked = []
+        self.project = SimpleNamespace(root=self.site, asset_dir=self.root / "clone/files",
+            settings={"assets": {"repository": str(self.source), "public_base_url": "https://mirror.example/{revision}/files"}},
+            bundles=lambda include_drafts: [self.bundle],
+            verify_assets=lambda bundle, **kwargs: self.checked.append((bundle, kwargs)))
 
     def tearDown(self):
-        self.server.shutdown()
-        self.server.server_close()
-        self.thread.join()
         self.work.cleanup()
 
-    def test_complete_download_and_file_verification(self):
-        target = self.root / "download.tar"
-        download(self.record, target)
-        extract_images(target, self.files, [self.item])
-        self.assertEqual(digest(self.files / self.item["path"]), self.item["sha256"])
+    def test_fresh_clone_contains_real_pdfs_without_releases_or_lfs(self):
+        assets = AssetRepository(self.project)
+        assets.fetch()
+        path = self.project.asset_dir / "pdfs/a-readable-talk.pdf"
+        self.assertEqual(path.read_bytes(), b"preserved pdf bytes")
+        self.assertEqual(git(assets.checkout, "rev-parse", "HEAD"), self.revision)
+        self.assertEqual(self.checked[0][1], {"production": True})
+        assets.verify_committed(self.bundle)
 
-    def test_corrupt_download_leaves_existing_file_intact(self):
-        target = self.root / "download.tar"
-        target.write_bytes(b"existing")
-        with self.assertRaisesRegex(AssetError, "checksum"):
-            download({**self.record, "sha256": "0" * 64}, target)
-        self.assertEqual(target.read_bytes(), b"existing")
-        self.assertFalse(target.with_suffix(".tar.part").exists())
+    def test_changed_or_uncommitted_bytes_are_rejected(self):
+        self.project.asset_dir = self.source / "files"
+        assets = AssetRepository(self.project)
+        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"modified")
+        with self.assertRaisesRegex(AssetError, "not in the recorded assets commit"):
+            assets.verify_committed(self.bundle)
 
-    def test_truncated_response_is_rejected(self):
-        with self.assertRaisesRegex(AssetError, "checksum"):
-            download({**self.record, "bytes": self.record["bytes"] + 1}, self.root / "download.tar")
+    def test_existing_checkout_is_never_reset_to_another_revision(self):
+        self.project.asset_dir = self.source / "files"
+        (self.source / "personal-notes.txt").write_text("keep my edits")
+        git(self.source, "add", "personal-notes.txt")
+        git(self.source, "commit", "-m", "Newer assets")
+        head = git(self.source, "rev-parse", "HEAD")
+        with self.assertRaisesRegex(AssetError, "Local changes were not touched"):
+            AssetRepository(self.project).fetch()
+        self.assertEqual(git(self.source, "rev-parse", "HEAD"), head)
+        self.assertEqual((self.source / "personal-notes.txt").read_text(), "keep my edits")
 
-    def test_undeclared_and_traversal_entries_are_rejected(self):
-        with tarfile.open(self.archive, "w") as archive:
-            info = tarfile.TarInfo("../escape")
-            info.size = 4
-            archive.addfile(info, io.BytesIO(b"test"))
-        with self.assertRaises(AssetError):
-            extract_images(self.archive, self.files, [self.item])
-        self.assertFalse((self.root / "escape").exists())
+    def test_portable_pdf_base_url_and_readable_escaped_filename(self):
+        url = AssetRepository(self.project).pdf_url("pdfs/a readable talk.pdf")
+        self.assertEqual(url, f"https://mirror.example/{self.revision}/files/pdfs/a%20readable%20talk.pdf")
 
-    def test_symlinks_are_rejected(self):
-        with tarfile.open(self.archive, "w") as archive:
-            info = tarfile.TarInfo(self.item["path"])
-            info.type, info.linkname = tarfile.SYMTYPE, "/etc/passwd"
-            archive.addfile(info)
-        with self.assertRaisesRegex(AssetError, "Unsafe"):
-            extract_images(self.archive, self.files, [self.item])
+    def test_plain_git_publish_pushes_only_public_files_then_records_commit(self):
+        remote = self.root / "remote.git"
+        subprocess.run(["git", "clone", "--bare", str(self.source), str(remote)], check=True, capture_output=True)
+        git(self.source, "remote", "add", "origin", str(remote))
+        git(self.source, "push", "-u", "origin", "main")
+        self.project.asset_dir = self.source / "files"
+        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"new public version")
+        (self.source / "private-draft.txt").write_text("must remain untracked")
+        assets = AssetRepository(self.project)
+        assets.publish()
+        revision = json.loads((self.site / "data/assets-lock.json").read_text())["revision"]
+        self.assertNotEqual(revision, self.revision)
+        self.assertEqual(git(remote, "rev-parse", "main"), revision)
+        self.assertNotIn("private-draft.txt", git(self.source, "ls-tree", "-r", "--name-only", "HEAD"))
+        assets.verify_committed(self.bundle)
 
-    def test_fresh_cache_fetch_and_draft_scope(self):
-        bundle = {"id": "example", "files": [self.item]}
-        catalog = {"version": 1, "repository": "phrawzty/assets.dark.ca", "release": "portfolio-assets-v1",
-                   "bundles": {"example": {"fingerprint": fingerprint(bundle), "images": self.record}}}
-        (self.root / "data").mkdir()
-        (self.root / "data/asset-releases.json").write_text(json.dumps(catalog))
-        scopes = []
-        project = SimpleNamespace(root=self.root, asset_dir=self.files, settings={},
-                                  bundles=lambda include_drafts: scopes.append(include_drafts) or [bundle])
-        with contextlib.redirect_stdout(io.StringIO()):
-            Distribution(project).fetch(production=True)
-        self.assertEqual(scopes, [False])
-        self.assertEqual(digest(self.files / self.item["path"]), self.item["sha256"])
-        # A verified cache works with no network or release available.
-        self.archive.unlink()
-        with contextlib.redirect_stdout(io.StringIO()):
-            Distribution(project).fetch()
-
-    def test_unpublished_bundle_has_actionable_error(self):
-        project = SimpleNamespace(root=self.root, settings={})
-        with self.assertRaisesRegex(AssetError, "portfolio assets publish"):
-            Distribution(project).record({"id": "new", "files": [self.item]})
-
-    def test_release_inventory_includes_every_api_page(self):
-        distribution = Distribution(SimpleNamespace(root=self.root, settings={}))
-        distribution.gh = Mock(side_effect=[{"id": 123}, [[{"name": "first"}], [{"name": "last"}]]])
-        self.assertEqual(set(distribution.release_assets()), {"first", "last"})
-        self.assertIn("--paginate", distribution.gh.call_args.args)
+    def test_publish_does_not_commit_unrelated_staged_changes(self):
+        self.project.asset_dir = self.source / "files"
+        (self.source / "notes.txt").write_text("not part of this upload")
+        git(self.source, "add", "notes.txt")
+        with self.assertRaisesRegex(AssetError, "other staged changes"):
+            AssetRepository(self.project).publish()
+        self.assertEqual(git(self.source, "rev-parse", "HEAD"), self.revision)

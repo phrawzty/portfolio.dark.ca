@@ -2,7 +2,7 @@
   "id": "f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209",
   "source_sha256": "9eac4f06b9d35e6303c67fdaaea281491365cd169411ac66dc26174f6aa958db",
   "provenance": "original",
-  "pdf": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/original.pdf",
+  "pdf": "pdfs/2020-04-17-better-reliability-through-slos-fique-em-casa-conf.pdf",
   "slides": [
     {
       "id": "hDXmM8",
@@ -638,7 +638,7 @@
       "bytes": 52730
     },
     {
-      "path": "decks/f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209/original.pdf",
+      "path": "pdfs/2020-04-17-better-reliability-through-slos-fique-em-casa-conf.pdf",
       "sha256": "9eac4f06b9d35e6303c67fdaaea281491365cd169411ac66dc26174f6aa958db",
       "bytes": 745964
     }

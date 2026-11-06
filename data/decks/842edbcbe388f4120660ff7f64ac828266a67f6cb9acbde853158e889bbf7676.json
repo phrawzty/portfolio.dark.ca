@@ -2,7 +2,7 @@
   "id": "842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676",
   "source_sha256": "a34333c1875d91e0395a8ccc739cb3461e4110df5d4c6fea731f5b2f93f2e7c9",
   "provenance": "original",
-  "pdf": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/original.pdf",
+  "pdf": "pdfs/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
   "slides": [
     {
       "id": "R01Grd",
@@ -308,7 +308,7 @@
       "bytes": 140823
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/original.pdf",
+      "path": "pdfs/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
       "sha256": "a34333c1875d91e0395a8ccc739cb3461e4110df5d4c6fea731f5b2f93f2e7c9",
       "bytes": 992247
     }

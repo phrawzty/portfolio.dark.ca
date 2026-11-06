@@ -2,7 +2,7 @@
   "id": "a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb",
   "source_sha256": "ca032f9441e8fc68ed3486324ae70f62fc78b8372ee82649226bdcd4e2a2d692",
   "provenance": "original",
-  "pdf": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/original.pdf",
+  "pdf": "pdfs/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
   "slides": [
     {
       "id": "NamDwX",
@@ -473,7 +473,7 @@
       "bytes": 186316
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/original.pdf",
+      "path": "pdfs/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
       "sha256": "ca032f9441e8fc68ed3486324ae70f62fc78b8372ee82649226bdcd4e2a2d692",
       "bytes": 786934
     }

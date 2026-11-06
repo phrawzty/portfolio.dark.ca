@@ -2,7 +2,7 @@
   "id": "9466c811c69a6d67da21805adf37f86be10687caa5da70eccc911216be17c88e",
   "source_sha256": "48b3f1dacdcf9e8600f1ab44b7a0789a9a64cf599f234c00087deb67ef8b83e1",
   "provenance": "original",
-  "pdf": "decks/9466c811c69a6d67da21805adf37f86be10687caa5da70eccc911216be17c88e/original.pdf",
+  "pdf": "pdfs/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
   "slides": [
     {
       "id": "HpLWsB",
@@ -308,7 +308,7 @@
       "bytes": 133703
     },
     {
-      "path": "decks/9466c811c69a6d67da21805adf37f86be10687caa5da70eccc911216be17c88e/original.pdf",
+      "path": "pdfs/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
       "sha256": "48b3f1dacdcf9e8600f1ab44b7a0789a9a64cf599f234c00087deb67ef8b83e1",
       "bytes": 10427220
     }

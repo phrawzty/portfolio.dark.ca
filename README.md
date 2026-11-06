@@ -9,7 +9,7 @@ Install [uv](https://docs.astral.sh/uv/), Zola **0.23.6**, and Poppler. On macOS
 ```sh
 uv sync --frozen
 uv run portfolio doctor
-uv run portfolio assets fetch --pdfs
+uv run portfolio assets fetch
 uv run portfolio
 ```
 
@@ -41,7 +41,7 @@ git commit
 git push
 ```
 
-`publish` lets you choose a draft to include in production builds; it does not deploy. The menu calls this **Mark a draft ready for publication**. Choose **Upload public slides to GitHub** (menu option 10) before committing new slides. This uploads only published talks, verifies the remote checksums, and records the release links in `data/asset-releases.json`. It requires GitHub CLI (`gh`) authenticated with write access to `phrawzty/assets.dark.ca`. Text-only edits and new talks without slides need no asset upload.
+`publish` lets you choose a draft to include in production builds; it does not deploy. The menu calls this **Mark a draft ready for publication**. Choose **Commit and push public assets** (menu option 10) before committing new slides. This uses ordinary Git to commit the files referenced by public talks in the assets checkout, pushes them to its configured remote, and records that commit in `data/assets-lock.json`. Draft-only files and unrelated staged changes are not included. Text-only edits and talks without slides need no assets commit.
 
 ## Repeat a talk or add a recording
 
@@ -91,15 +91,25 @@ Unknown locations remain readable in the archive and simply have no pin until sa
 
 ## Assets and Cloudflare
 
-The website, slide images and headshots are served by Cloudflare Pages. Full-quality PDFs are downloaded directly from public GitHub Releases in [phrawzty/assets.dark.ca](https://github.com/phrawzty/assets.dark.ca). No object-storage account, Git LFS, or paid hosting is involved.
+The website, slide images and headshots are served by Cloudflare Pages. All website PDFs and images are **ordinary Git files** in the companion `assets.dark.ca` repository. A normal clone contains the actual bytes; no Releases, Git LFS, GitHub CLI, or separate download service is needed to restore them. Either repository can be cloned or mirrored to any Git host.
 
-The companion assets checkout holds `files/` (the local asset cache), `preservation/` (the original public migration material), and small committed catalogs. These binary directories are ignored by Git. Site content, processed deck metadata, transcripts, editable notes and `data/asset-releases.json` belong in this repository.
+`../assets.dark.ca/files/pdfs/` contains readable names such as `2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf`. Byte-identical PDFs are shared by appearances. Adding a revised PDF for the same talk/event keeps the earlier file and adds `-v2`, `-v3`, etc. Internal slide-image directories retain their checksums so revisions remain immutable. Descriptions, transcripts and editable slide notes belong in this portfolio repository.
 
-`uv run portfolio assets publish` prepares immutable content-addressed slide archives and PDF attachments, uploads missing ones, verifies GitHub's SHA-256 digests (or downloads and verifies the bytes), then records their URLs and checksums. Existing attachments are never replaced. Drafts are excluded by default; `--include-drafts` explicitly publishes their assets too. The catalog is mirrored to the companion checkout's `catalog.json`; commit that mirror there when it changes. The website build uses this repository's manifest, so the two Git commits do not need to happen simultaneously.
+The daily workflow is:
 
-`uv run portfolio assets fetch --pdfs` restores missing local images and PDFs. Cached files and all downloads are checksum-verified. A fresh Cloudflare build runs `assets fetch --production`, fetching only images needed for public talks; it needs no GitHub credentials. It does not download PDFs or process slides. `portfolio build` itself runs offline and refuses unpublished PDF links, missing or modified images, and images over Pages' 25 MiB limit. Local previews include PDFs; production output excludes every PDF and links its verified Release URL instead. This covers the four originals larger than 25 MiB without reducing their quality.
+1. Add or edit talks with the menu or Markdown.
+2. If adding slides, mark the appearance ready, then choose **Commit and push public assets** (or run `uv run portfolio assets publish`). It commits only referenced public files with regular Git and pushes using the assets checkout's configured remote.
+3. Commit the portfolio content, metadata and `data/assets-lock.json`, then push this repository.
 
-If you keep the assets checkout elsewhere, change `[assets].directory` in `portfolio.toml`. The default is `../assets.dark.ca/files`. Staging and preview use hard links where available to avoid duplicate copies.
+You can instead commit and push assets manually, then run `portfolio assets publish` to record the current assets commit. Unrelated staged changes must be committed or unstaged first. No assets commit is needed for a text edit.
+
+`data/assets-lock.json` pins the assets commit used by a portfolio revision. `portfolio assets fetch` clones that commit if the companion checkout is missing and verifies its bytes. It refuses to reset an existing checkout at another revision; fetch/switch it yourself, or publish the newer assets. Your normal author checkout can stay on `main`. Cloudflare uses a shallow checkout of the pinned revision; local clones can retain the full history.
+
+`portfolio build` works offline, checks every required file against its SHA-256 and its Git blob in the pinned commit, and stages only images for Cloudflare. Local previews also serve the PDFs. Production PDF links use `[assets].public_base_url` from `portfolio.toml`; `{revision}` is expanded to the recorded assets commit. The initial URL uses GitHub's raw-file host. To serve PDFs from your own HTTP mirror, point that setting at the directory serving `files/` with the same relative paths. A plain Git clone contains everything needed for that mirror.
+
+Four original PDFs exceed Cloudflare Pages' 25 MiB per-file limit, so production PDF downloads stay outside Pages; no PDF is recompressed. All current files fit GitHub's ordinary-Git file limit. The large originals are tracked directly, as requested.
+
+`[assets].repository` configures the Git URL used on fresh builds, and `[assets].directory` defaults to `../assets.dark.ca/files`. Existing checkouts push using their normal Git remote configuration. Staging and preview use hard links where available to avoid duplicate copies.
 
 Cloudflare Pages configuration:
 
@@ -127,5 +137,7 @@ The menu's **Check the portfolio** action and `portfolio check` show each local 
 The one-time importer is `scripts/import_notist.py`; it consumes the local recovery archive. It is never part of daily authoring or a Cloudflare build. The imported portfolio contains 79 appearances, 62 talk groupings, 67 displayed decks, 38 recording links, 53 resources, and 55 feedback entries. Every imported appearance remains independently editable.
 
 `../assets.dark.ca/preservation/` contains the original `archive/`, `audit/`, `output/` and PDF review `tmp/` directories. They are excluded from Git and deployment. A checksum-verified snapshot is stored in the companion repository's `notist-migration-2026-11-05` Release. Its committed `preservation-manifest.json` lists every file and the archive checksum; see that repository's README for restoration. Keep the local copy too. Third-party recordings and social-media image bodies have not been mirrored.
+
+Historical website assets also remain in the old `portfolio-assets-v1` Release, but the build and authoring tools no longer use it. Its `images-*.tar` files were bundles of slide images/headshots for the previous build-download workflow.
 
 The one-time migration scripts resolve preservation paths in the sibling assets checkout. They are retained for recovery, not invoked during normal authoring or builds.

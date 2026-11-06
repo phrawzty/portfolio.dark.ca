@@ -2,7 +2,7 @@
   "id": "884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4",
   "source_sha256": "d8b7d2bb70970575d606716526f775e983848787f11eee54d667ad95fe655f6f",
   "provenance": "original",
-  "pdf": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/original.pdf",
+  "pdf": "pdfs/2020-06-30-modern-frameworks-for-modern-alerting-pagerduty-emea-summit-2020.pdf",
   "slides": [
     {
       "id": "9GYvPZ",
@@ -803,7 +803,7 @@
       "bytes": 240716
     },
     {
-      "path": "decks/884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4/original.pdf",
+      "path": "pdfs/2020-06-30-modern-frameworks-for-modern-alerting-pagerduty-emea-summit-2020.pdf",
       "sha256": "d8b7d2bb70970575d606716526f775e983848787f11eee54d667ad95fe655f6f",
       "bytes": 1775028
     }

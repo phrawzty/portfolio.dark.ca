@@ -2,7 +2,7 @@
   "id": "d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f",
   "source_sha256": "dde9887d70e53a462c6e4cf043f5cfa3f2782963e07a26d0c34188bb3629eddf",
   "provenance": "original",
-  "pdf": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/original.pdf",
+  "pdf": "pdfs/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
   "slides": [
     {
       "id": "gyj2kz",
@@ -593,7 +593,7 @@
       "bytes": 131001
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/original.pdf",
+      "path": "pdfs/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
       "sha256": "dde9887d70e53a462c6e4cf043f5cfa3f2782963e07a26d0c34188bb3629eddf",
       "bytes": 53640706
     }

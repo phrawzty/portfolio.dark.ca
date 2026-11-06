@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from portfolio.cli import Portfolio, PortfolioError, UserCancelled, main, read_page, write_page, sha256
-from portfolio.assets import fingerprint
+import subprocess
 
 SOURCE = Path(__file__).resolve().parents[1]
 
@@ -21,7 +21,7 @@ def scaffold(root):
     for name in ("zola.toml", "portfolio.toml"):
         shutil.copy2(SOURCE / name, root / name)
     config = root / "portfolio.toml"
-    config.write_text(config.read_text().replace('../assets.dark.ca/files', 'assets'))
+    config.write_text(config.read_text().replace('../assets.dark.ca/files', 'assets-repo/files'))
     # Authoring tests must also work on a fresh checkout with no asset cache.
     (root / "data/site-assets.json").unlink(missing_ok=True)
     (root / "content/bio.md").write_text('+++\ntitle = "About"\n+++\n\nWorkflow test fixture.\n')
@@ -44,13 +44,13 @@ class WorkflowTests(unittest.TestCase):
                     "--date", "2020-01-01", "--location", "Paris, France", "--timezone", "Europe/Paris")
         cls.v1 = project.attach_pdf("seed", SOURCE / "tests/fixtures/deck-v1.pdf")
         cls.v2 = project.attach_pdf("seed", SOURCE / "tests/fixtures/deck-v2.pdf")
-        catalog = {"version": 1, "repository": "phrawzty/assets.dark.ca", "release": "portfolio-assets-v1", "bundles": {}}
-        for version in (cls.v1, cls.v2):
-            deck = project.deck(version)
-            item = next(item for item in deck["files"] if item["path"] == deck["pdf"])
-            catalog["bundles"][version] = {"fingerprint": fingerprint(deck), "pdf": {**item,
-                "url": f"https://github.com/phrawzty/assets.dark.ca/releases/download/portfolio-assets-v1/{version}.pdf"}}
-        (cls.seed / "data/asset-releases.json").write_text(json.dumps(catalog))
+        checkout = project.asset_dir.parent
+        for command in (["init", "-b", "main"], ["config", "user.name", "Workflow test"],
+                        ["config", "user.email", "workflow@example.invalid"], ["add", "files"],
+                        ["commit", "-qm", "Fixture assets"]):
+            subprocess.run(["git", "-C", str(checkout), *command], check=True, capture_output=True)
+        revision = subprocess.check_output(["git", "-C", str(checkout), "rev-parse", "HEAD"]).decode().strip()
+        (cls.seed / "data/assets-lock.json").write_text(json.dumps({"revision": revision}))
 
     @classmethod
     def tearDownClass(cls):
@@ -67,9 +67,9 @@ class WorkflowTests(unittest.TestCase):
         self.temporary = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary.name)
         scaffold(self.root)
-        shutil.copytree(self.seed / "assets", self.root / "assets", dirs_exist_ok=True)
+        shutil.copytree(self.seed / "assets-repo", self.root / "assets-repo", dirs_exist_ok=True)
         shutil.copytree(self.seed / "data/decks", self.root / "data/decks", dirs_exist_ok=True)
-        shutil.copy2(self.seed / "data/asset-releases.json", self.root / "data/asset-releases.json")
+        shutil.copy2(self.seed / "data/assets-lock.json", self.root / "data/assets-lock.json")
         self.project = Portfolio(self.root)
 
     def tearDown(self):
@@ -94,11 +94,11 @@ class WorkflowTests(unittest.TestCase):
         self.call("new", "--from", "first", "--reuse-slides", "--id", "repeat", "--event", "A different event", "--date", "2030-06-01",
                   "--location", "Paris, France", "--timezone", "Europe/Paris", "--publish")
         self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["deck"], self.v1)
-        original_bytes = (self.root / "assets" / self.project.deck(self.v1)["pdf"]).read_bytes()
+        original_bytes = (self.project.asset_dir / self.project.deck(self.v1)["pdf"]).read_bytes()
         self.call("slides", "repeat", str(SOURCE / "tests/fixtures/deck-v2.pdf"))
         self.assertEqual(read_page(self.root / "content/appearances/first.md")[0]["extra"]["deck"], self.v1)
         self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["deck"], self.v2)
-        self.assertEqual(original_bytes, (self.root / "assets" / self.project.deck(self.v1)["pdf"]).read_bytes())
+        self.assertEqual(original_bytes, (self.project.asset_dir / self.project.deck(self.v1)["pdf"]).read_bytes())
         # Recording and feedback are event-specific.
         self.call("recording", "first", "https://www.youtube.com/watch?v=0s8ATQmhQPE")
         self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["recording_url"], "")
@@ -128,7 +128,7 @@ class WorkflowTests(unittest.TestCase):
         self.create()
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         deck = self.project.deck(self.v1)
-        (self.root / "assets" / deck["slides"][0]["image"]).write_bytes(b"changed")
+        (self.project.asset_dir / deck["slides"][0]["image"]).write_bytes(b"changed")
         with self.assertRaisesRegex(PortfolioError, "Immutable asset was modified"):
             self.project.check()
 
@@ -156,13 +156,28 @@ class WorkflowTests(unittest.TestCase):
         self.create(publish=True)
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         deck = self.project.deck(self.v1)
-        (self.root / "assets" / deck["pdf"]).unlink()
-        # A production build uses the verified release PDF; local previews need its bytes.
-        self.project.build()
-        self.assertIn("https://github.com/phrawzty/assets.dark.ca/releases/download/", (self.root / "public/first/index.html").read_text())
-        self.assertFalse(list((self.root / "public/assets").rglob("*.pdf")))
+        (self.project.asset_dir / deck["pdf"]).unlink()
+        with self.assertRaisesRegex(PortfolioError, "Missing local asset"):
+            self.project.build()
         with self.assertRaisesRegex(PortfolioError, "Missing local asset"):
             self.project.build(local=True)
+
+    def test_production_downloads_use_readable_names_and_pinned_git_urls(self):
+        self.create(publish=True)
+        self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
+        self.project.build()
+        html = (self.root / "public/first/index.html").read_text()
+        self.assertIn("https://raw.githubusercontent.com/phrawzty/assets.dark.ca/", html)
+        self.assertIn("/files/pdfs/2020-01-01-workflow-example-example-event.pdf", html)
+        self.assertNotIn("releases/download", html)
+        self.assertFalse(list((self.root / "public/assets").rglob("*.pdf")))
+
+    def test_revised_pdf_gets_readable_version_suffix(self):
+        first = self.project.deck(self.v1)["pdf"]
+        second = self.project.deck(self.v2)["pdf"]
+        self.assertTrue(first.endswith("example-event.pdf"))
+        self.assertTrue(second.endswith("example-event-v2.pdf"))
+        self.assertNotIn(self.v1, first)
 
     def test_production_image_size_limit(self):
         self.create(publish=True)
@@ -312,7 +327,7 @@ class WorkflowTests(unittest.TestCase):
         self.create()
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         deck = self.project.deck(self.v1)
-        (self.root / "assets" / deck["slides"][0]["image"]).unlink()
+        (self.project.asset_dir / deck["slides"][0]["image"]).unlink()
         output, errors = io.StringIO(), io.StringIO()
         with contextlib.redirect_stdout(output), contextlib.redirect_stderr(errors):
             self.assertEqual(main(["--root", str(self.root), "check"]), 1)

@@ -2,7 +2,7 @@
   "id": "b0937b17fa3df07729f84f98c6e4541df418216139f28eeae232faa40bc8ea51",
   "source_sha256": "98ab31a1c8402c882550b12015f82678f1191348a6b3c38ccabd880b49150f15",
   "provenance": "original",
-  "pdf": "decks/b0937b17fa3df07729f84f98c6e4541df418216139f28eeae232faa40bc8ea51/original.pdf",
+  "pdf": "pdfs/2021-06-16-la-demystification-des-pratiques-devops-et-sre-datadog-webinaire-et-degustation.pdf",
   "slides": [
     {
       "id": "8oLXQf",
@@ -353,7 +353,7 @@
       "bytes": 80885
     },
     {
-      "path": "decks/b0937b17fa3df07729f84f98c6e4541df418216139f28eeae232faa40bc8ea51/original.pdf",
+      "path": "pdfs/2021-06-16-la-demystification-des-pratiques-devops-et-sre-datadog-webinaire-et-degustation.pdf",
       "sha256": "98ab31a1c8402c882550b12015f82678f1191348a6b3c38ccabd880b49150f15",
       "bytes": 15686013
     }

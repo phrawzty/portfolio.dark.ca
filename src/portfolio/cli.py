@@ -26,7 +26,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 from PIL import Image
 import tomlkit
 from pypdf import PdfReader
-from portfolio.assets import Distribution
+from portfolio.assets import AssetRepository
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[2]
 IDENTIFIER = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]*$")
@@ -122,7 +122,8 @@ class Portfolio:
         if not (self.root / "zola.toml").is_file():
             raise PortfolioError(f"Not a portfolio checkout: {self.root}")
         self.settings = tomllib.loads((self.root / "portfolio.toml").read_text())
-        self.asset_dir = (self.root / self.settings.get("assets", {}).get("directory", "assets")).resolve()
+        self.asset_dir = (self.root / self.settings.get("assets", {}).get("directory", "../assets.dark.ca/files")).resolve()
+        self.asset_repository = AssetRepository(self)
 
     def appearances(self, include_drafts=True):
         result = []
@@ -276,6 +277,16 @@ class Portfolio:
         print("Created. Edit the Markdown, or run 'portfolio slides' to choose this talk and add a PDF.")
         return ident
 
+    def pdf_path_for(self, meta, checksum):
+        base = f"{str(meta['date'])[:10]}-{slug(meta['title'])[:90]}-{slug(meta['extra']['event'])[:60]}"
+        number = 1
+        while True:
+            relative = "pdfs/" + base + (f"-v{number}" if number > 1 else "") + ".pdf"
+            target = self.asset_dir / relative
+            if not target.exists() or sha256(target) == checksum:
+                return relative
+            number += 1
+
     def attach_pdf(self, ident, source):
         page_path, meta, body = self.appearance(ident)
         source = Path(source).expanduser().resolve()
@@ -329,11 +340,17 @@ class Portfolio:
                 # Recheck the source copy before atomically registering this version.
                 if sha256(copied) != version:
                     raise PortfolioError("Source PDF changed while being processed")
+                pdf_relative = self.pdf_path_for(meta, version)
+                pdf_target = self.asset_dir / pdf_relative
+                pdf_target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(copied, pdf_target)
+                copied.unlink()
                 deck = {"id": version, "source_sha256": version, "source_filename": source.name, "provenance": "original",
-                        "pdf": prefix + "/original.pdf", "slides": slides, "page_count": expected,
+                        "pdf": pdf_relative, "slides": slides, "page_count": expected,
                         "processor": "poppler-1600-webp-lossless-v1", "processing_warnings": (info.stderr + rendered.stderr).strip()}
                 deck["files"] = [{"path": prefix + "/" + file.name, "bytes": file.stat().st_size, "sha256": sha256(file)}
                                  for file in sorted(temporary.iterdir()) if file.is_file()]
+                deck["files"].append({"path": pdf_relative, "bytes": pdf_target.stat().st_size, "sha256": version})
                 shutil.move(str(temporary), destination)
                 json_file(deck_path, deck)
                 print(f"Processed all {expected} pages into deck {version[:12]}")
@@ -437,25 +454,21 @@ class Portfolio:
         print(f"Saved {name}; matching appearances will be mapped automatically.")
 
     def verify_assets(self, deck, production=False):
-        if production:
-            published = Distribution(self).record(deck)
         for item in deck["files"]:
             relative = Path(item["path"])
             if relative.is_absolute() or ".." in relative.parts:
                 raise PortfolioError("Asset path escapes the asset directory")
-            if production and item["path"] == deck.get("pdf"):
-                record = published["pdf"]
-                if record["sha256"] != item["sha256"] or record["bytes"] != item["bytes"]:
-                    raise PortfolioError("Published PDF does not match deck metadata")
-                continue
             path = self.asset_dir / relative
             if path.exists():
                 if path.stat().st_size != item["bytes"] or sha256(path) != item["sha256"]:
                     raise PortfolioError(f"Immutable asset was modified: {relative}")
             else:
-                raise PortfolioError(f"Missing local asset: {relative}. Run 'portfolio assets fetch --pdfs' to restore the local cache.")
-            if production and item["bytes"] > PAGE_LIMIT:
+                raise PortfolioError(f"Missing local asset: {relative}. Restore the assets Git checkout or add the missing file.")
+            if production and item["path"] != deck.get("pdf") and item["bytes"] > PAGE_LIMIT:
                 raise PortfolioError(f"{relative} exceeds Pages' 25 MiB image limit")
+
+        if production:
+            self.asset_repository.verify_committed(deck)
 
     def validate_page(self, path, meta):
         extra = meta.get("extra", {})
@@ -530,7 +543,7 @@ class Portfolio:
                 bundles.append((owner, deck))
             if report:
                 print(f"  OK  Slide references and editable notes ({len(deck_owners)} deck versions)", flush=True)
-                label = "local images and published PDF references" if production else "local asset files (sizes and checksums)"
+                label = "local assets and the pinned Git commit" if production else "local asset files (sizes and checksums)"
                 print(f"  Checking {label}...", flush=True)
             shared = self.root / "data/site-assets.json"
             if shared.exists():
@@ -543,7 +556,7 @@ class Portfolio:
                 for item in bundle["files"]:
                     files[item["path"]] = item
             if report:
-                suffix = "checked: local images verified; PDF references match the release manifest" if production else "match their saved sizes and checksums"
+                suffix = "match their saved checksums and the recorded assets commit" if production else "match their saved sizes and checksums"
                 noun = "asset records" if production else "asset files"
                 print(f"  OK  {len(files):,} {noun} {suffix}", flush=True)
         except (PortfolioError, ValueError, KeyError, OSError) as error:
@@ -577,7 +590,7 @@ class Portfolio:
         for deck in self.bundles(include_drafts=local):
             if deck.get("slides"):
                 display = self.with_notes(deck)
-                display["pdf_url"] = ("/assets/" + deck["pdf"] if local else Distribution(self).record(deck)["pdf"]["url"]) if deck.get("pdf") else ""
+                display["pdf_url"] = ("/assets/" + deck["pdf"] if local else self.asset_repository.pdf_url(deck["pdf"])) if deck.get("pdf") else ""
                 json_file(staging / "data/decks" / (deck["id"] + ".json"), display)
         config = tomlkit.parse((self.root / "zola.toml").read_text())
         config["extra"]["asset_base"] = "/assets"
@@ -794,13 +807,10 @@ def parser():
     preview = commands.add_parser("preview", help="Preview drafts with automatic rebuild and reload")
     preview.add_argument("--port", type=int, default=1112)
     commands.add_parser("doctor", help="Check the required local tools")
-    assets = commands.add_parser("assets", help="Publish assets to GitHub Releases or restore the local cache")
+    assets = commands.add_parser("assets", help="Commit and push assets with Git, or clone the pinned checkout")
     actions = assets.add_subparsers(dest="asset_action", required=True)
-    upload = actions.add_parser("publish", help="Upload public talks' assets and record verified release links")
-    upload.add_argument("--include-drafts", action="store_true", help="Also make draft slides publicly downloadable")
-    fetch = actions.add_parser("fetch", help="Download and verify missing slide images")
-    fetch.add_argument("--production", action="store_true", help="Fetch only published talks")
-    fetch.add_argument("--pdfs", action="store_true", help="Also restore PDFs for local preview and editing")
+    upload = actions.add_parser("publish", help="Commit and push public assets, then record their Git revision")
+    fetch = actions.add_parser("fetch", help="Clone and verify the assets commit required by this portfolio")
     return cli
 
 
@@ -839,7 +849,7 @@ def interactive_menu(project):
               "  7. Preview the site\n"
               "  8. Mark a draft ready for publication\n"
               "  9. Check the portfolio\n"
-              "  10. Upload public slides to GitHub\n"
+              "  10. Commit and push public assets\n"
               "  q. Quit")
         choice = input("Choose an action: ").strip().casefold()
         try:
@@ -864,7 +874,7 @@ def interactive_menu(project):
             elif choice == "9":
                 project.check(report=True)
             elif choice == "10":
-                Distribution(project).publish()
+                project.asset_repository.publish()
             else:
                 print("Choose a number from the menu, or q to quit.")
         except UserCancelled as error:
@@ -914,9 +924,9 @@ def main(argv=None):
             project.build()
         elif args.command == "assets":
             if args.asset_action == "publish":
-                Distribution(project).publish(include_drafts=args.include_drafts)
+                project.asset_repository.publish()
             else:
-                Distribution(project).fetch(production=args.production, pdfs=args.pdfs)
+                project.asset_repository.fetch()
         elif args.command == "preview":
             project.preview(args.port)
         elif args.command == "doctor":

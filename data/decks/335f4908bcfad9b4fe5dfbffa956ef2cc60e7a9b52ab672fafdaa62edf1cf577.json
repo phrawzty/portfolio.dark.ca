@@ -2,7 +2,7 @@
   "id": "335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577",
   "source_sha256": "cf11298f550fb3b466795e0c9efd105674152baee23d6420371f58dab27bf74e",
   "provenance": "original",
-  "pdf": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/original.pdf",
+  "pdf": "pdfs/2018-11-27-building-sre-from-scratch-at-coinbase-during-hypergrowth-aws-re-invent.pdf",
   "slides": [
     {
       "id": "r0AMrh",
@@ -578,7 +578,7 @@
       "bytes": 137448
     },
     {
-      "path": "decks/335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577/original.pdf",
+      "path": "pdfs/2018-11-27-building-sre-from-scratch-at-coinbase-during-hypergrowth-aws-re-invent.pdf",
       "sha256": "cf11298f550fb3b466795e0c9efd105674152baee23d6420371f58dab27bf74e",
       "bytes": 9601135
     }

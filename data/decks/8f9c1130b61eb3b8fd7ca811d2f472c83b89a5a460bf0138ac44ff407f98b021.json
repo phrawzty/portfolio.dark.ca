@@ -2,7 +2,7 @@
   "id": "8f9c1130b61eb3b8fd7ca811d2f472c83b89a5a460bf0138ac44ff407f98b021",
   "source_sha256": "50ffd7f40df29e8da4a85c2df128e76353cd7542573d7482fd7b2278c33125ed",
   "provenance": "original",
-  "pdf": "decks/8f9c1130b61eb3b8fd7ca811d2f472c83b89a5a460bf0138ac44ff407f98b021/original.pdf",
+  "pdf": "pdfs/2020-10-22-did-you-accept-the-risk-dynamic-risk-metrics-in-your-environment-snykcon.pdf",
   "slides": [
     {
       "id": "Tqufhx",
@@ -758,7 +758,7 @@
       "bytes": 339224
     },
     {
-      "path": "decks/8f9c1130b61eb3b8fd7ca811d2f472c83b89a5a460bf0138ac44ff407f98b021/original.pdf",
+      "path": "pdfs/2020-10-22-did-you-accept-the-risk-dynamic-risk-metrics-in-your-environment-snykcon.pdf",
       "sha256": "50ffd7f40df29e8da4a85c2df128e76353cd7542573d7482fd7b2278c33125ed",
       "bytes": 4784944
     }

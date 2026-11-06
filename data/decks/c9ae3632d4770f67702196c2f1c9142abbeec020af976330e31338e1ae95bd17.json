@@ -2,7 +2,7 @@
   "id": "c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17",
   "source_sha256": "fa588cd6e5d427d48050c8c8022eb406c801d939d7a7a172fc245373b4ca4da7",
   "provenance": "original",
-  "pdf": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/original.pdf",
+  "pdf": "pdfs/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
   "slides": [
     {
       "id": "AX25cl",
@@ -788,7 +788,7 @@
       "bytes": 518050
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/original.pdf",
+      "path": "pdfs/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
       "sha256": "fa588cd6e5d427d48050c8c8022eb406c801d939d7a7a172fc245373b4ca4da7",
       "bytes": 3779642
     }

@@ -2,7 +2,7 @@
   "id": "0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793",
   "source_sha256": "3dc0bdc29898f05793cb66028e189b42226b94d2125b414c13558fd81a5d6493",
   "provenance": "original",
-  "pdf": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/original.pdf",
+  "pdf": "pdfs/2022-10-20-what-about-logs-devfest-nantes-2022.pdf",
   "slides": [
     {
       "id": "823NdL",
@@ -518,7 +518,7 @@
       "bytes": 182647
     },
     {
-      "path": "decks/0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793/original.pdf",
+      "path": "pdfs/2022-10-20-what-about-logs-devfest-nantes-2022.pdf",
       "sha256": "3dc0bdc29898f05793cb66028e189b42226b94d2125b414c13558fd81a5d6493",
       "bytes": 11270375
     }

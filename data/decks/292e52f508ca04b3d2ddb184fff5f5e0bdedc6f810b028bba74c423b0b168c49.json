@@ -2,7 +2,7 @@
   "id": "292e52f508ca04b3d2ddb184fff5f5e0bdedc6f810b028bba74c423b0b168c49",
   "source_sha256": "99134a0a52cbdde7cffd9916d28e38820f6bcaa437ba13afe26c1507843879eb",
   "provenance": "original",
-  "pdf": "decks/292e52f508ca04b3d2ddb184fff5f5e0bdedc6f810b028bba74c423b0b168c49/original.pdf",
+  "pdf": "pdfs/2024-05-15-the-open-source-baggage-we-carry-devopsdays-seattle-2024.pdf",
   "slides": [
     {
       "id": "4oiOwx",
@@ -308,7 +308,7 @@
       "bytes": 99795
     },
     {
-      "path": "decks/292e52f508ca04b3d2ddb184fff5f5e0bdedc6f810b028bba74c423b0b168c49/original.pdf",
+      "path": "pdfs/2024-05-15-the-open-source-baggage-we-carry-devopsdays-seattle-2024.pdf",
       "sha256": "99134a0a52cbdde7cffd9916d28e38820f6bcaa437ba13afe26c1507843879eb",
       "bytes": 276547
     }

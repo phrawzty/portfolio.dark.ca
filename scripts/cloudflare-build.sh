@@ -9,5 +9,5 @@ if ! command -v uv >/dev/null 2>&1; then
 else
   PORTFOLIO_UV=uv
 fi
-"$PORTFOLIO_UV" run --frozen portfolio assets fetch --production
+"$PORTFOLIO_UV" run --frozen portfolio assets fetch
 "$PORTFOLIO_UV" run --frozen portfolio build

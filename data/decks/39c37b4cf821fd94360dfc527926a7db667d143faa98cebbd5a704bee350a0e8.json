@@ -2,7 +2,7 @@
   "id": "39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8",
   "source_sha256": "7fc5bca99cb925fa2b9e8d016fe00be5ddad1ae5d38c906fcceb542ea4d143bf",
   "provenance": "original",
-  "pdf": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/original.pdf",
+  "pdf": "pdfs/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
   "slides": [
     {
       "id": "Mu2En6",
@@ -383,7 +383,7 @@
       "bytes": 364740
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/original.pdf",
+      "path": "pdfs/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
       "sha256": "7fc5bca99cb925fa2b9e8d016fe00be5ddad1ae5d38c906fcceb542ea4d143bf",
       "bytes": 55641277
     }

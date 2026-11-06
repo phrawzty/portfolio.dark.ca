@@ -2,7 +2,7 @@
   "id": "4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57",
   "source_sha256": "3029060a2e60ba4d34e746aeffe97aad19c853f796855dee0f457e1013aa6b2b",
   "provenance": "original",
-  "pdf": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/original.pdf",
+  "pdf": "pdfs/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
   "slides": [
     {
       "id": "aFGhOh",
@@ -308,7 +308,7 @@
       "bytes": 464381
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/original.pdf",
+      "path": "pdfs/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
       "sha256": "3029060a2e60ba4d34e746aeffe97aad19c853f796855dee0f457e1013aa6b2b",
       "bytes": 76231756
     }

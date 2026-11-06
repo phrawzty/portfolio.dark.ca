@@ -2,7 +2,7 @@
   "id": "acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913",
   "source_sha256": "5b2518cc399c284337848299174b4d86fcb00cb5378e3f2f9a0e7bc4144e491b",
   "provenance": "original",
-  "pdf": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/original.pdf",
+  "pdf": "pdfs/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
   "slides": [
     {
       "id": "VJyZwj",
@@ -368,7 +368,7 @@
       "bytes": 135642
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/original.pdf",
+      "path": "pdfs/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
       "sha256": "5b2518cc399c284337848299174b4d86fcb00cb5378e3f2f9a0e7bc4144e491b",
       "bytes": 889906
     }

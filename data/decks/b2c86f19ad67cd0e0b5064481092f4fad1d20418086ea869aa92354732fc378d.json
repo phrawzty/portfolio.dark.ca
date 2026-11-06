@@ -2,7 +2,7 @@
   "id": "b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d",
   "source_sha256": "00c0008c5df3ac3b78fc51c26cb89aa1ff5d1ddc7349959b8b6960e9a02c366a",
   "provenance": "original",
-  "pdf": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/original.pdf",
+  "pdf": "pdfs/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
   "slides": [
     {
       "id": "ht1nD6",
@@ -458,7 +458,7 @@
       "bytes": 136008
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/original.pdf",
+      "path": "pdfs/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
       "sha256": "00c0008c5df3ac3b78fc51c26cb89aa1ff5d1ddc7349959b8b6960e9a02c366a",
       "bytes": 1530009
     }

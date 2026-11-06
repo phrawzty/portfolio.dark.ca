@@ -2,7 +2,7 @@
   "id": "bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c",
   "source_sha256": "1184fb5cbd22b8f4296b6b1a74f0ba94334a2aed59c84344710353240e4489c6",
   "provenance": "original",
-  "pdf": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/original.pdf",
+  "pdf": "pdfs/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
   "slides": [
     {
       "id": "Klrk01",
@@ -293,7 +293,7 @@
       "bytes": 113541
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/original.pdf",
+      "path": "pdfs/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
       "sha256": "1184fb5cbd22b8f4296b6b1a74f0ba94334a2aed59c84344710353240e4489c6",
       "bytes": 1391687
     }

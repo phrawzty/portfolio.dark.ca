@@ -2,7 +2,7 @@
   "id": "297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853",
   "source_sha256": "971126a7c4ee746a55bc5f24d0ecc7b06ef2ad2793c060a4bbdd53ee6b64666e",
   "provenance": "reconstructed",
-  "pdf": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/reconstructed.pdf",
+  "pdf": "pdfs/2018-06-01-serverless-revealed-dotscale-2018.pdf",
   "slides": [
     {
       "id": "DgnAKe",
@@ -293,7 +293,7 @@
       "bytes": 150785
     },
     {
-      "path": "decks/297e7758e5e5255569acf6b331224a8f52610e9cd7bde632eabd4112bd266853/reconstructed.pdf",
+      "path": "pdfs/2018-06-01-serverless-revealed-dotscale-2018.pdf",
       "sha256": "971126a7c4ee746a55bc5f24d0ecc7b06ef2ad2793c060a4bbdd53ee6b64666e",
       "bytes": 3355741
     }

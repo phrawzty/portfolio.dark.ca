@@ -2,7 +2,7 @@
   "id": "059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc",
   "source_sha256": "5e92a24a2f306c4c637708bf4e57b9eb244aca704064452242ed58e634798126",
   "provenance": "original",
-  "pdf": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/original.pdf",
+  "pdf": "pdfs/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
   "slides": [
     {
       "id": "o7Utg8",
@@ -563,7 +563,7 @@
       "bytes": 289300
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/original.pdf",
+      "path": "pdfs/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
       "sha256": "5e92a24a2f306c4c637708bf4e57b9eb244aca704064452242ed58e634798126",
       "bytes": 1212021
     }

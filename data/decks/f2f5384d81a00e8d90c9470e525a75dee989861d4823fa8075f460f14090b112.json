@@ -2,7 +2,7 @@
   "id": "f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112",
   "source_sha256": "cf2d860a00fd44e10225c790743985d4bbde0b13d84c30ae1605608c5ddb8d0c",
   "provenance": "original",
-  "pdf": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/original.pdf",
+  "pdf": "pdfs/2021-09-07-principles-of-observability-ignite-devopsdays-zurich-2021.pdf",
   "slides": [
     {
       "id": "hXYNM6",
@@ -308,7 +308,7 @@
       "bytes": 363766
     },
     {
-      "path": "decks/f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112/original.pdf",
+      "path": "pdfs/2021-09-07-principles-of-observability-ignite-devopsdays-zurich-2021.pdf",
       "sha256": "cf2d860a00fd44e10225c790743985d4bbde0b13d84c30ae1605608c5ddb8d0c",
       "bytes": 43543955
     }

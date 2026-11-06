@@ -2,7 +2,7 @@
   "id": "85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1",
   "source_sha256": "68ed652fc1ea940f0ec1cbc82d8b6122c6a3fbd780788d36749be511a102361c",
   "provenance": "original",
-  "pdf": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/original.pdf",
+  "pdf": "pdfs/2020-11-19-debugging-in-the-cloud-with-datadog-and-hashicorp-datadog-hashicorp-webinar.pdf",
   "slides": [
     {
       "id": "xsE2ZB",
@@ -668,7 +668,7 @@
       "bytes": 162289
     },
     {
-      "path": "decks/85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1/original.pdf",
+      "path": "pdfs/2020-11-19-debugging-in-the-cloud-with-datadog-and-hashicorp-datadog-hashicorp-webinar.pdf",
       "sha256": "68ed652fc1ea940f0ec1cbc82d8b6122c6a3fbd780788d36749be511a102361c",
       "bytes": 4530149
     }

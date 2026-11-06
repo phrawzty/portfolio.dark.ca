@@ -2,7 +2,7 @@
   "id": "ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7",
   "source_sha256": "151694fe3917eb64db332fdbb4ae1d08bcb474db7394fff1aaf6110122e0c616",
   "provenance": "original",
-  "pdf": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/original.pdf",
+  "pdf": "pdfs/2021-10-06-cloud-cost-optimisation-a-primer-datadog-hashicorp-webinar.pdf",
   "slides": [
     {
       "id": "GlbSJT",
@@ -488,7 +488,7 @@
       "bytes": 206231
     },
     {
-      "path": "decks/ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7/original.pdf",
+      "path": "pdfs/2021-10-06-cloud-cost-optimisation-a-primer-datadog-hashicorp-webinar.pdf",
       "sha256": "151694fe3917eb64db332fdbb4ae1d08bcb474db7394fff1aaf6110122e0c616",
       "bytes": 15488388
     }

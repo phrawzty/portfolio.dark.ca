@@ -2,7 +2,7 @@
   "id": "fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a",
   "source_sha256": "3460b4cb2f355bd91252b03c1f1d8eaa4ce57818f983e41755e54cd960345f48",
   "provenance": "original",
-  "pdf": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/original.pdf",
+  "pdf": "pdfs/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
   "slides": [
     {
       "id": "7zQqhW",
@@ -293,7 +293,7 @@
       "bytes": 47370
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/original.pdf",
+      "path": "pdfs/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
       "sha256": "3460b4cb2f355bd91252b03c1f1d8eaa4ce57818f983e41755e54cd960345f48",
       "bytes": 195238
     }

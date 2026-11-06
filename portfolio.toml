@@ -1,7 +1,7 @@
 [assets]
 directory = "../assets.dark.ca/files"
-repository = "phrawzty/assets.dark.ca"
-release = "portfolio-assets-v1"
+repository = "https://github.com/phrawzty/assets.dark.ca.git"
+public_base_url = "https://raw.githubusercontent.com/phrawzty/assets.dark.ca/{revision}/files"
 
 [map]
 tiles = "https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4jz5_1_bda2f8c0b12b1acd38167b70"

@@ -2,7 +2,7 @@
   "id": "06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924",
   "source_sha256": "1107bea3aa6d8ddaaad8797ec2601681b3c5c7c8871ce7202568724315c95674",
   "provenance": "original",
-  "pdf": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/original.pdf",
+  "pdf": "pdfs/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "3gpm8Z",
@@ -203,7 +203,7 @@
       "bytes": 47220
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/original.pdf",
+      "path": "pdfs/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
       "sha256": "1107bea3aa6d8ddaaad8797ec2601681b3c5c7c8871ce7202568724315c95674",
       "bytes": 1932559
     }

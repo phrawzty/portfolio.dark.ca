@@ -2,7 +2,7 @@
   "id": "7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb",
   "source_sha256": "e662054fef147a2d513b2be5084584f00b5128f1f970b9f714a3dd685d831af3",
   "provenance": "original",
-  "pdf": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/original.pdf",
+  "pdf": "pdfs/2020-11-24-the-safety-dance-risk-assessment-for-devops-practitioners-devopsdays-sao-paulo-2020.pdf",
   "slides": [
     {
       "id": "6a02u4",
@@ -623,7 +623,7 @@
       "bytes": 155968
     },
     {
-      "path": "decks/7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb/original.pdf",
+      "path": "pdfs/2020-11-24-the-safety-dance-risk-assessment-for-devops-practitioners-devopsdays-sao-paulo-2020.pdf",
       "sha256": "e662054fef147a2d513b2be5084584f00b5128f1f970b9f714a3dd685d831af3",
       "bytes": 4294657
     }

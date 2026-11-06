@@ -2,7 +2,7 @@
   "id": "957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4",
   "source_sha256": "8070d6e0501c1ba97da26abe402f38a663887b3deb20fea50b3216bca8161986",
   "provenance": "original",
-  "pdf": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/original.pdf",
+  "pdf": "pdfs/2021-09-28-le-paysage-de-serverless-en-2021-serverless-days-paris-2021.pdf",
   "slides": [
     {
       "id": "0I0EvM",
@@ -308,7 +308,7 @@
       "bytes": 145173
     },
     {
-      "path": "decks/957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4/original.pdf",
+      "path": "pdfs/2021-09-28-le-paysage-de-serverless-en-2021-serverless-days-paris-2021.pdf",
       "sha256": "8070d6e0501c1ba97da26abe402f38a663887b3deb20fea50b3216bca8161986",
       "bytes": 3691318
     }

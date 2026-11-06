@@ -2,7 +2,7 @@
   "id": "63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04",
   "source_sha256": "5f4b0860adb450342e4953255ad4867f651a8be908574b3dd9441beb968780dd",
   "provenance": "reconstructed",
-  "pdf": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/reconstructed.pdf",
+  "pdf": "pdfs/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
   "slides": [
     {
       "id": "I3Eeif",
@@ -548,7 +548,7 @@
       "bytes": 171279
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/reconstructed.pdf",
+      "path": "pdfs/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
       "sha256": "5f4b0860adb450342e4953255ad4867f651a8be908574b3dd9441beb968780dd",
       "bytes": 6085053
     }

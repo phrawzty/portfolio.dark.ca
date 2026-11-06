@@ -2,7 +2,7 @@
   "id": "07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489",
   "source_sha256": "2f9b48a2cbabee4756c821a8a071c4352d2441084524739d121e207cddb24ed0",
   "provenance": "original",
-  "pdf": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/original.pdf",
+  "pdf": "pdfs/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "5pEEXo",
@@ -518,7 +518,7 @@
       "bytes": 90355
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/original.pdf",
+      "path": "pdfs/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
       "sha256": "2f9b48a2cbabee4756c821a8a071c4352d2441084524739d121e207cddb24ed0",
       "bytes": 3033577
     }

@@ -2,7 +2,7 @@
   "id": "ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299",
   "source_sha256": "0de2632c1b463ff66de14526dfde7a807c89baa9666592b57d1a139b3684c519",
   "provenance": "original",
-  "pdf": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/original.pdf",
+  "pdf": "pdfs/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
   "slides": [
     {
       "id": "vETtJe",
@@ -248,7 +248,7 @@
       "bytes": 336099
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/original.pdf",
+      "path": "pdfs/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
       "sha256": "0de2632c1b463ff66de14526dfde7a807c89baa9666592b57d1a139b3684c519",
       "bytes": 6504121
     }

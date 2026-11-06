@@ -2,7 +2,7 @@
   "id": "91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8",
   "source_sha256": "9e2271ffa3e4557cb4feef3da7bdb4831b30ba681dd30eda49b0b479a790d9d7",
   "provenance": "original",
-  "pdf": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/original.pdf",
+  "pdf": "pdfs/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
   "slides": [
     {
       "id": "ckKhGA",
@@ -503,7 +503,7 @@
       "bytes": 193144
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/original.pdf",
+      "path": "pdfs/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
       "sha256": "9e2271ffa3e4557cb4feef3da7bdb4831b30ba681dd30eda49b0b479a790d9d7",
       "bytes": 1088585
     }

@@ -2,7 +2,7 @@
   "id": "fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef",
   "source_sha256": "d87d11707135244a638783f660c6850b0089c2e34961b8591ab31516fa6138d2",
   "provenance": "reconstructed",
-  "pdf": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/reconstructed.pdf",
+  "pdf": "pdfs/2026-09-26-your-supply-chain-has-an-identity-problem-devopsdays-cairo-2026.pdf",
   "slides": [
     {
       "id": "22EFc7",
@@ -728,7 +728,7 @@
       "bytes": 127955
     },
     {
-      "path": "decks/fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef/reconstructed.pdf",
+      "path": "pdfs/2026-09-26-your-supply-chain-has-an-identity-problem-devopsdays-cairo-2026.pdf",
       "sha256": "d87d11707135244a638783f660c6850b0089c2e34961b8591ab31516fa6138d2",
       "bytes": 4987242
     }

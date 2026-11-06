@@ -2,7 +2,7 @@
   "id": "c92aecbe13fdcf7a5fa5a3ff53279de4cc2c1f4caefec447b3f95d2d0bb17e21",
   "source_sha256": "2cc4c1c7d2843b37674eef70d13d6e92f694baf10b318951cd002c8dfdfd9bda",
   "provenance": "reconstructed",
-  "pdf": "decks/c92aecbe13fdcf7a5fa5a3ff53279de4cc2c1f4caefec447b3f95d2d0bb17e21/reconstructed.pdf",
+  "pdf": "pdfs/2019-09-06-what-mma-taught-me-about-working-in-tech-devopsdays-cape-town-2019.pdf",
   "slides": [
     {
       "id": "aK9dQW",
@@ -533,7 +533,7 @@
       "bytes": 328763
     },
     {
-      "path": "decks/c92aecbe13fdcf7a5fa5a3ff53279de4cc2c1f4caefec447b3f95d2d0bb17e21/reconstructed.pdf",
+      "path": "pdfs/2019-09-06-what-mma-taught-me-about-working-in-tech-devopsdays-cape-town-2019.pdf",
       "sha256": "2cc4c1c7d2843b37674eef70d13d6e92f694baf10b318951cd002c8dfdfd9bda",
       "bytes": 4477349
     }

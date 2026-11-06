@@ -2,7 +2,7 @@
   "id": "3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102",
   "source_sha256": "fbfb184d53174606141c6f8e7fc7d25a395c472e89a910da4110203f8a693c84",
   "provenance": "original",
-  "pdf": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/original.pdf",
+  "pdf": "pdfs/2018-09-26-monitoring-kubernetes-follow-the-data-cloud-native-london-2018.pdf",
   "slides": [
     {
       "id": "aqxUtQ",
@@ -653,7 +653,7 @@
       "bytes": 151393
     },
     {
-      "path": "decks/3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102/original.pdf",
+      "path": "pdfs/2018-09-26-monitoring-kubernetes-follow-the-data-cloud-native-london-2018.pdf",
       "sha256": "fbfb184d53174606141c6f8e7fc7d25a395c472e89a910da4110203f8a693c84",
       "bytes": 24628645
     }

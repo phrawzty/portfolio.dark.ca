@@ -2,7 +2,7 @@
   "id": "f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21",
   "source_sha256": "f7ec034aa27422bca72f1df2c693ccf1cd9e360be26d90caba814663a9127484",
   "provenance": "original",
-  "pdf": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/original.pdf",
+  "pdf": "pdfs/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
   "slides": [
     {
       "id": "BNHZhF",
@@ -533,7 +533,7 @@
       "bytes": 328763
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/original.pdf",
+      "path": "pdfs/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
       "sha256": "f7ec034aa27422bca72f1df2c693ccf1cd9e360be26d90caba814663a9127484",
       "bytes": 716449
     }

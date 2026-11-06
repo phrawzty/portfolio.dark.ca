@@ -2,7 +2,7 @@
   "id": "276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca",
   "source_sha256": "962e4ae49bac63fc8a5f12b0afad98c532fe84a145245945b8baeb3b7da2c26a",
   "provenance": "reconstructed",
-  "pdf": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/reconstructed.pdf",
+  "pdf": "pdfs/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
   "slides": [
     {
       "id": "gl8qHV",
@@ -203,7 +203,7 @@
       "bytes": 267557
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/reconstructed.pdf",
+      "path": "pdfs/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
       "sha256": "962e4ae49bac63fc8a5f12b0afad98c532fe84a145245945b8baeb3b7da2c26a",
       "bytes": 1305055
     }

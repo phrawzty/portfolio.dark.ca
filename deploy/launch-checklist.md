@@ -103,11 +103,11 @@ portfolio.dark.ca is Active with SSL enabled. Source `65eb37d` deployed automati
 
 Do this after the hosted site and normal publishing work.
 
-- [ ] Choose whether to retain the ignored local `assets.dark.ca/preservation/` directory, move it to cold storage, or rely on a verified backup. No destination is assumed.
-- [ ] If moving to cold storage, copy and verify against `preservation-manifest.json` before deleting the source copy.
-- [ ] Decide separately whether to keep the obsolete `portfolio-assets-v1` Release. The site no longer depends on it. Do not confuse it with the migration-backup Release.
-- [ ] Remove disposable build/review caches when they are no longer in use; preserve the active preview while it is being reviewed.
-- [ ] Re-measure disk usage with hard links counted across both repositories.
+- [x] Daniel moved the migration material to cold storage and deleted local `assets.dark.ca/preservation/`, reported 2026-11-06. Codex confirmed the local directory is absent.
+  - Codex verified all 2,313 local preservation files against the manifest before Daniel moved them. The cold-storage copy was handled by Daniel and was not independently verified by Codex. The manifest remains recoverable from assets Git history.
+- [x] At Daniel's request, delete both obsolete assets Releases and their attachments: `portfolio-assets-v1` and `notist-migration-2026-11-05`. GitHub now lists no Releases; both Git tags are retained. Remove the unused restore script, manifest, migration notes and obsolete ignore entries.
+- [x] Stop the local preview and remove disposable build/review caches after review. Completed 2026-11-06: port 1112 is free; generated builds, review images, task browser profiles and local uv cache removed. Verification receipts retained.
+- [x] Re-measure disk usage with hard links counted across both repositories. After localhost cleanup on 2026-11-06: portfolio 28 MiB, assets 2.2 GiB, combined 2.3 GiB (`du -sch` across both roots). Assets were retained. After Daniel moved the migration backup to cold storage, totals were 28 MiB portfolio, 1.4 GiB assets, 1.5 GiB combined.
 
 ## References
 

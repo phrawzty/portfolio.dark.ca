@@ -6,5 +6,5 @@
 <figcaption class="slide-transcript">{% if slide.title %}<strong>{{ slide.title }}</strong>{% endif %}<p>{{ slide.text }}</p></figcaption></figure>{% endfor %}</div>
 <div class="deck-controls"><button type="button" data-previous aria-label="Previous slide">←</button><output data-counter aria-live="polite">1 / {{ deck.slides | length }}</output><button type="button" data-next aria-label="Next slide">→</button><button type="button" data-fullscreen>Fullscreen</button></div>
 </div>
-<div class="deck-footer">{% if deck.pdf %}<a href="{{ deck.pdf_url }}" download>Download PDF</a>{% endif %}<a href="{{ get_url(path=page.extra.id ~ '/present/') }}">Presentation view</a></div>
+{% if deck.pdf %}<div class="deck-footer"><a href="{{ deck.pdf_url }}" download>Download PDF</a></div>{% endif %}
 <noscript><p><a href="{{ get_url(path=page.extra.id ~ '/slides/') }}">Read every slide and its transcript</a>.</p></noscript></section>

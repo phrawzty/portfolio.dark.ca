@@ -135,6 +135,12 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("Watch the recording", (self.root / "public/first/index.html").read_text())
         self.assertNotIn("Watch the recording", (self.root / "public/repeat/index.html").read_text())
         self.assertTrue((self.root / "public/first/slides/index.html").exists())
+        self.assertFalse((self.root / "public/first/present").exists())
+        viewer = (self.root / "public/first/index.html").read_text()
+        self.assertIn("data-fullscreen", viewer)
+        self.assertIn("All slides &amp; transcript", viewer)
+        self.assertNotIn("Presentation view", viewer)
+        self.assertNotIn("/first/present/", viewer)
         self.assertIn("Slide 3", (self.root / "public/repeat/slides/index.html").read_text())
         self.assertNotIn("/first/slides/slide-1", (self.root / "public/_redirects").read_text())
 

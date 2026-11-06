@@ -519,7 +519,7 @@ class Portfolio:
                 context = str(path.relative_to(self.root))
                 self.validate_page(path, meta)
                 ident = meta["extra"]["id"]
-                for route in [meta["path"], *meta.get("aliases", []), ident + "/slides", ident + "/present"]:
+                for route in [meta["path"], *meta.get("aliases", []), ident + "/slides"]:
                     normalized = route.strip("/")
                     if normalized in routes:
                         raise PortfolioError(f"Duplicate output route: {normalized}")
@@ -622,17 +622,15 @@ class Portfolio:
             extra = meta["extra"]
             for alias in meta.get("aliases", []):
                 redirects.append(f"/{alias.strip('/')} /{extra['id']}/ 301")
-            for view in ("slides", "present"):
-                if not extra.get("deck"):
-                    continue
+            if extra.get("deck"):
                 child = tomlkit.parse(tomlkit.dumps(meta))
-                child["path"] = extra["id"] + "/" + view
-                child["template"] = "slides.html" if view == "slides" else "present.html"
+                child["path"] = extra["id"] + "/slides"
+                child["template"] = "slides.html"
                 child["hidden"] = True
                 child["in_search_index"] = False
                 child["include_in_feeds"] = False
                 child.pop("aliases", None)
-                write_page(generated / (extra["id"] + "-" + view + ".md"), child, body)
+                write_page(generated / (extra["id"] + "-slides.md"), child, body)
             coordinates = self.coordinates(extra)
             if coordinates:
                 points.append({"lat": coordinates[0], "lng": coordinates[1], "title": meta["title"],

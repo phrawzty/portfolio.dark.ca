@@ -57,7 +57,7 @@ CARTO completed on 2026-11-06: Daniel updated and tested the key. Codex rechecke
 Codex checks HTTP responses and generated links; Daniel checks browser interactions and layout.
 
 - [x] Homepage, appearance list, talk groupings, video list and biography return successfully on the test hostname; browser layout remains below.
-- [ ] Slides advance with buttons/keyboard; all-slides transcript and presentation view work.
+- [ ] Slides advance with buttons/keyboard; all-slides transcript works.
 - [x] PDF downloads work, including a complete 72.70 MiB PDF matched to its SHA-256; image-only entries have no PDF button.
 - [ ] YouTube/Vimeo recordings load after clicking; external Watch links work.
 - [ ] Resources, feedback, headshots, map pins and attribution are present.

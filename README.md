@@ -1,36 +1,52 @@
 # Speaking portfolio
 
-An actively maintained Zola portfolio at **portfolio.dark.ca**, using the same Terminus appearance as dark.ca. `speaking.dark.ca` is retained as a legacy hostname. Nothing here has been deployed yet.
+A Zola speaking portfolio for **portfolio.dark.ca**, with `speaking.dark.ca` retained for existing links. Launch status and remaining dashboard steps are tracked in the [launch checklist](deploy/launch-checklist.md).
 
-## Everyday use
+## Setup
 
-Install [uv](https://docs.astral.sh/uv/), Zola **0.23.6**, and Poppler. On macOS, Zola and Poppler are available through `brew install zola poppler`. Clone `phrawzty/portfolio.dark.ca` into `~/repos/portfolio.dark.ca` and `phrawzty/assets.dark.ca` into `~/repos/assets.dark.ca`. Then, from the portfolio checkout:
+Install [uv](https://docs.astral.sh/uv/), Zola **0.23.6**, Poppler and Git. On macOS: `brew install uv zola poppler`.
+
+Clone the source and assets alongside each other:
 
 ```sh
+cd ~/repos
+git clone https://github.com/phrawzty/portfolio.dark.ca.git
+git clone https://github.com/phrawzty/assets.dark.ca.git
+cd portfolio.dark.ca
 uv sync --frozen
 uv run portfolio doctor
 uv run portfolio assets fetch
 uv run portfolio
 ```
 
-`uv run portfolio` opens a small menu: create a talk, repeat a previous talk at another event, edit its Markdown, add slides, add a recording, edit slide notes, or preview the site. Existing talks are listed by **title, event, and date**; type a word or year to narrow the list. You never need to look up an ID.
+`assets fetch` verifies the recorded assets commit. If your assets clone is newer than this portfolio revision, it leaves it alone and explains how to switch revisions or record your newer assets.
 
-Choose **New talk** and answer the prompts. You can add a PDF immediately (drag it into the terminal), or press Enter to add slides later. The script creates the Markdown file and opens it in `$VISUAL`, `$EDITOR`, or your system text editor. Write the description below the second `+++`; the script fills in the metadata. New talks start as drafts, and upcoming talks do not need slides.
+## Everyday use
 
-You can also go straight to a task:
+`uv run portfolio` opens the menu. Choose talks by title, event or date; no internal IDs are needed. You can also edit the Markdown files in `content/appearances/` directly.
+
+- **New talk:** answer the prompts and edit the description. New entries start as drafts. An upcoming talk needs no slides.
+- **Repeat a talk:** copies its description/resources and starts without slides. At the PDF prompt, Enter means no slides; type `reuse` explicitly to reuse the earlier deck.
+- **Add or replace slides:** choose the talk and drag in a PDF. Processing happens locally, and older deck versions stay intact.
+- **Add a recording / Edit slide notes:** choose the talk; notes override the displayed text without changing the PDF.
+- **Preview:** opens a local server at [127.0.0.1:1112](http://127.0.0.1:1112/) with drafts included and automatic rebuild/reload.
+- **Check:** validates metadata, slide references and asset checksums and explains any failure. It does not upload anything.
+
+Direct commands are interactive too:
 
 ```sh
 uv run portfolio edit
 uv run portfolio slides
 uv run portfolio recording
+uv run portfolio notes
 uv run portfolio preview
 ```
 
-The first three commands ask you to choose a talk. `slides` then asks for the PDF; `recording` asks for its URL. `edit` opens the Markdown file. You can always open and edit the files in `content/appearances/` directly instead.
+See the [authoring reference](docs/authoring.md) for resources, feedback, repeats, locations and scripting.
 
-Preview is at `http://127.0.0.1:1112`, includes drafts, and rebuilds/reloads when source files change. PDF processing happens only when you run `slides`, never during preview or deployment. Every page is rendered locally; original PDF bytes are retained, text is extracted, and lossless WebP slides are generated. Re-adding the same PDF reuses its processed version.
+## Publish
 
-When ready:
+For a new draft with slides:
 
 ```sh
 uv run portfolio publish
@@ -41,100 +57,26 @@ git commit
 git push
 ```
 
-`publish` lets you choose a draft to include in production builds; it does not deploy. The menu calls this **Mark a draft ready for publication**. Choose **Commit and push public assets** (menu option 10) before committing new slides. This uses ordinary Git to commit the files referenced by public talks in the assets checkout, pushes them to its configured remote, and records that commit in `data/assets-lock.json`. Draft-only files and unrelated staged changes are not included. Text-only edits and talks without slides need no assets commit.
+`publish` marks the chosen draft ready; it does not deploy. `assets publish` commits/pushes only referenced public files in the companion assets repo, then updates `data/assets-lock.json`. The final portfolio push triggers Cloudflare once its integration is configured. Existing public text-only edits need neither a new assets commit nor the draft-publication step.
 
-## Repeat a talk or add a recording
+The assets checkout can also be committed manually. Leave unrelated staged changes out of the menu's assets commit. Both repositories use normal Git and can be mirrored elsewhere.
 
-```sh
-uv run portfolio repeat
-uv run portfolio slides
-uv run portfolio recording
-```
+## Files and hosting
 
-A repeat copies the description and resources, and starts **without slides**. At the PDF prompt, press Enter to leave it without slides, provide a PDF to add a new deck, or explicitly type `reuse` to copy the previous event's deck. Its event, date, recording, and feedback remain independent. Attaching a revised PDF changes only that appearance; old appearances keep their old deck versions. Reusable talk descriptions live in `content/talks/`.
+- `content/`: editable appearances, reusable talk descriptions and biography.
+- `data/`: deck metadata, checksums, map data and the pinned assets revision.
+- `notes/`: optional slide-text/title overrides.
+- `templates/`, `static/`, `themes/`: the Zola site and Terminus appearance shared with dark.ca.
+- `../assets.dark.ca/files/decks/<date-title-event>/`: the PDF and its `slides/` images together; unchanged repeats share a folder, revisions receive new stable names.
+- `../assets.dark.ca/files/speaker/`: headshots.
 
-For noninteractive scripts, deck reuse also requires an explicit choice: `portfolio new --from … --reuse-slides`.
+Cloudflare serves the website and slide images. PDF downloads use the HTTP base URL in `portfolio.toml` (currently GitHub raw URLs pinned to the assets commit). All binaries are ordinary Git files. Builds run offline after restoring the assets checkout and do no PDF processing.
 
-To correct a transcription or add slide notes:
+Generated `public/` and `.portfolio/` files are disposable and ignored. Hard links share the asset bytes, so separate `du` totals for the two checkouts overlap.
 
-```sh
-uv run portfolio notes
-```
+## Deployment and checks
 
-Choose the talk and its notes file opens in your editor. It overrides slide text/titles for that deck version without modifying source PDFs or images. No migration JSON needs hand-editing.
-
-For scripting, explicit commands still work with either the Markdown path or its filename stem. For example, `uv run portfolio slides content/appearances/QfIYtz.md ~/presentations/revised.pdf`. Supplying just a PDF path, as in `uv run portfolio slides ~/presentations/revised.pdf`, opens the talk chooser.
-
-Resources and feedback belong in the appearance's TOML front matter:
-
-```toml
-[[extra.resources]]
-title = "Related project"
-url = "https://example.com/"
-description = "Why this is useful."
-
-[[extra.feedback]]
-text = "The quoted feedback."
-author = "Author name"
-url = "https://example.com/original-post"
-```
-
-## Locations
-
-Map pins derive from appearance records. Locations already in `data/places.toml` resolve locally; imported appearances retain their recorded coordinates. New locations can be saved once by pasting an OpenStreetMap link centered on the city:
-
-```sh
-uv run portfolio place 'Example City, Country' --map-url 'https://www.openstreetmap.org/#map=12/48.85/2.35'
-```
-
-Unknown locations remain readable in the archive and simply have no pin until saved. There is no required geocoding account or network lookup. The map uses the existing CARTO tile configuration from dark.ca; allow the new hostname in that key's domain restrictions before launch. The textual archive works independently of map tiles.
-
-## Assets and Cloudflare
-
-The website, slide images and headshots are served by Cloudflare Pages. All website PDFs and images are **ordinary Git files** in the companion `assets.dark.ca` repository. A normal clone contains the actual bytes; no Releases, Git LFS, GitHub CLI, or separate download service is needed to restore them. Either repository can be cloned or mirrored to any Git host.
-
-Each deck version is a readable directory containing its PDF and slide images:
-
-```text
-files/decks/2018-06-01-serverless-revealed-dotscale-2018/
-  2018-06-01-serverless-revealed-dotscale-2018.pdf
-  slides/
-    001.jpg
-    002.jpg
-```
-
-Repeating an unchanged deck reuses its folder. A revision for the same event/title receives `-v2`, `-v3`, etc. Folder names are chosen once: later title edits do not rename existing assets. Image-only entries have a `slides/` folder without a PDF. Descriptions, transcripts, editable slide notes and integrity checksums stay in the portfolio metadata; hashes do not determine asset directory names. Headshots have readable names under `files/speaker/`.
-
-The imported records contain 61 distinct binary bundles across 67 display records. Text-only display differences share a bundle. One PDF has two image exports, so its two version folders contain the same PDF bytes (one shared Git blob).
-
-The daily workflow is:
-
-1. Add or edit talks with the menu or Markdown.
-2. If adding slides, mark the appearance ready, then choose **Commit and push public assets** (or run `uv run portfolio assets publish`). It commits only referenced public files with regular Git and pushes using the assets checkout's configured remote.
-3. Commit the portfolio content, metadata and `data/assets-lock.json`, then push this repository.
-
-You can instead commit and push assets manually, then run `portfolio assets publish` to record the current assets commit. Unrelated staged changes must be committed or unstaged first. No assets commit is needed for a text edit.
-
-`data/assets-lock.json` pins the assets commit used by a portfolio revision. `portfolio assets fetch` clones that commit if the companion checkout is missing and verifies its bytes. It refuses to reset an existing checkout at another revision; fetch/switch it yourself, or publish the newer assets. Your normal author checkout can stay on `main`. Cloudflare uses a shallow checkout of the pinned revision; local clones can retain the full history.
-
-`portfolio build` works offline, checks every required file against its SHA-256 and its Git blob in the pinned commit, and stages only images for Cloudflare. Local previews also serve the PDFs. Production PDF links use `[assets].public_base_url` from `portfolio.toml`; `{revision}` is expanded to the recorded assets commit. The initial URL uses GitHub's raw-file host. To serve PDFs from your own HTTP mirror, point that setting at the directory serving `files/` with the same relative paths. A plain Git clone contains everything needed for that mirror.
-
-Four original PDFs exceed Cloudflare Pages' 25 MiB per-file limit, so production PDF downloads stay outside Pages; no PDF is recompressed. All current files fit GitHub's ordinary-Git file limit. The large originals are tracked directly, as requested.
-
-`[assets].repository` configures the Git URL used on fresh builds, and `[assets].directory` defaults to `../assets.dark.ca/files`. Existing checkouts push using their normal Git remote configuration. Staging and preview use hard links where available to avoid duplicate copies.
-
-Cloudflare Pages configuration:
-
-- Build command: `sh scripts/cloudflare-build.sh`
-- Output directory: `public`
-- Environment: `ZOLA_VERSION=0.23.6`, Python 3.11 or later.
-- Custom domains: `portfolio.dark.ca` and `speaking.dark.ca` on the same project.
-
-The generated `_redirects` retains legacy presentation and slide paths. The hostname redirect is a separate Cloudflare zone Redirect Rule: Pages' `_redirects` does not support domain-level redirects ([documentation](https://developers.cloudflare.com/pages/configuration/redirects/)). `deploy/hostname-redirect-rule.json` contains the single rule to append to the zone's existing redirect rules, preserving paths and query strings. It is not a replacement for the zone's complete ruleset.
-
-Review the preview first, then configure domains, the zone redirect rule, and DNS. No hosting or DNS changes have been made by these scripts.
-
-## Checks and recovery material
+Use the [launch checklist](deploy/launch-checklist.md) and [deployment/rollback guide](deploy/README.md) for Cloudflare, CARTO, DNS and hosted acceptance checks.
 
 ```sh
 uv run portfolio check
@@ -142,14 +84,4 @@ uv run python -m unittest discover -s tests -v
 node tests/test_frontend.mjs
 ```
 
-Checks cover content, immutable asset hashes, output-route collisions, slide references, deployment file-size limits, and generated internal links. Production builds exclude drafts and do not fetch from Noti.st or process PDFs.
-
-The menu's **Check the portfolio** action and `portfolio check` show each local validation stage, a clear PASS/FAIL result, and the draft/publication counts. Failures name the affected file or talk and stop before claiming success. A check changes nothing and uploads nothing; external link availability, PDF rendering, and visual layout are outside its scope. Generated internal link targets and deployment readiness are checked during the build.
-
-The one-time importer is `scripts/import_notist.py`; it consumes the local recovery archive. It is never part of daily authoring or a Cloudflare build. The imported portfolio contains 79 appearances, 62 talk groupings, 67 displayed decks, 38 recording links, 53 resources, and 55 feedback entries. Every imported appearance remains independently editable.
-
-`../assets.dark.ca/preservation/` contains the original `archive/`, `audit/`, `output/` and PDF review `tmp/` directories. They are excluded from Git and deployment. A checksum-verified snapshot is stored in the companion repository's `notist-migration-2026-11-05` Release. Its committed `preservation-manifest.json` lists every file and the archive checksum; see that repository's README for restoration. Keep the local copy too. Third-party recordings and social-media image bodies have not been mirrored.
-
-Historical website assets also remain in the old `portfolio-assets-v1` Release, but the build and authoring tools no longer use it. Its `images-*.tar` files were bundles of slide images/headshots for the previous build-download workflow.
-
-The one-time migration scripts resolve preservation paths in the sibling assets checkout. They are retained for recovery, not invoked during normal authoring or builds.
+The ignored Noti.st migration material is separate from normal maintenance. Its retention decision and restore procedure are documented in the [assets repo migration notes](https://github.com/phrawzty/assets.dark.ca/blob/main/docs/migration.md).

@@ -3,6 +3,7 @@ import contextlib
 from datetime import date
 import io
 import json
+import os
 from pathlib import Path
 import shutil
 import tempfile
@@ -199,6 +200,18 @@ class WorkflowTests(unittest.TestCase):
         with patch("portfolio.cli.run", side_effect=AssertionError("Cached slides must not be processed again")):
             self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         self.assertEqual(before, self.project.deck(self.v1))
+
+    def test_temporary_host_base_url_controls_navigation_and_keeps_drafts_private(self):
+        self.create(publish=True)
+        self.create("private-draft")
+        with patch.dict(os.environ, {"PORTFOLIO_BASE_URL": "https://portfolio-test.pages.dev"}):
+            self.call("build")
+        html = (self.root / "public/index.html").read_text()
+        self.assertIn('href="https://portfolio-test.pages.dev/talks/"', html)
+        self.assertNotIn('href="https://portfolio.dark.ca/talks/"', html)
+        self.assertFalse((self.root / "public/private-draft").exists())
+        self.call("build", "--base-url", "https://explicit-test.pages.dev")
+        self.assertIn('href="https://explicit-test.pages.dev/talks/"', (self.root / "public/index.html").read_text())
 
     def test_revised_pdf_gets_readable_version_suffix(self):
         first = self.project.deck(self.v1)["pdf"]

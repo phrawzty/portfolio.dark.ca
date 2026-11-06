@@ -803,7 +803,8 @@ def parser():
     place.add_argument("--map-url", required=True)
     check = commands.add_parser("check", help="Validate editable content, deck references, and immutable assets")
     check.add_argument("--production", action="store_true")
-    commands.add_parser("build", help="Build the production site into public/ (no PDF processing or network access)")
+    build = commands.add_parser("build", help="Build the production site into public/ (no PDF processing or network access)")
+    build.add_argument("--base-url", help="Deployment URL override; defaults to PORTFOLIO_BASE_URL or zola.toml")
     preview = commands.add_parser("preview", help="Preview drafts with automatic rebuild and reload")
     preview.add_argument("--port", type=int, default=1112)
     commands.add_parser("doctor", help="Check the required local tools")
@@ -921,7 +922,7 @@ def main(argv=None):
         elif args.command == "check":
             project.check(production=args.production, report=True)
         elif args.command == "build":
-            project.build()
+            project.build(base_url=args.base_url or os.environ.get("PORTFOLIO_BASE_URL") or None)
         elif args.command == "assets":
             if args.asset_action == "publish":
                 project.asset_repository.publish()

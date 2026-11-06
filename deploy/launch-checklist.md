@@ -14,67 +14,78 @@ Work in order. Daniel handles account dashboards and chooses archive retention; 
 
 ## 2. First Cloudflare Pages deployment — Daniel, then Codex
 
+In the current dashboard, choose **Create application → Continue to Pages → Import an existing Git repository → Get started**. The top-level **Continue with GitHub** flow creates a Worker; this repository is configured for Pages. Then select `phrawzty/portfolio.dark.ca`.
+
 Create/reuse a **Pages** project with Git integration in Cloudflare > Workers & Pages. Connect only `phrawzty/portfolio.dark.ca`; the build fetches the assets repo itself. Do not change existing DNS yet.
 
 | Setting | Value |
 | --- | --- |
-| Project name | Choose a name; record its actual `<project>.pages.dev` URL below |
+| Project name | `portfolio-dark-ca` |
 | Production branch | `main` |
 | Framework preset | None (use the custom build command) |
 | Root directory | Repository root / blank |
 | Build command | `sh scripts/cloudflare-build.sh` |
 | Build output directory | `public` |
 | `ZOLA_VERSION` | `0.23.6` |
-| `PYTHON_VERSION` | `3.13.3` |
-| `PORTFOLIO_BASE_URL` | `https://<actual-project-name>.pages.dev` during pre-launch testing |
+| `PORTFOLIO_BASE_URL` | `https://portfolio-dark-ca.pages.dev` during pre-launch testing |
 
-Set these environment variables for the production build being tested. The URL override keeps navigation/feed URLs on the temporary hostname. At canonical cutover, remove it so `zola.toml` supplies `https://portfolio.dark.ca`.
+Set these environment variables for the production build being tested. Leave `PYTHON_VERSION` unset; use the provided Python >=3.11. The URL override keeps navigation/feed URLs on the temporary hostname. At canonical cutover, remove it so `zola.toml` supplies `https://portfolio.dark.ca`.
 
-- [ ] Daniel: authorize the Cloudflare GitHub integration for the portfolio repository if needed.
-- [ ] Daniel: create/reuse the project with the settings above and deploy the latest `main`.
-- [ ] Record project name: **not created yet (confirmed by Daniel)**.
-- [ ] Record temporary URL: **pending**.
-- [ ] Record successful deployment and source commit: **pending**.
-- [ ] Codex: inspect logs on failure and verify the deployed response after success.
+- [x] Daniel: authorize the Cloudflare GitHub integration for the portfolio repository if needed.
+- [x] Daniel: create the Pages project and report a successful deployment.
+- [x] Record project name: **portfolio-dark-ca**.
+- [x] Record temporary URL: **https://portfolio-dark-ca.pages.dev/**.
+- [x] Record the first successful deployment from Daniel's screenshot: source `2fe31b6`, deployment `724b1e84.portfolio-dark-ca.pages.dev`.
+- [x] Codex: verify the deployed response after success (2026-11-06).
+
+Hosted HTTP preflight on 2026-11-06 passed: 400 HTML routes, 119 sampled static assets, complete smallest/largest PDF downloads (0.19 / 72.70 MiB), temporary-host canonical/navigation URLs, legacy redirects and draft exclusion. Browser controls, recordings, map rendering and mobile layout remain unchecked. The local receipt is `.portfolio/hosted-check.json` (ignored).
 
 ## 3. CARTO website restrictions — Daniel, then both
 
 Open the [CARTO Basemaps dashboard](https://dashboard.basemaps.carto.com/), sign in to the account that owns the existing key, and edit that key's website restrictions. Preserve its existing allowed sites, including dark.ca and blog.dark.ca where present.
 
-- [ ] Add `portfolio.dark.ca` using the dashboard's supported restriction syntax.
-- [ ] Add the actual Pages test hostname. If testing hashed deployment URLs too, add their exact hostname or a project-scoped wildcard if supported; avoid authorizing all of pages.dev.
-- [ ] Keep any existing `speaking.dark.ca` entry during transition.
-- [ ] Confirm tiles load without a watermark and city popups work on the Pages deployment.
-- [ ] If the key changes, update `portfolio.toml`; otherwise no repository edit is needed.
+- [x] Add `portfolio.dark.ca`; Codex verified a tile request with that Referer returns HTTP 200.
+- [x] Add `portfolio-dark-ca.pages.dev`; Codex verified a tile request with that Referer returns HTTP 200. Hashed preview hostnames are separate if used later.
+- [x] Daniel completed the key restriction update; retain existing allowed sites during the remaining cutover.
+- [x] Daniel tested and confirmed the map works on Pages. Browser interaction coverage remains in hosted acceptance below.
+- [x] Existing key continues to work; no repository key change required.
+
+CARTO completed on 2026-11-06: Daniel updated and tested the key. Codex rechecked both portfolio-dark-ca.pages.dev and portfolio.dark.ca Referers: each now returns HTTP 200 (previously 403).
 
 ## 4. Hosted acceptance checks — both
 
 Codex checks HTTP responses and generated links; Daniel checks browser interactions and layout.
 
-- [ ] Homepage, appearance list, talk groupings, video list and biography work on the test hostname.
+- [x] Homepage, appearance list, talk groupings, video list and biography return successfully on the test hostname; browser layout remains below.
 - [ ] Slides advance with buttons/keyboard; all-slides transcript and presentation view work.
-- [ ] PDF downloads work, including a PDF above 25 MiB and an image-only entry without a PDF button.
+- [x] PDF downloads work, including a complete 72.70 MiB PDF matched to its SHA-256; image-only entries have no PDF button.
 - [ ] YouTube/Vimeo recordings load after clicking; external Watch links work.
 - [ ] Resources, feedback, headshots, map pins and attribution are present.
 - [ ] Review mobile layout and check browser console/network failures.
-- [ ] Drafts remain absent from public pages and feeds (Portugal is currently a draft).
-- [ ] Legacy presentation slug redirects work, for example `/QfIYtz/statements-about-stateless`.
-- [ ] Legacy slide routes preserve the slide target; no navigation goes to Noti.st.
+- [x] Initial hosted test verified draft exclusion across pages/feed/sitemap/map and a 404 direct URL. Daniel has since intentionally published Portugal in `89f8bcd`; its hosted appearance is pending Git integration repair.
+- [x] Legacy presentation slug redirects work, for example `/QfIYtz/statements-about-stateless`.
+- [x] Sampled legacy slide route preserves its slide fragment and lands on the Pages hostname.
+- [ ] Browser review: primary navigation, controls and recording actions stay on the intended destinations.
 
 ## 5. Canonical domain and speaking.dark.ca cutover — Daniel, then Codex
 
-- [ ] Save the current speaking.dark.ca DNS target/proxy state and relevant redirect settings before changing them.
-- [ ] Add `portfolio.dark.ca` through the Pages project's Custom domains screen, complete its DNS setup and wait for HTTPS activation.
+- [x] Save public DNS answers before cutover in `.portfolio/dns-before-cutover.json`; speaking.dark.ca still reaches the old site, and portfolio.dark.ca does not yet resolve.
+- [ ] Daniel: record speaking.dark.ca proxy state and any existing redirect rules from the dashboard (public DNS cannot establish those settings).
+- [x] Add `portfolio.dark.ca` through Pages, complete DNS setup and activate HTTPS. Daniel's dashboard shows Active/SSL enabled; Codex verified the served page with normal TLS certificate validation using the current public DNS address.
 - [ ] Remove the temporary `PORTFOLIO_BASE_URL` override; redeploy and verify canonical navigation/feed URLs.
 - [ ] Verify portfolio.dark.ca fully before switching the older hostname.
 - [ ] Add `speaking.dark.ca` as a Pages custom domain and replace its Noti.st DNS target using the Pages-provided configuration.
 - [ ] Add the single host redirect from `deploy/hostname-redirect-rule.json` to the zone's existing rules (do not replace the ruleset). Preserve path and query string.
 - [ ] Codex: verify HTTPS, canonical URLs, old presentation/slide paths and query preservation on both domains; check for redirect loops.
 
+portfolio.dark.ca is Active with SSL enabled. The served page still declares portfolio-dark-ca.pages.dev as canonical and uses it for navigation. Next remove the production `PORTFOLIO_BASE_URL` override and redeploy. Daniel fixed the GitHub repository access and the warning disappeared; a fresh push will test automatic deployment. Do not change speaking.dark.ca yet.
+
 ## 6. Routine publishing and rollback — both
 
 - [ ] Exercise draft announcement -> preview -> PDF attachment -> assets commit/push -> portfolio commit/push -> hosted result. Use an isolated test branch/project for synthetic content; publish real content only when Daniel intends it to be public.
+- [x] Resolve the disconnected-account banner: Daniel added portfolio.dark.ca to the existing GitHub App repository access; the warning disappeared. Automatic push-triggered deployment is checked separately below.
 - [ ] Confirm a normal Git push triggers Pages deployment and that its build uses the pinned assets commit.
+  - Daniel pushed real upcoming-talk publication `89f8bcd` successfully. Cloudflare initially stayed on `2fe31b6` while repository access was missing. Access is now fixed; push the pending launch-progress documentation to test a fresh event and include the Portugal change. Do not create a duplicate talk or reprocess any slides.
 - [ ] Record the first good production deployment and source/assets commits.
 - [ ] Confirm the Pages dashboard's rollback action is available for a previous successful production deployment. Preview deployments are not rollback targets.
 - [ ] Document that a source rollback restores its recorded assets revision. Leave referenced assets commits reachable.

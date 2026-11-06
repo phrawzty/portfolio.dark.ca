@@ -4,6 +4,8 @@ The [launch checklist](launch-checklist.md) is the progress record and dashboard
 
 ## Cloudflare Pages configuration
 
+In the current dashboard, choose **Create application → Continue to Pages → Import an existing Git repository → Get started**. The top-level **Continue with GitHub** flow creates a Worker; this repository is configured for Pages. Then select `phrawzty/portfolio.dark.ca`.
+
 Connect `phrawzty/portfolio.dark.ca`, branch `main`, to a Pages project with Git integration. Use repository root, framework preset **None**, build command `sh scripts/cloudflare-build.sh`, output directory `public`.
 
 Set build environment variables:
@@ -11,8 +13,9 @@ Set build environment variables:
 | Variable | Value |
 | --- | --- |
 | `ZOLA_VERSION` | `0.23.6` |
-| `PYTHON_VERSION` | `3.13.3` |
-| `PORTFOLIO_BASE_URL` | `https://<actual-project>.pages.dev` until the custom domain is ready |
+| `PORTFOLIO_BASE_URL` | `https://portfolio-dark-ca.pages.dev` until the custom domain is ready |
+
+The test deployment is [portfolio-dark-ca.pages.dev](https://portfolio-dark-ca.pages.dev/). Leave `PYTHON_VERSION` unset; the tooling requires Python >=3.11 and the Pages default meets that requirement. Keep the tested Zola version because this repository uses its configuration/template engine.
 
 Use the exact Pages hostname Cloudflare assigns. Remove `PORTFOLIO_BASE_URL` at canonical cutover so the configured `https://portfolio.dark.ca` is used. You can also test a different host locally with `uv run portfolio build --base-url https://example.pages.dev`.
 

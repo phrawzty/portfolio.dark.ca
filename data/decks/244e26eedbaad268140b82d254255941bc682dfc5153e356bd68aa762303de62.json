@@ -2,12 +2,12 @@
   "id": "244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62",
   "source_sha256": "a233d55cfdd53881f383a6a3f8c5caf7ad095b2646571f79cb5ab3098ed550f5",
   "provenance": "original",
-  "pdf": "pdfs/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
+  "pdf": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
   "slides": [
     {
       "id": "V2NCUq",
       "number": 1,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0001.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 🗣 kubectl Speaker : Dan MAHER @phrawzty[@hachyderm.io] Head of Developer Relations chez Scaleway",
@@ -17,7 +17,7 @@
     {
       "id": "7M60NF",
       "number": 2,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0002.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 Inspiré des faits réels : H. Waldo Grunenwald Datadog",
@@ -27,7 +27,7 @@
     {
       "id": "jfooFe",
       "number": 3,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0003.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl (ça se prononce comment ça ?)",
@@ -37,7 +37,7 @@
     {
       "id": "LzXc83",
       "number": 4,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0004.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl ● Kub ● Cube ● Q-bï ● Qu-bé ● Koo-bae",
@@ -47,7 +47,7 @@
     {
       "id": "yJGQ0S",
       "number": 5,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0005.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl ● Contrôle ● Sé-té-el ● Ku-tel ● Cuddle 🫂",
@@ -57,7 +57,7 @@
     {
       "id": "aczDsr",
       "number": 6,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0006.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl ● Kub ● Cube ● Q-bï ● Qu-bé ● Koo-bae × 5 = 4 0 2 ● Contrôle ● Sé-té-el ● Ku-tel ● Cuddle 🫂",
@@ -67,7 +67,7 @@
     {
       "id": "Cwi1lG",
       "number": 7,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0007.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl Qub-ektle",
@@ -77,7 +77,7 @@
     {
       "id": "pGQpdf",
       "number": 8,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0008.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl Koo-Bektale",
@@ -87,7 +87,7 @@
     {
       "id": "Ra9dW4",
       "number": 9,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0009.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl Koobek-talé",
@@ -97,7 +97,7 @@
     {
       "id": "3tsROT",
       "number": 10,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0010.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl Québec-tul",
@@ -107,7 +107,7 @@
     {
       "id": "gDbFGs",
       "number": 11,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0011.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl Kay, you best (l)",
@@ -117,7 +117,7 @@
     {
       "id": "IXK39H",
       "number": 12,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0012.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl K ! oo bek’tl https://en.wikipedia.org/wiki/Klingon#/media/File:KlingonInsignia.svg",
@@ -127,7 +127,7 @@
     {
       "id": "ur2r1g",
       "number": 13,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0013.jpg",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl (ben on fait quoi avec, alors ?)",
@@ -137,7 +137,7 @@
     {
       "id": "XAleu5",
       "number": 14,
-      "image": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0014.png",
+      "image": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "#KCDFrance 2023 kubectl alias k=”kubectl $@”",
@@ -148,77 +148,77 @@
   "page_count": 14,
   "files": [
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0001.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/001.jpg",
       "sha256": "63a78ac0d7089ffaec4e13e714d6421e04fcb9af258092621b51d345e60ed064",
       "bytes": 99500
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0002.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/002.jpg",
       "sha256": "b8915f1d8e9be134bbc3dd8eed99b95dfbd0f53636f38e10e02370cc2d755aa0",
       "bytes": 132683
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0003.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/003.jpg",
       "sha256": "9e0da0c150843f8f5bdb199a27220fd49ecbb38b27d3c9c4fbbc6afd898cc8fc",
       "bytes": 70404
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0004.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/004.jpg",
       "sha256": "3bb082b0e4d811ffae595e55a8b486230cc6e8bf34f1fbde605272622c8b2fee",
       "bytes": 54893
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0005.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/005.jpg",
       "sha256": "e2eed3f53171a3247a73b84308973f6e5062b36429e2be46de866c26bfa1a504",
       "bytes": 55590
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0006.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/006.jpg",
       "sha256": "e14f464c6ff68949f3c25695440ff6c1c8741cbe33126943dceb2480e32cbc27",
       "bytes": 77128
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0007.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/007.jpg",
       "sha256": "bd087784b99de1134cbf005903758229b798d7653034568b826ab4058ae9021b",
       "bytes": 52781
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0008.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/008.jpg",
       "sha256": "e62e4e29f686cec455c115717ea6ee87abb12c53bcf2ee04a3cb961bfb23f740",
       "bytes": 55243
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0009.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/009.jpg",
       "sha256": "1ae7d37dee97660a0b6155ab569aaedd1849db3b84a272e6ebb885033e7923b9",
       "bytes": 55076
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0010.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/010.jpg",
       "sha256": "f08a2b5c032b1f8766189b306801fd59dc1651ae11f77e19fe4a6d6aab181470",
       "bytes": 53848
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0011.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/011.jpg",
       "sha256": "3f5a160d92b6943e5e31517723f695f4b660d2f5a23b62db810678c277a23a7c",
       "bytes": 58196
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0012.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/012.jpg",
       "sha256": "23167063661cf0055024495e7e3d04a0b74b66d2536017efc571643759221ec3",
       "bytes": 73572
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0013.jpg",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/013.jpg",
       "sha256": "f9cff7926d470d02948658cde4bebd7792295d83ba5b1d4db9a707485e349bcc",
       "bytes": 70223
     },
     {
-      "path": "decks/244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62/0014.png",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/slides/014.png",
       "sha256": "5cd71fa30f5479f1454a7a8807d2b6b66af03f654a1b08f16317ffb69a5bf092",
       "bytes": 148218
     },
     {
-      "path": "pdfs/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
+      "path": "decks/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023/2023-03-07-kubectl-ca-se-prononce-comment-ca-kubernetes-community-days-france-2023.pdf",
       "sha256": "a233d55cfdd53881f383a6a3f8c5caf7ad095b2646571f79cb5ab3098ed550f5",
       "bytes": 549303
     }

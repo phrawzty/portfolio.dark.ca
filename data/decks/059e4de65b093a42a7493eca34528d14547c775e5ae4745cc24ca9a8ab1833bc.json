@@ -2,12 +2,12 @@
   "id": "059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc",
   "source_sha256": "5e92a24a2f306c4c637708bf4e57b9eb244aca704064452242ed58e634798126",
   "provenance": "original",
-  "pdf": "pdfs/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
+  "pdf": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
   "slides": [
     {
       "id": "o7Utg8",
       "number": 1,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0001.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Authz as a dev workflow: Architecting better cloud-native apps • Dan at Cerbos • KubeCon London 2025 1 @phrawzty // cerbos.dev",
@@ -17,7 +17,7 @@
     {
       "id": "QRDhYX",
       "number": 2,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0002.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "About Me • Open source nerd • Oldschool sysadmin (devops, sre, etc) • Really into opsec 2 @phrawzty // cerbos.dev",
@@ -27,7 +27,7 @@
     {
       "id": "2kwVQw",
       "number": 3,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0003.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "The Authorization Paradox • Authorization is critical for every application • Often treated as an afterthought • Disconnect between importance and implementation 3 @phrawzty // cerbos.dev",
@@ -37,7 +37,7 @@
     {
       "id": "f4fJJL",
       "number": 4,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0004.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "The Evolution of Developer Primitives • Consider how cloud-native development has evolved • Networking: From manual configuration to service mesh and CNI • Storage: From volume management to persistent volume claims and CSI • Deployment: From manual scripts to GitOps and CI/CD pipelines • Each evolved from infrastructure concerns to developer primitives • Each transformation made developers more productive while improving quality 4 @phrawzty // cerbos.dev",
@@ -47,7 +47,7 @@
     {
       "id": "HOO7Bk",
       "number": 5,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0005.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Why Authorization Has Lagged Behind • Deep coupling with application logic: Authorization often lives inside business logic • Domain-specific requirements: Financial services vs. SaaS vs. healthcare • Complex relationships: Modern applications have intricate permission models • No one-size-fits-all solution: Each framework reinvents authorization • Result: Authorization remains stuck as an infrastructure concern rather than a developer primitive 5 @phrawzty // cerbos.dev",
@@ -57,7 +57,7 @@
     {
       "id": "ti6v49",
       "number": 6,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0006.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "The High Cost of Complexity • Cognitive overhead: Developers constantly context-switch between business logic and auth • Security gaps: Inconsistent implementation leads to vulnerabilities • Velocity impact: Authorization changes require extensive regression testing • Onboarding friction: New team members struggle to understand permission models • This is both a security problem and a developer experience problem 6 @phrawzty // cerbos.dev",
@@ -67,7 +67,7 @@
     {
       "id": "W1piwY",
       "number": 7,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0007.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "The Workflow Opportunity • What if authorization was a creative tool rather than just a constraint? • Low friction is essential for good developer experience • Authorization can be declarative rather than imperative • The right abstractions can make authorization intuitive and maintainable • Transition to workflow-first thinking opens new possibilities 7 @phrawzty // cerbos.dev",
@@ -77,7 +77,7 @@
     {
       "id": "8LYWox",
       "number": 8,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0008.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Authorization as a Foundational Architectural Concern • Traditionally, authentication gets architectural attention, authorization becomes scattered if/else statements • The workflow-first approach makes authorization decisions first-class architectural elements • This creates clear boundaries between business logic and permission logic • Authorization becomes a service rather than embedded code • Example: Netflix’s approach to centralizing authorization for their microservices ecosystem 8 @phrawzty // cerbos.dev",
@@ -87,7 +87,7 @@
     {
       "id": "kfHKhM",
       "number": 9,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0009.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "From Security Constraint to Product Feature • Traditional question: ‘What can’t users do?’ (negative framing) • Better question: ‘How do we enable the right access?’ (positive framing) • Permissions become part of product discussions - not just security reviews • Authorization drives user experience through progressive disclosure • Example: How Slack’s workspace permissions enhance collaboration rather than just restrict it 9 @phrawzty // cerbos.dev",
@@ -97,7 +97,7 @@
     {
       "id": "Mz08Zl",
       "number": 10,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0010.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "The Cost of Afterthought Authorization • Context switching kills developer flow • Tightly coupled authorization is resistant to change • Hard-to-test permission scenarios lead to bugs • Architecture that doesn’t scale with your organization 10 @phrawzty // cerbos.dev",
@@ -107,7 +107,7 @@
     {
       "id": "zIiwSA",
       "number": 11,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0011.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Domain-Driven Authorization • Model permissions around business domains not technical constructs • Permissions should speak the language of the product, not the codebase • Ubiquitous language between product, development, and security teams • Example: Document permissions that model ‘Editor’ and ‘Reviewer’ roles instead of CRUD operations • This aligns security with how users think about your application 11 @phrawzty // cerbos.dev",
@@ -117,7 +117,7 @@
     {
       "id": "bcRkKZ",
       "number": 12,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0012.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Declarative Policies • Move from imperative checks scattered throughout code • To declarative policies that describe intent • Policies become human-readable artifacts • Enables version control and review of authorization logic 12 @phrawzty // cerbos.dev",
@@ -127,7 +127,7 @@
     {
       "id": "DwAYCy",
       "number": 13,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0013.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: External Decision Points • Decouple authorization from application logic • Application asks ‘Can this user do this?’ to a dedicated service • Enables consistent enforcement across services • Allows independent scaling of authorization logic • Makes authorization logic testable in isolation 13 @phrawzty // cerbos.dev",
@@ -137,7 +137,7 @@
     {
       "id": "qFtM5N",
       "number": 14,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0014.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Context-Awareness • Move beyond simple role-based access control • Consider attributes like time, location, resource properties • Authorization that adapts to context is more flexible • Example: Different permission rules during business hours vs. after hours • Enables fine-grained control without explosion of roles 14 @phrawzty // cerbos.dev",
@@ -147,7 +147,7 @@
     {
       "id": "SZc9xm",
       "number": 15,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0015.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Integration Points in the Development Lifecycle • Requirements gathering: Define permission models alongside features • API design: Document authorization requirements in API specs • Implementation: Clear interfaces for authorization checks • Testing: Dedicated test suites for permission logic • Operations: Monitoring and observability for authorization decisions • This creates a continuous thread of authorization awareness 15 @phrawzty // cerbos.dev",
@@ -157,7 +157,7 @@
     {
       "id": "4tKxqB",
       "number": 16,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0016.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "Developer Experience Benefits • Reduced context switching between application and security code • Clear contracts between components • Self-documenting permission models • Faster onboarding for new team members • Confidence that permission changes won’t break functionality 16 @phrawzty // cerbos.dev",
@@ -167,7 +167,7 @@
     {
       "id": "hD3lia",
       "number": 17,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0017.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "The Authorization Ecosystem • A rich ecosystem of open source tools has emerged • CNCF projects leading standardization efforts • Different tools for different architectural approaches • All share the goal of making authorization more manageable • Each addresses different parts of the authorization challenge 17 @phrawzty // cerbos.dev",
@@ -177,7 +177,7 @@
     {
       "id": "JWmZaz",
       "number": 18,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0018.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Open Policy Agent (OPA) • CNCF graduated project for policy enforcement • General-purpose policy engine beyond just authorization • Rego policy language for expressing rules 18 @phrawzty // cerbos.dev",
@@ -187,7 +187,7 @@
     {
       "id": "vqVNTO",
       "number": 19,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0019.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "OpenFGA: Fine-Grained Authorization • CNCF Sandbox project focused on relationship-based authorization • Based on Google’s Zanzibar paper - same system that powers Google Drive permissions • Excels at modeling arbitrary relationships between objects 19 @phrawzty // cerbos.dev",
@@ -197,7 +197,7 @@
     {
       "id": "YAEBLn",
       "number": 20,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0020.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "AuthZen (OpenID Foundation) • Working group standardizing authorization APIs and interface • Building on success of OAuth 2.0 and OpenID Connect • Focus on interoperability between authorization systems • Important for long-term evolution of the authorization ecosystem 20 @phrawzty // cerbos.dev",
@@ -207,7 +207,7 @@
     {
       "id": "ATwzEC",
       "number": 21,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0021.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Cerbos: Developer-Centric Authorization • Human-readable YAML policies that product teams can understand • IDE integrations for real-time policy validation • Designed for frictionless developer workflows • Particularly strong for testing and debugging authorization logic 21 @phrawzty // cerbos.dev",
@@ -217,7 +217,7 @@
     {
       "id": "mnfn6b",
       "number": 22,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0022.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/022.png",
       "width": 1600,
       "height": 900,
       "text": "Choosing the Right Tool • No one-size-fits-all solution • Consider your architecture and team structure • OPA: Broad policy enforcement beyond just authorization • OpenFGA: Complex relationship-based permissions at scale • Cerbos: Developer workflow integration and simplicity • Many teams use multiple tools for different aspects 22 @phrawzty // cerbos.dev",
@@ -227,7 +227,7 @@
     {
       "id": "P7Oaz0",
       "number": 23,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0023.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "Pattern Categories Overview • We’ll explore three categories of practical implementation patterns • Architectural patterns: How authorization fits into your system architecture • Development patterns: How to integrate with developer workflows • Testing patterns: How to verify authorization logic effectively • Each pattern addresses a different aspect of the authorization challenge 23 @phrawzty // cerbos.dev",
@@ -237,7 +237,7 @@
     {
       "id": "1R7OrP",
       "number": 24,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0024.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Policy as a Service • Encapsulate authorization logic in a dedicated service • Applications make explicit authorization requests • Enables consistent enforcement across services • Simplifies policy updates without changing application code • Example: implementation with Cerbos REST API or gRPC service 24 @phrawzty // cerbos.dev",
@@ -247,7 +247,7 @@
     {
       "id": "dkqCjo",
       "number": 25,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0025.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Sidecar Enforcement • Deploy authorization engine alongside each service instance • Low latency for authorization decisions • No network hop for every decision • Maintains consistent policies via centralized distribution • Perfect for Kubernetes environments • Example: Envoy + OPA service mesh integration 25 @phrawzty // cerbos.dev",
@@ -257,7 +257,7 @@
     {
       "id": "G4Z0cD",
       "number": 26,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0026.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Multi-Layer Authorization • Authorization at multiple system layers • Coarse-grained at API gateway or ingress • Service-level for business logic authorization • Data-level for fine-grained access control • Each layer handles what it’s best suited for • Example: Combining API gateway rules, OPA service policies, and row-level security 26 @phrawzty // cerbos.dev",
@@ -267,7 +267,7 @@
     {
       "id": "sOHoUc",
       "number": 27,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0027.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/027.png",
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Policy-Driven Design • Start with authorization requirements before implementation • Define policies in domain-specific language • Generate test cases from policy definitions • Use policies to drive API design • Enables clear separation of business logic and authorization • Example: Cerbos YAML policy defined before service implementation 27 @phrawzty // cerbos.dev",
@@ -277,7 +277,7 @@
     {
       "id": "Ui0cN1",
       "number": 28,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0028.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/028.png",
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Request Context Enrichment • Augment requests with rich context information • Move beyond simple user IDs to full context objects • Context includes user attributes, resource metadata, environmental factors • Enables sophisticated, context-aware decisions • Implementation using request middleware or interceptors 28 @phrawzty // cerbos.dev",
@@ -287,7 +287,7 @@
     {
       "id": "71jQFQ",
       "number": 29,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0029.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Policy Unit Testing • Test policies independent of application code • Table-driven testing for multiple scenarios • Verify both allowed and denied cases • Test for edge cases and unusual conditions • Example: OPA’s testing framework or Cerbos test utilities • This catches policy bugs before they reach production 29 @phrawzty // cerbos.dev",
@@ -297,7 +297,7 @@
     {
       "id": "jLSE7p",
       "number": 30,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0030.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/030.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Authorization Test Fixtures • Create reusable test users with different permission profiles • Standard test resources with various access patterns • Authorization-aware test helpers for common operations • Makes writing permission-aware tests much easier • Example: Test fixture library that sets up complex permission scenarios 30 @phrawzty // cerbos.dev",
@@ -307,7 +307,7 @@
     {
       "id": "LfB20E",
       "number": 31,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0031.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/031.png",
       "width": 1600,
       "height": 900,
       "text": "Practical Workflow Integration • Local development with policy simulation • IDE plugins for real-time policy validation • PR checks for policy consistency • Documentation generation from policies • Debugging tools for authorization decisions • Creates a seamless experience from dev to production 31 @phrawzty // cerbos.dev",
@@ -317,7 +317,7 @@
     {
       "id": "xytpsd",
       "number": 32,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0032.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/032.png",
       "width": 1600,
       "height": 900,
       "text": "Key Transformations • We’ve explored three fundamental transformations in how we approach authorization • From friction to flow in the development process • Security by design rather than security as an add-on • Empowered developers making better security decisions 32 @phrawzty // cerbos.dev",
@@ -327,7 +327,7 @@
     {
       "id": "aIcdl2",
       "number": 33,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0033.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/033.png",
       "width": 1600,
       "height": 900,
       "text": "From Friction to Flow • Traditional approach: Authorization interrupts development flow • New approach: Authorization tooling enhances productivity • The difference is measurable in developer satisfaction and output • When authorization is seamless, creativity flourishes 33 @phrawzty // cerbos.dev",
@@ -337,7 +337,7 @@
     {
       "id": "CcLRdR",
       "number": 34,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0034.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/034.png",
       "width": 1600,
       "height": 900,
       "text": "Security by Design • Security isn’t something you add at the end • Authorization primitives built into your architecture from day one • This shift fundamentally changes the security posture of your applications • The result: more secure systems that are easier to maintain 34 @phrawzty // cerbos.dev",
@@ -347,7 +347,7 @@
     {
       "id": "ow4FVq",
       "number": 35,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0035.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/035.png",
       "width": 1600,
       "height": 900,
       "text": "Empowered Developers • Knowledge is power: developers who understand authorization make better decisions • Clear patterns and tools democratize security expertise • This creates a positive security culture across development teams • When developers are empowered, the entire organization benefits 35 @phrawzty // cerbos.dev",
@@ -357,7 +357,7 @@
     {
       "id": "RFn3OF",
       "number": 36,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0036.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/036.png",
       "width": 1600,
       "height": 900,
       "text": "What Next? • Start with one workflow enhancement • Join the community building better authorization primitives 36 @phrawzty // cerbos.dev",
@@ -367,7 +367,7 @@
     {
       "id": "3ZVrGe",
       "number": 37,
-      "image": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0037.png",
+      "image": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/037.png",
       "width": 1600,
       "height": 900,
       "text": "Thank You • Authorization should enable great software, not hinder it • The tools and patterns exist today to transform your approach • Thank you for joining me on this journey • Brief invitation for questions 37 @phrawzty // cerbos.dev",
@@ -378,192 +378,192 @@
   "page_count": 37,
   "files": [
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0001.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/001.png",
       "sha256": "9e94eae53dc9b9493ca669654fdfc866fd29e4ff6e1d7bcd2cd486ea0ea7f942",
       "bytes": 240791
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0002.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/002.png",
       "sha256": "412d81d695f9a72a13b784092cffde0604e0ff438e0531bd6a57979e7a057905",
       "bytes": 172650
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0003.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/003.png",
       "sha256": "5f3dda33ca4406eba735013e6d1489f00c001ffa04d670354171d56160252a1f",
       "bytes": 252907
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0004.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/004.png",
       "sha256": "d530109685cf10e3ce11ffb719a26cafe405066f917eb2c208e553eadfcaa398",
       "bytes": 592553
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0005.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/005.png",
       "sha256": "0e0e9e69f5ae2dac11fade79c1c710712463aaeb0e4896297a37119ba997ca8c",
       "bytes": 601868
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0006.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/006.png",
       "sha256": "36fae163f7f851014728dbb7bcb0f18070a92a75e0b6ef1e47a80bd9b4dd5691",
       "bytes": 596074
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0007.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/007.png",
       "sha256": "06ac88abc99b964a4aafc68fcc152cb622d2dc84bb64596e2dd00b60b9876a70",
       "bytes": 462284
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0008.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/008.png",
       "sha256": "5793f7564b150bce5ad5bdaca42176cb666788dc47121c982172a825010765be",
       "bytes": 639849
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0009.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/009.png",
       "sha256": "f2c6ff7d2595c59e21be271d43305bcfc7ae3d07aea7fee3328c8f2643b3b781",
       "bytes": 567129
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0010.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/010.png",
       "sha256": "ca100523b458e2d27a93b486d4d5d887650d2789abb45ba2efe95f856a3a2c74",
       "bytes": 376378
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0011.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/011.png",
       "sha256": "e7e3a775f0c6808557e18bfc2a6bac58eac937d3ead9073bffa8c28e20d843f3",
       "bytes": 618785
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0012.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/012.png",
       "sha256": "8f046880d46d65d1505a144fd6f3f76743a6f6debed845caeb9010af9a79d270",
       "bytes": 390452
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0013.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/013.png",
       "sha256": "784e9af07504d3703d2a34e074b0fea3640f1038dbf34a5191acd704b42e95d9",
       "bytes": 440190
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0014.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/014.png",
       "sha256": "35830cb11fa1cdf0f983f53742841306e2a39c5bdd2faaf290e973ba6919c37c",
       "bytes": 484914
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0015.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/015.png",
       "sha256": "d1131556e80be6f7842e81c1e5061c8c041469ce0a83810439e06e71ef44f55e",
       "bytes": 581553
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0016.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/016.png",
       "sha256": "386c4e8787189b846e05e01c3d263cebe3d8158c59170cf5cb7764ff824a1ee4",
       "bytes": 426094
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0017.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/017.png",
       "sha256": "d1fc7cab54714e1263e1ce8fb6c4ede4a39b2b4a261312fe392daa937d834a5c",
       "bytes": 450543
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0018.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/018.png",
       "sha256": "029dab7c3cf876edb482c4c216513c2089a741a16b68e16db7304e0bc35279ce",
       "bytes": 317099
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0019.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/019.png",
       "sha256": "c07897f161e54472629bd968eaba1ef42c98045c42fdaa770bb778e7b19e2ec8",
       "bytes": 394471
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0020.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/020.png",
       "sha256": "94cd0b5d221f84f8de3105fc48a10680be669ba715122d929c0bb3a1221c523a",
       "bytes": 404249
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0021.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/021.png",
       "sha256": "bb61c61871e2d55144e1700f5c80165a434056e822e9f723cffdc8a97e6d3ac2",
       "bytes": 422823
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0022.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/022.png",
       "sha256": "36785bbbdc73363e4574afad3fa088bada29a2882dd68521e8f7505699ed5813",
       "bytes": 494818
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0023.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/023.png",
       "sha256": "1c114ccb8cd3a86b44cd6ed2386c22bd8ad9ea001cd5286f011557e0fcb80f42",
       "bytes": 523735
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0024.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/024.png",
       "sha256": "e66a0076d248314e9846cf71ff7d2a8bf44a91c3bb2c9e8637c38116538c8c36",
       "bytes": 465325
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0025.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/025.png",
       "sha256": "04ed00b84716dd77a428471719a2599f41aef7b24292de1958dad991dbfd6e77",
       "bytes": 481938
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0026.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/026.png",
       "sha256": "6053dccd08cf2db51dfabf8de4da34db26884a590c01ba8ac366c20d83f69a6b",
       "bytes": 525697
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0027.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/027.png",
       "sha256": "ce9a4069169a5c1d9d89f0f1dd3ba4ab7df1ae59ab11db49ea5408a9bac03403",
       "bytes": 522205
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0028.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/028.png",
       "sha256": "7dfb17bf081606f52b97417aa696b17b8e78c33151e7fed7658a78344a440db0",
       "bytes": 476966
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0029.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/029.png",
       "sha256": "f79bfb9bee832715755d502389b55c81c13a3e116bcc55e7390e8b30e98114b1",
       "bytes": 471821
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0030.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/030.png",
       "sha256": "fef50ae1265a38e0d894d9553fb72fc8de50a6ebbf04015f2eed224476990bf7",
       "bytes": 468194
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0031.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/031.png",
       "sha256": "eabca51748fa854998afc3c73e6f8672924d617d91de5d51a241cba1dde3a480",
       "bytes": 457607
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0032.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/032.png",
       "sha256": "b4f7d616c12bbbb2f9719ed5a9ac75a1fed30c1eb0039f77d732a24c02e17abc",
       "bytes": 389347
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0033.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/033.png",
       "sha256": "d6163b8e955eafc40e58cbebd3e9f70185f9946a46b80ab470c009d070df3ecd",
       "bytes": 381652
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0034.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/034.png",
       "sha256": "298be56b088c566a0b82a0af592848144dffc3257b21ba225a63ba33034d1c82",
       "bytes": 368538
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0035.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/035.png",
       "sha256": "86dc4603e2f7cf6320122be993bb49b535df28ac4084ed76c3bc8c576a9eb374",
       "bytes": 432833
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0036.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/036.png",
       "sha256": "0901df1c87c17ebd0ba66c9240764a23afef8be0e48971b85849a980421d8e33",
       "bytes": 188417
     },
     {
-      "path": "decks/059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc/0037.png",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/slides/037.png",
       "sha256": "61f09b1f93082087022cf17bae8e8017fbe027cb2c88e89af1cf85fdce491cce",
       "bytes": 289300
     },
     {
-      "path": "pdfs/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
+      "path": "decks/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025/2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf",
       "sha256": "5e92a24a2f306c4c637708bf4e57b9eb244aca704064452242ed58e634798126",
       "bytes": 1212021
     }

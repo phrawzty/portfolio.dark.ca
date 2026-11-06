@@ -2,12 +2,12 @@
   "id": "583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de",
   "source_sha256": "4d1ddad37dc350d1033303ae7495cb3818e175649845d794f61de35b8a6e9e30",
   "provenance": "reconstructed",
-  "pdf": "pdfs/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
+  "pdf": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
   "slides": [
     {
       "id": "KYMpOa",
       "number": 1,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0001.jpg",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -17,7 +17,7 @@
     {
       "id": "ws5dGz",
       "number": 2,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0002.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "Context: About Me » Recovering system administrator » Secretly French ( ! don’t tell anybody) » Frequently ate lunch with the security folks at Datadog » Oh! I work at a start-up called Cerbos @phrawzty // cerbos.dev 2",
@@ -27,7 +27,7 @@
     {
       "id": "ZBoR9O",
       "number": 3,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0003.jpg",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Context: About Cerbos » “Externalized, policy-based, runtime authorization for your applications” » It’s literally a self-hosted binary with an HTTP API » There’s also a hub with a bunch of neat features @phrawzty // cerbos.dev 3",
@@ -37,7 +37,7 @@
     {
       "id": "BVXF1n",
       "number": 4,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0004.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "What is Authorization? » “Is this entity allowed to perform this action on this resource?” » Related to, but distinct from, authentication @phrawzty // cerbos.dev 4",
@@ -47,7 +47,7 @@
     {
       "id": "npG2uC",
       "number": 5,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0005.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Early Days: POSIX Permissions » User/Group/World model » Read/Write/Execute primitives @phrawzty // cerbos.dev 5",
@@ -57,7 +57,7 @@
     {
       "id": "Q8yqmb",
       "number": 6,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0006.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "The Middle Ages: ACLs & RBAC » Access Control Lists » Role-Based Access Control frameworks @phrawzty // cerbos.dev 6",
@@ -67,7 +67,7 @@
     {
       "id": "2Shef0",
       "number": 7,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0007.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "Modern Authorization » Token-based approaches (JWT, OIDC) » Federated systems » PBAC, ABAC, ReBAC… @phrawzty // cerbos.dev 7",
@@ -77,7 +77,7 @@
     {
       "id": "emQSXP",
       "number": 8,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0008.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "When it all goes wrong (and it will) @phrawzty // cerbos.dev 8",
@@ -87,7 +87,7 @@
     {
       "id": "H69GPo",
       "number": 9,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0009.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug” Overview » ! May 2018 » Audience selector default changed to public » 14 million users affected » Policy enforcement failure during feature update @phrawzty // cerbos.dev 9",
@@ -97,7 +97,7 @@
     {
       "id": "tPs4ID",
       "number": 10,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0010.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug” Key Authorization Failures » Default permission setting changed without user consent » Policy enforcement layer failed during UI update » Inadequate permission state validation @phrawzty // cerbos.dev 10",
@@ -107,7 +107,7 @@
     {
       "id": "VjasAc",
       "number": 11,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0011.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Okta “Support System breach” Overview » ! 2023 » HAR file exfiltration exposed session tokens » Auth bypasses in support systems @phrawzty // cerbos.dev 11",
@@ -117,7 +117,7 @@
     {
       "id": "83Jg31",
       "number": 12,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0012.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Okta “Support System breach” Key Authorization Failures » Overly permissive access to production » Insufficient isolation between support tiers » Authorization checks bypassed through session token theft » Inadequate token validation controls @phrawzty // cerbos.dev 12",
@@ -127,7 +127,7 @@
     {
       "id": "kN2TvQ",
       "number": 13,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0013.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard” Overview » ! 2024 » Password spray attack led to tenant compromise » Legacy tenants, basic auth, and privilege escalation @phrawzty // cerbos.dev 13",
@@ -137,7 +137,7 @@
     {
       "id": "MglHnp",
       "number": 14,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0014.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard” Key Authorization Failures » Excessive privileges in legacy tenant configurations » Inadequate role separation » Authorization boundaries between tenants insufficiently enforced » Lack of just-in-time access controls for privileged operations @phrawzty // cerbos.dev 14",
@@ -147,7 +147,7 @@
     {
       "id": "z0U5gE",
       "number": 15,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0015.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "How to stop it from all going wrong (or at least give yourself a fighting chance) @phrawzty // cerbos.dev 15",
@@ -157,7 +157,7 @@
     {
       "id": "bKCtYd",
       "number": 16,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0016.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "Token Security » Validation best practices (signature, expiry, issuer) » Secure storage and transport » Avoiding common token vulnerabilities @phrawzty // cerbos.dev 16",
@@ -167,7 +167,7 @@
     {
       "id": "DdvhR2",
       "number": 17,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0017.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Permission Management » Role explosion ! » Just-in-time access patterns » Principle of least privilege @phrawzty // cerbos.dev 17",
@@ -177,7 +177,7 @@
     {
       "id": "pxeVJR",
       "number": 18,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0018.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Externalizing Authorization » Clear separation between business logic and authz rules » Update policies without updating code » Enhanced auditability and compliance reporting @phrawzty // cerbos.dev 18",
@@ -187,7 +187,7 @@
     {
       "id": "SHNJBq",
       "number": 19,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0019.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Authorization Systems » Policy unit testing » Automated access review @phrawzty // cerbos.dev 19",
@@ -197,7 +197,7 @@
     {
       "id": "4b674F",
       "number": 20,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0020.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Critical Path Patterns » High-availability authorization » Graceful degradation strategies » When in doubt, deny by default @phrawzty // cerbos.dev 20",
@@ -207,7 +207,7 @@
     {
       "id": "guouwe",
       "number": 21,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0021.png",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Conclusion » Authorization fails at boundaries and transitions » Externalize your authorization decisions » Tokens require rigorous validation » Use just-in-time access and live the principle of least privilege » Test continuously and review access regularly @phrawzty // cerbos.dev 21",
@@ -217,7 +217,7 @@
     {
       "id": "JEXip3",
       "number": 22,
-      "image": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0022.jpg",
+      "image": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "← play this game! (no really, it’s fun) 22",
@@ -228,117 +228,117 @@
   "page_count": 22,
   "files": [
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0001.jpg",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/001.jpg",
       "sha256": "c85b8e988ad4a01063b5baa72ce9aa7ba99003ffb0a35d68a191a2769fd5627d",
       "bytes": 134751
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0002.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/002.png",
       "sha256": "7df93ec24e9261b061f40e161311c29adc5736b3ce9aeea3f6289a969181312f",
       "bytes": 449505
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0003.jpg",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/003.jpg",
       "sha256": "092ca95b905d77b7c4cf813d48cb7e1fa5eecbc1db7563754669c6c3284c5b40",
       "bytes": 124217
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0004.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/004.png",
       "sha256": "048cceec0f1f3cfba251c889fb40d8824d79e5ef06795431ab2ce48eef288379",
       "bytes": 301791
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0005.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/005.png",
       "sha256": "e8c185e8e55cb29b2bd554b75ce7f0e905ab4a2d96e292e78c6602388a17c8f1",
       "bytes": 270915
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0006.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/006.png",
       "sha256": "cf34f40ebab54fceb96957f2d2a7bb8848bdfabcc26073bfbd5b1e073824cc8b",
       "bytes": 272547
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0007.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/007.png",
       "sha256": "d8d63607a06648b483d9c662b26b304f70858bb80d002e3b7fcc2cad7b413dfb",
       "bytes": 271192
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0008.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/008.png",
       "sha256": "e27bcd4c8d3e0b7ce193e95512e5d8891dfd1eb8f241b48a5b3270253ba357e4",
       "bytes": 218467
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0009.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/009.png",
       "sha256": "e337d187af70ea02dcc65a72a78e00e4e96f90679cd254ad7aa0416660b626e3",
       "bytes": 434324
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0010.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/010.png",
       "sha256": "deec5c7469c912c1609e06692d11ce7ce4e1e33df4748b43586e7262e0da7432",
       "bytes": 434982
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0011.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/011.png",
       "sha256": "15abcee98ac1f8ce829ebb3b19ff51e9912c33145eccbff1f434ea91ecf99492",
       "bytes": 385990
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0012.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/012.png",
       "sha256": "b4cc5ef7de9e6adea5eec05aa792b0c8f006d7de676de4705d4080fac5348f76",
       "bytes": 516125
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0013.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/013.png",
       "sha256": "d490303c1168be21b7a596917cc014bdb9407ee3c6e0a471665fce665b14c6e2",
       "bytes": 407164
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0014.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/014.png",
       "sha256": "015804b9bf83d6b9a8d3159ad5c4f4622c6288030cf0257052c359e5cfa8bb1f",
       "bytes": 533395
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0015.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/015.png",
       "sha256": "0cb97fc929b86f0154e4babce40759f06468593e605153223744753ef84c7396",
       "bytes": 382033
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0016.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/016.png",
       "sha256": "4cac0a2edf561beb08b4be8e13f828a485e08dcf0624d51e68771823f4a8db7f",
       "bytes": 301351
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0017.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/017.png",
       "sha256": "91e5f12f8767d6f0b0c0886508d755aab25c875ee8798df601af36017a7ea147",
       "bytes": 286980
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0018.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/018.png",
       "sha256": "1f50adc07b1cd18540b9500efd335a17aa3104ea3c0d881df1ef644d18e35ed4",
       "bytes": 371177
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0019.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/019.png",
       "sha256": "13059f36d3570b871460dd528b9eeecd49117e2364d5f49e436e5d8cc39df72c",
       "bytes": 247228
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0020.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/020.png",
       "sha256": "4ff5aa7f37e15a4b6178cfae78f69b206ae045878a2037527c86b50d3ffb0a58",
       "bytes": 283933
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0021.png",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/021.png",
       "sha256": "644c2230a49e3e9a9bbc65c6d9dcb8eb2500d4cec63c62146980a15f6bb29426",
       "bytes": 449661
     },
     {
-      "path": "decks/583e55091bdcfaed7e2e959d975f88f3166932cdc9fb95b87efc44d284e662de/0022.jpg",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/slides/022.jpg",
       "sha256": "1e861947e15cb0445db9a28cd038aaeb584b1e29a40a0bf6c7e39ef154221da1",
       "bytes": 168050
     },
     {
-      "path": "pdfs/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
+      "path": "decks/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver/2025-03-14-patterns-of-failure-in-modern-authorization-snowfroc-owasp-denver.pdf",
       "sha256": "4d1ddad37dc350d1033303ae7495cb3818e175649845d794f61de35b8a6e9e30",
       "bytes": 3566497
     }

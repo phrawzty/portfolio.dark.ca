@@ -2,12 +2,12 @@
   "id": "4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57",
   "source_sha256": "3029060a2e60ba4d34e746aeffe97aad19c853f796855dee0f457e1013aa6b2b",
   "provenance": "original",
-  "pdf": "pdfs/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
+  "pdf": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
   "slides": [
     {
       "id": "aFGhOh",
       "number": 1,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0001.png",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Guided Meditation for Stressed Out DevOps Engineers 1 — @phrawzty // Scaleway",
@@ -17,7 +17,7 @@
     {
       "id": "CYzVH6",
       "number": 2,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0002.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "2 — CC-BY-2.0 Maxence (https://flic.kr/p/uq9PxB) @phrawzty // Scaleway",
@@ -27,7 +27,7 @@
     {
       "id": "osiJ9V",
       "number": 3,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0003.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "3 — CC-BY-2.0 anna.chara (https://flic.kr/p/oJB94a) @phrawzty // Scaleway",
@@ -37,7 +37,7 @@
     {
       "id": "RCR71u",
       "number": 4,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0004.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "4 — CC-BY-2.0 Ann HS. (https://flic.kr/p/23jy2ra) @phrawzty // Scaleway",
@@ -47,7 +47,7 @@
     {
       "id": "3W9uuJ",
       "number": 5,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0005.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "5 — CC-BY-ND-2.0 Jim Roberts Gallery (https://flic.kr/p/RVb99M) @phrawzty // Scaleway",
@@ -57,7 +57,7 @@
     {
       "id": "fpsimi",
       "number": 6,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0006.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "6 — CC-BY-ND-2.0 Baker County Tourism (https://flic.kr/p/ays7mt) @phrawzty // Scaleway",
@@ -67,7 +67,7 @@
     {
       "id": "I9bWf7",
       "number": 7,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0007.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "7 — CC-BY-SA-2.0 Susanne Nilsson (https://flic.kr/p/XQ86Ts) @phrawzty // Scaleway",
@@ -77,7 +77,7 @@
     {
       "id": "uTKKXW",
       "number": 8,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0008.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "8 — CC-BY-SA-2.0 Zooey (https://flic.kr/p/eiXGcx) @phrawzty // Scaleway",
@@ -87,7 +87,7 @@
     {
       "id": "Wn38Pv",
       "number": 9,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0009.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "9 — CC-PD-1.0 pingnews.com (https://flic.kr/p/FYCzA) @phrawzty // Scaleway",
@@ -97,7 +97,7 @@
     {
       "id": "96lwIK",
       "number": 10,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0010.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "10 — CC-BY-2.0 Travelbusy.com (https://flic.kr/p/Fw8gep) @phrawzty // Scaleway",
@@ -107,7 +107,7 @@
     {
       "id": "lQUkAj",
       "number": 11,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0011.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "11 — CC-BY-2.0 I Am birdaspoetry.com (https://flic.kr/p/2ni1cLV) @phrawzty // Scaleway",
@@ -117,7 +117,7 @@
     {
       "id": "NkDY38",
       "number": 12,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0012.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "12 — CC-PD-1.0 Bonnie Moreland (https://flic.kr/p/254cELy) @phrawzty // Scaleway",
@@ -127,7 +127,7 @@
     {
       "id": "03wLvX",
       "number": 13,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0013.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "13 — CC-BY-SA-2.0 Colin Knowles (https://flic.kr/p/QxX8Ch) @phrawzty // Scaleway",
@@ -137,7 +137,7 @@
     {
       "id": "cNf9nw",
       "number": 14,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0014.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "14 — CC-BY-SA-2.0 Christian Collins (https://flic.kr/p/2mJo7SN) @phrawzty // Scaleway",
@@ -147,7 +147,7 @@
     {
       "id": "EhNxgL",
       "number": 15,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0015.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "15 — CC-BY-2.0 Jez Elliot (https://flic.kr/p/8S74KR) @phrawzty // Scaleway",
@@ -157,7 +157,7 @@
     {
       "id": "r16lYk",
       "number": 16,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0016.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "16 — CC-BY-2.0 Ray in Manila (https://flic.kr/p/TRHb2o) @phrawzty // Scaleway",
@@ -167,7 +167,7 @@
     {
       "id": "TKpZR9",
       "number": 17,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0017.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "17 — CC-BY-2.0 Mobilus In Mobili (https://flic.kr/p/21cxn6u) @phrawzty // Scaleway",
@@ -177,7 +177,7 @@
     {
       "id": "5eYNJY",
       "number": 18,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0018.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "18 — CC-BY-2.0 John Mason (https://flic.kr/p/MUjgAJ) @phrawzty // Scaleway",
@@ -187,7 +187,7 @@
     {
       "id": "hyHBBx",
       "number": 19,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0019.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "19 — CC-BY-SA-2.0 Thomas Wensing (https://flic.kr/p/rgjKKo) @phrawzty // Scaleway",
@@ -197,7 +197,7 @@
     {
       "id": "KHzz4M",
       "number": 20,
-      "image": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0020.jpg",
+      "image": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "20 — CC-BY-SA-2.0 Frank Shepherd (https://flic.kr/p/Kc3hea) @phrawzty // Scaleway",
@@ -208,107 +208,107 @@
   "page_count": 20,
   "files": [
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0001.png",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/001.png",
       "sha256": "d643b31e623e72f2760c5ce7b3e5310b99d3c189905e3fb9ceedec362934ac34",
       "bytes": 96941
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0002.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/002.jpg",
       "sha256": "02c32360d7e721a15c12a811cd617928e1eb7763bda8b9eb02db99e770c51d4c",
       "bytes": 271235
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0003.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/003.jpg",
       "sha256": "75ff531aed0118ff1f6bea8cdc1a09af5b696ea97232b38f3c807e239b35dffe",
       "bytes": 872166
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0004.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/004.jpg",
       "sha256": "2cdae2a53decd3eca9d01848163200df60322bab270f06d75987482684a70785",
       "bytes": 280486
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0005.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/005.jpg",
       "sha256": "b0c175d7c46b0f35cacbd8799f09b66d4f5f93b14c9f136a7b3ad4f6fe03753f",
       "bytes": 299952
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0006.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/006.jpg",
       "sha256": "0270f2741cdafa30f7137d9d7e7f1fb075cff49c084a1f2ccff8d3fd35bb37db",
       "bytes": 730644
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0007.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/007.jpg",
       "sha256": "9233bc8ee5fba2e22053f75ab13871ec156648462a04a52439feb8b1daced873",
       "bytes": 225355
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0008.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/008.jpg",
       "sha256": "cc5fa3c49c7dd8135f1988563729c0d554bcb101a574743521ea31b870803105",
       "bytes": 253327
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0009.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/009.jpg",
       "sha256": "5a611d99e715a4f6e9387e5c2a2053f6fc37f94e53511d82ed171e130c8899e7",
       "bytes": 251764
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0010.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/010.jpg",
       "sha256": "b743bd9432be27edebad3a8335666138307cd329ab45d4eb09d410f880d5f24f",
       "bytes": 550129
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0011.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/011.jpg",
       "sha256": "8be4b99637c1668b5fd19684b38b19b426971cb9baac43badf4475fddaea6228",
       "bytes": 306830
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0012.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/012.jpg",
       "sha256": "36894dd36638531042327942d43fac94a70e6c0ee40f16b1d70f46f96498a972",
       "bytes": 358795
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0013.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/013.jpg",
       "sha256": "bcce566f9e43fbc7d93fb442e5c8ea56b366d9ed4e4981989a521b3209671fc7",
       "bytes": 294043
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0014.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/014.jpg",
       "sha256": "3252584cc2613d15493a52d97c4f6fcbdf9d21cacfe8d245ce5a903d3a96c32c",
       "bytes": 620491
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0015.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/015.jpg",
       "sha256": "df39112a581843ccf4df375a81bc12f0f1bc62cf9ca2818e20c76894219c64c3",
       "bytes": 984813
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0016.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/016.jpg",
       "sha256": "d96b34e39adf6977802e872faaf88873223310406893ac21d9e9b56468a9ed9f",
       "bytes": 779482
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0017.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/017.jpg",
       "sha256": "2d80f2511e5d6c3762d1e9a2f45a27620ab3744ac87d444e645977a21b360526",
       "bytes": 539908
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0018.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/018.jpg",
       "sha256": "b1e6f350c5b2dd99c7c9453edb78577450ff096d5d073e2628bf9cfebfbfdf06",
       "bytes": 608283
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0019.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/019.jpg",
       "sha256": "d56ad00586c1bbbc1f85fbdd73a536c6745150953ee840b9d4df92cb5988634c",
       "bytes": 240220
     },
     {
-      "path": "decks/4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57/0020.jpg",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/slides/020.jpg",
       "sha256": "d55500f1ed38d4646ce43468e50e18a812f3aa2e232564601ab0ee0136016f5b",
       "bytes": 464381
     },
     {
-      "path": "pdfs/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
+      "path": "decks/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023/2023-06-22-devops-meditation-maybe-devopsdays-amsterdam-2023.pdf",
       "sha256": "3029060a2e60ba4d34e746aeffe97aad19c853f796855dee0f457e1013aa6b2b",
       "bytes": 76231756
     }

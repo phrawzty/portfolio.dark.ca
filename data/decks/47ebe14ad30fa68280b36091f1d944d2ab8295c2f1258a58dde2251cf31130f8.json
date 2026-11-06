@@ -2,12 +2,12 @@
   "id": "47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8",
   "source_sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
   "provenance": "original",
-  "pdf": "pdfs/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
+  "pdf": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
   "slides": [
     {
       "id": "YGfE6h",
       "number": 1,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0001.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Daniel “phrawzty” Maher Datadog Demystifying DevOps & SRE 1",
@@ -17,7 +17,7 @@
     {
       "id": "AaO1z6",
       "number": 2,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0002.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "2",
@@ -27,7 +27,7 @@
     {
       "id": "mu6prV",
       "number": 3,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0003.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "3",
@@ -37,7 +37,7 @@
     {
       "id": "PDpdju",
       "number": 4,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0004.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 4",
@@ -47,7 +47,7 @@
     {
       "id": "1XYRcJ",
       "number": 5,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0005.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 5",
@@ -57,7 +57,7 @@
     {
       "id": "drHFUi",
       "number": 6,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0006.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "DevOps: CAMS — Culture — Automation — Measurement — Sharing @phrawzty // Datadog 6",
@@ -67,7 +67,7 @@
     {
       "id": "GB03N7",
       "number": 7,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0007.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "7",
@@ -77,7 +77,7 @@
     {
       "id": "sUirFW",
       "number": 8,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0008.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 8",
@@ -87,7 +87,7 @@
     {
       "id": "UoRf7v",
       "number": 9,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0009.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "Organising your organisation — Product teams — Squads — Guilds @phrawzty // Datadog 9",
@@ -97,7 +97,7 @@
     {
       "id": "78AT0K",
       "number": 10,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0010.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Product Teams 10",
@@ -107,7 +107,7 @@
     {
       "id": "jRtGsj",
       "number": 11,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0011.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Squads 11",
@@ -117,7 +117,7 @@
     {
       "id": "Llc4l8",
       "number": 12,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0012.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "Guilds 12",
@@ -127,7 +127,7 @@
     {
       "id": "y5KsdX",
       "number": 13,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0013.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "DevOps is an idea; SRE is a practice — A cohort of Site Reliability Engineers, organised and managed as a group, form an SRE team. — SRE teams are versatile! — Code reviews, incident reports, facilitate postmortems — Support a dedicate portfolio or a product team — Individual SREs may rotate in and out of projects / sprints (or not!) @phrawzty // Datadog 13",
@@ -137,7 +137,7 @@
     {
       "id": "aP3gVw",
       "number": 14,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0014.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 14",
@@ -147,7 +147,7 @@
     {
       "id": "CimUOL",
       "number": 15,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0015.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "SREs have personalities — Patience for staring at code — Enjoy problem-solving — Capacity for self-teaching — Wide range of technical interests — Great at communicating in different ways — Big on teamwork and mutual trust — Interested in mentoring / teaching @phrawzty // Datadog 15",
@@ -157,7 +157,7 @@
     {
       "id": "p2VIGk",
       "number": 16,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0016.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "SREs have backgrounds — Traditional “ops” or “dev” profiles — Customer success agent — PhD in computer science — Dropped out of high school Great SRE talent can come from anywhere! @phrawzty // Datadog 16",
@@ -167,7 +167,7 @@
     {
       "id": "RME699",
       "number": 17,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0017.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Topics 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 17",
@@ -177,7 +177,7 @@
     {
       "id": "3fwu1Y",
       "number": 18,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0018.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "SRE: Standalone? Embedded? Other?! — Depends on your organisation and your realities. — Try a few different things—see what works! — This is where the CAMS acronym comes into play. @phrawzty // Datadog 18",
@@ -187,7 +187,7 @@
     {
       "id": "fzfhtx",
       "number": 19,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0019.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Archaeology is the search for fact — not truth. If it’s truth you’re looking for, Dr. Tyree’s philosophy class is right down the hall. — Indiana Jones @phrawzty // Datadog 19",
@@ -197,7 +197,7 @@
     {
       "id": "IJOVmM",
       "number": 20,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0020.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "20",
@@ -207,7 +207,7 @@
     {
       "id": "ud7Jel",
       "number": 21,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0021.png",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Topics, reprised 1. Clear up confusion about DevOps and SRE mean. 2. Discuss team and organisational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions—and pitfalls! @phrawzty // Datadog 21",
@@ -217,7 +217,7 @@
     {
       "id": "Wwq7XA",
       "number": 22,
-      "image": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0022.jpg",
+      "image": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Thanks! @phrawzty // Datadog 22",
@@ -228,117 +228,117 @@
   "page_count": 22,
   "files": [
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0001.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/001.png",
       "sha256": "f33171f87e3be1b3193f6786633ddb5372ae6bbbe6a16edc45ffc271a89904ee",
       "bytes": 46112
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0002.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/002.jpg",
       "sha256": "db2b667a341122d2838e179d3ee6f0f7556b77d034ffa5802ec1d4e22d41d210",
       "bytes": 147328
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0003.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/003.jpg",
       "sha256": "8c75eec907d25a79acd606bac58836b13a03dc572a247c718b54026567085516",
       "bytes": 98063
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0004.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/004.png",
       "sha256": "5d50e243789089a39a2b4f08e4688e537888453c70746049d940f654081e7fe0",
       "bytes": 76896
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0005.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/005.png",
       "sha256": "91e9ae04dcffda5478c50e1fbc4d108c06af643385ef3e0daedb9fe025b59292",
       "bytes": 76113
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0006.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/006.png",
       "sha256": "6b2fdeb29b5ba1a05583a42ad31a3cfaf8a735b9f93e30870037793204fc68e2",
       "bytes": 81462
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0007.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/007.jpg",
       "sha256": "a1a999c8c7356be1f2611319da90c7811f030025ba648c211515741fefcf0c9f",
       "bytes": 339153
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0008.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/008.png",
       "sha256": "b159c53eea0f5cbe5127ac57d12d353efb18ce27768a3ba8aabdca6c02bf250c",
       "bytes": 76286
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0009.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/009.png",
       "sha256": "c8fbc57502d911a1d59ae1adf22efc2c9a712f4c5d44122b7f6e38b21a4734a4",
       "bytes": 32411
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0010.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/010.jpg",
       "sha256": "9756487f3192051a3fbff0d9bfa65fb7a289ea5488706cad3f000d1e52e93382",
       "bytes": 472237
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0011.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/011.jpg",
       "sha256": "49052acaa7e5d226ef6d725f09206d922336c3235829fc072c61fd7095ba9594",
       "bytes": 488140
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0012.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/012.jpg",
       "sha256": "c482ea57e45bf0a9f225ccd7e029aaaa5037de172e24f38f501ca77ea8968537",
       "bytes": 390670
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0013.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/013.png",
       "sha256": "8a15303755e00765cd0d40f6facac5190634b0865dd66356b052e49cb909229a",
       "bytes": 120294
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0014.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/014.png",
       "sha256": "02bff802eb8719363e10b6067c5527aa5d105adb33ac79485cf07431c7108696",
       "bytes": 76042
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0015.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/015.png",
       "sha256": "d0019d136727badddb2222952823221c96826a2145c0a485e8e3a6419cab1b41",
       "bytes": 97335
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0016.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/016.png",
       "sha256": "7a284f5d3524e5f6e73fb4d251ab54e5cf38a9b58c5ea89efe4ccbba6a2f5498",
       "bytes": 173864
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0017.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/017.png",
       "sha256": "25ad2ce69b2a0818a2455c15e0e8999556b005cf64cb7daa8b957e4455d0ed54",
       "bytes": 76421
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0018.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/018.png",
       "sha256": "95c3c9bcbb763c516745438c7436c72ceb284770eefddec9d4f58b5d326760b0",
       "bytes": 72112
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0019.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/019.png",
       "sha256": "57e4a5ca803876ef2c1499fc6f66b2c09ba34c8603ed79b7a132fa5720096866",
       "bytes": 204484
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0020.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/020.jpg",
       "sha256": "9e5dff87ba5dfb2071b4caedbc958ff5f2794f956b4139bb00a57b9e7417373d",
       "bytes": 439153
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0021.png",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/021.png",
       "sha256": "02514f05c71139305f4d0ffbe3c3ce457db76613a88a4b49c46a9fbb818bd72e",
       "bytes": 79522
     },
     {
-      "path": "decks/47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8/0022.jpg",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/slides/022.jpg",
       "sha256": "a3a0434542691ca6bc7e2e0cf43b4fc1005577600b54922aa0d92e06d1eb067b",
       "bytes": 78168
     },
     {
-      "path": "pdfs/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
+      "path": "decks/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual/2020-06-23-demystifying-devops-sre-devops-enterprise-summit-london-virtual.pdf",
       "sha256": "4a3a95bb187785790db88e1a955a4dd83fc6c83c366afa1a4ce01481fba32751",
       "bytes": 7153874
     }

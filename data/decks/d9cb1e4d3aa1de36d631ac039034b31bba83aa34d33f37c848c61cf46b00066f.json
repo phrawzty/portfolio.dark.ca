@@ -2,12 +2,12 @@
   "id": "d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f",
   "source_sha256": "dde9887d70e53a462c6e4cf043f5cfa3f2782963e07a26d0c34188bb3629eddf",
   "provenance": "original",
-  "pdf": "pdfs/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
+  "pdf": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
   "slides": [
     {
       "id": "gyj2kz",
       "number": 1,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0001.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -17,7 +17,7 @@
     {
       "id": "JIRqdO",
       "number": 2,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0002.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "IOT204-S More than rubber on the road: Tires in an IoT world Roberto Delrosso Digital Innovation Lead Pirelli Daniel Maher Developer Relations Datadog © 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
@@ -27,7 +27,7 @@
     {
       "id": "vcAeVn",
       "number": 3,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0003.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "© 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
@@ -37,7 +37,7 @@
     {
       "id": "XvtSOC",
       "number": 4,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0004.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Pirelli",
@@ -47,7 +47,7 @@
     {
       "id": "AFcGGb",
       "number": 5,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0005.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "Every company is a tech company",
@@ -57,7 +57,7 @@
     {
       "id": "mZL490",
       "number": 6,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0006.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog",
@@ -67,7 +67,7 @@
     {
       "id": "Ot3s1P",
       "number": 7,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0007.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Pirelli: A pure tire company… Cars Moto Motorsport Bicycling",
@@ -77,7 +77,7 @@
     {
       "id": "1Cmfto",
       "number": 8,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0008.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "…or not",
@@ -87,7 +87,7 @@
     {
       "id": "dWVTmD",
       "number": 9,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0009.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Pirelli’s focus High-end and prestige markets Premium products Prestige brand",
@@ -97,7 +97,7 @@
     {
       "id": "FqEHec",
       "number": 10,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0010.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "From whence we came Standard story: everything on-prem at data centers and in factories",
@@ -107,7 +107,7 @@
     {
       "id": "s9x5X1",
       "number": 11,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0011.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Moving to the cloud… Nearly 150 years of legacy More than just software",
@@ -117,7 +117,7 @@
     {
       "id": "UTftPQ",
       "number": 12,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0012.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "B2B and B2C Historically B2B-focused Today, B2C is growing quickly",
@@ -127,7 +127,7 @@
     {
       "id": "6nOhHp",
       "number": 13,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0013.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "The past: pretty good! Built progressively and from organic needs State of the art, at the time",
@@ -137,7 +137,7 @@
     {
       "id": "j77VAE",
       "number": 14,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0014.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "Focus Core system priorities Protecting trade secrets Securing sensitive data",
@@ -147,7 +147,7 @@
     {
       "id": "LQqJ2d",
       "number": 15,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0015.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Promise and potential challenges of the cloud Unlock creative potential Massive cultural shift Agile? DevOps? It’s complicated…",
@@ -157,7 +157,7 @@
     {
       "id": "xkZ6v2",
       "number": 16,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0016.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "The first phase Brand new team with a big responsibility Lift and shift",
@@ -167,7 +167,7 @@
     {
       "id": "a4HunR",
       "number": 17,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0017.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "Let’s talk tech",
@@ -177,7 +177,7 @@
     {
       "id": "CO0ifq",
       "number": 18,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0018.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "Advantages of the first phase Technical advantages? Sure. Business advantages? Sì!",
@@ -187,7 +187,7 @@
     {
       "id": "ohjWYF",
       "number": 19,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0019.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability: required Monitoring isn’t enough Partner with an expert",
@@ -197,7 +197,7 @@
     {
       "id": "R1SKQe",
       "number": 20,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0020.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "What is Observability?",
@@ -207,7 +207,7 @@
     {
       "id": "3LB8J3",
       "number": 21,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0021.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "Increasing complexity and scale",
@@ -217,7 +217,7 @@
     {
       "id": "fetwBS",
       "number": 22,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0022.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "An holistic, multi-dimensional approach",
@@ -227,7 +227,7 @@
     {
       "id": "Hyck3r",
       "number": 23,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0023.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "Story time! Critical B2C service crossing multiple segments and teams Chasing problems; chasing ghosts…",
@@ -237,7 +237,7 @@
     {
       "id": "uILXwG",
       "number": 24,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0024.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/024.jpg",
       "width": 1600,
       "height": 900,
       "text": "Everybody needs friends Growing internally and externally AWS collaboration Datadog collaboration",
@@ -247,7 +247,7 @@
     {
       "id": "Wc4Lof",
       "number": 25,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0025.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/025.jpg",
       "width": 1600,
       "height": 900,
       "text": "The second phase Level-up: new tech, new culture Move faster and safer",
@@ -257,7 +257,7 @@
     {
       "id": "8vn9h4",
       "number": 26,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0026.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/026.jpg",
       "width": 1600,
       "height": 900,
       "text": "Docker for all! No lifting and shifting; need to rearchitect things Containerization is definitely faster, but is it safer?",
@@ -267,7 +267,7 @@
     {
       "id": "lFVxZT",
       "number": 27,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0027.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "Trust, but verify Rapid prototyping Managed services Infrastructure concerns",
@@ -277,7 +277,7 @@
     {
       "id": "NZElRs",
       "number": 28,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0028.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/028.jpg",
       "width": 1600,
       "height": 900,
       "text": "Serverless (Lambda) What is it? Works for some things, but not for others Operational advantages and concerns",
@@ -287,7 +287,7 @@
     {
       "id": "zsxZKH",
       "number": 29,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0029.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/029.jpg",
       "width": 1600,
       "height": 900,
       "text": "Serverless, a practical example APIs are often good candidates for serverless May require significant design and implementation changes",
@@ -297,7 +297,7 @@
     {
       "id": "cCgNCg",
       "number": 30,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0030.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/030.jpg",
       "width": 1600,
       "height": 900,
       "text": "Some of the cool things we’re building Racing on tracks Managing truck fleets Sustainable mobility",
@@ -307,7 +307,7 @@
     {
       "id": "EWPB55",
       "number": 31,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0031.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/031.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -317,7 +317,7 @@
     {
       "id": "qq7yxU",
       "number": 32,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0032.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/032.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -327,7 +327,7 @@
     {
       "id": "T9qmpt",
       "number": 33,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0033.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/033.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -337,7 +337,7 @@
     {
       "id": "5TZaiI",
       "number": 34,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0034.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/034.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -347,7 +347,7 @@
     {
       "id": "hnIOah",
       "number": 35,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0035.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/035.jpg",
       "width": 1600,
       "height": 900,
       "text": "https://cycleapi.pirelli.digital http (REST) Web front end (AngularJS, Redux) eu-west-1-a eu-west-1-c Database (AuroraDB) Replica VM1 VM2 Java microservices Java microservices http (REST) AWS API Gateway http (REST) E-Bikes Cloud (Stromer) Native iOS and Android App",
@@ -357,7 +357,7 @@
     {
       "id": "K71CT6",
       "number": 36,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0036.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/036.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -367,7 +367,7 @@
     {
       "id": "wQk0LV",
       "number": 37,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0037.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/037.jpg",
       "width": 1600,
       "height": 900,
       "text": "Setting standards Provide guidance to teams both internally and externally Not dogma—adaptability is key!",
@@ -377,7 +377,7 @@
     {
       "id": "YkSoDu",
       "number": 38,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0038.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/038.jpg",
       "width": 1600,
       "height": 900,
       "text": "Future improvements; the third phase AWS Landing Zone Improved observability story Secrets management",
@@ -387,7 +387,7 @@
     {
       "id": "B4Bc6J",
       "number": 39,
-      "image": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0039.jpg",
+      "image": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/039.jpg",
       "width": 1600,
       "height": 900,
       "text": "Thank you! Roberto Delrosso Digital Innovation Lead Pirelli Daniel Maher Developer Relations Datadog © 2019, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
@@ -398,202 +398,202 @@
   "page_count": 39,
   "files": [
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0001.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/001.jpg",
       "sha256": "750cc8605d84561ea91f7484822459b38ca5abcf7cf350f87000f87bb7f53bc3",
       "bytes": 108259
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0002.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/002.jpg",
       "sha256": "8398abc9c9b51f85267f3d80df84dff3d70444abecf8418ad9551c38d78d8b68",
       "bytes": 149204
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0003.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/003.jpg",
       "sha256": "0ae1b4c15bcbd9b3878871b409a6a3993a2cf2bbfdd4630b61bf68c3373f7d11",
       "bytes": 101337
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0004.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/004.jpg",
       "sha256": "0f9c6cf4022b66f92b00a5bcbde83b2395a2415a1daadf0abc6e49eeb59b73f8",
       "bytes": 256346
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0005.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/005.jpg",
       "sha256": "4bd2adae582374a538234af6c6cc3a12984effe46c75b811d27fe8a22e313c98",
       "bytes": 179963
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0006.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/006.jpg",
       "sha256": "9f0f0a356e36ec0683a19b8e869850166aea977334b91da564ebe96d58671e13",
       "bytes": 133743
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0007.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/007.jpg",
       "sha256": "317233d4d950a33a52ef139a12668b214a70feebee2124a79329940f62f62600",
       "bytes": 207528
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0008.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/008.jpg",
       "sha256": "7030393d8613b7923551512644f76852c126c17074b5fd2fe0e419164c5ac2ed",
       "bytes": 161144
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0009.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/009.jpg",
       "sha256": "8b928bdac6d974f36f23042b5684193931fbcb68c803f7457cd872123e86c471",
       "bytes": 176537
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0010.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/010.jpg",
       "sha256": "7097355fda62a9bf7107c540a18cedc2781b38ababaeb5e161b7311fecc5beed",
       "bytes": 222139
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0011.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/011.jpg",
       "sha256": "179294db573a4676d86fe7d0be7ac972df158754cef1dfc7289e4df16e2149a5",
       "bytes": 169804
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0012.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/012.jpg",
       "sha256": "8fb64bc1e8f092e2e2815ab6ff4f0ad2eb7267d4a84daa9dde0fbec49ad9dcc0",
       "bytes": 194741
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0013.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/013.jpg",
       "sha256": "05749027b7ed100bf32578c1738c4e320fbb268a8c3b6f563273899177ea1b51",
       "bytes": 288451
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0014.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/014.jpg",
       "sha256": "6bf834fbae1674854f4eaa1feb4dfac4118d05e01c43dfa3ee06e8f6e6e88a73",
       "bytes": 140833
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0015.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/015.jpg",
       "sha256": "94ba7a884e6ed135d8adb2c0472ce5d0b4c6a8c9e7a839f49619c642bb9536d4",
       "bytes": 184791
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0016.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/016.jpg",
       "sha256": "c6053a614148487459dd5b870bf685e9ea25e0e64d3e3b1604f434407feb3661",
       "bytes": 252837
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0017.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/017.jpg",
       "sha256": "9ff86d7ebcd030ed9f250f21145ea9d2a2debff368e8ab5aa22b80fd949347fd",
       "bytes": 116835
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0018.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/018.jpg",
       "sha256": "323d28c7ed79c9b189cf9fe8e5ab82b27751c1899119142de1f7e7a38ee8aa36",
       "bytes": 261729
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0019.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/019.jpg",
       "sha256": "2257e49ceac2c65133455b0ae1b069660d6960685d78a74985867fc6ebf1767e",
       "bytes": 320120
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0020.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/020.jpg",
       "sha256": "1c0fe4577afdbeb535401f483b8f38a06a4b96722bfbed65c3f043a8c4828807",
       "bytes": 187013
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0021.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/021.jpg",
       "sha256": "75635c01cf40d6596b7b766f71df13e1ec999b620f8e53eb6f3d0173b762d43a",
       "bytes": 202351
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0022.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/022.jpg",
       "sha256": "096a06c54875319ae1e03e6157a4eaa420b180ec3bb4e4c2575858ca446b2b67",
       "bytes": 204814
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0023.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/023.jpg",
       "sha256": "a3680d6263dc9c37a1933198c7d9f0478ce595986e32cbdccf22c117e73a7bce",
       "bytes": 237319
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0024.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/024.jpg",
       "sha256": "88bd636f3a8ee046400c83f6a0f1a324d20b3c0650680b84eb7de1ad3ddf265f",
       "bytes": 204903
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0025.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/025.jpg",
       "sha256": "2d04ff4162b16a687b5181dd3a39949530561681bd2396a413e262ee1808763c",
       "bytes": 184990
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0026.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/026.jpg",
       "sha256": "bdd340a8acd15386be5ebe8dcc19f67366e0b0bb51a269fa68209ba1c0a61852",
       "bytes": 202705
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0027.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/027.jpg",
       "sha256": "7c30df3e4539af397542676b77c1162cb5f75784cc8bd7d577777a1f35cc3efc",
       "bytes": 247482
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0028.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/028.jpg",
       "sha256": "a3bc7ed1c876323687a32d40d9626586bf470837f2b4227325bc8181b67d3303",
       "bytes": 270130
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0029.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/029.jpg",
       "sha256": "74bfe558d2544d847fb6f52264fe7eac58d7aad16900797cfa1455e06181c642",
       "bytes": 248305
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0030.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/030.jpg",
       "sha256": "86b06f2915f936ba72dafaf66ee4d6e39459fda2b31cc7ad826eefebf711ec7d",
       "bytes": 234368
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0031.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/031.jpg",
       "sha256": "d771fdbb058705726c156049bce4bfd3467ab9a6608ce1f307346e66251a89dd",
       "bytes": 43454
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0032.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/032.jpg",
       "sha256": "89d829ffe94bde760abbf1ea1f63d43ef4a37ef09caee4d72fba23692138a817",
       "bytes": 256046
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0033.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/033.jpg",
       "sha256": "cb881ae26d07f3b7957f8de029024ea32d5e91770d19ffa5d6b120614b842812",
       "bytes": 45541
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0034.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/034.jpg",
       "sha256": "5b36b804329cb330b36fe82de76f9b135acc800c8149d194cc9efa4dbc5b8d1b",
       "bytes": 197891
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0035.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/035.jpg",
       "sha256": "a67f4e23ecd793c7fb9f591b8347258d0758b5c5ba495d8dd843d1e7dfad9458",
       "bytes": 150923
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0036.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/036.jpg",
       "sha256": "e43c5b2ca009e46b629f40f37ffdbe30e4a31b44a93fd078179d5ad2e5f1dcf5",
       "bytes": 205153
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0037.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/037.jpg",
       "sha256": "2e88557b09e98673b2da417f0b6a0a60e0464b033cf8d32e85e71b0245ae748d",
       "bytes": 139436
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0038.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/038.jpg",
       "sha256": "6cf3496905bcfddf26b36acea3584d701571fcd6da3097bf062325d78a2d5c68",
       "bytes": 295378
     },
     {
-      "path": "decks/d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f/0039.jpg",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/slides/039.jpg",
       "sha256": "2bc4c8e914277b777a2eb516c1a23e5d18152a1f81346150f88f66f2a6f3e080",
       "bytes": 131001
     },
     {
-      "path": "pdfs/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
+      "path": "decks/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent/2019-12-04-more-than-rubber-on-the-road-tires-in-an-iot-world-aws-re-invent.pdf",
       "sha256": "dde9887d70e53a462c6e4cf043f5cfa3f2782963e07a26d0c34188bb3629eddf",
       "bytes": 53640706
     }

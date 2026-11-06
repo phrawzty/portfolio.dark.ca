@@ -2,12 +2,12 @@
   "id": "842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676",
   "source_sha256": "a34333c1875d91e0395a8ccc739cb3461e4110df5d4c6fea731f5b2f93f2e7c9",
   "provenance": "original",
-  "pdf": "pdfs/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
+  "pdf": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
   "slides": [
     {
       "id": "R01Grd",
       "number": 1,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0001.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "AWS + Datadog Securing the blind spot in your pipeline Daniel « phrawzty » Maher Senior Security Advocate & Researcher",
@@ -17,7 +17,7 @@
     {
       "id": "3Jk4k2",
       "number": 2,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0002.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "ç Do you really know what’s in your stack? 2",
@@ -27,7 +27,7 @@
     {
       "id": "fdSscR",
       "number": 3,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0003.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "What the data tell us npm PyPI RubyGems crates.io Hex.pm Packagist Max Auth (Human) 3 3 0 1 0 0 4 Auth (Machine) 6 4 4 4 2 2 7 Access Control 6 4 4 4 5 4 7 Build & Provenance 6 4 3 2 2 2 8 Integrity & Signing 5 5 6 2 3 2 6 Vulnerability Mgmt 7 3 4 3 4 4 7 Abuse Prevention 6 5 5 5 5 2 6 Transparency 5 4 5 3 3 2 7 3",
@@ -37,7 +37,7 @@
     {
       "id": "HxBgUq",
       "number": 4,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0004.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "The gaps that matter ● Authentication ○ optional controls are not actually controls ● Provenance ○ no guarantee that the package actually comes from the source ● Build ○ none of the registries enforce isolated build environments 4",
@@ -47,7 +47,7 @@
     {
       "id": "uGuUNF",
       "number": 5,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0005.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "The gaps that matter ● Authentication ○ optional controls are not actually controls ● Provenance ○ no guarantee that the package actually comes from the source ● Build ○ none of the registries enforce isolated build environments Registries are not your security team. They are infrastructure. 5",
@@ -57,7 +57,7 @@
     {
       "id": "WadIFe",
       "number": 6,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0006.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "AI amplifies the problem ● AI Assistants add dependencies automatically ● The last point of human friction has now disappeared ● What was already largely invisible is now even faster 6",
@@ -67,7 +67,7 @@
     {
       "id": "8uM683",
       "number": 7,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0007.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "2 in the morning… a maintainer is compromised a malicious package is published an automated « latest » build runs 7",
@@ -77,7 +77,7 @@
     {
       "id": "lE4u0S",
       "number": 8,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0008.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "AWS CodeArtifact: the preventive control ● Managed artefact repository service ● Compatible with npm, pip, Maven, NuGet, etc… ● Your tools, your workflow ● You decide what gets in 8",
@@ -87,7 +87,7 @@
     {
       "id": "NXnhsr",
       "number": 9,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0009.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Control architecture 9",
@@ -97,7 +97,7 @@
     {
       "id": "zrWVlG",
       "number": 10,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0010.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Three barriers ● Architectural isolation ○ your builds never talk to public registries ● Automated validation ○ every new version is scanned before a decision is made ● Explicit promotion ○ by default, nothing gets through (spoiler : version pinning) 10",
@@ -107,7 +107,7 @@
     {
       "id": "cBFJdf",
       "number": 11,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0011.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Three barriers ● Architectural isolation ○ your builds never talk to public registries ● Automated validation ○ every new version is scanned before a decision is made ● Explicit promotion ○ by default, nothing gets through (spoiler : version pinning) 11",
@@ -117,7 +117,7 @@
     {
       "id": "EUy7W4",
       "number": 12,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0012.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (just that) Runtime Code Analysis 12",
@@ -127,7 +127,7 @@
     {
       "id": "qogvOT",
       "number": 13,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0013.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (que ça) Runtime Code Analysis 13",
@@ -137,7 +137,7 @@
     {
       "id": "T8PjGs",
       "number": 14,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0014.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "6 months later… malicious package published (oops) vulnerability in prod (OOPS) time to panic ?! 14",
@@ -147,7 +147,7 @@
     {
       "id": "5S8X9H",
       "number": 15,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0015.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Six months later ● SCA « active » (Software Composition Analysis) ○ the vulnerable package is detected (service, version, CVE, etc.) ● IAST (Interactive Application Security Testing) ○ the exec path is detected and the impact is confirmed 15",
@@ -157,7 +157,7 @@
     {
       "id": "hlrL1g",
       "number": 16,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0016.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "Preventive vs. Detective ● Preventive : block before it gets in ○ CodeArtifact, SAST, SCA (static mode) ● Detective : know what’s already there — and act ○ SCA (active mode), IAST 16",
@@ -167,7 +167,7 @@
     {
       "id": "K5a8u5",
       "number": 17,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0017.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "ç AWS et Datadog together = defence in depth 17",
@@ -177,7 +177,7 @@
     {
       "id": "wPIwmU",
       "number": 18,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0018.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "Where to start? ● Map your dependency graph — know what you’re building on ● Identify your source registries ● Establish a preventive control layer ● Ensure full production visibility 18",
@@ -187,7 +187,7 @@
     {
       "id": "Yj1ket",
       "number": 19,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0019.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Where to start? ● Map your dependency graph — know what you’re building on ● Identify your source registries ● Establish a preventive control layer ● Ensure full production visibility These are not four projects over six months. These are four steps you can start this very week! 19",
@@ -197,7 +197,7 @@
     {
       "id": "B2kYXI",
       "number": 20,
-      "image": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0020.jpg",
+      "image": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "Merci ! AWS CodeArtifact https://aws.amazon.com/codeartifact Datadog Code Security https://docs.datadoghq.com/security/code_security Our super interesting blog 😁 https://securitylabs.datadoghq.com 20",
@@ -208,107 +208,107 @@
   "page_count": 20,
   "files": [
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0001.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/001.jpg",
       "sha256": "aea1f8ce058191342c9794cf941c18073cd7d6e922a20e08a20f31268d522d2d",
       "bytes": 187375
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0002.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/002.jpg",
       "sha256": "5d2d329987a5cf09b39dbbf3e530fd4af5287145e0d863140d3b926e79cff206",
       "bytes": 119108
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0003.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/003.jpg",
       "sha256": "8dbce8c2371545ca684058a0e97541f234bb8f6bc852beb20ae70ebf2bbf5bd2",
       "bytes": 149874
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0004.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/004.jpg",
       "sha256": "82e1fcbf115063b6ab7a3b96f24a481f40d4195bfe2b6d317182d640dd522aeb",
       "bytes": 94273
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0005.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/005.jpg",
       "sha256": "e07dd74ac77c154a72d3bb705595d15475af3144d05bdfbe2efed02564613047",
       "bytes": 107876
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0006.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/006.jpg",
       "sha256": "a7a98770664e988b469735dbed983d250994548d1c53a74e3f072abcf2412d3c",
       "bytes": 85726
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0007.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/007.jpg",
       "sha256": "ed6f12de6161e2c44d8d1a6593d0f6d0b2142f20444040eafd01474a86b551bb",
       "bytes": 169980
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0008.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/008.jpg",
       "sha256": "86e3212bcd29be310f3e83097a74dba57c1070ae19af6efa11560bcf9f028a0b",
       "bytes": 94214
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0009.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/009.jpg",
       "sha256": "05184157e34e014023240cdd17b76f266cc9891ad6dad34bb0d0035f2d82bed1",
       "bytes": 107852
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0010.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/010.jpg",
       "sha256": "3b14cecb0b42ffff1859cada3f29f9af9ea0840b7e2e74cced75da12c426e30a",
       "bytes": 99886
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0011.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/011.jpg",
       "sha256": "730a735c34cd299d94b2490a1f82b158fee46994d87514a4226f858735290815",
       "bytes": 99875
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0012.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/012.jpg",
       "sha256": "c8fe8232c68c783a608ebfd8c7fae0e1fe8214fe5aca836cf4fcb643ca532574",
       "bytes": 103090
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0013.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/013.jpg",
       "sha256": "80511262959901120d8355700b796d1a071493a05b85ac9fd93727c5f2099448",
       "bytes": 102784
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0014.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/014.jpg",
       "sha256": "9e5f615867d42a05c78e3fe0fdf4032d9f27df1550f7306513d7c278e6f38abc",
       "bytes": 154254
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0015.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/015.jpg",
       "sha256": "981b67facca227e1e24e60100363c7f92bca105a1f590ce5b4ac14d3c76892c4",
       "bytes": 97990
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0016.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/016.jpg",
       "sha256": "52cda2d77f14606035427cfdf7fcad2dbe363606496923aecb4803a69a372daa",
       "bytes": 86327
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0017.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/017.jpg",
       "sha256": "153aefcac0c9ff9a3fe8ade01039322099c8874eb07e23f211ea0e5e9dcadf07",
       "bytes": 102709
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0018.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/018.jpg",
       "sha256": "6574cd5270de8e974e54f7a49107534e5f1cc9da1c96b4dfaa0aa94499e53b46",
       "bytes": 81919
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0019.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/019.jpg",
       "sha256": "dc066f7b21a936ecb375722302071384f765bb85bd89888cda5c9b84009bdf3c",
       "bytes": 104741
     },
     {
-      "path": "decks/842edbcbe388f4120660ff7f64ac828266a67f6cb9acbde853158e889bbf7676/0020.jpg",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/slides/020.jpg",
       "sha256": "c9b4cf05376a2af754e2178e6e771ec6659ab66d150a3e203b91f76c2f59f7d9",
       "bytes": 140823
     },
     {
-      "path": "pdfs/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
+      "path": "decks/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026/2026-04-22-securing-the-blind-spot-in-your-pipeline-aws-summit-london-2026.pdf",
       "sha256": "a34333c1875d91e0395a8ccc739cb3461e4110df5d4c6fea731f5b2f93f2e7c9",
       "bytes": 992247
     }

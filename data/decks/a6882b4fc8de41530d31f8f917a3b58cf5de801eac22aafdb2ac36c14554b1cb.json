@@ -2,12 +2,12 @@
   "id": "a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb",
   "source_sha256": "ca032f9441e8fc68ed3486324ae70f62fc78b8372ee82649226bdcd4e2a2d692",
   "provenance": "original",
-  "pdf": "pdfs/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
+  "pdf": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
   "slides": [
     {
       "id": "NamDwX",
       "number": 1,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0001.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Infobip Shift Conference 2026",
@@ -17,7 +17,7 @@
     {
       "id": "zuV1ow",
       "number": 2,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0002.jpg",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Building a (mostly) reliable research assistant Infobip Shift 2026 Dan Maher Senior Technical Advocate & Researcher Datadog",
@@ -27,7 +27,7 @@
     {
       "id": "cEDphL",
       "number": 3,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0003.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "The thing that needed me to make a thing • SSCSS: 50+ questions, 8 sections, yes / no / unknown • The evidence lives across source code, docs, blogs, RFC repos, policy pages, whitepapers, newsgroups, social media… • Docs and reality don’t always agree and simple web searches only get me the easy answers",
@@ -37,7 +37,7 @@
     {
       "id": "EXwdZk",
       "number": 4,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0004.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "{ “name”: “Dan Maher”, “handle”: “phrawzty”, “title”: “Senior Technical Advocate & Researcher”, “employer”: “Datadog”, “portfolio”: “https://speaking.dark.ca/”, ” “: “secretly French” }",
@@ -47,7 +47,7 @@
     {
       "id": "qrfRS9",
       "number": 5,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0005.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Warning: marketing statement follows! Datadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence.",
@@ -57,7 +57,7 @@
     {
       "id": "TBOFKY",
       "number": 6,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0006.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Four attempts (the third one will shock you!)",
@@ -67,7 +67,7 @@
     {
       "id": "5V73Cx",
       "number": 7,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0007.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "Attempt one: head-first into a wall • One prompt in Claude: “here are 52 questions, here’s a registry, go” • Context limits, rate limits, truncated output • LOL this did not work • Lots of tokens though!",
@@ -77,7 +77,7 @@
     {
       "id": "hopr5M",
       "number": 8,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0008.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Attempt two: the version you’d draw on a whiteboard • Orchestrator + eight parallel researcher agents, one per section, shared state file • Hanging agents, silent blank results reported as success, state file corruption (it’s just vibes y’all) • Bonne nouvelle ! I hardened it for weeks and it got more robust!",
@@ -87,7 +87,7 @@
     {
       "id": "K8Yexl",
       "number": 9,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0009.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "Attempt three: engineering mode activate • Full rewrite: JSON schema enforcement, real test suite, sandboxed egress, CI on every commit, parallelism… • The kind of codebase you’d be proud to ship • “Oh yeah that’s hot.” – me, at the time",
@@ -97,7 +97,7 @@
     {
       "id": "wSHSqA",
       "number": 10,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0010.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "NOTHING (worse than)",
@@ -107,7 +107,7 @@
     {
       "id": "Ym0GiZ",
       "number": 11,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0011.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Production-grade reliability theatre • Confident YES answers backed by evidence that said NO if you actually read the friggen source. URLs that didn’t exist. Notes attached to the wrong question. • “Evidence” that turned out to be the model narrating its own search process like what even",
@@ -117,7 +117,7 @@
     {
       "id": "B5j4ay",
       "number": 12,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0012.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "What even is truth? • Farquhar et al., Nature, 2024: confabulation • Kalai et al. (OpenAI), 2025: models are trained to guess, not to say “I don’t know” • Hicks, Humphries & Slater, 2024: it’s not lying; it’s indifferent to truth",
@@ -127,7 +127,7 @@
     {
       "id": "nPRsTN",
       "number": 13,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0013.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "You cannot code your way out of an LLM quality problem",
@@ -137,7 +137,7 @@
     {
       "id": "PjAgLm",
       "number": 14,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0014.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "On the shoulders of giants • Huyen, 2022: ML systems fail silently; quality problems are harder to notice than operational ones • Husain & Shankar, 2025: start with error analysis, not infrastructure. Read 20 outputs before you build anything • Yan, 2025: “An LLM-as-Judge Won’t Save The Product”",
@@ -147,7 +147,7 @@
     {
       "id": "22tUEB",
       "number": 15,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0015.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Attempt four: Stop—constraint time! • Lead with constraints, not requirements • The bar isn’t “fast”, it’s “faster than what exists now” • Reduce or remove the failure surfaces. Minimum viable product first, then evolve from there",
@@ -157,7 +157,7 @@
     {
       "id": "eMcI6a",
       "number": 16,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0016.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "Models and harnesses matter",
@@ -167,7 +167,7 @@
     {
       "id": "GgL5yz",
       "number": 17,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0017.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Models and harnesses matter • Sonnet: good for process, bad for (this) research • Opus: bad for process, good for playing around with words • HumanLayer, 2026: “what looks like a model’s personality is very often a harness’s personality”",
@@ -177,7 +177,7 @@
     {
       "id": "t03trO",
       "number": 18,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0018.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Simple, but not simplistic • Schluntz & Zhang (Anthropic), 2024: the best agent systems use simple, composable patterns, not frameworks • Willison, 2025: “an LLM agent runs tools in a loop to achieve a goal” (spoiler: that’s the whole abstraction)",
@@ -187,7 +187,7 @@
     {
       "id": "VJmhjn",
       "number": 19,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0019.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Seven things that work",
@@ -197,7 +197,7 @@
     {
       "id": "7dVVcC",
       "number": 20,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0020.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Guardrails; or “the art of scoping your sources” • Decide where the agent is allowed to look, before it’s allowed to think • Prioritise good sources and deny bad ones up front • Exhaust all good sources before hitting the information superhighway (it’s not actually that safe)",
@@ -207,7 +207,7 @@
     {
       "id": "jxEJUb",
       "number": 21,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0021.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Discipline; or “inference is not evidence” • Evidence includes a verbatim quote and a URL • Every question asked three different ways, even after a confirming hit • Gao et al., (HyDE), 2022: one phrasing is a sample, not a signal—sample more",
@@ -217,7 +217,7 @@
     {
       "id": "MGx7N0",
       "number": 22,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0022.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/022.png",
       "width": 1600,
       "height": 900,
       "text": "Absence of evidence is not evidence of absence Altman & Bland (BMJ), 1995",
@@ -227,7 +227,7 @@
     {
       "id": "yafvFP",
       "number": 23,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0023.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "Logs; or “what the heck did the agent even do?” • Log the reasoning, not just the answer • This is how you build, debug, and improve • Can be operational, not just informational",
@@ -237,7 +237,7 @@
     {
       "id": "auOj7o",
       "number": 24,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0024.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "Rigour; or “you can’t shortcut the methodology” • Once is not enough; use tokens intelligently • He et al. (Thinking Machines Lab), 2025: rerun variance is a property of the inference system • Variance is signal, be careful if there isn’t any",
@@ -247,7 +247,7 @@
     {
       "id": "DE7X0D",
       "number": 25,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0025.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Prompting; or “operational != behavioural” • Operational: what to do, in what order, with what tool • Behavioural: how to reason, communicate, set boundaries • Shankar et al. (UIST), 2024: criteria drift; “you can’t write the rules before you’ve seen them fail”",
@@ -257,7 +257,7 @@
     {
       "id": "pXqKsc",
       "number": 26,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0026.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "Human-in-the-loop; or “can’t do my job yet” • Involve a human when the variance is stable; domain expertise and intuition matter • Where the runtime file and LLM experimentation shine • Faster is only better if the results are good",
@@ -267,7 +267,7 @@
     {
       "id": "RrZ8l1",
       "number": 27,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0027.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/027.png",
       "width": 1600,
       "height": 900,
       "text": "“Human oversight is still needed even with automated evaluators.” Eugene Yan, 2025",
@@ -277,7 +277,7 @@
     {
       "id": "4BHwdQ",
       "number": 28,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0028.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/028.png",
       "width": 1600,
       "height": 900,
       "text": "Sandboxes; or “basic agentic security hygiene” • Willison’s lethal trifecta: private data, untrusted content, external communication • Greshake et al., 2023: hostile pages can hide instructions aimed at the agent, not the human reading it • I use a kernel-level sandbox on a virtual machine, fwiw",
@@ -287,7 +287,7 @@
     {
       "id": "gV0kVp",
       "number": 29,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0029.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "Everything, on one slide • Architecture can make you more robust without making you more correct • Different tasks need different model and harnesses • Guardrails, Discipline, Logs, Rigour, Prompting, HITL, and don’t forget Sandboxes",
@@ -297,7 +297,7 @@
     {
       "id": "IojYOE",
       "number": 30,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0030.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/030.png",
       "width": 1600,
       "height": 900,
       "text": "Moral of the story • Research assistant, not leader • Don’t let the LLM boss you around • Seriously though: you can build this too!",
@@ -307,7 +307,7 @@
     {
       "id": "v8SMGd",
       "number": 31,
-      "image": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0031.png",
+      "image": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/031.png",
       "width": 1600,
       "height": 900,
       "text": "Thank you Dan Maher @phrawzty",
@@ -318,162 +318,162 @@
   "page_count": 31,
   "files": [
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0001.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/001.png",
       "sha256": "0fd6f6de5a234075d9643a0a2874018876944983c974d48f068d619f46c4fb39",
       "bytes": 317486
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0002.jpg",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/002.jpg",
       "sha256": "599b62a5836d942df491e5f795f2deb055b4549138776b7300640e8d30490547",
       "bytes": 114081
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0003.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/003.png",
       "sha256": "b373e882e03120e307d7845e732061af5b2ce48466e6a78514412ca70ce5870f",
       "bytes": 586206
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0004.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/004.png",
       "sha256": "965e98856d32d507ba4a0d30137c800f2bea16e78d7877151c18c28c3f54ea3e",
       "bytes": 462495
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0005.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/005.png",
       "sha256": "b3ed2315b1c4d51596ff4f773c755fcb8fe4326eedf93226224c54fcd8670b64",
       "bytes": 1009989
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0006.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/006.png",
       "sha256": "07771461f052a49648c1e267aa628231201e024281087b9f7bc94948b2a4beb4",
       "bytes": 232578
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0007.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/007.png",
       "sha256": "0904a064e6583988fa76acf141911c7148c9a94a69c393636c11b106ee27e432",
       "bytes": 390434
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0008.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/008.png",
       "sha256": "a04c826a24c8b536b9312d2145cae93cba4e8f4ac855394d936f156fdee717e9",
       "bytes": 565921
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0009.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/009.png",
       "sha256": "36180fde13178806111acf88551d2019d1d2d4be396a8cfdaa498b9e644695c1",
       "bytes": 510998
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0010.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/010.png",
       "sha256": "33cd8751da47676b5097983a2498f28da8b04058c2abc673f711b45c68c15814",
       "bytes": 191634
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0011.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/011.png",
       "sha256": "d7816e9de034916444af2c93b3e6c8b15e3a9da79568ee1e2f1e23c3b0661109",
       "bytes": 608752
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0012.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/012.png",
       "sha256": "663934a0ddee3c8b1dba8d0badff3d2633999faf597bfdbdaa3d9fd093cdc926",
       "bytes": 451254
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0013.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/013.png",
       "sha256": "5c7d5d5109efba2d466d4b99ab161db97cecea044e4f56f91d0ac20dfe52c3bf",
       "bytes": 274044
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0014.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/014.png",
       "sha256": "cbb68f27b0bb23d2311e58a497c8d8845f3b7b084702eff1246733543f06f1b1",
       "bytes": 611733
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0015.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/015.png",
       "sha256": "f1b3fe7c3a6afabe1e96d6a7d572a5e78108fbb7a878c9de8fe724457839329f",
       "bytes": 460166
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0016.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/016.png",
       "sha256": "bbf3f9cae1f0e417d590469ee80ee97bfb884b9d7c7226d33745a883ffc24d24",
       "bytes": 217969
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0017.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/017.png",
       "sha256": "8bfbff3379e46ca3db8dff3cf92b918404a105c8ee61a9885355ace8e659de19",
       "bytes": 510365
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0018.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/018.png",
       "sha256": "97074796685f4bfecbac4d1babab16a9e61f447001505f42951128cc848281f8",
       "bytes": 517509
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0019.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/019.png",
       "sha256": "da80cb8df3d53cb98ee86acfc8d6ecf3b2c9ae01629e904d4b120a61c2fb8629",
       "bytes": 201154
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0020.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/020.png",
       "sha256": "2bcc4a84b1038901d1698b02f480eb95d3e621f06405d31dfd835d227f2ce5b1",
       "bytes": 565038
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0021.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/021.png",
       "sha256": "dacbdde12da941b132d63bba358369721103a8953b53a46d6c80100d718988e9",
       "bytes": 492722
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0022.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/022.png",
       "sha256": "8f41b8194bf41a5146e8e3535c5f0142dd0dc21c41a995ef00637b51c1ec4b27",
       "bytes": 316312
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0023.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/023.png",
       "sha256": "a20bd7fa5138cda0310acd4198902a556672c50ed875ecf4b57d0540f68d945f",
       "bytes": 387875
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0024.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/024.png",
       "sha256": "a27d674a574bd6c35758c63930fefbe39778704271f65eb4f7815a2a5f289bb8",
       "bytes": 520137
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0025.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/025.png",
       "sha256": "24d19e41a7281fcbc7b62ecaab0fbad4bd319bcac6003110e5b8435a4c617f0b",
       "bytes": 520670
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0026.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/026.png",
       "sha256": "2058065cea5ee1020c44c711c1c3384ce2cf561432029c7d6c0ca411466502c7",
       "bytes": 462561
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0027.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/027.png",
       "sha256": "f7b6152f441282c4f6c79a7d3a5d81caaecff7e420b23d79289db7f890ac9e23",
       "bytes": 337560
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0028.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/028.png",
       "sha256": "1e66cb7823926678b0674f2dde268162ea1bf3f8e1a1cb737090c88c585c81ad",
       "bytes": 592584
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0029.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/029.png",
       "sha256": "26ac1141249d66d39c2ceabf48b45fd9e8db2c3f7a2dce0693f253dac1f9a970",
       "bytes": 491960
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0030.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/030.png",
       "sha256": "092aea79db5bf078f4a82264219dca16999cbeecadef75d7988b891de3339918",
       "bytes": 306959
     },
     {
-      "path": "decks/a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb/0031.png",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/slides/031.png",
       "sha256": "162a234869b43a066977038223ae63bc9f90fe24d6789378ea3d0d4a0273e480",
       "bytes": 186316
     },
     {
-      "path": "pdfs/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
+      "path": "decks/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift/2026-09-14-building-a-mostly-reliable-ai-research-agent-infobip-shift.pdf",
       "sha256": "ca032f9441e8fc68ed3486324ae70f62fc78b8372ee82649226bdcd4e2a2d692",
       "bytes": 786934
     }

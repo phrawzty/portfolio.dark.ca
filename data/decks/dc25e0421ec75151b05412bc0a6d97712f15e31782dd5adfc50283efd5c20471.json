@@ -7,7 +7,7 @@
     {
       "id": "OYspzJ",
       "number": 1,
-      "image": "decks/dc25e0421ec75151b05412bc0a6d97712f15e31782dd5adfc50283efd5c20471/0001.jpg",
+      "image": "decks/2022-11-02-what-about-logs-devopsdays-oslo-2022/slides/001.jpg",
       "width": 1600,
       "height": 1000,
       "text": "",
@@ -18,7 +18,7 @@
   "page_count": 1,
   "files": [
     {
-      "path": "decks/dc25e0421ec75151b05412bc0a6d97712f15e31782dd5adfc50283efd5c20471/0001.jpg",
+      "path": "decks/2022-11-02-what-about-logs-devopsdays-oslo-2022/slides/001.jpg",
       "sha256": "acd798a53ef642599211af7f384dcb6179185a2fbee11a5cbbb0aacba6368567",
       "bytes": 111515
     }

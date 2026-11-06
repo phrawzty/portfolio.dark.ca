@@ -2,12 +2,12 @@
   "id": "858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a",
   "source_sha256": "dd094e5498163caceee9c703dae74436eb729700c8b1724d3f82886d511bdeb4",
   "provenance": "original",
-  "pdf": "pdfs/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
+  "pdf": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
   "slides": [
     {
       "id": "Iyo1hf",
       "number": 1,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0001.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Statements Abou t Stateless DevOpsDays Cairo 2024 Dan “phrawzty” Maher",
@@ -17,7 +17,7 @@
     {
       "id": "vIWpa4",
       "number": 2,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0002.jpg",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Dan “phrawzty” Maher ! Open Source Engineer @ Cerbos ! Co-Chair of DevOpsDays ! Previously Scaleway, Datadog, Mozilla, Ubisoft… ! A little more ops than dev ;) @phrawzty // cerbos.dev 2",
@@ -27,7 +27,7 @@
     {
       "id": "XcFdST",
       "number": 3,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0003.jpg",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -37,7 +37,7 @@
     {
       "id": "9vyRKs",
       "number": 4,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0004.jpg",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cerbos - Externalised, policy-based runtime authorisation for your applications. - Open source, written in Go - https://cerbos.dev/ - Most importantly: it’s stateless! @phrawzty // cerbos.dev 4",
@@ -47,7 +47,7 @@
     {
       "id": "mFhFDH",
       "number": 5,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0005.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Agenda 1. Core Principles 2. Advantages & Disadvantages 3. Practical Concerns @phrawzty // cerbos.dev 5",
@@ -57,7 +57,7 @@
     {
       "id": "OZQ35g",
       "number": 6,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0006.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Agenda 0. What Even Is State? 1. Core Principles 2. Advantages & Disadvantages 3. Practical Concerns @phrawzty // cerbos.dev 6",
@@ -67,7 +67,7 @@
     {
       "id": "0t8qy5",
       "number": 7,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0007.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "What is state? State refers to any information that a system or application needs to retain between different requests or interactions to understand and respond correctly to subsequent requests from the same user or process. @phrawzty // cerbos.dev 7",
@@ -77,7 +77,7 @@
     {
       "id": "dCreqU",
       "number": 8,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0008.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Examples of state - User sessions - Request context - Client-specific data - System state @phrawzty // cerbos.dev 8",
@@ -87,7 +87,7 @@
     {
       "id": "FWaSit",
       "number": 9,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0009.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "Is stateless real? @phrawzty // cerbos.dev 9",
@@ -97,7 +97,7 @@
     {
       "id": "rqJGbI",
       "number": 10,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0010.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Core principles - Independent requests - External state management - Idempotency - Decoupled components - Horizontal scalability @phrawzty // cerbos.dev 10",
@@ -107,7 +107,7 @@
     {
       "id": "UA24Th",
       "number": 11,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0011.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Independent requests - Every request is self-contained - Every request is (considered) a fresh interaction @phrawzty // cerbos.dev 11",
@@ -117,7 +117,7 @@
     {
       "id": "6TksM6",
       "number": 12,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0012.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Ex ternal state management - State is managed outside of the interaction - Client or external system manages continuity @phrawzty // cerbos.dev 12",
@@ -127,7 +127,7 @@
     {
       "id": "inTgEV",
       "number": 13,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0013.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Idempotency - Same request, same result - “referential transparency” @phrawzty // cerbos.dev 13",
@@ -137,7 +137,7 @@
     {
       "id": "L7CU6u",
       "number": 14,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0014.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Decoupled components - No shared state means forced modularity - Components communicate through interfaces @phrawzty // cerbos.dev 14",
@@ -147,7 +147,7 @@
     {
       "id": "xQvHzJ",
       "number": 15,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0015.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Horizontal scalabili ty - Distributed workload by nature - Cloud native (cloud-friendly?) @phrawzty // cerbos.dev 15",
@@ -157,7 +157,7 @@
     {
       "id": "Zke5ri",
       "number": 16,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0016.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "Advantages & Disadvantages - Independent requests - External state management - Idempotency - Decoupled components - Horizontal scalability @phrawzty // cerbos.dev 16",
@@ -167,7 +167,7 @@
     {
       "id": "C4Mtk7",
       "number": 17,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0017.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Independent requests - Advantages: Resilient, flexible, and distributed - Disadvantages: Increased overhead, high network dependence @phrawzty // cerbos.dev 17",
@@ -177,7 +177,7 @@
     {
       "id": "oO5hcW",
       "number": 18,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0018.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Ex ternal state management - Advantages: Simplified server-side, straightforward scalability - Disadvantages: “Unusual” security profile, state synchronisation challenges @phrawzty // cerbos.dev 18",
@@ -187,7 +187,7 @@
     {
       "id": "QhoVUv",
       "number": 19,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0019.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Idempotency - Advantages: Improved reliability, graceful error recovery - Disadvantages: Reduced flexibility, potentially complex implementation @phrawzty // cerbos.dev 19",
@@ -197,7 +197,7 @@
     {
       "id": "31XJNK",
       "number": 20,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0020.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Decoupled components - Advantages: Modular, flexible, fault-tolerant - Disadvantages: Coordination overhead, network intensive, sensitive to latency @phrawzty // cerbos.dev 20",
@@ -207,7 +207,7 @@
     {
       "id": "fLG7Fj",
       "number": 21,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0021.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Horizontal Scaling - Advantages: Elasticity, load distribution, resilience - Disadvantages: Now you’re managing a distributed system. My condolences. @phrawzty // cerbos.dev 21",
@@ -217,7 +217,7 @@
     {
       "id": "Heyv88",
       "number": 22,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0022.jpg",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Practical Concerns - Handling user sessions - Caching mechanisms - Deployment and lifecycle Image courtesy Bent Inge Johansen (public domain): https://flic.kr/p/tjuZMw @phrawzty // cerbos.dev 22",
@@ -227,7 +227,7 @@
     {
       "id": "tyhj0X",
       "number": 23,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0023.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "Handling user sessions - Externalised session management - Client tokens (e.g. JWT) @phrawzty // cerbos.dev 23",
@@ -237,7 +237,7 @@
     {
       "id": "WIQWsw",
       "number": 24,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0024.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "JSON Web Tokens (JWT) - Good: Stateless, compact, cryptographically secure signature - Bad: Difficult to revoke, plaintext paylod @phrawzty // cerbos.dev 24",
@@ -247,7 +247,7 @@
     {
       "id": "8c9KlL",
       "number": 25,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0025.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Caching mechanisms - Distrbuted key/value store - HTTP caching at the edge - Browser cache @phrawzty // cerbos.dev 25",
@@ -257,7 +257,7 @@
     {
       "id": "kvs8dk",
       "number": 26,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0026.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "Test your caching mechanisms! - Load testing, misses, unexpected invalidations, consistency concerns… @phrawzty // cerbos.dev 26",
@@ -267,7 +267,7 @@
     {
       "id": "NFawW9",
       "number": 27,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0027.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/027.png",
       "width": 1600,
       "height": 900,
       "text": "Deployment and lifecycle concerns - Deployment / environment consistency - Dependencies and service discovery - Load balancing and traffic management @phrawzty // cerbos.dev 27",
@@ -277,7 +277,7 @@
     {
       "id": "zZJkOY",
       "number": 28,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0028.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/028.png",
       "width": 1600,
       "height": 900,
       "text": "Deployment / environment consistency - Side effects and emergent properties - Situational differences @phrawzty // cerbos.dev 28",
@@ -287,7 +287,7 @@
     {
       "id": "bt2YGx",
       "number": 29,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0029.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "Dependencies and service discovery - State management - So many services! @phrawzty // cerbos.dev 29",
@@ -297,7 +297,7 @@
     {
       "id": "EClM9M",
       "number": 30,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0030.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/030.png",
       "width": 1600,
       "height": 900,
       "text": "Load balancing and traffic management - Balancing algorithms and affinity - (Auto) Scaling @phrawzty // cerbos.dev 30",
@@ -307,7 +307,7 @@
     {
       "id": "qWUA1l",
       "number": 31,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0031.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/031.png",
       "width": 1600,
       "height": 900,
       "text": "Conclusion - Everything is a trade-off @phrawzty // cerbos.dev 31",
@@ -317,7 +317,7 @@
     {
       "id": "SqCxuA",
       "number": 32,
-      "image": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0032.png",
+      "image": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/032.png",
       "width": 1600,
       "height": 900,
       "text": "Actually the conclusion @phrawzty // cerbos.dev 32",
@@ -328,167 +328,167 @@
   "page_count": 32,
   "files": [
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0001.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/001.png",
       "sha256": "f8ef908d8722bf7dce050ef895384e0c8d903a35a260975346d1997fa2771c3e",
       "bytes": 205502
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0002.jpg",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/002.jpg",
       "sha256": "71441964855caba803a412d3c4ae8441ff392f8ed57a7ec770cb592afa8d338c",
       "bytes": 98715
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0003.jpg",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/003.jpg",
       "sha256": "0570edefcaf188361a60c22d977d9a5263816ad576021809ef15a92d0261690f",
       "bytes": 63229
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0004.jpg",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/004.jpg",
       "sha256": "5e9024a7a1281b013dc32d1e944aa8ab5d93d39bbf036e93edbd94ccf07e6d8c",
       "bytes": 88100
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0005.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/005.png",
       "sha256": "7e8ef0a0e269db8861b4def99a4cecae659808a839be0e7e4bfaa40b66314818",
       "bytes": 68920
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0006.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/006.png",
       "sha256": "3b8b88bd54007f92a3beb7ba46ca728e4f0613ad164a55df79d2697400c01e46",
       "bytes": 218106
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0007.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/007.png",
       "sha256": "868eea45a28f64efc4a59746f6f6b9e3447431544bed219f15706e560c33f6b1",
       "bytes": 413436
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0008.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/008.png",
       "sha256": "5b7874d08bd895c9bbe55e07406ee15214dca0dde382fe29407898012cd905b4",
       "bytes": 76726
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0009.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/009.png",
       "sha256": "da543c8421279b5de87fd6000fe3155bfba274f4a79abab32c630126b37065d2",
       "bytes": 37849
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0010.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/010.png",
       "sha256": "0460a276bae23bf8e483b3596f819bff0627fa17359d46d820d1030cc2fb46dd",
       "bytes": 102015
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0011.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/011.png",
       "sha256": "5650688f8b2ba4dfd2ef86f002ad0063a60ff48d3928af7da48321485f4fd750",
       "bytes": 85432
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0012.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/012.png",
       "sha256": "89636584995f142e3a2d27dc45c2dbe8a64d77a6028ab4dc31d7ca66a4006457",
       "bytes": 97663
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0013.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/013.png",
       "sha256": "93dbe9712a143d2f9302c360ceef1b08c284fb8914d7c66ea3756fb9d3398c53",
       "bytes": 153838
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0014.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/014.png",
       "sha256": "78d9534658bbc3af0a68f710c2f2eaa3f4ceb77435774ab81b6c14720e86e51a",
       "bytes": 93936
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0015.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/015.png",
       "sha256": "7aa2a5557f65e4261529ee4865d7d5ffd727ac75e53ac18f851772ac32acd97b",
       "bytes": 77167
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0016.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/016.png",
       "sha256": "8877b4b4e336563fb643ef8a45e3ecd79fcbf4fc0b316ce6b38f9a7ad1749c1f",
       "bytes": 121777
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0017.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/017.png",
       "sha256": "1cd985bc2a32d256610c4bf4ae9887976b7f6d7a8a3e2a7da6974e8a3c36f6a2",
       "bytes": 107104
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0018.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/018.png",
       "sha256": "c5b5552317cda7bab32722d9a7852f5f960614524ffc0368cb114fbdd6bbbc7a",
       "bytes": 133135
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0019.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/019.png",
       "sha256": "6c0e190cbb6b6b285bf9131a26cd195ec51f8dc0a6baca2f22ab1d76a1171e91",
       "bytes": 113271
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0020.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/020.png",
       "sha256": "6c611265c4c5d6eec15a9f7f3da9a8cdd32bcde152117102f21c3440a007e1d8",
       "bytes": 116885
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0021.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/021.png",
       "sha256": "87f6284c314d21c049b219ecc4c45d3f9182704e2e796c634ab1997ddb934991",
       "bytes": 117489
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0022.jpg",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/022.jpg",
       "sha256": "44b5b4d00d4902fb47d63ca4da7070ff7f9c35e3de5b5d4ea864e1163da727fc",
       "bytes": 293731
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0023.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/023.png",
       "sha256": "e8d11d40c7eb9d4419224a3eaa2406e5516392262da109375a4ebf508edf228e",
       "bytes": 72656
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0024.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/024.png",
       "sha256": "02ce31163ba2296fedc1cc14f46b57d57c60bd830f53a8e93db8c2fd611c6a74",
       "bytes": 110412
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0025.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/025.png",
       "sha256": "545de8bd2b98169d0dc43060aff1eb5c1e5833ee4f7d2f05a5358392af27c987",
       "bytes": 79303
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0026.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/026.png",
       "sha256": "d9397f0043b7b6399bedf98dc2aae21224a1cca9ff34a9b2ed482b71e49b7c30",
       "bytes": 88524
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0027.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/027.png",
       "sha256": "5a013a8903180104f58414f98d28e3d3c202ea94f0b4ddd753527efd81b08d81",
       "bytes": 119844
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0028.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/028.png",
       "sha256": "2b6f6d21d54e772f9fafb3c77a16dfd731fb7794ea864a2ce2f60424b9fd0200",
       "bytes": 90323
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0029.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/029.png",
       "sha256": "b136336264f96169b6a7e7fc5d2d2951f20d81c5f7c1dc6ed7051ebb927b4aad",
       "bytes": 174003
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0030.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/030.png",
       "sha256": "cccce76aaf540b8fbd67711783cfe2ea7f4045b492b59ec99c14a087c14ae9be",
       "bytes": 83295
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0031.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/031.png",
       "sha256": "a07a1568ba7250c40dce9c0f5ba55ce1cbeafd9b3c9972f3c132fd5fcb55da88",
       "bytes": 39183
     },
     {
-      "path": "decks/858400e55439e79491c39ed037e7b5bf70f36b10c58ee4fd54b20e669809bc1a/0032.png",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/slides/032.png",
       "sha256": "fe1b001357fecee9f18ba012f4bc3de7782356453fca6d0a60460d1e19b85b6e",
       "bytes": 45862
     },
     {
-      "path": "pdfs/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
+      "path": "decks/2024-09-25-statements-about-stateless-devopsdays-cairo-2024/2024-09-25-statements-about-stateless-devopsdays-cairo-2024.pdf",
       "sha256": "dd094e5498163caceee9c703dae74436eb729700c8b1724d3f82886d511bdeb4",
       "bytes": 4395992
     }

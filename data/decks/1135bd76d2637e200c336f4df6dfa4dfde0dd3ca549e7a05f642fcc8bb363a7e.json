@@ -7,7 +7,7 @@
     {
       "id": "mBkF3K",
       "number": 1,
-      "image": "decks/1135bd76d2637e200c336f4df6dfa4dfde0dd3ca549e7a05f642fcc8bb363a7e/0001.png",
+      "image": "decks/2020-10-29-datadog-vodafone-and-dunelm-sre-panel-discussion-datadog-sre-panel/slides/001.png",
       "width": 1486,
       "height": 890,
       "text": "",
@@ -18,7 +18,7 @@
   "page_count": 1,
   "files": [
     {
-      "path": "decks/1135bd76d2637e200c336f4df6dfa4dfde0dd3ca549e7a05f642fcc8bb363a7e/0001.png",
+      "path": "decks/2020-10-29-datadog-vodafone-and-dunelm-sre-panel-discussion-datadog-sre-panel/slides/001.png",
       "sha256": "7f51627636117abd03a415fb73f91e735b12a39d6f52e958b0998ad6d95e13d8",
       "bytes": 466825
     }

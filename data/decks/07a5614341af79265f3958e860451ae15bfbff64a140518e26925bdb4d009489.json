@@ -2,12 +2,12 @@
   "id": "07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489",
   "source_sha256": "2f9b48a2cbabee4756c821a8a071c4352d2441084524739d121e207cddb24ed0",
   "provenance": "original",
-  "pdf": "pdfs/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
+  "pdf": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "5pEEXo",
       "number": 1,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0001.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 2 Improving your toolset. Profiting from containers and serverless functions",
@@ -17,7 +17,7 @@
     {
       "id": "i8x2QD",
       "number": 2,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0002.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Hahnara Hyun Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
@@ -27,7 +27,7 @@
     {
       "id": "KSfqIc",
       "number": 3,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0003.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (Today!) Episode 3: Bringing your company onboard! (8 June)",
@@ -37,7 +37,7 @@
     {
       "id": "wmOeB1",
       "number": 4,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0004.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "Traditional three-tier application architecture Web servers Presentation layers Application servers Business logic Database servers Data layer © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4",
@@ -47,7 +47,7 @@
     {
       "id": "Z67S3Q",
       "number": 5,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0005.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "How can we innovate faster? © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5",
@@ -57,7 +57,7 @@
     {
       "id": "BPqFvp",
       "number": 6,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0006.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "What do our customers want in a modern application? Reliability Flexibility Security and isolation by design © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6",
@@ -67,7 +67,7 @@
     {
       "id": "njZ3oE",
       "number": 7,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0007.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "Traditional three-tier application architecture Web servers Presentation layers Application servers Business logic Database servers Data layer © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 7",
@@ -77,7 +77,7 @@
     {
       "id": "Q3Hrgd",
       "number": 8,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0008.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Modern application architecture Presentation Events Events Business logic APIs Queues/messages Data © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8",
@@ -87,7 +87,7 @@
     {
       "id": "2N0fZ2",
       "number": 9,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0009.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Let’s zoom out APIs APIs APIs APIs APIs © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9",
@@ -97,7 +97,7 @@
     {
       "id": "egjTRR",
       "number": 10,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0010.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Deployment: Monolith development lifecycle developers services delivery pipelines build test release monitor © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10",
@@ -107,7 +107,7 @@
     {
       "id": "H0SHJq",
       "number": 11,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0011.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Deployment: Microservice development lifecycle developers services delivery pipelines build test release monitor build test release monitor build test release monitor build test release monitor build test release monitor build test release monitor © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11",
@@ -117,7 +117,7 @@
     {
       "id": "tKB5CF",
       "number": 12,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0012.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Modern application architecture Presentation Events Events Business logic APIs Queues/messages Data © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12",
@@ -127,7 +127,7 @@
     {
       "id": "Vdtt4e",
       "number": 13,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0013.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Compute and Operations More AWS Lambda Serverless functions AWS manages Customer manages Data source integrations Application code Physical hardware, software, networking, and facilities Provisioning Application code Opinionated Container orchestration, provisioning AWS Fargate Cluster scaling Data source integrations Serverless containers Physical hardware, host OS/kernel, networking, and facilities Security config and updates Network config Management tasks Application code Amazon ECS/EKS Container-management -as-a-service Container orchestration control plane Physical hardware software, networking, and facilities Data source integrations Work clusters Security config and updates, network config, firewall, management tasks Application code Amazon EC2 Physical hardware software, networking, and facilities Infrastructure-as-a-Service Les s © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark © 2017, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Data source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers 13",
@@ -137,7 +137,7 @@
     {
       "id": "7xcgx3",
       "number": 14,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0014.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Lego uses an event-driven design Login Customer login Commerce platform Order & customer updates Event relay Shipping Customer login Invoke every minute Events Order complete Amazon EventBridge Data sync Customer, VIP, wishlist sync Customer login FIFO queue Payment Payment authorized Checkout Submit order Send order to SAP Authorize payment Order Order submit Order complete Process order © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 14",
@@ -147,7 +147,7 @@
     {
       "id": "kHLUpS",
       "number": 15,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0015.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Purpose-built databases at AWS Relational Aurora RD S Key value Document In-memory Graph Time series Ledger Wide column DynamoDB DocumentDB ElastiCache Neptune Timestream QLDB Managed Cassandra © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 15",
@@ -157,7 +157,7 @@
     {
       "id": "Mb4Ihr",
       "number": 16,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0016.png",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "Risk of introducing changes …may result in unavailability, reduced performance, adoption Applications Environmen t Features © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 16",
@@ -167,7 +167,7 @@
     {
       "id": "yun6aG",
       "number": 17,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0017.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "Monitor for reliable service health during re-platforming © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 17",
@@ -177,7 +177,7 @@
     {
       "id": "bEVuSf",
       "number": 18,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0018.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability",
@@ -187,7 +187,7 @@
     {
       "id": "DYEiL4",
       "number": 19,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0019.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Review from ep1: Observability",
@@ -197,7 +197,7 @@
     {
       "id": "prxWDT",
       "number": 20,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0020.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals",
@@ -207,7 +207,7 @@
     {
       "id": "SBgK5s",
       "number": 21,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0021.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals Latency Traﬃc Errors Saturation",
@@ -217,7 +217,7 @@
     {
       "id": "4VP7yH",
       "number": 22,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0022.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Latency ● Direct impact on customer experience. ● Where and how you measure is key.",
@@ -227,7 +227,7 @@
     {
       "id": "gp7vqg",
       "number": 23,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0023.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Traﬃc ● The amount of work being done—or attempted. ● Direct relationship to business value.",
@@ -237,7 +237,7 @@
     {
       "id": "J8qjj5",
       "number": 24,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0024.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/024.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Errors ● A nice, defined target to aim at. ● Direct impact on customer experience.",
@@ -247,7 +247,7 @@
     {
       "id": "vSZXbU",
       "number": 25,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0025.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/025.jpg",
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Saturation ● Honestly, this is a tricky one. :) ● Direct relationship to both scaling and capacity planning.",
@@ -257,7 +257,7 @@
     {
       "id": "XmILTt",
       "number": 26,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0026.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/026.jpg",
       "width": 1600,
       "height": 900,
       "text": "Traces and APM",
@@ -267,7 +267,7 @@
     {
       "id": "A619MI",
       "number": 27,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0027.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -277,7 +277,7 @@
     {
       "id": "mPjxEh",
       "number": 28,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0028.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/028.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -287,7 +287,7 @@
     {
       "id": "OjSl76",
       "number": 29,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0029.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/029.jpg",
       "width": 1600,
       "height": 900,
       "text": "S4 S1 S2 S3 S5",
@@ -297,7 +297,7 @@
     {
       "id": "13BYzV",
       "number": 30,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0030.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/030.jpg",
       "width": 1600,
       "height": 900,
       "text": "TRACE S1 S2 S3 SPANS S4 S5",
@@ -307,7 +307,7 @@
     {
       "id": "dMuMru",
       "number": 31,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0031.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/031.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demo",
@@ -317,7 +317,7 @@
     {
       "id": "FgdAkJ",
       "number": 32,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0032.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/032.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -327,7 +327,7 @@
     {
       "id": "s0Lyci",
       "number": 33,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0033.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/033.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -337,7 +337,7 @@
     {
       "id": "UK4mV7",
       "number": 34,
-      "image": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0034.jpg",
+      "image": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/034.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -348,177 +348,177 @@
   "page_count": 34,
   "files": [
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0001.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/001.jpg",
       "sha256": "65e5bc317ce868bcfae0b2898510cac550c5c57af9481e4b23965a4eaaa10b9a",
       "bytes": 86753
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0002.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/002.jpg",
       "sha256": "71c8e1d3ddaa2aba59cf6503ab3ff93cefdd83da22cc8a6c5edf5c4240d17f07",
       "bytes": 146876
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0003.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/003.jpg",
       "sha256": "a6e8a7c264bfcf7238231c50296228dbba5115f53037184d861979a2220ac68e",
       "bytes": 177328
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0004.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/004.png",
       "sha256": "3c6a324dec564fd5a13f1e064b5fadf67d1acec9b2da9bdc1c5acf90af18698a",
       "bytes": 353939
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0005.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/005.jpg",
       "sha256": "618ae9eb81eab04c507873991608cf84e794dd840567d0d4222b607b0289d9f0",
       "bytes": 57479
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0006.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/006.png",
       "sha256": "9bcc532f447e793a2fb280d586eebc1edf26ea02fcc233e10e60f701d4f72620",
       "bytes": 358449
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0007.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/007.png",
       "sha256": "6a5d63858d21c0e3d4fa2c8fe8ebb35297e93535b8f6954d82f3cd4ae32c1b23",
       "bytes": 353912
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0008.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/008.png",
       "sha256": "ad0acd97f8e2fa0fd1233277f7a8b68866a265ec0bac02e5b7e0ef0b3c85e982",
       "bytes": 372759
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0009.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/009.jpg",
       "sha256": "e0a72ceb20c27dfbe1c35b87bbe0e0b6ccd99ecb091f0f30aa1c288a203f01c5",
       "bytes": 93504
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0010.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/010.png",
       "sha256": "6b345ba947779978b6c7068333d5c4894ca76ae11f2483031e4018c8e678c409",
       "bytes": 359612
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0011.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/011.png",
       "sha256": "fdc4a80ed0f33f151776ed44014a445e38976e7fb7e442cae2be01a30dfed82b",
       "bytes": 541742
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0012.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/012.png",
       "sha256": "5a39cce920d60f0ed942b7fd1894003ba06bfdd439b69705dc1fec4d27f1da93",
       "bytes": 373049
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0013.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/013.png",
       "sha256": "674db2793f7dc50b9ba5a49ea3033785675cc3a96b6359ccb976239c7ac1a05e",
       "bytes": 734311
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0014.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/014.png",
       "sha256": "d56cdc8bdc4635d4699b85e052bd10ed90d7cfca7a3809e70e7f4daf168a3657",
       "bytes": 556918
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0015.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/015.png",
       "sha256": "4575b9e8d3b252fd891d4b93f483cf9be19396e2d97b99166f2038c009f27304",
       "bytes": 430752
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0016.png",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/016.png",
       "sha256": "b5b06493912c1f33df19f0d4fa4a37a79ae67518c77d7b4bc43d32fa032bb6ea",
       "bytes": 326053
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0017.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/017.jpg",
       "sha256": "994adcc4a130e3a7d196b21a5e25f38313929af24bc5633fe136fee7375c450d",
       "bytes": 256129
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0018.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/018.jpg",
       "sha256": "3c5d6089576a78c102164555b52e6b55703e3f31616f1554cccd697e58c0d87b",
       "bytes": 55971
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0019.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/019.jpg",
       "sha256": "7c13b5c9e39520d7569b5a304315da1aae25e3ef511b1fe26d8e6e153e5eee52",
       "bytes": 101337
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0020.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/020.jpg",
       "sha256": "399ec43b7e4c6040ead21eef840f2964e8eee1e615a6a64d70b438bddebf343a",
       "bytes": 61081
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0021.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/021.jpg",
       "sha256": "e34c76ad9f0268da6945dfa36846e86e143305488068fd3af3bae38a8bb751e6",
       "bytes": 128996
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0022.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/022.jpg",
       "sha256": "e62ec8041e6c878fc144ee688a60cc12bd6631b913107011f9bda2412e3e3474",
       "bytes": 112345
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0023.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/023.jpg",
       "sha256": "27c222890d6d0e94412cdd3186336582d431f7af293196775ced1ab1bf41c715",
       "bytes": 114996
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0024.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/024.jpg",
       "sha256": "613e5242491918a2b2ffc519c3465b4bb872ad02ae95890ef150cf93271b8920",
       "bytes": 114270
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0025.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/025.jpg",
       "sha256": "2924e7bccd169dab2bd550fb37f309067e31f30fb31fd88d66b767e2aaec19e9",
       "bytes": 122165
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0026.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/026.jpg",
       "sha256": "7c3f9b1db340423fe61e52bc44beacb2617d83b083018cf9f268f961498f710c",
       "bytes": 57013
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0027.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/027.jpg",
       "sha256": "8cdc9e1d92d4b565eb654640673caaed382ec7d1d70cce74c28637e7e3840c4c",
       "bytes": 80662
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0028.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/028.jpg",
       "sha256": "b034e8192c6631e6ffa1b6c8e9630393a2fa94cf42bf502c4f9ba666d35958bf",
       "bytes": 88429
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0029.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/029.jpg",
       "sha256": "90e8f6616b72cbc0b33907948a4a958090e1fac13ac521e2b1caa0dd03173cb0",
       "bytes": 84501
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0030.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/030.jpg",
       "sha256": "78a23f55108b84a10b610b413e14092bf3bd0447f700502fff770c6042fe90f6",
       "bytes": 94754
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0031.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/031.jpg",
       "sha256": "1d51c7a2a6e4d098738fb3dfa0f488349ca4402476d794d1a0fd7d2467d19782",
       "bytes": 47210
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0032.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/032.jpg",
       "sha256": "847891c3281bb4838f66963bbba817b74587d9cf4f96ba876354a9ea49488442",
       "bytes": 59614
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0033.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/033.jpg",
       "sha256": "8f0fb7c468bc417ee97c58f584f5d9f4e7590273ddee38b1ac6bf6d09c5de2fd",
       "bytes": 98877
     },
     {
-      "path": "decks/07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489/0034.jpg",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/slides/034.jpg",
       "sha256": "5607e5842c682bcf687c061e350533da08978f4b93a97b3ec7a0b7aca8b0c1f1",
       "bytes": 90355
     },
     {
-      "path": "pdfs/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
+      "path": "decks/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar/2021-05-18-cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serv-devops-com-webinar.pdf",
       "sha256": "2f9b48a2cbabee4756c821a8a071c4352d2441084524739d121e207cddb24ed0",
       "bytes": 3033577
     }

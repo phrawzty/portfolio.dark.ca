@@ -2,12 +2,12 @@
   "id": "3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32",
   "source_sha256": "e5b3ed175e4508bad4f227a994498a9d84a1c320fd07d7693e38bc1a2714f9a3",
   "provenance": "original",
-  "pdf": "pdfs/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
+  "pdf": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "vUj2FO",
       "number": 1,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0001.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 3 Bringing your team on board into your cloud native journey",
@@ -17,7 +17,7 @@
     {
       "id": "XoRq7n",
       "number": 2,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0002.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Stuti Desphande Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
@@ -27,7 +27,7 @@
     {
       "id": "A8Ae0C",
       "number": 3,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0003.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (16 May) Episode 3: Bringing your company onboard! (Today)",
@@ -37,7 +37,7 @@
     {
       "id": "mRtRsb",
       "number": 4,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0004.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "Top migration challenges we hear from customers “We see challenges with existing software contracts, license portability, and vendor willingness to price reasonably during the move of dozens/hundreds of vendors” “We want to evaluate and onboard new software vendors during migration” “We want to bring on-premises governance controls to cloud apps” “We need to drive culture change beyond IT as we transform our businesses to digital and from on-premises to cloud” © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4",
@@ -47,7 +47,7 @@
     {
       "id": "OlcFl0",
       "number": 5,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0005.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Culture Practices Tools © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5",
@@ -57,7 +57,7 @@
     {
       "id": "15L3dP",
       "number": 6,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0006.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Consider how you integrate applications & modular services Synchronous: API-based Asynchronous: event-driven Inter/intra-service Common for communication between apps Common for communication within apps Scalability Tools required to manage point-to-point connections Nearly infinitely scalable Cost Provisioning for peak use leads to low CPU utilization Scales to 0—cost benefits of “pay for use” Latency Can be very low Higher in theory—but latency requirements are rarely as low as you think (think about P50, P99, etc.) Agility Easy to get started; hard to use point-to-point in large scale Decoupled systems increase agility dramatically © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6",
@@ -67,7 +67,7 @@
     {
       "id": "dP3rVo",
       "number": 7,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0007.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "CLIENT EXPERIENCE ROI WITH ENTERPRISE MODERNIZATION WITHIN 36 MONTHS We asked a sample of our customers across different industries to share their experience around how they quantified benefits and return on investment (ROI) to measure the business impact of Enterprise Modernization. Source: The Total Economic Impact of ThoughtWorks Digital Transformation Services (2019) © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. “Customers realized an 88% ROI 79% Improved speed-to-market 10% Reduced cost of legacy application maintenance 6% Reduced cost of new application maintenance 5% Accelerated customer onboarding",
@@ -77,7 +77,7 @@
     {
       "id": "FimfOD",
       "number": 8,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0008.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Now… Move fast OR AND Stay secure © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8",
@@ -87,7 +87,7 @@
     {
       "id": "s2VTGc",
       "number": 9,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0009.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Layered Security Services Detect Amazon CloudWatch AWS Security Hub AWS Systems Manager Identify Amazon GuardDuty Amazon Macie Automate Amazon Inspector Detect Protect AWS Lambda Respond Recover Protect AWS Config Investigate Amazon VPC AWS Key Management Service AWS Secrets Manager AWS IoT Device Defender AWS Single Sign-On Archive AWS Shield AWS Firewall Manager AWS Identity and Access Management (IAM) Snapshot Amazon CloudWatch AWS CloudTrail AWS WAF © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9",
@@ -97,7 +97,7 @@
     {
       "id": "UMEH91",
       "number": 10,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0010.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "AAA with AWS Authenticate Authorize Audit IAM Username/Password Access Key (+ MFA) Federation IAM Policies CloudTrail © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10",
@@ -107,7 +107,7 @@
     {
       "id": "6fx51Q",
       "number": 11,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0011.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "AWS Principals Account Owner ID (Root Account) • • • • Access to all subscribed services. Access to billing. Access to console and APIs. Access to Customer Support. IAM Users, Groups and Roles • Access to specific services. • Access to console and/or APIs. • Access to Customer Support (Business and Enterprise). Temporary Security Credentials • Access to specific services. • Access to console and/or APIs. © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11",
@@ -117,7 +117,7 @@
     {
       "id": "izfstp",
       "number": 12,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0012.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "General Best Practices • Clearly define an AWS account-creation process. • Define a company-wide AWS usage policy • Create a security account structure for managing multiple accounts. • Leverage AWS APIs and scripts. © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12",
@@ -127,7 +127,7 @@
     {
       "id": "LJOgmE",
       "number": 13,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0013.png",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "IAM General Best Practices • • • • • • • • • • • • Lock away your AWS account (root) access keys Create individual IAM users Use groups to assign permissions to IAM users Grant least privilege Configure a strong password policy for your users Enable MFA for privileged users Use roles for applications that run on Amazon EC2 instances Delegate by using roles instead of by sharing credentials Rotate credentials regularly Remove unnecessary credentials Use policy conditions for extra security Monitor activity in your AWS account © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 13",
@@ -137,7 +137,7 @@
     {
       "id": "xd7Ued",
       "number": 14,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0014.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "SLIs, SLOs, and SLAs",
@@ -147,7 +147,7 @@
     {
       "id": "ZwqIX2",
       "number": 15,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0015.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "SLIs A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric).",
@@ -157,7 +157,7 @@
     {
       "id": "CGZ6PR",
       "number": 16,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0016.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "SLOs A Service Level Objective is a target value for a service, as measured via an SLI.",
@@ -167,7 +167,7 @@
     {
       "id": "oaHuHq",
       "number": 17,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0017.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "SLAs A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs.",
@@ -177,7 +177,7 @@
     {
       "id": "Qu0iAF",
       "number": 18,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0018.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "Business Stakeholders - Product Managers Developers SREs Executives Customers",
@@ -187,7 +187,7 @@
     {
       "id": "3DjW2e",
       "number": 19,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0019.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Data-driven decision making Good data helps you make good decisions by lowering cognitive load, empowering teams to be independent, and unlocking creativity and potential.",
@@ -197,7 +197,7 @@
     {
       "id": "fXSJv3",
       "number": 20,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0020.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "Security Posture Management",
@@ -207,7 +207,7 @@
     {
       "id": "HrB7nS",
       "number": 21,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0021.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "Security Posture Management Assess and visualize the current and historic security posture of your cloud environment, automate audit evidence collection, and catch configuration issues.",
@@ -217,7 +217,7 @@
     {
       "id": "uAtvfr",
       "number": 22,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0022.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Security Signals Security Signals are generated using Detection Rules. Detection Rules detect threats across different sources and are available out of the box for immediate use.",
@@ -227,7 +227,7 @@
     {
       "id": "WUcjYG",
       "number": 23,
-      "image": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0023.jpg",
+      "image": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demo",
@@ -238,122 +238,122 @@
   "page_count": 23,
   "files": [
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0001.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/001.jpg",
       "sha256": "4ef4236cfffcf24daf189146191b43d60b08ee23d118c7180e6e657d9743d090",
       "bytes": 80936
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0002.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/002.jpg",
       "sha256": "583fc1d69af1fcdee5196930a4f89a08630c11fa0903180133dff9170c315d0f",
       "bytes": 148377
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0003.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/003.jpg",
       "sha256": "1d1082c9016b0c5e59babfdfbdb63ac2a6bf81acf529809e88c7d79e7199bf13",
       "bytes": 177570
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0004.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/004.png",
       "sha256": "84bdd06f889e73c1a608c2606abcdec8c2b24014f1c0818c89cf84c7af0a5287",
       "bytes": 571705
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0005.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/005.png",
       "sha256": "67a118f288f2ac78bc6afd5fc08a06334acf68dfbe0074a34892efe7afcefe51",
       "bytes": 233386
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0006.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/006.png",
       "sha256": "6f8766c4ac360fb23cb73cf36caf1f9fa02a5df6bbbfa9df1dd7dab6370c5513",
       "bytes": 573839
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0007.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/007.png",
       "sha256": "60bebeda7dc55c9691a9f0b457ce0579d43486ae32a09c3754c0c62946e476d6",
       "bytes": 624763
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0008.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/008.png",
       "sha256": "23954d751bd47ea6adc44442fc33216495e3a74b18a998ca88b3e81f08124aff",
       "bytes": 195810
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0009.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/009.jpg",
       "sha256": "aa85cd76966e089443be2cef2fab2298cc97586050325efaf588ff205c0c3535",
       "bytes": 204241
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0010.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/010.png",
       "sha256": "f8cecdf3d34a30c095aeecff1a781cfd306826dffa91a9e245a9f1995ffd4937",
       "bytes": 279581
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0011.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/011.jpg",
       "sha256": "6c32d3ee0290e9b6f314e7390526fa8d1fe55de0fe20a5628475a5939f499c79",
       "bytes": 254520
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0012.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/012.png",
       "sha256": "4e3d669e55c381f9360ddb340ce2cb3b631e7153cfa38007ca2b567a7993f246",
       "bytes": 310144
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0013.png",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/013.png",
       "sha256": "5baaf07f751c8714bbaa9641d6213d3e2bcdc221178f3be4d93bf3199db0786d",
       "bytes": 505513
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0014.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/014.jpg",
       "sha256": "8e89a24e0914346c3b14747ca06235307b477d5e4ebd98db9fc8727027c9d6e7",
       "bytes": 61875
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0015.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/015.jpg",
       "sha256": "e65d6fee4b0eba29c4ce3bbf26b24ca21b4996687100efcf0c56f2638da45720",
       "bytes": 159537
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0016.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/016.jpg",
       "sha256": "99563f5d8e707b3b30ca05485adee98b56ab472a552001f84403b3a38e5d4765",
       "bytes": 141396
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0017.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/017.jpg",
       "sha256": "e3d795d5ddd8fb679795ac410367a8224a87c65f121cadb102d8e6edef0711dc",
       "bytes": 148380
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0018.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/018.jpg",
       "sha256": "b84cb577471ecb366d59f9370bf5c85d6c16ebdc897ac8598d8eca85bd7ad2ff",
       "bytes": 136597
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0019.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/019.jpg",
       "sha256": "2710fdf6b57e2e6680c5e4cd4d7380dd6ebc2ef3d209bf1a299635ff6ca8d151",
       "bytes": 194118
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0020.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/020.jpg",
       "sha256": "db063b673a586c6ef5bca0efc3b0f70895e49cf1541670ee39603ebf79ea042a",
       "bytes": 70751
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0021.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/021.jpg",
       "sha256": "a224cfec12882a1032388b8ab93fcee75143f6eaeeec4dfd6cd094bfbb9dc6fc",
       "bytes": 208679
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0022.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/022.jpg",
       "sha256": "d63bb855ad1e8c23bff0eb5b88d7e162a96038d44fad4cb5a99ea340e1554cf7",
       "bytes": 203579
     },
     {
-      "path": "decks/3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32/0023.jpg",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/slides/023.jpg",
       "sha256": "3c4aebab7d7a7bbdd8b9acd73cc5760826105fd902a4af6881bec067056f8383",
       "bytes": 47263
     },
     {
-      "path": "pdfs/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
+      "path": "decks/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar/2021-06-08-cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-na-devops-com-webinar.pdf",
       "sha256": "e5b3ed175e4508bad4f227a994498a9d84a1c320fd07d7693e38bc1a2714f9a3",
       "bytes": 1597229
     }

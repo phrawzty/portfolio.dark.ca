@@ -93,7 +93,19 @@ Unknown locations remain readable in the archive and simply have no pin until sa
 
 The website, slide images and headshots are served by Cloudflare Pages. All website PDFs and images are **ordinary Git files** in the companion `assets.dark.ca` repository. A normal clone contains the actual bytes; no Releases, Git LFS, GitHub CLI, or separate download service is needed to restore them. Either repository can be cloned or mirrored to any Git host.
 
-`../assets.dark.ca/files/pdfs/` contains readable names such as `2025-04-04-authz-as-a-dev-workflow-architecting-better-cloud-native-apps-kubecon-cloudnativecon-eu-2025.pdf`. Byte-identical PDFs are shared by appearances. Adding a revised PDF for the same talk/event keeps the earlier file and adds `-v2`, `-v3`, etc. Internal slide-image directories retain their checksums so revisions remain immutable. Descriptions, transcripts and editable slide notes belong in this portfolio repository.
+Each deck version is a readable directory containing its PDF and slide images:
+
+```text
+files/decks/2018-06-01-serverless-revealed-dotscale-2018/
+  2018-06-01-serverless-revealed-dotscale-2018.pdf
+  slides/
+    001.jpg
+    002.jpg
+```
+
+Repeating an unchanged deck reuses its folder. A revision for the same event/title receives `-v2`, `-v3`, etc. Folder names are chosen once: later title edits do not rename existing assets. Image-only entries have a `slides/` folder without a PDF. Descriptions, transcripts, editable slide notes and integrity checksums stay in the portfolio metadata; hashes do not determine asset directory names. Headshots have readable names under `files/speaker/`.
+
+The imported records contain 61 distinct binary bundles across 67 display records. Text-only display differences share a bundle. One PDF has two image exports, so its two version folders contain the same PDF bytes (one shared Git blob).
 
 The daily workflow is:
 

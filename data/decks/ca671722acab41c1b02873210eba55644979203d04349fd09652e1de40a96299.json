@@ -2,12 +2,12 @@
   "id": "ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299",
   "source_sha256": "0de2632c1b463ff66de14526dfde7a807c89baa9666592b57d1a139b3684c519",
   "provenance": "original",
-  "pdf": "pdfs/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
+  "pdf": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
   "slides": [
     {
       "id": "vETtJe",
       "number": 1,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0001.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "THE CLOUD CONNECTIVITY COMPANY Kong Mesh Traﬃc Observability with Datadog Webinar",
@@ -17,7 +17,7 @@
     {
       "id": "XYChC3",
       "number": 2,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0002.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Welcome Daniel Maher Claudio Acquaviva Developer Evangelist, Datadog Solutions Architect, Kong",
@@ -27,7 +27,7 @@
     {
       "id": "9rvV4S",
       "number": 3,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0003.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Agenda ● Kong Mesh Overview and typical policies including mTLS, Traﬃc Route, Traﬃc Permission and Traﬃc Log ● Exploring the Datadog monitoring and observability for APIs and microservices. ● Demos ○ Monitoring Microservice deployment in Kong Mesh using Datadog. ○ Observing Service Mesh consumption. ● Q&A",
@@ -37,7 +37,7 @@
     {
       "id": "mBeIwr",
       "number": 4,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0004.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Accelerate Your Journey to Decentralization Increase pace of innovation, gain new revenue streams, and lower TCO Fast and seamless scale through lightweight proxies Support yesterday, today and tomorrow Instantly add policies through flexible platform via out-of-the-box plugins Become technology agnostic across any cloud, orchestrator, platform or protocol MONOLITH 1 Service SERVICES MICROSERVICES 5 Services 100+ microservices SERVICE MESH 1,000+ microservices in a service mesh EMERGING PATTERNS 1,000,000+ functions in serverless Single source of truth with declarative configuration of Kubernetes and Gateways",
@@ -47,7 +47,7 @@
     {
       "id": "OVN6pG",
       "number": 5,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0005.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "KONG KONNECT",
@@ -57,7 +57,7 @@
     {
       "id": "0p5uhf",
       "number": 6,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0006.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kuma & CNCF (Cloud Native Computing Foundation) Open source Service Mesh Project started by Kong in September 2019 and donated to CNCF https://landscape.cncf.io/?selected=kuma https://github.com/kumahq",
@@ -67,7 +67,7 @@
     {
       "id": "d8oia4",
       "number": 7,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0007.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh Overview Why do you need a Service Mesh? Ensure service connectivity, discovery and traﬃc reliability Achieve Zero-Trust Security Gain Global Traﬃc Observability Intelligently route traﬃc across any platform and any cloud to meet expectations and SLAs Restrict access and encrypt all traﬃc by default to only complete transactions when identity is verified Gain a detailed understanding of service behavior to increase application reliability and the eﬃciency of teams",
@@ -77,7 +77,7 @@
     {
       "id": "FSXWST",
       "number": 8,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0008.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "Multi-Zone deployment Global Kong Mesh Control plane Service Discovery Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster",
@@ -87,7 +87,7 @@
     {
       "id": "rmGKKs",
       "number": 9,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0009.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Service Mesh Policies Kong Mesh Kuma",
@@ -97,7 +97,7 @@
     {
       "id": "U5z8DH",
       "number": 10,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0010.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog",
@@ -107,7 +107,7 @@
     {
       "id": "6Phw5g",
       "number": 11,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0011.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog",
@@ -117,7 +117,7 @@
     {
       "id": "ijQjy5",
       "number": 12,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0012.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog One platform with seamlessly integrated, smart tooling Visit datadoghq.com",
@@ -127,7 +127,7 @@
     {
       "id": "L39XqU",
       "number": 13,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0013.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Cloud Console Traﬃc Log policy Microservice 1 2 Datadog Agent Consumers 1 Envoy Sidecar Microservice 2 Envoy Sidecar Admins Sidecar metrics Kong Mesh Control Plane AWS Elastic Kubernetes Engine Kong Mesh Traﬃc Log policy 2. Datadog Agent",
@@ -137,7 +137,7 @@
     {
       "id": "xMsLit",
       "number": 14,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0014.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Web Interface Traﬃc Log policy 1 Microservice 1 Datadog Agent Envoy Sidecar Sidecar metrics Consumers Microservice 2 Current release Envoy Sidecar Microservice 2 Canary Release Envoy Sidecar 2 Kong Mesh Control Plane AWS Elastic Kubernetes Engine 1. Kong Mesh Traﬃc Log policy 2. Datadog Agent Admins",
@@ -147,7 +147,7 @@
     {
       "id": "Zgb9bI",
       "number": 15,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0015.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Cloud Console Traﬃc Log policy Microservice 1 2 Datadog Agent Consumers 1 Envoy Sidecar Microservice 2 Envoy Sidecar Admins Sidecar metrics Kong Mesh Control Plane Kong Mesh Kong Mesh Traﬃc Log policy 2. Datadog Agent",
@@ -157,7 +157,7 @@
     {
       "id": "C0JxTh",
       "number": 16,
-      "image": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0016.jpg",
+      "image": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "THE CLOUD CONNECTIVITY COMPANY Kong Mesh Traﬃc Observability with Datadog Webinar",
@@ -168,87 +168,87 @@
   "page_count": 16,
   "files": [
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0001.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/001.jpg",
       "sha256": "3e7a9ecbfc0b1ca34ebcdb7444d66a97c73caca57caadb6097f133b97d7f027f",
       "bytes": 336099
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0002.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/002.jpg",
       "sha256": "1a82df2c348384d986db8d431f79a5f878bc2c00ec226ac3b149c75139ab3b30",
       "bytes": 181440
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0003.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/003.jpg",
       "sha256": "d89188c1b5b289c601c8c60abcf24f4a4f0cfd5f981c8075ae803571b981880a",
       "bytes": 226723
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0004.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/004.jpg",
       "sha256": "e3e6e1ad57325f321b0bc7db106240200571144118f9d95a1a415c4f95f772fd",
       "bytes": 333353
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0005.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/005.jpg",
       "sha256": "a7e54404aa90338a2c6bded92497a07d59831501a4d3b91211dbb2c29f167f01",
       "bytes": 144326
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0006.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/006.jpg",
       "sha256": "17ca06fae1877f99137fce2896ad7cee1eb05d90b103bea9e046332fa1f53fff",
       "bytes": 331492
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0007.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/007.jpg",
       "sha256": "e04e5d85d5e91f893e1d7d57f574a2690f47ea33399cb40696d9ffeb860acee0",
       "bytes": 299667
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0008.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/008.jpg",
       "sha256": "1a2bbdf78eed3d43b128c07d6dfc4c72cfec165ba4abfb34888e7fe57d832c4b",
       "bytes": 208625
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0009.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/009.jpg",
       "sha256": "c0f7df516270dfe90cc31b436861e7446443581ce4f73389a3a7aae55bfd08c7",
       "bytes": 219105
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0010.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/010.jpg",
       "sha256": "a8a272030571dfa68c412646c6e0283589a4dd8f5812bdd370e0edc4b0501916",
       "bytes": 250786
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0011.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/011.jpg",
       "sha256": "8344a61aa0892eb0fefa13b9b6fc8a1baa33de675c897d9a66be98e3729582ed",
       "bytes": 241587
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0012.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/012.jpg",
       "sha256": "356f7df3673548ea33b2475c0d8b57ad977087dc9f276dd7d3873841b9300cba",
       "bytes": 219194
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0013.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/013.jpg",
       "sha256": "e274ac9dfbcda89b96bd3d59ce3981de3385920998411aa920714e1931247f2e",
       "bytes": 213286
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0014.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/014.jpg",
       "sha256": "f7b8be030e50333559bb7a0c797b437da8391bb0e8a7591c6104b675a7f84e54",
       "bytes": 142064
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0015.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/015.jpg",
       "sha256": "d54d1b1d5722722c082501d1a3404095629745216d0a44e6613cc02eac491d37",
       "bytes": 208040
     },
     {
-      "path": "decks/ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299/0016.jpg",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/slides/016.jpg",
       "sha256": "3e7a9ecbfc0b1ca34ebcdb7444d66a97c73caca57caadb6097f133b97d7f027f",
       "bytes": 336099
     },
     {
-      "path": "pdfs/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
+      "path": "decks/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar/2021-04-14-kong-mesh-traffic-observability-with-datadog-kong-datadog-webinar.pdf",
       "sha256": "0de2632c1b463ff66de14526dfde7a807c89baa9666592b57d1a139b3684c519",
       "bytes": 6504121
     }

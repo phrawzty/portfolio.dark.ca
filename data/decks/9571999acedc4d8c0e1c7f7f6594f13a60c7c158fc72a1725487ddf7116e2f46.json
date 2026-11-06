@@ -2,12 +2,12 @@
   "id": "9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46",
   "source_sha256": "48b3f1dacdcf9e8600f1ab44b7a0789a9a64cf599f234c00087deb67ef8b83e1",
   "provenance": "original",
-  "pdf": "pdfs/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
+  "pdf": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
   "slides": [
     {
       "id": "UdiHJd",
       "number": 1,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0001.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "DANIEL MAHER // DATADOG SERVERLESS, REVEALED!",
@@ -17,7 +17,7 @@
     {
       "id": "6xR5C2",
       "number": 2,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0002.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "OLD MEME IS OLD THERE IS NO CLOUD - IT’S JUST SOMEONE ELSE’S COMPUTER The Internet",
@@ -27,7 +27,7 @@
     {
       "id": "jH9t4R",
       "number": 3,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0003.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "THERE IS NO SERVERLESS IT’S JUST FUNCTIONS AS A SERVICE",
@@ -37,7 +37,7 @@
     {
       "id": "Lasgwq",
       "number": 4,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0004.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "FaaS MAGIC T O N",
@@ -47,7 +47,7 @@
     {
       "id": "xubUpF",
       "number": 5,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0005.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "EVENT DRIVEN ARCHITECTURE",
@@ -57,7 +57,7 @@
     {
       "id": "aEKIhe",
       "number": 6,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0006.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "STILL A THING RESOURCE UTILISATION",
@@ -67,7 +67,7 @@
     {
       "id": "CY36a3",
       "number": 7,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0007.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -77,7 +77,7 @@
     {
       "id": "orluSS",
       "number": 8,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0008.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -87,7 +87,7 @@
     {
       "id": "RBUiKr",
       "number": 9,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0009.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -97,7 +97,7 @@
     {
       "id": "3VDWDG",
       "number": 10,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0010.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -107,7 +107,7 @@
     {
       "id": "fowK5f",
       "number": 11,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0011.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -117,7 +117,7 @@
     {
       "id": "I8f7y4",
       "number": 12,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0012.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "BASICALLY THE SAME THING",
@@ -127,7 +127,7 @@
     {
       "id": "uSNvqT",
       "number": 13,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0013.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -137,7 +137,7 @@
     {
       "id": "Wm6jis",
       "number": 14,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0014.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "JAVASCRIPT JAVA, PYTHON, C# ET AL. AWS LINUX",
@@ -147,7 +147,7 @@
     {
       "id": "95pXbH",
       "number": 15,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0015.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "JAVASCRIPT C#, F#, AND EVEN BASH IF YOU’RE READY TO YOLO",
@@ -157,7 +157,7 @@
     {
       "id": "lPYLTg",
       "number": 16,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0016.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "JAVASCRIPT THAT’S IT.",
@@ -167,7 +167,7 @@
     {
       "id": "NjH9M5",
       "number": 17,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0017.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "JAVASCRIPT BUT ALSO DOCKER!",
@@ -177,7 +177,7 @@
     {
       "id": "02zxEU",
       "number": 18,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0018.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "COMMODITY PRICING",
@@ -187,7 +187,7 @@
     {
       "id": "cMil6t",
       "number": 19,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0019.jpg",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "LANGUAGE SUPPORT PROVIDER ECOSYSTEM IN-HOUSE KNOWLEDGE",
@@ -197,7 +197,7 @@
     {
       "id": "EgRYzI",
       "number": 20,
-      "image": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0020.png",
+      "image": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "SERVERLESS THERE IS NO MAGIC",
@@ -208,107 +208,107 @@
   "page_count": 20,
   "files": [
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0001.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/001.png",
       "sha256": "e55c9f323b4e902ffaf6e0d8370cdf8c36ef1e5fcd1b8a67264bc00ef0f70dc7",
       "bytes": 166126
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0002.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/002.png",
       "sha256": "0e5f249d5a907f4aa2405553aeb49c9ca35f0df3d30bfc78824339f40b96cb7f",
       "bytes": 148279
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0003.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/003.png",
       "sha256": "aaf588a0eb9f50af050a1b8a084010e11e1571b0bb9457288519e141130bd5ed",
       "bytes": 182157
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0004.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/004.png",
       "sha256": "9994889e74cbe693914b514b29f255f3474295ae9760b9202a95bc61acbcea4f",
       "bytes": 160641
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0005.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/005.jpg",
       "sha256": "675280f936cfaa42b886d095b013207f407045d5cc5502a07e337eeb9d31da92",
       "bytes": 132040
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0006.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/006.png",
       "sha256": "95ffbcc31250df08a9dc5e87881a37b000dbd36cedd884334d4058b7b88db33b",
       "bytes": 117046
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0007.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/007.jpg",
       "sha256": "f2d06d4be437994ddb3bf6c8bf60aaf4d21f1a2c4e95daafc8c2d8bb83f8771f",
       "bytes": 162046
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0008.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/008.jpg",
       "sha256": "800a7822567b78a19041e22882f1c27208ed1ac7daeb33db5efbf70f69129990",
       "bytes": 261324
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0009.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/009.jpg",
       "sha256": "1734b6e246e52df3d0cbe50815910da9862967f1afc2fabd70767a5ff4d5d934",
       "bytes": 527277
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0010.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/010.jpg",
       "sha256": "ef75b9168f0bd8fbff11eff821cfb3c6721e5f2d56183252856789fcfb199bdd",
       "bytes": 284308
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0011.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/011.jpg",
       "sha256": "4046f9a16fedf117b7b9400fe5efe64b4059f2bd77b72c5a9162ed9d7193a32b",
       "bytes": 113669
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0012.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/012.jpg",
       "sha256": "8dbe04dcd9d43322d8cd4006db9afec64bc0348c8e8f3085f4407175ef4dc764",
       "bytes": 225824
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0013.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/013.jpg",
       "sha256": "4036fcfd6744f0280d269b1e035197371ec94874f9fe1424cba059bce8e45770",
       "bytes": 441636
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0014.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/014.png",
       "sha256": "32d611eb11cf4c87f9ddd72ebfda2b9de79980dd9b55c19c718d2502459060fe",
       "bytes": 304764
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0015.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/015.png",
       "sha256": "a7b500d9ca79a9aad2605fb1aa1d6dc088e61a17be5bb775c5301da42bafa60b",
       "bytes": 283312
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0016.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/016.jpg",
       "sha256": "01db59fdc6c3e62db910012b69d7f909dcd273bd2bb329fb4763417861eff1c4",
       "bytes": 82004
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0017.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/017.png",
       "sha256": "6afe5880f2a539b3980af10760f2e0eec448fc0910139fbb5de3857c7214fae7",
       "bytes": 240147
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0018.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/018.jpg",
       "sha256": "3b254297c8367a2969745eda6e0c0e85228bb20c331981f636605f885a926f1f",
       "bytes": 180046
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0019.jpg",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/019.jpg",
       "sha256": "b3e24787ff2b835865fa85ed63fa837111ba75da33c095686aa22530d1e92289",
       "bytes": 264417
     },
     {
-      "path": "decks/9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46/0020.png",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/slides/020.png",
       "sha256": "590e9c3a191bd9e94e12f9c08e7067d4e57391261508e9e164ff58f82fad4832",
       "bytes": 133703
     },
     {
-      "path": "pdfs/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
+      "path": "decks/2018-09-13-serverless-revealed-devopsdays-berlin/2018-09-13-serverless-revealed-devopsdays-berlin.pdf",
       "sha256": "48b3f1dacdcf9e8600f1ab44b7a0789a9a64cf599f234c00087deb67ef8b83e1",
       "bytes": 10427220
     }

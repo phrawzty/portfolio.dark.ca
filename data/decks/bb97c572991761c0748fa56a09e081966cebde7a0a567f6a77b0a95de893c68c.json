@@ -2,12 +2,12 @@
   "id": "bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c",
   "source_sha256": "1184fb5cbd22b8f4296b6b1a74f0ba94334a2aed59c84344710353240e4489c6",
   "provenance": "original",
-  "pdf": "pdfs/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
+  "pdf": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
   "slides": [
     {
       "id": "Klrk01",
       "number": 1,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0001.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demystifying DevOps & SRE",
@@ -17,7 +17,7 @@
     {
       "id": "x5aXsQ",
       "number": 2,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0002.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -27,7 +27,7 @@
     {
       "id": "ZPJLkp",
       "number": 3,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0003.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -37,7 +37,7 @@
     {
       "id": "Bj29dE",
       "number": 4,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0004.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -47,7 +47,7 @@
     {
       "id": "o2kxVd",
       "number": 5,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0005.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "DevOps: CAMS ● Culture ● Automation ● Measurement (or Metrics) ● Sharing",
@@ -57,7 +57,7 @@
     {
       "id": "QMTlO2",
       "number": 6,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0006.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "“The SRE Book”",
@@ -67,7 +67,7 @@
     {
       "id": "2gCZGR",
       "number": 7,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0007.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -77,7 +77,7 @@
     {
       "id": "ezvN8q",
       "number": 8,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0008.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "Organizing your organization ● Product Teams ● Squads ● Guilds",
@@ -87,7 +87,7 @@
     {
       "id": "HJeB1F",
       "number": 9,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0009.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Squads",
@@ -97,7 +97,7 @@
     {
       "id": "tdMyte",
       "number": 10,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0010.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Guilds",
@@ -107,7 +107,7 @@
     {
       "id": "Vx5mm3",
       "number": 11,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0011.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "DevOps is an idea; SRE is a practice. ● A cohort of of Site Reliability Engineers, organised and managed as a group, form an SRE team. ● SRE teams are versatile! ○ Code reviews, incident response, facilitate post-mortems ○ Supports a dedicated portfolio or a product team ○ Individual SREs may rotate in and out of products, sprints (though some might not)",
@@ -117,7 +117,7 @@
     {
       "id": "8GoaeS",
       "number": 12,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0012.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -127,7 +127,7 @@
     {
       "id": "kaXOWr",
       "number": 13,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0013.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "SREs have personalities ● Patience for staring at code ● Enjoy problem-solving ● Capacity for self-teaching ● Wide range of technical interests ● Great at communicating in different ways ● Big on teamwork and mutual trust ● Interested in mentoring / teaching",
@@ -137,7 +137,7 @@
     {
       "id": "MuGCPG",
       "number": 14,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0014.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "SREs have backgrounds ● Traditional “ops” or “dev” profiles ● Customer success agent ● PhD in computer science ● Dropped out of high school Great SRE talent can come from anywhere!",
@@ -147,7 +147,7 @@
     {
       "id": "zDz0Hf",
       "number": 15,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0015.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -157,7 +157,7 @@
     {
       "id": "bXhoA4",
       "number": 16,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0016.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "SRE: Standalone team? Embedded resource? ● Depends on your organization; on your realities. ● Try a few different things—see what works! ● This is where the CAMS acronym comes into play. ○ Culture ○ Automation ○ Measurement ○ Sharing",
@@ -167,7 +167,7 @@
     {
       "id": "DrQc2T",
       "number": 17,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0017.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "Pitfall(s)",
@@ -177,7 +177,7 @@
     {
       "id": "qB9Pus",
       "number": 18,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0018.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "Today’s topics, reprised 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
@@ -187,7 +187,7 @@
     {
       "id": "SUsDnH",
       "number": 19,
-      "image": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0019.jpg",
+      "image": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demystifying DevOps & SRE Fin.",
@@ -198,102 +198,102 @@
   "page_count": 19,
   "files": [
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0001.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/001.jpg",
       "sha256": "f7f20e0573400a56d092d1702905f8c86be797140d455ea502330d90c524a34e",
       "bytes": 111895
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0002.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/002.jpg",
       "sha256": "284585782ab52c84babd17523fa2c64969fadd69822344671ea1588eef2b3b87",
       "bytes": 187472
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0003.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/003.jpg",
       "sha256": "608bfac56511bb606c9523228e59e49a2a2de9c2cd49c3024b807257bc371bca",
       "bytes": 119971
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0004.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/004.jpg",
       "sha256": "28fa31f8d884fccdd0bf219fd1c6c062e81a363062a6ac76816450289adfe0ae",
       "bytes": 92164
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0005.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/005.jpg",
       "sha256": "c56bfb74ae1fabbc660ba770a27fdf0f70fc57db9d1d632b499d15a1f2b765f2",
       "bytes": 57812
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0006.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/006.jpg",
       "sha256": "78c8efc10d564cd5bf637ed5aa45b3ad03e83866112d8e16f706730365c4cf42",
       "bytes": 127397
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0007.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/007.jpg",
       "sha256": "25c531222be9c4f15e50ff88744fed76501f38d93ff2910486932da93d31d890",
       "bytes": 85988
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0008.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/008.jpg",
       "sha256": "1bced68f22c704ebca665b1b1c075110db19ace551b5f0d325d88f6e2c646d30",
       "bytes": 57241
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0009.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/009.jpg",
       "sha256": "6de641353be2e4ed494e9e0666ca162e37046830c2d2ebca83eac7b76907a494",
       "bytes": 260576
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0010.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/010.jpg",
       "sha256": "adf938de425adcd874534c727fe29918df64a81cac06ba51561f1d41dd8ca6f7",
       "bytes": 253232
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0011.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/011.jpg",
       "sha256": "3fca88034ba9320eccd851212051a1b952fbc72538b674659df915ed3d506a71",
       "bytes": 131907
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0012.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/012.jpg",
       "sha256": "b20aae9c417ef4d39a5af6d363c2949409ffde619c27be035a00743ee710d577",
       "bytes": 85370
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0013.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/013.jpg",
       "sha256": "b22cc43ef60530c0d86d92925278e715ea8ce58bb815cbb999132c21a9690a71",
       "bytes": 104515
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0014.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/014.jpg",
       "sha256": "d039d9dd57d313de2730cc0fa4698edc0175dceccab1a22a4271ce8a10bec3b0",
       "bytes": 87623
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0015.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/015.jpg",
       "sha256": "49342283cf3d93e21f5df9201b92a7837eb7e6061e03de2b61311ae892bb9ea3",
       "bytes": 89276
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0016.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/016.jpg",
       "sha256": "255da496caeb7ae65b8988e3753ec781b00d7b7df9227141490c3ed0990a4d9a",
       "bytes": 105651
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0017.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/017.jpg",
       "sha256": "5e2cc7ee92b9beb6243ebae60f16eb10cc3d63e93a2c1b07401484181fa5c1c3",
       "bytes": 214977
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0018.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/018.jpg",
       "sha256": "058e19a338f0a46fd237b49ab1414ba50623c3dbcfa6a941425f132ec8f4a3a7",
       "bytes": 123886
     },
     {
-      "path": "decks/bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c/0019.jpg",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/slides/019.jpg",
       "sha256": "a37643dcd12a60cc1f6effaba079c8c8307cc53c6f620a08bff9d10d80ac0c5f",
       "bytes": 113541
     },
     {
-      "path": "pdfs/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
+      "path": "decks/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering/2020-03-27-demystifying-devops-sre-introduction-to-site-reliability-engineering.pdf",
       "sha256": "1184fb5cbd22b8f4296b6b1a74f0ba94334a2aed59c84344710353240e4489c6",
       "bytes": 1391687
     }

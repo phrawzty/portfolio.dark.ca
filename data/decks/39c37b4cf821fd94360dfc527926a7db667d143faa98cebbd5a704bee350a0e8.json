@@ -2,12 +2,12 @@
   "id": "39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8",
   "source_sha256": "7fc5bca99cb925fa2b9e8d016fe00be5ddad1ae5d38c906fcceb542ea4d143bf",
   "provenance": "original",
-  "pdf": "pdfs/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
+  "pdf": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
   "slides": [
     {
       "id": "Mu2En6",
       "number": 1,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0001.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Princples of Observability ! Daniel “phrawzty” Maher Community Team",
@@ -17,7 +17,7 @@
     {
       "id": "zDl2fV",
       "number": 2,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0002.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability ≠ Monitoring Photo: CC-BY-2.0 Steve Parker (https://flic.kr/p/afiseM) @phrawzty // Datadog 2",
@@ -27,7 +27,7 @@
     {
       "id": "bXTqXu",
       "number": 3,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0003.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability ≠ Dashboards Photo: CC-BY-2.0 Jacob Frey 4A (https://flic.kr/p/CkXwn6) @phrawzty // Datadog 3",
@@ -37,7 +37,7 @@
     {
       "id": "DrCeQJ",
       "number": 4,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0004.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability ≠ DevOps Photo: © DevOpsDays Zurich (https://flic.kr/p/TNbJPm) @phrawzty // Datadog 4",
@@ -47,7 +47,7 @@
     {
       "id": "qAvSIi",
       "number": 5,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0005.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "A brief history Photo: CC-BY-ND-2.0 Bill VanderMolen (https://flic.kr/p/oE9ro2) @phrawzty // Datadog 5",
@@ -57,7 +57,7 @@
     {
       "id": "SUeGB7",
       "number": 6,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0006.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "James Clark Maxwell Photo: Public Domain; Jemima Blackburn (https://v.gd/ZX9L9f) @phrawzty // Datadog 6",
@@ -67,7 +67,7 @@
     {
       "id": "4oN43W",
       "number": 7,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0007.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Control theory Photo: Own work (https://flic.kr/p/cus9C1) @phrawzty // Datadog 7",
@@ -77,7 +77,7 @@
     {
       "id": "h85rvv",
       "number": 8,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0008.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "Controller Sensors, feedback… Photo: Own work (https://flic.kr/p/cusaa5) @phrawzty // Datadog 8",
@@ -87,7 +87,7 @@
     {
       "id": "JRofoK",
       "number": 9,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0009.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability is a measure of how well internal states of a system can be inferred from knowledge of its external outputs. Photo: CC-BY-2.0 Tim Rechmann (https://flic.kr/p/2kvnyb3) @phrawzty // Datadog 9",
@@ -97,7 +97,7 @@
     {
       "id": "vlXTgj",
       "number": 10,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0010.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Measure Photo: CC-BY-2.0 Andrew Malone (https://flic.kr/p/aqhCH8) @phrawzty // Datadog 10",
@@ -107,7 +107,7 @@
     {
       "id": "Y5GHZ8",
       "number": 11,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0011.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "State Photo: CC-BY-2.0 BenGrantham (https://flic.kr/p/eQA3Zk) @phrawzty // Datadog 11",
@@ -117,7 +117,7 @@
     {
       "id": "AOz5RX",
       "number": 12,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0012.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "System Photo: CC-BY-2.0 Krzysztof Pędrys (https://flic.kr/p/4tUNYV) @phrawzty // Datadog 12",
@@ -127,7 +127,7 @@
     {
       "id": "mihtJw",
       "number": 13,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0013.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "Knowledge Photo: CC-BY-2.0 Fredrik Rubensson (https://flic.kr/p/dC1gvd) @phrawzty // Datadog 13",
@@ -137,7 +137,7 @@
     {
       "id": "P2QhCL",
       "number": 14,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0014.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "Output Photo: CC-BY-2.0 Rob Brewer (https://flic.kr/p/VXgQqu) @phrawzty // Datadog 14",
@@ -147,7 +147,7 @@
     {
       "id": "1M9V4k",
       "number": 15,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0015.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Context is important (…and control theory is vast) Photo: CC-BY-SA dilettantiquity (https://flic.kr/p/ppsKuz) @phrawzty // Datadog 15",
@@ -157,7 +157,7 @@
     {
       "id": "dfsIx9",
       "number": 16,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0016.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "State observer Photo: CC-BY-SA John Dyhouse (https://flic.kr/p/7ErCMc) @phrawzty // Datadog 16",
@@ -167,7 +167,7 @@
     {
       "id": "Fzb6pY",
       "number": 17,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0017.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "Multi & Bounding observer Interval & Luenberger observers Positive systems! Moving horizon estimations! Kalman filters in general topological spaces! Photo: CC-BY-SA https://en.wikipedia.org/wiki/State_observer @phrawzty // Datadog 17",
@@ -177,7 +177,7 @@
     {
       "id": "sJJuhx",
       "number": 18,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0018.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "“The Three Pillars” Photo: CC-BY-2.0 Andrew (https://flic.kr/p/xy6rdF) @phrawzty // Datadog 18",
@@ -187,7 +187,7 @@
     {
       "id": "Ud2iaM",
       "number": 19,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0019.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Events, Signals, Telemetry, Paths, Stories… Photo: CC-BY-2.0 Steve Jurvetson (https://flic.kr/p/2mbX3RZ) @phrawzty // Datadog 19",
@@ -197,7 +197,7 @@
     {
       "id": "6wlWSl",
       "number": 20,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0020.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "Understanding and Comprehension Photo: CC-ND-2.0 Hans Splinter (https://flic.kr/p/2kLH9NF) @phrawzty // Datadog 20",
@@ -207,7 +207,7 @@
     {
       "id": "jGUKLA",
       "number": 21,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0021.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "Unknown unknowns Photo: CC-BY-SA Stinging Eyes (https://flic.kr/p/9kreao) @phrawzty // Datadog 21",
@@ -217,7 +217,7 @@
     {
       "id": "LaD8DZ",
       "number": 22,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0022.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Ok, so, practically-speaking, what is observability?! Photo: CC-BY-2.0 Becks (https://flic.kr/p/p1dHTN) @phrawzty // Datadog 22",
@@ -227,7 +227,7 @@
     {
       "id": "xtvw5y",
       "number": 23,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0023.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observer / observed relationship Photo: CC-BY-SA Matt Brown (https://flic.kr/p/2hwn1DV) @phrawzty // Datadog 23",
@@ -237,7 +237,7 @@
     {
       "id": "aDejyN",
       "number": 24,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0024.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/024.jpg",
       "width": 1600,
       "height": 900,
       "text": "You are more than a state observer Photo: Public Domain; Nesster (https://flic.kr/p/ob5uhX) @phrawzty // Datadog 24",
@@ -247,7 +247,7 @@
     {
       "id": "CXNXqm",
       "number": 25,
-      "image": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0025.jpg",
+      "image": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/025.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability as a property of a system is important—but so is the consumer’s capacity to make use of that property. Photo: Public Domain; fdctsevilla (https://flic.kr/p/23rPAvU) @phrawzty // Datadog 25",
@@ -258,132 +258,132 @@
   "page_count": 25,
   "files": [
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0001.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/001.jpg",
       "sha256": "a7cf598f3b2dd0d1d3c60bb69efaa18f81755687a8215ceea3d1bcd41b7d07b1",
       "bytes": 99181
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0002.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/002.jpg",
       "sha256": "e7e6c34b5ac37bcc42363ad06d642dbbfc39058708877bae391e17b636bdb034",
       "bytes": 218518
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0003.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/003.jpg",
       "sha256": "a277af4dff02bd51a27380cc9b4d1e33ed77fec8ac0f30c1205aa1fd73ca4312",
       "bytes": 154385
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0004.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/004.jpg",
       "sha256": "d5b6429586c18b6fb58b0d646b087dc2dbb24b75d2f7d47db1be69a5078cf9c1",
       "bytes": 233282
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0005.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/005.jpg",
       "sha256": "fb06d45a93d67c4f7c90cef9ea62736f0c5d2e6f9990d53eaf566d8714509c29",
       "bytes": 316141
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0006.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/006.jpg",
       "sha256": "fbbe0c40a0de342e1a86cbe07abe2aefb289e3532b3738e55cc5741b17047913",
       "bytes": 185411
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0007.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/007.jpg",
       "sha256": "f3518471c5d61d904ac1929846578aef9d3b96af5f0de35131e4158b5015c4c4",
       "bytes": 185926
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0008.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/008.jpg",
       "sha256": "750883aaffb4771dc49f17944092c51471fe51c25cd4827b3223076f482c8dbd",
       "bytes": 259463
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0009.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/009.jpg",
       "sha256": "b9731f768e6a1e665bb3dd00ad9c41379594050163a68dfc0e1e410d757bcbed",
       "bytes": 270170
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0010.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/010.jpg",
       "sha256": "f1dcd673ea1449b7e162e7441f64deca290e5a31e4084120ef4afa3aeb04e439",
       "bytes": 431504
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0011.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/011.jpg",
       "sha256": "ad3b991cc68e805e1036538ccae619eaa545600a841acc366e26345f35de13b8",
       "bytes": 106275
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0012.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/012.jpg",
       "sha256": "73c280d7a4d975b76fdf1ff5570e01e51a7e1b7ad86a65a8bac2cf9c8aba8740",
       "bytes": 179588
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0013.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/013.jpg",
       "sha256": "dd42a803ffa6aa85df60b5d302f6b0f1459fa85ab340fed76a1164f9d4e9d942",
       "bytes": 150243
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0014.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/014.jpg",
       "sha256": "3173841e725a85e328d911a9b95694212e36f525c70f1898512e6a7b3aeba2e1",
       "bytes": 90778
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0015.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/015.jpg",
       "sha256": "a6acf04c80e3f1f2f3a60456e5984603d90ae90bd564b85164eaee56c3aa0ab0",
       "bytes": 259356
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0016.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/016.jpg",
       "sha256": "cd270d1010883e0aee62a9a6f7c97c196c23194af950054393e9686dfbb1e3b8",
       "bytes": 272443
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0017.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/017.jpg",
       "sha256": "c26378902ded7d2a0dc1865d2dfa265ade06e13785a0e097616777990c8df829",
       "bytes": 180028
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0018.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/018.jpg",
       "sha256": "5bda5c1e8810cdc75de53c714e647e98a85f65dcaf7f06d9223cfef0140c9357",
       "bytes": 211071
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0019.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/019.jpg",
       "sha256": "9ca8d444f423444e09cba5ba595faf0a32bc597184c13f0946ce0edd5cddec30",
       "bytes": 237377
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0020.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/020.jpg",
       "sha256": "859a52398bf29e65041a49040688fcec8262d6412a30bb6f40f2ca63a21a583f",
       "bytes": 326306
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0021.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/021.jpg",
       "sha256": "eed6cdc8dbb98a508c29062c2f5f137a413a2a230d7bb8ff690c650d5af77404",
       "bytes": 201991
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0022.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/022.jpg",
       "sha256": "b077a597fef15d6277adc001960370eef0caa541828230b50945f565680f7f30",
       "bytes": 191133
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0023.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/023.jpg",
       "sha256": "05f26c77e1d07b0d98540fcc54705c32568f45f12509ded5f7ee585c51922edb",
       "bytes": 143672
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0024.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/024.jpg",
       "sha256": "62565a5b4196e4b05bba107d55c5141e4f78ba30ee45d0fd2673b9012a4dbd65",
       "bytes": 157291
     },
     {
-      "path": "decks/39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8/0025.jpg",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/slides/025.jpg",
       "sha256": "7d0b9b3bf9f0d4017e6b04dd5015dec3d21ddae6b9b70b5c9913c32f774cc13f",
       "bytes": 364740
     },
     {
-      "path": "pdfs/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
+      "path": "decks/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021/2021-11-24-principles-of-observability-devopsdays-tel-aviv-2021.pdf",
       "sha256": "7fc5bca99cb925fa2b9e8d016fe00be5ddad1ae5d38c906fcceb542ea4d143bf",
       "bytes": 55641277
     }

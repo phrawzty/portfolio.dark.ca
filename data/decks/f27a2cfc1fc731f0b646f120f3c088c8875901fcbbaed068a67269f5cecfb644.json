@@ -7,7 +7,7 @@
     {
       "id": "9s1RAv",
       "number": 1,
-      "image": "decks/f27a2cfc1fc731f0b646f120f3c088c8875901fcbbaed068a67269f5cecfb644/0001.png",
+      "image": "decks/2020-08-12-building-a-datadog-integration-introduction-dash-2020/slides/001.png",
       "width": 1422,
       "height": 872,
       "text": "",
@@ -18,7 +18,7 @@
   "page_count": 1,
   "files": [
     {
-      "path": "decks/f27a2cfc1fc731f0b646f120f3c088c8875901fcbbaed068a67269f5cecfb644/0001.png",
+      "path": "decks/2020-08-12-building-a-datadog-integration-introduction-dash-2020/slides/001.png",
       "sha256": "ab804502ce100e25f211ec267f9f30863644ee562cf0ca2aa0b168986fedda5a",
       "bytes": 514106
     }

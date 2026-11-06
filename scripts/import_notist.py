@@ -90,6 +90,8 @@ def main():
             talk_meta.update(title=source["title"].strip(), template="talk.html", draft=False)
             write_page(talk_path, talk_meta, body)
         slides = json.loads((PRESERVATION / "archive/presentations" / ident / "slides.json").read_text())
+        event = next(r for r in source["detail"]["relationships"]["data"] if r["type"] == "events")
+        event_attrs = event["attributes"]
         deck_id = ""
         if slides:
             originals = coverage[ident]["original_pdfs"]
@@ -98,12 +100,23 @@ def main():
             state = {"pdf_sha256": sha256(pdf_source) if pdf_source else None,
                      "slides": [{"sha256": downloads[s["image"]]["sha256"], "id": s["id"], "title": s.get("title"), "text": s["text"]} for s in slides]}
             deck_id = hashlib.sha256(json.dumps(state, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
-            prefix = "decks/" + deck_id
+            prefix = None
+            image_hashes = [downloads[slide["image"]]["sha256"] for slide in slides]
+            for existing_path in (ROOT / "data/decks").glob("*.json"):
+                existing = json.loads(existing_path.read_text())
+                hashes = {item["path"]: item["sha256"] for item in existing["files"]}
+                if (existing.get("source_sha256") == state["pdf_sha256"]
+                        and [hashes[slide["image"]] for slide in existing["slides"]] == image_hashes):
+                    prefix = existing["slides"][0]["image"].rsplit("/slides/", 1)[0]
+                    break
+            if prefix is None:
+                prefix = project.deck_directory_for({"date": source["presented_on"], "title": source["title"],
+                                                     "extra": {"event": event_attrs["title"]}})
             files, deck_slides = [], []
             for slide in slides:
                 receipt = downloads[slide["image"]]
                 image_path = PRESERVATION / receipt["path"]
-                relative = prefix + f"/{slide['number']:04d}" + image_path.suffix
+                relative = prefix + f"/slides/{slide['number']:03d}" + image_path.suffix
                 register_file(image_path, relative, files)
                 with Image.open(image_path) as image:
                     width, height = image.size
@@ -113,14 +126,12 @@ def main():
             pdf_relative = ""
             provenance = "original" if originals else "reconstructed" if reconstructed else "image-only"
             if pdf_source:
-                pdf_relative = prefix + ("/reconstructed.pdf" if reconstructed else "/original.pdf")
+                pdf_relative = prefix + "/" + Path(prefix).name + ".pdf"
                 register_file(pdf_source, pdf_relative, files)
             deck = {"id": deck_id, "source_sha256": state["pdf_sha256"], "provenance": provenance, "pdf": pdf_relative,
                     "slides": deck_slides, "page_count": len(slides), "files": files,
                     "processor": "notist-preserved-display-v1", "source_url": source["url"]}
             json_file(ROOT / "data/decks" / (deck_id + ".json"), deck)
-        event = next(r for r in source["detail"]["relationships"]["data"] if r["type"] == "events")
-        event_attrs = event["attributes"]
         meta = tomlkit.document()
         meta.update(title=source["title"].strip(), date=datetime.fromisoformat(source["presented_on"]).replace(tzinfo=ZoneInfo(source["timezone"])),
                     draft=False, path=ident, template="appearance.html")
@@ -155,11 +166,10 @@ def main():
             path.write_text(tomlkit.dumps(without_nulls({"id": event["id"], **event["attributes"]})))
 
     site_files, photos = [], []
-    for photo in json.loads((AUDIT / "photos.json").read_text()):
+    for number, photo in enumerate(json.loads((AUDIT / "photos.json").read_text()), 1):
         url = next(u for u in photo["urls"] if "/headshots/hs-" in u and not any(size in u for size in ("-large-", "-medium-", "-thumb-")))
         original = PRESERVATION / downloads[url]["path"]
-        prefix = "speaker/" + sha256(original)
-        relative = prefix + "/headshot.jpg"
+        relative = f"speaker/daniel-maher-headshot-{number}.jpg"
         register_file(original, relative, site_files)
         photos.append({"id": photo["id"], "image": relative, "download": relative, "attribution": ""})
     json_file(ROOT / "data/site-assets.json", {"id": "speaker", "files": site_files})

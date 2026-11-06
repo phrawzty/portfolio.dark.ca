@@ -2,12 +2,12 @@
   "id": "b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d",
   "source_sha256": "00c0008c5df3ac3b78fc51c26cb89aa1ff5d1ddc7349959b8b6960e9a02c366a",
   "provenance": "original",
-  "pdf": "pdfs/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
+  "pdf": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
   "slides": [
     {
       "id": "ht1nD6",
       "number": 1,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0001.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -17,7 +17,7 @@
     {
       "id": "KCkb5V",
       "number": 2,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0002.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -27,7 +27,7 @@
     {
       "id": "wWTOxu",
       "number": 3,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0003.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -37,7 +37,7 @@
     {
       "id": "YqCCqJ",
       "number": 4,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0004.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -47,7 +47,7 @@
     {
       "id": "B9v0ii",
       "number": 5,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0005.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -57,7 +57,7 @@
     {
       "id": "nTdob7",
       "number": 6,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0006.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔ ➔ ➔",
@@ -67,7 +67,7 @@
     {
       "id": "PnMcTW",
       "number": 7,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0007.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -77,7 +77,7 @@
     {
       "id": "275QLv",
       "number": 8,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0008.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -87,7 +87,7 @@
     {
       "id": "eQoEEK",
       "number": 9,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0009.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -97,7 +97,7 @@
     {
       "id": "GkX26j",
       "number": 10,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0010.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔",
@@ -107,7 +107,7 @@
     {
       "id": "t4Fpz8",
       "number": 11,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0011.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔ ➔ ➔ ➔",
@@ -117,7 +117,7 @@
     {
       "id": "VNydrX",
       "number": 12,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0012.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔ ➔ ➔ ➔ ➔ ➔",
@@ -127,7 +127,7 @@
     {
       "id": "7hhRjw",
       "number": 13,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0013.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔",
@@ -137,7 +137,7 @@
     {
       "id": "k1QFcL",
       "number": 14,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0014.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -147,7 +147,7 @@
     {
       "id": "ML93Uk",
       "number": 15,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0015.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -157,7 +157,7 @@
     {
       "id": "yerrN9",
       "number": 16,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0016.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "➔ ➔ ➔ ➔ ➔",
@@ -167,7 +167,7 @@
     {
       "id": "ayafFY",
       "number": 17,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0017.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -177,7 +177,7 @@
     {
       "id": "DIJT7x",
       "number": 18,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0018.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -187,7 +187,7 @@
     {
       "id": "pc2H0M",
       "number": 19,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0019.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -197,7 +197,7 @@
     {
       "id": "Rvl4sl",
       "number": 20,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0020.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -207,7 +207,7 @@
     {
       "id": "4FTslA",
       "number": 21,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0021.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -217,7 +217,7 @@
     {
       "id": "gZCgdZ",
       "number": 22,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0022.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -227,7 +227,7 @@
     {
       "id": "IsvUVy",
       "number": 23,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0023.png",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -237,7 +237,7 @@
     {
       "id": "vCeION",
       "number": 24,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0024.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/024.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -247,7 +247,7 @@
     {
       "id": "XWN6Gm",
       "number": 25,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0025.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/025.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -257,7 +257,7 @@
     {
       "id": "9q5u9B",
       "number": 26,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0026.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/026.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -267,7 +267,7 @@
     {
       "id": "m9oi1a",
       "number": 27,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0027.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -277,7 +277,7 @@
     {
       "id": "OTXVtz",
       "number": 28,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0028.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/028.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -287,7 +287,7 @@
     {
       "id": "0nGJmO",
       "number": 29,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0029.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/029.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -297,7 +297,7 @@
     {
       "id": "d6z7en",
       "number": 30,
-      "image": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0030.jpg",
+      "image": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/030.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -308,157 +308,157 @@
   "page_count": 30,
   "files": [
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0001.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/001.jpg",
       "sha256": "0b3a3fac0f809c78f9b943a2840b8d85a43a1c1d87da2a489d8dc58e7709a3eb",
       "bytes": 136841
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0002.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/002.png",
       "sha256": "bdd21e64bb9f4ee1217fc077f4b0597979dcae9b6ad04970b1e21199f5726e47",
       "bytes": 162929
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0003.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/003.jpg",
       "sha256": "1ab9c427bea5e6ce77b0c3c55a833dfbc3ca93057aa5c8aae4e0f55bfd4dfab0",
       "bytes": 62819
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0004.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/004.jpg",
       "sha256": "8e4b133688fe8e38c41e3eed34e9f94ac1bf53947bbb397e0e644b89c2e7b5ca",
       "bytes": 137094
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0005.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/005.jpg",
       "sha256": "df7b2bec82c33ab13aea220b239b2fb3b3df4efc13a3615065090f948e10de4a",
       "bytes": 134413
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0006.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/006.png",
       "sha256": "60830312cdd338f55380dbd1bf6681978fd4d2487eae870012e32b458dc54046",
       "bytes": 447939
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0007.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/007.png",
       "sha256": "7553da9cebc5251bd624a043062a09e2197d642e0c2769261da1235328a08dbc",
       "bytes": 155095
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0008.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/008.png",
       "sha256": "0f03c8a17a197615245b1426352605f1d2083e3b33e4b86733bac83e3dcc60d0",
       "bytes": 150864
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0009.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/009.jpg",
       "sha256": "c5ecc3211261ba4165514d5df92613f7baccf6f2d0fb07bd2c6fb5319658da3e",
       "bytes": 144663
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0010.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/010.png",
       "sha256": "084c07fb3aaff308770abfce893d446c33891659873907d359c6a3b364bf387f",
       "bytes": 255642
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0011.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/011.png",
       "sha256": "d13d5c3f13658e96ba4fcf21ee93742898efca8e8737bda382d039416f5bbac7",
       "bytes": 373782
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0012.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/012.png",
       "sha256": "051cb60a65f777a4423043ec586eb8ea26eed1c7cbc9a21da7e26ba20f3f396d",
       "bytes": 468149
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0013.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/013.png",
       "sha256": "1adea9985e7f3d7483645a340aff78ad7398134acd3440168c35efa5d0b46b3c",
       "bytes": 377213
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0014.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/014.jpg",
       "sha256": "a82a5be8e0f40f501a686ce9a5fac6a1585fe41cf2d91e905a5a564143196930",
       "bytes": 150874
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0015.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/015.png",
       "sha256": "38e5d15401d30060e4267ec1f8ae7a259d6f811916c9f31d9d9c3bf0093f9374",
       "bytes": 185562
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0016.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/016.png",
       "sha256": "12aeacb7d751f0c809a84f716e4fee69815d2a30b74534bb488eb87bb604cf78",
       "bytes": 360857
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0017.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/017.png",
       "sha256": "24cdd6efb8524eabdb7b096503accb81d999ec8c53ad59cf2d0eb9de32bb1f7b",
       "bytes": 111801
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0018.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/018.png",
       "sha256": "7d91e0afdf6a18ef9d2887c1412ea3411b4fd2966e3d1fc8fcec4f00ca3a9818",
       "bytes": 145391
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0019.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/019.png",
       "sha256": "b987743b4efc0fc07ef56fb679e85fd3a1cf9550d7201e8990ae07c62b2ac69b",
       "bytes": 191583
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0020.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/020.png",
       "sha256": "04d6106e1ed327ba187142645be98d05702a0ed93704ca0691f5247edd427596",
       "bytes": 311034
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0021.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/021.png",
       "sha256": "dbb54804613afc9de104e357c639c4049f038b2bc35778ddead7e493cae1c36f",
       "bytes": 197121
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0022.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/022.jpg",
       "sha256": "aa7be0a598f170f79c922c13b31bf3f90f65daf57a920690e1f60f716cff3381",
       "bytes": 165859
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0023.png",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/023.png",
       "sha256": "43e5064d547792eab2778f1b1b4f794ecbff0c81e36b366e5896a14878632ef9",
       "bytes": 193327
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0024.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/024.jpg",
       "sha256": "7e34cd4cc8d6a53b775c2eb960acf74e69da993a6a715a98d5eb23957bdcad68",
       "bytes": 85627
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0025.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/025.jpg",
       "sha256": "74b0013bab5c02a6ccd867b68cfee65d8486f3ac166d42400a2e451d089a4bc9",
       "bytes": 92124
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0026.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/026.jpg",
       "sha256": "383c7c5795dcee5d5b401af09fadd34bb8b2f37f2a465b542a91d1b874a347f9",
       "bytes": 228979
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0027.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/027.jpg",
       "sha256": "de60aa16794b0a483b1d20212879c5052c8bc3277f553f6622526ab712d820a5",
       "bytes": 161802
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0028.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/028.jpg",
       "sha256": "be4262daa977ab5ab3b53e54f6eecfa83aee4edb348647c71b9d1f5f9dc5d8f5",
       "bytes": 187138
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0029.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/029.jpg",
       "sha256": "e00a7af71efe981415bb0e4a8e3e63b2f5f9ea55520a9a35fb6a9447c56e0a97",
       "bytes": 62102
     },
     {
-      "path": "decks/b2c86f19ad67cd0e0b5064481092f4fad1d20418086ea869aa92354732fc378d/0030.jpg",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/slides/030.jpg",
       "sha256": "b3278f572775a3ce60876de358ed0d291552bdd6061479f1393750c8c33e5ab3",
       "bytes": 136008
     },
     {
-      "path": "pdfs/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
+      "path": "decks/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019/2019-10-02-how-openfit-optimized-lambda-with-datadog-aws-summit-switzerland-2019.pdf",
       "sha256": "00c0008c5df3ac3b78fc51c26cb89aa1ff5d1ddc7349959b8b6960e9a02c366a",
       "bytes": 1530009
     }

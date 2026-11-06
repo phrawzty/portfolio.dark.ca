@@ -2,12 +2,12 @@
   "id": "276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca",
   "source_sha256": "962e4ae49bac63fc8a5f12b0afad98c532fe84a145245945b8baeb3b7da2c26a",
   "provenance": "reconstructed",
-  "pdf": "pdfs/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
+  "pdf": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
   "slides": [
     {
       "id": "gl8qHV",
       "number": 1,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0001.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Daniel “phrawzty” Maher Datadog One thing MMA taught me about working in tech 1",
@@ -17,7 +17,7 @@
     {
       "id": "J4re9u",
       "number": 2,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0002.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "Mixed Martial Arts Mixing techniques from multiple disciplines @phrawzty // Datadog 2",
@@ -27,7 +27,7 @@
     {
       "id": "vOaS2J",
       "number": 3,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0003.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "About me Hospitalised by both tech and MMA, so I know what I’m talking about @phrawzty // Datadog 3",
@@ -37,7 +37,7 @@
     {
       "id": "XiJFui",
       "number": 4,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0004.jpg",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "About Datadog Modern monitoring & analytics We’re hiring! @phrawzty // Datadog 4",
@@ -47,7 +47,7 @@
     {
       "id": "A223n7",
       "number": 5,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0005.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Elephant in the room MMA: Just two people beating each other up? @phrawzty // Datadog 5",
@@ -57,7 +57,7 @@
     {
       "id": "mLkrfW",
       "number": 6,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0006.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Further terrible definitions Programming: pressing plastic squares in more or less the right order @phrawzty // Datadog 6",
@@ -67,7 +67,7 @@
     {
       "id": "OfTfXv",
       "number": 7,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0007.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "Learn the basics Fundamentals win fights @phrawzty // Datadog 7",
@@ -77,7 +77,7 @@
     {
       "id": "0zCTQK",
       "number": 8,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0008.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Basics are critical, but… Don’t be dogmatic about fundamentals @phrawzty // Datadog 8",
@@ -87,7 +87,7 @@
     {
       "id": "dIvHIj",
       "number": 9,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0009.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "A diverse fundamental There’s more than one way to throw a jab But people will try to tell you otherwise. @phrawzty // Datadog 9",
@@ -97,7 +97,7 @@
     {
       "id": "Fce5B8",
       "number": 10,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0010.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Embrace diversity Diversity makes you better by default @phrawzty // Datadog 10",
@@ -107,7 +107,7 @@
     {
       "id": "rwMt3X",
       "number": 11,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0011.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Tech needs diversity to succeed Fresh eyes and fresh ideas Not to mention testing and QA… @phrawzty // Datadog 11",
@@ -117,7 +117,7 @@
     {
       "id": "UG5gvw",
       "number": 12,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0012.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Deal with it “Everyone has a plan until they get punched in the mouth.” – Mike Tyson @phrawzty // Datadog 12",
@@ -127,7 +127,7 @@
     {
       "id": "6ZoUoL",
       "number": 13,
-      "image": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0013.png",
+      "image": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Daniel “phrawzty” Maher Datadog What MMA taught me about working in tech Thanks! I hope you enjoyed it. :) @phrawzty // Datadog 13",
@@ -138,72 +138,72 @@
   "page_count": 13,
   "files": [
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0001.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/001.png",
       "sha256": "d108ead163aa88cd096caf7fe560d873ba39b44b38bdae4b1bd6e054a799f584",
       "bytes": 206979
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0002.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/002.png",
       "sha256": "9d15fe778b4935f0029bf0770344a3d419ace512ac87b65d5a80cc9390b16aad",
       "bytes": 156274
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0003.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/003.png",
       "sha256": "a11b77972dc030deaae82c75bda77b77a86f72cdfd537b2ce4efea8914eaabe5",
       "bytes": 189934
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0004.jpg",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/004.jpg",
       "sha256": "b8b4281c8c32194c7fb0be6eb225efd316860b58b161b53e6602071b19461259",
       "bytes": 130072
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0005.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/005.png",
       "sha256": "412f9d6ea5f265551e1836f7bd6d5ac10767514400abd3ac626a14ac9655ab24",
       "bytes": 162026
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0006.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/006.png",
       "sha256": "16cff4916308b59e848c4bc5dec049defc40d76ff55deb7e6c73250a15ab8223",
       "bytes": 216860
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0007.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/007.png",
       "sha256": "58d634a8a6ad4bc7aac7d8ef8bb829b625b7c7983faa2dbc2009f8253388fb25",
       "bytes": 120497
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0008.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/008.png",
       "sha256": "991e5af6d95100aa6858a23fd7828b508302eaa7d589a2329e12ecd256c19f45",
       "bytes": 163327
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0009.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/009.png",
       "sha256": "977168250c501b3c9315d1150a270b718789b6b571aab6ad3fdc19f0e445fdfa",
       "bytes": 222637
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0010.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/010.png",
       "sha256": "68d48d48524beaf74b211ccba4f658fd2acd5a1af73a45106d313813af4ce5e8",
       "bytes": 167254
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0011.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/011.png",
       "sha256": "edc1765095bed6e76a141f80982b9d51c66f8677aaaa64e3d7322849410118b5",
       "bytes": 208787
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0012.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/012.png",
       "sha256": "051a4020c1425e6c01eb8df68f80b84d552ec10c1795466f51ce1d4de864e3ad",
       "bytes": 182872
     },
     {
-      "path": "decks/276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca/0013.png",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/slides/013.png",
       "sha256": "f9f9d79e98c6e25af6d39e1d01df5b832a71f4d4bbbc21bde786492f4009715f",
       "bytes": 267557
     },
     {
-      "path": "pdfs/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
+      "path": "decks/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019/2019-10-28-one-thing-mma-taught-me-about-working-in-tech-devopsdays-ghent-2019.pdf",
       "sha256": "962e4ae49bac63fc8a5f12b0afad98c532fe84a145245945b8baeb3b7da2c26a",
       "bytes": 1305055
     }

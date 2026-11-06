@@ -2,12 +2,12 @@
   "id": "c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0",
   "source_sha256": "68dcd0a7b4e052a6de62d4da66a3ccf59d0d3483a9458ee33283d4eaaac9bccf",
   "provenance": "original",
-  "pdf": "pdfs/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
+  "pdf": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
   "slides": [
     {
       "id": "Nl2ta7",
       "number": 1,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0001.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Observability as Code with Datadog and HashiCorp Terraform",
@@ -17,7 +17,7 @@
     {
       "id": "04lhSW",
       "number": 2,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0002.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Kerim Satirli Daniel Maher @ksatirli @phrawzty Developer Advocate HashiCorp Developer Advocate Datadog",
@@ -27,7 +27,7 @@
     {
       "id": "cOUVKv",
       "number": 3,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0003.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Agenda ▪ What is Datadog? ▪ What is Terraform? ▪ What is Observability as Code? ▪ How do Datadog and Terraform integrate? ▪ Q&A",
@@ -37,7 +37,7 @@
     {
       "id": "EiDJDK",
       "number": 4,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0004.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -47,7 +47,7 @@
     {
       "id": "r1w75j",
       "number": 5,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0005.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -57,7 +57,7 @@
     {
       "id": "TLeuy8",
       "number": 6,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0006.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "app.terraform.io",
@@ -67,7 +67,7 @@
     {
       "id": "5fNiqX",
       "number": 7,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0007.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "storedog.example",
@@ -77,7 +77,7 @@
     {
       "id": "hz6Wiw",
       "number": 8,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0008.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "What is Observability as Code ⁄",
@@ -87,7 +87,7 @@
     {
       "id": "KIpKbL",
       "number": 9,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0009.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "How do Datadog and Terraform integrate? ⁄",
@@ -97,7 +97,7 @@
     {
       "id": "wcY8Tk",
       "number": 10,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0010.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog",
@@ -107,7 +107,7 @@
     {
       "id": "YwGwM9",
       "number": 11,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0011.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog",
@@ -117,7 +117,7 @@
     {
       "id": "BFzkEY",
       "number": 12,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0012.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR terraform { required_providers { datadog = { source = “datadog/datadog” version = “2.13.0” } } required_version = “~> 0.13” }",
@@ -127,7 +127,7 @@
     {
       "id": "nZiY6x",
       "number": 13,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0013.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR provider “datadog” { # Datadog credentials }",
@@ -137,7 +137,7 @@
     {
       "id": "PtRLzM",
       "number": 14,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0014.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR provider “datadog” { api_url = “https://api.datadoghq.com/” }",
@@ -147,7 +147,7 @@
     {
       "id": "2DA9rl",
       "number": 15,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0015.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR ! provider “datadog” { api_url = “https://api.datadoghq.eu/” }",
@@ -157,7 +157,7 @@
     {
       "id": "eWsxkA",
       "number": 16,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0016.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitors Interface app.datadoghq.com/monitors/manage",
@@ -167,7 +167,7 @@
     {
       "id": "GqblcZ",
       "number": 17,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0017.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitor CODE EDITOR resource “datadog_monitor” “high_error_rate” { for_each = var.services name = “HIGH: ${each.key} (${each.value.env})” type = “query alert” message = “${each.key} has a high error rate!” … }",
@@ -177,7 +177,7 @@
     {
       "id": "tAKZUy",
       "number": 18,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0018.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitor CODE EDITOR … query = “avg(last_10m):(sum:trace.$ {each.value.framework}.request.errors{env:$ {each.value.environment},service:${each.key} } / sum:trace.$ {each.value.framework}.request.hits{env:$ {each.value.environment},service:${each.key} }) > $ {each.value.high_error_rate_critical}”",
@@ -187,7 +187,7 @@
     {
       "id": "VU3NNN",
       "number": 19,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0019.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demonstration ⁄",
@@ -197,7 +197,7 @@
     {
       "id": "7nmBFm",
       "number": 20,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0020.png",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Resources ▪ Datadog: datadoghq.com/free-datadog-trial ▪ Terraform Cloud: app.terraform.io/signup ▪ Terraform provider: registry.terraform.io/providers/datadog/datadog ▪ webshop code: github.com/datadog/ecommerce-workshop ▪ workshop code: github.com/hashicorp/observability-as-code",
@@ -207,7 +207,7 @@
     {
       "id": "k7Uz8B",
       "number": 21,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0021.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "Q&A ask us anything (related to today’s session)",
@@ -217,7 +217,7 @@
     {
       "id": "MRDn0a",
       "number": 22,
-      "image": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0022.jpg",
+      "image": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "Thank You kerim@hashicorp.com daniel.maher@datadoghq.com",
@@ -228,117 +228,117 @@
   "page_count": 22,
   "files": [
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0001.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/001.png",
       "sha256": "0d6ee7f479d476b89281caa80a5847bf05385c6379e69016465ae0aa2581391d",
       "bytes": 220589
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0002.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/002.jpg",
       "sha256": "a19681dcbb4630fce15591771b7036e034eadea3db2e50ae63c8fd0d3f111db5",
       "bytes": 70124
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0003.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/003.jpg",
       "sha256": "8ca0dd952fc8d06e5dd59d8ecebcf22ea86850e539a4270b2f4aa5a83c1018de",
       "bytes": 84075
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0004.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/004.jpg",
       "sha256": "a4ebf501f9d692d58bd1f54d6666d9b546e70857a6129865d995570e0d1cb9e1",
       "bytes": 98522
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0005.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/005.png",
       "sha256": "6af2b7ddd23a38941caf17748af0f0dde3be4d45b6cd536901b6b84bba65d54d",
       "bytes": 54615
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0006.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/006.jpg",
       "sha256": "05082746f9a96b80703aceedf4a461157479e700786e8e69882f39fbcd9f715a",
       "bytes": 158777
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0007.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/007.jpg",
       "sha256": "2eea92191c045d6f8ced0a7c9759051a4f20631de5d72c4be57b9f644da0b773",
       "bytes": 123012
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0008.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/008.jpg",
       "sha256": "18b1b71ac129eb1620cbceaa64c5d74db53130782cc49e16d488a2ad28cb202f",
       "bytes": 68274
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0009.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/009.jpg",
       "sha256": "70b0c4e3d38bc39b1f84dd6f951097b93b5b2e48c63fce087d5dbd777e8d0c4a",
       "bytes": 79256
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0010.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/010.jpg",
       "sha256": "8e84c44d16cf01e53f19d81272b425eaa05d4b72d2c473c29238c4ba73a278ac",
       "bytes": 116026
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0011.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/011.jpg",
       "sha256": "3a4f377f0e79e1ca2f1c56dfc6fa3108ddc246b4df7122cd27f6432445da7a32",
       "bytes": 135073
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0012.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/012.png",
       "sha256": "7e49f234d00a7631f83dbd48f65441a92d97093b2d3ee5063796205fca4e0d1d",
       "bytes": 320683
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0013.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/013.png",
       "sha256": "53f25678691896ef43bc2a62d03d8c8e4af5736379c72c3630895e1bbcbc9ad9",
       "bytes": 226555
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0014.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/014.png",
       "sha256": "d711e1ad8f1dbbd7c75b8de7fdf598a60d7b995dc4db928412edc97091e5c777",
       "bytes": 241650
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0015.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/015.png",
       "sha256": "e32550cbd27b6dfa4b09b8e7c8ba749638005c5c9039c4745e217d76d4b882f4",
       "bytes": 244002
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0016.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/016.jpg",
       "sha256": "db912d8b4492a16b03bbf7224607fa11ce2949d0bd26c85dd1a60ac11ad761e8",
       "bytes": 174160
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0017.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/017.png",
       "sha256": "85c5e4e8bd1d06f1417fd0c5bd46f987070aa192ffc31eee1c03f78c829756c5",
       "bytes": 364657
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0018.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/018.png",
       "sha256": "1ff51b083c84a7dcca77f6713c05315feabc0a4ad8a1313dde1b15b73d2b8d15",
       "bytes": 474276
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0019.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/019.jpg",
       "sha256": "5a231c74fd0c7baac88e8e4a7d17f2401127f87019856a58c76dc2aa4d3629f7",
       "bytes": 38971
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0020.png",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/020.png",
       "sha256": "a1671a5f389e27d411b5b038036c371f375e386662b2e0b2dab4061c46b2762e",
       "bytes": 501864
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0021.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/021.jpg",
       "sha256": "badf7ea2bcc8148c42efd0b622f4efeecf7cb4ddd85bb6e3ceb1ff35076a5d74",
       "bytes": 54804
     },
     {
-      "path": "decks/c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0/0022.jpg",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/slides/022.jpg",
       "sha256": "d4aa6fa88dfcb50e5524b9e8b9952699bbed6f0ae5ce6b9413176a205ff6bbe2",
       "bytes": 158088
     },
     {
-      "path": "pdfs/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
+      "path": "decks/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar/2020-09-23-configure-observability-as-code-with-terraform-datadog-hashicorp-datadog-webinar.pdf",
       "sha256": "68dcd0a7b4e052a6de62d4da66a3ccf59d0d3483a9458ee33283d4eaaac9bccf",
       "bytes": 3323527
     }

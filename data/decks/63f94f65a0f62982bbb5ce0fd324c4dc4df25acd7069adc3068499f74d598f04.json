@@ -2,12 +2,12 @@
   "id": "63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04",
   "source_sha256": "5f4b0860adb450342e4953255ad4867f651a8be908574b3dd9441beb968780dd",
   "provenance": "reconstructed",
-  "pdf": "pdfs/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
+  "pdf": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
   "slides": [
     {
       "id": "I3Eeif",
       "number": 1,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0001.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -17,7 +17,7 @@
     {
       "id": "uMxSb4",
       "number": 2,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0002.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "WELCOME TO 2",
@@ -27,7 +27,7 @@
     {
       "id": "WggGTT",
       "number": 3,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0003.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "STARTING SOON Inside the Supply-Chain Attacks of 2026 Key Learnings and Quick Wins 3",
@@ -37,7 +37,7 @@
     {
       "id": "90P4Ls",
       "number": 4,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0004.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "The software factory",
@@ -47,7 +47,7 @@
     {
       "id": "lK7sEH",
       "number": 5,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0005.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "The software factory",
@@ -57,7 +57,7 @@
     {
       "id": "Ndqg6g",
       "number": 6,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0006.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "Have you met your (software) supply chain? app dependencies npm, PyPI Docker images VM images AI skills",
@@ -67,7 +67,7 @@
     {
       "id": "zxZTz5",
       "number": 7,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0007.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "npm in numbers 4M+ 600B+ 150k+ public packages monthly downloads malicious packages 7",
@@ -77,7 +77,7 @@
     {
       "id": "cHIHrU",
       "number": 8,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0008.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "2026 the year of Linux on the desktop large-scale supply-chain attacks 8",
@@ -87,7 +87,7 @@
     {
       "id": "Eb15jt",
       "number": 9,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0009.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -97,7 +97,7 @@
     {
       "id": "qujtcI",
       "number": 10,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0010.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher Senior Security Advocate & Researcher 10",
@@ -107,7 +107,7 @@
     {
       "id": "TEShUh",
       "number": 11,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0011.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "? year of the first documented malicious npm package 11",
@@ -117,7 +117,7 @@
     {
       "id": "5YBVN6",
       "number": 12,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0012.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "2017 year of the first documented malicious npm package 12",
@@ -127,7 +127,7 @@
     {
       "id": "hruJFV",
       "number": 13,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0013.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Malicious software packages in 2026 Malicious by design Typosquatting Brand impersonation Popular keywords (“ChatGPT”) Compromised legitimate package Compromised maintainer account Release CI pipeline abused CI credentials leaked",
@@ -137,7 +137,7 @@
     {
       "id": "KBd77u",
       "number": 14,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0014.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/014.jpg",
       "width": 1600,
       "height": 900,
       "text": "Attack complexity High Uninteresting zone Typosquatting Low Compromise popular package Attackers’ dream zone Impact & reach High",
@@ -147,7 +147,7 @@
     {
       "id": "wVLv0J",
       "number": 15,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0015.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Compromised legitimate packages Large user base Spread fast react: 100M+ weekly 50% of organizations use a dependency < 24h old1 axios: 100M+ weekly lodash: 150M+ weekly 1: State of DevSecOps, Datadog, 2026 15",
@@ -157,7 +157,7 @@
     {
       "id": "Yp4isi",
       "number": 16,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0016.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "Maintainer compromise how attackers steal npm accounts 16",
@@ -167,7 +167,7 @@
     {
       "id": "B8nWl7",
       "number": 17,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0017.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Adversary-in-the-Middle (AiTM) phishing How it works The lookalike infrastructure Attacker proxies auth through a lookalike npm domain Captures valid session cookie — bypasses SMS/OTP 2FA One compromised maintainer = thousands of victims npmjs.help npmjs.wtf npmjs.pro npmjs.us npm email addresses are public — easy to target Session cookie gives full npm publishing rights 17",
@@ -177,7 +177,7 @@
     {
       "id": "nSWKdW",
       "number": 18,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0018.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "xrpl (semantic versioning considered harmful) Four staged versions v4.2.1 — crude fetch(), only build files touched v4.2.2/3 — expanded scope, refactored code v4.2.4 — polished, malicious payload fully hidden Why semantic versioning amplifies this ^4.2.0 silently auto-accepts new patches 50% of orgs install a dep released the same day (Datadog 2026 State of DevSecOps) 18",
@@ -187,7 +187,7 @@
     {
       "id": "PmF8Vv",
       "number": 19,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0019.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "The maintainer compromise two-step Step 1: Gain access Step 2: Maximize blast radius AiTM phishing captures a valid session cookie Bypasses all standard 2FA — undetectable in real time Attacker controls the npm publishing account Inject malicious code into a new patch version Semantic versioning auto-delivers it to consumers Steal secrets, deploy RAT, or establish persistence 19",
@@ -197,7 +197,7 @@
     {
       "id": "25xwOK",
       "number": 20,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0020.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "? year of the first documented npm worm 20",
@@ -207,7 +207,7 @@
     {
       "id": "ePgkGj",
       "number": 21,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0021.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "2025 the npm worm era 21",
@@ -217,7 +217,7 @@
     {
       "id": "GjPY98",
       "number": 22,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0022.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/022.png",
       "width": 1600,
       "height": 900,
       "text": "Shai-Hulud 1.0 (September 2025) How it self-propagates Secrets + impact Finds npm tokens in .npmrc and environment variables Lists victim’s packages via registry API Publishes backdoored patch versions, then spreads TruffleHog + env vars + cloud credentials stolen 500+ packages compromised Some victims had 2M+ weekly installs 22",
@@ -227,7 +227,7 @@
     {
       "id": "t38M1X",
       "number": 23,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0023.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "Shai-Hulud 2.0 (November 2025) Significantly evolved No token, no problem Cloud Secrets Manager (AWS/GCP/Azure) targeted Self-hosted GitHub runner planted for persistence GitHub Actions exfiltrates on every Discussion event Searches GitHub Archive for prior victims’ tokens 700+ packages compromised — no central IOC list Shai-Hulud 3.0 (Dec): minor variant, same codebase 23",
@@ -237,7 +237,7 @@
     {
       "id": "VMr9tw",
       "number": 24,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0024.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "axios supply chain (March 2026) How the attack worked Impact Maintainer PC compromised via social engineering plain-crypto-js@4.2.1 injected into package.json Post-install hook deployed a cross-platform RAT axios: 70M+ weekly downloads Live ~3 hours; thousands of endpoints hit the command & control platform Attributed to Sapphire Sleet (North Korea) 24",
@@ -247,7 +247,7 @@
     {
       "id": "7gZxmL",
       "number": 25,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0025.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Sandworm (February 2026) Persistence: two layers Advanced evasion Installs MCP server — injected into Claude Code, Cursor Prompt injection in tool descriptions drives execution Git hooks in all repos + init.templateDir — permanent DGA for C2 + DNS tunneling as fallback Calls local Ollama to rewrite own code per victim Each instance unique — evades signature detection 25",
@@ -257,7 +257,7 @@
     {
       "id": "k0Ilek",
       "number": 26,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0026.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "The attacker’s toolkit The four techniques Heuristic obfuscation Version poisoning — code injected into a legitimate patch Token and credential theft — npm tokens, cloud secrets Post-install hooks — automatic execution at install time Sandworm rewrote its own code per victim Variable renaming, control flow rewrites, decoy insertion No two instances identical — signatures fail by design 26",
@@ -267,7 +267,7 @@
     {
       "id": "MK1ZX9",
       "number": 27,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0027.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "Quick wins what you can do this week 27",
@@ -277,7 +277,7 @@
     {
       "id": "ydkNPY",
       "number": 28,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0028.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/028.png",
       "width": 1600,
       "height": 900,
       "text": "If you publish packages Phishing-resistant 2FA npm Trusted Publishing Switch to FIDO2 / WebAuthn: YubiKey or passkeys Key is origin-bound — AiTM cannot replay it Technically defeats the maintainer-phishing vector OIDC short-lived tokens via GitHub Actions No long-lived token stored anywhere Two lines of YAML — works with GitHub and GitLab 28",
@@ -287,7 +287,7 @@
     {
       "id": "axTBHx",
       "number": 29,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0029.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "If you consume packages Slow down updates Reduce the execution surface minimumReleaseAge / cooldown — delay N days Closes the zero-hour infection window SCFW wraps npm/pip, checks osv.dev at install time npm config set ignore-scripts true Disables postinstall hooks — how most worms fire Default in pnpm v10+ (consider switching!) 29",
@@ -297,7 +297,7 @@
     {
       "id": "DHBzAM",
       "number": 30,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0030.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/030.jpg",
       "width": 1600,
       "height": 900,
       "text": "How Datadog helps static, runtime, and research 30",
@@ -307,7 +307,7 @@
     {
       "id": "paun2l",
       "number": 31,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0031.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/031.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security Static analysis detects malicious packages at PR time Runtime protection flags suspicious behaviour Contextualised alerts — severity + reachability 31",
@@ -317,7 +317,7 @@
     {
       "id": "RudavA",
       "number": 32,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0032.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/032.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog Security Research Datadog Security Labs publishes malicious package research MCP / Cmd+I brings alerts into your IDE in context Tells you about malicious packages while you code 32",
@@ -327,7 +327,7 @@
     {
       "id": "4EMOnZ",
       "number": 33,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0033.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/033.jpg",
       "width": 1600,
       "height": 900,
       "text": "What’s next the attack surface is shifting 33",
@@ -337,7 +337,7 @@
     {
       "id": "gY5Cfy",
       "number": 34,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0034.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/034.png",
       "width": 1600,
       "height": 900,
       "text": "AI is the new attack surface Attacks in the AI era MCP servers and AI skills Postinstall hook fires, invokes local coding agent Agent executes attacker commands — looks like dev activity Sandworm already demonstrated MCPlayer persistence Same trust model as npm — install and run Poisoned MCP server = attacker inside your dev environment AI-heavy orgs are high-value targets (LiteLLM: 36% of envs) 34",
@@ -347,7 +347,7 @@
     {
       "id": "Iro0YN",
       "number": 35,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0035.png",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/035.png",
       "width": 1600,
       "height": 900,
       "text": "La plus ça change… Social engineering still wins Classic defenses still apply 100% of 2025-26 maintainer compromises started with phishing Public emails + high trust = easy targets The attack is on people, not code Inventory everything: SBOM, deps, MCP servers installed Least-privilege: scoped tokens, no longlived credentials Delay auto-updates. Verify before you trust. 35",
@@ -357,7 +357,7 @@
     {
       "id": "vBWoQm",
       "number": 36,
-      "image": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0036.jpg",
+      "image": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/036.jpg",
       "width": 1600,
       "height": 900,
       "text": "Ship safer github.com/DataDog/guarddog docs.datadoghq.com/security/code_security securitylabs.datadoghq.com 36",
@@ -368,187 +368,187 @@
   "page_count": 36,
   "files": [
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0001.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/001.jpg",
       "sha256": "4398dac8d2d066c27a1e4b5a47f68ff174b180629e5b7206df5ff653fb4c918f",
       "bytes": 143437
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0002.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/002.jpg",
       "sha256": "144b57e8df2183e6d00d2da67fb9172a27d935125fc917c2ff59485491a11887",
       "bytes": 106259
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0003.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/003.jpg",
       "sha256": "4c35edb5dd3ac4d71e2e0dd0d309f581ecb156937ce4336810be5d66f55a8ad4",
       "bytes": 156138
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0004.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/004.png",
       "sha256": "047e20a0073e9b52df05371ce1913c9c2c2340234cd690a5b0d63050d4dc3441",
       "bytes": 54770
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0005.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/005.png",
       "sha256": "5f9b53dd7ec8630ecb47e1811c353420800eae1f977728053a6f04af22d8ee77",
       "bytes": 124840
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0006.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/006.jpg",
       "sha256": "1a544bab49aa8021baf423c7c8317e00a7fbd39c0f596441f7d469ea1c1946d8",
       "bytes": 105251
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0007.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/007.png",
       "sha256": "00ee7b8f164e6434cd224efb905815cfc01369ff72f6290fc6b1ea48a7b69572",
       "bytes": 195937
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0008.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/008.jpg",
       "sha256": "17bf85ad25053064fb7fd82cef17038e39ad69b9bb9721a5b78fe01c28a1f721",
       "bytes": 147017
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0009.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/009.jpg",
       "sha256": "1d4eab5ed72ba292171034cca4f7f9243b77b540e55ac48db751ead719696d8a",
       "bytes": 259866
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0010.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/010.jpg",
       "sha256": "03a86515f074568d4080cadb75c5f46e353cd7f8641ae08a929e727fefb0af04",
       "bytes": 99057
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0011.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/011.jpg",
       "sha256": "0cdbed56d1e02d3779af6f5ac52ecc5b5830f5bc020f2f19fbaf8b158a0cc19b",
       "bytes": 120712
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0012.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/012.jpg",
       "sha256": "c1e76d44ad61bad99a54a9ed46c37c2515e4643709e3cfbdba5ed254b9ec74fd",
       "bytes": 127043
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0013.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/013.png",
       "sha256": "205af1bc3ef5248dbded340366bb94a8f9ff894e244f15567db8aedb207db83e",
       "bytes": 389096
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0014.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/014.jpg",
       "sha256": "3255cb5ca070052e84a164e48cefc56977fd2ce3b1437ebf6b9eb86e5ec2c211",
       "bytes": 77613
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0015.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/015.png",
       "sha256": "d503de3e3616ec0d30bc788b25d41afb956722fc7002ff5211878c6eca324329",
       "bytes": 245755
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0016.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/016.jpg",
       "sha256": "1142437d6c99802943058ac45e7122ed108f69beb09b3e39de0246b3453f42ce",
       "bytes": 147102
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0017.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/017.png",
       "sha256": "5d3e32163a32e83c999e5ea5be0281ed622905711e5aa133b9be7ffd3e3cb769",
       "bytes": 484942
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0018.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/018.png",
       "sha256": "e5fce346103267990fa676538c1bf142fee862e43baefac117e43fe491ad1143",
       "bytes": 521976
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0019.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/019.png",
       "sha256": "1649e1f2fa8ce5ead53608ec53a5634ac1303210d3590e89bdea021106bc5276",
       "bytes": 466946
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0020.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/020.jpg",
       "sha256": "80db1526a8dce50c0b31ad3f136903d2b80f9da90f98b771ced41443ad1445df",
       "bytes": 112643
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0021.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/021.jpg",
       "sha256": "7635e3404dcc5ac6a4c0e8caa47ff9f8256ad00aa081bebb79cb3d41e5996f14",
       "bytes": 107586
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0022.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/022.png",
       "sha256": "9d97947b5b3ae2a71e5468790cd9d8e22f260c88e693f0353b8f1ced28286d51",
       "bytes": 433854
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0023.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/023.png",
       "sha256": "bfd673c3566118d133049cd0496d898b5bd20ec9ece56447c50698da36b1e5e5",
       "bytes": 516607
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0024.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/024.png",
       "sha256": "0e87f6ad024c68a9da8d817b2adb5e27dc1b688a1989fe88b84b495d1d741f1b",
       "bytes": 494251
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0025.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/025.png",
       "sha256": "3eaa8474a9fa2f90564375196ab567a7cdb04998a0dd44b54f83fda6323bd4cc",
       "bytes": 486511
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0026.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/026.png",
       "sha256": "f1c8b553c7c3ecf645ad642597206e46818b34493917967d8561f4cd1d31b664",
       "bytes": 470559
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0027.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/027.jpg",
       "sha256": "82a094498a4d52fa1b4e3cce12889153f80243ddc2b038ad508b5032e8a5f638",
       "bytes": 122525
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0028.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/028.png",
       "sha256": "7a18046ac23d4492fae8307cd18f37c09ad47247f5cba69f786790b0b09aa899",
       "bytes": 459535
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0029.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/029.png",
       "sha256": "4ebff04db2920bb8f7d16eb02857ed737b5d52f28d92c89d83959a463df64a89",
       "bytes": 435744
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0030.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/030.jpg",
       "sha256": "744ff9cad42a435d29b87e21255bf10c477c20c34b556e8ab1ed6d586af6db2b",
       "bytes": 136144
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0031.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/031.jpg",
       "sha256": "2bb7c0c4ff86ad26ad0e237f60ebeae82ef4519bc30ce8ddc1a8321affa8bbf3",
       "bytes": 211747
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0032.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/032.jpg",
       "sha256": "7ae7fc7585d2b09f71e70f2bb119878d75ab10672d10ee04ebb599d6fdcdb369",
       "bytes": 224508
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0033.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/033.jpg",
       "sha256": "7ae09a5bf8b022711fecf6ef131559b4e9e993527ed78581da69b90e94d1b2a8",
       "bytes": 125550
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0034.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/034.png",
       "sha256": "8e2f70c9db09792309e946cae651923417d20c2ea9e46101a0c23c72893c97b5",
       "bytes": 510152
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0035.png",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/035.png",
       "sha256": "138fdc94229cf88c10441d0f5d72210e78d884663a8013b1f47619aac95e7b4c",
       "bytes": 482445
     },
     {
-      "path": "decks/63f94f65a0f62982bbb5ce0fd324c4dc4df25acd7069adc3068499f74d598f04/0036.jpg",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/slides/036.jpg",
       "sha256": "e1ed5c8224610f3401b2e90dbb40344da64529210640c5c041615303ede0212e",
       "bytes": 171279
     },
     {
-      "path": "pdfs/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
+      "path": "decks/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash/2026-06-09-inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins-dash.pdf",
       "sha256": "5f4b0860adb450342e4953255ad4867f651a8be908574b3dd9441beb968780dd",
       "bytes": 6085053
     }

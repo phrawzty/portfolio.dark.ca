@@ -2,12 +2,12 @@
   "id": "06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924",
   "source_sha256": "1107bea3aa6d8ddaaad8797ec2601681b3c5c7c8871ce7202568724315c95674",
   "provenance": "original",
-  "pdf": "pdfs/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
+  "pdf": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
   "slides": [
     {
       "id": "3gpm8Z",
       "number": 1,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0001.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 1 Your first days. Benefits from cloud basics",
@@ -17,7 +17,7 @@
     {
       "id": "g0Ya0y",
       "number": 2,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0002.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "Chloe Goldstein Partner Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
@@ -27,7 +27,7 @@
     {
       "id": "IKHNtN",
       "number": 3,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0003.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (Today!) Episode 2: Getting more from advanced services (18 May) Episode 3: Bringing your company onboard! (8 June)",
@@ -37,7 +37,7 @@
     {
       "id": "ue0Blm",
       "number": 4,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0004.png",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "Benefits of the Cloud • Agility - Teams can build more quickly and frequently • Elasticity - Easily Scale up or down based on business needs • Innovate Faster - Ability to focus on business differentiators, not infrastructure • Go Global in Minutes - Most extensive, reliable, and secure global cloud infrastructure • Cost Savings - Only pay for IT as you consume it © 2021, Amazon Web Services, Inc. or its Affiliates.",
@@ -47,7 +47,7 @@
     {
       "id": "WxizeB",
       "number": 5,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0005.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "AWS region design AWS Regions are comprised of multiple Availability Zones (AZs) for high availability, high scalability, and high fault tolerance. Applications and data are replicated in real time and consistent in the different AZs. AWS Availability Zone (AZ) AWS Region AZ Transit Datacenter AZ Transit Datacenter AZ AZ Datacenter A Region is a physical location in the world where we have multiple Availability Zones. © 2021, Amazon Web Services, Inc. or its Affiliates. Availability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities.",
@@ -57,7 +57,7 @@
     {
       "id": "9HRnWa",
       "number": 6,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0006.png",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Infrastructure and services to elevate your security in the cloud Inherit global security & compliance controls Scale with superior visibility & control © 2021, Amazon Web Services, Inc. or its Affiliates. Highest standards for privacy & data security Automate & reduce risk with deeply integrated services Largest ecosystem of security partners & solutions",
@@ -67,7 +67,7 @@
     {
       "id": "lbAbOz",
       "number": 7,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0007.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Migration Strategies: • Lift-and-Shift • Lift-and-reshape • Re-architecting © 2021, Amazon Web Services, Inc. or its Affiliates.",
@@ -77,7 +77,7 @@
     {
       "id": "NutPHO",
       "number": 8,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0008.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cloud Migration Phase 1",
@@ -87,7 +87,7 @@
     {
       "id": "0EcD9n",
       "number": 9,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0009.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "Cloud Migration: Top Of Mind",
@@ -97,7 +97,7 @@
     {
       "id": "cYL12C",
       "number": 10,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0010.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/010.jpg",
       "width": 1600,
       "height": 900,
       "text": "Start with a real production POC",
@@ -107,7 +107,7 @@
     {
       "id": "Es3oub",
       "number": 11,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0011.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability",
@@ -117,7 +117,7 @@
     {
       "id": "rBmcn0",
       "number": 12,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0012.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "Observability: Top Of Mind",
@@ -127,7 +127,7 @@
     {
       "id": "TVVQfP",
       "number": 13,
-      "image": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0013.jpg",
+      "image": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "Demo",
@@ -138,72 +138,72 @@
   "page_count": 13,
   "files": [
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0001.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/001.jpg",
       "sha256": "1bf40142ddf6bab9e8f9b7ae58ad05eb6058cbd296169d8996989b6e58d7a2e5",
       "bytes": 75615
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0002.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/002.jpg",
       "sha256": "a74ac8bf57634ab4bea3cd72dd1efe58cfd1ad538634edaf88cc1c0986c38876",
       "bytes": 145894
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0003.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/003.jpg",
       "sha256": "7e59b95307c29b8dfb32d0389f7a346b0649f2e6c49c34ff2193a17e696961c4",
       "bytes": 178507
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0004.png",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/004.png",
       "sha256": "76cee541041f91e0209b4f7a7c829eff90d19faa30eab73c42c513762d350a84",
       "bytes": 409197
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0005.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/005.jpg",
       "sha256": "19946670ee71b4a38a890a506d50fbb9a601eac9c08b6ccc41cf3bbbceccdc60",
       "bytes": 232710
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0006.png",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/006.png",
       "sha256": "78c67eb9df901cc1892a9a3558a30bcdddc630cf4efc0b4dda3004f3259b0a30",
       "bytes": 498831
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0007.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/007.jpg",
       "sha256": "d8b08a960321422740146ae6bb518e43f0602c640ee13adeb86e05bfe16896fe",
       "bytes": 112558
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0008.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/008.jpg",
       "sha256": "0c80e744ba88006089d5345ad1b9874991b8e1d4ea419449f1d6095cfb492139",
       "bytes": 66028
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0009.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/009.jpg",
       "sha256": "80b4aed3989a531d7cfd400d78cc52b874d96062bc0c27e2f3c97d7107efa5ad",
       "bytes": 140044
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0010.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/010.jpg",
       "sha256": "e3967be4250a5c15019698c8fb40b0fa96c53201d8e8028d754239f930e3f176",
       "bytes": 116119
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0011.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/011.jpg",
       "sha256": "08219569f749ef6cc86fddbb884d142d1c43c14940b28e894502846afefcb522",
       "bytes": 55968
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0012.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/012.jpg",
       "sha256": "d7e8100459657c450dcfe68c1cd95ed21ed0db5d65e3cfbe8e78b781bd9b198e",
       "bytes": 107533
     },
     {
-      "path": "decks/06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924/0013.jpg",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/slides/013.jpg",
       "sha256": "5949a28ce7f5a5507f70b6df00bc2fdb6f28bfdc42834f89af575a55f8f0ef51",
       "bytes": 47220
     },
     {
-      "path": "pdfs/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
+      "path": "decks/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar/2021-05-06-cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics-devops-com-webinar.pdf",
       "sha256": "1107bea3aa6d8ddaaad8797ec2601681b3c5c7c8871ce7202568724315c95674",
       "bytes": 1932559
     }

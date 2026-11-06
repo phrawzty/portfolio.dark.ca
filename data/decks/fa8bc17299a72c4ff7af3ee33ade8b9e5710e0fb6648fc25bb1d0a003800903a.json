@@ -2,12 +2,12 @@
   "id": "fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a",
   "source_sha256": "3460b4cb2f355bd91252b03c1f1d8eaa4ce57818f983e41755e54cd960345f48",
   "provenance": "original",
-  "pdf": "pdfs/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
+  "pdf": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
   "slides": [
     {
       "id": "7zQqhW",
       "number": 1,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0001.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Daniel “phrawzty” Maher Developer Advocate Datadog",
@@ -17,7 +17,7 @@
     {
       "id": "kJ9eZv",
       "number": 2,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0002.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "Identify CFP Prepare Deliver After-care @phrawzty // Datadog",
@@ -27,7 +27,7 @@
     {
       "id": "McsSSK",
       "number": 3,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0003.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -37,7 +37,7 @@
     {
       "id": "ywbGKj",
       "number": 4,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0004.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "Business Themes Industry and market Influence Audience composition You Topics / subjects Format Other presentations Networking Logistics Help with expenses Production value Location Support @phrawzty // Datadog",
@@ -47,7 +47,7 @@
     {
       "id": "bGK4D8",
       "number": 5,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0005.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "In specific PaperCall.io Meetup.com Confs.tech Devopsdays.org In general O’Reilly, SkillsMatter, etc… Tech sites, lists, and Slacks Word of mouth Google for “open tech CFPs” @phrawzty // Datadog",
@@ -57,7 +57,7 @@
     {
       "id": "Da2s5X",
       "number": 6,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0006.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -67,7 +67,7 @@
     {
       "id": "ptlfxw",
       "number": 7,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0007.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "Title Pitch Description Notes Headshot Bio Previous presentations Assistance required? Demographic data @phrawzty // Datadog",
@@ -77,7 +77,7 @@
     {
       "id": "SDUTqL",
       "number": 8,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0008.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Be bold, but don’t be a jerk about it. Be terse. Don’t get bogged down in the details. Believe in your words. Pay attention to the guidelines! No, seriously, pay attention—especially to character or word count. Be early, but don’t be first. Don’t wait until the last minute (it might already be too late). @phrawzty // Datadog",
@@ -87,7 +87,7 @@
     {
       "id": "4XDHik",
       "number": 9,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0009.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -97,7 +97,7 @@
     {
       "id": "gqw5b9",
       "number": 10,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0010.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Say it The story you want to tell. What you are going to say. How you are going to say it. Display it The visual support for your story. Slides, pictures, video, etc. Terminals! Live coding! @phrawzty // Datadog",
@@ -107,7 +107,7 @@
     {
       "id": "JAetTY",
       "number": 11,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0011.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "– You are the most important element of the talk. – Your presentation should be functional without slides. – (Live demos excepted.) @phrawzty // Datadog",
@@ -117,7 +117,7 @@
     {
       "id": "vUNhLx",
       "number": 12,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0012.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "By yourself First, just say things out loud to see how they sound. Then, put on a timer and click through your slides. Modify as necessary. With others Dry-run the first. It’s ok to be nervous. Accept the feedback and improve. Dry-run the second. Already a huge improvement! @phrawzty // Datadog",
@@ -127,7 +127,7 @@
     {
       "id": "Xo6VEM",
       "number": 13,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0013.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -137,7 +137,7 @@
     {
       "id": "A7pJ6l",
       "number": 14,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0014.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Arrive early. Explore the venue and sort yourself out. Talk to the organisers to see if they have last-minute info. Find somewhere quiet to review. Sound / tech-check on stage. Close all apps you don’t need. Mute notifications, too. Silence your phone. @phrawzty // Datadog",
@@ -147,7 +147,7 @@
     {
       "id": "mRY6zA",
       "number": 15,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0015.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Being nervous is normal. Confidence is the best cure. (Practice was how you gained confidence.) Be passionate! You got this! Slow down and breathe. Find a comfortable standing position. Forget about your pockets. Take sips of water. @phrawzty // Datadog",
@@ -157,7 +157,7 @@
     {
       "id": "OlGurZ",
       "number": 16,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0016.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -167,7 +167,7 @@
     {
       "id": "14zijy",
       "number": 17,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0017.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Q&A It’s OK to ask for a question to be repeated or expanded upon. It’s OK if you don’t know the answer. Really. Take it off-line. If they go low, you go high. Hallway track It’s usually the best part of a conference, but it can also be the worst for reasons well outside of your control. That said, embrace it! Have fun! @phrawzty // Datadog",
@@ -177,7 +177,7 @@
     {
       "id": "dOiWcN",
       "number": 18,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0018.png",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Reflect If the talk was recorded, watch the recording. If feedback was collected, read the feedback. Improve your presentation! Publish Blog post; tutorial; workshop. A spin-off talk. Podcast? Sure! Why not write a book about it? The sky’s the limit! @phrawzty // Datadog",
@@ -187,7 +187,7 @@
     {
       "id": "FiRKUm",
       "number": 19,
-      "image": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0019.jpg",
+      "image": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "Datadog",
@@ -198,102 +198,102 @@
   "page_count": 19,
   "files": [
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0001.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/001.jpg",
       "sha256": "944b15d977424bd9935b623e189c59a76c4627e6bc4b711b1a5b02102183e70a",
       "bytes": 127974
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0002.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/002.png",
       "sha256": "1647076dd98a821d6127f74f320187164d51cb54dd2a8e890434bcbf7e43a802",
       "bytes": 167429
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0003.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/003.jpg",
       "sha256": "e69324a01abd08d69a060b498740c000fde60ed14791fb9882692a5fa464fa62",
       "bytes": 66800
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0004.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/004.png",
       "sha256": "af049388606c3cbdd0fa085ec80a187024440fb6fb24327a24be9230d447db5e",
       "bytes": 325009
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0005.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/005.png",
       "sha256": "10893f3661c69302c22a98958383a7983468b7900ae9017462d6d4ed5bf59384",
       "bytes": 290182
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0006.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/006.png",
       "sha256": "269fafb8431c8e4c3351b4f36ab07d768631dd1dd1d4ced110e84556314347d7",
       "bytes": 131834
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0007.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/007.png",
       "sha256": "520804691fc27d59ceea9c4988b7da9ec9a63fde65c6e36e04855dbec0f72fbe",
       "bytes": 210108
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0008.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/008.png",
       "sha256": "168cdd8b8c037a18631483789ab566f7f37475218a0ef3488c859771a28a228c",
       "bytes": 303367
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0009.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/009.jpg",
       "sha256": "45253ad14aec4ab71c58785a7311b98fe05ad787174808d518b2d72d7b382d14",
       "bytes": 60342
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0010.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/010.png",
       "sha256": "335a26ad2ec3dc3f3afc7463d859715c23fe4b05165166604a2f470851cbe8da",
       "bytes": 273655
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0011.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/011.png",
       "sha256": "92820a8ecc0369e90d60a38fc23e47e1b9ceda7eff326c08674a51edfb2de6a8",
       "bytes": 220922
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0012.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/012.png",
       "sha256": "4ef74d16c4b70ee38588a9fc9f03aef1044a8a03806c1f71c01003c8928c3b8f",
       "bytes": 374418
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0013.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/013.jpg",
       "sha256": "ab347066a1efe4fa1e442c67474e03f52d005b41978add53a0675e4f41b2ef49",
       "bytes": 56388
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0014.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/014.png",
       "sha256": "8d2c4e642f0dc572eae1bd9edcb9374ba1706d5e9e3a4b490317da1ed4a43572",
       "bytes": 323094
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0015.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/015.png",
       "sha256": "a989fcd118d83b7387f476fc807e675e0c1aaaf908743dc70c61b3be71de20fa",
       "bytes": 318689
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0016.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/016.jpg",
       "sha256": "d40581731919d35d87a48e417f1ca97c0162d5db7de9baf18861e4d9bc8aefec",
       "bytes": 60840
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0017.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/017.png",
       "sha256": "db8f1fd85440e09d7a503c0a1a5b28211755edadd53188f2056eb95ac9d4deac",
       "bytes": 390466
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0018.png",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/018.png",
       "sha256": "6e4694888b206d402f61104492383bae05d2c74f321b84a8baa6a33f6ea3a758",
       "bytes": 338038
     },
     {
-      "path": "decks/fa8bc17299a72c4ff7af3ee33ade8b9e5710e0fb6648fc25bb1d0a003800903a/0019.jpg",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/slides/019.jpg",
       "sha256": "f72dae71a69b47faf406389d26c0914c5e15d47c0a801a62a5f73b6595156e00",
       "bytes": 47370
     },
     {
-      "path": "pdfs/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
+      "path": "decks/2019-10-11-public-speaking-for-technologists-hackconf-bg/2019-10-11-public-speaking-for-technologists-hackconf-bg.pdf",
       "sha256": "3460b4cb2f355bd91252b03c1f1d8eaa4ce57818f983e41755e54cd960345f48",
       "bytes": 195238
     }

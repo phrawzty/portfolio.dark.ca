@@ -2,12 +2,12 @@
   "id": "f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21",
   "source_sha256": "f7ec034aa27422bca72f1df2c693ccf1cd9e360be26d90caba814663a9127484",
   "provenance": "original",
-  "pdf": "pdfs/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
+  "pdf": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
   "slides": [
     {
       "id": "BNHZhF",
       "number": 1,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0001.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/001.png",
       "width": 1600,
       "height": 1200,
       "text": "Daniel “phrawzty” Maher Datadog What MMA taught me about working in tech",
@@ -17,7 +17,7 @@
     {
       "id": "nh0NZe",
       "number": 2,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0002.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/002.png",
       "width": 1600,
       "height": 1200,
       "text": "Mixed Martial Arts Mixing techniques from multiple disciplines",
@@ -27,7 +27,7 @@
     {
       "id": "Q0jBS3",
       "number": 3,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0003.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/003.png",
       "width": 1600,
       "height": 1200,
       "text": "Ancient history Pankration, Lei Tai",
@@ -37,7 +37,7 @@
     {
       "id": "2KRzKS",
       "number": 4,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0004.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/004.png",
       "width": 1600,
       "height": 1200,
       "text": "Recent history Merikan, Sambo, Shoot, Pancrase, Jeet Kun Do, Brazilian Jiu Jitsu (BJJ)",
@@ -47,7 +47,7 @@
     {
       "id": "eeAnCr",
       "number": 5,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0005.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/005.png",
       "width": 1600,
       "height": 1200,
       "text": "Contemporary history Ultimate Fighting Championship A one-day tournament held in 1993.",
@@ -57,7 +57,7 @@
     {
       "id": "Gxtb5G",
       "number": 6,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0006.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/006.png",
       "width": 1600,
       "height": 1200,
       "text": "About me Hospitalised by both tech and MMA, so I know what I’m talking about",
@@ -67,7 +67,7 @@
     {
       "id": "tHcOxf",
       "number": 7,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0007.jpg",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/007.jpg",
       "width": 1600,
       "height": 1200,
       "text": "About Datadog Modern monitoring & analytics We’re hiring!",
@@ -77,7 +77,7 @@
     {
       "id": "VbLCq4",
       "number": 8,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0008.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/008.png",
       "width": 1600,
       "height": 1200,
       "text": "Elephant in the room MMA: Just two people beating each other up?",
@@ -87,7 +87,7 @@
     {
       "id": "7v40iT",
       "number": 9,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0009.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/009.png",
       "width": 1600,
       "height": 1200,
       "text": "Further terrible definitions Programming: pressing plastic squares in more or less the right order",
@@ -97,7 +97,7 @@
     {
       "id": "kEmoas",
       "number": 10,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0010.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/010.png",
       "width": 1600,
       "height": 1200,
       "text": "Not a vacuum Work with people, train with people",
@@ -107,7 +107,7 @@
     {
       "id": "MYVcTH",
       "number": 11,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0011.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/011.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #1: The right people Coaches and training partners Like managers and co-workers.",
@@ -117,7 +117,7 @@
     {
       "id": "ysEQLg",
       "number": 12,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0012.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/012.png",
       "width": 1600,
       "height": 1200,
       "text": "Identifying toxicity “Submitted— by a girl.” This shouldn’t be an insult.",
@@ -127,7 +127,7 @@
     {
       "id": "bBxEE5",
       "number": 13,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0013.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/013.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #2: The right environment Safe space to make mistakes and learn new things",
@@ -137,7 +137,7 @@
     {
       "id": "DVg26U",
       "number": 14,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0014.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/014.png",
       "width": 1600,
       "height": 1200,
       "text": "Datadog post-mortem Eliminate stigma, learn, grow, and improve",
@@ -147,7 +147,7 @@
     {
       "id": "ppOpyt",
       "number": 15,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0015.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/015.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #3: The value of project management Organising your time and effort is key",
@@ -157,7 +157,7 @@
     {
       "id": "S97drI",
       "number": 16,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0016.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/016.png",
       "width": 1600,
       "height": 1200,
       "text": "Training camp Variable intensity, technical work, and recovery time Organised in two-week blocks…",
@@ -167,7 +167,7 @@
     {
       "id": "4SqRjh",
       "number": 17,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0017.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/017.png",
       "width": 1600,
       "height": 1200,
       "text": "Sprints, as in Agile Variable intensity, technical work, and recovery time Hopefully injury-free!",
@@ -177,7 +177,7 @@
     {
       "id": "gmZFc6",
       "number": 18,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0018.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/018.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #4: Getting enough rest You need to sleep and you need to rest",
@@ -187,7 +187,7 @@
     {
       "id": "J6I3UV",
       "number": 19,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0019.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/019.png",
       "width": 1600,
       "height": 1200,
       "text": "Burnout is a real thing Added bonus: you don’t know that it’s happening",
@@ -197,7 +197,7 @@
     {
       "id": "vQ0rMu",
       "number": 20,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0020.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/020.png",
       "width": 1600,
       "height": 1200,
       "text": "Burnout is like over-training Burnout is incredibly dangerous Problem: it doesn’t feel that way.",
@@ -207,7 +207,7 @@
     {
       "id": "XjjfFJ",
       "number": 21,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0021.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/021.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #5: Diet is everything What and how you eat matters",
@@ -217,7 +217,7 @@
     {
       "id": "A3ST7i",
       "number": 22,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0022.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/022.png",
       "width": 1600,
       "height": 1200,
       "text": "Thinking about food Quality, Quantity, and Timing",
@@ -227,7 +227,7 @@
     {
       "id": "mNBH07",
       "number": 23,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0023.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/023.png",
       "width": 1600,
       "height": 1200,
       "text": "Generally good advice “Eat food. Not too much. Mostly plants.” – Michael Pollan Don’t forget to enjoy yourself sometimes!",
@@ -237,7 +237,7 @@
     {
       "id": "Ogu4sW",
       "number": 24,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0024.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/024.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #6: Learn the basics Fundamentals win fights",
@@ -247,7 +247,7 @@
     {
       "id": "10cskv",
       "number": 25,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0025.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/025.png",
       "width": 1600,
       "height": 1200,
       "text": "Basics are critical, but… Don’t be dogmatic about fundamentals",
@@ -257,7 +257,7 @@
     {
       "id": "dKLgdK",
       "number": 26,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0026.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/026.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #7: Embrace diversity Diversity makes you better by default",
@@ -267,7 +267,7 @@
     {
       "id": "Fe4UVj",
       "number": 27,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0027.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/027.png",
       "width": 1600,
       "height": 1200,
       "text": "A diverse fundamental There’s more than one way to throw a jab But people will try to tell you otherwise.",
@@ -277,7 +277,7 @@
     {
       "id": "rxnIO8",
       "number": 28,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0028.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/028.png",
       "width": 1600,
       "height": 1200,
       "text": "Tech needs diversity to succeed Fresh eyes and fresh ideas Not to mention testing and QA…",
@@ -287,7 +287,7 @@
     {
       "id": "UHW6GX",
       "number": 29,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0029.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/029.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #8: Penetration testing (seriously) An interesting parallel between the fight and security games",
@@ -297,7 +297,7 @@
     {
       "id": "6bEu8w",
       "number": 30,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0030.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/030.png",
       "width": 1600,
       "height": 1200,
       "text": "How to fight / pen test Observe, adapt, act; sometimes really quickly",
@@ -307,7 +307,7 @@
     {
       "id": "iuxi1L",
       "number": 31,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0031.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/031.png",
       "width": 1600,
       "height": 1200,
       "text": "Flying tiger, hidden dragon Don’t make it obvious Predictability will get you hurt.",
@@ -317,7 +317,7 @@
     {
       "id": "LEgVtk",
       "number": 32,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0032.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/032.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #9: Plan to change plans",
@@ -327,7 +327,7 @@
     {
       "id": "xYPJm9",
       "number": 33,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0033.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/033.png",
       "width": 1600,
       "height": 1200,
       "text": "Validation is a trap Data that challenges your model is a gift Where the really interesting things happen.",
@@ -337,7 +337,7 @@
     {
       "id": "Zs87eY",
       "number": 34,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0034.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/034.png",
       "width": 1600,
       "height": 1200,
       "text": "Learning #10: Deal with it “Everyone has a plan until they get punched in the mouth.” – Mike Tyson",
@@ -347,7 +347,7 @@
     {
       "id": "CBqvWx",
       "number": 35,
-      "image": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0035.png",
+      "image": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/035.png",
       "width": 1600,
       "height": 1200,
       "text": "Daniel “phrawzty” Maher Datadog What MMA taught me about working in tech Thanks! I hope you enjoyed it. :)",
@@ -358,182 +358,182 @@
   "page_count": 35,
   "files": [
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0001.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/001.png",
       "sha256": "7fda483a781d5ff2259885389474ebda597d783bc513b98781b31e2a901b51bd",
       "bytes": 243256
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0002.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/002.png",
       "sha256": "90c7a7f0efcfb4cd02687675273b6d208a735f0caf1616ce8188a5eb9d7e89fd",
       "bytes": 205658
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0003.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/003.png",
       "sha256": "66d03dcf7ad5bd4359a7a30e78c40e2523cfa7410036e25273176a8818c00307",
       "bytes": 124714
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0004.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/004.png",
       "sha256": "759f4c8bf46b6e0f2dc3f9c33d5be153af71ad50dfb371efb00c0d005585add9",
       "bytes": 274834
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0005.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/005.png",
       "sha256": "a5fb2e367353d00024d079e1626fe1fe40f82b87a3a5a78b67934816da355314",
       "bytes": 262916
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0006.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/006.png",
       "sha256": "a6a96fa8dd42c4c11e618c12a781e9c195561c8bd94238d780fb663ee6575091",
       "bytes": 243777
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0007.jpg",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/007.jpg",
       "sha256": "65f46e846ec770dc745af4ce9129de712c6eb20e6576e0039f5e3c48eaf97338",
       "bytes": 148633
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0008.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/008.png",
       "sha256": "1dedb9276671f575f9b34beee84ca702a0c62dbae5992022646e168adf1c3f55",
       "bytes": 203653
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0009.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/009.png",
       "sha256": "7bfa0c38e6512c18fcbd2145443a734ccb34b83fcd2e6083785d30f3c5d4eed5",
       "bytes": 260404
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0010.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/010.png",
       "sha256": "adeb15884b6cd278c39b4051f88db87a700b9fb0348238cf712b75b3eebaee98",
       "bytes": 170105
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0011.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/011.png",
       "sha256": "974eb7e434afa3977b3fc447be362e515ceb96eb8816b5e0ec8bb5566d4071b7",
       "bytes": 274546
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0012.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/012.png",
       "sha256": "bf18134fcf62e2de90cb4064f80e02484fb61f9fcaf3822db906bd0e0e29a229",
       "bytes": 197573
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0013.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/013.png",
       "sha256": "6d7ba256152559abd5057c74aa1b168de9776b9b9116c74b217c339fcd7790c3",
       "bytes": 267177
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0014.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/014.png",
       "sha256": "6ba758f52aa7ee3187062ada67980223bd8391c206aa43219ef368752ae62dd4",
       "bytes": 218087
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0015.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/015.png",
       "sha256": "0ebd7cfc82e0f2cec34958d02e7ea08c199623c83e93dd6eb4d771a80cb91644",
       "bytes": 271063
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0016.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/016.png",
       "sha256": "4757fd8e96d4b0b6529aa001998dd5e311da580562bf02025c75032b75374d26",
       "bytes": 296540
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0017.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/017.png",
       "sha256": "161e868ed6d2cd3690f1c064e850e9e490073b3f1761d7e783f9cb61dcf8e0a1",
       "bytes": 281886
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0018.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/018.png",
       "sha256": "54643b5f396e8e0b808f736a76de027fc656ae0db35ce882a5855ba7380ffb74",
       "bytes": 230885
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0019.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/019.png",
       "sha256": "4073cb9b8b493b668b210e48035519fe07efe9f8a1ec795d57f94afe57e6789b",
       "bytes": 222599
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0020.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/020.png",
       "sha256": "cbf9bc74a53d59d05a2ff2c366e91a6a53c6ac873f8a6568819f7b4f8f4ed8e5",
       "bytes": 262649
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0021.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/021.png",
       "sha256": "e8e1de90966b4f77e4872a12e71e78db2971e1b485aaa7b50554dae38518d619",
       "bytes": 223031
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0022.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/022.png",
       "sha256": "c149cd7052d78757c8542f38fd88d1900164b76d285471f4914e4f639aea88aa",
       "bytes": 161284
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0023.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/023.png",
       "sha256": "932a66ffbf297d386a6f423d4cebf83bd984d4f9a2527eab74d3bb27338e6c61",
       "bytes": 342644
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0024.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/024.png",
       "sha256": "ba2cced0c4bc9c410f2ca02bdf8f78025110e39d34c18d5e43a02ab638ae39ad",
       "bytes": 194348
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0025.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/025.png",
       "sha256": "edb5dca15bfe47ec1e3e405cf63b6dfd7c13bde4873be77c761017f03d3d4ea9",
       "bytes": 200864
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0026.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/026.png",
       "sha256": "9923676985ab393cbe3d1e4b85d933142df4aeb3d0e8d79f8281d2396e79f1a4",
       "bytes": 246370
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0027.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/027.png",
       "sha256": "f9bb4b16eb9537f2691da0271c7a456052b6569bbb52c419344190f6dd4b8c8e",
       "bytes": 293057
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0028.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/028.png",
       "sha256": "a924f2a6826a18ae48c452f03ccf57cde881cf109dc192c7c97a8e1aca4576e5",
       "bytes": 281353
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0029.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/029.png",
       "sha256": "00507529ab89c25181306d8352af8051cd259f79aced8ff82cd3dbfdbfc9628a",
       "bytes": 333055
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0030.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/030.png",
       "sha256": "8865ca4444ace6f4cec7e71185ff9a61ada255e98a4b606635842cdf8decc0eb",
       "bytes": 231916
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0031.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/031.png",
       "sha256": "c5c15acbeb8ad778e74284a974568170eb7a2f30a67b6e7f4740f413f7488d09",
       "bytes": 231710
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0032.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/032.png",
       "sha256": "55614dc425fca18cfae5f2ec0cec235d70c9cb8cf61fa9e02e908345d7c6ac6f",
       "bytes": 271609
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0033.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/033.png",
       "sha256": "43d2d02044e793b1b146e755ea1b39d95b3be839a14347fa0947ef95c48b698d",
       "bytes": 293403
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0034.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/034.png",
       "sha256": "75de8361d835edd8c4d73f483cef2c816336d410cd0e07acadefc26c1cc2526a",
       "bytes": 271041
     },
     {
-      "path": "decks/f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21/0035.png",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/slides/035.png",
       "sha256": "0f651ffcabf66dc4379f86fb987d4bf8ce1fbc15db1825482c86a51cf479c16a",
       "bytes": 328763
     },
     {
-      "path": "pdfs/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
+      "path": "decks/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm/2019-09-18-what-mma-taught-me-about-working-in-tech-devopsdays-stockholm.pdf",
       "sha256": "f7ec034aa27422bca72f1df2c693ccf1cd9e360be26d90caba814663a9127484",
       "bytes": 716449
     }

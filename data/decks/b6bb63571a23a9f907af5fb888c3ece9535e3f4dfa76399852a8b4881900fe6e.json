@@ -2,12 +2,12 @@
   "id": "b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e",
   "source_sha256": "51f85915be683a7f38a7ce5d2c8560e3e0171d4e7eeca6e44cc6580eec70a0fb",
   "provenance": "reconstructed",
-  "pdf": "pdfs/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
+  "pdf": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
   "slides": [
     {
       "id": "gd2ddS",
       "number": 1,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0001.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "CONTAINERS: PARTS AND LABOUR DANIEL MAHER, DATADOG @phrawzty",
@@ -17,7 +17,7 @@
     {
       "id": "IwlRVr",
       "number": 2,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0002.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "CONTAINERS: PARTS AND LABOUR DANIEL MAHER, DATADOG @phrawzty DOCKER DOCKER DOCKER",
@@ -27,7 +27,7 @@
     {
       "id": "vGUFOG",
       "number": 3,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0003.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -37,7 +37,7 @@
     {
       "id": "XaD3Gf",
       "number": 4,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0004.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "IS THE DOCKER FAD OVER?",
@@ -47,7 +47,7 @@
     {
       "id": "9tvr94",
       "number": 5,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0005.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "DANIEL MAHER DOCS & TALKS DEVOPSDAYS GLOBAL GREAT OUTDOORS GOURMAND SUITS FOR NO REASON @phrawzty",
@@ -57,7 +57,7 @@
     {
       "id": "mDef1T",
       "number": 6,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0006.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "DATADOG SAAS-BASED MONITORING TRILLIONS OF POINTS/DAY WE’RE HIRING: www.datadoghq.com/careers @datadoghq",
@@ -67,7 +67,7 @@
     {
       "id": "OXNSts",
       "number": 7,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0007.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -77,7 +77,7 @@
     {
       "id": "0r6GmH",
       "number": 8,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0008.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/008.jpg",
       "width": 1600,
       "height": 900,
       "text": "Docker Adoption - Docker pulls?",
@@ -87,7 +87,7 @@
     {
       "id": "dAp4eg",
       "number": 9,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0009.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "https://www.datadoghq.com/docker-adoption/",
@@ -97,7 +97,7 @@
     {
       "id": "FUXsX5",
       "number": 10,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0010.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Dabbler : used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Docker Adoption",
@@ -107,7 +107,7 @@
     {
       "id": "roGgPU",
       "number": 11,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0011.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Dabbler : used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter : the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month. Docker Adoption",
@@ -117,7 +117,7 @@
     {
       "id": "U7zUHt",
       "number": 12,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0012.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Dabbler : used Docker during a given month, but hadn’t reached significant use as defined by Adopter. Adopter : the average number of containers running during the month was at least 50% the number of distinct hosts run, or there were at least as many distinct containers as distinct hosts run during the month. Abandoner : a currently active company that used Docker in the past, but hasn't used it at all in the last month. Docker Adoption",
@@ -127,7 +127,7 @@
     {
       "id": "6RiIAI",
       "number": 13,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0013.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -137,7 +137,7 @@
     {
       "id": "ilR62h",
       "number": 14,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0014.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -147,7 +147,7 @@
     {
       "id": "L59tv6",
       "number": 15,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0015.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -157,7 +157,7 @@
     {
       "id": "xOshnV",
       "number": 16,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0016.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "WHO’S ADOPTING DOCKER?",
@@ -167,7 +167,7 @@
     {
       "id": "ZibVfu",
       "number": 17,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0017.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -177,7 +177,7 @@
     {
       "id": "C2KJYJ",
       "number": 18,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0018.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -187,7 +187,7 @@
     {
       "id": "oM37Qi",
       "number": 19,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0019.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/019.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -197,7 +197,7 @@
     {
       "id": "QflvJ7",
       "number": 20,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0020.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/020.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -207,7 +207,7 @@
     {
       "id": "2zUjBW",
       "number": 21,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0021.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/021.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -217,7 +217,7 @@
     {
       "id": "fJDX3v",
       "number": 22,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0022.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -227,7 +227,7 @@
     {
       "id": "HcwKwK",
       "number": 23,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0023.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "WHAT’S RUNNING?",
@@ -237,7 +237,7 @@
     {
       "id": "twf8oj",
       "number": 24,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0024.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "NGINX Redis Postgres FluentD Elasticsearch Mongo MySQL etcd RabbitMQ HAproxy % Customers Running a Tech in Containers 0 % 10 % 20 % 30 % 40 %",
@@ -247,7 +247,7 @@
     {
       "id": "WGNwh8",
       "number": 25,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0025.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Redis Postgres Elasticsearch MySQL MongoDB etcd RabbitMQ % Customers Running Data Stores in Containers 0 % 10 % 20 % 30 % 40 %",
@@ -257,7 +257,7 @@
     {
       "id": "8a6kZX",
       "number": 26,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0026.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "HOW DENSELY PACKED?",
@@ -267,7 +267,7 @@
     {
       "id": "ktpYRw",
       "number": 27,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0027.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -277,7 +277,7 @@
     {
       "id": "NDYMKL",
       "number": 28,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0028.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/028.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -287,7 +287,7 @@
     {
       "id": "zXHACk",
       "number": 29,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0029.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -297,7 +297,7 @@
     {
       "id": "bqzy59",
       "number": 30,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0030.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/030.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -307,7 +307,7 @@
     {
       "id": "EAilxY",
       "number": 31,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0031.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/031.jpg",
       "width": 1600,
       "height": 900,
       "text": "ENTER THE ORCHESTRATORS",
@@ -317,7 +317,7 @@
     {
       "id": "qURZpx",
       "number": 32,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0032.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/032.png",
       "width": 1600,
       "height": 900,
       "text": "ORCHESTRATORTION IS NORMAL",
@@ -327,7 +327,7 @@
     {
       "id": "SoANiM",
       "number": 33,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0033.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/033.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -337,7 +337,7 @@
     {
       "id": "57tBal",
       "number": 34,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0034.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/034.png",
       "width": 1600,
       "height": 900,
       "text": "CONTAINERS INCREASE COMPLEXITY HOW DO WE MONITOR THEM?",
@@ -347,7 +347,7 @@
     {
       "id": "hRbzTA",
       "number": 35,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0035.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/035.png",
       "width": 1600,
       "height": 900,
       "text": "Alcohol: The cause of, and solution to, all of life’s problems. HOMER SIMPSON",
@@ -357,7 +357,7 @@
     {
       "id": "JlKnLZ",
       "number": 36,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0036.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/036.png",
       "width": 1600,
       "height": 900,
       "text": "Alcohol: The cause of, and solution to, all of life’s problems. HOMER SIMPSON CONTAINERS",
@@ -367,7 +367,7 @@
     {
       "id": "w53bDy",
       "number": 37,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0037.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/037.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -377,7 +377,7 @@
     {
       "id": "YOmP6N",
       "number": 38,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0038.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/038.jpg",
       "width": 1600,
       "height": 900,
       "text": "Side Car Containers",
@@ -387,7 +387,7 @@
     {
       "id": "AiVCym",
       "number": 39,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0039.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/039.png",
       "width": 1600,
       "height": 900,
       "text": "AS COMPLEXITY INCREASES FUNDAMENTALS BECOME MORE IMPORTANT",
@@ -397,7 +397,7 @@
     {
       "id": "n2E0rB",
       "number": 40,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0040.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/040.png",
       "width": 1600,
       "height": 900,
       "text": "4 QUALITIES OF GOOD METRICS NOT ALL METRICS ARE EQUAL",
@@ -407,7 +407,7 @@
     {
       "id": "PLwoja",
       "number": 41,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0041.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/041.jpg",
       "width": 1600,
       "height": 900,
       "text": "MUST BE WELL UNDERSTOOD",
@@ -417,7 +417,7 @@
     {
       "id": "1ffcbz",
       "number": 42,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0042.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/042.jpg",
       "width": 1600,
       "height": 900,
       "text": "SUFFICIENT GRANULARITY",
@@ -427,7 +427,7 @@
     {
       "id": "dzOQUO",
       "number": 43,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0043.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/043.jpg",
       "width": 1600,
       "height": 900,
       "text": "1 second Peak 46% 1 minute Peak 36% 5 minutes Peak 12%",
@@ -437,7 +437,7 @@
     {
       "id": "GJ7EMn",
       "number": 44,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0044.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/044.jpg",
       "width": 1600,
       "height": 900,
       "text": "TAGGED & FILTERABLE",
@@ -447,7 +447,7 @@
     {
       "id": "scq2FC",
       "number": 45,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0045.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/045.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -457,7 +457,7 @@
     {
       "id": "UwYq7b",
       "number": 46,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0046.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/046.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -467,7 +467,7 @@
     {
       "id": "7GHe00",
       "number": 47,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0047.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/047.png",
       "width": 1600,
       "height": 900,
       "text": "Query Based Monitoring “What’s the average throughput of application:nginx per version ?” “Alert me when role:web-app running application:postgres hosted in region:eu-west-1 behaves differently than region:eu-west-2 ”",
@@ -477,7 +477,7 @@
     {
       "id": "ja0RsP",
       "number": 48,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0048.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/048.jpg",
       "width": 1600,
       "height": 900,
       "text": "LONG-LIVED",
@@ -487,7 +487,7 @@
     {
       "id": "LtjFko",
       "number": 49,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0049.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/049.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -497,7 +497,7 @@
     {
       "id": "yDS3dD",
       "number": 50,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0050.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/050.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -507,7 +507,7 @@
     {
       "id": "aXArVc",
       "number": 51,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0051.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/051.jpg",
       "width": 1600,
       "height": 900,
       "text": "M T W TH F M T W TH F M T W TH F M T W TH F",
@@ -517,7 +517,7 @@
     {
       "id": "CqtfO1",
       "number": 52,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0052.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/052.jpg",
       "width": 1600,
       "height": 900,
       "text": "M T W TH F M T W TH F M T W TH F M T W TH F OUTAGE? TUESDAY HOLIDAY?",
@@ -527,7 +527,7 @@
     {
       "id": "pAcTGQ",
       "number": 53,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0053.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/053.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -537,7 +537,7 @@
     {
       "id": "RULH8p",
       "number": 54,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0054.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/054.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -547,7 +547,7 @@
     {
       "id": "3o451E",
       "number": 55,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0055.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/055.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -557,7 +557,7 @@
     {
       "id": "g7mstd",
       "number": 56,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0056.jpg",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/056.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -567,7 +567,7 @@
     {
       "id": "IRVgm2",
       "number": 57,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0057.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/057.png",
       "width": 1600,
       "height": 900,
       "text": "SUMMARY 1. Both Docker adoption and system complexity continue to grow 2. The fundamentals of monitoring are therefore more important than ever",
@@ -577,7 +577,7 @@
     {
       "id": "ulEUeR",
       "number": 58,
-      "image": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0058.png",
+      "image": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/058.png",
       "width": 1600,
       "height": 900,
       "text": "MERCI ! DANIEL MAHER @phrawzty daniel.maher@datadoghq.com",
@@ -588,297 +588,297 @@
   "page_count": 58,
   "files": [
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0001.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/001.png",
       "sha256": "084254f4800604e2feb3b573d3193d41eb6d6ee2bb25c4fa665e29e311b7c989",
       "bytes": 165141
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0002.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/002.png",
       "sha256": "45fc0b375344d04ba4bc154632687e89fdc84c2c9185ffa39298a8eb7ddd9665",
       "bytes": 358024
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0003.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/003.png",
       "sha256": "498f7d688bfb81f274894adcebc57f0be91e5e83b93623913da104c84eae44b2",
       "bytes": 194920
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0004.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/004.png",
       "sha256": "a7243c187d0e862327c5a43f8fe7fcc98df94397c1aa1cac34050dee4e238fba",
       "bytes": 94058
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0005.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/005.jpg",
       "sha256": "42d6ea87341438a2b9f53178e635fc47b0880ee288e6c504713a28b050c34623",
       "bytes": 303636
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0006.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/006.jpg",
       "sha256": "39fbc57161cf218e66ce20c52bf2f55370d66cfb7c6d152c0d362054e1523f42",
       "bytes": 126437
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0007.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/007.jpg",
       "sha256": "2dd9e032933f079c3ca2ed8bf2eabf9b1c7964850c091e1024133cce4ede84ae",
       "bytes": 126337
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0008.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/008.jpg",
       "sha256": "09ee9086bd60c8ba40e0f27d89e61224db712b8acfb91a23a9db791cc6dc1824",
       "bytes": 81819
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0009.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/009.jpg",
       "sha256": "664bad7775c4ba1c9abe4163aeaf5b4f8a5998cb4e8fb5b6859cc41df90af0bb",
       "bytes": 200653
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0010.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/010.png",
       "sha256": "1a0bdb141f98a918b9595bf0fcc67a927601a8a00f53859a06d901c7c0308f91",
       "bytes": 173141
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0011.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/011.png",
       "sha256": "ee3922227b92e7b3f316c6ca68e930fea20d95baecd3af6456674e84c95a72c5",
       "bytes": 368215
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0012.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/012.png",
       "sha256": "e206366370d59e4f481f9229afb0fe9695c7f0df94230d2ae9c6e0203608e853",
       "bytes": 473523
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0013.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/013.jpg",
       "sha256": "7449533626f1e41f7bd736158b18478925293552009877c6cccb2d6b065f2e42",
       "bytes": 104871
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0014.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/014.png",
       "sha256": "15079c87b3f3b01e242ce5fe4dbdeec94da036d93cd5f3d5688db619e6bf23c1",
       "bytes": 367857
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0015.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/015.png",
       "sha256": "62e083842188bb0233d7f8c106b7fa66ac4c35d083056deb6b12543651711d02",
       "bytes": 271046
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0016.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/016.png",
       "sha256": "1c85d74268959b54368b1e523b920133f4c0b4e4388200f570206026a6f66434",
       "bytes": 107545
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0017.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/017.jpg",
       "sha256": "0c62d3f2478136aa727e6a7360da7b776ce27028230fb28d0bd6183a4acd2160",
       "bytes": 110096
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0018.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/018.jpg",
       "sha256": "e3d3e16415bb4e800f05c3ef557aa561d7c3ebac1669ef3991f7c6fd1c17ff8a",
       "bytes": 125774
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0019.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/019.jpg",
       "sha256": "52df19cf5096cb157be328fe69bbc49279cf75d8a4d07c863da6dcf4a4bd3209",
       "bytes": 142065
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0020.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/020.jpg",
       "sha256": "88475062049af7c0855aa6a4d0504a75d1eae4eb26c7ef17a00d1d91a0ec959f",
       "bytes": 119370
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0021.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/021.jpg",
       "sha256": "37f98cb515f71b3f59755e4ae14d0908e59d389bd8a13eefdbfdce91c41850b2",
       "bytes": 162152
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0022.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/022.jpg",
       "sha256": "69a3c9ee70c7b69b00cd1d2758859ee45ae9e54825a3b774caa1aef36be4a568",
       "bytes": 153311
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0023.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/023.png",
       "sha256": "fb54ab8a472cd5ffa6a459e77d6e41a92f81da9606127965fca808a1a291e367",
       "bytes": 84861
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0024.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/024.png",
       "sha256": "be76312cd35d6d3c4aca84464374e0ba7be7e7b3baefc2677bdaca09e32d8939",
       "bytes": 199025
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0025.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/025.png",
       "sha256": "105d215a9900e5d43bd32bf78df9cefcdb25395866a36648688d7ffe4beda2cb",
       "bytes": 177243
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0026.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/026.png",
       "sha256": "6eb5c02b056f2c466a6ac81f01738de61d69acd7291ac1044d9642708c57f39d",
       "bytes": 98194
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0027.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/027.jpg",
       "sha256": "a9acaef72c22c5e5b1b2c75fb030cbfbfb6975d34f6caf82e70a40c16db114f5",
       "bytes": 338701
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0028.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/028.jpg",
       "sha256": "106319f6638a8fea255ce603bc9680e18ccbcad65a8c628a44d20446a0fe6f31",
       "bytes": 472438
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0029.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/029.png",
       "sha256": "24c88780459ea0338774a40e7d02ca96b373a504d9e3febd06faa4e1738d1faa",
       "bytes": 216006
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0030.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/030.jpg",
       "sha256": "0d3a27cbb6a564c1562f79a3844641103bb98b6342da4cb91df69940e891e979",
       "bytes": 161942
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0031.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/031.jpg",
       "sha256": "b63562eb871d4e12b3d1b83daac1c2690492b578fa7409b07decb2bb93f6352d",
       "bytes": 151956
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0032.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/032.png",
       "sha256": "afdcfd95894d61cfb898f2a3ad0b1e6f3c01e6daba58dd179417843d9d1db525",
       "bytes": 92893
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0033.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/033.jpg",
       "sha256": "fbb092d5971805eb1c2ad4467e6457f39f703a631ef72bed586bbaa241ede1d9",
       "bytes": 115854
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0034.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/034.png",
       "sha256": "66163299fa401940f7dc78498db6b1b904608538d598af6eba35d931c6a19f71",
       "bytes": 149698
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0035.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/035.png",
       "sha256": "146155bd0439dc1ba534f6a9ae9546874541a5161b5fbd2473dba4c35674dabd",
       "bytes": 203952
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0036.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/036.png",
       "sha256": "b6379bc2bfb25740029ddede45715916dbf95c0e503e3695b169b240c0877572",
       "bytes": 271078
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0037.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/037.jpg",
       "sha256": "883774addb459670410ea2f397dad5f4c2440cc1a2e9e1fd573e7d8ab961d618",
       "bytes": 467864
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0038.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/038.jpg",
       "sha256": "460b7bf68730ecc995add8490b54ebdc7b1f7f503e4b2772b5cd28817c185946",
       "bytes": 90200
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0039.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/039.png",
       "sha256": "fd16794e3e230db32d374e17741678257b1e38f7214a6d5b4c50f47bee9c5476",
       "bytes": 149628
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0040.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/040.png",
       "sha256": "4335e7fdaea2a72d6b8e1a731041f11742e715bb0a0f46e3a8f0fff6b9371373",
       "bytes": 132786
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0041.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/041.jpg",
       "sha256": "51508eb0d0fc7b150741d89f760a252f821fcf3bd41f8090b1d941ac317aaf32",
       "bytes": 215138
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0042.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/042.jpg",
       "sha256": "7a4e4f69b7070b3f943d812886c1f4b2dbd914afb0eee11f12403700de918848",
       "bytes": 396776
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0043.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/043.jpg",
       "sha256": "43bf5dfc173894eb35bc785679c5760b9cd6122fc9ce8dfe31173dfe3652216d",
       "bytes": 194637
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0044.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/044.jpg",
       "sha256": "15257c906086dad6a722e08d598ba004c405df3962d0b0e9ea5e814c1e02aef8",
       "bytes": 493501
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0045.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/045.jpg",
       "sha256": "53f88d3acf35a62c724d2a8d3f32881d8aa1a2c0da598326656fad91fe86165b",
       "bytes": 151503
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0046.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/046.jpg",
       "sha256": "5c424807852d944621b57b65c11342e407cfdb1f6a8782a8ebd78aca800bfbc4",
       "bytes": 141138
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0047.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/047.png",
       "sha256": "d48d332ed4c95a05f23e0ba984fdb3bd07b5ee703b35dae4338cc4521b5457b9",
       "bytes": 500792
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0048.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/048.jpg",
       "sha256": "e1dc0842ae80ee913d59113457adb9cc97ba030c093b3b8abec8d3606a4a12ac",
       "bytes": 641652
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0049.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/049.jpg",
       "sha256": "9a6524a8bbccdd9a2650c1365a88378bd1d7f98d468b363f038fb7e7fa3a16a6",
       "bytes": 104960
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0050.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/050.jpg",
       "sha256": "782e2f295418d65b41f4759332cf4c30a5e911eafe0424f344a225af00938c26",
       "bytes": 149440
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0051.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/051.jpg",
       "sha256": "862b8ccecdc11372c99e4180dffb5e3a40310427cb2be9135b6cc5d7d8e42dcf",
       "bytes": 174518
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0052.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/052.jpg",
       "sha256": "a633fc1fb9c28c85aa63f196d9495d4657338f554a848df1e9214efef09a1c60",
       "bytes": 196920
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0053.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/053.jpg",
       "sha256": "a26ab75fe35fcb340395c91a28918bfdd3cb7557cb4b0e58d6d1f1e8ebe63a67",
       "bytes": 70818
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0054.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/054.jpg",
       "sha256": "7bb4acfee0b852a7b93a32b2419845c945a3992f1de56e993daf84ad38a0bc08",
       "bytes": 108176
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0055.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/055.jpg",
       "sha256": "fae0b9e6f569876a96829ebb8056c8ca92179635bd95f1c6c3075dd814b6bb1e",
       "bytes": 154952
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0056.jpg",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/056.jpg",
       "sha256": "5992b74838a604dbdac8488839a50c8392bc5b7e0d95e594be8991de14d21a64",
       "bytes": 205696
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0057.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/057.png",
       "sha256": "be83941553693bd118be11746d00e66f831b66a96da39b62944a33c576b1672a",
       "bytes": 257170
     },
     {
-      "path": "decks/b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e/0058.png",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/slides/058.png",
       "sha256": "5b9ed0581126b94ebb89ecbc022e0d2c4c572d54329e91ac5e2753b4518a0ce3",
       "bytes": 151433
     },
     {
-      "path": "pdfs/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
+      "path": "decks/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018/2018-06-26-les-conteneurs-pieces-et-main-doeuvre-paris-container-day-2018.pdf",
       "sha256": "51f85915be683a7f38a7ce5d2c8560e3e0171d4e7eeca6e44cc6580eec70a0fb",
       "bytes": 10819480
     }

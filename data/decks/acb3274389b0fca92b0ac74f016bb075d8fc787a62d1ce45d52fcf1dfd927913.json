@@ -2,12 +2,12 @@
   "id": "acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913",
   "source_sha256": "5b2518cc399c284337848299174b4d86fcb00cb5378e3f2f9a0e7bc4144e491b",
   "provenance": "original",
-  "pdf": "pdfs/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
+  "pdf": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
   "slides": [
     {
       "id": "VJyZwj",
       "number": 1,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0001.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/001.jpg",
       "width": 1600,
       "height": 900,
       "text": "Patterns of failure in modern auth Dan “ phrawzty ” Maher",
@@ -17,7 +17,7 @@
     {
       "id": "7dhNp8",
       "number": 2,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0002.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "Context: About me ● ● ● ● Recovering system administrator Secretly French (🤫 don’t tell anybody) Frequently at lunch with the security folks at Datadog Currently work on open source at a start-up called Cerbos",
@@ -27,7 +27,7 @@
     {
       "id": "jxQBhX",
       "number": 3,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0003.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "Context: About Cerbos ● ● ● ● “Externalized, policy-based, runtime authorization for your applications” It’s literally a self-hosted binary with an HTTP API There’s also a hub with a bunch of neat features Open source (we’re a Go shop)",
@@ -37,7 +37,7 @@
     {
       "id": "MH8zZw",
       "number": 4,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0004.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "What is authorization?",
@@ -47,7 +47,7 @@
     {
       "id": "yarnSL",
       "number": 5,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0005.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "What is authorization? ● ● “Is this entity allowed to perform this action on this resource?” Related to, but distinct from, authentication (which is also very important!)",
@@ -57,7 +57,7 @@
     {
       "id": "auabKk",
       "number": 6,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0006.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "Early days: POSIX permissions ● ● User / Group / World model Read / Write / Execute primitives ℹ IEEE Std 1003.1 ™-2017 (Revision of IEEE Std 1003.1-2008): https://pubs.opengroup.org/onlinepubs/9699919799/",
@@ -67,7 +67,7 @@
     {
       "id": "DEJPD9",
       "number": 7,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0007.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "The middle ages: ACLS & RBAC ● ● Access Control Lists Role-Based Access Control ℹ Rationale for the RBAC96 family of access control models: https://dl.acm.org/doi/10.1145/270152.270167 ℹ Proposed NIST standard for role-based access control: https://dl.acm.org/doi/10.1145/501978.501980",
@@ -77,7 +77,7 @@
     {
       "id": "pY2D5Y",
       "number": 8,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0008.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Modern authorization (and authentication too!) ● ● ● Token-based approaches (JWT, OIDC) Federated systems PBAC, ABAC, ReBAC… ℹ IETF 7519 JSON Web Token (JWT): https://datatracker.ietf.org/doc/html/rfc7519 ℹ OpenID Connect Core 1.0 [2023]: https://openid.net/specs/openid-connect-core-1_0.html",
@@ -87,7 +87,7 @@
     {
       "id": "Rrl0xx",
       "number": 9,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0009.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/009.jpg",
       "width": 1600,
       "height": 900,
       "text": "When it all goes wrong",
@@ -97,7 +97,7 @@
     {
       "id": "4BToqM",
       "number": 10,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0010.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug”: Overview ● ● ● ● 📆 May 2018 Audience selector default changed to public 14 million users affected Policy enforcement failure during feature update ℹ Data Protection Commission (Ireland): https://www.dataprotection.ie/sites/default/files/uploads/2022-09/Full%20Decision%2018-11-5%20Facebook%2012%20breaches.pdf",
@@ -107,7 +107,7 @@
     {
       "id": "gVCcil",
       "number": 11,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0011.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug”: Key auth failures ● ● ● Default permission setting changed without user consent Policy enforcement layer failed during UI update Inadequate permission state validation ℹ Privacy by Design: A Counterfactual Analysis […]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2128146",
@@ -117,7 +117,7 @@
     {
       "id": "IovQbA",
       "number": 12,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0012.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Okta “Support system breach”: Overview ● ● ● 📆 October 2023 HAR file exfiltration exposed session tokens Auth bypasses in support systems ℹ Okta October 2023 Security Incident Investigation Closure: https://sec.okta.com/articles/harfiles/",
@@ -127,7 +127,7 @@
     {
       "id": "v8eETZ",
       "number": 13,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0013.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Okta “Support system breach”: Key auth failures ● ● ● ● Overly permissive access to production Insufficient isolation between support tiers Authorization checks bypassed through session token theft Inadequate token validation controls ℹ BeyondTrust Discovers Breach of Okta Support Unit: https://www.beyondtrust.com/blog/entry/okta-support-unit-breach",
@@ -137,7 +137,7 @@
     {
       "id": "XSN2Ly",
       "number": 14,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0014.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard”: Overview ● ● ● 📆 Late 2023 / early 2024 Password spray attack led to tenant compromise Legacy tenants, basic auth, and privilege escalation ℹ Midnight Blizzard: Guidance for responders on nation-state attack: https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/",
@@ -147,7 +147,7 @@
     {
       "id": "9m5qEN",
       "number": 15,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0015.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard”: Key auth failures ● ● ● ● Excessive privileges in legacy tenant configurations Inadequate role separation Authorization boundaries between tenants insufficiently enforced Lack of just-in-time access controls for privileged operations ℹ Office of Information Security (HHS) report 202411131500: https://www.hhs.gov/sites/default/files/new-midnight-blizzard-campaign-analyst-note-tlpclear.pdf",
@@ -157,7 +157,7 @@
     {
       "id": "m5oe6m",
       "number": 16,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0016.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "How to stop it all from going wrong",
@@ -167,7 +167,7 @@
     {
       "id": "OPXRzB",
       "number": 17,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0017.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "Token Security ● ● ● Validation best practices (signature, expiry, issuer) Secure storage and transport Avoiding common token vulnerabilities ℹ IETF RFC 8725 JSON Web Token Best Current Practices: https://datatracker.ietf.org/doc/html/rfc8725 ℹ Vaadata JWT Vulnerabilities, Common Attacks, & Best Practices: https://www.vaadata.com/blog/jwt-json-web-token-vulnerabilities-common-attacks-and-security-best-practices/",
@@ -177,7 +177,7 @@
     {
       "id": "0jGFra",
       "number": 18,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0018.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Permission Management ● ● ● Role explosion 💥 Real-time or JIT access patterns Principle of least privilege ℹ OWASP Authorization Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html ℹ NIST Zero Trust Architecture (2020): https://www.nist.gov/publications/zero-trust-architecture",
@@ -187,7 +187,7 @@
     {
       "id": "d2z3jz",
       "number": 19,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0019.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Externalizing Authorization ● ● ● Clear separation between business logic and authz rules Update policies without updating code Enhanced auditability and compliance reporting ℹ CNCF 5 laws of cloud native authz: https://www.cncf.io/blog/2023/01/19/the-five-laws-of-cloud-native-authorization/ ℹ Cerbos What is EAM?: https://www.cerbos.dev/blog/externalized-authorization-management-eam-and-benefits",
@@ -197,7 +197,7 @@
     {
       "id": "FMhrcO",
       "number": 20,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0020.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Auth Systems ● ● ● Specific analysis Policy unit testing Automated access review ℹ OWASP Authentication Testing: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/README ℹ OWASP Authorization Testing: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README",
@@ -207,7 +207,7 @@
     {
       "id": "rgQfUn",
       "number": 21,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0021.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Critical Path Patterns ● ● ● High-availability authorization Graceful degradation strategies When in doubt, deny by default ℹ CNCF Cloud Native Security Whitepaper: https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf ℹ Netflix Edge Authentication and Token-Agnostic Identity Protection: https://netflixtechblog.com/edge-authentication-and-token-agnostic-identity-propagation-514e47e0b602",
@@ -217,7 +217,7 @@
     {
       "id": "U09TNC",
       "number": 22,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0022.png",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/022.png",
       "width": 1600,
       "height": 900,
       "text": "Conclusion ● ● ● ● ● Authorization fails at boundaries and transitions Externalize your authorization decisions Tokens require rigorous validation Use real-time access patterns and live the principle of least privilege Test continuously and review access regularly",
@@ -227,7 +227,7 @@
     {
       "id": "6JsHFb",
       "number": 23,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0023.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "I just met you and this is crazy but here’s my QR so Cerbos maybe?",
@@ -237,7 +237,7 @@
     {
       "id": "idb580",
       "number": 24,
-      "image": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0024.jpg",
+      "image": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/024.jpg",
       "width": 1600,
       "height": 900,
       "text": "Thanks!",
@@ -248,127 +248,127 @@
   "page_count": 24,
   "files": [
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0001.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/001.jpg",
       "sha256": "30a283cbab6fc44bf810adabd5251504eef9fc0f71bc7d30eccd157058a6b246",
       "bytes": 133254
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0002.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/002.png",
       "sha256": "098832e596cf8208cc6acf2385838ac6c3fac3d9f46151592c45bf0ba2ddd98a",
       "bytes": 203366
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0003.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/003.png",
       "sha256": "e015a93c101b4827adc8094e8e93c8bfcd86750f7687cf505f29af1b2e9a336e",
       "bytes": 197122
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0004.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/004.jpg",
       "sha256": "c201125d38a2b4ebcc299dd0a26ad6b619346c006e0fccdc0467892fe23c722d",
       "bytes": 146067
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0005.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/005.png",
       "sha256": "d5c7459ea99d977f8eadb3d2a5df345d1550e93759b53751e194000ad4b5819e",
       "bytes": 137447
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0006.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/006.png",
       "sha256": "81c6e3709ac043f596445877b98ff69e7fd92e090e992703bf7e56f5711cc017",
       "bytes": 164477
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0007.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/007.png",
       "sha256": "ee03b09318dc5b76f240673c39b1b2a565426cbc6d2fd99f6d06d81189f2951c",
       "bytes": 205826
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0008.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/008.png",
       "sha256": "b987be43178c6210685f3075079621fa61f617bc3f2ac0410b3af30bcefdbbd3",
       "bytes": 223500
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0009.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/009.jpg",
       "sha256": "4a984a7a1ad3159aa3f13b205dd7e9f17cd287570d17cca7053543e7a53b7458",
       "bytes": 145593
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0010.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/010.png",
       "sha256": "2fac154c7b8616c1ba36f65da2ad53959258a8ea7ab9b00d5f479d35df72c8a8",
       "bytes": 272723
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0011.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/011.png",
       "sha256": "3f511a24f2e5b41e8cc6b303357e49e1c7d5164eecdfa727dd4744f7751cb25e",
       "bytes": 220510
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0012.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/012.png",
       "sha256": "07eb64052372ee37b04b085341ec846d8f56bdfc3386fd439413a306f98ed8a5",
       "bytes": 222165
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0013.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/013.png",
       "sha256": "35de5bfa3ea239730a003190100f75f9433a9c28ded2c89e439550b2b52160a9",
       "bytes": 261536
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0014.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/014.png",
       "sha256": "54e3c8f582b4807e7b477824184698abd61436682d891005fcc156eeae81f3bd",
       "bytes": 271044
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0015.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/015.png",
       "sha256": "911e4333d2fc06f2011d90d54fb8d77653ced097b6f4a099e386454697b66998",
       "bytes": 290103
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0016.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/016.jpg",
       "sha256": "6b6fec9dac97187385615d66a08f6aba45ebb6189f155358fd37a810e675efca",
       "bytes": 155764
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0017.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/017.png",
       "sha256": "156c9d18dfa682c22661117de029aa8b970df2bc1f3d0f6e1b3aae6ad5dd156a",
       "bytes": 282547
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0018.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/018.png",
       "sha256": "f5fb257bf253aea8aad872d5a913bc25d925b8770a529d0c1835dc514bb1c5b0",
       "bytes": 257320
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0019.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/019.png",
       "sha256": "6e18eb92a445f98ab7881516c16a76d90e1af61ece03e5f2dfc43681ac5b0d12",
       "bytes": 269595
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0020.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/020.png",
       "sha256": "a6d82bdbb14e9c90e9059125917389d0d165cd27d2100bb31e0509fc74048072",
       "bytes": 284266
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0021.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/021.png",
       "sha256": "a1739c8e12a7d91d36232d1e5264ad4e66f080334918cabda307ca7d3eba0e01",
       "bytes": 281751
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0022.png",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/022.png",
       "sha256": "1c572b7ca6dec6ed491a43b6ccfcc0689b98a9a5634c613709294afb26c4faad",
       "bytes": 196968
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0023.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/023.jpg",
       "sha256": "04a88cebc4245a5193e94e60ab61cdd36bbddab268109dc70392e03b38d772b1",
       "bytes": 240800
     },
     {
-      "path": "decks/acb3274389b0fca92b0ac74f016bb075d8fc787a62d1ce45d52fcf1dfd927913/0024.jpg",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/slides/024.jpg",
       "sha256": "ae2cc266ba5c36b7724959b1238d8b7bc3039fab2512d03c079d0e5deba0da6a",
       "bytes": 135642
     },
     {
-      "path": "pdfs/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
+      "path": "decks/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc/2025-05-14-patterns-of-failure-in-modern-authorization-api-days-nyc.pdf",
       "sha256": "5b2518cc399c284337848299174b4d86fcb00cb5378e3f2f9a0e7bc4144e491b",
       "bytes": 889906
     }

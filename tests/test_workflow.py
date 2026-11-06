@@ -168,7 +168,7 @@ class WorkflowTests(unittest.TestCase):
         self.project.build()
         html = (self.root / "public/first/index.html").read_text()
         self.assertIn("https://raw.githubusercontent.com/phrawzty/assets.dark.ca/", html)
-        self.assertIn("/files/pdfs/2020-01-01-workflow-example-example-event.pdf", html)
+        self.assertIn("/files/decks/2020-01-01-workflow-example-example-event/2020-01-01-workflow-example-example-event.pdf", html)
         self.assertNotIn("releases/download", html)
         self.assertFalse(list((self.root / "public/assets").rglob("*.pdf")))
 
@@ -189,12 +189,29 @@ class WorkflowTests(unittest.TestCase):
         self.assertTrue((self.root / "public/first/index.html").exists())
         self.assertTrue((self.root / "public/second/index.html").exists())
 
+    def test_editing_title_keeps_existing_bundle_paths_and_reuses_processing(self):
+        self.create(publish=True)
+        self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
+        before = self.project.deck(self.v1)
+        path, meta, body = self.project.appearance("first")
+        meta["title"] = "A corrected title"
+        write_page(path, meta, body)
+        with patch("portfolio.cli.run", side_effect=AssertionError("Cached slides must not be processed again")):
+            self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
+        self.assertEqual(before, self.project.deck(self.v1))
+
     def test_revised_pdf_gets_readable_version_suffix(self):
         first = self.project.deck(self.v1)["pdf"]
         second = self.project.deck(self.v2)["pdf"]
         self.assertTrue(first.endswith("example-event.pdf"))
         self.assertTrue(second.endswith("example-event-v2.pdf"))
         self.assertNotIn(self.v1, first)
+        self.assertEqual(Path(first).parent.name, Path(first).stem)
+        self.assertEqual(Path(second).parent.name, Path(second).stem)
+        for version in (self.v1, self.v2):
+            deck = self.project.deck(version)
+            self.assertEqual(Path(deck["slides"][0]["image"]).parent.parent, Path(deck["pdf"]).parent)
+            self.assertEqual(Path(deck["slides"][0]["image"]).name, "001.webp")
 
     def test_production_image_size_limit(self):
         self.create(publish=True)

@@ -277,13 +277,13 @@ class Portfolio:
         print("Created. Edit the Markdown, or run 'portfolio slides' to choose this talk and add a PDF.")
         return ident
 
-    def pdf_path_for(self, meta, checksum):
+    def deck_directory_for(self, meta):
+        """Allocate a readable version folder once; subsequent edits keep its name."""
         base = f"{str(meta['date'])[:10]}-{slug(meta['title'])[:90]}-{slug(meta['extra']['event'])[:60]}"
         number = 1
         while True:
-            relative = "pdfs/" + base + (f"-v{number}" if number > 1 else "") + ".pdf"
-            target = self.asset_dir / relative
-            if not target.exists() or sha256(target) == checksum:
+            relative = "decks/" + base + (f"-v{number}" if number > 1 else "")
+            if not (self.asset_dir / relative).exists():
                 return relative
             number += 1
 
@@ -302,7 +302,8 @@ class Portfolio:
             self.verify_assets(deck)
             print("Reusing processed deck " + version[:12])
         else:
-            destination = self.asset_dir / "decks" / version
+            prefix = self.deck_directory_for(meta)
+            destination = self.asset_dir / prefix
             if destination.exists():
                 raise PortfolioError(f"Unregistered asset directory exists: {destination}; inspect it before retrying")
             destination.parent.mkdir(parents=True, exist_ok=True)
@@ -326,31 +327,28 @@ class Portfolio:
                 images = sorted(temporary.glob("page-*.png"), key=lambda p: int(p.stem.rsplit("-", 1)[1]))
                 if len(images) != expected:
                     raise PortfolioError("PDF did not render completely")
-                prefix = f"decks/{version}"
+                (temporary / "slides").mkdir()
                 slides = []
                 for number, image_path in enumerate(images, 1):
-                    filename = f"{number:04d}.webp"
+                    filename = f"{number:03d}.webp"
                     with Image.open(image_path) as image:
                         image.load()
-                        image.save(temporary / filename, format="WEBP", lossless=True, method=6)
+                        image.save(temporary / "slides" / filename, format="WEBP", lossless=True, method=6)
                         width, height = image.size
                     image_path.unlink()
-                    slides.append({"id": f"slide-{number}", "number": number, "image": prefix + "/" + filename,
+                    slides.append({"id": f"slide-{number}", "number": number, "image": prefix + "/slides/" + filename,
                                    "width": width, "height": height, "text": texts[number - 1].strip(), "title": ""})
                 # Recheck the source copy before atomically registering this version.
                 if sha256(copied) != version:
                     raise PortfolioError("Source PDF changed while being processed")
-                pdf_relative = self.pdf_path_for(meta, version)
-                pdf_target = self.asset_dir / pdf_relative
-                pdf_target.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(copied, pdf_target)
-                copied.unlink()
+                pdf_name = Path(prefix).name + ".pdf"
+                pdf_relative = prefix + "/" + pdf_name
+                copied.rename(temporary / pdf_name)
                 deck = {"id": version, "source_sha256": version, "source_filename": source.name, "provenance": "original",
                         "pdf": pdf_relative, "slides": slides, "page_count": expected,
                         "processor": "poppler-1600-webp-lossless-v1", "processing_warnings": (info.stderr + rendered.stderr).strip()}
-                deck["files"] = [{"path": prefix + "/" + file.name, "bytes": file.stat().st_size, "sha256": sha256(file)}
-                                 for file in sorted(temporary.iterdir()) if file.is_file()]
-                deck["files"].append({"path": pdf_relative, "bytes": pdf_target.stat().st_size, "sha256": version})
+                deck["files"] = [{"path": prefix + "/" + str(file.relative_to(temporary)), "bytes": file.stat().st_size, "sha256": sha256(file)}
+                                 for file in sorted(temporary.rglob("*")) if file.is_file()]
                 shutil.move(str(temporary), destination)
                 json_file(deck_path, deck)
                 print(f"Processed all {expected} pages into deck {version[:12]}")

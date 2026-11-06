@@ -2,12 +2,12 @@
   "id": "c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17",
   "source_sha256": "fa588cd6e5d427d48050c8c8022eb406c801d939d7a7a172fc245373b4ca4da7",
   "provenance": "original",
-  "pdf": "pdfs/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
+  "pdf": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
   "slides": [
     {
       "id": "AX25cl",
       "number": 1,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0001.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "#GoogleCloudSummit @GoogleCloud_FR",
@@ -17,7 +17,7 @@
     {
       "id": "mqktVA",
       "number": 2,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0002.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/002.jpg",
       "width": 1600,
       "height": 900,
       "text": "La visibilité à 100 % Daniel Maher (@phrawzty) Datadog (@datadoghq)",
@@ -27,7 +27,7 @@
     {
       "id": "PAThNZ",
       "number": 3,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0003.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/003.jpg",
       "width": 1600,
       "height": 900,
       "text": "La perspective est importante Les fameux « cylindres ambigus » de l’artist japonais Kokichi Sugihara.",
@@ -37,7 +37,7 @@
     {
       "id": "1UCVFy",
       "number": 4,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0004.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/004.jpg",
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher Developer Relations chez Datadog @phrawzty",
@@ -47,7 +47,7 @@
     {
       "id": "dnvJ8N",
       "number": 5,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0005.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/005.jpg",
       "width": 1600,
       "height": 900,
       "text": "● Platforme « SaaS » de monitoring, métriques, APM, logs… ● Des millions de milliards de points de données par jour ● Bon citoyens libre logiciels ● Nous embauchons ! http://datadoghq.com/careers ● @datadoghq",
@@ -57,7 +57,7 @@
     {
       "id": "G7e70m",
       "number": 6,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0006.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/006.jpg",
       "width": 1600,
       "height": 900,
       "text": "Le « Stack » Vue traditionnelle de l’organisation des diverses « couches » d’un service.",
@@ -67,7 +67,7 @@
     {
       "id": "sRMutB",
       "number": 7,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0007.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/007.jpg",
       "width": 1600,
       "height": 900,
       "text": "Repenser le « stack »",
@@ -77,7 +77,7 @@
     {
       "id": "Ul5ila",
       "number": 8,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0008.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Pratique afin de déterminer des tendances. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ».",
@@ -87,7 +87,7 @@
     {
       "id": "74oWdz",
       "number": 9,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0009.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Traçage Pratique afin de déterminer des tendances. « Tracing » en anglais. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ». Basé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement du code.",
@@ -97,7 +97,7 @@
     {
       "id": "jOXKWO",
       "number": 10,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0010.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Traçage Pratique afin de déterminer des tendances. « Tracing » en anglais. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ». Basé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement de code. Journaux d’ évènements « Logs » en anglais. Basé sur des évènements, donc utile afin de poursuivre les petits détails. Verbose; structuré. Aide à identifier les « inconnues inconnues ».",
@@ -107,7 +107,7 @@
     {
       "id": "LiG8On",
       "number": 11,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0011.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/011.jpg",
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur l’infra Le données: ● ● Métriques Journaux d’évènements Les outils : ● ● Surveillance niveau infra Gestion des journaux",
@@ -117,7 +117,7 @@
     {
       "id": "y1ywHC",
       "number": 12,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0012.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/012.jpg",
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur le back Le données: ● ● ● Métriques Journaux d’évènements Traçage Les outils : ● ● ● Surveillance niveau applicatif Gestion des journaux « APM »",
@@ -127,7 +127,7 @@
     {
       "id": "aLhk9b",
       "number": 13,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0013.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/013.jpg",
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur le front Le données: ● ● ● Métriques Journaux d’évènements Traçage Les outils : ● ● Synthétiques « RUM »",
@@ -137,7 +137,7 @@
     {
       "id": "CfQY20",
       "number": 14,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0014.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "Comment obtenir de la visibilité ? Intelligence Business Intelligence Technique Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?",
@@ -147,7 +147,7 @@
     {
       "id": "oz9LuP",
       "number": 15,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0015.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/015.jpg",
       "width": 1600,
       "height": 900,
       "text": "Date-a-Dog Sortir avec un chiot. C’est une blague.",
@@ -157,7 +157,7 @@
     {
       "id": "RIs9mo",
       "number": 16,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0016.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/016.jpg",
       "width": 1600,
       "height": 900,
       "text": "C’est top, cette appli ! Trop mignon ! J’adore les chiots ! Tout le monde l’utilise !",
@@ -167,7 +167,7 @@
     {
       "id": "3caxfD",
       "number": 17,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0017.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/017.jpg",
       "width": 1600,
       "height": 900,
       "text": "Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!",
@@ -177,7 +177,7 @@
     {
       "id": "fwJlXc",
       "number": 18,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0018.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/018.jpg",
       "width": 1600,
       "height": 900,
       "text": "C’est drôle, parce que c’est vrai.",
@@ -187,7 +187,7 @@
     {
       "id": "IG2ZQ1",
       "number": 19,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0019.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Comment pouvons-nous savoir si quelque chose c’est mal passé ? Vos utilisateurs le sauront - c’est certain.",
@@ -197,7 +197,7 @@
     {
       "id": "uZlNIQ",
       "number": 20,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0020.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "RUM et Synthétiques « Real User Monitoring »",
@@ -207,7 +207,7 @@
     {
       "id": "WtUBAp",
       "number": 21,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0021.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service RDC (CDN) ● Nous hébergeons les photos des chiots sur un réseau de diffusion de contenu (RDC, ou « CDN » en anglais), ce qui est un service tier. ● L’application mobile télécharge les images directement à partir de ce service. ● Le RDC devient la cible d’une attaque par déni de service distribué (DDoS) massive.",
@@ -217,7 +217,7 @@
     {
       "id": "9DCz3E",
       "number": 22,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0022.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/022.jpg",
       "width": 1600,
       "height": 900,
       "text": "RUM « Real User Monitoring »",
@@ -227,7 +227,7 @@
     {
       "id": "lWvmvd",
       "number": 23,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0023.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/023.jpg",
       "width": 1600,
       "height": 900,
       "text": "Synthétiques",
@@ -237,7 +237,7 @@
     {
       "id": "Nqeao2",
       "number": 24,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0024.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service RDC (CDN) ● Selon la supervision d’infrastructure : OK ● Selon la supervision d’application : OK ● Selon APM : OK ● Selon RUM et Synthétiques : ALERTE ! Possibilité de montrer aussi les actifs lents ou inaccessibles.",
@@ -247,7 +247,7 @@
     {
       "id": "0ANOgR",
       "number": 25,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0025.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Traçage et APM « Tracing and Application Performance Monitoring »",
@@ -257,7 +257,7 @@
     {
       "id": "cU6CYq",
       "number": 26,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0026.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service du ● Nous utilisons un service de redimensionnement et optimisation d’image qui redimensionne les images de manière asynchrone. ● Le service fonctionne d’une manière aléatoire - certaines images sont traitées rapidement, d’autres mettre beaucoup plus de temps. ● Impossible de régler nous mêmes car la situation et hors de notre contrôle. redimensionnement",
@@ -267,7 +267,7 @@
     {
       "id": "Enp0RF",
       "number": 27,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0027.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/027.jpg",
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
@@ -277,7 +277,7 @@
     {
       "id": "r7XoJe",
       "number": 28,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0028.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/028.jpg",
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
@@ -287,7 +287,7 @@
     {
       "id": "TRGcC3",
       "number": 29,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0029.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/029.jpg",
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
@@ -297,7 +297,7 @@
     {
       "id": "5kzQ4S",
       "number": 30,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0030.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/030.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service du redimensionnement ● Selon la surveillance d’infrastructure : OK ● Selon la surveillance d’application : ALERTE ? Possible si il y a un impact sur des métriques dont des moniteurs sont déjà configurés. ● Selon APM : ALERTE ! De plus, capable de montrer la latence, et de préciser exactement où le problème se trouve dans le code et la requête. ● Selon RUM et Synthétiques : OK",
@@ -307,7 +307,7 @@
     {
       "id": "i4iDwr",
       "number": 31,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0031.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/031.png",
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Application « Application Monitoring »",
@@ -317,7 +317,7 @@
     {
       "id": "KOR1pG",
       "number": 32,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0032.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/032.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : du code bogué est déployé ● Une section de code qui interagit avec le mécanisme de connexion. ● Utilise la mauvaise technique de hachage - les utilisateurs ne peuvent plus s’authentifier ! Catastrophe ! ● Entièrement possible que le code est structuré correctement et donc indétectable par les tests automatisés.",
@@ -327,7 +327,7 @@
     {
       "id": "wi9phf",
       "number": 33,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0033.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/033.jpg",
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Application",
@@ -337,7 +337,7 @@
     {
       "id": "Z1sda4",
       "number": 34,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0034.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/034.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : du code bogué est déployé ● Selon la surveillance d’infrastructure : OK ● Selon la surveillance d’application : ALERTE ! De plus, elle identifiera l’impact sur les mesures personnalisées et peut aider à identifier le « pourquoi » . ● Selon APM : OK ● Selon RUM et Synthétiques : OK",
@@ -347,7 +347,7 @@
     {
       "id": "BLbRST",
       "number": 35,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0035.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/035.png",
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Infrastructure « Infrastructure Monitoring »",
@@ -357,7 +357,7 @@
     {
       "id": "nfKFKs",
       "number": 36,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0036.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/036.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : juste trop populaire ! ● Les gens adorent les chiots et l’application est un succès monumentale (bravo) ! ● Oups - nous n’avons plus de ressources côté serveur pour répondre à toutes les demandes! ● C’est un bon problème à subir, mais ça reste un problème quand même.",
@@ -367,7 +367,7 @@
     {
       "id": "Pz33DH",
       "number": 37,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0037.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/037.jpg",
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Infrastructure",
@@ -377,7 +377,7 @@
     {
       "id": "2Ilr5g",
       "number": 38,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0038.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/038.png",
       "width": 1600,
       "height": 900,
       "text": "Scénario : juste trop populaire ! ● Selon la surveillance d’infrastructure : ALERTE ! Identifiera le problème, son endroit précis dans l’infra, et peut même déclencher une remédiation automatique. ● Selon la surveillance d’application : OK ● Selon APM : OK ● Selon RUM et Synthétiques : OK",
@@ -387,7 +387,7 @@
     {
       "id": "ecUey5",
       "number": 39,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0039.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/039.jpg",
       "width": 1600,
       "height": 900,
       "text": "métriques La Triforce ! c.f. The Legend of Zelda (1986) traçage journal d’ évènements",
@@ -397,7 +397,7 @@
     {
       "id": "GwDSqU",
       "number": 40,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0040.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/040.jpg",
       "width": 1600,
       "height": 900,
       "text": "Quand ? Où ? Quoi ? métriques La Triforce ! c.f. The Legend of Zelda (1986) SYSTÈME Comment ? Pourquoi ? traçage journal d’ évènements",
@@ -407,7 +407,7 @@
     {
       "id": "tFwGit",
       "number": 41,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0041.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/041.jpg",
       "width": 1600,
       "height": 900,
       "text": "Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!",
@@ -417,7 +417,7 @@
     {
       "id": "VZf4bI",
       "number": 42,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0042.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/042.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -427,7 +427,7 @@
     {
       "id": "7tNsTh",
       "number": 43,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0043.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/043.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -437,7 +437,7 @@
     {
       "id": "kD6gM6",
       "number": 44,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0044.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/044.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -447,7 +447,7 @@
     {
       "id": "MWpUEV",
       "number": 45,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0045.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/045.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -457,7 +457,7 @@
     {
       "id": "yqYI6u",
       "number": 46,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0046.png",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/046.png",
       "width": 1600,
       "height": 900,
       "text": "Les clés de la visibilité à 100 % ● Considérez l’ensemble. Les composants n’existent pas dans le vide. L’éco-système n’est pas fermé. Utilisez une approche holistique. ● Obtenez des multiples perspectives en exploitant toutes les sources de données. ● Préférez les outils « holistiques » qui vous permet de vous déplacer facilement entre les différentes couches et perspectives.",
@@ -467,7 +467,7 @@
     {
       "id": "bAH5zJ",
       "number": 47,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0047.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/047.jpg",
       "width": 1600,
       "height": 900,
       "text": "",
@@ -477,7 +477,7 @@
     {
       "id": "DTztri",
       "number": 48,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0048.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/048.jpg",
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
@@ -487,7 +487,7 @@
     {
       "id": "pnihk7",
       "number": 49,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0049.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/049.jpg",
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
@@ -497,7 +497,7 @@
     {
       "id": "S7RVcW",
       "number": 50,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0050.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/050.jpg",
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
@@ -507,7 +507,7 @@
     {
       "id": "4RAJUv",
       "number": 51,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0051.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/051.jpg",
       "width": 1600,
       "height": 900,
       "text": "100 % visibilité 100 % devops Merci !",
@@ -517,7 +517,7 @@
     {
       "id": "gkt7NK",
       "number": 52,
-      "image": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0052.jpg",
+      "image": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/052.jpg",
       "width": 1600,
       "height": 900,
       "text": "Come and join us at Next London ‘18! October 10th -11th, 2018 ExCeL, London Register at g.co/NextLondon18/Paris Thank you.",
@@ -528,267 +528,267 @@
   "page_count": 52,
   "files": [
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0001.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/001.png",
       "sha256": "928ad3987b12fadcc853c764d155f44b06b03a54744f2feade0f5cf6048567d6",
       "bytes": 164133
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0002.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/002.jpg",
       "sha256": "a132a1f15feb9f8c487f78b6340ba23e3cad23482d1a4068edceaf6d1c545c9e",
       "bytes": 73804
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0003.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/003.jpg",
       "sha256": "b1b3692212c1b91d3fa7017d62f6355b8b8426a2b5c23bc77e8b95a22e5bf5bb",
       "bytes": 117655
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0004.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/004.jpg",
       "sha256": "1de4860047abb6e49b45cc33b9915a20f72bb075fb087b3dbbfe71f57587d63d",
       "bytes": 135524
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0005.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/005.jpg",
       "sha256": "af9511c2858303871e7c22692493e9c8aa39dcef8e8fd9ca49c63fafa7557410",
       "bytes": 107868
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0006.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/006.jpg",
       "sha256": "c4c4ba377210120a84378bacabf230c5f9acac9e13de810be53fdaaef4f48655",
       "bytes": 107547
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0007.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/007.jpg",
       "sha256": "5e73ca25032350455797e2bdf8038a315ab81d066f684743ee74eac9aec14dd1",
       "bytes": 104436
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0008.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/008.png",
       "sha256": "23004c683aa8cfc3b756d83b222e499baf806425cf4322c179ca01c2a0f0c717",
       "bytes": 183345
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0009.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/009.png",
       "sha256": "d2b97639cf7c8e8193ad29e59c465a95069975458f235a1e7486752401c7b9d3",
       "bytes": 274646
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0010.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/010.png",
       "sha256": "cca67c24a8b9fa451868e647a2a29b5b1167b281da91fb8dc16d317680bd70a9",
       "bytes": 356284
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0011.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/011.jpg",
       "sha256": "cfaeab03329c9a25026d07eceec606d674ca1679ab740fe4b5cbe5c2658dc7fb",
       "bytes": 103102
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0012.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/012.jpg",
       "sha256": "df2e940c63fed64422c4477af4a262a489c0aa8a14c639e56f0564782865f6a4",
       "bytes": 106367
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0013.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/013.jpg",
       "sha256": "af7881352600292e0bf25d35443fe7a3fb3e56b047aa4ad8c703d8d40d8b03f7",
       "bytes": 97152
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0014.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/014.png",
       "sha256": "ab4a987fb0206d5f37d62ccb43ca7becd1e9ec52c7e23948a5235c382c31e595",
       "bytes": 202933
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0015.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/015.jpg",
       "sha256": "093fcf5e6c949fceb608107d0bc16dd35dea7ab012a72a8507ef8778b6729959",
       "bytes": 60436
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0016.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/016.jpg",
       "sha256": "fa81176b9fa8612376601331173ef34cc3052640ab9405fd9ec6bd855b447b08",
       "bytes": 125249
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0017.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/017.jpg",
       "sha256": "22655d963a2be7002054fc90153b18aaa0e56579df5b311b0337e14656ea301b",
       "bytes": 91319
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0018.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/018.jpg",
       "sha256": "fe8a794b2b372362321da7a53cc1a63bd208b88574407d28a7447ce011f835f9",
       "bytes": 102010
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0019.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/019.png",
       "sha256": "44048cb5401f84a5f7bfd3095664635a39450f108b88d95b089a77e5d3703983",
       "bytes": 216331
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0020.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/020.png",
       "sha256": "b58bb73d008f0e0e352c95e4f54a97b67c0098cae2e5e93bd21eda7ee1f71310",
       "bytes": 110990
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0021.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/021.png",
       "sha256": "6dc292ff98cef2a498a596a8ba102954eef73ffb5e2a7624cefc3ea23eefd0d2",
       "bytes": 277318
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0022.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/022.jpg",
       "sha256": "0ef9ed2214960ca0711edd5aa7acd438b5edd5d945829ec69dd73ec0a2d071df",
       "bytes": 114589
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0023.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/023.jpg",
       "sha256": "4246628eac40140494cf5dd254cce9b237ec54bcc518ab60f9fbcc055763cb44",
       "bytes": 99196
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0024.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/024.png",
       "sha256": "360bffdb34775ff64728c5bf9182800407910469ca3fa3939723f008411fe774",
       "bytes": 239643
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0025.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/025.png",
       "sha256": "0c2997a71367e9dcf1680f8ebcd20efd514ba954b41cc2f737744ff9a1eba903",
       "bytes": 112583
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0026.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/026.png",
       "sha256": "55e3a534181b42abc5c3f302e7b6eb8a84be584c660fee2b97e022d36e7ebbd7",
       "bytes": 297090
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0027.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/027.jpg",
       "sha256": "f33b7ad2c8e88cbc6cd09e963029d41ad346f35d7e3a36f02b13aaa634ce3b18",
       "bytes": 83696
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0028.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/028.jpg",
       "sha256": "a97707438e878ce924a879b31a38d0ee9f543f0e7f742519165cda8d381cda6b",
       "bytes": 107347
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0029.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/029.jpg",
       "sha256": "f077d061cfc3245f17f2557232cb751ad2512091880dc2f07bf86bf1791814f8",
       "bytes": 105264
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0030.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/030.png",
       "sha256": "3075024637c9e8107f4009bf54e8f393bf050c584849c816d88ab028dae9fdae",
       "bytes": 324807
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0031.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/031.png",
       "sha256": "3962fe0ced0196fd766075cdb30a1f09719719455f129bc1ab353c2a2de09805",
       "bytes": 120230
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0032.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/032.png",
       "sha256": "b7f323f7e277306d7e6e41b293434ee04b00e61812c5b17a98d6a6306b2eac77",
       "bytes": 268183
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0033.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/033.jpg",
       "sha256": "7c5797781092a92ce5459e04d101809ede64860e1e2f76e084828fecf610bf76",
       "bytes": 180528
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0034.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/034.png",
       "sha256": "fbc3d3068c5a7be915eeca56ca4f671f5ab2f17b237a92509e7246697b818da3",
       "bytes": 260735
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0035.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/035.png",
       "sha256": "ea882e4f9fe85893adb0641cf8c4e8a9ed2a840d8cf4c12ee072f9fcf06fa37c",
       "bytes": 120666
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0036.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/036.png",
       "sha256": "1557da621da352235c8bfbb27d05cf735b0e7922a0f2f14d6d65aa2274e19b71",
       "bytes": 238900
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0037.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/037.jpg",
       "sha256": "927c97a3bb563ea132e7a1012eb0be3eb5d45f18f9df497d5d6632b3df7ad689",
       "bytes": 116081
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0038.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/038.png",
       "sha256": "32c8bf17995d5f3985afcfec09ec2f628afbcb065dafcc38ff2776ee64bdef7f",
       "bytes": 247204
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0039.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/039.jpg",
       "sha256": "6f8695c63c0939bbbb9fbe4dcd2e72a5ee3e7a968d984cffe5d6ffe60159e5a0",
       "bytes": 104074
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0040.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/040.jpg",
       "sha256": "9b806de382654e28bb0adbf4adb8dce18cc1e8b69b5323281e2e821672586697",
       "bytes": 132478
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0041.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/041.jpg",
       "sha256": "22655d963a2be7002054fc90153b18aaa0e56579df5b311b0337e14656ea301b",
       "bytes": 91319
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0042.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/042.jpg",
       "sha256": "1a27aa43073f980543e6b2a96337cf2d9b54bdfeca13db2ba2e43c5589083c26",
       "bytes": 42830
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0043.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/043.jpg",
       "sha256": "670d29b475eb05ac678284992142b5ee0cdfd0cf5d23a3b259a5636654fbb11a",
       "bytes": 66145
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0044.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/044.jpg",
       "sha256": "b45d403f920b2ceb60a5a88ccc0fa8399f62d81deedfc81babf577c08b37ddef",
       "bytes": 85570
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0045.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/045.jpg",
       "sha256": "4e7f19c922d6c561afeb4e453a8b7fe503a83af63f2b590760d792a390cf410f",
       "bytes": 206540
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0046.png",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/046.png",
       "sha256": "01a67d81932bd79a56bc973088327b80aa278b830b4fd94181a346c39fe4a119",
       "bytes": 277003
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0047.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/047.jpg",
       "sha256": "dacf0fb69837577a23fc8d854f64baadb360dc121fbf201685ff5dd7aeb1beab",
       "bytes": 213159
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0048.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/048.jpg",
       "sha256": "fbd2ed6cfab577391d3f570dbdd5ced3347a33b6b9190b3ef696623c42b23fb3",
       "bytes": 102572
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0049.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/049.jpg",
       "sha256": "96d65c3189de21cf493c254c514532e70e8e8532fc4d29ad4b7e85ff814fb94e",
       "bytes": 108083
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0050.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/050.jpg",
       "sha256": "c352475bcdbd7ab6e94b4be29453740698e92aa188422d6880877ba64d71011a",
       "bytes": 96544
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0051.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/051.jpg",
       "sha256": "6eace61f2a2641f3e37b0d80d8d6b8b9a27e4c415b8805c928015d053b45acd4",
       "bytes": 108562
     },
     {
-      "path": "decks/c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17/0052.jpg",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/slides/052.jpg",
       "sha256": "fedbd41e410f26a8e166bc5024dbcb5a56885d469e3a229e23e584d0bf5be0f6",
       "bytes": 518050
     },
     {
-      "path": "pdfs/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
+      "path": "decks/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018/2018-06-05-la-visibilite-a-100-google-cloud-summit-paris-2018.pdf",
       "sha256": "fa588cd6e5d427d48050c8c8022eb406c801d939d7a7a172fc245373b4ca4da7",
       "bytes": 3779642
     }

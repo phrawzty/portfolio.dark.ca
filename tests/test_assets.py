@@ -22,15 +22,15 @@ class AssetTests(unittest.TestCase):
         git(self.source, "init", "-b", "main")
         git(self.source, "config", "user.name", "Asset test")
         git(self.source, "config", "user.email", "assets@example.invalid")
-        (self.source / "files/pdfs").mkdir(parents=True)
-        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"preserved pdf bytes")
+        (self.source / "files/decks/a-readable-talk").mkdir(parents=True)
+        (self.source / "files/decks/a-readable-talk/a-readable-talk.pdf").write_bytes(b"preserved pdf bytes")
         git(self.source, "add", "files")
         git(self.source, "commit", "-m", "Original assets")
         self.revision = git(self.source, "rev-parse", "HEAD")
         self.site = self.root / "site"
         (self.site / "data").mkdir(parents=True)
         (self.site / "data/assets-lock.json").write_text(json.dumps({"revision": self.revision}))
-        self.bundle = {"files": [{"path": "pdfs/a-readable-talk.pdf"}]}
+        self.bundle = {"files": [{"path": "decks/a-readable-talk/a-readable-talk.pdf"}]}
         self.checked = []
         self.project = SimpleNamespace(root=self.site, asset_dir=self.root / "clone/files",
             settings={"assets": {"repository": str(self.source), "public_base_url": "https://mirror.example/{revision}/files"}},
@@ -43,7 +43,7 @@ class AssetTests(unittest.TestCase):
     def test_fresh_clone_contains_real_pdfs_without_releases_or_lfs(self):
         assets = AssetRepository(self.project)
         assets.fetch()
-        path = self.project.asset_dir / "pdfs/a-readable-talk.pdf"
+        path = self.project.asset_dir / "decks/a-readable-talk/a-readable-talk.pdf"
         self.assertEqual(path.read_bytes(), b"preserved pdf bytes")
         self.assertEqual(git(assets.checkout, "rev-parse", "HEAD"), self.revision)
         self.assertEqual(self.checked[0][1], {"production": True})
@@ -52,7 +52,7 @@ class AssetTests(unittest.TestCase):
     def test_changed_or_uncommitted_bytes_are_rejected(self):
         self.project.asset_dir = self.source / "files"
         assets = AssetRepository(self.project)
-        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"modified")
+        (self.source / "files/decks/a-readable-talk/a-readable-talk.pdf").write_bytes(b"modified")
         with self.assertRaisesRegex(AssetError, "not in the recorded assets commit"):
             assets.verify_committed(self.bundle)
 
@@ -68,8 +68,8 @@ class AssetTests(unittest.TestCase):
         self.assertEqual((self.source / "personal-notes.txt").read_text(), "keep my edits")
 
     def test_portable_pdf_base_url_and_readable_escaped_filename(self):
-        url = AssetRepository(self.project).pdf_url("pdfs/a readable talk.pdf")
-        self.assertEqual(url, f"https://mirror.example/{self.revision}/files/pdfs/a%20readable%20talk.pdf")
+        url = AssetRepository(self.project).pdf_url("decks/a-readable-talk/a readable talk.pdf")
+        self.assertEqual(url, f"https://mirror.example/{self.revision}/files/decks/a-readable-talk/a%20readable%20talk.pdf")
 
     def test_plain_git_publish_pushes_only_public_files_then_records_commit(self):
         remote = self.root / "remote.git"
@@ -77,7 +77,7 @@ class AssetTests(unittest.TestCase):
         git(self.source, "remote", "add", "origin", str(remote))
         git(self.source, "push", "-u", "origin", "main")
         self.project.asset_dir = self.source / "files"
-        (self.source / "files/pdfs/a-readable-talk.pdf").write_bytes(b"new public version")
+        (self.source / "files/decks/a-readable-talk/a-readable-talk.pdf").write_bytes(b"new public version")
         (self.source / "private-draft.txt").write_text("must remain untracked")
         assets = AssetRepository(self.project)
         assets.publish()

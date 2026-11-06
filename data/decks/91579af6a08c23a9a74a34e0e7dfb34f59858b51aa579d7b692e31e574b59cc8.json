@@ -2,12 +2,12 @@
   "id": "91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8",
   "source_sha256": "9e2271ffa3e4557cb4feef3da7bdb4831b30ba681dd30eda49b0b479a790d9d7",
   "provenance": "original",
-  "pdf": "pdfs/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
+  "pdf": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
   "slides": [
     {
       "id": "ckKhGA",
       "number": 1,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0001.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/001.png",
       "width": 1600,
       "height": 900,
       "text": "Authz as a dev workflow • Dan phrawzty Maher • Cerbos 1 @phrawzty // cerbos.dev",
@@ -17,7 +17,7 @@
     {
       "id": "F43V8Z",
       "number": 2,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0002.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/002.png",
       "width": 1600,
       "height": 900,
       "text": "About Me • Open source nerd • Oldschool sysadmin (devops, sre, etc) • Really into opsec 2 @phrawzty // cerbos.dev",
@@ -27,7 +27,7 @@
     {
       "id": "rNmJ0y",
       "number": 3,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0003.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/003.png",
       "width": 1600,
       "height": 900,
       "text": "The Authorization Paradox • Authorization is critical for every application • Often treated as an afterthought • Disconnect between importance and implementation 3 @phrawzty // cerbos.dev",
@@ -37,7 +37,7 @@
     {
       "id": "ThV6tN",
       "number": 4,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0004.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/004.png",
       "width": 1600,
       "height": 900,
       "text": "The Evolution of Developer Primitives • Consider how cloud-native development has evolved • Networking: From manual configuration to service mesh and CNI • Storage: From volume management to persistent volume claims and CSI • Deployment: From manual scripts to GitOps and CI/CD pipelines • Each evolved from infrastructure concerns to developer primitives • Each transformation made developers more productive while improving quality 4 @phrawzty // cerbos.dev",
@@ -47,7 +47,7 @@
     {
       "id": "61Dulm",
       "number": 5,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0005.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/005.png",
       "width": 1600,
       "height": 900,
       "text": "Why Authorization Has Lagged Behind • Deep coupling with application logic: Authorization often lives inside business logic • Domain-specific requirements: Financial services vs. SaaS vs. healthcare • Complex relationships: Modern applications have intricate permission models • No one-size-fits-all solution: Each framework reinvents authorization • Result: Authorization remains stuck as an infrastructure concern rather than a developer primitive 5 @phrawzty // cerbos.dev",
@@ -57,7 +57,7 @@
     {
       "id": "iKwieB",
       "number": 6,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0006.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/006.png",
       "width": 1600,
       "height": 900,
       "text": "The High Cost of Complexity • Cognitive overhead: Developers constantly context-switch between business logic and auth • Security gaps: Inconsistent implementation leads to vulnerabilities • Velocity impact: Authorization changes require extensive regression testing • Onboarding friction: New team members struggle to understand permission models • This is both a security problem and a developer experience problem 6 @phrawzty // cerbos.dev",
@@ -67,7 +67,7 @@
     {
       "id": "KefWWa",
       "number": 7,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0007.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/007.png",
       "width": 1600,
       "height": 900,
       "text": "The Workflow Opportunity • What if authorization was a creative tool rather than just a constraint? • Low friction is essential for good developer experience • Authorization can be declarative rather than imperative • The right abstractions can make authorization intuitive and maintainable • Transition to workflow-first thinking opens new possibilities 7 @phrawzty // cerbos.dev",
@@ -77,7 +77,7 @@
     {
       "id": "wyOKOz",
       "number": 8,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0008.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/008.png",
       "width": 1600,
       "height": 900,
       "text": "Authorization as a Foundational Architectural Concern • Traditionally, authentication gets architectural attention, authorization becomes scattered if/else statements • The workflow-first approach makes authorization decisions first-class architectural elements • This creates clear boundaries between business logic and permission logic • Authorization becomes a service rather than embedded code 8 @phrawzty // cerbos.dev",
@@ -87,7 +87,7 @@
     {
       "id": "ZI78HO",
       "number": 9,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0009.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/009.png",
       "width": 1600,
       "height": 900,
       "text": "From Security Constraint to Product Feature • Traditional question: ‘What can’t users do?’ (negative framing) • Better question: ‘How do we enable the right access?’ (positive framing) • Permissions become part of product discussions - not just security reviews • Authorization drives user experience through progressive disclosure 9 @phrawzty // cerbos.dev",
@@ -97,7 +97,7 @@
     {
       "id": "Bbpw9n",
       "number": 10,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0010.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/010.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Domain-Driven Authorization • Model permissions around business domains not technical constructs • Permissions should speak the language of the product, not the codebase • Ubiquitous language between product, development, and security teams • Example: Document permissions that model ‘Editor’ and ‘Reviewer’ roles instead of CRUD operations • This aligns security with how users think about your application 10 @phrawzty // cerbos.dev",
@@ -107,7 +107,7 @@
     {
       "id": "nvYk2C",
       "number": 11,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0011.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/011.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Declarative Policies • Move from imperative checks scattered throughout code • To declarative policies that describe intent • Policies become human-readable artifacts • Enables version control and review of authorization logic 11 @phrawzty // cerbos.dev",
@@ -117,7 +117,7 @@
     {
       "id": "QFHXub",
       "number": 12,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0012.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/012.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: External Decision Points • Decouple authorization from application logic • Application asks ‘Can this user do this?’ to a dedicated service • Enables consistent enforcement across services • Allows independent scaling of authorization logic • Makes authorization logic testable in isolation 12 @phrawzty // cerbos.dev",
@@ -127,7 +127,7 @@
     {
       "id": "2Z0Ln0",
       "number": 13,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0013.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/013.png",
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Context-Awareness • Move beyond simple role-based access control • Consider attributes like time, location, resource properties • Authorization that adapts to context is more flexible • Example: Different permission rules during business hours vs. after hours • Enables fine-grained control without explosion of roles 13 @phrawzty // cerbos.dev",
@@ -137,7 +137,7 @@
     {
       "id": "esj9fP",
       "number": 14,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0014.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/014.png",
       "width": 1600,
       "height": 900,
       "text": "The Authorization Ecosystem • A rich ecosystem of open source tools has emerged • CNCF projects leading standardization efforts • Different tools for different architectural approaches • All share the goal of making authorization more manageable • Each addresses different parts of the authorization challenge 14 @phrawzty // cerbos.dev",
@@ -147,7 +147,7 @@
     {
       "id": "HCRxXo",
       "number": 15,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0015.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/015.png",
       "width": 1600,
       "height": 900,
       "text": "Open Policy Agent (OPA) • CNCF graduated project for policy enforcement • General-purpose policy engine beyond just authorization • Rego policy language for expressing rules 15 @phrawzty // cerbos.dev",
@@ -157,7 +157,7 @@
     {
       "id": "tWAlQD",
       "number": 16,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0016.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/016.png",
       "width": 1600,
       "height": 900,
       "text": "OpenFGA: Fine-Grained Authorization • CNCF Sandbox project focused on relationship-based authorization • Based on Google’s Zanzibar paper - same system that powers Google Drive permissions • Excels at modeling arbitrary relationships between objects 16 @phrawzty // cerbos.dev",
@@ -167,7 +167,7 @@
     {
       "id": "VptZIc",
       "number": 17,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0017.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/017.png",
       "width": 1600,
       "height": 900,
       "text": "AuthZen (OpenID Foundation) • Working group standardizing authorization APIs and interface • Building on success of OAuth 2.0 and OpenID Connect • Focus on interoperability between authorization systems • Important for long-term evolution of the authorization ecosystem 17 @phrawzty // cerbos.dev",
@@ -177,7 +177,7 @@
     {
       "id": "89cNB1",
       "number": 18,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0018.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/018.png",
       "width": 1600,
       "height": 900,
       "text": "Cerbos: Developer-Centric Authorization • Human-readable YAML policies that product teams can understand • IDE integrations for real-time policy validation • Designed for frictionless developer workflows • Particularly strong for testing and debugging authorization logic 18 @phrawzty // cerbos.dev",
@@ -187,7 +187,7 @@
     {
       "id": "kTLB3Q",
       "number": 19,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0019.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/019.png",
       "width": 1600,
       "height": 900,
       "text": "Choosing the Right Tool • No one-size-fits-all solution • Consider your architecture and team structure • OPA: Broad policy enforcement beyond just authorization • OpenFGA: Complex relationship-based permissions at scale • Cerbos: Developer workflow integration and simplicity • Many teams use multiple tools for different aspects 19 @phrawzty // cerbos.dev",
@@ -197,7 +197,7 @@
     {
       "id": "Mn3yvp",
       "number": 20,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0020.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/020.png",
       "width": 1600,
       "height": 900,
       "text": "Pattern Categories Overview • Architectural patterns: How authorization fits into your system architecture • Development patterns: How to integrate with developer workflows • Testing patterns: How to verify authorization logic effectively 20 @phrawzty // cerbos.dev",
@@ -207,7 +207,7 @@
     {
       "id": "z6mmoE",
       "number": 21,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0021.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/021.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Authz as a Service • Encapsulate authorization logic in a dedicated service • Applications make explicit authorization requests • Enables consistent enforcement across services • Simplifies policy updates without changing application code 21 @phrawzty // cerbos.dev",
@@ -217,7 +217,7 @@
     {
       "id": "bQVagd",
       "number": 22,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0022.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/022.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Sidecar Deployment • Deploy authorization engine alongside each service instance • Low latency for authorization decisions • No network hop for every decision • Maintains consistent policies via centralized distribution • Perfect for Kubernetes environments 22 @phrawzty // cerbos.dev",
@@ -227,7 +227,7 @@
     {
       "id": "DkEOZ2",
       "number": 23,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0023.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/023.png",
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Multi-Layer Authorization • Authorization at multiple system layers • Coarse-grained at API gateway or ingress • Service-level for business logic authorization • Data-level for fine-grained access control • Each layer handles what it’s best suited for • Example: Combining API gateway rules, service policies, and row-level security 23 @phrawzty // cerbos.dev",
@@ -237,7 +237,7 @@
     {
       "id": "q3xCRR",
       "number": 24,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0024.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/024.png",
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Policy-Driven Design • Start with authorization requirements before implementation • Define policies in domain-specific language or specification • Generate test cases from policy definitions • Use policies to drive API design • Enables clear separation of business logic and authorization 24 @phrawzty // cerbos.dev",
@@ -247,7 +247,7 @@
     {
       "id": "SNg0Jq",
       "number": 25,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0025.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/025.png",
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Request Context Enrichment • Augment requests with rich context information • Move beyond simple user IDs to full context objects • Context includes user attributes, resource metadata, environmental factors • Enables sophisticated, context-aware decisions • Implementation using request middleware or interceptors 25 @phrawzty // cerbos.dev",
@@ -257,7 +257,7 @@
     {
       "id": "4hOoCF",
       "number": 26,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0026.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/026.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Policy Unit Testing • Test policies independent of application code • Table-driven testing for multiple scenarios • Verify both allowed and denied cases • Test for edge cases and unusual conditions • Catch policy bugs before they reach production 26 @phrawzty // cerbos.dev",
@@ -267,7 +267,7 @@
     {
       "id": "h17c4e",
       "number": 27,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0027.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/027.png",
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Authorization Test Fixtures • Create reusable test users with different permission profiles • Standard test resources with various access patterns • Authorization-aware test helpers for common operations • Makes writing permission-aware tests much easier 27 @phrawzty // cerbos.dev",
@@ -277,7 +277,7 @@
     {
       "id": "JKqPx3",
       "number": 28,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0028.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/028.png",
       "width": 1600,
       "height": 900,
       "text": "Practical Workflow Integration • Local development with policy simulation • IDE plugins for real-time policy validation • PR checks for policy consistency • Documentation generation from policies • Debugging tools for authorization decisions • Creates a seamless experience from dev to production 28 @phrawzty // cerbos.dev",
@@ -287,7 +287,7 @@
     {
       "id": "veZDpS",
       "number": 29,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0029.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/029.png",
       "width": 1600,
       "height": 900,
       "text": "Key Transformations • We’ve explored three fundamental transformations in how we approach authorization • From friction to flow in the development process • Security by design rather than security as an add-on • Empowered developers making better security decisions 29 @phrawzty // cerbos.dev",
@@ -297,7 +297,7 @@
     {
       "id": "XyI1hr",
       "number": 30,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0030.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/030.png",
       "width": 1600,
       "height": 900,
       "text": "From Friction to Flow • Traditional approach: Authorization interrupts development flow • New approach: Authorization tooling enhances productivity • The difference is measurable in developer satisfaction and output • When authorization is seamless, creativity flourishes 30 @phrawzty // cerbos.dev",
@@ -307,7 +307,7 @@
     {
       "id": "AI0paG",
       "number": 31,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0031.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/031.png",
       "width": 1600,
       "height": 900,
       "text": "Security by Design • Security isn’t something you add at the end • Authorization primitives built into your architecture from day one • This shift fundamentally changes the security posture of your applications • The result: more secure systems that are easier to maintain 31 @phrawzty // cerbos.dev",
@@ -317,7 +317,7 @@
     {
       "id": "mbjdSf",
       "number": 32,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0032.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/032.png",
       "width": 1600,
       "height": 900,
       "text": "Empowered Developers • Knowledge is power: developers who understand authorization make better decisions • Clear patterns and tools democratize security expertise • This creates a positive security culture across development teams • When developers are empowered, the entire organization benefits 32 @phrawzty // cerbos.dev",
@@ -327,7 +327,7 @@
     {
       "id": "OvSRL4",
       "number": 33,
-      "image": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0033.png",
+      "image": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/033.png",
       "width": 1600,
       "height": 900,
       "text": "Thank You • Authorization should enable great software, not hinder it • The tools and patterns exist today to transform your approach 33 @phrawzty // cerbos.dev",
@@ -338,172 +338,172 @@
   "page_count": 33,
   "files": [
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0001.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/001.png",
       "sha256": "b9f8e218878991eefec61457d412fb4a7cee502906fce4cc1fb014595a46893a",
       "bytes": 137168
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0002.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/002.png",
       "sha256": "5a4c81bf6925308b21a176d995fb679437d16f8a330e06031a929390b4c9f970",
       "bytes": 172650
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0003.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/003.png",
       "sha256": "7f89da6b0d43e2c611a957bf3d7ccbe6115ec512ad53317886894a63e7ba8f07",
       "bytes": 252907
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0004.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/004.png",
       "sha256": "2d4a2b3940a872bca6fdeece22e412b0ae8401d3d3b34aca809e749e3df982ee",
       "bytes": 592553
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0005.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/005.png",
       "sha256": "1280a920398872b45d67e90cf65c5eb5aebac285392263766c6339dfe007e6f5",
       "bytes": 601868
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0006.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/006.png",
       "sha256": "520134751619a00c1f57d3db796a2366f6399a5197d377523a7c6b2a13243e8e",
       "bytes": 596074
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0007.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/007.png",
       "sha256": "5e0f98240978486159115999d82a18066b7aae23b91f8fe3b317e5a4f995dcc4",
       "bytes": 462284
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0008.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/008.png",
       "sha256": "25e2b43fcbae658510f8827f1e4c29322d1f6f5c6aa6edf98936ae6beb260fc5",
       "bytes": 520212
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0009.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/009.png",
       "sha256": "13c000b8d9c47b1e31dd3618f0e5c7008765d4856c77dc6e1fe6a2a1201675b1",
       "bytes": 451267
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0010.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/010.png",
       "sha256": "06130e9b5d18214fd8cd814c25b17be20b00efce7fcfd699b899e744d39f00c4",
       "bytes": 619123
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0011.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/011.png",
       "sha256": "a843c554ca32814b0c76f184e2f1d14527a37d62eaeb3ad8bd4cd7850ff661c9",
       "bytes": 390175
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0012.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/012.png",
       "sha256": "6160c451e1ce14d76ace1dc4fdc0a7f6df1d8ec1772f083dffd62f9373dd43d8",
       "bytes": 440152
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0013.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/013.png",
       "sha256": "81166884844fb39ae181694d809e91d10d81e4d8032c7e5efbe797cb62394a73",
       "bytes": 485050
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0014.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/014.png",
       "sha256": "43cadb709defd2ea1ad4955dc609ee76f2180d04ab60297f4a844d05cd16477e",
       "bytes": 450500
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0015.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/015.png",
       "sha256": "980885d1c8078d79174fe739521f3cb9e3f9d9e4c7d843dcf5e33a830c5a37d6",
       "bytes": 317045
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0016.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/016.png",
       "sha256": "f6e4e49ceb35bed82c67bff54601a1dbc972622f6d95e1edf74bfe20c1750035",
       "bytes": 394442
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0017.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/017.png",
       "sha256": "b928d47578b524501aacb7eee6b6e6fdcd781136a3f08ad6b595e60a69f422af",
       "bytes": 403936
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0018.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/018.png",
       "sha256": "2f3390a7b2183d4df79dc424d6eed4d3751865c378fa88f4c40c3b36d1fe055a",
       "bytes": 422941
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0019.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/019.png",
       "sha256": "c498a514c26c05e53ab19ebac880dc0e267e2cf285dd6e10318793e951a41883",
       "bytes": 494626
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0020.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/020.png",
       "sha256": "1014e170c51981831baa77b6b65d19401c4d4f909ff85d012bef9f45182c85c4",
       "bytes": 363568
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0021.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/021.png",
       "sha256": "23a388463d915568b7fd8ef83e4832c14b690f189cd679e8ccba59cc7bcd5fa2",
       "bytes": 374856
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0022.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/022.png",
       "sha256": "a83b5476a37cb82a4a5f9a2612b85750390dc30b8ea593cc53de6981bb57e156",
       "bytes": 415341
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0023.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/023.png",
       "sha256": "769af86818c562e696430c1e39e13e27122d5d379e12c521fd998fe4c8dbe48d",
       "bytes": 519543
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0024.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/024.png",
       "sha256": "cc753457442130c4b4081bf2ed08758460ac571bff2cbcbb1cdc2a29a2338f20",
       "bytes": 451076
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0025.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/025.png",
       "sha256": "ff1a456ff4bc39a9dc4a52a3f787f0eaaeea370ed8fcbf348ceb3903eeb1050c",
       "bytes": 476987
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0026.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/026.png",
       "sha256": "85adba964eb87d2891c1ddca2001f61e41aff6e6902d67c02003dd612b0fc0d5",
       "bytes": 388268
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0027.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/027.png",
       "sha256": "9d12238616b52c609d12bf37820314994fe9cdae5377b16db1aa99ae4f624d77",
       "bytes": 381177
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0028.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/028.png",
       "sha256": "6f841d6ef02a20ec5333bc364d7ffc6d3cc10b74fd459c1882a237f61823edeb",
       "bytes": 457849
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0029.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/029.png",
       "sha256": "4314814bc00e6c1fe5d4d93f9cb53bf50e72dacc32a17aace7114f438ebf73f3",
       "bytes": 389286
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0030.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/030.png",
       "sha256": "a10d1e8540279b1f532d416eacbff85903273fa1b7140017a2bfb84d39b42ac9",
       "bytes": 381566
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0031.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/031.png",
       "sha256": "aef5330d3abcb08c6ea4cf0a42ca3287b778b96eb21cd43748124a506b1050da",
       "bytes": 368386
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0032.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/032.png",
       "sha256": "720c76b7e511d161625af1d320390b4f90dd856506838cfbe6402d18767d8ea9",
       "bytes": 432712
     },
     {
-      "path": "decks/91579af6a08c23a9a74a34e0e7dfb34f59858b51aa579d7b692e31e574b59cc8/0033.png",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/slides/033.png",
       "sha256": "4128134e87dbab821c3a4c988ba34f86a8a83b29b45ffa63da18f7cda9b8c966",
       "bytes": 193144
     },
     {
-      "path": "pdfs/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
+      "path": "decks/2025-04-15-authz-as-a-dev-workflow-foss-north-2025/2025-04-15-authz-as-a-dev-workflow-foss-north-2025.pdf",
       "sha256": "9e2271ffa3e4557cb4feef3da7bdb4831b30ba681dd30eda49b0b479a790d9d7",
       "bytes": 1088585
     }

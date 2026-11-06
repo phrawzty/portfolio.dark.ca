@@ -15,7 +15,7 @@ location = "Zadar, Croatia"
 timezone = "Europe/Zagreb"
 virtual = false
 deck = "a6882b4fc8de41530d31f8f917a3b58cf5de801eac22aafdb2ac36c14554b1cb"
-recording_url = ""
+recording_url = "https://www.youtube.com/live/1afMu66Eik0?si=kGdGa-OPaDXLl4DY&t=8625"
 source_url = "https://speaking.dark.ca/O4crob/building-a-mostly-reliable-ai-research-agent"
 source_event_id = "ev_xqB8GA"
 source_published_on = "2026-05-15 14:55:00"

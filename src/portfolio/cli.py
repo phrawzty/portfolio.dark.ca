@@ -605,6 +605,8 @@ class Portfolio:
                 source = self.asset_dir / item["path"]
                 destination = staging / "static/assets" / item["path"]
                 destination.parent.mkdir(parents=True, exist_ok=True)
+                if destination.exists():
+                    continue  # Multiple display versions can reference one immutable file.
                 try:
                     os.link(source, destination)
                 except OSError:

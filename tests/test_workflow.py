@@ -172,6 +172,23 @@ class WorkflowTests(unittest.TestCase):
         self.assertNotIn("releases/download", html)
         self.assertFalse(list((self.root / "public/assets").rglob("*.pdf")))
 
+    def test_shared_pdf_and_images_are_staged_once_across_display_versions(self):
+        self.create(publish=True)
+        self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
+        self.create("second", publish=True)
+        deck = self.project.deck(self.v1)
+        deck["id"] = "alternate-display"
+        (self.root / "data/decks/alternate-display.json").write_text(json.dumps(deck))
+        path, meta, body = self.project.appearance("second")
+        meta["extra"]["deck"] = "alternate-display"
+        write_page(path, meta, body)
+        self.project.build(local=True)
+        preview_pdf = self.root / ".portfolio/preview/assets" / deck["pdf"]
+        self.assertEqual(preview_pdf.read_bytes(), (self.project.asset_dir / deck["pdf"]).read_bytes())
+        self.project.build()
+        self.assertTrue((self.root / "public/first/index.html").exists())
+        self.assertTrue((self.root / "public/second/index.html").exists())
+
     def test_revised_pdf_gets_readable_version_suffix(self):
         first = self.project.deck(self.v1)["pdf"]
         second = self.project.deck(self.v2)["pdf"]

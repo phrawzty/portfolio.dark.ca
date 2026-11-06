@@ -90,7 +90,7 @@ class WorkflowTests(unittest.TestCase):
         ]) as prompt:
             self.call("new", "--id", "rio")
         self.assertEqual(prompt.call_count, 4)
-        path = self.root / "content/appearances/rio.md"
+        path = self.project.appearance("rio")[0]
         meta, _ = read_page(path)
         self.assertNotIn("timezone", meta["extra"])
         self.project.validate_page(path, meta)
@@ -98,7 +98,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_optional_timezone_is_preserved_and_validated(self):
         self.create()
-        path = self.root / "content/appearances/first.md"
+        path = self.project.appearance("first")[0]
         meta, _ = read_page(path)
         self.assertEqual(meta["extra"]["timezone"], "Europe/Paris")
         self.project.validate_page(path, meta)
@@ -110,7 +110,56 @@ class WorkflowTests(unittest.TestCase):
                 with self.assertRaises(AssertionError):
                     self.call("new", "--id", "invalid", "--title", "Example", "--event", "Event",
                               "--date", "2030-05-01", "--location", "Virtual", "--timezone", timezone)
-                self.assertFalse((self.root / "content/appearances/invalid.md").exists())
+                self.assertFalse(any(m["extra"]["id"] == "invalid" for _, m, _ in self.project.appearances()))
+
+    def test_readable_filenames_keep_stable_ids_urls_and_everyday_commands(self):
+        self.create("Legacy42")
+        path, meta, body = self.project.appearance("Legacy42")
+        self.assertEqual(path.name, "2030-05-01-example-event.md")
+        self.assertEqual(meta["path"], "Legacy42")
+        meta["aliases"] = ["Legacy42/previous-title"]
+        write_page(path, meta, body)
+        renamed = path.with_name("2030-05-01-renamed-event.md")
+        path.rename(renamed)
+        self.assertEqual(self.project.appearance("Legacy42")[0], renamed)
+        self.assertEqual(self.project.appearance(renamed.stem)[0], renamed)
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value="1"):
+            self.assertEqual(self.project.choose_appearance(), "Legacy42")
+        self.call("recording", str(renamed.relative_to(self.project.root)), "https://example.com/recording")
+        self.call("slides", "Legacy42", str(SOURCE / "tests/fixtures/deck-v1.pdf"))
+        self.call("publish", "Legacy42")
+        self.project.build()
+        public = self.root / "public"
+        self.assertTrue((public / "Legacy42/index.html").exists())
+        self.assertTrue((public / "Legacy42/slides/index.html").exists())
+        self.assertFalse((public / renamed.stem).exists())
+        self.assertIn("/Legacy42/previous-title /Legacy42/ 301", (public / "_redirects").read_text())
+        meta, _ = read_page(renamed)
+        self.assertEqual(meta["extra"]["id"], "Legacy42")
+        self.assertEqual(meta["extra"]["recording_url"], "https://example.com/recording")
+
+    def test_duplicate_id_is_rejected_even_after_renaming_its_file(self):
+        self.create("Legacy42")
+        path = self.project.appearance("Legacy42")[0]
+        path.rename(path.with_name("2030-05-01-another-filename.md"))
+        before = set((self.root / "content/appearances").glob("*.md"))
+        with self.assertRaises(AssertionError):
+            self.create("Legacy42")
+        self.assertEqual(before, set((self.root / "content/appearances").glob("*.md")))
+
+    def test_same_event_date_allocates_readable_filenames_without_overwriting(self):
+        self.create("first")
+        self.create("second")
+        self.assertEqual(self.project.appearance("first")[0].name, "2030-05-01-example-event.md")
+        self.assertEqual(self.project.appearance("second")[0].name, "2030-05-01-example-event-2.md")
+        self.assertEqual(self.project.appearance("second")[1]["path"], "second")
+
+    def test_id_lookup_rejects_duplicate_front_matter_ids(self):
+        self.create("Legacy42")
+        path = self.project.appearance("Legacy42")[0]
+        path.with_name("2030-05-01-duplicate.md").write_bytes(path.read_bytes())
+        with self.assertRaisesRegex(PortfolioError, "Ambiguous appearance"):
+            self.project.appearance("Legacy42")
 
     def test_three_everyday_cases_and_deck_isolation(self):
         # Upcoming announcement without slides.
@@ -122,15 +171,15 @@ class WorkflowTests(unittest.TestCase):
         self.call("slides", "first", str(SOURCE / "tests/fixtures/deck-v1.pdf"))
         self.call("new", "--from", "first", "--reuse-slides", "--id", "repeat", "--event", "A different event", "--date", "2030-06-01",
                   "--location", "Paris, France", "--timezone", "Europe/Paris", "--publish")
-        self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["deck"], self.v1)
+        self.assertEqual(read_page(self.project.appearance("repeat")[0])[0]["extra"]["deck"], self.v1)
         original_bytes = (self.project.asset_dir / self.project.deck(self.v1)["pdf"]).read_bytes()
         self.call("slides", "repeat", str(SOURCE / "tests/fixtures/deck-v2.pdf"))
-        self.assertEqual(read_page(self.root / "content/appearances/first.md")[0]["extra"]["deck"], self.v1)
-        self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["deck"], self.v2)
+        self.assertEqual(read_page(self.project.appearance("first")[0])[0]["extra"]["deck"], self.v1)
+        self.assertEqual(read_page(self.project.appearance("repeat")[0])[0]["extra"]["deck"], self.v2)
         self.assertEqual(original_bytes, (self.project.asset_dir / self.project.deck(self.v1)["pdf"]).read_bytes())
         # Recording and feedback are event-specific.
         self.call("recording", "first", "https://www.youtube.com/watch?v=0s8ATQmhQPE")
-        self.assertEqual(read_page(self.root / "content/appearances/repeat.md")[0]["extra"]["recording_url"], "")
+        self.assertEqual(read_page(self.project.appearance("repeat")[0])[0]["extra"]["recording_url"], "")
         self.project.build()
         self.assertIn("Watch the recording", (self.root / "public/first/index.html").read_text())
         self.assertNotIn("Watch the recording", (self.root / "public/repeat/index.html").read_text())
@@ -169,7 +218,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_comments_and_markdown_survive_recording_update(self):
         self.create()
-        path = self.root / "content/appearances/first.md"
+        path = self.project.appearance("first")[0]
         path.write_text(path.read_text().replace('[extra]', '# Keep this explanation\n[extra]') + "\nA **hand-edited** description.\n")
         self.call("recording", "first", "https://example.com/recording")
         self.assertIn("# Keep this explanation", path.read_text())
@@ -285,7 +334,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_broken_internal_resource_prevents_publication_build(self):
         self.create(publish=True)
-        path = self.root / "content/appearances/first.md"
+        path = self.project.appearance("first")[0]
         meta, body = read_page(path)
         meta["extra"]["resources"] = [{"title": "Missing", "url": "/does-not-exist/"}]
         write_page(path, meta, body)
@@ -295,7 +344,7 @@ class WorkflowTests(unittest.TestCase):
     def test_chooser_searches_by_event_without_needing_an_id(self):
         self.create("first")
         self.create("second")
-        path = self.root / "content/appearances/second.md"
+        path = self.project.appearance("second")[0]
         meta, body = read_page(path)
         meta["extra"]["event"] = "A specific conference"
         write_page(path, meta, body)
@@ -306,12 +355,12 @@ class WorkflowTests(unittest.TestCase):
         self.create()
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["1", '"' + str(SOURCE / "tests/fixtures/deck-v1.pdf") + '"']):
             self.call("slides")
-        self.assertEqual(read_page(self.root / "content/appearances/first.md")[0]["extra"]["deck"], self.v1)
+        self.assertEqual(read_page(self.project.appearance("first")[0])[0]["extra"]["deck"], self.v1)
 
     def test_markdown_path_works_for_noninteractive_commands(self):
         self.create()
-        self.call("slides", "content/appearances/first.md", str(SOURCE / "tests/fixtures/deck-v1.pdf"))
-        self.assertEqual(read_page(self.root / "content/appearances/first.md")[0]["extra"]["deck"], self.v1)
+        self.call("slides", str(self.project.appearance("first")[0].relative_to(self.project.root)), str(SOURCE / "tests/fixtures/deck-v1.pdf"))
+        self.assertEqual(read_page(self.project.appearance("first")[0])[0]["extra"]["deck"], self.v1)
 
     def test_menu_creates_a_draft_and_opens_its_markdown(self):
         answers = ["1", "A new talk", "Another event", "2031-02-03", "Paris, France", "", "q"]
@@ -327,14 +376,14 @@ class WorkflowTests(unittest.TestCase):
         self.create()
         self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
         self.project.recording("first", "https://example.com/recording")
-        previous = (self.root / "content/appearances/first.md").read_bytes()
+        previous = (self.project.appearance("first")[0]).read_bytes()
         answers = ["1", "", "Another event", "2031-02-03", "Paris, France", ""]
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=answers), patch.object(Portfolio, "open_editor"):
             self.call("repeat")
         meta, _ = read_page(self.root / "content/appearances/2031-02-03-another-event.md")
         self.assertEqual(meta["extra"]["deck"], "")
         self.assertEqual(meta["extra"]["recording_url"], "")
-        self.assertEqual((self.root / "content/appearances/first.md").read_bytes(), previous)
+        self.assertEqual((self.project.appearance("first")[0]).read_bytes(), previous)
 
     def test_repeat_can_explicitly_reuse_previous_slides(self):
         self.create()
@@ -354,7 +403,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_cancel_chooser_does_not_modify_content(self):
         self.create()
-        path = self.root / "content/appearances/first.md"
+        path = self.project.appearance("first")[0]
         before = path.read_bytes()
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value=""):
             self.call("recording")
@@ -364,13 +413,13 @@ class WorkflowTests(unittest.TestCase):
         self.create()
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["1"]):
             self.call("recording", "https://example.com/recording")
-        meta, _ = read_page(self.root / "content/appearances/first.md")
+        meta, _ = read_page(self.project.appearance("first")[0])
         self.assertEqual(meta["extra"]["recording_url"], "https://example.com/recording")
 
     def test_publication_menu_lists_only_drafts(self):
         self.create("published", publish=True)
         self.create("draft")
-        path = self.root / "content/appearances/published.md"
+        path = self.project.appearance("published")[0]
         meta, body = read_page(path)
         meta["title"] = "Already published talk"
         write_page(path, meta, body)
@@ -379,7 +428,7 @@ class WorkflowTests(unittest.TestCase):
             self.assertEqual(main(["--root", str(self.root)]), 0)
         self.assertIn("Choose a draft", output.getvalue())
         self.assertNotIn("Already published talk", output.getvalue())
-        self.assertFalse(read_page(self.root / "content/appearances/draft.md")[0]["draft"])
+        self.assertFalse(read_page(self.project.appearance("draft")[0])[0]["draft"])
 
     def test_publication_with_no_drafts_returns_without_asking_for_a_selection(self):
         self.create(publish=True)
@@ -392,7 +441,7 @@ class WorkflowTests(unittest.TestCase):
         self.create("draft")
         self.create("published", publish=True)
         self.project.attach_pdf("draft", SOURCE / "tests/fixtures/deck-v1.pdf")
-        before = (self.root / "content/appearances/draft.md").read_bytes()
+        before = (self.project.appearance("draft")[0]).read_bytes()
         output = io.StringIO()
         with contextlib.redirect_stdout(output):
             self.assertEqual(main(["--root", str(self.root), "check"]), 0)
@@ -402,7 +451,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("sizes and checksums", report)
         self.assertIn("external URL availability", report)
         self.assertIn("No files were changed or uploaded", report)
-        self.assertEqual((self.root / "content/appearances/draft.md").read_bytes(), before)
+        self.assertEqual((self.project.appearance("draft")[0]).read_bytes(), before)
 
     def test_failed_check_names_the_talk_and_problem_without_claiming_success(self):
         self.create()

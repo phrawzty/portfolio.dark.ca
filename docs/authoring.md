@@ -20,7 +20,7 @@ uv run portfolio notes
 
 Choose the talk and its notes file opens in your editor. It overrides slide text/titles for that deck version without modifying source PDFs or images. No migration JSON needs hand-editing.
 
-For scripting, explicit commands still work with either the Markdown path or its filename stem. For example, `uv run portfolio slides content/appearances/QfIYtz.md ~/presentations/revised.pdf`. Supplying just a PDF path, as in `uv run portfolio slides ~/presentations/revised.pdf`, opens the talk chooser.
+For scripting, explicit commands still work with the Markdown path, its readable filename stem, or its stable ID. For example, `uv run portfolio slides content/appearances/2024-09-25-devopsdays-cairo-2024.md ~/presentations/revised.pdf`. Supplying just a PDF path, as in `uv run portfolio slides ~/presentations/revised.pdf`, opens the talk chooser.
 
 Resources and feedback belong in the appearance's TOML front matter:
 
@@ -46,3 +46,9 @@ uv run portfolio place 'Example City, Country' --map-url 'https://www.openstreet
 
 Unknown locations remain readable in the archive and simply have no pin until saved. There is no required geocoding account or network lookup. The map uses the existing CARTO tile configuration from dark.ca; allow the new hostname in that key's domain restrictions before launch. The textual archive works independently of map tiles.
 
+
+## Appearance filenames and public URLs
+
+Appearance Markdown uses readable `YYYY-MM-DD-event.md` filenames, with numeric suffixes for multiple talks at the same event/date. Files can be renamed without changing their public URLs: `path` and `extra.id` remain stable, as do aliases and deck references. Title/event edits do not automatically rename existing files.
+
+The CLI resolves stable IDs from front matter rather than assuming they are filenames. Explicit Markdown paths and readable stems work too; IDs take precedence if a stem happens to match another entry’s ID. New entries get readable filenames even when a script supplies a custom `--id`. The importer resumes by stable ID, so renamed entries are not imported again.

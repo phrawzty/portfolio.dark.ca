@@ -136,18 +136,35 @@ class Portfolio:
         return result
 
     def appearance(self, ident):
-        # Paths printed by the editor or selected in a file manager also work.
+        # Stable IDs remain valid even when the editable filename changes.
         supplied = Path(ident).expanduser()
         if supplied.suffix == ".md":
             path = supplied if supplied.is_absolute() else self.root / supplied
             path = path.resolve()
-            if path.parent != (self.root / "content/appearances").resolve():
+            if path.parent != (self.root / "content/appearances").resolve() or path.name == "_index.md":
                 raise PortfolioError("Choose a Markdown file in content/appearances/")
-        else:
-            path = self.root / "content/appearances" / (identifier(ident) + ".md")
-        if not path.is_file():
+            if not path.is_file():
+                raise PortfolioError(f"Unknown appearance file: {path}")
+            return path, *read_page(path)
+        value = identifier(ident)
+        entries = self.appearances()
+        matches = [item for item in entries if item[1].get("extra", {}).get("id") == value]
+        if not matches:
+            matches = [item for item in entries if item[0].stem == value]
+        if len(matches) > 1:
+            raise PortfolioError(f"Ambiguous appearance {ident!r}; check for duplicate IDs and use a Markdown path")
+        if not matches:
             raise PortfolioError(f"Unknown appearance {ident!r}")
-        return path, *read_page(path)
+        return matches[0]
+
+    def appearance_file_for(self, event_date, event):
+        base = f"{str(event_date)[:10]}-{slug(event)[:180]}"
+        path = self.root / "content/appearances" / (base + ".md")
+        number = 2
+        while path.exists():
+            path = path.with_name(f"{base}-{number}.md")
+            number += 1
+        return path
 
     def choose_appearance(self, value=None, *, drafts_only=False):
         if value:
@@ -242,16 +259,16 @@ class Portfolio:
             except (ZoneInfoNotFoundError, ValueError) as error:
                 raise PortfolioError(f"Unknown timezone: {args.timezone}") from error
         ident = identifier(args.id or f"{event_date.isoformat()}-{slug(event)}")
-        destination = self.root / "content/appearances" / (ident + ".md")
+        used_ids = {meta["extra"]["id"] for _, meta, _ in self.appearances()}
+        if args.id and ident in used_ids:
+            raise PortfolioError(f"Appearance {ident} already exists; choose another --id")
         if not args.id:
             base_ident = ident
             number = 2
-            while destination.exists():
+            while ident in used_ids:
                 ident = base_ident + "-" + str(number)
-                destination = destination.with_name(ident + ".md")
                 number += 1
-        if destination.exists():
-            raise PortfolioError(f"Appearance {ident} already exists; choose --id for another talk at this event")
+        destination = self.appearance_file_for(event_date, event)
         talk_id = identifier(args.talk or prior_extra.get("talk", slug(title)))
         talk_path = self.root / "content/talks" / (talk_id + ".md")
         if not talk_path.exists():
@@ -475,8 +492,8 @@ class Portfolio:
         for key in ("id", "talk", "event", "location"):
             if not extra.get(key):
                 raise PortfolioError(f"{path.name}: extra.{key} is required")
-        if extra["id"] != path.stem or meta.get("path") != extra["id"]:
-            raise PortfolioError(f"{path.name}: filename, extra.id, and path must agree")
+        if meta.get("path") != extra["id"]:
+            raise PortfolioError(f"{path.name}: extra.id and public path must agree (the Markdown filename is independent)")
         identifier(extra["id"])
         identifier(extra["talk"])
         if not meta.get("title") or not isinstance(meta.get("date"), (date, datetime)):

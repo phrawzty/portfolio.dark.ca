@@ -63,7 +63,7 @@ The assets checkout can also be committed manually. Leave unrelated staged chang
 
 ## Files and hosting
 
-- `content/`: editable appearances, reusable talk descriptions and biography.
+- `content/`: editable appearances (readable date/event filenames), reusable talk descriptions and biography. Public URLs are preserved separately in front matter.
 - `data/`: deck metadata, checksums, map data and the pinned assets revision.
 - `notes/`: optional slide-text/title overrides.
 - `templates/`, `static/`, `themes/`: the Zola site and Terminus appearance shared with dark.ca.

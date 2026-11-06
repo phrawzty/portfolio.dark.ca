@@ -76,11 +76,14 @@ def main():
     downloads = {x["url"]: x for x in json.loads((PRESERVATION / "archive/downloads.json").read_text())}
     coverage = {x["id"]: x for x in json.loads((PRESERVATION / "archive/presentation-coverage.json").read_text())}
     imported = []
+    existing_ids = {meta["extra"]["id"] for _, meta, _ in project.appearances()}
     for source in presentations:
         ident = source["id"]
-        destination = ROOT / "content/appearances" / (ident + ".md")
-        if destination.exists():
+        if ident in existing_ids:
             continue
+        event = next(r for r in source["detail"]["relationships"]["data"] if r["type"] == "events")
+        event_attrs = event["attributes"]
+        destination = project.appearance_file_for(source["presented_on"], event_attrs["title"])
         talk_id = slug(source["title"])
         detail = source["detail"]["attributes"]
         body = (detail.get("blurb", {}).get("html") or "").strip() + "\n"
@@ -90,8 +93,6 @@ def main():
             talk_meta.update(title=source["title"].strip(), template="talk.html", draft=False)
             write_page(talk_path, talk_meta, body)
         slides = json.loads((PRESERVATION / "archive/presentations" / ident / "slides.json").read_text())
-        event = next(r for r in source["detail"]["relationships"]["data"] if r["type"] == "events")
-        event_attrs = event["attributes"]
         deck_id = ""
         if slides:
             originals = coverage[ident]["original_pdfs"]
@@ -155,6 +156,7 @@ def main():
         meta["extra"] = tomlkit.item(extra)
         write_page(destination, meta, body)
         imported.append(ident)
+        existing_ids.add(ident)
 
     # Independent event records retain descriptions, hashtags and source timestamps.
     events = json.loads((AUDIT / "events.json").read_text())

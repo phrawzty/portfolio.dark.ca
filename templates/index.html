@@ -2,7 +2,7 @@
 {% block main %}
 {% set appearances = get_section(path='appearances/_index.md') %}
 {% set today = now() | date(format='%Y-%m-%d') %}
-<section class="introduction"><p class="eyebrow">Daniel “phrawzty” Maher</p><h1>{{ section.title }}</h1>{{ section.content | safe }}</section>
+<section class="introduction"><h1 class="post-title">{{ section.title }}</h1>{{ section.content | safe }}</section>
 <section aria-labelledby="upcoming-title"><h2 id="upcoming-title">Coming up</h2>
 {% set_global upcoming_count = 0 %}
 {% for appearance in appearances.pages | reverse %}{% if appearance.date | date(format='%Y-%m-%d') >= today %}

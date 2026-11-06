@@ -1,6 +1,5 @@
 /* Small portfolio additions to the same Terminus theme used at dark.ca. */
 .introduction { margin: 1.5rem 0 3.5rem; }
-.introduction h1 { max-width: 24ch; font-size: clamp(1.7rem, 5vw, 2.6rem); line-height: 1.23; }
 .eyebrow { color: var(--accent-color); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
 .muted { color: color-mix(in srgb, var(--text-color) 66%, var(--background-color)); }
 .small { font-size: .8rem; }

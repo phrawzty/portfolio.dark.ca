@@ -16,7 +16,7 @@ theme = "nord"
 style = "class"
 
 [extra]
-header_title = "phrawzty / speaking"
+header_title = "dan's speaking portfolio"
 color_scheme = "terminus"
 layout = "center"
 copyright = "© $YEAR Dan Maher"

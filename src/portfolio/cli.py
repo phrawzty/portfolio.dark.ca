@@ -209,6 +209,18 @@ class Portfolio:
     def edit(self, ident):
         self.open_editor(self.appearance(ident)[0])
 
+    def remove(self, ident, *, yes=False):
+        path, meta, _ = self.appearance(ident)
+        event = meta["extra"]["event"]
+        if not yes:
+            if not sys.stdin.isatty():
+                raise PortfolioError("Refusing to remove an appearance without --yes outside a terminal")
+            confirmation = input(f"Remove {meta['title']} — {event}? Type 'remove' to confirm: ").strip()
+            if confirmation.casefold() != "remove":
+                raise UserCancelled("Removal cancelled.")
+        path.unlink()
+        print(f"Removed {ident}. Shared talks, places, decks, and assets were left unchanged.")
+
     def deck(self, ident):
         identifier(ident)
         path = self.root / "data/decks" / (ident + ".json")
@@ -816,6 +828,9 @@ def parser():
     commands.add_parser("repeat", help="Choose a previous talk and create another event appearance")
     edit = commands.add_parser("edit", help="Choose a talk and open its Markdown file")
     edit.add_argument("appearance", nargs="?", help="Optional Markdown path or ID; otherwise choose from a list")
+    remove = commands.add_parser("remove", help="Permanently remove a cancelled appearance (does not remove shared data)")
+    remove.add_argument("appearance", nargs="?", help="Optional Markdown path or ID; otherwise choose from a list")
+    remove.add_argument("--yes", action="store_true", help="Confirm removal for non-interactive use")
     slides = commands.add_parser("slides", help="Process all PDF pages locally and attach an immutable deck version")
     slides.add_argument("appearance", nargs="?", help="Optional Markdown path or ID; otherwise choose from a list")
     slides.add_argument("pdf", nargs="?", type=Path, help="Optional PDF path; otherwise prompt")
@@ -882,7 +897,8 @@ def interactive_menu(project):
               "  7. Preview the site\n"
               "  8. Mark a draft ready for publication\n"
               "  9. Check the portfolio\n"
-              "  10. Commit and push public assets\n"
+              "  10. Remove a cancelled appearance\n"
+              "  11. Commit and push public assets\n"
               "  q. Quit")
         choice = input("Choose an action: ").strip().casefold()
         try:
@@ -907,6 +923,8 @@ def interactive_menu(project):
             elif choice == "9":
                 project.check(report=True)
             elif choice == "10":
+                project.remove(project.choose_appearance())
+            elif choice == "11":
                 project.asset_repository.publish()
             else:
                 print("Choose a number from the menu, or q to quit.")
@@ -933,6 +951,8 @@ def main(argv=None):
             new_from_menu(project, repeat=True)
         elif args.command == "edit":
             project.edit(project.choose_appearance(args.appearance))
+        elif args.command == "remove":
+            project.remove(project.choose_appearance(args.appearance), yes=args.yes)
         elif args.command == "slides":
             # A PDF can be supplied on its own; the talk is then chosen by name.
             if args.appearance and args.pdf is None and str(args.appearance).lower().endswith(".pdf"):

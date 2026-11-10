@@ -446,6 +446,43 @@ class WorkflowTests(unittest.TestCase):
             self.call("recording")
         self.assertEqual(path.read_bytes(), before)
 
+    def test_remove_appearance_requires_confirmation_and_keeps_shared_content(self):
+        self.create("first", publish=True)
+        path, meta, _ = self.project.appearance("first")
+        talk = self.root / "content/talks" / (meta["extra"]["talk"] + ".md")
+        deck = self.project.attach_pdf("first", SOURCE / "tests/fixtures/deck-v1.pdf")
+        deck_path = self.root / "data/decks" / (deck + ".json")
+
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value="no"):
+            self.call("remove", "first")
+        self.assertTrue(path.exists())
+
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value="remove"):
+            self.call("remove", "first")
+        self.assertFalse(path.exists())
+        self.assertTrue(talk.exists())
+        self.assertTrue(deck_path.exists())
+        self.assertTrue((self.root / "data/places.toml").exists())
+
+    def test_remove_requires_yes_without_a_terminal(self):
+        self.create()
+        path = self.project.appearance("first")[0]
+        output, errors = io.StringIO(), io.StringIO()
+        with contextlib.redirect_stdout(output), contextlib.redirect_stderr(errors):
+            self.assertEqual(main(["--root", str(self.root), "remove", "first"]), 1)
+        self.assertTrue(path.exists())
+        self.assertIn("without --yes", errors.getvalue())
+
+        self.call("remove", "first", "--yes")
+        self.assertFalse(path.exists())
+
+    def test_menu_removes_a_cancelled_appearance(self):
+        self.create()
+        path = self.project.appearance("first")[0]
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["10", "1", "remove", "q"]):
+            self.assertEqual(main(["--root", str(self.root)]), 0)
+        self.assertFalse(path.exists())
+
     def test_url_alone_uses_the_recording_chooser(self):
         self.create()
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["1"]):

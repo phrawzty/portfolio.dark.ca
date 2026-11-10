@@ -30,6 +30,16 @@ The interactive menu handles talks, slides, recordings, slide notes and previews
 - Adding slides processes the PDF locally. Replacing a deck leaves previous appearances unchanged.
 - Slide notes override displayed text without modifying the PDF.
 
+Remove a cancelled appearance with its stable ID (or its Markdown path):
+
+```sh
+uv run portfolio remove 2026-11-23-devopsdays-warsaw-2026
+```
+
+The command asks for confirmation. For scripts, pass `--yes`; this removes only
+the appearance Markdown file. Shared talk pages, locations, deck metadata, and
+assets stay in place. An unused location is not rendered as a map pin.
+
 Appearance filenames use `YYYY-MM-DD-event.md`. Their public URLs are set separately in front matter; keep `path`, `extra.id` and aliases unchanged when renaming files.
 
 Add resources and feedback to an appearance’s front matter:

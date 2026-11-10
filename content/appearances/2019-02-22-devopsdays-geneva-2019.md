@@ -11,7 +11,6 @@ id = "3n1Q6V"
 talk = "public-speaking-for-technologists"
 event = "Devopsdays Geneva 2019"
 event_url = ""
-location = "Geneva, Switzerland"
 timezone = "Europe/Zurich"
 virtual = false
 deck = "32f21fcdd1e18756eb7b147807dcf05d537f5cd849c3224e5bd58c0cf1ae120c"
@@ -19,8 +18,7 @@ recording_url = ""
 source_url = "https://speaking.dark.ca/3n1Q6V/public-speaking-for-technologists"
 source_event_id = "ev_wSYUDB"
 source_published_on = "2019-02-22 17:00:00"
-latitude = 46.204391
-longitude = 6.143158
+place = "geneva-ch"
 
 [[extra.resources]]
 title = "Event Listing"

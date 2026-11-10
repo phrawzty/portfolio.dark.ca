@@ -11,7 +11,6 @@ id = "Lsgaq5"
 talk = "goodies-ideas-ethics"
 event = "Paris DevRel Salon"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/Lsgaq5/goodies-ideas-ethics"
 source_event_id = "ev_1dYDNJ"
 source_published_on = "2019-11-05 20:00:00"
 feedback = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 
 [[extra.resources]]
 title = "Event Listing"

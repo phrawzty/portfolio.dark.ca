@@ -11,7 +11,6 @@ id = "Cpr0TI"
 talk = "les-conteneurs-pieces-et-main-doeuvre"
 event = "Devops DDay"
 event_url = ""
-location = "Marseille, France"
 timezone = "GMT"
 virtual = false
 deck = "970aed2ab0136c62ae8e46be7df0293c9122c18239e83b8ce08d84b348991488"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/Cpr0TI/les-conteneurs-pieces-et-main-doeu
 source_event_id = "ev_EJSm2r"
 source_published_on = "2018-11-15 08:00:00"
 feedback = []
-latitude = 43.296482
-longitude = 5.36978
+place = "marseille-fr"
 
 [[extra.resources]]
 title = "Event Listing"

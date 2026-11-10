@@ -11,7 +11,6 @@ id = "mIFScg"
 talk = "configure-observability-as-code-with-terraform-datadog"
 event = "Hashicorp & Datadog webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = ""
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/mIFScg/configure-observability-as-code-wi
 source_event_id = "ev_5Fxx40"
 source_published_on = "2020-04-23 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Minisite with timestamps and more info"

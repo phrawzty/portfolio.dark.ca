@@ -11,7 +11,6 @@ id = "Litvq3"
 talk = "la-demystification-des-pratiques-devops-et-sre"
 event = "Datadog webinaire et dégustation"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "b0937b17fa3df07729f84f98c6e4541df418216139f28eeae232faa40bc8ea51"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/Litvq3/la-demystification-des-pratiques-d
 source_event_id = "ev_8XK6in"
 source_published_on = "2021-06-16 23:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Mini-site"

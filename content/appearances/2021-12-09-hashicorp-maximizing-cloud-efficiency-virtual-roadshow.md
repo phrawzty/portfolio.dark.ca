@@ -11,7 +11,6 @@ id = "E0yCMk"
 talk = "cloud-cost-optimisation-shift-left-on-cloud-costs"
 event = "HashiCorp Maximizing Cloud Efficiency Virtual Roadshow"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/E0yCMk/cloud-cost-optimisation-shift-left
 source_event_id = "ev_AxIBHu"
 source_published_on = "2021-12-09 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "mini-site"

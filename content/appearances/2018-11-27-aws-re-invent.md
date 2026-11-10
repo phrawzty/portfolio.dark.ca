@@ -11,7 +11,6 @@ id = "RTIcE6"
 talk = "building-sre-from-scratch-at-coinbase-during-hypergrowth"
 event = "AWS re:Invent"
 event_url = ""
-location = "Las Vegas, NV, USA"
 timezone = "America/Los_Angeles"
 virtual = false
 deck = "335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/RTIcE6/building-sre-from-scratch-at-coinb
 source_event_id = "ev_GGzp87"
 source_published_on = "2018-11-27 13:00:00"
 resources = []
-latitude = 36.169941
-longitude = -115.13983
+place = "las-vegas-us"
 
 [[extra.feedback]]
 text = "You need three things: good instrumentation, good understanding of what you have measured and a process for interpreting and reasoning about those measurements - without these no postmortem process will work! @niallohiggins #reInvent2018 @phrawzty — Blameless (@blamelesshq) November 27, 2018"

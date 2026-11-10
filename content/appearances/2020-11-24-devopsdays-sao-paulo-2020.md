@@ -11,7 +11,6 @@ id = "Rj8FRx"
 talk = "the-safety-dance-risk-assessment-for-devops-practitioners"
 event = "DevOpsDays São Paulo 2020"
 event_url = "https://devopsdays.org/sao-paulo"
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "7dc8ab5805276d30f2c17b3b20e8c5673f775a80be7f61586e9ef786a8ae0beb"
@@ -19,6 +18,7 @@ recording_url = "https://www.youtube.com/watch?v=phHrzI74R_I&t=6200s"
 source_url = "https://speaking.dark.ca/Rj8FRx/the-safety-dance-risk-assessment-for-devops-practitioners"
 source_event_id = "ev_mhrkqZ"
 source_published_on = "2020-11-24 09:00:00"
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Mozilla Rapid Risk Assessment:"

@@ -11,7 +11,6 @@ id = "KVNWOW"
 talk = "datadog-vodafone-and-dunelm-sre-panel-discussion"
 event = "Datadog SRE Panel"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "1135bd76d2637e200c336f4df6dfa4dfde0dd3ca549e7a05f642fcc8bb363a7e"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/KVNWOW/datadog-vodafone-and-dunelm-sre-pa
 source_event_id = "ev_Sz3sRZ"
 source_published_on = "2020-10-29 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Minisite"

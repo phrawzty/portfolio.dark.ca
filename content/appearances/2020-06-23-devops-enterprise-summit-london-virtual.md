@@ -11,7 +11,6 @@ id = "xWIEeg"
 talk = "demystifying-devops-sre"
 event = "DevOps Enterprise Summit London Virtual"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "47ebe14ad30fa68280b36091f1d944d2ab8295c2f1258a58dde2251cf31130f8"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/xWIEeg/demystifying-devops-sre"
 source_event_id = "ev_oislnr"
 source_published_on = "2020-06-23 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Sched entry"

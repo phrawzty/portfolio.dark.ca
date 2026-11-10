@@ -11,7 +11,6 @@ id = "zCuuC8"
 talk = "one-thing-mma-taught-me-about-working-in-tech"
 event = "DevOpsDays Ghent 2019"
 event_url = ""
-location = "Ghent, Belgium"
 timezone = "Europe/Brussels"
 virtual = false
 deck = "276995191417f7ad7947474a4590a52d4511499ed2b05d3c77c9c029334864ca"
@@ -19,8 +18,7 @@ recording_url = "https://www.youtube.com/watch?v=ctNzkslnrVE&t=9754s"
 source_url = "https://speaking.dark.ca/zCuuC8/one-thing-mma-taught-me-about-working-in-tech"
 source_event_id = "ev_NFzfHe"
 source_published_on = "2019-10-28 11:00:00"
-latitude = 51.054342
-longitude = 3.717424
+place = "ghent-be"
 
 [[extra.resources]]
 title = "Event Listing"

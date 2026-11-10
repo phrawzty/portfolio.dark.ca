@@ -46,14 +46,63 @@ author = "Author name"
 url = "https://example.com/original-post"
 ```
 
-For a new map location, save its coordinates using an OpenStreetMap link:
+When asked `Location (city, country; or Virtual):`, type a place name. Known
+places resolve locally, ignoring case; an ambiguous name prompts a choice.
+For a new place, the tool searches Nominatim, asks you to confirm a result,
+and saves the name and coordinates in this portfolio's `data/places.toml`.
+Type `Virtual` or `Online` to skip the map.
+
+New IDs use `city-<two-letter-country>`, for example `rio-de-janeiro-br`.
+State/region text remains in the display name, not the generated ID. Nominatim
+supplies the country code; manual coordinate entry prompts for it. Existing IDs
+remain stable when names are edited. An ID collision is reported for manual review.
+
+Each in-person appearance references one stable place ID:
+
+```toml
+[extra]
+place = "paris-fr"
+# Optional; otherwise the registry's name is displayed:
+location_label = "Paris, France · Venue name"
+```
+
+The registry is independent of the travel map. Editing a display label never
+changes a pin. Appearances sharing a place share one pin. Checks and builds
+reject missing places, invalid coordinates, and legacy inline locations.
+
+New-place searches use the free public Nominatim service, with no account or API
+key. The tool identifies itself, caches responses under `.portfolio/geocoding/`,
+and limits requests to at most one per second. Searches happen only after a
+submitted name, never as autocomplete or during checks/builds. Search data is
+© [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ODbL.
+See the [Nominatim usage policy](https://operations.osmfoundation.org/policies/nominatim/).
+The Nominatim-compatible endpoint is configurable in `portfolio.toml` under
+`[geocoding]`, so providers can be changed without a software update.
+
+If search fails or finds the wrong place, refine the search, paste an
+OpenStreetMap URL, or enter coordinates directly without leaving authoring.
+You can also maintain places separately:
 
 ```sh
-uv run portfolio place 'City, Country' \
+uv run portfolio place 'City, Country'
+```
+
+For offline use, supply coordinates explicitly. Use `--id` to update an existing
+place by its stable reference, including when changing its name:
+
+```sh
+uv run portfolio place 'City, Country' --country-code fr \
   --map-url 'https://www.openstreetmap.org/#map=12/48.85/2.35'
 ```
 
-Appearances without coordinates are listed normally but have no map pin.
+```sh
+uv run portfolio place 'Paris, France' --id paris-fr \
+  --latitude 48.856614 --longitude 2.352222
+```
+
+Noninteractive `new --location` resolves known names or IDs locally. Add an
+unknown place first with `portfolio place`; scripts never silently geocode or
+accept an unconfirmed search result.
 
 ## Preview
 

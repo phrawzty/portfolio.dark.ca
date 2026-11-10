@@ -60,4 +60,32 @@ vimeo.button.handlers.click();
 assert.equal(new URL(vimeo.container.frame.src).hostname, "player.vimeo.com");
 assert.equal(new URL(vimeo.container.frame.src).searchParams.get("h"), "example");
 assert.equal(recording("https://example.com/watch?v=GAstY027AXg").button.hidden, true);
-console.log("PASS: slide fragments, navigation, keyboard handling, and click-to-load recording players");
+
+const markers = [];
+const container = { hidden: false };
+const node = (tag) => ({ tag, children: [], textContent: "", append(...children) { this.children.push(...children); } });
+const L = {
+  map: () => ({ fitBounds() {} }),
+  circleMarker(coords) {
+    const marker = { coords, bindPopup(popup) { this.popup = popup; return this; }, addTo() { return this; } };
+    markers.push(marker);
+    return marker;
+  },
+};
+const point = { lat: 48.856614, lng: 2.352222, place: "paris-fr", location: "Paris, France", location_label: "Paris, France", title: "Talk", event: "Event", url: "/talk/" };
+await vm.runInNewContext(readFileSync(new URL("../static/js/map.js", import.meta.url), "utf8"), {
+  window: { L }, L,
+  document: { getElementById: () => container, createElement: node },
+  fetch: async () => ({ json: async () => ({ points: [
+    point,
+    { ...point, title: "Another talk", location_label: "Paris · Venue <A>" },
+    { ...point, place: "different-place", location: "Another place at the same coordinates" },
+  ] }) }),
+});
+assert.equal(markers.length, 2, "group by stable place ID, independently of labels and coordinate equality");
+assert.equal(markers[0].popup.children[0].textContent, "Paris, France");
+const rows = markers[0].popup.children[1].children;
+assert.equal(rows.length, 2, "appearances of the same place share a popup");
+assert.equal(rows[1].children[1].textContent, " · Event · Paris · Venue <A>");
+assert.equal(container.hidden, false);
+console.log("PASS: slide navigation, recording players, and map grouping by stable place references");

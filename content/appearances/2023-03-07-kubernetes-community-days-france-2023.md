@@ -11,7 +11,6 @@ id = "N8m0dP"
 talk = "kubectl-ca-se-prononce-comment-ca"
 event = "Kubernetes Community Days France 2023"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/N8m0dP/kubectl-ca-se-prononce-comment-ca"
 source_event_id = "ev_gEXB8k"
 source_published_on = "2023-03-07 08:00:00"
 resources = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 
 [[extra.feedback]]
 text = "@phrawzty félicitations pour la conf de se matin ! Simple / Léger / Efficace ! Juste parfait pendant une Keynote — Maxence Maireaux (@Flemzord) March 7, 2023"

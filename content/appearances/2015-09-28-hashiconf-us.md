@@ -11,7 +11,6 @@ id = "4balwD"
 talk = "genesis-terraforming-a-new-home-for-firefox-crash-reporter"
 event = "HashiConf US"
 event_url = ""
-location = "Portland, OR, USA"
 timezone = "America/Los_Angeles"
 virtual = false
 deck = ""
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/4balwD/genesis-terraforming-a-new-home-fo
 source_event_id = "ev_KXmjwb"
 source_published_on = "2015-09-28 08:00:00"
 resources = []
-latitude = 45.523062
-longitude = -122.676482
+place = "portland-us"
 
 [[extra.feedback]]
 text = "\"Knowing how things broke is good. Knowing how things *worked* is better.\" @phrawzty @jdotp telling true tales on stage at #hashiconf — Courtney Nash (@courtneynash) September 28, 2015"

@@ -11,7 +11,6 @@ id = "ukBpji"
 talk = "la-visibilite-a-100"
 event = "Google Cloud Summit Paris 2018"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "c9ae3632d4770f67702196c2f1c9142abbeec020af976330e31338e1ae95bd17"
@@ -21,8 +20,7 @@ source_event_id = "ev_7EAElK"
 source_published_on = "2018-06-05 13:00:00"
 resources = []
 feedback = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 +++
 
 <p>Avoir une visibilité complète de votre système et de ses applications semble être la seule façon d’éviter les problèmes tout en s’assurant une bonne résolution des pannes critiques. Mais comment identifier de potentiels angles morts? Comment s’assurer une observabilité totale? Avec un nombre croissant de projets et de services de monitoring en concurrence pour votre attention et votre business, comment concilier une observabilité totale avec un budget limité ?</p>

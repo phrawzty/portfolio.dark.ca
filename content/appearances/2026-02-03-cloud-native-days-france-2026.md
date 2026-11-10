@@ -11,7 +11,6 @@ id = "4F6mZi"
 talk = "tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native"
 event = "Cloud Native Days France 2026"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "dbf5f6e1de4513a9ca15191d2c2fe4ae9911b0b209b4ba3fccf4b863e4f4f22f"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/4F6mZi/tokyo-drift-containers-immuabilite
 source_event_id = "ev_k4mqD6"
 source_published_on = "2026-02-03 08:00:00"
 feedback = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 
 [[extra.resources]]
 title = "Programme blurb"

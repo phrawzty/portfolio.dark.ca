@@ -11,7 +11,6 @@ id = "isqcts"
 talk = "scaling-to-win-serving-unprecedented-customer-demand"
 event = "Scaling to Win: Serving Unprecedented Customer Demand"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = ""
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/isqcts/scaling-to-win-serving-unprecedent
 source_event_id = "ev_a5RA33"
 source_published_on = "2020-05-26 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Minisite"

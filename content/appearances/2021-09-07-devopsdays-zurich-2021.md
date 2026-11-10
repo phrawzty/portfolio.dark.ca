@@ -11,7 +11,6 @@ id = "Dc18kv"
 talk = "principles-of-observability-ignite"
 event = "DevOpsDays Zurich 2021"
 event_url = ""
-location = "Zürich, Switzerland"
 timezone = "Europe/Zurich"
 virtual = false
 deck = "f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/Dc18kv/principles-of-observability-ignite
 source_event_id = "ev_NI99vY"
 source_published_on = "2021-09-06 08:00:00"
 resources = []
-latitude = 47.376887
-longitude = 8.541694
+place = "zurich-ch"
 
 [[extra.feedback]]
 text = "@phrawzty on stage talking about Principles of Observability at @DevOpsZH #devopsdayszh #dodzh pic.twitter.com/k1hPbr6adw — Denys Vitali (@DenysVitali) September 7, 2021"

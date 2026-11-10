@@ -11,7 +11,6 @@ id = "WCWYWR"
 talk = "genesis-terraforming-a-new-home-for-firefox-crash-reporter"
 event = "Velocity Conference"
 event_url = ""
-location = "Amsterdam, Netherlands"
 timezone = "Europe/Amsterdam"
 virtual = false
 deck = ""
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/WCWYWR/genesis-terraforming-a-new-home-fo
 source_event_id = "ev_DG8XJF"
 source_published_on = "2015-10-28 08:00:00"
 feedback = []
-latitude = 52.370216
-longitude = 4.895168
+place = "amsterdam-nl"
 
 [[extra.resources]]
 title = "Event Listing"

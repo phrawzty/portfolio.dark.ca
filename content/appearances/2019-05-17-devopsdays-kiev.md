@@ -11,7 +11,6 @@ id = "2vdL0p"
 talk = "quickwhat-time-is-it"
 event = "DevOpsDays Kiev"
 event_url = ""
-location = "Kyiv, Ukraine, 02000"
 timezone = "Europe/Kiev"
 virtual = false
 deck = "4fc18c66f838a61a8b16a07c416760916e92e6af913c2776be483ffafcc2d45b"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/2vdL0p/quick-what-time-is-it"
 source_event_id = "ev_h3MFsd"
 source_published_on = "2019-05-18 08:00:00"
 feedback = []
-latitude = 50.4501
-longitude = 30.5234
+place = "kyiv-ua"
 
 [[extra.resources]]
 title = "Event Listing"

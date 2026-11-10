@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 <article><header class="appearance-header"><p class="eyebrow">{{ page.extra.event }}{% if page.draft %} · Draft{% endif %}</p><h1>{{ page.title }}</h1>
-<p class="muted"><time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format='%d %B %Y') }}</time> · {{ page.extra.location }}</p>
+<p class="muted"><time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format='%d %B %Y') }}</time> · {{ page.extra.resolved_location }}</p>
 {% if page.extra.event_url %}<a class="small" href="{{ page.extra.event_url }}">Event website ↗</a>{% endif %}</header>
 <div class="prose">{{ page.content | safe }}</div>
 {% if page.extra.deck %}{% include "partials/deck.html" %}{% endif %}

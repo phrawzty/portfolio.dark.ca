@@ -11,7 +11,6 @@ id = "9yWekH"
 talk = "better-reliability-through-slos"
 event = "Fique Em Casa Conf"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/9yWekH/better-reliability-through-slos"
 source_event_id = "ev_SwF9Bb"
 source_published_on = "2020-04-17 08:00:00"
 resources = []
+location_label = "Virtual"
 
 [[extra.feedback]]
 text = "Já estamos ao vivo com o sensacional @phrawzty ! Bora lá acompanhar esse talk que será foda! #FiqueEmCasaConf #VAIIII https://t.co/q1aKYfVYKS https://t.co/XSjV4kWEnq — Jeferson Fernando (@badtux_) April 17, 2020"

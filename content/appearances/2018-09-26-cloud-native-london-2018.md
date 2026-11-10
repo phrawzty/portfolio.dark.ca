@@ -11,7 +11,6 @@ id = "IQT1rJ"
 talk = "monitoring-kubernetes-follow-the-data"
 event = "Cloud Native London 2018"
 event_url = ""
-location = "London, UK"
 timezone = "Europe/London"
 virtual = false
 deck = "3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102"
@@ -19,8 +18,7 @@ recording_url = ""
 source_url = "https://speaking.dark.ca/IQT1rJ/monitoring-kubernetes-follow-the-data"
 source_event_id = "ev_UuRQsv"
 source_published_on = "2018-09-26 11:30:00"
-latitude = 51.507351
-longitude = -0.127758
+place = "london-gb"
 
 [[extra.resources]]
 title = "Event Listing"

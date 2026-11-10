@@ -11,7 +11,6 @@ id = "PCrTkq"
 talk = "when-geography-and-the-cloud-collide"
 event = "Hashicorp Cloud Operating Model Virtual Day"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "f55fe225a65afd8e119fdebeb806161c62a22c7698986174d380b546a26fe50e"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/PCrTkq/when-geography-and-the-cloud-colli
 source_event_id = "ev_0e7SDc"
 source_published_on = "2021-01-21 13:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Minisite"

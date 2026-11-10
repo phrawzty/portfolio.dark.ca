@@ -11,7 +11,6 @@ id = "LCZQmH"
 talk = "the-datadog-serverless-report-2020"
 event = "AWS Serverless EMEA Webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = ""
@@ -21,6 +20,7 @@ source_event_id = "ev_CP9xvS"
 source_published_on = "2020-06-18 08:00:00"
 resources = []
 feedback = []
+location_label = "Virtual"
 +++
 
 <p>As part of this AWS Serverless webinar, Daniel will dive into some of the findings from Datadog’s State of Serverless report.</p>

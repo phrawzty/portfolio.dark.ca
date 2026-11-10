@@ -11,7 +11,6 @@ id = "2Qn5yt"
 talk = "le-paysage-de-serverless-en-2021"
 event = "Serverless Days Paris 2021"
 event_url = "https://paris.serverlessdays.io"
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/2Qn5yt/le-paysage-de-serverless-en-2021"
 source_event_id = "ev_345Wmj"
 source_published_on = "2021-09-28 08:00:00"
 resources = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 
 [[extra.feedback]]
 text = "With the bigger story being serverless is mainstream and maturing. Great bunch of stats, thanks. @phrawzty ! @ServerlessParis — Julian Wood (@julian_wood) September 28, 2021"

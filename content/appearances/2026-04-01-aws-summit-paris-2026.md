@@ -11,7 +11,6 @@ id = "WWZEvd"
 talk = "aws-datadog-securiser-langle-mort-de-votre-pipeline"
 event = "AWS Summit Paris 2026"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "5986e15bdcc342723ff3c3f6fc3ea7e8dbd7af1e77e299cd31fd1cc063af9f64"
@@ -21,8 +20,7 @@ source_event_id = "ev_RlRWtZ"
 source_published_on = "2026-04-01 09:00:00"
 resources = []
 feedback = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 +++
 
 <p>Vous savez ce qui entre dans votre application ? Vraiment ?</p>

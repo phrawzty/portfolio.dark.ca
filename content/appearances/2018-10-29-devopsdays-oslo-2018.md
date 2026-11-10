@@ -11,7 +11,6 @@ id = "p9ZoLh"
 talk = "serverless-revealed"
 event = "DevOpsDays Oslo 2018"
 event_url = ""
-location = "Oslo, Norway"
 timezone = "Europe/Oslo"
 virtual = false
 deck = "9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/p9ZoLh/serverless-revealed"
 source_event_id = "ev_0zqGra"
 source_published_on = "2018-10-29 13:00:00"
 resources = []
-latitude = 59.913869
-longitude = 10.752245
+place = "oslo-no"
 
 [[extra.feedback]]
 text = "#devopsdays #devopsdaysoslo Daniel Maher @phrawzty is talking about #Docker #Kubernetes and their experience with it. Many new challeges ahead. pic.twitter.com/x3ogWU4SLT — TheNANDCat (@TheNANDCat) October 29, 2018"

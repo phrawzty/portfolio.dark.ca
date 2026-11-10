@@ -11,7 +11,7 @@
     const bounds = [];
     const groups = new Map();
     data.points.forEach((point) => {
-      const key = `${point.lat},${point.lng}`;
+      const key = point.place;
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(point);
     });
@@ -25,7 +25,8 @@
         const row = document.createElement("li");
         const link = document.createElement("a");
         link.href = appearance.url; link.textContent = appearance.title;
-        const event = document.createElement("span"); event.textContent = ` · ${appearance.event}`;
+        const event = document.createElement("span");
+        event.textContent = ` · ${appearance.event}${appearance.location_label !== appearance.location ? ` · ${appearance.location_label}` : ""}`;
         row.append(link, event); list.append(row);
       });
       node.append(list);

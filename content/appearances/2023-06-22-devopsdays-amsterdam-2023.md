@@ -11,7 +11,6 @@ id = "c3nEY5"
 talk = "devops-meditation-maybe"
 event = "DevOpsDays Amsterdam 2023"
 event_url = ""
-location = "Amsterdam, Netherlands"
 timezone = "Europe/Amsterdam"
 virtual = false
 deck = "4b45d5af8a9701ea7c671448c724578fb7cb6d4d45ed3b9fb659963c99510f57"
@@ -21,8 +20,7 @@ source_event_id = "ev_Znboz0"
 source_published_on = "2023-06-22 14:00:00"
 resources = []
 feedback = []
-latitude = 52.370216
-longitude = 4.895168
+place = "amsterdam-nl"
 +++
 
 <p>Are you a DevOps or Platform Engineer? Are you stressed out? Don’t worry—my 5-minute guided meditation is just what you need to relax.</p>

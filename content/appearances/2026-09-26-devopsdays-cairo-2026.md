@@ -11,7 +11,6 @@ id = "l9Lc4N"
 talk = "your-supply-chain-has-an-identity-problem"
 event = "DevOpsDays Cairo 2026"
 event_url = ""
-location = "Cairo, Cairo Governorate, Egypt"
 timezone = "Africa/Cairo"
 virtual = false
 deck = "fdae7fd794355931371c27ecf297e0b47c9f864aeb33bac97b70d27944b5d0ef"
@@ -21,8 +20,7 @@ source_event_id = "ev_9IynC4"
 source_published_on = "2026-09-26 08:00:00"
 resources = []
 feedback = []
-latitude = 30.04442
-longitude = 31.235712
+place = "cairo-eg"
 +++
 
 <p>The most prolific attacks of 2025 and 2026 (so far) have seen maintainers phished out of their accounts, worms spread through registries on their own, and malware hijack developers’ own AI coding agents. But underneath, they’re all the same attack: trusted identities abusing privileges faster than anyone can react. AI agents run through the whole story, because they’re the newest and least-governed identities most organizations have; however, the foundations of secrets, authentication, and pipeline hygiene only matter more in the agentic era, not less.</p>

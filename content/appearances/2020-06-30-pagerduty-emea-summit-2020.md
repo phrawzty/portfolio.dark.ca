@@ -11,7 +11,6 @@ id = "Zq12X5"
 talk = "modern-frameworks-for-modern-alerting"
 event = "PagerDuty EMEA Summit 2020"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/Zq12X5/modern-frameworks-for-modern-alert
 source_event_id = "ev_R2bZgG"
 source_published_on = "2020-06-30 08:00:00"
 resources = []
+location_label = "Virtual"
 
 [[extra.feedback]]
 text = "“The idea behind an error budget is that you’ve established what your acceptable level of errant behavior is and if you’re below it or above it, you behave differently.“ - @phrawzty , @datadoghq #PDSummitEMEA — PagerDuty (@pagerduty) June 30, 2020"

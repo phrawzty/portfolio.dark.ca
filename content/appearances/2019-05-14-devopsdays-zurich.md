@@ -11,7 +11,6 @@ id = "QbuX8Q"
 talk = "quickwhat-time-is-it"
 event = "DevOpsDays Zürich"
 event_url = ""
-location = "Zürich, Switzerland"
 timezone = "Europe/Zurich"
 virtual = false
 deck = "3d613c94f58decde7f7a56f95c1c956a54b286fcd5eb89fa3dbc912e0f3a1cd4"
@@ -19,8 +18,7 @@ recording_url = "https://vimeo.com/344513661?app_id=122963"
 source_url = "https://speaking.dark.ca/QbuX8Q/quick-what-time-is-it"
 source_event_id = "ev_6YiJJa"
 source_published_on = "2019-05-14 08:00:00"
-latitude = 47.376887
-longitude = 8.541694
+place = "zurich-ch"
 
 [[extra.resources]]
 title = "Event Listing"

@@ -11,7 +11,6 @@ id = "TrWhrC"
 talk = "panel-future-of-observability"
 event = "ObservabilityCon"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "bd1d7887ea5cd22f8a70199c1924b8782e06c9b9ca6afefab4233ff44d5b5844"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/TrWhrC/panel-future-of-observability"
 source_event_id = "ev_oqGDFo"
 source_published_on = "2020-10-29 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Video recording"

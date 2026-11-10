@@ -11,7 +11,6 @@ id = "tsnke2"
 talk = "where-are-we-going-and-how-did-we-get-here"
 event = "DevOpsDays Cape Town 2016"
 event_url = ""
-location = "Cape Town, South Africa"
 timezone = "Africa/Johannesburg"
 virtual = false
 deck = ""
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/tsnke2/where-are-we-going-and-how-did-we-
 source_event_id = "ev_KJ1r2h"
 source_published_on = "2016-11-07 11:00:00"
 feedback = []
-latitude = -33.924869
-longitude = 18.424055
+place = "cape-town-za"
 
 [[extra.resources]]
 title = "Event Listing"

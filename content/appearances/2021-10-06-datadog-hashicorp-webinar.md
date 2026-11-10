@@ -11,7 +11,6 @@ id = "DE8pT3"
 talk = "cloud-cost-optimisation-a-primer"
 event = "Datadog & HashiCorp webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/DE8pT3/cloud-cost-optimisation-a-primer"
 source_event_id = "ev_8m4zch"
 source_published_on = "2021-10-01 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Mini-site"

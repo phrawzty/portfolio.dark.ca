@@ -27,18 +27,12 @@ from PIL import Image
 import tomlkit
 from pypdf import PdfReader
 from portfolio.assets import AssetRepository
+from portfolio.errors import PortfolioError, UserCancelled
+from portfolio.locations import Locations, map_coordinates
 
 DEFAULT_ROOT = Path(__file__).resolve().parents[2]
 IDENTIFIER = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]*$")
 PAGE_LIMIT = 25 * 1024 * 1024
-
-
-class PortfolioError(ValueError):
-    pass
-
-
-class UserCancelled(Exception):
-    pass
 
 
 def prompt(prompt_text, default="", required=True):
@@ -124,6 +118,7 @@ class Portfolio:
         self.settings = tomllib.loads((self.root / "portfolio.toml").read_text())
         self.asset_dir = (self.root / self.settings.get("assets", {}).get("directory", "../assets.dark.ca/files")).resolve()
         self.asset_repository = AssetRepository(self)
+        self.locations = Locations(self.root, self.settings)
 
     def appearances(self, include_drafts=True):
         result = []
@@ -180,7 +175,7 @@ class Portfolio:
             raise PortfolioError("No talks yet. Choose 'New talk' or run 'portfolio new' first.")
         query = ""
         while True:
-            matches = [item for item in entries if query.casefold() in " ".join((str(item[1]["date"]), item[1]["title"], item[1]["extra"]["event"], item[1]["extra"]["location"])).casefold()]
+            matches = [item for item in entries if query.casefold() in " ".join((str(item[1]["date"]), item[1]["title"], item[1]["extra"]["event"], self.location_label(item[1]["extra"]))).casefold()]
             shown = matches[:10]
             print(("\nChoose a draft" if drafts_only else "\nChoose a talk") + (f" matching {query!r}" if query else "") + ":")
             for number, (_, meta, _) in enumerate(shown, 1):
@@ -270,6 +265,7 @@ class Portfolio:
                 number += 1
         destination = self.appearance_file_for(event_date, event)
         talk_id = identifier(args.talk or prior_extra.get("talk", slug(title)))
+        place = self.locations.resolve(location)
         talk_path = self.root / "content/talks" / (talk_id + ".md")
         if not talk_path.exists():
             talk_meta = tomlkit.document()
@@ -282,9 +278,11 @@ class Portfolio:
         meta = tomlkit.document()
         meta.update(title=title, date=event_date, draft=not args.publish, path=ident, template="appearance.html")
         extra = tomlkit.table()
-        extra.update(id=ident, talk=talk_id, event=event, event_url=args.event_url or "", location=location,
-                     virtual=location.casefold() in ("virtual", "online"),
+        extra.update(id=ident, talk=talk_id, event=event, event_url=args.event_url or "",
+                     virtual=place is None,
                      deck=prior_extra.get("deck", "") if args.reuse_slides else "", recording_url="")
+        if place is not None:
+            extra["place"] = place["id"]
         if args.timezone is not None:
             extra["timezone"] = args.timezone
         # Resources may be reused; reactions and recordings belong to their event.
@@ -437,38 +435,32 @@ class Portfolio:
         print(f"{ident} is now included in production builds. Commit and push when ready.")
 
     def places(self):
-        path = self.root / "data/places.toml"
-        return tomllib.loads(path.read_text()).get("place", []) if path.exists() else []
+        return self.locations.places()
+
+    def location_label(self, extra):
+        if extra.get("virtual"):
+            return extra.get("location_label") or "Online"
+        place = self.locations.get(extra.get("place"))
+        return extra.get("location_label") or place["name"]
 
     def coordinates(self, extra):
         if extra.get("virtual"):
             return None
-        if extra.get("latitude") is not None and extra.get("longitude") is not None:
-            return float(extra["latitude"]), float(extra["longitude"])
-        match = next((p for p in self.places() if p["name"].casefold() == extra.get("location", "").casefold()), None)
-        return (float(match["lat"]), float(match["lng"])) if match else None
+        place = self.locations.get(extra.get("place"))
+        return float(place["lat"]), float(place["lng"])
 
-    def place(self, name, map_url):
-        parsed = urlparse(map_url)
-        if parsed.hostname not in ("www.openstreetmap.org", "openstreetmap.org"):
-            raise PortfolioError("Use an OpenStreetMap link containing #map=zoom/latitude/longitude")
-        match = re.search(r"(?:^|&)map=[^/]+/(-?[\d.]+)/(-?[\d.]+)", parsed.fragment)
-        if not match:
-            raise PortfolioError("The map URL must include #map=zoom/latitude/longitude")
-        lat, lng = map(float, match.groups())
-        if not (-90 <= lat <= 90 and -180 <= lng <= 180):
-            raise PortfolioError("Invalid map coordinates")
-        path = self.root / "data/places.toml"
-        document = tomlkit.parse(path.read_text())
-        places = document.get("place", tomlkit.aot())
-        existing = next((p for p in places if p["name"].casefold() == name.casefold()), None)
-        entry = existing if existing is not None else tomlkit.table()
-        entry.update(name=name, lat=lat, lng=lng)
-        if existing is None:
-            places.append(entry)
-        document["place"] = places
-        path.write_text(tomlkit.dumps(document))
-        print(f"Saved {name}; matching appearances will be mapped automatically.")
+    def place(self, name, map_url=None, ident=None, latitude=None, longitude=None, country_code=None):
+        if map_url:
+            place = self.locations.save(name, *map_coordinates(map_url), ident=ident, country_code=country_code)
+        elif latitude is not None or longitude is not None:
+            place = self.locations.save(name, latitude, longitude, ident=ident, country_code=country_code)
+        else:
+            if ident or country_code:
+                raise PortfolioError("--id/--country-code require --map-url or --latitude and --longitude")
+            place = self.locations.resolve(name)
+        if place is None:
+            raise PortfolioError("Virtual appearances do not need a registry entry")
+        print(f"Saved {place['name']} as {place['id']}.")
 
     def verify_assets(self, deck, production=False):
         for item in deck["files"]:
@@ -489,7 +481,7 @@ class Portfolio:
 
     def validate_page(self, path, meta):
         extra = meta.get("extra", {})
-        for key in ("id", "talk", "event", "location"):
+        for key in ("id", "talk", "event"):
             if not extra.get(key):
                 raise PortfolioError(f"{path.name}: extra.{key} is required")
         if meta.get("path") != extra["id"]:
@@ -517,11 +509,20 @@ class Portfolio:
                 raise PortfolioError(f"{path.name}: feedback text is required")
             if feedback.get("url"):
                 validate_url(feedback["url"])
-        coords = self.coordinates(extra)
-        if coords and not (-90 <= coords[0] <= 90 and -180 <= coords[1] <= 180):
-            raise PortfolioError(f"{path.name}: invalid coordinates")
-        if (extra.get("latitude") is None) != (extra.get("longitude") is None):
-            raise PortfolioError(f"{path.name}: supply both latitude and longitude")
+        if any(key in extra for key in ("location", "latitude", "longitude")):
+            raise PortfolioError(f"{path.name}: use extra.place and optional extra.location_label; legacy location/coordinates are unsupported")
+        if "virtual" in extra and not isinstance(extra["virtual"], bool):
+            raise PortfolioError(f"{path.name}: extra.virtual must be a boolean")
+        if extra.get("virtual") and extra.get("place"):
+            raise PortfolioError(f"{path.name}: virtual appearances must not reference a place")
+        if not extra.get("virtual") and not extra.get("place"):
+            raise PortfolioError(f"{path.name}: extra.place is required for an in-person appearance")
+        if "location_label" in extra and (not isinstance(extra["location_label"], str) or not extra["location_label"].strip()):
+            raise PortfolioError(f"{path.name}: location_label must be nonempty text")
+        try:
+            self.coordinates(extra)
+        except PortfolioError as error:
+            raise PortfolioError(f"{path.name}: {error}") from error
 
     def check(self, production=False, *, report=False):
         context = "Reading talk metadata"
@@ -529,6 +530,8 @@ class Portfolio:
             scope = "production content and asset configuration" if production else "local portfolio, including drafts"
             print(f"Checking {scope}...", flush=True)
         try:
+            context = "Location registry (data/places.toml)"
+            self.places()
             appearances = self.appearances(include_drafts=not production)
             deck_owners = {}
             routes = {"", "appearances", "talks", "videos", "bio"}
@@ -545,7 +548,7 @@ class Portfolio:
                 if deck_id:
                     deck_owners.setdefault(deck_id, meta["title"] + " — " + meta["extra"]["event"])
             if report:
-                print(f"  OK  Required details, dates, timezones, URL formatting and unique page URLs ({len(appearances)} appearances)", flush=True)
+                print(f"  OK  Required details, places and coordinates, dates, timezones, URL formatting and unique page URLs ({len(appearances)} appearances)", flush=True)
                 print("  Checking slide references and editable notes...", flush=True)
             bundles = []
             for deck_id, owner in deck_owners.items():
@@ -635,8 +638,11 @@ class Portfolio:
         generated = staging / "content/generated"
         generated.mkdir()
         (generated / "_index.md").write_text('+++\nrender = false\ntransparent = true\n+++\n')
-        for _, meta, body in appearances:
+        for path, meta, body in appearances:
             extra = meta["extra"]
+            # Display values are derived in disposable staging, never duplicated in source.
+            extra["resolved_location"] = self.location_label(extra)
+            write_page(staging / path.relative_to(self.root), meta, body)
             for alias in meta.get("aliases", []):
                 redirects.append(f"/{alias.strip('/')} /{extra['id']}/ 301")
             if extra.get("deck"):
@@ -651,7 +657,9 @@ class Portfolio:
             coordinates = self.coordinates(extra)
             if coordinates:
                 points.append({"lat": coordinates[0], "lng": coordinates[1], "title": meta["title"],
-                               "event": extra["event"], "location": extra["location"], "url": "/" + extra["id"] + "/"})
+                               "event": extra["event"], "place": extra["place"],
+                               "location": self.locations.get(extra["place"])["name"],
+                               "location_label": self.location_label(extra), "url": "/" + extra["id"] + "/"})
         json_file(staging / "static/appearances-map.json", {"points": points, "tiles": self.settings.get("map", {}).get("tiles", ""), "attribution": self.settings.get("map", {}).get("attribution", "")})
         if len(redirects) > 2000:
             raise PortfolioError("Redirect rules exceed Pages' static-rule budget; move additional legacy paths to Bulk Redirects before deployment")
@@ -734,6 +742,7 @@ class Portfolio:
                 previous = current
                 try:
                     self.settings = tomllib.loads((root / "portfolio.toml").read_text())
+                    self.locations = Locations(root, self.settings)
                     self.build(local=True, base_url=url)
                     version[0] = time.time_ns()
                 except Exception as error:
@@ -817,9 +826,13 @@ def parser():
     notes.add_argument("appearance", nargs="?")
     publish = commands.add_parser("publish", help="Include an appearance in production builds (does not deploy)")
     publish.add_argument("appearance", nargs="?")
-    place = commands.add_parser("place", help="Save a new location from an OpenStreetMap link; no geocoding service required")
+    place = commands.add_parser("place", help="Select/add a speaking location, or maintain it using explicit coordinates")
     place.add_argument("name")
-    place.add_argument("--map-url", required=True)
+    place.add_argument("--map-url")
+    place.add_argument("--id", help="Stable ID to create or update (requires explicit coordinates)")
+    place.add_argument("--latitude", type=float)
+    place.add_argument("--longitude", type=float)
+    place.add_argument("--country-code", help="Two-letter country code for generating a new ID with explicit coordinates")
     check = commands.add_parser("check", help="Validate editable content, deck references, and immutable assets")
     check.add_argument("--production", action="store_true")
     build = commands.add_parser("build", help="Build the production site into public/ (no PDF processing or network access)")
@@ -937,7 +950,9 @@ def main(argv=None):
         elif args.command == "publish":
             project.publish(project.choose_appearance(args.appearance, drafts_only=True))
         elif args.command == "place":
-            project.place(args.name, args.map_url)
+            if args.map_url and (args.latitude is not None or args.longitude is not None):
+                raise PortfolioError("Use either --map-url or --latitude/--longitude")
+            project.place(args.name, args.map_url, args.id, args.latitude, args.longitude, args.country_code)
         elif args.command == "check":
             project.check(production=args.production, report=True)
         elif args.command == "build":

@@ -11,7 +11,6 @@ id = "glWuoa"
 talk = "facts-about-real-world-container-use"
 event = "Paris Container Day 2021"
 event_url = ""
-location = "Paris, France"
 timezone = "Europe/Paris"
 virtual = false
 deck = "e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/glWuoa/facts-about-real-world-container-u
 source_event_id = "ev_X2Aeg6"
 source_published_on = "2021-06-02 12:30:00"
 feedback = []
-latitude = 48.856614
-longitude = 2.352222
+place = "paris-fr"
 
 [[extra.resources]]
 title = "Conference Programme"

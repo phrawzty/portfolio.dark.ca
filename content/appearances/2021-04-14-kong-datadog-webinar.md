@@ -11,7 +11,6 @@ id = "e0VGDZ"
 talk = "kong-mesh-traffic-observability-with-datadog"
 event = "Kong & Datadog Webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "ca671722acab41c1b02873210eba55644979203d04349fd09652e1de40a96299"
@@ -20,6 +19,7 @@ source_url = "https://speaking.dark.ca/e0VGDZ/kong-mesh-traffic-observability-wi
 source_event_id = "ev_iuabpt"
 source_published_on = "2021-04-14 08:00:00"
 feedback = []
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Mini-site"

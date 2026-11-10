@@ -11,7 +11,6 @@ id = "RttifT"
 talk = "authz-as-a-dev-workflow-architecting-better-cloud-native-apps"
 event = "KubeCon + CloudNativeCon EU 2025"
 event_url = ""
-location = "London, UK"
 timezone = "Europe/London"
 virtual = false
 deck = "059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/RttifT/authz-as-a-dev-workflow-architecti
 source_event_id = "ev_1emkUy"
 source_published_on = "2025-04-04 15:15:00"
 feedback = []
-latitude = 51.507351
-longitude = -0.127758
+place = "london-gb"
 
 [[extra.resources]]
 title = "KubeCon Sched entry"

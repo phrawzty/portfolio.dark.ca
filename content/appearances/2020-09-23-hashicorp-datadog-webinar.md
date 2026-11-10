@@ -11,7 +11,6 @@ id = "y8vQqS"
 talk = "configure-observability-as-code-with-terraform-datadog"
 event = "Hashicorp & Datadog Webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = "c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0"
@@ -21,6 +20,7 @@ source_event_id = "ev_oWwc9v"
 source_published_on = "2020-09-23 08:00:00"
 resources = []
 feedback = []
+location_label = "Virtual"
 +++
 
 <p>Observability can reduce potential outages for modern application deployments. Tools like Datadog make it easier to gain visibility into these key metrics, but how do you ensure that all members of your organizations are implementing best practices at the provisioning stage? How do you ensure consistent observability across any environment?</p>

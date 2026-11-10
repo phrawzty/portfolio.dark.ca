@@ -11,7 +11,6 @@ id = "SHry3o"
 talk = "leveraging-hashicorp-consul-and-datadog-for-service-mesh-deployments"
 event = "Hashicorp & Datadog service mesh webinar"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = ""
@@ -21,6 +20,7 @@ source_event_id = "ev_iE3w4C"
 source_published_on = "2019-10-03 17:00:00"
 resources = []
 feedback = []
+location_label = "Virtual"
 +++
 
 <p>Service mesh is quickly becoming a standard for organizations making the transition to a microservice environment. As companies make this shift, there are three key considerations for deploying an effective service mesh: Networking, Observability, and Reliability. This webinar will focus in on the Observability component of service meshes, specifically tracing. Watch this webinar to learn how HashiCorp Consul and Datadog are collaborating to help users implement and monitor their service mesh deployments.</p>

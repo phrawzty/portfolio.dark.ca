@@ -11,7 +11,6 @@ id = "rv0yeb"
 talk = "principles-of-observability"
 event = "DevOpsDays Tel Aviv 2021"
 event_url = ""
-location = "Tel Aviv-Yafo, Israel"
 timezone = "Asia/Jerusalem"
 virtual = false
 deck = "39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/rv0yeb/principles-of-observability"
 source_event_id = "ev_G7DA85"
 source_published_on = "2021-11-24 11:00:00"
 resources = []
-latitude = 32.0853
-longitude = 34.781768
+place = "tel-aviv-yafo-il"
 
 [[extra.feedback]]
 text = "Good talk, good improvisation. I appreciated you tying observability back to first principles and control theory. Much to think about. — J Wolfgang Goerlich (@jwgoerlich) November 24, 2021"

@@ -11,7 +11,6 @@ id = "py9ABP"
 talk = "quickwhat-time-is-it"
 event = "DevOpsDays Portugal"
 event_url = "https://devopsdays.org/events/2019-portugal/"
-location = "Lisbon, Portugal"
 timezone = "Europe/Lisbon"
 virtual = false
 deck = "aba7a0eac341c852af4bbe5133fe21c9196a1caa3ee7840cfcc6ec90fa6a71a0"
@@ -19,8 +18,7 @@ recording_url = "https://www.youtube.com/watch?v=mEiaAu1w5HA&t=612s"
 source_url = "https://speaking.dark.ca/py9ABP/quick-what-time-is-it"
 source_event_id = "ev_EHin6q"
 source_published_on = "2019-06-03 15:30:00"
-latitude = 38.722252
-longitude = -9.139337
+place = "lisbon-pt"
 
 [[extra.resources]]
 title = "Event Listing"

@@ -32,6 +32,8 @@ def scaffold(root):
             if path.name != "_index.md":
                 path.unlink()
     (root / ".portfolio").mkdir(exist_ok=True)
+    # Test locations belong to the fixture, independently of the live registry.
+    (root / "data/places.toml").write_text('[[place]]\nid = "paris-fr"\nname = "Paris, France"\nlat = 48.856614\nlng = 2.352222\n')
 
 
 class WorkflowTests(unittest.TestCase):
@@ -86,7 +88,7 @@ class WorkflowTests(unittest.TestCase):
 
     def test_new_appearance_does_not_prompt_for_timezone(self):
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=[
-            "A living portfolio", "Example event", "2030-05-01", "Rio de Janeiro, RJ, Brazil",
+            "A living portfolio", "Example event", "2030-05-01", "Paris, France",
         ]) as prompt:
             self.call("new", "--id", "rio")
         self.assertEqual(prompt.call_count, 4)
@@ -95,6 +97,41 @@ class WorkflowTests(unittest.TestCase):
         self.assertNotIn("timezone", meta["extra"])
         self.project.validate_page(path, meta)
         self.project.build()
+
+    def test_place_references_and_labels_build_offline_without_source_duplication(self):
+        self.create("first", publish=True)
+        self.create("second", publish=True)
+        path, meta, body = self.project.appearance("second")
+        meta["extra"]["location_label"] = "Paris · Venue <A>"
+        write_page(path, meta, body)
+        self.project.locations.save("Paris, FR", 48.856614, 2.352222, "paris-fr")
+        with patch("portfolio.locations.urlopen", side_effect=AssertionError("Build must remain offline")):
+            self.project.build()
+        points = json.loads((self.root / "public/appearances-map.json").read_text())["points"]
+        self.assertEqual(len(points), 2)
+        self.assertEqual({p["place"] for p in points}, {"paris-fr"})
+        self.assertEqual({p["location"] for p in points}, {"Paris, FR"})
+        self.assertIn("Paris, FR", (self.root / "public/first/index.html").read_text())
+        self.assertIn("Paris · Venue &lt;A&gt;", (self.root / "public/second/index.html").read_text())
+        source, _ = read_page(path)
+        self.assertNotIn("resolved_location", source["extra"])
+
+    def test_hand_edited_invalid_locations_fail_checks_and_builds(self):
+        self.create(publish=True)
+        path, original, body = self.project.appearance("first")
+        for update in ({"place": "missing"}, {"place": ""}, {"latitude": 48}, {"location": "Paris"}, {"virtual": True}, {"virtual": "false"}, {"location_label": ""}):
+            with self.subTest(update=update):
+                meta, _ = read_page(path)
+                for key in ("place", "latitude", "location", "virtual", "location_label"):
+                    meta["extra"].pop(key, None)
+                meta["extra"].update(place="paris-fr", virtual=False)
+                meta["extra"].update(update)
+                write_page(path, meta, body)
+                with self.assertRaises(PortfolioError):
+                    self.project.check()
+                with self.assertRaises(PortfolioError):
+                    self.project.build()
+        write_page(path, original, body)
 
     def test_optional_timezone_is_preserved_and_validated(self):
         self.create()

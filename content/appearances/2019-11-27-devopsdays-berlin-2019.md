@@ -11,7 +11,6 @@ id = "G68Po8"
 talk = "quickwhat-time-is-it"
 event = "DevOpsDays Berlin 2019"
 event_url = ""
-location = "Berlin, Germany"
 timezone = "Europe/Berlin"
 virtual = false
 deck = "21f736e2f382e3c595d59f3f386ea5d5d93c1997cced4b95487717c291da636f"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/G68Po8/quick-what-time-is-it"
 source_event_id = "ev_1wroTC"
 source_published_on = "2019-11-27 13:00:00"
 resources = []
-latitude = 52.520007
-longitude = 13.404954
+place = "berlin-de"
 
 [[extra.feedback]]
 text = "First @phrawzty - quick, what time is it? Time: it's complicated. — Murali Suriar (@msuriar) November 27, 2019"

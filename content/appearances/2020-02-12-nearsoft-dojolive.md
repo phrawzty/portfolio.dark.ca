@@ -11,7 +11,6 @@ id = "ibH0k0"
 talk = "non-conventional-career-paths-in-tech"
 event = "Nearsoft DojoLIVE!"
 event_url = ""
-location = "Virtual"
 timezone = "GMT"
 virtual = true
 deck = ""
@@ -19,6 +18,7 @@ recording_url = "https://www.youtube.com/watch?v=oV7ghKjkYtw"
 source_url = "https://speaking.dark.ca/ibH0k0/non-conventional-career-paths-in-tech"
 source_event_id = "ev_69615h"
 source_published_on = "2020-02-12 08:00:00"
+location_label = "Virtual"
 
 [[extra.resources]]
 title = "Non-Conventional Career Paths in Tech"

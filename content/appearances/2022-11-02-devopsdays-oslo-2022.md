@@ -11,7 +11,6 @@ id = "MEZCHl"
 talk = "what-about-logs"
 event = "DevOpsDays Oslo 2022"
 event_url = ""
-location = "Oslo, Norway"
 timezone = "Europe/Oslo"
 virtual = false
 deck = "dc25e0421ec75151b05412bc0a6d97712f15e31782dd5adfc50283efd5c20471"
@@ -20,8 +19,7 @@ source_url = "https://speaking.dark.ca/MEZCHl/what-about-logs"
 source_event_id = "ev_RExF25"
 source_published_on = "2022-11-02 08:00:00"
 resources = []
-latitude = 59.913869
-longitude = 10.752245
+place = "oslo-no"
 
 [[extra.feedback]]
 text = "Great example from @phrawzty , using a receipt to explain logging and log message structure. Clear and concise! #devopsdaysoslo pic.twitter.com/NhgJWwVgYv — Eugene Romero (@theEugeneRomero) November 2, 2022"

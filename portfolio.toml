@@ -6,3 +6,7 @@ public_base_url = "https://raw.githubusercontent.com/phrawzty/assets.dark.ca/{re
 [map]
 tiles = "https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4jz5_1_bda2f8c0b12b1acd38167b70"
 attribution = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · © <a href="https://carto.com/attributions">CARTO</a>'
+
+# Used only when a human adds an unknown speaking location, never during builds.
+[geocoding]
+endpoint = "https://nominatim.openstreetmap.org/search"

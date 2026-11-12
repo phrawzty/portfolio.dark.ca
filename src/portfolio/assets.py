@@ -66,7 +66,30 @@ class AssetRepository:
                         checksum.update(block)
                 if checksum.hexdigest() == expected:
                     continue
-            raise AssetError(f"{key} is not in the recorded assets commit. Run 'portfolio assets publish' before pushing the portfolio.")
+            raise AssetError(f"{key} is not in the recorded assets commit. Run 'portfolio publish' to prepare and push the release.")
+
+    def required_paths(self):
+        return {"files/" + item["path"] for bundle in self.project.bundles(include_drafts=False)
+                for item in bundle["files"]}
+
+    def pending_paths(self):
+        """Return production assets whose local bytes are absent from the lock."""
+        tree = self.tree()
+        pending = set()
+        for relative in self.required_paths():
+            path = self.checkout / relative
+            expected = tree.get(relative)
+            if not expected or not path.is_file():
+                pending.add(relative)
+                continue
+            checksum = hashlib.new("sha1" if len(expected) == 40 else "sha256")
+            checksum.update(f"blob {path.stat().st_size}\0".encode())
+            with path.open("rb") as stream:
+                for block in iter(lambda: stream.read(1024 * 1024), b""):
+                    checksum.update(block)
+            if checksum.hexdigest() != expected:
+                pending.add(relative)
+        return pending
 
     def pdf_url(self, path):
         base = self.settings.get("public_base_url", "")
@@ -93,23 +116,27 @@ class AssetRepository:
             self.project.verify_assets(bundle, production=True)
         print("Assets checkout verified at " + revision[:12] + ". PDFs and images are ordinary Git files.")
 
-    def publish(self):
-        """Commit only referenced public files, push with normal Git, then pin them."""
+    def prepare(self):
+        """Commit pending public assets locally and pin the resulting revision."""
         if not (self.checkout / ".git").exists():
             raise AssetError("Clone the assets repository alongside this portfolio first")
         bundles = self.project.bundles(include_drafts=False)
-        paths = {"files/" + item["path"] for bundle in bundles for item in bundle["files"]}
+        paths = self.required_paths()
         for bundle in bundles:
             self.project.verify_assets(bundle)
         staged = set(self.git("diff", "--cached", "--name-only", "-z").decode().strip("\0").split("\0")) - {""}
         if staged - paths:
             raise AssetError("The assets repo has other staged changes. Commit or unstage those first; nothing was added or pushed.")
-        if paths:
+        pending = self.pending_paths()
+        if pending:
             self.git("add", "--pathspec-from-file=-", "--pathspec-file-nul",
-                     input=b"\0".join(path.encode() for path in sorted(paths)) + b"\0")
+                     input=b"\0".join(path.encode() for path in sorted(pending)) + b"\0")
         if self.git("diff", "--cached", "--name-only"):
-            self.git("commit", "-m", "Update public presentation assets")
-        self.git("push")
+            self.git("commit", "-m", "Update public presentation assets", "-m", "Prepared by portfolio publish.")
+        elif pending:
+            raise AssetError("Referenced assets differ from the lock but produced no Git changes")
+        else:
+            return None
         revision = self.git("rev-parse", "HEAD").decode().strip()
         self.lock_path.parent.mkdir(parents=True, exist_ok=True)
         temporary = self.lock_path.with_suffix(".tmp")
@@ -118,4 +145,18 @@ class AssetRepository:
         self._trees.clear()
         for bundle in bundles:
             self.verify_committed(bundle)
-        print("Assets committed and pushed at " + revision[:12] + ". Commit data/assets-lock.json with your portfolio changes.")
+        print("Prepared assets commit " + revision[:12] + ".")
+        return revision
+
+    def push(self):
+        self.git("push")
+
+    def publish(self):
+        """Recovery command: prepare and immediately push referenced assets."""
+        revision = self.prepare()
+        if revision is None:
+            print("Referenced assets already match data/assets-lock.json; nothing to push.")
+            return None
+        self.push()
+        print("Assets pushed at " + revision[:12] + ". Commit data/assets-lock.json with your portfolio changes.")
+        return revision

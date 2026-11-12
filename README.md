@@ -67,26 +67,15 @@ Open [localhost:1112](http://127.0.0.1:1112/). Drafts are included; changes rebu
 
 ## Publish
 
-Mark a draft ready using the menu or `uv run portfolio publish`.
-
-If assets changed, commit and push them first:
+Choose **Publish changes** from the menu, or run:
 
 ```sh
-uv run portfolio assets publish
+uv run portfolio publish
 ```
 
-This also updates `data/assets-lock.json` with the assets commit.
+Choose a draft, or choose current changes for edits to something already published. The command detects whether referenced assets changed and shows the plan. Confirm once; it then runs the production build, creates the necessary Git commits, pushes assets first when needed and pushes the portfolio to trigger deployment.
 
-Then build, commit and push the portfolio:
-
-```sh
-uv run portfolio build
-git add content data
-git commit
-git push
-```
-
-Add `notes/` too when slide notes changed. Pushing `main` triggers deployment. Text-only edits to published appearances need only the final build, commit and push.
+The lower-level `uv run portfolio assets publish` command is available for recovery, but is not part of the normal workflow.
 
 ## Hosting
 

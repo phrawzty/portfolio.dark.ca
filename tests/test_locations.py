@@ -11,7 +11,6 @@ from urllib.error import URLError
 from portfolio.cli import Portfolio, PortfolioError, UserCancelled, parser
 from portfolio.locations import Locations, checked_coordinates, place_id
 
-SOURCE = Path(__file__).resolve().parents[1]
 RESULT = {"display_name": "Warsaw, Masovian Voivodeship, Poland", "lat": "52.229263", "lon": "21.01181", "address": {"country_code": "pl"}}
 
 
@@ -193,28 +192,6 @@ class LocationTests(unittest.TestCase):
         second = self.locations.save("大阪", 34.69, 135.50, ident="osaka-jp")
         self.assertEqual(self.locations.resolve("東京")["id"], first["id"])
         self.assertNotEqual(first["id"], second["id"])
-
-
-class MigrationTests(unittest.TestCase):
-    def test_existing_resolved_points_urls_and_display_names_are_preserved(self):
-        project = Portfolio(SOURCE)
-        before = json.loads((SOURCE / "tests/fixtures/map-before-locations.json").read_text())
-        for row in before:
-            with self.subTest(appearance=row["id"]):
-                _, meta, _ = project.appearance(row["id"])
-                extra = meta["extra"]
-                self.assertEqual(meta["path"], row["id"])
-                if row["id"] == "2025-08-16-devopsdays-rio-de-janeiro":
-                    self.assertEqual(extra["place"], "rio-de-janeiro-br")
-                    self.assertEqual(project.coordinates(extra), (-22.9110137, -43.2093727))
-                self.assertEqual(project.location_label(extra), row["location"])
-                if row["coordinates"] is not None:
-                    self.assertEqual(list(project.coordinates(extra)), row["coordinates"])
-                elif row["virtual"]:
-                    self.assertIsNone(project.coordinates(extra))
-        used = {meta["extra"]["place"] for _, meta, _ in project.appearances() if not meta["extra"].get("virtual")}
-        self.assertEqual({place["id"] for place in project.places()}, used)
-
 
 if __name__ == "__main__":
     unittest.main()

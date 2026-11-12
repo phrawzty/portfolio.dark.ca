@@ -164,12 +164,6 @@ lat = 32.0853
 lng = 34.781768
 
 [[place]]
-id = "warsaw-pl"
-name = "Warsaw, Poland"
-lat = 52.229263
-lng = 21.01181
-
-[[place]]
 id = "zadar-hr"
 name = "Zadar, Croatia"
 lat = 44.119371

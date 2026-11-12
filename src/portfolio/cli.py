@@ -1,4 +1,4 @@
-"""Author appearances, process versioned decks, preview, and publish static assets."""
+"""Author appearances, process versioned decks, preview, and publish the portfolio."""
 from __future__ import annotations
 
 import argparse
@@ -161,7 +161,7 @@ class Portfolio:
             number += 1
         return path
 
-    def choose_appearance(self, value=None, *, drafts_only=False):
+    def choose_appearance(self, value=None, *, drafts_only=False, allow_none=False):
         if value:
             return self.appearance(value)[1]["extra"]["id"]
         if not sys.stdin.isatty():
@@ -170,6 +170,8 @@ class Portfolio:
         if drafts_only:
             entries = [item for item in entries if item[1].get("draft", False)]
         if not entries:
+            if drafts_only and allow_none:
+                return None
             if drafts_only:
                 raise UserCancelled("No drafts waiting for publication.")
             raise PortfolioError("No talks yet. Choose 'New talk' or run 'portfolio new' first.")
@@ -181,6 +183,8 @@ class Portfolio:
             for number, (_, meta, _) in enumerate(shown, 1):
                 draft = " · draft" if meta.get("draft") else ""
                 print(f"  {number}. {meta['title']} — {meta['extra']['event']} — {str(meta['date'])[:10]}{draft}")
+            if allow_none:
+                print("  0. Publish current changes without adding a draft")
             if len(matches) > len(shown):
                 print(f"  Showing {len(shown)} of {len(matches)}. Search to narrow the list.")
             if not shown:
@@ -188,6 +192,8 @@ class Portfolio:
             choice = input("Number, search text, or Enter to cancel: ").strip()
             if not choice or choice.casefold() in ("q", "quit"):
                 raise UserCancelled()
+            if allow_none and choice == "0":
+                return None
             if choice.isdigit() and 1 <= int(choice) <= len(shown):
                 return shown[int(choice) - 1][1]["extra"]["id"]
             query = choice
@@ -432,7 +438,7 @@ class Portfolio:
                     by_id[ident][key] = override[key]
         return deck
 
-    def publish(self, ident):
+    def mark_ready(self, ident):
         path, meta, body = self.appearance(ident)
         meta["draft"] = False
         # Validate before saving the public state.
@@ -444,7 +450,141 @@ class Portfolio:
         talk_meta, talk_body = read_page(talk_path)
         talk_meta["draft"] = False
         write_page(talk_path, talk_meta, talk_body)
-        print(f"{ident} is now included in production builds. Commit and push when ready.")
+        print(f"{ident} is ready for publication.")
+
+    def git(self, *args, cwd=None, input=None):
+        result = subprocess.run(["git", "-C", str(cwd or self.root), *args], input=input, capture_output=True)
+        if result.returncode:
+            message = result.stderr.decode().strip() or "Git command failed"
+            raise PortfolioError(message)
+        return result.stdout.decode()
+
+    def changed_paths(self):
+        paths = set()
+        for command in (("diff", "--name-only", "-z"),
+                        ("diff", "--cached", "--name-only", "-z"),
+                        ("ls-files", "--others", "--exclude-standard", "-z")):
+            paths.update(self.git(*command).strip("\0").split("\0"))
+        return paths - {""}
+
+    def require_publish_checkout(self, root, label, *, allow_prepared=False):
+        branch = self.git("branch", "--show-current", cwd=root).strip()
+        if branch != "main":
+            raise PortfolioError(f"{label} is on {branch or 'a detached HEAD'}, not main")
+        try:
+            upstream = self.git("rev-parse", "--abbrev-ref", "@{upstream}", cwd=root).strip()
+        except PortfolioError as error:
+            raise PortfolioError(f"{label} main has no upstream; configure origin/main first") from error
+        ahead, behind = map(int, self.git("rev-list", "--left-right", "--count", "HEAD...@{upstream}", cwd=root).split())
+        if behind:
+            raise PortfolioError(f"{label} main and {upstream} differ ({ahead} ahead, {behind} behind); synchronize them before publishing")
+        if ahead:
+            revisions = self.git("rev-list", "@{upstream}..HEAD", cwd=root).split()
+            prepared = all("Prepared by portfolio publish." in self.git("show", "-s", "--format=%B", revision, cwd=root)
+                           for revision in revisions)
+            if allow_prepared and prepared:
+                return self.git("rev-parse", "HEAD", cwd=root).strip()
+            raise PortfolioError(f"{label} main and {upstream} differ ({ahead} ahead, {behind} behind); synchronize them before publishing")
+        return None
+
+    def prepared_asset_revision(self):
+        revision = self.asset_repository.revision()
+        checkout = self.asset_repository.checkout
+        head = self.git("rev-parse", "HEAD", cwd=checkout).strip()
+        branch = self.git("branch", "--show-current", cwd=checkout).strip()
+        if head != revision or branch != "main":
+            return None
+        return self.require_publish_checkout(checkout, "Assets", allow_prepared=True)
+
+    def publish(self, ident=None, *, yes=False):
+        if not yes and not sys.stdin.isatty():
+            raise PortfolioError("Publishing pushes Git commits; run in a terminal or pass --yes")
+        prepared_portfolio = self.require_publish_checkout(self.root, "Portfolio", allow_prepared=True)
+        if prepared_portfolio:
+            if ident or self.changed_paths():
+                raise PortfolioError("A prepared portfolio release is waiting to be pushed; finish it before making another release")
+            asset_revision = self.prepared_asset_revision()
+            print("\nPrepared publish")
+            if asset_revision:
+                print("  Assets: " + asset_revision[:12])
+            print("  Portfolio: " + prepared_portfolio[:12])
+            if not yes and input("Push the prepared release? [y/N]: ").strip().casefold() not in ("y", "yes"):
+                print("Nothing was pushed.")
+                return
+            if asset_revision:
+                self.asset_repository.push()
+                print("Pushed assets " + asset_revision[:12] + ".")
+            self.git("push")
+            print("Pushed portfolio " + prepared_portfolio[:12] + ". Cloudflare deployment has been triggered.")
+            return
+        originals = {}
+        if ident:
+            path, meta, _ = self.appearance(ident)
+            talk = self.root / "content/talks" / (meta["extra"]["talk"] + ".md")
+            originals = {path: path.read_bytes(), talk: talk.read_bytes()}
+
+        def restore_draft():
+            for path, content in originals.items():
+                path.write_bytes(content)
+        try:
+            if ident:
+                self.mark_ready(ident)
+            self.check(production=True, committed_assets=False)
+            pending_assets = self.asset_repository.pending_paths()
+            prepared_assets = self.prepared_asset_revision() if not pending_assets else None
+            if pending_assets:
+                self.require_publish_checkout(self.asset_repository.checkout, "Assets")
+            changed = self.changed_paths()
+            allowed = {path for path in changed if path.split("/", 1)[0] in ("content", "data", "notes")}
+            unrelated = changed - allowed
+            if unrelated:
+                raise PortfolioError("Publish only handles content, data, and notes. Commit or set aside: " + ", ".join(sorted(unrelated)))
+        except (Exception, KeyboardInterrupt, EOFError):
+            restore_draft()
+            raise
+        if not allowed and not pending_assets and not prepared_assets:
+            print("Nothing to publish.")
+            return
+        print("\nPublish plan")
+        if ident:
+            print("  Draft: " + ident)
+        print(f"  Portfolio: {len(allowed)} changed file{'s' if len(allowed) != 1 else ''}")
+        if pending_assets:
+            print(f"  Assets: {len(pending_assets)} referenced file{'s' if len(pending_assets) != 1 else ''} need publication")
+        elif prepared_assets:
+            print("  Assets: prepared commit " + prepared_assets[:12] + " is waiting to be pushed")
+        else:
+            print("  Assets: unchanged")
+        if not yes:
+            try:
+                confirmed = input("Build, commit, and push these changes? [y/N]: ").strip().casefold() in ("y", "yes")
+            except (KeyboardInterrupt, EOFError):
+                restore_draft()
+                raise
+            if not confirmed:
+                restore_draft()
+                print("Nothing was committed or pushed.")
+                return
+        asset_revision = self.asset_repository.prepare() if pending_assets else prepared_assets
+        self.build()
+        changed = self.changed_paths()
+        for directory in ("content", "data", "notes"):
+            if any(path == directory or path.startswith(directory + "/") for path in changed):
+                self.git("add", "-A", "--", directory)
+        if not self.git("diff", "--cached", "--name-only").strip():
+            raise PortfolioError("The production build passed, but there are no portfolio changes to commit")
+        if ident:
+            event = self.appearance(ident)[1]["extra"]["event"]
+            message = "Publish " + event
+        else:
+            message = "Update speaking portfolio"
+        self.git("commit", "-m", message, "-m", "Prepared by portfolio publish.")
+        portfolio_revision = self.git("rev-parse", "HEAD").strip()
+        if asset_revision:
+            self.asset_repository.push()
+            print("Pushed assets " + asset_revision[:12] + ".")
+        self.git("push")
+        print("Pushed portfolio " + portfolio_revision[:12] + ". Cloudflare deployment has been triggered.")
 
     def places(self):
         return self.locations.places()
@@ -536,7 +676,7 @@ class Portfolio:
         except PortfolioError as error:
             raise PortfolioError(f"{path.name}: {error}") from error
 
-    def check(self, production=False, *, report=False):
+    def check(self, production=False, *, report=False, committed_assets=True):
         context = "Reading talk metadata"
         if report:
             scope = "production content and asset configuration" if production else "local portfolio, including drafts"
@@ -585,7 +725,7 @@ class Portfolio:
             files = {}
             for owner, bundle in bundles:
                 context = "Assets for " + owner
-                self.verify_assets(bundle, production=production)
+                self.verify_assets(bundle, production=production and committed_assets)
                 for item in bundle["files"]:
                     files[item["path"]] = item
             if report:
@@ -839,8 +979,9 @@ def parser():
     recording.add_argument("url", nargs="?")
     notes = commands.add_parser("notes", help="Edit slide titles/transcriptions in TOML, preserving immutable PDF versions")
     notes.add_argument("appearance", nargs="?")
-    publish = commands.add_parser("publish", help="Include an appearance in production builds (does not deploy)")
-    publish.add_argument("appearance", nargs="?")
+    publish = commands.add_parser("publish", help="Publish an optional draft and all ready portfolio changes")
+    publish.add_argument("appearance", nargs="?", help="Draft Markdown path or ID; otherwise choose interactively")
+    publish.add_argument("--yes", action="store_true", help="Build, commit, and push without confirmation")
     place = commands.add_parser("place", help="Select/add a speaking location, or maintain it using explicit coordinates")
     place.add_argument("name")
     place.add_argument("--map-url")
@@ -855,9 +996,9 @@ def parser():
     preview = commands.add_parser("preview", help="Preview drafts with automatic rebuild and reload")
     preview.add_argument("--port", type=int, default=1112)
     commands.add_parser("doctor", help="Check the required local tools")
-    assets = commands.add_parser("assets", help="Commit and push assets with Git, or clone the pinned checkout")
+    assets = commands.add_parser("assets", help="Recover or initialize the lower-level assets checkout")
     actions = assets.add_subparsers(dest="asset_action", required=True)
-    upload = actions.add_parser("publish", help="Commit and push public assets, then record their Git revision")
+    upload = actions.add_parser("publish", help="Recovery: commit and push public assets, then record their Git revision")
     fetch = actions.add_parser("fetch", help="Clone and verify the assets commit required by this portfolio")
     return cli
 
@@ -895,10 +1036,9 @@ def interactive_menu(project):
               "  5. Add a recording\n"
               "  6. Edit slide notes\n"
               "  7. Preview the site\n"
-              "  8. Mark a draft ready for publication\n"
+              "  8. Publish changes\n"
               "  9. Check the portfolio\n"
               "  10. Remove a cancelled appearance\n"
-              "  11. Commit and push public assets\n"
               "  q. Quit")
         choice = input("Choose an action: ").strip().casefold()
         try:
@@ -919,13 +1059,12 @@ def interactive_menu(project):
             elif choice == "7":
                 project.preview(1112)
             elif choice == "8":
-                project.publish(project.choose_appearance(drafts_only=True))
+                ident = project.choose_appearance(drafts_only=True, allow_none=True)
+                project.publish(ident)
             elif choice == "9":
                 project.check(report=True)
             elif choice == "10":
                 project.remove(project.choose_appearance())
-            elif choice == "11":
-                project.asset_repository.publish()
             else:
                 print("Choose a number from the menu, or q to quit.")
         except UserCancelled as error:
@@ -968,7 +1107,10 @@ def main(argv=None):
         elif args.command == "notes":
             project.notes(project.choose_appearance(args.appearance))
         elif args.command == "publish":
-            project.publish(project.choose_appearance(args.appearance, drafts_only=True))
+            ident = args.appearance
+            if ident is None and sys.stdin.isatty():
+                ident = project.choose_appearance(drafts_only=True, allow_none=True)
+            project.publish(ident, yes=args.yes)
         elif args.command == "place":
             if args.map_url and (args.latitude is not None or args.longitude is not None):
                 raise PortfolioError("Use either --map-url or --latitude/--longitude")

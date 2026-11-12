@@ -86,6 +86,29 @@ class WorkflowTests(unittest.TestCase):
                   "--date", "2030-05-01", "--location", "Paris, France", "--timezone", "Europe/Paris",
                   *(["--publish"] if publish else []))
 
+    def initialize_publish_repositories(self):
+        remotes = self.root / ".test-remotes"
+        remotes.mkdir()
+        portfolio_remote = remotes / "portfolio.git"
+        assets_remote = remotes / "assets.git"
+        for remote in (portfolio_remote, assets_remote):
+            remote.mkdir()
+            subprocess.run(["git", "-C", str(remote), "init", "--bare", "-q"], check=True)
+
+        subprocess.run(["git", "-C", str(self.root), "init", "-b", "main", "-q"], check=True)
+        (self.root / ".git/info/exclude").write_text(".portfolio/\npublic/\nassets-repo/\n.test-remotes/\n")
+        for key, value in (("user.name", "Portfolio test"), ("user.email", "portfolio@example.invalid")):
+            subprocess.run(["git", "-C", str(self.root), "config", key, value], check=True)
+        subprocess.run(["git", "-C", str(self.root), "add", "."], check=True)
+        subprocess.run(["git", "-C", str(self.root), "commit", "-qm", "Portfolio baseline"], check=True)
+        subprocess.run(["git", "-C", str(self.root), "remote", "add", "origin", str(portfolio_remote)], check=True)
+        subprocess.run(["git", "-C", str(self.root), "push", "-qu", "origin", "main"], check=True)
+
+        assets = self.project.asset_repository.checkout
+        subprocess.run(["git", "-C", str(assets), "remote", "add", "origin", str(assets_remote)], check=True)
+        subprocess.run(["git", "-C", str(assets), "push", "-qu", "origin", "main"], check=True)
+        return portfolio_remote, assets_remote
+
     def test_new_appearance_does_not_prompt_for_timezone(self):
         with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=[
             "A living portfolio", "Example event", "2030-05-01", "Paris, France",
@@ -164,7 +187,7 @@ class WorkflowTests(unittest.TestCase):
             self.assertEqual(self.project.choose_appearance(), "Legacy42")
         self.call("recording", str(renamed.relative_to(self.project.root)), "https://example.com/recording")
         self.call("slides", "Legacy42", str(SOURCE / "tests/fixtures/deck-v1.pdf"))
-        self.call("publish", "Legacy42")
+        self.project.mark_ready("Legacy42")
         self.project.build()
         public = self.root / "public"
         self.assertTrue((public / "Legacy42/index.html").exists())
@@ -236,7 +259,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertFalse((self.root / "public/first").exists())
         self.assertNotIn("A living portfolio", (self.root / "public/index.html").read_text())
         self.assertNotIn("A living portfolio", (self.root / "public/talks/index.html").read_text())
-        self.call("publish", "first")
+        self.project.mark_ready("first")
         self.project.build()
         self.assertTrue((self.root / "public/first/index.html").exists())
 
@@ -498,18 +521,97 @@ class WorkflowTests(unittest.TestCase):
         meta["title"] = "Already published talk"
         write_page(path, meta, body)
         output = io.StringIO()
-        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["8", "1", "q"]), contextlib.redirect_stdout(output):
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=["8", "1", "q"]), patch.object(Portfolio, "publish") as publish, contextlib.redirect_stdout(output):
             self.assertEqual(main(["--root", str(self.root)]), 0)
         self.assertIn("Choose a draft", output.getvalue())
         self.assertNotIn("Already published talk", output.getvalue())
-        self.assertFalse(read_page(self.project.appearance("draft")[0])[0]["draft"])
+        publish.assert_called_once_with("draft")
 
-    def test_publication_with_no_drafts_returns_without_asking_for_a_selection(self):
+    def test_publication_with_no_drafts_publishes_current_changes(self):
         self.create(publish=True)
-        output = io.StringIO()
-        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=AssertionError("There is nothing to choose")), contextlib.redirect_stdout(output):
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", side_effect=AssertionError("There is nothing to choose")), patch.object(Portfolio, "publish") as publish:
             self.assertEqual(main(["--root", str(self.root), "publish"]), 0)
-        self.assertIn("No drafts waiting for publication", output.getvalue())
+        publish.assert_called_once_with(None, yes=False)
+
+    def test_publish_marks_a_draft_builds_commits_and_pushes(self):
+        self.create("draft")
+        portfolio_remote, _ = self.initialize_publish_repositories()
+        self.call("publish", "draft", "--yes")
+        self.assertFalse(read_page(self.project.appearance("draft")[0])[0]["draft"])
+        local = subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip()
+        remote = subprocess.check_output(["git", "--git-dir", str(portfolio_remote), "rev-parse", "main"]).decode().strip()
+        subject = subprocess.check_output(["git", "-C", str(self.root), "log", "-1", "--format=%s"]).decode().strip()
+        self.assertEqual(local, remote)
+        self.assertEqual(subject, "Publish Example event")
+        self.assertTrue((self.root / "public/draft/index.html").exists())
+
+    def test_publish_existing_text_skips_assets(self):
+        self.create("published", publish=True)
+        portfolio_remote, _ = self.initialize_publish_repositories()
+        assets_before = subprocess.check_output(["git", "-C", str(self.project.asset_repository.checkout), "rev-parse", "HEAD"]).decode().strip()
+        path, meta, body = self.project.appearance("published")
+        meta["title"] = "A corrected title"
+        write_page(path, meta, body)
+        self.call("publish", "--yes")
+        portfolio_head = subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip()
+        remote_head = subprocess.check_output(["git", "--git-dir", str(portfolio_remote), "rev-parse", "main"]).decode().strip()
+        assets_after = subprocess.check_output(["git", "-C", str(self.project.asset_repository.checkout), "rev-parse", "HEAD"]).decode().strip()
+        self.assertEqual(portfolio_head, remote_head)
+        self.assertEqual(assets_before, assets_after)
+        self.assertEqual(subprocess.check_output(["git", "-C", str(self.root), "log", "-1", "--format=%s"]).decode().strip(), "Update speaking portfolio")
+
+    def test_publish_detects_and_pushes_referenced_assets_first(self):
+        self.create("published", publish=True)
+        portfolio_remote, assets_remote = self.initialize_publish_repositories()
+        asset = self.project.asset_dir / "speaker/publish-test.jpg"
+        asset.parent.mkdir(parents=True, exist_ok=True)
+        asset.write_bytes(b"new published headshot")
+        bundle = {"files": [{"path": "speaker/publish-test.jpg", "bytes": asset.stat().st_size, "sha256": sha256(asset)}]}
+        (self.root / "data/site-assets.json").write_text(json.dumps(bundle))
+        self.call("publish", "--yes")
+        locked = json.loads((self.root / "data/assets-lock.json").read_text())["revision"]
+        assets_remote_head = subprocess.check_output(["git", "--git-dir", str(assets_remote), "rev-parse", "main"]).decode().strip()
+        portfolio_remote_head = subprocess.check_output(["git", "--git-dir", str(portfolio_remote), "rev-parse", "main"]).decode().strip()
+        self.assertEqual(locked, assets_remote_head)
+        self.assertEqual(portfolio_remote_head, subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip())
+        self.assertIn("speaker/publish-test.jpg", subprocess.check_output(["git", "--git-dir", str(assets_remote), "ls-tree", "-r", "--name-only", "main"]).decode())
+
+    def test_publish_decline_leaves_changes_uncommitted_and_unpushed(self):
+        self.create("published", publish=True)
+        portfolio_remote, _ = self.initialize_publish_repositories()
+        before = subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip()
+        path, meta, body = self.project.appearance("published")
+        meta["title"] = "A corrected title"
+        write_page(path, meta, body)
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value="n"):
+            self.assertEqual(main(["--root", str(self.root), "publish"]), 0)
+        self.assertEqual(subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip(), before)
+        self.assertEqual(subprocess.check_output(["git", "--git-dir", str(portfolio_remote), "rev-parse", "main"]).decode().strip(), before)
+        self.assertIn("A corrected title", path.read_text())
+
+    def test_publish_decline_restores_selected_draft(self):
+        self.create("draft")
+        self.initialize_publish_repositories()
+        before = self.project.appearance("draft")[0].read_bytes()
+        with patch("sys.stdin.isatty", return_value=True), patch("builtins.input", return_value="n"):
+            self.assertEqual(main(["--root", str(self.root), "publish", "draft"]), 0)
+        self.assertEqual(self.project.appearance("draft")[0].read_bytes(), before)
+        self.assertTrue(read_page(self.project.appearance("draft")[0])[0]["draft"])
+
+    def test_publish_resumes_a_prepared_commit_after_push_failure(self):
+        self.create("published", publish=True)
+        portfolio_remote, _ = self.initialize_publish_repositories()
+        path, meta, body = self.project.appearance("published")
+        meta["title"] = "A corrected title"
+        write_page(path, meta, body)
+        subprocess.run(["git", "-C", str(self.root), "remote", "set-url", "origin", str(self.root / "missing-remote.git")], check=True)
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(main(["--root", str(self.root), "publish", "--yes"]), 1)
+        self.assertEqual(subprocess.check_output(["git", "-C", str(self.root), "rev-list", "--count", "@{upstream}..HEAD"]).decode().strip(), "1")
+        subprocess.run(["git", "-C", str(self.root), "remote", "set-url", "origin", str(portfolio_remote)], check=True)
+        self.call("publish", "--yes")
+        self.assertEqual(subprocess.check_output(["git", "-C", str(self.root), "rev-parse", "HEAD"]).decode().strip(),
+                         subprocess.check_output(["git", "--git-dir", str(portfolio_remote), "rev-parse", "main"]).decode().strip())
 
     def test_check_report_explains_success_scope_and_draft_counts(self):
         self.create("draft")

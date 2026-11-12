@@ -97,7 +97,7 @@ portfolio.dark.ca is Active with SSL enabled. Source `65eb37d` deployed automati
 - [x] Keep this file as the actual launch progress record; distinguish local tests from hosted acceptance checks.
 - [x] Separate migration history/backup details from normal website maintenance.
 - [x] Apply the README drafts approved by Daniel on 2026-11-06 to both repositories. Consolidate the portfolio's authoring and deployment guides into its README and remove those separate guides.
-- [ ] Revisit both READMEs for fitness and purpose after everyday use: [portfolio issue #2](https://github.com/phrawzty/portfolio.dark.ca/issues/2).
+- [x] Revisit both READMEs for fitness and purpose after everyday use: [portfolio issue #2](https://github.com/phrawzty/portfolio.dark.ca/issues/2).
 
 ## 8. Migration and local cleanup — Daniel decides; Codex can execute
 

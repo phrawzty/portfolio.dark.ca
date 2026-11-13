@@ -1,9 +1,0 @@
-id = "ev_8m4zch"
-title = "Datadog & HashiCorp webinar"
-slug = "datadog-hashicorp-webinar"
-starts_on = "2021-10-06 08:00:00"
-ends_on = "2021-10-06 18:00:00"
-timezone = "GMT"
-address = "Virtual"
-
-[blurb]

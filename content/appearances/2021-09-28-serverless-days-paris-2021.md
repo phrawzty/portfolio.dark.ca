@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "957aa006a61479d0cda0fca7f1bb40c4230a719836fc2d55f9e9f844db13b2e4"
 recording_url = ""
-source_url = "https://speaking.dark.ca/2Qn5yt/le-paysage-de-serverless-en-2021"
-source_event_id = "ev_345Wmj"
-source_published_on = "2021-09-28 08:00:00"
 resources = []
 place = "paris-fr"
 

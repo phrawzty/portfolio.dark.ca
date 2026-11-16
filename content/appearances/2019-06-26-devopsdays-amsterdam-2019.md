@@ -15,9 +15,6 @@ timezone = "Europe/Amsterdam"
 virtual = false
 deck = "b51cc1a8f9a4ef89710dcc04fd4b33532e4ce95798d68a2e22a889ec18670d54"
 recording_url = ""
-source_url = "https://speaking.dark.ca/fFM8tE/public-speaking-for-technologists"
-source_event_id = "ev_YOOyni"
-source_published_on = "2019-06-27 08:00:00"
 feedback = []
 place = "amsterdam-nl"
 

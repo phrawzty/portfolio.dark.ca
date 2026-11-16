@@ -1,9 +1,0 @@
-id = "ev_Sz3sRZ"
-title = "Datadog SRE Panel"
-slug = "datadog-sre-panel"
-starts_on = "2020-10-29 08:00:00"
-ends_on = "2020-10-29 18:00:00"
-timezone = "GMT"
-address = "Virtual"
-
-[blurb]

@@ -15,9 +15,6 @@ timezone = "America/Los_Angeles"
 virtual = false
 deck = "d9cb1e4d3aa1de36d631ac039034b31bba83aa34d33f37c848c61cf46b00066f"
 recording_url = "https://www.youtube.com/watch?v=58TK8dozYUc"
-source_url = "https://speaking.dark.ca/WMijEM/more-than-rubber-on-the-road-tires-in-an-iot-world"
-source_event_id = "ev_YAiqDl"
-source_published_on = "2019-12-04 13:00:00"
 resources = []
 feedback = []
 place = "las-vegas-us"

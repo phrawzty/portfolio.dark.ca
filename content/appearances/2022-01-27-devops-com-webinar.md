@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "86fb6eee8e5b97f4ea1c32b5ffa40d0725e104c48cf793437335a657f3cfd60e"
 recording_url = "https://www.youtube.com/watch?v=ZxboM4-VTrc"
-source_url = "https://speaking.dark.ca/ARNBw1/real-time-container-monitoring-best-practices"
-source_event_id = "ev_PHQBwp"
-source_published_on = "2022-01-17 08:00:00"
 feedback = []
 location_label = "Virtual"
 

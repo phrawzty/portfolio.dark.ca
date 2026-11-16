@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "f2bf074a04da211e0b69a7e5f2cd5cbd991d442f9ecd00fb7415dd5c1f32e209"
 recording_url = "https://www.youtube.com/watch?v=JOFYhFbrsK8"
-source_url = "https://speaking.dark.ca/9yWekH/better-reliability-through-slos"
-source_event_id = "ev_SwF9Bb"
-source_published_on = "2020-04-17 08:00:00"
 resources = []
 location_label = "Virtual"
 

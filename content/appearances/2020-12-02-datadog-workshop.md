@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = ""
 recording_url = ""
-source_url = "https://speaking.dark.ca/w7uPtA/datadog-101"
-source_event_id = "ev_ksmtXD"
-source_published_on = "2020-12-02 17:00:00"
 location_label = "Virtual"
 
 [[extra.resources]]

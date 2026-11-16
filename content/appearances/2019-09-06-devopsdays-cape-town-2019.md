@@ -15,9 +15,6 @@ timezone = "Africa/Johannesburg"
 virtual = false
 deck = "c92aecbe13fdcf7a5fa5a3ff53279de4cc2c1f4caefec447b3f95d2d0bb17e21"
 recording_url = "https://www.youtube.com/watch?v=vvnt_KQUa-0"
-source_url = "https://speaking.dark.ca/6hAV5U/what-mma-taught-me-about-working-in-tech"
-source_event_id = "ev_sfHLCV"
-source_published_on = "2019-09-09 08:00:00"
 place = "cape-town-za"
 
 [[extra.resources]]

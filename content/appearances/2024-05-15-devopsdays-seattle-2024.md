@@ -15,9 +15,6 @@ timezone = "America/Los_Angeles"
 virtual = false
 deck = "292e52f508ca04b3d2ddb184fff5f5e0bdedc6f810b028bba74c423b0b168c49"
 recording_url = "https://www.youtube.com/watch?v=A6TPHT5F-_Q&t=44s"
-source_url = "https://speaking.dark.ca/FaNDFx/the-open-source-baggage-we-carry"
-source_event_id = "ev_p31OJW"
-source_published_on = "2024-05-14 08:00:00"
 resources = []
 feedback = []
 place = "seattle-us"

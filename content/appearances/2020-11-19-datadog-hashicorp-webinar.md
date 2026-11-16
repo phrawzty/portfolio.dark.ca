@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "85c05ec5d7d7a24515b2c5b14fad8148a698159a2581407b4af4a863380aafe1"
 recording_url = ""
-source_url = "https://speaking.dark.ca/FE566O/debugging-in-the-cloud-with-datadog-and-hashicorp"
-source_event_id = "ev_aCobV0"
-source_published_on = "2020-11-19 08:00:00"
 feedback = []
 location_label = "Virtual"
 

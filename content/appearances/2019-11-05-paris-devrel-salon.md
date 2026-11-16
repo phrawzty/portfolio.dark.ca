@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "7203cc006697d30052162b1dd9da94450acb84c3d28c8945e2a9b0be08ef4b6a"
 recording_url = ""
-source_url = "https://speaking.dark.ca/Lsgaq5/goodies-ideas-ethics"
-source_event_id = "ev_1dYDNJ"
-source_published_on = "2019-11-05 20:00:00"
 feedback = []
 place = "paris-fr"
 

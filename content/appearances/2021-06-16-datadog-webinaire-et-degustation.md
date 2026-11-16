@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "b0937b17fa3df07729f84f98c6e4541df418216139f28eeae232faa40bc8ea51"
 recording_url = ""
-source_url = "https://speaking.dark.ca/Litvq3/la-demystification-des-pratiques-devops-et-sre"
-source_event_id = "ev_8XK6in"
-source_published_on = "2021-06-16 23:00:00"
 feedback = []
 location_label = "Virtual"
 

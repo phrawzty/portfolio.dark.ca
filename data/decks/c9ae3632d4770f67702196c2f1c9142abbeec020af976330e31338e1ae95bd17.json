@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "#GoogleCloudSummit @GoogleCloud_FR",
-      "title": "",
-      "original_description_html": "<p>#GoogleCloudSummit @GoogleCloud_FR</p>\n"
+      "title": ""
     },
     {
       "id": "mqktVA",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "La visibilité à 100 % Daniel Maher (@phrawzty) Datadog (@datadoghq)",
-      "title": "",
-      "original_description_html": "<p>La visibilité à 100 % Daniel Maher (@phrawzty) Datadog (@datadoghq)</p>\n"
+      "title": ""
     },
     {
       "id": "PAThNZ",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "La perspective est importante Les fameux « cylindres ambigus » de l’artist japonais Kokichi Sugihara.",
-      "title": "",
-      "original_description_html": "<p>La perspective est importante Les fameux « cylindres ambigus » de l’artist japonais Kokichi Sugihara.</p>\n"
+      "title": ""
     },
     {
       "id": "1UCVFy",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher Developer Relations chez Datadog @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Daniel Maher Developer Relations chez Datadog @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "dnvJ8N",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "● Platforme « SaaS » de monitoring, métriques, APM, logs… ● Des millions de milliards de points de données par jour ● Bon citoyens libre logiciels ● Nous embauchons ! http://datadoghq.com/careers ● @datadoghq",
-      "title": "",
-      "original_description_html": "<p>●\nPlatforme « SaaS » de monitoring, métriques, APM, logs…\n●\nDes millions de milliards de points de données par jour\n●\nBon citoyens libre logiciels\n●\nNous embauchons ! http://datadoghq.com/careers\n●\n@datadoghq</p>\n"
+      "title": ""
     },
     {
       "id": "G7e70m",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Le « Stack » Vue traditionnelle de l’organisation des diverses « couches » d’un service.",
-      "title": "",
-      "original_description_html": "<p>Le « Stack » Vue traditionnelle de l’organisation des diverses « couches » d’un service.</p>\n"
+      "title": ""
     },
     {
       "id": "sRMutB",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Repenser le « stack »",
-      "title": "",
-      "original_description_html": "<p>Repenser le « stack »</p>\n"
+      "title": ""
     },
     {
       "id": "Ul5ila",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Pratique afin de déterminer des tendances. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ».",
-      "title": "",
-      "original_description_html": "<p>Récupérons quoi, alors ?\nMétriques Pratique afin de déterminer des tendances. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ».</p>\n"
+      "title": ""
     },
     {
       "id": "74oWdz",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Traçage Pratique afin de déterminer des tendances. « Tracing » en anglais. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ». Basé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement du code.",
-      "title": "",
-      "original_description_html": "<p>Récupérons quoi, alors ?\nMétriques\nTraçage\nPratique afin de déterminer des tendances.\n« Tracing » en anglais.\nUtile dans le contexte des alertes. Aide à identifier les « inconnues connues ».\nBasé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement du code.</p>\n"
+      "title": ""
     },
     {
       "id": "jOXKWO",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Récupérons quoi, alors ? Métriques Traçage Pratique afin de déterminer des tendances. « Tracing » en anglais. Utile dans le contexte des alertes. Aide à identifier les « inconnues connues ». Basé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement de code. Journaux d’ évènements « Logs » en anglais. Basé sur des évènements, donc utile afin de poursuivre les petits détails. Verbose; structuré. Aide à identifier les « inconnues inconnues ».",
-      "title": "",
-      "original_description_html": "<p>Récupérons quoi, alors ?\nMétriques\nTraçage\nPratique afin de déterminer des tendances.\n« Tracing » en anglais.\nUtile dans le contexte des alertes. Aide à identifier les « inconnues connues ».\nBasé sur des requêtes. Suivre l’activité des requêtes à travers les appels fonction et service. Aide à comprendre le comportement de code.\nJournaux d’ évènements « Logs » en anglais. Basé sur des évènements, donc utile afin de poursuivre les petits détails. Verbose; structuré. Aide à identifier les « inconnues inconnues ».</p>\n"
+      "title": ""
     },
     {
       "id": "LiG8On",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur l’infra Le données: ● ● Métriques Journaux d’évènements Les outils : ● ● Surveillance niveau infra Gestion des journaux",
-      "title": "",
-      "original_description_html": "<p>La visibilité sur l’infra Le données: ● ●\nMétriques Journaux d’évènements\nLes outils : ● ●\nSurveillance niveau infra Gestion des journaux</p>\n"
+      "title": ""
     },
     {
       "id": "y1ywHC",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur le back Le données: ● ● ● Métriques Journaux d’évènements Traçage Les outils : ● ● ● Surveillance niveau applicatif Gestion des journaux « APM »",
-      "title": "",
-      "original_description_html": "<p>La visibilité sur le back Le données: ● ● ●\nMétriques Journaux d’évènements Traçage\nLes outils : ● ● ●\nSurveillance niveau applicatif Gestion des journaux « APM »</p>\n"
+      "title": ""
     },
     {
       "id": "aLhk9b",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "La visibilité sur le front Le données: ● ● ● Métriques Journaux d’évènements Traçage Les outils : ● ● Synthétiques « RUM »",
-      "title": "",
-      "original_description_html": "<p>La visibilité sur le front Le données: ● ● ●\nMétriques Journaux d’évènements Traçage\nLes outils : ● ●\nSynthétiques « RUM »</p>\n"
+      "title": ""
     },
     {
       "id": "CfQY20",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Comment obtenir de la visibilité ? Intelligence Business Intelligence Technique Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?",
-      "title": "",
-      "original_description_html": "<p>Comment obtenir de la visibilité ? Intelligence Business\nIntelligence Technique\nQui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?</p>\n"
+      "title": ""
     },
     {
       "id": "oz9LuP",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Date-a-Dog Sortir avec un chiot. C’est une blague.",
-      "title": "",
-      "original_description_html": "<p>Date-a-Dog Sortir avec un chiot. C’est une blague.</p>\n"
+      "title": ""
     },
     {
       "id": "RIs9mo",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "C’est top, cette appli ! Trop mignon ! J’adore les chiots ! Tout le monde l’utilise !",
-      "title": "",
-      "original_description_html": "<p>C’est top, cette appli ! Trop mignon ! J’adore les chiots ! Tout le monde l’utilise !</p>\n"
+      "title": ""
     },
     {
       "id": "3caxfD",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!",
-      "title": "",
-      "original_description_html": "<p>Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!</p>\n"
+      "title": ""
     },
     {
       "id": "fwJlXc",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "C’est drôle, parce que c’est vrai.",
-      "title": "",
-      "original_description_html": "<p>C’est drôle, parce que c’est vrai.</p>\n"
+      "title": ""
     },
     {
       "id": "IG2ZQ1",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Comment pouvons-nous savoir si quelque chose c’est mal passé ? Vos utilisateurs le sauront - c’est certain.",
-      "title": "",
-      "original_description_html": "<p>Comment pouvons-nous savoir si quelque chose c’est mal passé ? Vos utilisateurs le sauront - c’est certain.</p>\n"
+      "title": ""
     },
     {
       "id": "uZlNIQ",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "RUM et Synthétiques « Real User Monitoring »",
-      "title": "",
-      "original_description_html": "<p>RUM et Synthétiques « Real User Monitoring »</p>\n"
+      "title": ""
     },
     {
       "id": "WtUBAp",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service RDC (CDN) ● Nous hébergeons les photos des chiots sur un réseau de diffusion de contenu (RDC, ou « CDN » en anglais), ce qui est un service tier. ● L’application mobile télécharge les images directement à partir de ce service. ● Le RDC devient la cible d’une attaque par déni de service distribué (DDoS) massive.",
-      "title": "",
-      "original_description_html": "<p>Scénario : panne de service RDC\n(CDN)\n●\nNous hébergeons les photos des chiots sur un réseau de diffusion de contenu (RDC, ou « CDN » en anglais), ce qui est un service tier.\n●\nL’application mobile télécharge les images directement à partir de ce service.\n●\nLe RDC devient la cible d’une attaque par déni de service distribué (DDoS) massive.</p>\n"
+      "title": ""
     },
     {
       "id": "9DCz3E",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "RUM « Real User Monitoring »",
-      "title": "",
-      "original_description_html": "<p>RUM « Real User Monitoring »</p>\n"
+      "title": ""
     },
     {
       "id": "lWvmvd",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Synthétiques",
-      "title": "",
-      "original_description_html": "<p>Synthétiques</p>\n"
+      "title": ""
     },
     {
       "id": "Nqeao2",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service RDC (CDN) ● Selon la supervision d’infrastructure : OK ● Selon la supervision d’application : OK ● Selon APM : OK ● Selon RUM et Synthétiques : ALERTE ! Possibilité de montrer aussi les actifs lents ou inaccessibles.",
-      "title": "",
-      "original_description_html": "<p>Scénario : panne de service RDC\n(CDN)\n●\nSelon la supervision d’infrastructure : OK\n●\nSelon la supervision d’application : OK\n●\nSelon APM : OK\n●\nSelon RUM et Synthétiques : ALERTE ! Possibilité de montrer aussi les actifs lents ou inaccessibles.</p>\n"
+      "title": ""
     },
     {
       "id": "0ANOgR",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traçage et APM « Tracing and Application Performance Monitoring »",
-      "title": "",
-      "original_description_html": "<p>Traçage et APM « Tracing and Application Performance Monitoring »</p>\n"
+      "title": ""
     },
     {
       "id": "cU6CYq",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service du ● Nous utilisons un service de redimensionnement et optimisation d’image qui redimensionne les images de manière asynchrone. ● Le service fonctionne d’une manière aléatoire - certaines images sont traitées rapidement, d’autres mettre beaucoup plus de temps. ● Impossible de régler nous mêmes car la situation et hors de notre contrôle. redimensionnement",
-      "title": "",
-      "original_description_html": "<p>Scénario : panne de service du\n●\nNous utilisons un service de redimensionnement et optimisation d’image qui redimensionne les images de manière asynchrone.\n●\nLe service fonctionne d’une manière aléatoire - certaines images sont traitées rapidement, d’autres mettre beaucoup plus de temps.\n●\nImpossible de régler nous mêmes car la situation et hors de notre contrôle.\nredimensionnement</p>\n"
+      "title": ""
     },
     {
       "id": "Enp0RF",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
-      "title": "",
-      "original_description_html": "<p>Traçage &amp; APM</p>\n"
+      "title": ""
     },
     {
       "id": "r7XoJe",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
-      "title": "",
-      "original_description_html": "<p>Traçage &amp; APM</p>\n"
+      "title": ""
     },
     {
       "id": "TRGcC3",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traçage & APM",
-      "title": "",
-      "original_description_html": "<p>Traçage &amp; APM</p>\n"
+      "title": ""
     },
     {
       "id": "5kzQ4S",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : panne de service du redimensionnement ● Selon la surveillance d’infrastructure : OK ● Selon la surveillance d’application : ALERTE ? Possible si il y a un impact sur des métriques dont des moniteurs sont déjà configurés. ● Selon APM : ALERTE ! De plus, capable de montrer la latence, et de préciser exactement où le problème se trouve dans le code et la requête. ● Selon RUM et Synthétiques : OK",
-      "title": "",
-      "original_description_html": "<p>Scénario : panne de service du\nredimensionnement\n●\nSelon la surveillance d’infrastructure : OK\n●\nSelon la surveillance d’application : ALERTE ? Possible si il y a un impact sur des métriques dont des moniteurs sont déjà configurés.\n●\nSelon APM : ALERTE ! De plus, capable de montrer la latence, et de préciser exactement où le problème se trouve dans le code et la requête.\n●\nSelon RUM et Synthétiques : OK</p>\n"
+      "title": ""
     },
     {
       "id": "i4iDwr",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Application « Application Monitoring »",
-      "title": "",
-      "original_description_html": "<p>Surveillance d’Application « Application Monitoring »</p>\n"
+      "title": ""
     },
     {
       "id": "KOR1pG",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : du code bogué est déployé ● Une section de code qui interagit avec le mécanisme de connexion. ● Utilise la mauvaise technique de hachage - les utilisateurs ne peuvent plus s’authentifier ! Catastrophe ! ● Entièrement possible que le code est structuré correctement et donc indétectable par les tests automatisés.",
-      "title": "",
-      "original_description_html": "<p>Scénario : du code bogué est déployé\n●\nUne section de code qui interagit avec le mécanisme de connexion.\n●\nUtilise la mauvaise technique de hachage - les utilisateurs ne peuvent plus s’authentifier ! Catastrophe !\n●\nEntièrement possible que le code est structuré correctement et donc indétectable par les tests automatisés.</p>\n"
+      "title": ""
     },
     {
       "id": "wi9phf",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Application",
-      "title": "",
-      "original_description_html": "<p>Surveillance d’Application</p>\n"
+      "title": ""
     },
     {
       "id": "Z1sda4",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : du code bogué est déployé ● Selon la surveillance d’infrastructure : OK ● Selon la surveillance d’application : ALERTE ! De plus, elle identifiera l’impact sur les mesures personnalisées et peut aider à identifier le « pourquoi » . ● Selon APM : OK ● Selon RUM et Synthétiques : OK",
-      "title": "",
-      "original_description_html": "<p>Scénario : du code bogué est déployé\n●\nSelon la surveillance d’infrastructure : OK\n●\nSelon la surveillance d’application : ALERTE ! De plus, elle identifiera l’impact sur les mesures personnalisées et peut aider à identifier le « pourquoi » .\n●\nSelon APM : OK\n●\nSelon RUM et Synthétiques : OK</p>\n"
+      "title": ""
     },
     {
       "id": "BLbRST",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Infrastructure « Infrastructure Monitoring »",
-      "title": "",
-      "original_description_html": "<p>Surveillance d’Infrastructure « Infrastructure Monitoring »</p>\n"
+      "title": ""
     },
     {
       "id": "nfKFKs",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : juste trop populaire ! ● Les gens adorent les chiots et l’application est un succès monumentale (bravo) ! ● Oups - nous n’avons plus de ressources côté serveur pour répondre à toutes les demandes! ● C’est un bon problème à subir, mais ça reste un problème quand même.",
-      "title": "",
-      "original_description_html": "<p>Scénario : juste trop populaire !\n●\nLes gens adorent les chiots et l’application est un succès monumentale (bravo) !\n●\nOups - nous n’avons plus de ressources côté serveur pour répondre à toutes les demandes!\n●\nC’est un bon problème à subir, mais ça reste un problème quand même.</p>\n"
+      "title": ""
     },
     {
       "id": "Pz33DH",
@@ -371,8 +335,7 @@
       "width": 1600,
       "height": 900,
       "text": "Surveillance d’Infrastructure",
-      "title": "",
-      "original_description_html": "<p>Surveillance d’Infrastructure</p>\n"
+      "title": ""
     },
     {
       "id": "2Ilr5g",
@@ -381,8 +344,7 @@
       "width": 1600,
       "height": 900,
       "text": "Scénario : juste trop populaire ! ● Selon la surveillance d’infrastructure : ALERTE ! Identifiera le problème, son endroit précis dans l’infra, et peut même déclencher une remédiation automatique. ● Selon la surveillance d’application : OK ● Selon APM : OK ● Selon RUM et Synthétiques : OK",
-      "title": "",
-      "original_description_html": "<p>Scénario : juste trop populaire !\n●\nSelon la surveillance d’infrastructure : ALERTE ! Identifiera le problème, son endroit précis dans l’infra, et peut même déclencher une remédiation automatique.\n●\nSelon la surveillance d’application : OK\n●\nSelon APM : OK\n●\nSelon RUM et Synthétiques : OK</p>\n"
+      "title": ""
     },
     {
       "id": "ecUey5",
@@ -391,8 +353,7 @@
       "width": 1600,
       "height": 900,
       "text": "métriques La Triforce ! c.f. The Legend of Zelda (1986) traçage journal d’ évènements",
-      "title": "",
-      "original_description_html": "<p>métriques\nLa Triforce ! c.f. The Legend of Zelda (1986)\ntraçage\njournal d’ évènements</p>\n"
+      "title": ""
     },
     {
       "id": "GwDSqU",
@@ -401,8 +362,7 @@
       "width": 1600,
       "height": 900,
       "text": "Quand ? Où ? Quoi ? métriques La Triforce ! c.f. The Legend of Zelda (1986) SYSTÈME Comment ? Pourquoi ? traçage journal d’ évènements",
-      "title": "",
-      "original_description_html": "<p>Quand ?\nOù ?\nQuoi ? métriques\nLa Triforce ! c.f. The Legend of Zelda (1986)\nSYSTÈME\nComment ?\nPourquoi ?\ntraçage\njournal d’ évènements</p>\n"
+      "title": ""
     },
     {
       "id": "tFwGit",
@@ -411,8 +371,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!",
-      "title": "",
-      "original_description_html": "<p>Ben alors ? Mes favoris ? Mes followers ? MES CHIOTS ?!</p>\n"
+      "title": ""
     },
     {
       "id": "VZf4bI",
@@ -421,8 +380,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "7tNsTh",
@@ -431,8 +389,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "kD6gM6",
@@ -441,8 +398,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "MWpUEV",
@@ -451,8 +407,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "yqYI6u",
@@ -461,8 +416,7 @@
       "width": 1600,
       "height": 900,
       "text": "Les clés de la visibilité à 100 % ● Considérez l’ensemble. Les composants n’existent pas dans le vide. L’éco-système n’est pas fermé. Utilisez une approche holistique. ● Obtenez des multiples perspectives en exploitant toutes les sources de données. ● Préférez les outils « holistiques » qui vous permet de vous déplacer facilement entre les différentes couches et perspectives.",
-      "title": "",
-      "original_description_html": "<p>Les clés de la visibilité à 100 %\n●\nConsidérez l’ensemble. Les composants n’existent pas dans le vide. L’éco-système n’est pas fermé. Utilisez une approche holistique.\n●\nObtenez des multiples perspectives en exploitant toutes les sources de données.\n●\nPréférez les outils « holistiques » qui vous permet de vous déplacer facilement entre les différentes couches et perspectives.</p>\n"
+      "title": ""
     },
     {
       "id": "bAH5zJ",
@@ -471,8 +425,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "DTztri",
@@ -481,8 +434,7 @@
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
-      "title": "",
-      "original_description_html": "<p>Visibilité :: DevOps</p>\n"
+      "title": ""
     },
     {
       "id": "pnihk7",
@@ -491,8 +443,7 @@
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
-      "title": "",
-      "original_description_html": "<p>Visibilité :: DevOps</p>\n"
+      "title": ""
     },
     {
       "id": "S7RVcW",
@@ -501,8 +452,7 @@
       "width": 1600,
       "height": 900,
       "text": "Visibilité :: DevOps",
-      "title": "",
-      "original_description_html": "<p>Visibilité :: DevOps</p>\n"
+      "title": ""
     },
     {
       "id": "4RAJUv",
@@ -511,8 +461,7 @@
       "width": 1600,
       "height": 900,
       "text": "100 % visibilité 100 % devops Merci !",
-      "title": "",
-      "original_description_html": "<p>100 % visibilité 100 % devops Merci !</p>\n"
+      "title": ""
     },
     {
       "id": "gkt7NK",
@@ -521,8 +470,7 @@
       "width": 1600,
       "height": 900,
       "text": "Come and join us at Next London ‘18! October 10th -11th, 2018 ExCeL, London Register at g.co/NextLondon18/Paris Thank you.",
-      "title": "",
-      "original_description_html": "<p>Come and join us at Next London ‘18! October 10th -11th, 2018 ExCeL, London Register at g.co/NextLondon18/Paris\nThank you.</p>\n"
+      "title": ""
     }
   ],
   "page_count": 52,
@@ -793,6 +741,5 @@
       "bytes": 3779642
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/ukBpji/la-visibilite-a-100"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Debugging in the Cloud with Datadog and HashiCorp",
-      "title": "",
-      "original_description_html": "<p>Debugging in the Cloud with Datadog and HashiCorp</p>\n"
+      "title": ""
     },
     {
       "id": "aBwqRa",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Taylor Dolezal Daniel Maher Developer Advocate HashiCorp @onlydole Developer Advocate Datadog @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Taylor Dolezal\nDaniel Maher\nDeveloper Advocate HashiCorp @onlydole\nDeveloper Advocate Datadog @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "CVfeJz",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Agenda What is infrastructure as code? Understanding observability Live demo",
-      "title": "",
-      "original_description_html": "<h2>Agenda</h2>\n<h2>What is infrastructure as code?</h2>\n<h2>Understanding observability</h2>\n<p>Live demo</p>\n"
+      "title": ""
     },
     {
       "id": "opOSCO",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure as Code",
-      "title": "",
-      "original_description_html": "<p>Infrastructure as Code</p>\n"
+      "title": ""
     },
     {
       "id": "R97G4n",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure as Code",
-      "title": "",
-      "original_description_html": "<p>Infrastructure as Code</p>\n"
+      "title": ""
     },
     {
       "id": "3Sq3xC",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure as Code",
-      "title": "",
-      "original_description_html": "<p>Infrastructure as Code</p>\n"
+      "title": ""
     },
     {
       "id": "fmYrpb",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure as Code ▪ executable documentation",
-      "title": "",
-      "original_description_html": "<p>Infrastructure as Code\n▪ executable documentation</p>\n"
+      "title": ""
     },
     {
       "id": "I6Hfi0",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration",
-      "title": "",
-      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration</p>\n"
+      "title": ""
     },
     {
       "id": "uQ0TaP",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration ▪ safe and predictable",
-      "title": "",
-      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration ▪ safe and predictable</p>\n"
+      "title": ""
     },
     {
       "id": "WjjHSo",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure ▪ executable documentation as Code ▪ enables collaboration ▪ safe and predictable",
-      "title": "",
-      "original_description_html": "<p>Infrastructure\n▪ executable documentation\nas Code\n▪ enables collaboration ▪ safe and predictable</p>\n"
+      "title": ""
     },
     {
       "id": "93S5LD",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "HashiCorp Configuration Language",
-      "title": "",
-      "original_description_html": "<p>HashiCorp Configuration Language</p>\n"
+      "title": ""
     },
     {
       "id": "lNAtDc",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "HashiCorp Configuration Language",
-      "title": "",
-      "original_description_html": "<p>HashiCorp Configuration Language</p>\n"
+      "title": ""
     },
     {
       "id": "Ngth61",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "00cUyQ",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "cKLIqp",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR HashiCorp Configuration Language",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language</p>\n"
+      "title": ""
     },
     {
       "id": "Ee46jE",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR HashiCorp Configuration Language service { key = “value” }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language\nservice { key = “value” }</p>\n"
+      "title": ""
     },
     {
       "id": "qxmubd",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR HashiCorp Configuration Language service { key = “value” }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language\nservice { key = “value” }</p>\n"
+      "title": ""
     },
     {
       "id": "THViU2",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR HashiCorp Configuration Language",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nHashiCorp Configuration Language</p>\n"
+      "title": ""
     },
     {
       "id": "5bEWMR",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\n}</p>\n"
+      "title": ""
     },
     {
       "id": "huxKEq",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\n}</p>\n"
+      "title": ""
     },
     {
       "id": "KEg87F",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { HashiCorp Configuration Language listen_addr = “127.0.0.1:8080” }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nHashiCorp Configuration Language\nlisten_addr = “127.0.0.1:8080”\n}</p>\n"
+      "title": ""
     },
     {
       "id": "wYOvze",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+      "title": ""
     },
     {
       "id": "Ys7js3",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+      "title": ""
     },
     {
       "id": "BBqXkS",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+      "title": ""
     },
     {
       "id": "nVZLcr",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+      "title": ""
     },
     {
       "id": "PpI9VG",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } }</p>\n"
+      "title": ""
     },
     {
       "id": "290xNf",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { }",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” {\n}</p>\n"
+      "title": ""
     },
     {
       "id": "eSjlG4",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "GmSZ8T",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "t6BN0s",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "VPuAtH",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "7jcylg",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:8080” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:8080”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "k3Lme5",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:${var.port}” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:${var.port}”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "MN4aWU",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "CODE EDITOR service “http” “web_proxy” { listen_addr = “127.0.0.1:${var.port}” HashiCorp Configuration Language process “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy” default } = 8080",
-      "title": "",
-      "original_description_html": "<p>CODE EDITOR\nservice “http” “web_proxy” {\nlisten_addr = “127.0.0.1:${var.port}”\nHashiCorp Configuration Language\nprocess “server” { command = [“proxy-app”, “server”] } } variable “port” { description = “Port for web_proxy”\ndefault }\n= 8080</p>\n"
+      "title": ""
     },
     {
       "id": "ygnOOt",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "Understanding observability",
-      "title": "",
-      "original_description_html": "<p>Understanding observability</p>\n"
+      "title": ""
     },
     {
       "id": "b0WCHI",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "DKF09h",
@@ -371,8 +335,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "pdxo26",
@@ -381,8 +344,7 @@
       "width": 1600,
       "height": 900,
       "text": "One platform with seamlessly integrated, smart tooling Try a free trial at datadoghq.com",
-      "title": "",
-      "original_description_html": "<p>One platform with seamlessly integrated, smart tooling\nTry a free trial at datadoghq.com</p>\n"
+      "title": ""
     },
     {
       "id": "RxgbuV",
@@ -391,8 +353,7 @@
       "width": 1600,
       "height": 900,
       "text": "How do Datadog & Terraform integrate?",
-      "title": "",
-      "original_description_html": "<p>How do Datadog &amp; Terraform integrate?</p>\n"
+      "title": ""
     },
     {
       "id": "4HPPmu",
@@ -401,8 +362,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform</p>\n"
+      "title": ""
     },
     {
       "id": "gb8DfJ",
@@ -411,8 +371,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demo",
-      "title": "",
-      "original_description_html": "<p>Demo</p>\n"
+      "title": ""
     },
     {
       "id": "Iur1Xi",
@@ -421,8 +380,7 @@
       "width": 1600,
       "height": 900,
       "text": "Sign up for Datadog datadoghq.com/free-datadog-trial/ Resources Sign up for Terraform Cloud app.terraform.io/signup/account Datadog Provider for Terraform terraform.io/docs/providers/datadog/ Demo: StoreDog Application github.com/datadog/ecommerce-workshop Demo: Debugging the Cloud https://github.com/onlydole/debugging-the-cloud © 2019 HashiCorp 42",
-      "title": "",
-      "original_description_html": "<p>Sign up for Datadog datadoghq.com/free-datadog-trial/\nResources\nSign up for Terraform Cloud app.terraform.io/signup/account\nDatadog Provider for Terraform terraform.io/docs/providers/datadog/\nDemo: StoreDog Application github.com/datadog/ecommerce-workshop\nDemo: Debugging the Cloud https://github.com/onlydole/debugging-the-cloud\n© 2019 HashiCorp\n42</p>\n"
+      "title": ""
     },
     {
       "id": "vEZpQ7",
@@ -431,8 +389,7 @@
       "width": 1600,
       "height": 900,
       "text": "Q&A",
-      "title": "",
-      "original_description_html": "<p>Q&amp;A</p>\n"
+      "title": ""
     },
     {
       "id": "XYIdIW",
@@ -441,8 +398,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank You 44",
-      "title": "",
-      "original_description_html": "<p>Thank You\n44</p>\n"
+      "title": ""
     }
   ],
   "page_count": 44,
@@ -673,6 +629,5 @@
       "bytes": 4530149
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/FE566O/debugging-in-the-cloud-with-datadog-and-hashicorp"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "When Geography and the Cloud Collide Deploying and Debugging Multi-Cloud Applications HashiCorp Cloud Operating Model Virtual Day (January 2021)",
-      "title": "",
-      "original_description_html": "<p>When Geography and the Cloud Collide Deploying and Debugging Multi-Cloud Applications HashiCorp Cloud Operating Model Virtual Day (January 2021)</p>\n"
+      "title": ""
     },
     {
       "id": "n3Xpqt",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Your operators for today 🎙 Rick Sherman 🐦 @shermdog01 🎙 Daniel Maher 🐦 @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Your operators for today\n🎙 Rick Sherman 🐦 @shermdog01\n🎙 Daniel Maher 🐦 @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "PNGdjI",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "1gzRbh",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "e0iFU6",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "GKR3MV",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "se9rEu",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "Uxsf7J",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "7HbSzi",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Let’s look at some Terraform code!",
-      "title": "",
-      "original_description_html": "<p>Let’s look at some Terraform code!</p>\n"
+      "title": ""
     },
     {
       "id": "jbKGs7",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "Lv34kW",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Let’s look at some Datadog!",
-      "title": "",
-      "original_description_html": "<p>Let’s look at some Datadog!</p>\n"
+      "title": ""
     },
     {
       "id": "yElscv",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "aYUgVK",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "CsDUNj",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "pBwIG8",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "RVf68X",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "3pNu0w",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "g96htL",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Sign up for a free 14-day trial at datadoghq.com Check out our learning centre at learn.datadoghq.com Join the conversation at chat.datadoghq.com All the Terraform code and Ansible playbooks from this demo: github.com/shermdog/comvd_2021 Rick: @shermdog01 ← 🐦 → Dan: @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Sign up for a free 14-day trial at datadoghq.com Check out our learning centre at learn.datadoghq.com Join the conversation at chat.datadoghq.com All the Terraform code and Ansible playbooks from this demo: github.com/shermdog/comvd_2021 Rick: @shermdog01 ← 🐦 → Dan: @phrawzty</p>\n"
+      "title": ""
     }
   ],
   "page_count": 18,
@@ -283,6 +265,5 @@
       "bytes": 2967061
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/PCrTkq/when-geography-and-the-cloud-collide"
+  "processor": "notist-preserved-display-v1"
 }

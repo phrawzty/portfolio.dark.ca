@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "ac78c59c280b119896718edfa4dd9aca95f31539a66748b7f01ecd29aa022cc7"
 recording_url = ""
-source_url = "https://speaking.dark.ca/DE8pT3/cloud-cost-optimisation-a-primer"
-source_event_id = "ev_8m4zch"
-source_published_on = "2021-10-01 08:00:00"
 feedback = []
 location_label = "Virtual"
 

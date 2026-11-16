@@ -15,9 +15,6 @@ timezone = "America/Los_Angeles"
 virtual = false
 deck = "335f4908bcfad9b4fe5dfbffa956ef2cc60e7a9b52ab672fafdaa62edf1cf577"
 recording_url = "https://www.youtube.com/watch?v=YDr1_-Tttz0"
-source_url = "https://speaking.dark.ca/RTIcE6/building-sre-from-scratch-at-coinbase-during-hypergrowth"
-source_event_id = "ev_GGzp87"
-source_published_on = "2018-11-27 13:00:00"
 resources = []
 place = "las-vegas-us"
 

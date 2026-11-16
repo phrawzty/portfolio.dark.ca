@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "244e26eedbaad268140b82d254255941bc682dfc5153e356bd68aa762303de62"
 recording_url = "https://www.youtube.com/watch?v=OKIehz7p4ug&t=3608s"
-source_url = "https://speaking.dark.ca/N8m0dP/kubectl-ca-se-prononce-comment-ca"
-source_event_id = "ev_gEXB8k"
-source_published_on = "2023-03-07 08:00:00"
 resources = []
 place = "paris-fr"
 

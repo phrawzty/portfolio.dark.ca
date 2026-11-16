@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Patterns of failure in modern auth Dan “ phrawzty ” Maher",
-      "title": "",
-      "original_description_html": "<p>Patterns of failure in modern auth Dan “ phrawzty ” Maher</p>\n"
+      "title": ""
     },
     {
       "id": "7dhNp8",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Context: About me ● ● ● ● Recovering system administrator Secretly French (🤫 don’t tell anybody) Frequently at lunch with the security folks at Datadog Currently work on open source at a start-up called Cerbos",
-      "title": "",
-      "original_description_html": "<p>Context: About me ● ● ● ●\nRecovering system administrator Secretly French (🤫 don’t tell anybody) Frequently at lunch with the security folks at Datadog Currently work on open source at a start-up called Cerbos</p>\n"
+      "title": ""
     },
     {
       "id": "jxQBhX",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Context: About Cerbos ● ● ● ● “Externalized, policy-based, runtime authorization for your applications” It’s literally a self-hosted binary with an HTTP API There’s also a hub with a bunch of neat features Open source (we’re a Go shop)",
-      "title": "",
-      "original_description_html": "<p>Context: About Cerbos ● ● ● ●\n“Externalized, policy-based, runtime authorization for your applications” It’s literally a self-hosted binary with an HTTP API There’s also a hub with a bunch of neat features Open source (we’re a Go shop)</p>\n"
+      "title": ""
     },
     {
       "id": "MH8zZw",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is authorization?",
-      "title": "",
-      "original_description_html": "<p>What is authorization?</p>\n"
+      "title": ""
     },
     {
       "id": "yarnSL",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is authorization? ● ● “Is this entity allowed to perform this action on this resource?” Related to, but distinct from, authentication (which is also very important!)",
-      "title": "",
-      "original_description_html": "<p>What is authorization? ● ●\n“Is this entity allowed to perform this action on this resource?” Related to, but distinct from, authentication (which is also very important!)</p>\n"
+      "title": ""
     },
     {
       "id": "auabKk",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Early days: POSIX permissions ● ● User / Group / World model Read / Write / Execute primitives ℹ IEEE Std 1003.1 ™-2017 (Revision of IEEE Std 1003.1-2008): https://pubs.opengroup.org/onlinepubs/9699919799/",
-      "title": "",
-      "original_description_html": "<p>Early days: POSIX permissions ● ●\nUser / Group / World model Read / Write / Execute primitives\nℹ IEEE Std 1003.1 ™-2017 (Revision of IEEE Std 1003.1-2008): https://pubs.opengroup.org/onlinepubs/9699919799/</p>\n"
+      "title": ""
     },
     {
       "id": "DEJPD9",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "The middle ages: ACLS & RBAC ● ● Access Control Lists Role-Based Access Control ℹ Rationale for the RBAC96 family of access control models: https://dl.acm.org/doi/10.1145/270152.270167 ℹ Proposed NIST standard for role-based access control: https://dl.acm.org/doi/10.1145/501978.501980",
-      "title": "",
-      "original_description_html": "<p>The middle ages: ACLS &amp; RBAC ● ●\nAccess Control Lists Role-Based Access Control\nℹ Rationale for the RBAC96 family of access control models: https://dl.acm.org/doi/10.1145/270152.270167 ℹ Proposed NIST standard for role-based access control: https://dl.acm.org/doi/10.1145/501978.501980</p>\n"
+      "title": ""
     },
     {
       "id": "pY2D5Y",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Modern authorization (and authentication too!) ● ● ● Token-based approaches (JWT, OIDC) Federated systems PBAC, ABAC, ReBAC… ℹ IETF 7519 JSON Web Token (JWT): https://datatracker.ietf.org/doc/html/rfc7519 ℹ OpenID Connect Core 1.0 [2023]: https://openid.net/specs/openid-connect-core-1_0.html",
-      "title": "",
-      "original_description_html": "<p>Modern authorization (and authentication too!) ● ● ●\nToken-based approaches (JWT, OIDC) Federated systems PBAC, ABAC, ReBAC…\nℹ IETF 7519 JSON Web Token (JWT): https://datatracker.ietf.org/doc/html/rfc7519 ℹ OpenID Connect Core 1.0 [2023]: https://openid.net/specs/openid-connect-core-1_0.html</p>\n"
+      "title": ""
     },
     {
       "id": "Rrl0xx",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "When it all goes wrong",
-      "title": "",
-      "original_description_html": "<p>When it all goes wrong</p>\n"
+      "title": ""
     },
     {
       "id": "4BToqM",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug”: Overview ● ● ● ● 📆 May 2018 Audience selector default changed to public 14 million users affected Policy enforcement failure during feature update ℹ Data Protection Commission (Ireland): https://www.dataprotection.ie/sites/default/files/uploads/2022-09/Full%20Decision%2018-11-5%20Facebook%2012%20breaches.pdf",
-      "title": "",
-      "original_description_html": "<p>Facebook “Privacy bug”: Overview ● ● ● ●\n📆 May 2018 Audience selector default changed to public 14 million users affected Policy enforcement failure during feature update\nℹ Data Protection Commission (Ireland):\nhttps://www.dataprotection.ie/sites/default/files/uploads/2022-09/Full%20Decision%2018-11-5%20Facebook%2012%20breaches.pdf</p>\n"
+      "title": ""
     },
     {
       "id": "gVCcil",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug”: Key auth failures ● ● ● Default permission setting changed without user consent Policy enforcement layer failed during UI update Inadequate permission state validation ℹ Privacy by Design: A Counterfactual Analysis […]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2128146",
-      "title": "",
-      "original_description_html": "<p>Facebook “Privacy bug”: Key auth failures ● ● ●\nDefault permission setting changed without user consent Policy enforcement layer failed during UI update Inadequate permission state validation\nℹ Privacy by Design: A Counterfactual Analysis […]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2128146</p>\n"
+      "title": ""
     },
     {
       "id": "IovQbA",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Okta “Support system breach”: Overview ● ● ● 📆 October 2023 HAR file exfiltration exposed session tokens Auth bypasses in support systems ℹ Okta October 2023 Security Incident Investigation Closure: https://sec.okta.com/articles/harfiles/",
-      "title": "",
-      "original_description_html": "<p>Okta “Support system breach”: Overview ● ● ●\n📆 October 2023 HAR file exfiltration exposed session tokens Auth bypasses in support systems\nℹ Okta October 2023 Security Incident Investigation Closure: https://sec.okta.com/articles/harfiles/</p>\n"
+      "title": ""
     },
     {
       "id": "v8eETZ",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Okta “Support system breach”: Key auth failures ● ● ● ● Overly permissive access to production Insufficient isolation between support tiers Authorization checks bypassed through session token theft Inadequate token validation controls ℹ BeyondTrust Discovers Breach of Okta Support Unit: https://www.beyondtrust.com/blog/entry/okta-support-unit-breach",
-      "title": "",
-      "original_description_html": "<p>Okta “Support system breach”: Key auth failures ● ● ● ●\nOverly permissive access to production Insufficient isolation between support tiers Authorization checks bypassed through session token theft Inadequate token validation controls\nℹ BeyondTrust Discovers Breach of Okta Support Unit: https://www.beyondtrust.com/blog/entry/okta-support-unit-breach</p>\n"
+      "title": ""
     },
     {
       "id": "XSN2Ly",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard”: Overview ● ● ● 📆 Late 2023 / early 2024 Password spray attack led to tenant compromise Legacy tenants, basic auth, and privilege escalation ℹ Midnight Blizzard: Guidance for responders on nation-state attack: https://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/",
-      "title": "",
-      "original_description_html": "<p>Microsoft “Midnight Blizzard”: Overview ● ● ●\n📆 Late 2023 / early 2024 Password spray attack led to tenant compromise Legacy tenants, basic auth, and privilege escalation\nℹ Midnight Blizzard: Guidance for responders on nation-state attack:\nhttps://www.microsoft.com/en-us/security/blog/2024/01/25/midnight-blizzard-guidance-for-responders-on-nation-state-attack/</p>\n"
+      "title": ""
     },
     {
       "id": "9m5qEN",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard”: Key auth failures ● ● ● ● Excessive privileges in legacy tenant configurations Inadequate role separation Authorization boundaries between tenants insufficiently enforced Lack of just-in-time access controls for privileged operations ℹ Office of Information Security (HHS) report 202411131500: https://www.hhs.gov/sites/default/files/new-midnight-blizzard-campaign-analyst-note-tlpclear.pdf",
-      "title": "",
-      "original_description_html": "<p>Microsoft “Midnight Blizzard”: Key auth failures ● ● ● ●\nExcessive privileges in legacy tenant configurations Inadequate role separation Authorization boundaries between tenants insufficiently enforced Lack of just-in-time access controls for privileged operations\nℹ Office of Information Security (HHS) report 202411131500: https://www.hhs.gov/sites/default/files/new-midnight-blizzard-campaign-analyst-note-tlpclear.pdf</p>\n"
+      "title": ""
     },
     {
       "id": "m5oe6m",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "How to stop it all from going wrong",
-      "title": "",
-      "original_description_html": "<p>How to stop it all from going wrong</p>\n"
+      "title": ""
     },
     {
       "id": "OPXRzB",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Token Security ● ● ● Validation best practices (signature, expiry, issuer) Secure storage and transport Avoiding common token vulnerabilities ℹ IETF RFC 8725 JSON Web Token Best Current Practices: https://datatracker.ietf.org/doc/html/rfc8725 ℹ Vaadata JWT Vulnerabilities, Common Attacks, & Best Practices: https://www.vaadata.com/blog/jwt-json-web-token-vulnerabilities-common-attacks-and-security-best-practices/",
-      "title": "",
-      "original_description_html": "<p>Token Security ● ● ●\nValidation best practices (signature, expiry, issuer) Secure storage and transport Avoiding common token vulnerabilities\nℹ IETF RFC 8725 JSON Web Token Best Current Practices: https://datatracker.ietf.org/doc/html/rfc8725 ℹ Vaadata JWT Vulnerabilities, Common Attacks, &amp; Best Practices: https://www.vaadata.com/blog/jwt-json-web-token-vulnerabilities-common-attacks-and-security-best-practices/</p>\n"
+      "title": ""
     },
     {
       "id": "0jGFra",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Permission Management ● ● ● Role explosion 💥 Real-time or JIT access patterns Principle of least privilege ℹ OWASP Authorization Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html ℹ NIST Zero Trust Architecture (2020): https://www.nist.gov/publications/zero-trust-architecture",
-      "title": "",
-      "original_description_html": "<p>Permission Management ● ● ●\nRole explosion 💥 Real-time or JIT access patterns Principle of least privilege\nℹ OWASP Authorization Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html ℹ NIST Zero Trust Architecture (2020): https://www.nist.gov/publications/zero-trust-architecture</p>\n"
+      "title": ""
     },
     {
       "id": "d2z3jz",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Externalizing Authorization ● ● ● Clear separation between business logic and authz rules Update policies without updating code Enhanced auditability and compliance reporting ℹ CNCF 5 laws of cloud native authz: https://www.cncf.io/blog/2023/01/19/the-five-laws-of-cloud-native-authorization/ ℹ Cerbos What is EAM?: https://www.cerbos.dev/blog/externalized-authorization-management-eam-and-benefits",
-      "title": "",
-      "original_description_html": "<p>Externalizing Authorization ● ● ●\nClear separation between business logic and authz rules Update policies without updating code Enhanced auditability and compliance reporting\nℹ CNCF 5 laws of cloud native authz: https://www.cncf.io/blog/2023/01/19/the-five-laws-of-cloud-native-authorization/ ℹ Cerbos What is EAM?: https://www.cerbos.dev/blog/externalized-authorization-management-eam-and-benefits</p>\n"
+      "title": ""
     },
     {
       "id": "FMhrcO",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Testing Auth Systems ● ● ● Specific analysis Policy unit testing Automated access review ℹ OWASP Authentication Testing: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/README ℹ OWASP Authorization Testing: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README",
-      "title": "",
-      "original_description_html": "<p>Testing Auth Systems ● ● ●\nSpecific analysis Policy unit testing Automated access review\nℹ OWASP Authentication Testing:\nhttps://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/README\nℹ OWASP Authorization Testing:\nhttps://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/README</p>\n"
+      "title": ""
     },
     {
       "id": "rgQfUn",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Critical Path Patterns ● ● ● High-availability authorization Graceful degradation strategies When in doubt, deny by default ℹ CNCF Cloud Native Security Whitepaper: https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf ℹ Netflix Edge Authentication and Token-Agnostic Identity Protection: https://netflixtechblog.com/edge-authentication-and-token-agnostic-identity-propagation-514e47e0b602",
-      "title": "",
-      "original_description_html": "<p>Critical Path Patterns ● ● ●\nHigh-availability authorization Graceful degradation strategies When in doubt, deny by default\nℹ CNCF Cloud Native Security Whitepaper: https://www.cncf.io/wp-content/uploads/2022/06/CNCF_cloud-native-security-whitepaper-May2022-v2.pdf ℹ Netflix Edge Authentication and Token-Agnostic Identity Protection: https://netflixtechblog.com/edge-authentication-and-token-agnostic-identity-propagation-514e47e0b602</p>\n"
+      "title": ""
     },
     {
       "id": "U09TNC",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Conclusion ● ● ● ● ● Authorization fails at boundaries and transitions Externalize your authorization decisions Tokens require rigorous validation Use real-time access patterns and live the principle of least privilege Test continuously and review access regularly",
-      "title": "",
-      "original_description_html": "<p>Conclusion ● ● ● ● ●\nAuthorization fails at boundaries and transitions Externalize your authorization decisions Tokens require rigorous validation Use real-time access patterns and live the principle of least privilege Test continuously and review access regularly</p>\n"
+      "title": ""
     },
     {
       "id": "6JsHFb",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "I just met you and this is crazy but here’s my QR so Cerbos maybe?",
-      "title": "",
-      "original_description_html": "<p>I just met you and this is crazy but here’s my QR so Cerbos maybe?</p>\n"
+      "title": ""
     },
     {
       "id": "idb580",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thanks!",
-      "title": "",
-      "original_description_html": "<p>Thanks!</p>\n"
+      "title": ""
     }
   ],
   "page_count": 24,
@@ -373,6 +349,5 @@
       "bytes": 889906
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/Bg88VD/patterns-of-failure-in-modern-authorization"
+  "processor": "notist-preserved-display-v1"
 }

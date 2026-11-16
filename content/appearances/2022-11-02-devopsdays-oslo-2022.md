@@ -15,9 +15,6 @@ timezone = "Europe/Oslo"
 virtual = false
 deck = "dc25e0421ec75151b05412bc0a6d97712f15e31782dd5adfc50283efd5c20471"
 recording_url = ""
-source_url = "https://speaking.dark.ca/MEZCHl/what-about-logs"
-source_event_id = "ev_RExF25"
-source_published_on = "2022-11-02 08:00:00"
 resources = []
 place = "oslo-no"
 

@@ -15,9 +15,6 @@ timezone = "Europe/London"
 virtual = false
 deck = "059e4de65b093a42a7493eca34528d14547c775e5ae4745cc24ca9a8ab1833bc"
 recording_url = "https://www.youtube.com/watch?v=EBbuyn72jtw"
-source_url = "https://speaking.dark.ca/RttifT/authz-as-a-dev-workflow-architecting-better-cloud-native-apps"
-source_event_id = "ev_1emkUy"
-source_published_on = "2025-04-04 15:15:00"
 feedback = []
 place = "london-gb"
 

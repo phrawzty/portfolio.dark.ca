@@ -15,9 +15,6 @@ timezone = "Europe/Stockholm"
 virtual = false
 deck = "f7ec958eacc806abbfe84d0ad23729998f7f273655fb5d5f32690e2ffab42d21"
 recording_url = ""
-source_url = "https://speaking.dark.ca/G3JgYA/what-mma-taught-me-about-working-in-tech"
-source_event_id = "ev_bOBWId"
-source_published_on = "2019-09-18 11:00:00"
 place = "stockholm-se"
 
 [[extra.resources]]

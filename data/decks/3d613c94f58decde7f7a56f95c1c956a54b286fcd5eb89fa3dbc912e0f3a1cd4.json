@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Quick—What Time Is It!?",
-      "original_description_html": ""
+      "title": "Quick—What Time Is It!?"
     },
     {
       "id": "CYuDP3",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "It’s complicated",
-      "title": "Time",
-      "original_description_html": "<p>It’s complicated</p>\n"
+      "title": "Time"
     },
     {
       "id": "osd1HS",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Chronos & Kairos",
-      "original_description_html": ""
+      "title": "Chronos & Kairos"
     },
     {
       "id": "RCLp9r",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Distension",
-      "original_description_html": ""
+      "title": "Distension"
     },
     {
       "id": "3W4d2G",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Maths",
-      "original_description_html": ""
+      "title": "Maths"
     },
     {
       "id": "fpnQuf",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Noumena & Phenomena",
-      "original_description_html": ""
+      "title": "Noumena & Phenomena"
     },
     {
       "id": "I9WEn4",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Space & Time?",
-      "original_description_html": ""
+      "title": "Space & Time?"
     },
     {
       "id": "uTF2fT",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Space-Time",
-      "original_description_html": ""
+      "title": "Space-Time"
     },
     {
       "id": "WmxqXs",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "🤯",
-      "original_description_html": ""
+      "title": "🤯"
     },
     {
       "id": "96geQH",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Let’s try abstractions!",
-      "title": "Forget definitions",
-      "original_description_html": "<p>Let’s try abstractions!</p>\n"
+      "title": "Forget definitions"
     },
     {
       "id": "lQPSIg",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Clocks",
-      "original_description_html": ""
+      "title": "Clocks"
     },
     {
       "id": "Nk8GB5",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Calendars",
-      "original_description_html": ""
+      "title": "Calendars"
     },
     {
       "id": "03r43U",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Time zones",
-      "original_description_html": ""
+      "title": "Time zones"
     },
     {
       "id": "cNZrvt",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Datetime libraries",
-      "original_description_html": ""
+      "title": "Datetime libraries"
     },
     {
       "id": "EhIfoI",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Do not write your own datetime library",
-      "original_description_html": ""
+      "title": "Do not write your own datetime library"
     },
     {
       "id": "r11Tgh",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "— R. David Murray",
-      "title": "\"I wonder if this is by design or by accident.\"",
-      "original_description_html": "<p>— R. David Murray</p>\n"
+      "title": "\"I wonder if this is by design or by accident.\""
     },
     {
       "id": "TKkHZ6",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Do not assume that the network is reliable",
-      "original_description_html": ""
+      "title": "Do not assume that the network is reliable"
     },
     {
       "id": "5eT5RV",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "Electricity: Like the Internet but worse",
-      "original_description_html": ""
+      "title": "Electricity: Like the Internet but worse"
     },
     {
       "id": "hyBtJu",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "It’s more common than you think.",
-      "title": "Distortions? In my spacetime field?",
-      "original_description_html": "<p>It’s more common than you think.</p>\n"
+      "title": "Distortions? In my spacetime field?"
     },
     {
       "id": "KHuhCJ",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "It’s complicated",
-      "title": "Time",
-      "original_description_html": "<p>It’s complicated</p>\n"
+      "title": "Time"
     }
   ],
   "page_count": 20,
@@ -313,6 +293,5 @@
       "bytes": 4721563
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/QbuX8Q/quick-what-time-is-it"
+  "processor": "notist-preserved-display-v1"
 }

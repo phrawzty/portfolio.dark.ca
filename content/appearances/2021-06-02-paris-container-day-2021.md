@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "e9972fa6210ce06727b69d852f1a35c88ada8d95d8b25cd109f04f1c7082756d"
 recording_url = "https://www.youtube.com/watch?v=gJcUMe1KBCg"
-source_url = "https://speaking.dark.ca/glWuoa/facts-about-real-world-container-use"
-source_event_id = "ev_X2Aeg6"
-source_published_on = "2021-06-02 12:30:00"
 feedback = []
 place = "paris-fr"
 

@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "4ed74b85a2ef11c88f1c5814126fe68623ed6c3e30fb6ff73a5eac14804ad98a"
 recording_url = ""
-source_url = "https://speaking.dark.ca/oIBjG1/community-and-event-sponsorship-at-datadog"
-source_event_id = "ev_5faFHt"
-source_published_on = "2019-06-13 08:00:00"
 feedback = []
 place = "paris-fr"
 

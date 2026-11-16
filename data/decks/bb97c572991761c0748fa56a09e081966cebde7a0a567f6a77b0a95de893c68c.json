@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demystifying DevOps & SRE",
-      "title": "",
-      "original_description_html": "<p>Demystifying DevOps &amp; SRE</p>\n"
+      "title": ""
     },
     {
       "id": "x5aXsQ",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "ZPJLkp",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "Bj29dE",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "o2kxVd",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "DevOps: CAMS ● Culture ● Automation ● Measurement (or Metrics) ● Sharing",
-      "title": "",
-      "original_description_html": "<p>DevOps: CAMS\n●\nCulture\n●\nAutomation\n●\nMeasurement (or Metrics)\n●\nSharing</p>\n"
+      "title": ""
     },
     {
       "id": "QMTlO2",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "“The SRE Book”",
-      "title": "",
-      "original_description_html": "<p>“The SRE Book”</p>\n"
+      "title": ""
     },
     {
       "id": "2gCZGR",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "ezvN8q",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Organizing your organization ● Product Teams ● Squads ● Guilds",
-      "title": "",
-      "original_description_html": "<p>Organizing your organization\n●\nProduct Teams\n●\nSquads\n●\nGuilds</p>\n"
+      "title": ""
     },
     {
       "id": "HJeB1F",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Squads",
-      "title": "",
-      "original_description_html": "<p>Squads</p>\n"
+      "title": ""
     },
     {
       "id": "tdMyte",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Guilds",
-      "title": "",
-      "original_description_html": "<p>Guilds</p>\n"
+      "title": ""
     },
     {
       "id": "Vx5mm3",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "DevOps is an idea; SRE is a practice. ● A cohort of of Site Reliability Engineers, organised and managed as a group, form an SRE team. ● SRE teams are versatile! ○ Code reviews, incident response, facilitate post-mortems ○ Supports a dedicated portfolio or a product team ○ Individual SREs may rotate in and out of products, sprints (though some might not)",
-      "title": "",
-      "original_description_html": "<p>DevOps is an idea; SRE is a practice.\n●\nA cohort of of Site Reliability Engineers, organised and managed as a group, form an SRE team.\n●\nSRE teams are versatile! ○\nCode reviews, incident response, facilitate post-mortems\n○\nSupports a dedicated portfolio or a product team\n○\nIndividual SREs may rotate in and out of products, sprints (though some might not)</p>\n"
+      "title": ""
     },
     {
       "id": "8GoaeS",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "kaXOWr",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "SREs have personalities ● Patience for staring at code ● Enjoy problem-solving ● Capacity for self-teaching ● Wide range of technical interests ● Great at communicating in different ways ● Big on teamwork and mutual trust ● Interested in mentoring / teaching",
-      "title": "",
-      "original_description_html": "<p>SREs have personalities\n●\nPatience for staring at code\n●\nEnjoy problem-solving\n●\nCapacity for self-teaching\n●\nWide range of technical interests\n●\nGreat at communicating in different ways\n●\nBig on teamwork and mutual trust\n●\nInterested in mentoring / teaching</p>\n"
+      "title": ""
     },
     {
       "id": "MuGCPG",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "SREs have backgrounds ● Traditional “ops” or “dev” profiles ● Customer success agent ● PhD in computer science ● Dropped out of high school Great SRE talent can come from anywhere!",
-      "title": "",
-      "original_description_html": "<p>SREs have backgrounds\n●\nTraditional “ops” or “dev” profiles\n●\nCustomer success agent\n●\nPhD in computer science\n●\nDropped out of high school\nGreat SRE talent can come from anywhere!</p>\n"
+      "title": ""
     },
     {
       "id": "zDz0Hf",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "bXhoA4",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "SRE: Standalone team? Embedded resource? ● Depends on your organization; on your realities. ● Try a few different things—see what works! ● This is where the CAMS acronym comes into play. ○ Culture ○ Automation ○ Measurement ○ Sharing",
-      "title": "",
-      "original_description_html": "<p>SRE: Standalone team? Embedded resource?\n●\nDepends on your organization; on your realities.\n●\nTry a few different things—see what works!\n●\nThis is where the CAMS acronym comes into play. ○\nCulture\n○\nAutomation\n○\nMeasurement\n○\nSharing</p>\n"
+      "title": ""
     },
     {
       "id": "DrQc2T",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Pitfall(s)",
-      "title": "",
-      "original_description_html": "<p>Pitfall(s)</p>\n"
+      "title": ""
     },
     {
       "id": "qB9Pus",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s topics, reprised 1. Clear up confusion about what DevOps and SRE are. 2. Discuss team and organizational structure. 3. Tips on finding and growing SRE talent. 4. Practical suggestions for incorporating SRE into your organization.",
-      "title": "",
-      "original_description_html": "<p>Today’s topics, reprised\n1.\nClear up confusion about what DevOps and SRE are.\n2.\nDiscuss team and organizational structure.\n3.\nTips on finding and growing SRE talent.\n4.\nPractical suggestions for incorporating SRE into your organization.</p>\n"
+      "title": ""
     },
     {
       "id": "SUsDnH",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demystifying DevOps & SRE Fin.",
-      "title": "",
-      "original_description_html": "<p>Demystifying DevOps &amp; SRE Fin.</p>\n"
+      "title": ""
     }
   ],
   "page_count": 19,
@@ -298,6 +279,5 @@
       "bytes": 1391687
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/FNCWUM/demystifying-devops-sre"
+  "processor": "notist-preserved-display-v1"
 }

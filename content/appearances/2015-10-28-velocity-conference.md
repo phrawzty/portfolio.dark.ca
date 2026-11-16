@@ -15,9 +15,6 @@ timezone = "Europe/Amsterdam"
 virtual = false
 deck = ""
 recording_url = "https://www.youtube.com/watch?v=Zq5lx3bINZQ"
-source_url = "https://speaking.dark.ca/WCWYWR/genesis-terraforming-a-new-home-for-firefox-crash-reporter"
-source_event_id = "ev_DG8XJF"
-source_published_on = "2015-10-28 08:00:00"
 feedback = []
 place = "amsterdam-nl"
 

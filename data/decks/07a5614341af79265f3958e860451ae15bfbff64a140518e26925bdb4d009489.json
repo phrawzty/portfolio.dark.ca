@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 2 Improving your toolset. Profiting from containers and serverless functions",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native: Chapter 2 Improving your toolset. Profiting from containers and serverless functions</p>\n"
+      "title": ""
     },
     {
       "id": "i8x2QD",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Hahnara Hyun Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
-      "title": "",
-      "original_description_html": "<p>Hahnara Hyun Solutions Architect at AWS\nDaniel Maher Technical Evangelist at Datadog @phrawzty\nAra Pulido Technical Evangelist at Datadog @arapulido</p>\n"
+      "title": ""
     },
     {
       "id": "KSfqIc",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (Today!) Episode 3: Bringing your company onboard! (8 June)",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (Today!) Episode 3: Bringing your company onboard! (8 June)</p>\n"
+      "title": ""
     },
     {
       "id": "wmOeB1",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traditional three-tier application architecture Web servers Presentation layers Application servers Business logic Database servers Data layer © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4",
-      "title": "",
-      "original_description_html": "<p>Traditional three-tier application architecture Web servers Presentation layers\nApplication servers Business logic\nDatabase servers Data layer\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4</p>\n"
+      "title": ""
     },
     {
       "id": "Z67S3Q",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "How can we innovate faster? © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5",
-      "title": "",
-      "original_description_html": "<p>How can we innovate faster?\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5</p>\n"
+      "title": ""
     },
     {
       "id": "BPqFvp",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "What do our customers want in a modern application? Reliability Flexibility Security and isolation by design © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6",
-      "title": "",
-      "original_description_html": "<p>What do our customers want in a modern application?\nReliability\nFlexibility\nSecurity and isolation by design\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6</p>\n"
+      "title": ""
     },
     {
       "id": "njZ3oE",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traditional three-tier application architecture Web servers Presentation layers Application servers Business logic Database servers Data layer © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 7",
-      "title": "",
-      "original_description_html": "<p>Traditional three-tier application architecture Web servers Presentation layers\nApplication servers Business logic\nDatabase servers Data layer\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 7</p>\n"
+      "title": ""
     },
     {
       "id": "Q3Hrgd",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Modern application architecture Presentation Events Events Business logic APIs Queues/messages Data © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8",
-      "title": "",
-      "original_description_html": "<p>Modern application architecture Presentation\nEvents\nEvents\nBusiness logic\nAPIs Queues/messages\nData\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8</p>\n"
+      "title": ""
     },
     {
       "id": "2N0fZ2",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Let’s zoom out APIs APIs APIs APIs APIs © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9",
-      "title": "",
-      "original_description_html": "<p>Let’s zoom out\nAPIs\nAPIs\nAPIs\nAPIs\nAPIs\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9</p>\n"
+      "title": ""
     },
     {
       "id": "egjTRR",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Deployment: Monolith development lifecycle developers services delivery pipelines build test release monitor © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10",
-      "title": "",
-      "original_description_html": "<p>Deployment: Monolith development lifecycle developers\nservices\ndelivery pipelines\nbuild\ntest\nrelease\nmonitor\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10</p>\n"
+      "title": ""
     },
     {
       "id": "H0SHJq",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Deployment: Microservice development lifecycle developers services delivery pipelines build test release monitor build test release monitor build test release monitor build test release monitor build test release monitor build test release monitor © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11",
-      "title": "",
-      "original_description_html": "<p>Deployment: Microservice development lifecycle developers\nservices\ndelivery pipelines build\ntest\nrelease\nmonitor\nbuild\ntest\nrelease\nmonitor\nbuild\ntest\nrelease\nmonitor\nbuild\ntest\nrelease\nmonitor\nbuild\ntest\nrelease\nmonitor\nbuild\ntest\nrelease\nmonitor\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11</p>\n"
+      "title": ""
     },
     {
       "id": "tKB5CF",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Modern application architecture Presentation Events Events Business logic APIs Queues/messages Data © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12",
-      "title": "",
-      "original_description_html": "<p>Modern application architecture Presentation\nEvents\nEvents\nBusiness logic\nAPIs Queues/messages\nData\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12</p>\n"
+      "title": ""
     },
     {
       "id": "Vdtt4e",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Compute and Operations More AWS Lambda Serverless functions AWS manages Customer manages Data source integrations Application code Physical hardware, software, networking, and facilities Provisioning Application code Opinionated Container orchestration, provisioning AWS Fargate Cluster scaling Data source integrations Serverless containers Physical hardware, host OS/kernel, networking, and facilities Security config and updates Network config Management tasks Application code Amazon ECS/EKS Container-management -as-a-service Container orchestration control plane Physical hardware software, networking, and facilities Data source integrations Work clusters Security config and updates, network config, firewall, management tasks Application code Amazon EC2 Physical hardware software, networking, and facilities Infrastructure-as-a-Service Les s © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark © 2017, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Data source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers 13",
-      "title": "",
-      "original_description_html": "<p>Compute and Operations More\nAWS Lambda Serverless functions\nAWS manages\nCustomer manages\nData source integrations\nApplication code\nPhysical hardware, software, networking, and facilities Provisioning Application code\nOpinionated\nContainer orchestration, provisioning\nAWS Fargate\nCluster scaling\nData source integrations\nServerless containers\nPhysical hardware, host OS/kernel, networking, and facilities\nSecurity config and updates Network config Management tasks Application code\nAmazon ECS/EKS Container-management -as-a-service\nContainer orchestration control plane Physical hardware software, networking, and facilities\nData source integrations Work clusters Security config and updates, network config, firewall, management tasks\nApplication code\nAmazon EC2\nPhysical hardware software, networking, and facilities\nInfrastructure-as-a-Service\nLes s © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark © 2017, Amazon Web Services, Inc. or its Affiliates. All rights reserved.\nData source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers\n13</p>\n"
+      "title": ""
     },
     {
       "id": "7xcgx3",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Lego uses an event-driven design Login Customer login Commerce platform Order & customer updates Event relay Shipping Customer login Invoke every minute Events Order complete Amazon EventBridge Data sync Customer, VIP, wishlist sync Customer login FIFO queue Payment Payment authorized Checkout Submit order Send order to SAP Authorize payment Order Order submit Order complete Process order © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 14",
-      "title": "",
-      "original_description_html": "<p>Lego uses an event-driven design Login\nCustomer login\nCommerce platform\nOrder &amp; customer updates\nEvent relay\nShipping\nCustomer login\nInvoke every minute\nEvents\nOrder complete\nAmazon EventBridge\nData sync\nCustomer, VIP, wishlist sync\nCustomer login\nFIFO queue\nPayment\nPayment authorized\nCheckout\nSubmit order\nSend order to SAP\nAuthorize payment\nOrder\nOrder submit\nOrder complete\nProcess order\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 14</p>\n"
+      "title": ""
     },
     {
       "id": "kHLUpS",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Purpose-built databases at AWS Relational Aurora RD S Key value Document In-memory Graph Time series Ledger Wide column DynamoDB DocumentDB ElastiCache Neptune Timestream QLDB Managed Cassandra © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 15",
-      "title": "",
-      "original_description_html": "<p>Purpose-built databases at AWS\nRelational\nAurora\nRD S\nKey value\nDocument\nIn-memory\nGraph\nTime series\nLedger\nWide column\nDynamoDB\nDocumentDB\nElastiCache\nNeptune\nTimestream\nQLDB\nManaged Cassandra\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 15</p>\n"
+      "title": ""
     },
     {
       "id": "Mb4Ihr",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk of introducing changes …may result in unavailability, reduced performance, adoption Applications Environmen t Features © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 16",
-      "title": "",
-      "original_description_html": "<p>Risk of introducing changes …may result in unavailability, reduced performance, adoption\nApplications Environmen t\nFeatures\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 16</p>\n"
+      "title": ""
     },
     {
       "id": "yun6aG",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Monitor for reliable service health during re-platforming © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 17",
-      "title": "",
-      "original_description_html": "<p>Monitor for reliable service health during re-platforming\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 17</p>\n"
+      "title": ""
     },
     {
       "id": "bEVuSf",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Observability",
-      "title": "",
-      "original_description_html": "<p>Observability</p>\n"
+      "title": ""
     },
     {
       "id": "DYEiL4",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Review from ep1: Observability",
-      "title": "",
-      "original_description_html": "<p>Review from ep1: Observability</p>\n"
+      "title": ""
     },
     {
       "id": "prxWDT",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals</p>\n"
+      "title": ""
     },
     {
       "id": "SBgK5s",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals Latency Traﬃc Errors Saturation",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals\nLatency\nTraﬃc\nErrors\nSaturation</p>\n"
+      "title": ""
     },
     {
       "id": "4VP7yH",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Latency ● Direct impact on customer experience. ● Where and how you measure is key.",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals: Latency\n● Direct impact on customer experience. ● Where and how you measure is key.</p>\n"
+      "title": ""
     },
     {
       "id": "gp7vqg",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Traﬃc ● The amount of work being done—or attempted. ● Direct relationship to business value.",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals: Traﬃc\n● The amount of work being done—or attempted. ● Direct relationship to business value.</p>\n"
+      "title": ""
     },
     {
       "id": "J8qjj5",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Errors ● A nice, defined target to aim at. ● Direct impact on customer experience.",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals: Errors\n● A nice, defined target to aim at. ● Direct impact on customer experience.</p>\n"
+      "title": ""
     },
     {
       "id": "vSZXbU",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals: Saturation ● Honestly, this is a tricky one. :) ● Direct relationship to both scaling and capacity planning.",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals: Saturation\n● Honestly, this is a tricky one. :) ● Direct relationship to both scaling and capacity planning.</p>\n"
+      "title": ""
     },
     {
       "id": "XmILTt",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traces and APM",
-      "title": "",
-      "original_description_html": "<p>Traces and APM</p>\n"
+      "title": ""
     },
     {
       "id": "A619MI",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "mPjxEh",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "OjSl76",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "S4 S1 S2 S3 S5",
-      "title": "",
-      "original_description_html": "<p>S4 S1\nS2\nS3\nS5</p>\n"
+      "title": ""
     },
     {
       "id": "13BYzV",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "TRACE S1 S2 S3 SPANS S4 S5",
-      "title": "",
-      "original_description_html": "<p>TRACE S1\nS2\nS3 SPANS S4\nS5</p>\n"
+      "title": ""
     },
     {
       "id": "dMuMru",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demo",
-      "title": "",
-      "original_description_html": "<p>Demo</p>\n"
+      "title": ""
     },
     {
       "id": "FgdAkJ",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "s0Lyci",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "UK4mV7",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     }
   ],
   "page_count": 34,
@@ -523,6 +489,5 @@
       "bytes": 3033577
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/75SK5F/cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serverless-functions"
+  "processor": "notist-preserved-display-v1"
 }

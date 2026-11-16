@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Better Reliability With SLOs Daniel Maher Developer Relations",
-      "title": "",
-      "original_description_html": "<p>Better Reliability With SLOs Daniel Maher Developer Relations</p>\n"
+      "title": ""
     },
     {
       "id": "JXGaEX",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Better Reliability With SLOs Daniel “phrawzty” Maher Developer Relations",
-      "title": "",
-      "original_description_html": "<p>Better Reliability With SLOs Daniel “phrawzty” Maher Developer Relations</p>\n"
+      "title": ""
     },
     {
       "id": "vqzO6w",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "What we’ll cover today – SLIs, SLOs, and SLAs – Defining quality targets – Error budgets – Practical examples @phrawzty",
-      "title": "",
-      "original_description_html": "<p>What we’ll cover today\n– SLIs, SLOs, and SLAs – Defining quality targets – Error budgets – Practical examples\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "YAiBzL",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLIs, SLOs, & SLAs @phrawzty",
-      "title": "",
-      "original_description_html": "<p>SLIs, SLOs, &amp; SLAs @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "AUQzrk",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric). SLIs @phrawzty Image credit: Indicator by Nhor from the Noun Project",
-      "title": "",
-      "original_description_html": "<p>A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric).\nSLIs @phrawzty\nImage credit: Indicator by Nhor from the Noun Project</p>\n"
+      "title": ""
     },
     {
       "id": "mo9nk9",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "A Service Level Objective is a target value for a service, as measured via an SLI. SLOs @phrawzty Image credit: Objective by priyanka from the Noun Project",
-      "title": "",
-      "original_description_html": "<p>A Service Level Objective is a target value for a service, as measured via an SLI.\nSLOs @phrawzty\nImage credit: Objective by priyanka from the Noun Project</p>\n"
+      "title": ""
     },
     {
       "id": "P7sbcY",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs. SLAs @phrawzty Image credit: Checked document by Rockicon from the Noun Project",
-      "title": "",
-      "original_description_html": "<p>A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs.\nSLAs @phrawzty\nImage credit: Checked document by Rockicon from the Noun Project</p>\n"
+      "title": ""
     },
     {
       "id": "1RbPUx",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Multiple Stakeholders Product Managers Developers, SREs Executives Customers @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Multiple Stakeholders Product Managers\nDevelopers, SREs\nExecutives\nCustomers\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "dlKDNM",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Focus on user experience SLIs @phrawzty SLOs SLAs",
-      "title": "",
-      "original_description_html": "<p>Focus on user experience\nSLIs @phrawzty\nSLOs\nSLAs</p>\n"
+      "title": ""
     },
     {
       "id": "G531Fl",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Defining quality targets",
-      "title": "",
-      "original_description_html": "<p>Defining quality targets</p>\n"
+      "title": ""
     },
     {
       "id": "sOlp8A",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "User experience is everything ● How are they interacting with your product? @phrawzty",
-      "title": "",
-      "original_description_html": "<p>User experience is everything ● How are they interacting with your product?\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "UiUd0Z",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? @phrawzty",
-      "title": "",
-      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow?\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "72DQsy",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? @phrawzty",
-      "title": "",
-      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with?\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "jLwElN",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? ● What do they want? What do they expect? @phrawzty",
-      "title": "",
-      "original_description_html": "<p>User experience is everything ● How are they interacting with your product? ● What is their workflow? ● What services do they interact with? ● What do they want? What do they expect?\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "Lff2dm",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Not all values make good SLIs @phrawzty – Free resources (CPU, Memory, Disk Space) – Quorum state (does the leader matter?) – Number of lines of code per commit.",
-      "title": "",
-      "original_description_html": "<p>Not all values make good SLIs\n@phrawzty\n– Free resources (CPU, Memory, Disk Space) – Quorum state (does the leader matter?) – Number of lines of code per commit.</p>\n"
+      "title": ""
     },
     {
       "id": "xzNqWB",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Identifying good SLIs Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
-      "title": "",
-      "original_description_html": "<p>Identifying good SLIs Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+      "title": ""
     },
     {
       "id": "aJ6eOa",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLIs are applied values Indicators must have represent user experience. The number of requests to an endpoint that complete successfully. @phrawzty The number of requests to an endpoint that complete within 500ms.",
-      "title": "",
-      "original_description_html": "<p>SLIs are applied values Indicators must have represent user experience. The number of requests to an endpoint that complete successfully.\n@phrawzty\nThe number of requests to an endpoint that complete within 500ms.</p>\n"
+      "title": ""
     },
     {
       "id": "CcpSGz",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLOs are applied SLIs Objectives have both a target and a time window. Requests are 99.95% successful in the last 24 hours. @phrawzty 90% of requests complete under 500ms in the 30 days.",
-      "title": "",
-      "original_description_html": "<p>SLOs are applied SLIs Objectives have both a target and a time window. Requests are 99.95% successful in the last 24 hours.\n@phrawzty\n90% of requests complete under 500ms in the 30 days.</p>\n"
+      "title": ""
     },
     {
       "id": "owYG9O",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLAs are applied SLOs Agreements address expectations and impacts. The customer expects a given service to have a 0.05% maximum error rate daily, or they’ll receive a rebate. @phrawzty The customer expects only 10% of monthly requests to take longer than 500ms to complete, or they’ll be reimbursed for the compute overage.",
-      "title": "",
-      "original_description_html": "<p>SLAs are applied SLOs Agreements address expectations and impacts. The customer expects a given service to have a 0.05% maximum error rate daily, or they’ll receive a rebate.\n@phrawzty\nThe customer expects only 10% of monthly requests to take longer than 500ms to complete, or they’ll be reimbursed for the compute overage.</p>\n"
+      "title": ""
     },
     {
       "id": "RGH41n",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Error Budgets",
-      "title": "",
-      "original_description_html": "<p>Error Budgets</p>\n"
+      "title": ""
     },
     {
       "id": "3ZzruC",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Move fast and fix things! @phrawzty – Failure is unavoidable; how you respond is important. – Balance innovation and novelty with reliability and stability. – Similar to an SLA.",
-      "title": "",
-      "original_description_html": "<p>Move fast and fix things!\n@phrawzty\n– Failure is unavoidable; how you respond is important. – Balance innovation and novelty with reliability and stability. – Similar to an SLA.</p>\n"
+      "title": ""
     },
     {
       "id": "ftifmb",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building an Error Budget ● An SLO is identified by the product owner. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "IDRTf0",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system).\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "uXAHXP",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). ● The difference between the actual measurement and the objective is the error budget. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Building an Error Budget ● An SLO is identified by the product owner. ● The actual objective is measured by a neutral party (hint: a monitoring system). ● The difference between the actual measurement and the objective is the error budget. @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "Wqt5Po",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Using the budget Spend the budget Build the budget If the SLO is currently being met, you have room to move. Add new features! Deploy a new version! Trigger some planned downtime… If the budget is zero (or negative), you should concentrate on that. Freeze new features. Improve the observability story. Prioritise dealing with technical debt. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Using the budget Spend the budget\nBuild the budget\nIf the SLO is currently being met, you have room to move. Add new features! Deploy a new version! Trigger some planned downtime…\nIf the budget is zero (or negative), you should concentrate on that. Freeze new features. Improve the observability story. Prioritise dealing with technical debt.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "9AbtID",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Practical examples",
-      "title": "",
-      "original_description_html": "<p>Practical examples</p>\n"
+      "title": ""
     },
     {
       "id": "lUKhAc",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "fotosite.neð (not real) – A fun site for uploading, sharing, and viewing photos. – Make friends! Build communities! – Buy print-quality photos. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>fotosite.neð (not real)\n– A fun site for uploading, sharing, and viewing photos. – Make friends! Build communities! – Buy print-quality photos.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "No3V31",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "07mIvQ",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "cRV6np",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. ● What services do they interact with? ○ Accounts backend, upload service @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download. ● What services do they interact with?\n○ Accounts backend, upload service @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "ElDugE",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Consider the user experience ● How are they interacting with your product? ○ Clicking, viewing photos, doing searches. ● What is their workflow? ○ Log in, search photos, view, download. ● What services do they interact with? ○ Accounts backend, upload service ● What do they want? What do they expect? ○ They want it to be fast!",
-      "title": "",
-      "original_description_html": "<p>Consider the user experience ● How are they interacting with your product?\n○ Clicking, viewing photos, doing searches. ● What is their workflow?\n○ Log in, search photos, view, download. ● What services do they interact with?\n○ Accounts backend, upload service ● What do they want? What do they expect?\n○ They want it to be fast!</p>\n"
+      "title": ""
     },
     {
       "id": "r4wiYd",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
-      "title": "",
-      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+      "title": ""
     },
     {
       "id": "TOfWR2",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
-      "title": "",
-      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+      "title": ""
     },
     {
       "id": "5iOKJR",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "fotosite.neð: Indicators Response/Request Availability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled? Storage Availability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed? Pipeline Correctness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?",
-      "title": "",
-      "original_description_html": "<p>fotosite.neð: Indicators Response/Request\nAvailability – Could the server respond to the request? Latency – How long did it take for the server to respond to the request? Throughput – How many requests can be handled?\nStorage\nAvailability – Can the data be accessed on demand? Latency – How long does it take to read or write data? Durability – Is the data still there when it is needed?\nPipeline\nCorrectness – Was the right data returned? Freshness – How long does it take for new data or processed results to appear?</p>\n"
+      "title": ""
     },
     {
       "id": "i278Bq",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "Bonus: More tips!",
-      "title": "",
-      "original_description_html": "<p>Bonus: More tips!</p>\n"
+      "title": ""
     },
     {
       "id": "KLpw4F",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "Measuring SLIs with Datadog Monitor-based Event-based Based on monitors, which are generally tied to metrics. - Values within a set time frame. - ex. “99% of the time, latency for this request is less than 200ms” Based on events, which are more akin to statements. - Effectively a success ratio. - ex. “99% of requests have latency less than 200ms” @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Measuring SLIs with Datadog Monitor-based\nEvent-based</p>\n<ul>\n<li>Based on monitors, which are generally tied to metrics. - Values within a set time frame. - ex. “99% of the time, latency for this request is less than 200ms”</li>\n<li>Based on events, which are more akin to statements. - Effectively a success ratio. - ex. “99% of requests have latency less than 200ms”\n@phrawzty</li>\n</ul>\n"
+      "title": ""
     },
     {
       "id": "wfYjwe",
@@ -371,8 +335,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four Golden Signals Latency Traffic Errors Saturation @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Four Golden Signals Latency\nTraffic\nErrors\nSaturation\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "YzHXp3",
@@ -381,8 +344,7 @@
       "width": 1600,
       "height": 900,
       "text": "– Step back from the internals. Focus on your users. @phrawzty – Define user stories / journeys first, then SLIs. – Involve all stakeholders, especially product.",
-      "title": "",
-      "original_description_html": "<p>– Step back from the internals.\nFocus on your users.\n@phrawzty\n– Define user stories / journeys first, then SLIs. – Involve all stakeholders, especially product.</p>\n"
+      "title": ""
     },
     {
       "id": "BJ0LhS",
@@ -391,8 +353,7 @@
       "width": 1600,
       "height": 900,
       "text": "– Gain experience; experiment by hand if that’s easier! Start small. – Build out data sets to establish reasonable baselines. – Error on the side of naïveté (at first). @phrawzty",
-      "title": "",
-      "original_description_html": "<p>– Gain experience; experiment by hand if that’s easier!\nStart small.\n– Build out data sets to establish reasonable baselines. – Error on the side of naïveté (at first).\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "ncj9Zr",
@@ -401,8 +362,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLOs change. @phrawzty – Re-evaluate your SLIs and SLOs as your environment evolves. – SLAs must have the capacity to evolve, too!",
-      "title": "",
-      "original_description_html": "<p>SLOs change.\n@phrawzty\n– Re-evaluate your SLIs and SLOs as your environment evolves. – SLAs must have the capacity to evolve, too!</p>\n"
+      "title": ""
     },
     {
       "id": "PwRxSG",
@@ -411,8 +371,7 @@
       "width": 1600,
       "height": 900,
       "text": "Tooling matters. @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Tooling matters.\n@phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "2GAlKf",
@@ -421,8 +380,7 @@
       "width": 1600,
       "height": 900,
       "text": "Obrigado!",
-      "title": "",
-      "original_description_html": "<p>Obrigado!</p>\n"
+      "title": ""
     }
   ],
   "page_count": 42,
@@ -643,6 +601,5 @@
       "bytes": 745964
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/9yWekH/better-reliability-through-slos"
+  "processor": "notist-preserved-display-v1"
 }

@@ -1,9 +1,0 @@
-id = "ev_iuabpt"
-title = "Kong & Datadog Webinar"
-slug = "kong-datadog-webinar"
-starts_on = "2021-04-14 08:00:00"
-ends_on = "2021-04-14 18:00:00"
-timezone = "GMT"
-address = "Virtual"
-
-[blurb]

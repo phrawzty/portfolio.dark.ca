@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "TJtAk6",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "DEV315-S Building SRE from scratch at Coinbase during hypergrowth Niall O’Higgins Daniel Maher © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>DEV315-S\nBuilding SRE from scratch at Coinbase during hypergrowth Niall O’Higgins\nDaniel Maher\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "5dbycV",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "“Our goal is to make Coinbase the most trusted and easiest to use digital currency exchange.” Brian Armstrong Co-founder & CEO of Coinbase",
-      "title": "",
-      "original_description_html": "<p>“Our goal is to make Coinbase the most trusted and easiest to use digital currency exchange.” Brian Armstrong Co-founder &amp; CEO of Coinbase</p>\n"
+      "title": ""
     },
     {
       "id": "hxKmUu",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is SRE? • New field • Definitions vary • Many misconceptions © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>What is SRE? • New field • Definitions vary • Many misconceptions\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "KH3aNJ",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Is this SRE? • Endless firefighting? • Being on-call? • Operational toil? Those are the symptoms; SRE is the cure. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Is this SRE? • Endless firefighting? • Being on-call? • Operational toil?\nThose are the symptoms; SRE is the cure.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "wamOFi",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "What about DevOps? SRE satisfies many, if not all, of the operational and cultural elements of DevOps. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>What about DevOps? SRE satisfies many, if not all, of the operational and cultural elements of DevOps.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "YuVC87",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Key SRE insight #1 Measure and improve human, organisational, and machine systems. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Key SRE insight #1 Measure and improve human, organisational, and machine systems.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "BEE00W",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Key SRE insight #2 Move from reactive to proactive. Go find sources of toil and eliminate them! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Key SRE insight #2 Move from reactive to proactive. Go find sources of toil and eliminate them!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "nXwnsv",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Key SRE insight #3 Provide an organisational backpressure mechanism. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Key SRE insight #3 Provide an organisational backpressure mechanism.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "PrfblK",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Set early expectations • New language and fresh set of concepts. • Takes time to absorb - no instant results! • The best way to begin, is to begin. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Set early expectations • New language and fresh set of concepts. • Takes time to absorb - no instant results! • The best way to begin, is to begin.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "2BOPdj",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Coinbase strategy • Service Level Indicators • The “Four Golden Signals” © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>The Coinbase strategy • Service Level Indicators • The “Four Golden Signals”\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "eV7DW8",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Metrics: the core of SLIs • Natural tendency to over-engineer. • Lots of data, none of it actionable or useful. Optimise for KPIs, or high signal/noise. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Metrics: the core of SLIs • Natural tendency to over-engineer. • Lots of data, none of it actionable or useful.\nOptimise for KPIs, or high signal/noise.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "Goq1OX",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Four Golden Signals • • • • Latency Traffic Errors Saturation © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>The Four Golden Signals • • • •\nLatency Traffic Errors Saturation\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "t8YpGw",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Latency • Direct impact on customer experience. • Where and how you measure it is important. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Latency • Direct impact on customer experience. • Where and how you measure it is important.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "VSHd9L",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Traffic • The amount of work being done - or attempted. • Direct relationship with business value. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Traffic • The amount of work being done - or attempted. • Direct relationship with business value.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "7m0R1k",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Errors • A nice, defined target to aim at. • Direct impact on customer experience. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Errors • A nice, defined target to aim at. • Direct impact on customer experience.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "k5jEu9",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Saturation • Real Talk: this is a tricky one. • Direct relationship to both scaling and capacity planning. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Saturation • Real Talk: this is a tricky one. • Direct relationship to both scaling and capacity planning.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "MPS2mY",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Humans and the Four Golden Signals • • • • Latency Traffic Errors Saturation © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Humans and the Four Golden Signals • • • •\nLatency Traffic Errors Saturation\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "yjAqex",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Start, then iterate • Start with an initial specification - even if it’s not ideal. • Iterating on feedback is the key to getting it right. • Keep it simple! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Start, then iterate • Start with an initial specification - even if it’s not ideal. • Iterating on feedback is the key to getting it right. • Keep it simple!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "b2teXM",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Spreadsheets are simple, right? Service Latency Errors Saturation Traffic Foo foo.latency foo.error_rate Disc space TPS Bar bar.response_time bar.error_rate Memory TPS © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Spreadsheets are simple, right?\nService\nLatency\nErrors\nSaturation\nTraffic\nFoo\nfoo.latency\nfoo.error_rate\nDisc space\nTPS\nBar\nbar.response_time\nbar.error_rate\nMemory\nTPS\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "DMcSPl",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLIs: Defining “done” • Per-service dashboard in Datadog with timeseries chart for each indicator. • Document describing the indicators and why they are important. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>SLIs: Defining “done” • Per-service dashboard in Datadog with timeseries chart for each\nindicator. • Document describing the indicators and why they are important.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "pgLGIA",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Dashboards © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Datadog Dashboards\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "S044AZ",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Dashboards © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Datadog Dashboards\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "4Jms2y",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Specification Documentation • • • Spec vs. implementation Where do you want to instrument? Where is it easy to instrument? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Specification Documentation • • •\nSpec vs. implementation Where do you want to instrument? Where is it easy to instrument?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "gdVfvN",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "First SLIs, then Promises • Plain-language statements; easy to parse, easy to understand. • Plenty of potential stakeholders. • Start simple! © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>First SLIs, then Promises • Plain-language statements; easy to parse, easy to understand. • Plenty of potential stakeholders. • Start simple!\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "IxETnm",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "“You can rely on us to buy or sell crypto whenever you want.” Coinbase’s “Prime Promise”",
-      "title": "",
-      "original_description_html": "<p>“You can rely on us to buy or sell crypto whenever you want.” Coinbase’s “Prime Promise”</p>\n"
+      "title": ""
     },
     {
       "id": "vGxHgB",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Essential Reading Thinking in Promises by Mark Burgess © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Essential Reading Thinking in Promises by Mark Burgess\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "Xag5Ya",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Concerning Promises • Promises have two parties. • Promises can be human to machine, human to human, or machine to machine. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Concerning Promises • Promises have two parties. • Promises can be human to machine, human to human, or machine to\nmachine.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "9uOtQz",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Example Promises • You service promises to respond to clients within 50ms. • A service you depend on promises that its error rate will be < 1%. • On-call promises they will engage an incident within 15 minutes. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Example Promises • You service promises to respond to clients within 50ms. • A service you depend on promises that its error rate will be &lt; 1%. • On-call promises they will engage an incident within 15 minutes.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "mE7hJO",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Promise enumeration • Each team must formalise the promises they are willing to keep. • They must also understand the promises they rely upon to function. • When a promise you rely upon is broken, what should you do? Who should you contact? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Promise enumeration • Each team must formalise the promises they are willing to keep. • They must also understand the promises they rely upon to function. • When a promise you rely upon is broken, what should you do? Who\nshould you contact?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "OXqVBn",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Promises: defining “done” Promises are done when they have a Datadog monitor (alert). © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Promises: defining “done” Promises are done when they have a Datadog monitor (alert).\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "0rZJ4C",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "When Promises are broken… • It is inevitable that a promises will be broken at some point. • What to do when that happens? © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>When Promises are broken… • It is inevitable that a promises will be broken at some point. • What to do when that happens?\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "dBI6wb",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "Blameless post-mortems • Is “blameless post-mortem” a real thing? • What about data-driven post-mortems? • How does this relate to promises - specifically broken ones? • https://v.gd/jpr_post_mortems • https://v.gd/jyee_datadriven © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Blameless post-mortems • Is “blameless post-mortem” a real thing? • What about data-driven post-mortems? • How does this relate to promises - specifically broken ones?\n• https://v.gd/jpr_post_mortems • https://v.gd/jyee_datadriven\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "FV0up0",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "Interpreting incidents • • • Build a shared language. Practise communicating. Understand that incidents and outages are broken promises. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Interpreting incidents • • •\nBuild a shared language. Practise communicating. Understand that incidents and outages are broken promises.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "rojihP",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "Measuring incident response • Quantify and measure the quality of your incident responses. • Quantitative: Time to detect, time to engage, time to fix. • Qualitative: Quality of communication. © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Measuring incident response • Quantify and measure the quality of your incident responses. • Quantitative: Time to detect, time to engage, time to fix. • Qualitative: Quality of communication.\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "U8SWZo",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "The end-game • Have a clear answer for “why SRE?” • Start with instrumentation keep it simple to start. • Enumerate your promises. • Measure your response when promises are broken. • Transparency • Understanding • Confidence © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>The end-game • Have a clear answer for\n“why SRE?” • Start with instrumentation keep it simple to start. • Enumerate your promises. • Measure your response when promises are broken.\n• Transparency • Understanding • Confidence\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "6SBKSD",
@@ -371,8 +335,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank you! Niall O’Higgins Daniel Maher © 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>Thank you! Niall O’Higgins\nDaniel Maher\n© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     },
     {
       "id": "ilu8Kc",
@@ -381,8 +344,7 @@
       "width": 1600,
       "height": 900,
       "text": "© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.",
-      "title": "",
-      "original_description_html": "<p>© 2018, Amazon Web Services, Inc. or its affiliates. All rights reserved.</p>\n"
+      "title": ""
     }
   ],
   "page_count": 38,
@@ -583,6 +545,5 @@
       "bytes": 9601135
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/RTIcE6/building-sre-from-scratch-at-coinbase-during-hypergrowth"
+  "processor": "notist-preserved-display-v1"
 }

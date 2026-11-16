@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 1 Your first days. Benefits from cloud basics",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native: Chapter 1 Your first days. Benefits from cloud basics</p>\n"
+      "title": ""
     },
     {
       "id": "g0Ya0y",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Chloe Goldstein Partner Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
-      "title": "",
-      "original_description_html": "<p>Chloe Goldstein Partner Solutions Architect at AWS\nDaniel Maher Technical Evangelist at Datadog @phrawzty\nAra Pulido Technical Evangelist at Datadog @arapulido</p>\n"
+      "title": ""
     },
     {
       "id": "IKHNtN",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (Today!) Episode 2: Getting more from advanced services (18 May) Episode 3: Bringing your company onboard! (8 June)",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (Today!) Episode 2: Getting more from advanced services (18 May) Episode 3: Bringing your company onboard! (8 June)</p>\n"
+      "title": ""
     },
     {
       "id": "ue0Blm",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Benefits of the Cloud • Agility - Teams can build more quickly and frequently • Elasticity - Easily Scale up or down based on business needs • Innovate Faster - Ability to focus on business differentiators, not infrastructure • Go Global in Minutes - Most extensive, reliable, and secure global cloud infrastructure • Cost Savings - Only pay for IT as you consume it © 2021, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Benefits of the Cloud • Agility - Teams can build more quickly and frequently\n• Elasticity - Easily Scale up or down based on business needs • Innovate Faster - Ability to focus on business differentiators, not infrastructure\n• Go Global in Minutes - Most extensive, reliable, and secure global cloud infrastructure\n• Cost Savings - Only pay for IT as you consume it\n© 2021, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "WxizeB",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS region design AWS Regions are comprised of multiple Availability Zones (AZs) for high availability, high scalability, and high fault tolerance. Applications and data are replicated in real time and consistent in the different AZs. AWS Availability Zone (AZ) AWS Region AZ Transit Datacenter AZ Transit Datacenter AZ AZ Datacenter A Region is a physical location in the world where we have multiple Availability Zones. © 2021, Amazon Web Services, Inc. or its Affiliates. Availability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities.",
-      "title": "",
-      "original_description_html": "<p>AWS region design AWS Regions are comprised of multiple Availability Zones (AZs) for high availability, high scalability, and high fault tolerance. Applications and data are replicated in real time and consistent in the different AZs. AWS Availability Zone (AZ) AWS Region AZ\nTransit\nDatacenter\nAZ\nTransit\nDatacenter\nAZ\nAZ Datacenter\nA Region is a physical location in the world where we have multiple Availability Zones.\n© 2021, Amazon Web Services, Inc. or its Affiliates.\nAvailability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities.</p>\n"
+      "title": ""
     },
     {
       "id": "9HRnWa",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infrastructure and services to elevate your security in the cloud Inherit global security & compliance controls Scale with superior visibility & control © 2021, Amazon Web Services, Inc. or its Affiliates. Highest standards for privacy & data security Automate & reduce risk with deeply integrated services Largest ecosystem of security partners & solutions",
-      "title": "",
-      "original_description_html": "<p>Infrastructure and services to elevate your security in the cloud\nInherit global security &amp; compliance controls\nScale with superior visibility &amp; control\n© 2021, Amazon Web Services, Inc. or its Affiliates.\nHighest standards for privacy &amp; data security\nAutomate &amp; reduce risk with deeply integrated services\nLargest ecosystem of security partners &amp; solutions</p>\n"
+      "title": ""
     },
     {
       "id": "lbAbOz",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Migration Strategies: • Lift-and-Shift • Lift-and-reshape • Re-architecting © 2021, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Migration Strategies: • Lift-and-Shift • Lift-and-reshape • Re-architecting\n© 2021, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "NutPHO",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Migration Phase 1",
-      "title": "",
-      "original_description_html": "<p>Cloud Migration Phase 1</p>\n"
+      "title": ""
     },
     {
       "id": "0EcD9n",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Migration: Top Of Mind",
-      "title": "",
-      "original_description_html": "<p>Cloud Migration: Top Of Mind</p>\n"
+      "title": ""
     },
     {
       "id": "cYL12C",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Start with a real production POC",
-      "title": "",
-      "original_description_html": "<p>Start with a real production POC</p>\n"
+      "title": ""
     },
     {
       "id": "Es3oub",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Observability",
-      "title": "",
-      "original_description_html": "<p>Observability</p>\n"
+      "title": ""
     },
     {
       "id": "rBmcn0",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Observability: Top Of Mind",
-      "title": "",
-      "original_description_html": "<p>Observability: Top Of Mind</p>\n"
+      "title": ""
     },
     {
       "id": "TVVQfP",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demo",
-      "title": "",
-      "original_description_html": "<p>Demo</p>\n"
+      "title": ""
     }
   ],
   "page_count": 13,
@@ -208,6 +195,5 @@
       "bytes": 1932559
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/UljWCq/cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics"
+  "processor": "notist-preserved-display-v1"
 }

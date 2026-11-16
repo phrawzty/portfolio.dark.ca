@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building on Quicksand Dependency Security Foundations Daniel ‘phrawzty’ Maher Senior Security Advocate, Datadog 1 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Building on Quicksand Dependency Security Foundations Daniel ‘phrawzty’ Maher Senior Security Advocate, Datadog\n1\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "gGlJQH",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building on Quicksand: Dependency Security Foundations What systematic assessment of major registries actually found 2 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Building on Quicksand: Dependency Security Foundations What systematic assessment of major registries actually found\n2\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "IaU7Ig",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "About me • Senior Security Advocate at Datadog • Previously: large-scale production systems at Ubisoft and Mozilla • Slide minimalist 3 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>About me • Senior Security Advocate at Datadog • Previously: large-scale production systems at Ubisoft and Mozilla • Slide minimalist\n3\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "uuCvB5",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "A note on the research • This research is not yet publicly released • The questions and methodology are still being refined • More registries to come • Goal is a community-driven model: open submissions, collective assessment, fewer individual biases 4 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>A note on the research • This research is not yet publicly released • The questions and methodology are still being refined • More registries to come • Goal is a community-driven model: open submissions, collective assessment, fewer individual biases\n4\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "XDvj3U",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "“crates.io is probably more secure than npm” • Rust: a language built around security and correctness • npm: repeated high-profile supply chain incidents • crates.io: smaller, more curated, community-governed • …right? 5 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>“crates.io is probably more secure than npm” • Rust: a language built around security and correctness • npm: repeated high-profile supply chain incidents • crates.io: smaller, more curated, community-governed • …right?\n5\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "9XeWvt",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Software Supply Chain Security Scorecard (SSCSS) • 52 questions across 8 security domains • Questions are concrete and enforceable • “Partially implemented” is not a security boundary • Assessed 6 registries and counting… • npm, PyPI, RubyGems, crates.io, Packagist, Hex.pm (yes it is pronounced suss cuss) 6 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Software Supply Chain Security Scorecard (SSCSS) • 52 questions across 8 security domains • Questions are concrete and enforceable • “Partially implemented” is not a security boundary • Assessed 6 registries and counting… • npm, PyPI, RubyGems, crates.io, Packagist, Hex.pm\n(yes it is pronounced suss cuss) 6\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "lrNKoI",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Eight domains (sections) 7 Section Max S1: Identity & Authentication (Human) 4 S2: Automated Publishing Security (Machine) 7 S3: Authorisation & Access Control 7 S4: Build & Provenance 8 S5: Integrity & Signing 6 S6: Vulnerability Management 7 S7: Abuse Prevention & Response 6 S8: Transparency & Auditability 7 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Eight domains (sections)\n7\nSection\nMax\nS1: Identity &amp; Authentication (Human)\n4\nS2: Automated Publishing Security (Machine)\n7\nS3: Authorisation &amp; Access Control\n7\nS4: Build &amp; Provenance\n8\nS5: Integrity &amp; Signing\n6\nS6: Vulnerability Management\n7\nS7: Abuse Prevention &amp; Response\n6\nS8: Transparency &amp; Auditability\n7\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "OB68gh",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Headline scores 8 Registry Score % npm 44/52 85% PyPI 32/52 62% RubyGems 31/52 60% crates.io 24/52 46% Hex.pm 24/52 46% Packagist 18/52 35% @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Headline scores\n8\nRegistry\nScore\n%\nnpm\n44/52\n85%\nPyPI\n32/52\n62%\nRubyGems\n31/52\n60%\ncrates.io\n24/52\n46%\nHex.pm\n24/52\n46%\nPackagist\n18/52\n35%\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "0UowZ6",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Section-by-section: the full picture Domain PyPI RubyGems crates.io Hex.pm Packagist Max S1 Auth (Human) 3 3 0 1 0 0 4 S2 Auth (Machine) 6 4 4 4 2 2 7 S3 Access Control 6 4 4 4 5 4 7 S4 Build & Provenance 6 4 3 2 2 2 8 S5 Integrity & Signing 5 5 6 2 3 2 6 S6 Vulnerability Mgmt 7 3 4 3 4 4 7 S7 Abuse Prevention 6 5 5 5 5 2 6 S8 Transparency 5 4 5 3 3 2 7 9 @phrawzty // Datadog npm",
-      "title": "",
-      "original_description_html": "<p>Section-by-section: the full picture Domain\nPyPI\nRubyGems\ncrates.io\nHex.pm\nPackagist\nMax\nS1 Auth (Human) 3\n3\n0\n1\n0\n0\n4\nS2 Auth (Machine)\n6\n4\n4\n4\n2\n2\n7\nS3 Access Control 6\n4\n4\n4\n5\n4\n7\nS4 Build &amp; Provenance\n6\n4\n3\n2\n2\n2\n8\nS5 Integrity &amp; Signing\n5\n5\n6\n2\n3\n2\n6\nS6 Vulnerability Mgmt\n7\n3\n4\n3\n4\n4\n7\nS7 Abuse Prevention\n6\n5\n5\n5\n5\n2\n6\nS8 Transparency 5\n4\n5\n3\n3\n2\n7\n9\n@phrawzty // Datadog\nnpm</p>\n"
+      "title": ""
     },
     {
       "id": "coXkRV",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "S2, S3, S6, S7: the steadier ground • S2 (Machine auth): npm 6/7, improving via OIDC trusted publishing across the field • S3 (Access control): broadly consistent 4–6/7; namespace protection widespread • S6 (Vulnerability mgmt): npm perfect (7/7); most others 3–4/7; active scanning the differentiator • S7 (Abuse prevention): 5 of 6 registries score 5–6/6 — visible failures drove investment • n.b. Packagist (2/6) 10 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>S2, S3, S6, S7: the steadier ground • S2 (Machine auth): npm 6/7, improving via OIDC trusted publishing across the field • S3 (Access control): broadly consistent 4–6/7; namespace protection widespread • S6 (Vulnerability mgmt): npm perfect (7/7); most others 3–4/7; active scanning the differentiator • S7 (Abuse prevention): 5 of 6 registries score 5–6/6 — visible failures drove investment • n.b. Packagist (2/6) 10\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "F8GYJu",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "npm: the best-in-class gaps • S1: 3/4 — MFA and verified identity, but no enforced SSO for organisations • S4: 6/8 — no reproducible builds, no isolated build environments • S8: 5/7 — no public audit logs of account events, no security metrics published 11 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>npm: the best-in-class gaps • S1: 3/4 — MFA and verified identity, but no enforced SSO for organisations • S4: 6/8 — no reproducible builds, no isolated build environments • S8: 5/7 — no public audit logs of account events, no security metrics published\n11\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "rRzMCJ",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "crates.io: the security-culture paradox • Rust has a strong security engineering culture • crates.io scores 24/52 — tied with Hex.pm, near the bottom of the field • S4: 2/8 — only source linking and lockfile support • S5: 2/6 — checksums only; no cryptographic signing, no attestations • S8: 3/7 — no transparency log, no build logs, no security metrics 12 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>crates.io: the security-culture paradox • Rust has a strong security engineering culture • crates.io scores 24/52 — tied with Hex.pm, near the bottom of the field • S4: 2/8 — only source linking and lockfile support • S5: 2/6 — checksums only; no cryptographic signing, no attestations • S8: 3/7 — no transparency log, no build logs, no security metrics\n12\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "TliA4i",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "S1: Human authentication — still uneven Registry MFA enforced SSO/Federation Publisher verified Org link npm Yes No Yes Yes PyPI Yes No Yes Yes RubyGems No No No No crates.io Yes (via GitHub) No No No Packagist No No No No Hex.pm No No No No 13 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>S1: Human authentication — still uneven Registry\nMFA enforced\nSSO/Federation\nPublisher verified Org link\nnpm\nYes\nNo\nYes\nYes\nPyPI\nYes\nNo\nYes\nYes\nRubyGems\nNo\nNo\nNo\nNo\ncrates.io\nYes (via GitHub)\nNo\nNo\nNo\nPackagist\nNo\nNo\nNo\nNo\nHex.pm\nNo\nNo\nNo\nNo\n13\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "65Qxx7",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "S4: Build & Provenance — the persistent gap • Reproducible builds: 0/6 registries • Sandboxed build environments: 0/6 registries • SLSA provenance metadata: npm and PyPI only • Source repository linking: 6/6 registries • SBOM availability: npm only 14 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>S4: Build &amp; Provenance — the persistent gap • Reproducible builds: 0/6 registries • Sandboxed build environments: 0/6 registries • SLSA provenance metadata: npm and PyPI only • Source repository linking: 6/6 registries • SBOM availability: npm only\n14\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "iP9lpW",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "S5: Integrity — a brighter spot, with caveats • Checksums near-universal: published and verified on install • Cryptographic signing by publishers: RubyGems and PyPI • Keyless signing via Sigstore: RubyGems, npm, and PyPI • Attestation verification: RubyGems, npm, PyPI • crates.io, Packagist: checksums only; Hex.pm adds registry-level verification 15 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>S5: Integrity — a brighter spot, with caveats • Checksums near-universal: published and verified on install • Cryptographic signing by publishers: RubyGems and PyPI • Keyless signing via Sigstore: RubyGems, npm, and PyPI • Attestation verification: RubyGems, npm, PyPI • crates.io, Packagist: checksums only; Hex.pm adds registry-level verification\n15\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "KisZhv",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "S8: Transparency — the audit trail problem • Transparency log of publications: npm, PyPI, RubyGems • Build log access: npm only • Public audit logs of account events: Hex.pm only • Malicious package removal feed: npm, RubyGems, crates.io • Security researcher APIs: most registries 16 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>S8: Transparency — the audit trail problem • Transparency log of publications: npm, PyPI, RubyGems • Build log access: npm only • Public audit logs of account events: Hex.pm only • Malicious package removal feed: npm, RubyGems, crates.io • Security researcher APIs: most registries\n16\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "x2bNaK",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "The pattern: visible vs invisible controls Visible controls (enforced at interaction time) - MFA: you either log in or you don’t - Checksums: verified on install, failure is immediate Invisible controls (benefit is diffuse, failure is silent) - Provenance: pip install succeeds whether or not it was attested - Transparency logs: you don’t know you needed them until an incident - Audit trails: absence is only noticed during forensics 17 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>The pattern: visible vs invisible controls Visible controls (enforced at interaction time) - MFA: you either log in or you don’t - Checksums: verified on install, failure is immediate Invisible controls (benefit is diffuse, failure is silent) - Provenance: pip install succeeds whether or not it was attested - Transparency logs: you don’t know you needed them until an incident - Audit trails: absence is only noticed during forensics\n17\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "ZMKBSj",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Why this matters for consumers • You cannot control the registry’s security policies • You can control your own verification practices • The invisible gaps require compensating controls on your side • Build your pipeline to verify what the registry does not 18 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Why this matters for consumers • You cannot control the registry’s security policies • You can control your own verification practices • The invisible gaps require compensating controls on your side • Build your pipeline to verify what the registry does not\n18\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "Bg2zL8",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Where to focus: a priority map High priority (registry gaps + high consumer impact) - Provenance verification where available (npm, PyPI via SLSA) - Dependency pinning and lockfile enforcement across all ecosystems - Monitor for unexpected version changes in your dependency graph Medium priority (emerging capability, worth tracking) - Sigstore-based signature verification (RubyGems, npm, PyPI) - Private registry proxies with approval gates before packages reach builds Baseline (already widely implemented by registries — lean on them) - Checksum verification — the registries handle this - MFA on your publisher accounts — enforce it yourself if the registry won’t 19 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Where to focus: a priority map High priority (registry gaps + high consumer impact) - Provenance verification where available (npm, PyPI via SLSA) - Dependency pinning and lockfile enforcement across all ecosystems - Monitor for unexpected version changes in your dependency graph Medium priority (emerging capability, worth tracking) - Sigstore-based signature verification (RubyGems, npm, PyPI) - Private registry proxies with approval gates before packages reach builds Baseline (already widely implemented by registries — lean on them) - Checksum verification — the registries handle this - MFA on your publisher accounts — enforce it yourself if the registry won’t 19\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "nzlnDX",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Engaging the ecosystem • Advocate to registries that haven’t mandated MFA to do so • Fund or contribute engineering time toward the gaps • Reach out to critical maintainers in your chain — help them enable MFA • Use OIDC trusted publishing where supported (npm, PyPI) — eliminate long-lived CI tokens 20 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Engaging the ecosystem • Advocate to registries that haven’t mandated MFA to do so • Fund or contribute engineering time toward the gaps • Reach out to critical maintainers in your chain — help them enable MFA • Use OIDC trusted publishing where supported (npm, PyPI) — eliminate long-lived CI tokens\n20\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "QJUb5w",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "What the data tells us about trajectory • Authentication: improving — npm, PyPI have moved; others lagging but moving • Trusted publishing (OIDC-based tokens): gaining traction on npm, PyPI • Provenance infrastructure: being built, slowly, in the right ecosystems • Transparency & Auditability: most neglected domain; investment consistently deferred 21 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>What the data tells us about trajectory • Authentication: improving — npm, PyPI have moved; others lagging but moving • Trusted publishing (OIDC-based tokens): gaining traction on npm, PyPI • Provenance infrastructure: being built, slowly, in the right ecosystems • Transparency &amp; Auditability: most neglected domain; investment consistently deferred\n21\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "2dDOyL",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Summary • Systematic measurement reveals gaps that intuition misses • npm leads at 85%, but still has provenance and transparency gaps • crates.io — a reminder that security culture doesn’t automatically translate into registry infrastructure • S4 (Build & Provenance) and S8 (Transparency) show the widest crossregistry gaps — most registries fall furthest short here • The visible-versus-invisible pattern explains where the gaps cluster • Consumer compensating controls matter most where S4 and S8 are absent 22 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Summary • Systematic measurement reveals gaps that intuition misses • npm leads at 85%, but still has provenance and transparency gaps • crates.io — a reminder that security culture doesn’t automatically translate into registry infrastructure • S4 (Build &amp; Provenance) and S8 (Transparency) show the widest crossregistry gaps — most registries fall furthest short here • The visible-versus-invisible pattern explains where the gaps cluster • Consumer compensating controls matter most where S4 and S8 are absent 22\n@phrawzty // Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "ewwCqk",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank you Questions? • https://securitylabs.datadoghq.com/ • Super great blog, really! • Sign up for our human-written monthly newsletter :) 23 @phrawzty // Datadog",
-      "title": "",
-      "original_description_html": "<p>Thank you Questions? • https://securitylabs.datadoghq.com/ • Super great blog, really! • Sign up for our human-written monthly newsletter :)\n23\n@phrawzty // Datadog</p>\n"
+      "title": ""
     }
   ],
   "page_count": 23,
@@ -358,6 +335,5 @@
       "bytes": 904647
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/RvNyhJ/building-on-quicksand-dependency-security-foundations"
+  "processor": "notist-preserved-display-v1"
 }

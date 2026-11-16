@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "uMxSb4",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "WELCOME TO 2",
-      "title": "",
-      "original_description_html": "<p>WELCOME TO\n2</p>\n"
+      "title": ""
     },
     {
       "id": "WggGTT",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "STARTING SOON Inside the Supply-Chain Attacks of 2026 Key Learnings and Quick Wins 3",
-      "title": "",
-      "original_description_html": "<p>STARTING SOON\nInside the Supply-Chain Attacks of 2026 Key Learnings and Quick Wins\n3</p>\n"
+      "title": ""
     },
     {
       "id": "90P4Ls",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "The software factory",
-      "title": "",
-      "original_description_html": "<p>The software factory</p>\n"
+      "title": ""
     },
     {
       "id": "lK7sEH",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "The software factory",
-      "title": "",
-      "original_description_html": "<p>The software factory</p>\n"
+      "title": ""
     },
     {
       "id": "Ndqg6g",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Have you met your (software) supply chain? app dependencies npm, PyPI Docker images VM images AI skills",
-      "title": "",
-      "original_description_html": "<p>Have you met your (software) supply chain?\napp dependencies npm, PyPI\nDocker images\nVM images\nAI skills</p>\n"
+      "title": ""
     },
     {
       "id": "zxZTz5",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "npm in numbers 4M+ 600B+ 150k+ public packages monthly downloads malicious packages 7",
-      "title": "",
-      "original_description_html": "<p>npm in numbers\n4M+\n600B+\n150k+\npublic packages\nmonthly downloads\nmalicious packages\n7</p>\n"
+      "title": ""
     },
     {
       "id": "cHIHrU",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "2026 the year of Linux on the desktop large-scale supply-chain attacks 8",
-      "title": "",
-      "original_description_html": "<p>2026 the year of Linux on the desktop\nlarge-scale supply-chain attacks\n8</p>\n"
+      "title": ""
     },
     {
       "id": "Eb15jt",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "qujtcI",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher Senior Security Advocate & Researcher 10",
-      "title": "",
-      "original_description_html": "<p>Daniel Maher Senior Security Advocate &amp; Researcher\n10</p>\n"
+      "title": ""
     },
     {
       "id": "TEShUh",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "? year of the first documented malicious npm package 11",
-      "title": "",
-      "original_description_html": "<p>? year of the first documented malicious npm package\n11</p>\n"
+      "title": ""
     },
     {
       "id": "5YBVN6",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "2017 year of the first documented malicious npm package 12",
-      "title": "",
-      "original_description_html": "<p>2017 year of the first documented malicious npm package\n12</p>\n"
+      "title": ""
     },
     {
       "id": "hruJFV",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Malicious software packages in 2026 Malicious by design Typosquatting Brand impersonation Popular keywords (“ChatGPT”) Compromised legitimate package Compromised maintainer account Release CI pipeline abused CI credentials leaked",
-      "title": "",
-      "original_description_html": "<p>Malicious software packages in 2026\nMalicious by design Typosquatting Brand impersonation Popular keywords (“ChatGPT”)\nCompromised legitimate package Compromised maintainer account Release CI pipeline abused CI credentials leaked</p>\n"
+      "title": ""
     },
     {
       "id": "KBd77u",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Attack complexity High Uninteresting zone Typosquatting Low Compromise popular package Attackers’ dream zone Impact & reach High",
-      "title": "",
-      "original_description_html": "<p>Attack complexity High\nUninteresting zone\nTyposquatting\nLow\nCompromise popular package\nAttackers’ dream zone\nImpact &amp; reach High</p>\n"
+      "title": ""
     },
     {
       "id": "wVLv0J",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Compromised legitimate packages Large user base Spread fast react: 100M+ weekly 50% of organizations use a dependency < 24h old1 axios: 100M+ weekly lodash: 150M+ weekly 1: State of DevSecOps, Datadog, 2026 15",
-      "title": "",
-      "original_description_html": "<p>Compromised legitimate packages\nLarge user base\nSpread fast\nreact: 100M+ weekly\n50% of organizations use a dependency &lt; 24h old1\naxios: 100M+ weekly lodash: 150M+ weekly\n1: State of DevSecOps, Datadog, 2026\n15</p>\n"
+      "title": ""
     },
     {
       "id": "Yp4isi",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Maintainer compromise how attackers steal npm accounts 16",
-      "title": "",
-      "original_description_html": "<p>Maintainer compromise how attackers steal npm accounts\n16</p>\n"
+      "title": ""
     },
     {
       "id": "B8nWl7",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Adversary-in-the-Middle (AiTM) phishing How it works The lookalike infrastructure Attacker proxies auth through a lookalike npm domain Captures valid session cookie — bypasses SMS/OTP 2FA One compromised maintainer = thousands of victims npmjs.help npmjs.wtf npmjs.pro npmjs.us npm email addresses are public — easy to target Session cookie gives full npm publishing rights 17",
-      "title": "",
-      "original_description_html": "<p>Adversary-in-the-Middle (AiTM) phishing\nHow it works\nThe lookalike infrastructure\nAttacker proxies auth through a lookalike npm domain Captures valid session cookie — bypasses SMS/OTP 2FA One compromised maintainer = thousands of victims\nnpmjs.help npmjs.wtf npmjs.pro npmjs.us npm email addresses are public — easy to target Session cookie gives full npm publishing rights\n17</p>\n"
+      "title": ""
     },
     {
       "id": "nSWKdW",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "xrpl (semantic versioning considered harmful) Four staged versions v4.2.1 — crude fetch(), only build files touched v4.2.2/3 — expanded scope, refactored code v4.2.4 — polished, malicious payload fully hidden Why semantic versioning amplifies this ^4.2.0 silently auto-accepts new patches 50% of orgs install a dep released the same day (Datadog 2026 State of DevSecOps) 18",
-      "title": "",
-      "original_description_html": "<p>xrpl (semantic versioning considered harmful) Four staged versions v4.2.1 — crude fetch(), only build files touched v4.2.2/3 — expanded scope, refactored code v4.2.4 — polished, malicious payload fully hidden\nWhy semantic versioning amplifies this ^4.2.0 silently auto-accepts new patches 50% of orgs install a dep released the same day (Datadog 2026 State of DevSecOps)\n18</p>\n"
+      "title": ""
     },
     {
       "id": "PmF8Vv",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "The maintainer compromise two-step Step 1: Gain access Step 2: Maximize blast radius AiTM phishing captures a valid session cookie Bypasses all standard 2FA — undetectable in real time Attacker controls the npm publishing account Inject malicious code into a new patch version Semantic versioning auto-delivers it to consumers Steal secrets, deploy RAT, or establish persistence 19",
-      "title": "",
-      "original_description_html": "<p>The maintainer compromise two-step\nStep 1: Gain access\nStep 2: Maximize blast radius\nAiTM phishing captures a valid session cookie Bypasses all standard 2FA — undetectable in real time Attacker controls the npm publishing account\nInject malicious code into a new patch version Semantic versioning auto-delivers it to consumers Steal secrets, deploy RAT, or establish persistence\n19</p>\n"
+      "title": ""
     },
     {
       "id": "25xwOK",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "? year of the first documented npm worm 20",
-      "title": "",
-      "original_description_html": "<p>? year of the first documented npm worm\n20</p>\n"
+      "title": ""
     },
     {
       "id": "ePgkGj",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "2025 the npm worm era 21",
-      "title": "",
-      "original_description_html": "<p>2025 the npm worm era\n21</p>\n"
+      "title": ""
     },
     {
       "id": "GjPY98",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shai-Hulud 1.0 (September 2025) How it self-propagates Secrets + impact Finds npm tokens in .npmrc and environment variables Lists victim’s packages via registry API Publishes backdoored patch versions, then spreads TruffleHog + env vars + cloud credentials stolen 500+ packages compromised Some victims had 2M+ weekly installs 22",
-      "title": "",
-      "original_description_html": "<p>Shai-Hulud 1.0 (September 2025)\nHow it self-propagates\nSecrets + impact\nFinds npm tokens in .npmrc and environment variables Lists victim’s packages via registry API Publishes backdoored patch versions, then spreads\nTruffleHog + env vars + cloud credentials stolen 500+ packages compromised Some victims had 2M+ weekly installs\n22</p>\n"
+      "title": ""
     },
     {
       "id": "t38M1X",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shai-Hulud 2.0 (November 2025) Significantly evolved No token, no problem Cloud Secrets Manager (AWS/GCP/Azure) targeted Self-hosted GitHub runner planted for persistence GitHub Actions exfiltrates on every Discussion event Searches GitHub Archive for prior victims’ tokens 700+ packages compromised — no central IOC list Shai-Hulud 3.0 (Dec): minor variant, same codebase 23",
-      "title": "",
-      "original_description_html": "<p>Shai-Hulud 2.0 (November 2025)\nSignificantly evolved\nNo token, no problem\nCloud Secrets Manager (AWS/GCP/Azure) targeted Self-hosted GitHub runner planted for persistence GitHub Actions exfiltrates on every Discussion event\nSearches GitHub Archive for prior victims’ tokens 700+ packages compromised — no central IOC list Shai-Hulud 3.0 (Dec): minor variant, same codebase\n23</p>\n"
+      "title": ""
     },
     {
       "id": "VMr9tw",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "axios supply chain (March 2026) How the attack worked Impact Maintainer PC compromised via social engineering plain-crypto-js@4.2.1 injected into package.json Post-install hook deployed a cross-platform RAT axios: 70M+ weekly downloads Live ~3 hours; thousands of endpoints hit the command & control platform Attributed to Sapphire Sleet (North Korea) 24",
-      "title": "",
-      "original_description_html": "<p>axios supply chain (March 2026)\nHow the attack worked\nImpact\nMaintainer PC compromised via social engineering plain-crypto-js@4.2.1 injected into package.json Post-install hook deployed a cross-platform RAT\naxios: 70M+ weekly downloads Live ~3 hours; thousands of endpoints hit the command &amp; control platform Attributed to Sapphire Sleet (North Korea)\n24</p>\n"
+      "title": ""
     },
     {
       "id": "7gZxmL",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Sandworm (February 2026) Persistence: two layers Advanced evasion Installs MCP server — injected into Claude Code, Cursor Prompt injection in tool descriptions drives execution Git hooks in all repos + init.templateDir — permanent DGA for C2 + DNS tunneling as fallback Calls local Ollama to rewrite own code per victim Each instance unique — evades signature detection 25",
-      "title": "",
-      "original_description_html": "<p>Sandworm (February 2026)\nPersistence: two layers\nAdvanced evasion\nInstalls MCP server — injected into Claude Code, Cursor Prompt injection in tool descriptions drives execution Git hooks in all repos + init.templateDir — permanent\nDGA for C2 + DNS tunneling as fallback Calls local Ollama to rewrite own code per victim Each instance unique — evades signature detection\n25</p>\n"
+      "title": ""
     },
     {
       "id": "k0Ilek",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "The attacker’s toolkit The four techniques Heuristic obfuscation Version poisoning — code injected into a legitimate patch Token and credential theft — npm tokens, cloud secrets Post-install hooks — automatic execution at install time Sandworm rewrote its own code per victim Variable renaming, control flow rewrites, decoy insertion No two instances identical — signatures fail by design 26",
-      "title": "",
-      "original_description_html": "<p>The attacker’s toolkit\nThe four techniques\nHeuristic obfuscation\nVersion poisoning — code injected into a legitimate patch Token and credential theft — npm tokens, cloud secrets Post-install hooks — automatic execution at install time\nSandworm rewrote its own code per victim Variable renaming, control flow rewrites, decoy insertion No two instances identical — signatures fail by design\n26</p>\n"
+      "title": ""
     },
     {
       "id": "MK1ZX9",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Quick wins what you can do this week 27",
-      "title": "",
-      "original_description_html": "<p>Quick wins what you can do this week\n27</p>\n"
+      "title": ""
     },
     {
       "id": "ydkNPY",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "If you publish packages Phishing-resistant 2FA npm Trusted Publishing Switch to FIDO2 / WebAuthn: YubiKey or passkeys Key is origin-bound — AiTM cannot replay it Technically defeats the maintainer-phishing vector OIDC short-lived tokens via GitHub Actions No long-lived token stored anywhere Two lines of YAML — works with GitHub and GitLab 28",
-      "title": "",
-      "original_description_html": "<p>If you publish packages\nPhishing-resistant 2FA\nnpm Trusted Publishing\nSwitch to FIDO2 / WebAuthn: YubiKey or passkeys Key is origin-bound — AiTM cannot replay it Technically defeats the maintainer-phishing vector\nOIDC short-lived tokens via GitHub Actions No long-lived token stored anywhere Two lines of YAML — works with GitHub and GitLab\n28</p>\n"
+      "title": ""
     },
     {
       "id": "axTBHx",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "If you consume packages Slow down updates Reduce the execution surface minimumReleaseAge / cooldown — delay N days Closes the zero-hour infection window SCFW wraps npm/pip, checks osv.dev at install time npm config set ignore-scripts true Disables postinstall hooks — how most worms fire Default in pnpm v10+ (consider switching!) 29",
-      "title": "",
-      "original_description_html": "<p>If you consume packages\nSlow down updates\nReduce the execution surface\nminimumReleaseAge / cooldown — delay N days Closes the zero-hour infection window SCFW wraps npm/pip, checks osv.dev at install time\nnpm config set ignore-scripts true Disables postinstall hooks — how most worms fire Default in pnpm v10+ (consider switching!)\n29</p>\n"
+      "title": ""
     },
     {
       "id": "DHBzAM",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "How Datadog helps static, runtime, and research 30",
-      "title": "",
-      "original_description_html": "<p>How Datadog helps static, runtime, and research\n30</p>\n"
+      "title": ""
     },
     {
       "id": "paun2l",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security Static analysis detects malicious packages at PR time Runtime protection flags suspicious behaviour Contextualised alerts — severity + reachability 31",
-      "title": "",
-      "original_description_html": "<p>Datadog Code Security Static analysis detects malicious packages at PR time\nRuntime protection flags suspicious behaviour\nContextualised alerts — severity + reachability\n31</p>\n"
+      "title": ""
     },
     {
       "id": "RudavA",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Security Research Datadog Security Labs publishes malicious package research MCP / Cmd+I brings alerts into your IDE in context Tells you about malicious packages while you code 32",
-      "title": "",
-      "original_description_html": "<p>Datadog Security Research Datadog Security Labs publishes malicious package research\nMCP / Cmd+I brings alerts into your IDE in context\nTells you about malicious packages while you code\n32</p>\n"
+      "title": ""
     },
     {
       "id": "4EMOnZ",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "What’s next the attack surface is shifting 33",
-      "title": "",
-      "original_description_html": "<p>What’s next the attack surface is shifting\n33</p>\n"
+      "title": ""
     },
     {
       "id": "gY5Cfy",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "AI is the new attack surface Attacks in the AI era MCP servers and AI skills Postinstall hook fires, invokes local coding agent Agent executes attacker commands — looks like dev activity Sandworm already demonstrated MCPlayer persistence Same trust model as npm — install and run Poisoned MCP server = attacker inside your dev environment AI-heavy orgs are high-value targets (LiteLLM: 36% of envs) 34",
-      "title": "",
-      "original_description_html": "<p>AI is the new attack surface\nAttacks in the AI era\nMCP servers and AI skills\nPostinstall hook fires, invokes local coding agent Agent executes attacker commands — looks like dev activity Sandworm already demonstrated MCPlayer persistence\nSame trust model as npm — install and run Poisoned MCP server = attacker inside your dev environment AI-heavy orgs are high-value targets (LiteLLM: 36% of envs)\n34</p>\n"
+      "title": ""
     },
     {
       "id": "Iro0YN",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "La plus ça change… Social engineering still wins Classic defenses still apply 100% of 2025-26 maintainer compromises started with phishing Public emails + high trust = easy targets The attack is on people, not code Inventory everything: SBOM, deps, MCP servers installed Least-privilege: scoped tokens, no longlived credentials Delay auto-updates. Verify before you trust. 35",
-      "title": "",
-      "original_description_html": "<p>La plus ça change…\nSocial engineering still wins\nClassic defenses still apply\n100% of 2025-26 maintainer compromises started with phishing Public emails + high trust = easy targets The attack is on people, not code\nInventory everything: SBOM, deps, MCP servers installed Least-privilege: scoped tokens, no longlived credentials Delay auto-updates. Verify before you trust.\n35</p>\n"
+      "title": ""
     },
     {
       "id": "vBWoQm",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ship safer github.com/DataDog/guarddog docs.datadoghq.com/security/code_security securitylabs.datadoghq.com 36",
-      "title": "",
-      "original_description_html": "<p>Ship safer github.com/DataDog/guarddog docs.datadoghq.com/security/code_security securitylabs.datadoghq.com 36</p>\n"
+      "title": ""
     }
   ],
   "page_count": 36,
@@ -553,6 +517,5 @@
       "bytes": 6085053
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/v73FOs/inside-the-supply-chain-attacks-of-2026-key-learnings-and-quick-wins"
+  "processor": "notist-preserved-display-v1"
 }

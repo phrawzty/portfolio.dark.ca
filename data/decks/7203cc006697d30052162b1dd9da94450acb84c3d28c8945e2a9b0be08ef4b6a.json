@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Paris DevRel Salon Goodies. Ideas. Ethics. @phrawzty // Datadog 1",
-      "title": "",
-      "original_description_html": "<p>Paris DevRel Salon\nGoodies. Ideas. Ethics. @phrawzty // Datadog\n1</p>\n"
+      "title": ""
     },
     {
       "id": "xbHtjM",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Goodies @phrawzty // Datadog !” 2",
-      "title": "",
-      "original_description_html": "<p>Goodies\n@phrawzty // Datadog\n!”\n2</p>\n"
+      "title": ""
     },
     {
       "id": "Zv0hbl",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Goodies 4 Physical objects 4 Low commercial value 4 Given away for “free” 4 Ambiguous rationale https://hildakweisburg.com/2017/11/06/on-libraries-confessions-of-a-conference-junkie/ @phrawzty // Datadog 3",
-      "title": "",
-      "original_description_html": "<p>Goodies 4 Physical objects 4 Low commercial value 4 Given away for “free” 4 Ambiguous rationale\nhttps://hildakweisburg.com/2017/11/06/on-libraries-confessions-of-a-conference-junkie/ @phrawzty // Datadog\n3</p>\n"
+      "title": ""
     },
     {
       "id": "CEjVUA",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ideas @phrawzty // Datadog !” 4",
-      "title": "",
-      "original_description_html": "<p>Ideas\n@phrawzty // Datadog\n!”\n4</p>\n"
+      "title": ""
     },
     {
       "id": "oYSJMZ",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ideas 4 Physical or intangible 4 Reasonable value 4 Elucidated relationship 4 Concrete metrics https://onetreeplanted.photoshelter.com/index @phrawzty // Datadog 5",
-      "title": "",
-      "original_description_html": "<p>Ideas 4 Physical or intangible 4 Reasonable value 4 Elucidated relationship 4 Concrete metrics\nhttps://onetreeplanted.photoshelter.com/index @phrawzty // Datadog\n5</p>\n"
+      "title": ""
     },
     {
       "id": "QsB7Ey",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ethics @phrawzty // Datadog !” 6",
-      "title": "",
-      "original_description_html": "<p>Ethics\n@phrawzty // Datadog\n!”\n6</p>\n"
+      "title": ""
     },
     {
       "id": "3Btv7N",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ethics 4 Ecological impact 4 Socio-economic concerns 4 Equitable exchange 4 Morally-defensible actions https://commons.wikimedia.org/wiki/File:Rodin%27sTheThinker.jpg @phrawzty // Datadog 7",
-      "title": "",
-      "original_description_html": "<p>Ethics 4 Ecological impact 4 Socio-economic concerns 4 Equitable exchange 4 Morally-defensible actions\nhttps://commons.wikimedia.org/wiki/File:Rodin%27sTheThinker.jpg @phrawzty // Datadog\n7</p>\n"
+      "title": ""
     },
     {
       "id": "fVcizm",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Merci ! @phrawzty // Datadog !” 8",
-      "title": "",
-      "original_description_html": "<p>Merci !\n@phrawzty // Datadog\n!”\n8</p>\n"
+      "title": ""
     }
   ],
   "page_count": 8,
@@ -133,6 +125,5 @@
       "bytes": 16979900
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/Lsgaq5/goodies-ideas-ethics"
+  "processor": "notist-preserved-display-v1"
 }

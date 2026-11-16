@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "ws5dGz",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Context: About Me » Recovering system administrator » Secretly French ( ! don’t tell anybody) » Frequently ate lunch with the security folks at Datadog » Oh! I work at a start-up called Cerbos @phrawzty // cerbos.dev 2",
-      "title": "",
-      "original_description_html": "<p>Context: About Me » Recovering system administrator » Secretly French (\n!\ndon’t tell anybody)\n» Frequently ate lunch with the security folks at Datadog » Oh! I work at a start-up called Cerbos\n@phrawzty // cerbos.dev\n2</p>\n"
+      "title": ""
     },
     {
       "id": "ZBoR9O",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Context: About Cerbos » “Externalized, policy-based, runtime authorization for your applications” » It’s literally a self-hosted binary with an HTTP API » There’s also a hub with a bunch of neat features @phrawzty // cerbos.dev 3",
-      "title": "",
-      "original_description_html": "<p>Context: About Cerbos » “Externalized, policy-based, runtime authorization for your applications” » It’s literally a self-hosted binary with an HTTP API » There’s also a hub with a bunch of neat features @phrawzty // cerbos.dev\n3</p>\n"
+      "title": ""
     },
     {
       "id": "BVXF1n",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is Authorization? » “Is this entity allowed to perform this action on this resource?” » Related to, but distinct from, authentication @phrawzty // cerbos.dev 4",
-      "title": "",
-      "original_description_html": "<p>What is Authorization? » “Is this entity allowed to perform this action on this resource?” » Related to, but distinct from, authentication\n@phrawzty // cerbos.dev\n4</p>\n"
+      "title": ""
     },
     {
       "id": "npG2uC",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Early Days: POSIX Permissions » User/Group/World model » Read/Write/Execute primitives @phrawzty // cerbos.dev 5",
-      "title": "",
-      "original_description_html": "<p>Early Days: POSIX Permissions » User/Group/World model » Read/Write/Execute primitives\n@phrawzty // cerbos.dev\n5</p>\n"
+      "title": ""
     },
     {
       "id": "Q8yqmb",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Middle Ages: ACLs & RBAC » Access Control Lists » Role-Based Access Control frameworks @phrawzty // cerbos.dev 6",
-      "title": "",
-      "original_description_html": "<p>The Middle Ages: ACLs &amp; RBAC » Access Control Lists » Role-Based Access Control frameworks\n@phrawzty // cerbos.dev\n6</p>\n"
+      "title": ""
     },
     {
       "id": "2Shef0",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Modern Authorization » Token-based approaches (JWT, OIDC) » Federated systems » PBAC, ABAC, ReBAC… @phrawzty // cerbos.dev 7",
-      "title": "",
-      "original_description_html": "<p>Modern Authorization » Token-based approaches (JWT, OIDC) » Federated systems » PBAC, ABAC, ReBAC…\n@phrawzty // cerbos.dev\n7</p>\n"
+      "title": ""
     },
     {
       "id": "emQSXP",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "When it all goes wrong (and it will) @phrawzty // cerbos.dev 8",
-      "title": "",
-      "original_description_html": "<p>When it all goes wrong (and it will)\n@phrawzty // cerbos.dev\n8</p>\n"
+      "title": ""
     },
     {
       "id": "H69GPo",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug” Overview » ! May 2018 » Audience selector default changed to public » 14 million users affected » Policy enforcement failure during feature update @phrawzty // cerbos.dev 9",
-      "title": "",
-      "original_description_html": "<p>Facebook “Privacy bug” Overview »\n! May 2018\n» Audience selector default changed to public » 14 million users affected » Policy enforcement failure during feature update\n@phrawzty // cerbos.dev\n9</p>\n"
+      "title": ""
     },
     {
       "id": "tPs4ID",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Facebook “Privacy bug” Key Authorization Failures » Default permission setting changed without user consent » Policy enforcement layer failed during UI update » Inadequate permission state validation @phrawzty // cerbos.dev 10",
-      "title": "",
-      "original_description_html": "<p>Facebook “Privacy bug” Key Authorization Failures\n» Default permission setting changed without user consent » Policy enforcement layer failed during UI update » Inadequate permission state validation\n@phrawzty // cerbos.dev\n10</p>\n"
+      "title": ""
     },
     {
       "id": "VjasAc",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Okta “Support System breach” Overview » ! 2023 » HAR file exfiltration exposed session tokens » Auth bypasses in support systems @phrawzty // cerbos.dev 11",
-      "title": "",
-      "original_description_html": "<p>Okta “Support System breach” Overview »\n! 2023\n» HAR file exfiltration exposed session tokens » Auth bypasses in support systems\n@phrawzty // cerbos.dev\n11</p>\n"
+      "title": ""
     },
     {
       "id": "83Jg31",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Okta “Support System breach” Key Authorization Failures » Overly permissive access to production » Insufficient isolation between support tiers » Authorization checks bypassed through session token theft » Inadequate token validation controls @phrawzty // cerbos.dev 12",
-      "title": "",
-      "original_description_html": "<p>Okta “Support System breach” Key Authorization Failures\n» Overly permissive access to production » Insufficient isolation between support tiers » Authorization checks bypassed through session token theft » Inadequate token validation controls\n@phrawzty // cerbos.dev\n12</p>\n"
+      "title": ""
     },
     {
       "id": "kN2TvQ",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard” Overview » ! 2024 » Password spray attack led to tenant compromise » Legacy tenants, basic auth, and privilege escalation @phrawzty // cerbos.dev 13",
-      "title": "",
-      "original_description_html": "<p>Microsoft “Midnight Blizzard” Overview »\n! 2024\n» Password spray attack led to tenant compromise » Legacy tenants, basic auth, and privilege escalation\n@phrawzty // cerbos.dev\n13</p>\n"
+      "title": ""
     },
     {
       "id": "MglHnp",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Microsoft “Midnight Blizzard” Key Authorization Failures » Excessive privileges in legacy tenant configurations » Inadequate role separation » Authorization boundaries between tenants insufficiently enforced » Lack of just-in-time access controls for privileged operations @phrawzty // cerbos.dev 14",
-      "title": "",
-      "original_description_html": "<p>Microsoft “Midnight Blizzard” Key Authorization Failures\n» Excessive privileges in legacy tenant configurations » Inadequate role separation » Authorization boundaries between tenants insufficiently enforced » Lack of just-in-time access controls for privileged operations\n@phrawzty // cerbos.dev\n14</p>\n"
+      "title": ""
     },
     {
       "id": "z0U5gE",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "How to stop it from all going wrong (or at least give yourself a fighting chance) @phrawzty // cerbos.dev 15",
-      "title": "",
-      "original_description_html": "<p>How to stop it from all going wrong (or at least give yourself a fighting chance) @phrawzty // cerbos.dev\n15</p>\n"
+      "title": ""
     },
     {
       "id": "bKCtYd",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Token Security » Validation best practices (signature, expiry, issuer) » Secure storage and transport » Avoiding common token vulnerabilities @phrawzty // cerbos.dev 16",
-      "title": "",
-      "original_description_html": "<p>Token Security » Validation best practices (signature, expiry, issuer) » Secure storage and transport » Avoiding common token vulnerabilities\n@phrawzty // cerbos.dev\n16</p>\n"
+      "title": ""
     },
     {
       "id": "DdvhR2",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Permission Management » Role explosion ! » Just-in-time access patterns » Principle of least privilege @phrawzty // cerbos.dev 17",
-      "title": "",
-      "original_description_html": "<p>Permission Management » Role explosion\n!\n» Just-in-time access patterns » Principle of least privilege\n@phrawzty // cerbos.dev\n17</p>\n"
+      "title": ""
     },
     {
       "id": "pxeVJR",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Externalizing Authorization » Clear separation between business logic and authz rules » Update policies without updating code » Enhanced auditability and compliance reporting @phrawzty // cerbos.dev 18",
-      "title": "",
-      "original_description_html": "<p>Externalizing Authorization » Clear separation between business logic and authz rules » Update policies without updating code » Enhanced auditability and compliance reporting\n@phrawzty // cerbos.dev\n18</p>\n"
+      "title": ""
     },
     {
       "id": "SHNJBq",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Testing Authorization Systems » Policy unit testing » Automated access review @phrawzty // cerbos.dev 19",
-      "title": "",
-      "original_description_html": "<p>Testing Authorization Systems » Policy unit testing » Automated access review\n@phrawzty // cerbos.dev\n19</p>\n"
+      "title": ""
     },
     {
       "id": "4b674F",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Critical Path Patterns » High-availability authorization » Graceful degradation strategies » When in doubt, deny by default @phrawzty // cerbos.dev 20",
-      "title": "",
-      "original_description_html": "<p>Critical Path Patterns » High-availability authorization » Graceful degradation strategies » When in doubt, deny by default\n@phrawzty // cerbos.dev\n20</p>\n"
+      "title": ""
     },
     {
       "id": "guouwe",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Conclusion » Authorization fails at boundaries and transitions » Externalize your authorization decisions » Tokens require rigorous validation » Use just-in-time access and live the principle of least privilege » Test continuously and review access regularly @phrawzty // cerbos.dev 21",
-      "title": "",
-      "original_description_html": "<p>Conclusion » Authorization fails at boundaries and transitions » Externalize your authorization decisions » Tokens require rigorous validation » Use just-in-time access and live the principle of least privilege » Test continuously and review access regularly\n@phrawzty // cerbos.dev\n21</p>\n"
+      "title": ""
     },
     {
       "id": "JEXip3",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "← play this game! (no really, it’s fun) 22",
-      "title": "",
-      "original_description_html": "<p>← play this game! (no really, it’s fun)\n22</p>\n"
+      "title": ""
     }
   ],
   "page_count": 22,
@@ -343,6 +321,5 @@
       "bytes": 3566497
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/FOqZJu/patterns-of-failure-in-modern-authorization"
+  "processor": "notist-preserved-display-v1"
 }

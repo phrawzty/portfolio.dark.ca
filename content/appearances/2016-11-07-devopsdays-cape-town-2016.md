@@ -15,9 +15,6 @@ timezone = "Africa/Johannesburg"
 virtual = false
 deck = ""
 recording_url = "https://www.youtube.com/watch?v=kCRD4pNuh80"
-source_url = "https://speaking.dark.ca/tsnke2/where-are-we-going-and-how-did-we-get-here"
-source_event_id = "ev_KJ1r2h"
-source_published_on = "2016-11-07 11:00:00"
 feedback = []
 place = "cape-town-za"
 

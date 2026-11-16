@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "bb97c572991761c0748fa56a09e081966cebde7a0a567f6a77b0a95de893c68c"
 recording_url = "https://www.youtube.com/watch?v=OnX45XBbc4I"
-source_url = "https://speaking.dark.ca/FNCWUM/demystifying-devops-sre"
-source_event_id = "ev_jCpSbp"
-source_published_on = "2020-03-27 17:00:00"
 feedback = []
 location_label = "Virtual"
 

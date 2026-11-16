@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "JuJDsD",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Tokyo Drift Containers : Immuabilité au service de la sécurité Cloud Native Speaker : Daniel Maher // Datadog // @phrawzty 2",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nTokyo Drift Containers : Immuabilité au service de la sécurité Cloud Native Speaker : Daniel Maher // Datadog // @phrawzty\n2</p>\n"
+      "title": ""
     },
     {
       "id": "wE21kc",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Maîtriser la dérive des conteneurs Les mythes et la réalité Techniques de détection Stratégies de remédiation ● ● ● 3",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nMaîtriser la dérive des conteneurs Les mythes et la réalité Techniques de détection Stratégies de remédiation\n● ● ●\n3</p>\n"
+      "title": ""
     },
     {
       "id": "YXkpd1",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Qui suis-je ? Daniel “phrawzty” Maher Senior Security Advocate chez Datadog Trajet : Admin Sys → DevOps Engineer → Analyste en Sécurité ● ● ● 4",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nQui suis-je ? Daniel “phrawzty” Maher Senior Security Advocate chez Datadog Trajet : Admin Sys → DevOps Engineer → Analyste en Sécurité\n● ● ●\n4</p>\n"
+      "title": ""
     },
     {
       "id": "ArTdVQ",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Le Contrat Cloud Native Immuabilité : L’artefact est scellé au build Reproductibilité : De la CI au Cluster, rien ne bouge Prédictibilité : On sait exactement ce qui tourne ● ● ● 5",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nLe Contrat Cloud Native Immuabilité : L’artefact est scellé au build Reproductibilité : De la CI au Cluster, rien ne bouge Prédictibilité : On sait exactement ce qui tourne\n● ● ●\n5</p>\n"
+      "title": ""
     },
     {
       "id": "nBCRNp",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR La Réalité : Drift Happens kubectl exec : Le pêché originel du debug Les sidecars qui modifient le réseau ou le FS Les scripts d’entrypoint qui font des pip install ou apt upgrade Résultat : Votre conteneur en prod est un snowflake ● ● ● ● 6",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nLa Réalité : Drift Happens kubectl exec : Le pêché originel du debug Les sidecars qui modifient le réseau ou le FS Les scripts d’entrypoint qui font des pip install ou apt upgrade Résultat : Votre conteneur en prod est un snowflake\n● ● ● ●\n6</p>\n"
+      "title": ""
     },
     {
       "id": "PUvFGE",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Anatomie d’une dérive : la Kill Chain Recon : Scan de vulnérabilité (e.g. Log4Shell) Exploit : Injection de code en mémoire Mutation : Téléchargement d’un binaire dans /tmp Persistance : Modification d’un script pour rester là ● ● ● ● 7",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nAnatomie d’une dérive : la Kill Chain Recon : Scan de vulnérabilité (e.g. Log4Shell) Exploit : Injection de code en mémoire Mutation : Téléchargement d’un binaire dans /tmp Persistance : Modification d’un script pour rester là\n● ● ● ●\n7</p>\n"
+      "title": ""
     },
     {
       "id": "1oe38d",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Shift Left : Forger l’immuabilité Réduire la surface d’attaque Supprimer les outils de mutation Rendre le conteneur “stupide” et focalisé ● ● ● 8",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR</p>\n<ol>\n<li>Shift Left : Forger l’immuabilité Réduire la surface d’attaque Supprimer les outils de mutation Rendre le conteneur “stupide” et focalisé\n● ● ●\n8</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "e8Mr12",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR L’approche “Distroless” Pas de gestionnaire de paquets (apt, apk, etc.) Pas de Shell (bash, zsh, etc.) Uniquement le runtime (Go, Node, JRE, etc. selon le besoin) et l’application elle-même ● ● ● 9",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nL’approche “Distroless” Pas de gestionnaire de paquets (apt, apk, etc.) Pas de Shell (bash, zsh, etc.) Uniquement le runtime (Go, Node, JRE, etc. selon le besoin) et l’application elle-même\n● ● ●\n9</p>\n"
+      "title": ""
     },
     {
       "id": "GS5etR",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Visibilité & SBOM 10",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nVisibilité &amp; SBOM\n10</p>\n"
+      "title": ""
     },
     {
       "id": "sloSlq",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR 2. Le Runtime : Le moment de vérité Kubernetes est-il une passoire ? Les limites des outils traditionnels Pourquoi l’observabilité doit être kernel-level ● ● ● 11",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\n2. Le Runtime : Le moment de vérité Kubernetes est-il une passoire ? Les limites des outils traditionnels Pourquoi l’observabilité doit être kernel-level\n● ● ●\n11</p>\n"
+      "title": ""
     },
     {
       "id": "V5XGeF",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Protection Native Kubernetes securityContext: readOnlyRootFilesystem: true runAsNonRoot: true allowPrivilegeEscalation: false 12",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nProtection Native Kubernetes securityContext: readOnlyRootFilesystem: true runAsNonRoot: true allowPrivilegeEscalation: false\n12</p>\n"
+      "title": ""
     },
     {
       "id": "7PG4We",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Pourquoi l’eBPF change la donne Logs ? Faciles à effacer ou à bypasser, souvent cryptique Sidecars ? Lourds, ne voient pas tout eBPF ! Directement dans le noyau, faible latence, visibilité absolue sur les syscalls 👍 ● ● ● 13",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nPourquoi l’eBPF change la donne Logs ? Faciles à effacer ou à bypasser, souvent cryptique Sidecars ? Lourds, ne voient pas tout eBPF ! Directement dans le noyau, faible latence, visibilité absolue sur les syscalls 👍\n● ● ●\n13</p>\n"
+      "title": ""
     },
     {
       "id": "jiysP3",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Détecter la dérive en temps réel 14",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nDétecter la dérive en temps réel\n14</p>\n"
+      "title": ""
     },
     {
       "id": "M2hgHS",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Processus inattendu 15",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nProcessus inattendu\n15</p>\n"
+      "title": ""
     },
     {
       "id": "yMQU9r",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR 3. Réponse sur Incident : “Cattle, not Pets” On ne patche pas un conteneur en prod On ne “nettoie” pas une dérive On termine et on remplace 👍 ● ● ● 16",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\n3. Réponse sur Incident : “Cattle, not Pets” On ne patche pas un conteneur en prod On ne “nettoie” pas une dérive On termine et on remplace 👍\n● ● ●\n16</p>\n"
+      "title": ""
     },
     {
       "id": "ag9I2G",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Rollback immuable Isolation : Couper le réseau du pod déviant Snapshot : Garder une trace pour l’analyse Termination : kubectl delete pod Fix : Mettre à jour l’image à la source (Dockerfile) ● ● ● ● 17",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nRollback immuable Isolation : Couper le réseau du pod déviant Snapshot : Garder une trace pour l’analyse Termination : kubectl delete pod Fix : Mettre à jour l’image à la source (Dockerfile)\n● ● ● ●\n17</p>\n"
+      "title": ""
     },
     {
       "id": "Czs5uf",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Le cycle de vie complet 18",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nLe cycle de vie complet\n18</p>\n"
+      "title": ""
     },
     {
       "id": "pJatn4",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Conclusion La dérive est inévitable sans mécanismes de contrôle Le Shift Left simplifie le runtime. Le Runtime Observability (eBPF) est votre source de vérité. Ne réparez jamais : remplacez ! ● ● ● ● 19",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nConclusion La dérive est inévitable sans mécanismes de contrôle Le Shift Left simplifie le runtime. Le Runtime Observability (eBPF) est votre source de vérité. Ne réparez jamais : remplacez !\n● ● ● ●\n19</p>\n"
+      "title": ""
     },
     {
       "id": "RdJhfT",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "#CloudNativeDaysFR Avis : 20",
-      "title": "",
-      "original_description_html": "<p>#CloudNativeDaysFR\nAvis :\n20</p>\n"
+      "title": ""
     }
   ],
   "page_count": 20,
@@ -313,6 +293,5 @@
       "bytes": 1090109
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/4F6mZi/tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020",
-      "title": "",
-      "original_description_html": "<p>The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020</p>\n"
+      "title": ""
     },
     {
       "id": "itiqmT",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020",
-      "title": "",
-      "original_description_html": "<p>The Safety Dance Risk Assessment for DevOps Practitioners DevOpsDays São Paulo 2020</p>\n"
+      "title": ""
     },
     {
       "id": "LDRees",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Your Safety Dancer Daniel Maher Twitter: @phrawzty Email: daniel.maher@datadoghq.com Web: www.dark.ca",
-      "title": "",
-      "original_description_html": "<p>Your Safety Dancer Daniel Maher\nTwitter: @phrawzty Email: daniel.maher@datadoghq.com Web: www.dark.ca</p>\n"
+      "title": ""
     },
     {
       "id": "xXASXH",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Your Safety Dancers Daniel Maher ← that’s me! Andrew Krug ← shout out!",
-      "title": "",
-      "original_description_html": "<p>Your Safety Dancers Daniel Maher ← that’s me!\nAndrew Krug ← shout out!</p>\n"
+      "title": ""
     },
     {
       "id": "ZqtGPg",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "What we’re going to do today",
-      "title": "",
-      "original_description_html": "<p>What we’re going to do today</p>\n"
+      "title": ""
     },
     {
       "id": "CAc4I5",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk: A Crash Course",
-      "title": "",
-      "original_description_html": "<p>Risk: A Crash Course</p>\n"
+      "title": ""
     },
     {
       "id": "oUKsAU",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is risk? What is safety science? Kaplan and Garrick (1989) What can go wrong? What is the likelihood? (probability) How bad could it be?",
-      "title": "",
-      "original_description_html": "<p>What is risk? What is safety science? Kaplan and Garrick (1989) What can go wrong? What is the likelihood? (probability) How bad could it be?</p>\n"
+      "title": ""
     },
     {
       "id": "Qo3g2t",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is risk? What is safety science? Classic calculation R=f(s,p,c) Risk = f (scenario, probability, consequence)",
-      "title": "",
-      "original_description_html": "<p>What is risk? What is safety science? Classic calculation\nR=f(s,p,c) Risk = f (scenario, probability, consequence)</p>\n"
+      "title": ""
     },
     {
       "id": "37mTvI",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Qualitative vs Quantitative Qualitative reasoning ranks likelihood using a scale score metric. 👍 👎 Speedy Light data gathering? Easy Low precision Light data gathering!",
-      "title": "",
-      "original_description_html": "<p>Qualitative vs Quantitative Qualitative reasoning ranks likelihood using a scale score metric.\n👍\n👎\nSpeedy\nLight data gathering?\nEasy\nLow precision\nLight data gathering!</p>\n"
+      "title": ""
     },
     {
       "id": "fRVHnh",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Qualitative vs Quantitative Quantitative reasoning uses data to reason about probabilities and consequences. 👍 👎 Accuracy Time Data Relative risks (adjacent)",
-      "title": "",
-      "original_description_html": "<p>Qualitative vs Quantitative Quantitative reasoning uses data to reason about probabilities and consequences. 👍\n👎\nAccuracy\nTime Data Relative risks (adjacent)</p>\n"
+      "title": ""
     },
     {
       "id": "HlE5g6",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Hybrid Models T. Aven, “Three influential risk foundation papers from the 80s and 90s: Are they still state-of-the-art?,” Reliability Engineering & System Safety, 28-Sep-2019. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0951832019302649?via=ihub. [Accessed: 15-Oct-2020].",
-      "title": "",
-      "original_description_html": "<p>Hybrid Models\nT. Aven, “Three influential risk foundation papers from the 80s and 90s: Are they still state-of-the-art?,” Reliability Engineering &amp; System Safety, 28-Sep-2019. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0951832019302649?via=ihub. [Accessed: 15-Oct-2020].</p>\n"
+      "title": ""
     },
     {
       "id": "u4wtYV",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is risk? What is safety science? Hybrid calculation R=f(s,p,c,k) Risk = f(scenario, probability, consequence, knowledge) knowledge = (mix of both quantitative and qualitative data)",
-      "title": "",
-      "original_description_html": "<p>What is risk? What is safety science? Hybrid calculation\nR=f(s,p,c,k) Risk = f(scenario, probability, consequence, knowledge) knowledge = (mix of both quantitative and qualitative data)</p>\n"
+      "title": ""
     },
     {
       "id": "WOfhQu",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Knowledge Dimension (This is where you come in!)",
-      "title": "",
-      "original_description_html": "<p>The Knowledge Dimension (This is where you come in!)</p>\n"
+      "title": ""
     },
     {
       "id": "8iOVJJ",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech Triforce of fear! DDoS Failed Deploy Certificate Issues Load Issues Reputation Information Security Tampering SQL Injection Impersonation Authentication Bypass Productivity Data Exfiltration SQL Injection XSS Financial",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech Triforce of fear! DDoS Failed Deploy Certificate Issues Load Issues\nReputation Information Security\nTampering SQL Injection Impersonation Authentication Bypass\nProductivity\nData Exfiltration SQL Injection XSS\nFinancial</p>\n"
+      "title": ""
     },
     {
       "id": "l27JBi",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech Triad of consequences! Headline news? Brand damage Customer trust Reputation Information Security How long to restore? How much forensics? Time to rollback? Employee Safety Doxxing Productivity Fines! Legal damages Identity insurance Financial",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech Triad of consequences! Headline news? Brand damage Customer trust\nReputation Information Security\nHow long to restore? How much forensics? Time to rollback? Employee Safety Doxxing\nProductivity\nFines! Legal damages Identity insurance\nFinancial</p>\n"
+      "title": ""
     },
     {
       "id": "NLq747",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech What we know vs. what we feel Less Damage More Damage 1 Low 2 Medium 3 High 4 Maximum Low 1 Medium 2 High 3 Maximum 4 Less Likely More Likely",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech What we know vs. what we feel Less Damage\nMore Damage\n1 Low\n2 Medium\n3 High\n4 Maximum\nLow 1\nMedium 2\nHigh 3\nMaximum 4\nLess Likely\nMore Likely</p>\n"
+      "title": ""
     },
     {
       "id": "zfYuwW",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech What we know vs. what we feel Less Damage More Damage 1 Low 2 Medium 3 High 4 Maximum Low 1 Medium 2 High 3 Maximum 4 Less Likely More Likely",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech What we know vs. what we feel Less Damage\nMore Damage\n1 Low\n2 Medium\n3 High\n4 Maximum\nLow 1\nMedium 2\nHigh 3\nMaximum 4\nLess Likely\nMore Likely</p>\n"
+      "title": ""
     },
     {
       "id": "bzHiov",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech What we feel High 3 + Maximum 4 7?",
-      "title": "",
-      "original_description_html": "<h1>Risk in the age of tech What we feel\nHigh 3\n+\nMaximum 4</h1>\n<p>7?</p>\n"
+      "title": ""
     },
     {
       "id": "EJ0WhK",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech What we know 0.5 confidence 0.9 confidence 0.7 confidence High 3 Maximum 4 Hi/Max 3.5 1.5 + 3.6 5.1",
-      "title": "",
-      "original_description_html": "<h1>Risk in the age of tech What we know\n0.5 confidence\n0.9 confidence\n0.7 confidence\nHigh 3\nMaximum 4\nHi/Max 3.5\n1.5\n+\n3.6</h1>\n<p>5.1</p>\n"
+      "title": ""
     },
     {
       "id": "qcjKZj",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Real risks in the real world",
-      "title": "",
-      "original_description_html": "<p>Real risks in the real world</p>\n"
+      "title": ""
     },
     {
       "id": "SwS8S8",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+      "title": ""
     },
     {
       "id": "5GAwKX",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+      "title": ""
     },
     {
       "id": "hZtkCw",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech, in all industries G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech, in all industries\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+      "title": ""
     },
     {
       "id": "JtcY5L",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk in the age of tech, in tech itself G. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].",
-      "title": "",
-      "original_description_html": "<p>Risk in the age of tech, in tech itself\nG. Basset, S. Widup, P. Langlois, A. Pinto, and C. D. Hylender, “2020 Data Breach Investigations Report,” Verizon DBIR, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/dbir/2020/summary-of-findings/. [Accessed: 15-Oct-2020].</p>\n"
+      "title": ""
     },
     {
       "id": "wDLLxk",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk budgets (Hope for the best; plan for the worst)",
-      "title": "",
-      "original_description_html": "<p>Risk budgets (Hope for the best; plan for the worst)</p>\n"
+      "title": ""
     },
     {
       "id": "YX49q9",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "You may have heard this song before…",
-      "title": "",
-      "original_description_html": "<p>You may have heard this song before…</p>\n"
+      "title": ""
     },
     {
       "id": "AqmxiY",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is your risk budget based on?",
-      "title": "",
-      "original_description_html": "<p>What is your risk budget based on?</p>\n"
+      "title": ""
     },
     {
       "id": "nAVlax",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Base your budget on your data!",
-      "title": "",
-      "original_description_html": "<p>Base your budget on your data!</p>\n"
+      "title": ""
     },
     {
       "id": "PUEZTM",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk budgets You already have the data… Tools Signal Visibility & Detection Signal Time-based risk",
-      "title": "",
-      "original_description_html": "<p>Risk budgets You already have the data…\nTools\nSignal\nVisibility &amp; Detection\nSignal\nTime-based risk</p>\n"
+      "title": ""
     },
     {
       "id": "1nxNLl",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Risk budgets You just need to think about it differently Qualitative risk = Time-based risk Comprehensive Visibility",
-      "title": "",
-      "original_description_html": "<p>Risk budgets You just need to think about it differently</p>\n<ul>\n<li>Qualitative risk\n= Time-based risk\nComprehensive Visibility</li>\n</ul>\n"
+      "title": ""
     },
     {
       "id": "e7gBEA",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Using your data to level up!",
-      "title": "",
-      "original_description_html": "<p>Using your data to level up!</p>\n"
+      "title": ""
     },
     {
       "id": "GROz6Z",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "Rapid risk assessment event_probability = ( recommendations * max_impact ) a.k.a the more things are wrong the more likely an incident will occur",
-      "title": "",
-      "original_description_html": "<p>Rapid risk assessment\nevent_probability = ( recommendations * max_impact )\na.k.a the more things are wrong the more likely an incident will occur</p>\n"
+      "title": ""
     },
     {
       "id": "sl7myy",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "Use the common language and framework SEV-1 SEV-2 SEV-3 SEV-4 SEV-5 INFO WARN ERROR CRITICAL Low 1 Medium 2 LOW MED HIGH High 3 Maximum 4",
-      "title": "",
-      "original_description_html": "<p>Use the common language and framework\nSEV-1 SEV-2 SEV-3 SEV-4 SEV-5\nINFO WARN ERROR CRITICAL\nLow 1\nMedium 2\nLOW MED HIGH\nHigh 3\nMaximum 4</p>\n"
+      "title": ""
     },
     {
       "id": "V4qarN",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "Dynamic Risk A method for calculating : Assign a weight to the number of findings Low 1 Medium 2 High 3 WARNING = 1 point CRITICAL = 20 points likelihood = ( points * 0.25 ) Since we’re using a 4 point scale “id”: “W41”, “type”: “WARN”, “message”: “S3 Bucket should have encryption option set”, Maximum 4",
-      "title": "",
-      "original_description_html": "<p>Dynamic Risk A method for calculating : Assign a weight to the number of findings Low 1\nMedium 2\nHigh 3\nWARNING = 1 point CRITICAL = 20 points likelihood = ( points * 0.25 ) Since we’re using a 4 point scale “id”: “W41”, “type”: “WARN”, “message”: “S3 Bucket should have encryption option set”,\nMaximum 4</p>\n"
+      "title": ""
     },
     {
       "id": "7OZOjm",
@@ -351,8 +317,7 @@
       "width": 1600,
       "height": 900,
       "text": "Aggregate the data",
-      "title": "",
-      "original_description_html": "<p>Aggregate the data</p>\n"
+      "title": ""
     },
     {
       "id": "jiICcB",
@@ -361,8 +326,7 @@
       "width": 1600,
       "height": 900,
       "text": "Use the data",
-      "title": "",
-      "original_description_html": "<p>Use the data</p>\n"
+      "title": ""
     },
     {
       "id": "M210Ua",
@@ -371,8 +335,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "yLjoMz",
@@ -381,8 +344,7 @@
       "width": 1600,
       "height": 900,
       "text": "So in summary…",
-      "title": "",
-      "original_description_html": "<p>So in summary…</p>\n"
+      "title": ""
     },
     {
       "id": "afScFO",
@@ -391,8 +353,7 @@
       "width": 1600,
       "height": 900,
       "text": "In summary… tl;dr – The best risk assessments balance both speed and accuracy, with a healthy dose of testable fact – Your environment is already giving you risk signals – You are an important piece of the security puzzle! – Risk budgets are a tool that organisations can add to their toolbox in order to help their business go fast and stay safe",
-      "title": "",
-      "original_description_html": "<p>In summary… tl;dr – The best risk assessments balance both speed and accuracy, with a healthy dose of testable fact – Your environment is already giving you risk signals – You are an important piece of the security puzzle! – Risk budgets are a tool that organisations can add to their toolbox in order to help their business go fast and stay safe</p>\n"
+      "title": ""
     },
     {
       "id": "CzBQ7n",
@@ -401,8 +362,7 @@
       "width": 1600,
       "height": 900,
       "text": "In summary… Keep the party going! Mozilla Rapid Risk Assessment: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html Rapid Risk Assessment Training https://www.youtube.com/watch?v=jxpuafW-H8U Better Reliability Through SLOs (Fique em Casa Conf 2020) https://www.youtube.com/watch?v=JOFYhFbrsK8 Verizon Data Breach Investigations Report 2020 https://enterprise.verizon.com/resources/reports/dbir/ @phrawzty | daniel.maher@datadog.com | www.dark.ca",
-      "title": "",
-      "original_description_html": "<p>In summary… Keep the party going! Mozilla Rapid Risk Assessment: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html Rapid Risk Assessment Training https://www.youtube.com/watch?v=jxpuafW-H8U Better Reliability Through SLOs (Fique em Casa Conf 2020) https://www.youtube.com/watch?v=JOFYhFbrsK8 Verizon Data Breach Investigations Report 2020 https://enterprise.verizon.com/resources/reports/dbir/\n@phrawzty | daniel.maher@datadog.com | www.dark.ca</p>\n"
+      "title": ""
     },
     {
       "id": "pIuE0C",
@@ -411,8 +371,7 @@
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher // @phrawzty // dark.ca And remember: We can dance—everything’s under control.",
-      "title": "",
-      "original_description_html": "<p>Daniel Maher // @phrawzty // dark.ca And remember: We can dance—everything’s under control.</p>\n"
+      "title": ""
     }
   ],
   "page_count": 41,
@@ -628,6 +587,5 @@
       "bytes": 4294657
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/Rj8FRx/the-safety-dance-risk-assessment-for-devops-practitioners"
+  "processor": "notist-preserved-display-v1"
 }

@@ -15,9 +15,6 @@ timezone = "Europe/Berlin"
 virtual = false
 deck = "9466c811c69a6d67da21805adf37f86be10687caa5da70eccc911216be17c88e"
 recording_url = ""
-source_url = "https://speaking.dark.ca/yCPOiU/serverless-revealed"
-source_event_id = "ev_ns9vKF"
-source_published_on = "2018-09-13 13:00:00"
 place = "berlin-de"
 
 [[extra.resources]]

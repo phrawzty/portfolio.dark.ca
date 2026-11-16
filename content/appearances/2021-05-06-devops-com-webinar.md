@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "06b118bf948700abb929f0b3a0262f5111328f515592d52f5c78891e63afa924"
 recording_url = ""
-source_url = "https://speaking.dark.ca/UljWCq/cruise-to-cloud-native-chapter-1-your-first-days-benefits-from-cloud-basics"
-source_event_id = "ev_Ha9h5a"
-source_published_on = "2021-05-06 18:00:00"
 feedback = []
 location_label = "Virtual"
 

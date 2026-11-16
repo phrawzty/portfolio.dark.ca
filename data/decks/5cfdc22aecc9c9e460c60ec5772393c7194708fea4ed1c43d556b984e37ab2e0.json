@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Cost Optimisation: A Primer (or: Shift-left on Cloud Spend) Daniel “phrawzty” Maher Engineer // Community Team",
-      "title": "",
-      "original_description_html": "<p>Cloud Cost Optimisation: A Primer (or: Shift-left on Cloud Spend) Daniel “phrawzty” Maher Engineer // Community Team</p>\n"
+      "title": ""
     },
     {
       "id": "YcfWwr",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Recovering sysadmin - Devopsdays global team - Really into measuring stuff b e p i u Éq g u ea ! e oss 📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 speaking.dark.ca/",
-      "title": "",
-      "original_description_html": "<ul>\n<li>Recovering sysadmin - Devopsdays global team - Really into measuring stuff\nb e p i u Éq\ng u ea\n! e oss\n📧 phrawzty@datadoghq.com 🐦 @phrawzty 💼 speaking.dark.ca/</li>\n</ul>\n"
+      "title": ""
     },
     {
       "id": "AwOKpG",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "☁ Let’s talk about… The Cloud",
-      "title": "",
-      "original_description_html": "<p>☁ Let’s talk about…\nThe Cloud</p>\n"
+      "title": ""
     },
     {
       "id": "nG78hf",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Public cloud market Revenue (USD) Market Share (%) YoY Growth (%) Amazon Web Services 26.20B 40.8 28.7 Microsoft Azure 12.69B 19.7 59.2 Alibaba Cloud 6.12B 9.5 52.8 Google Cloud Platform 3.93B 6.1 202.8 Others 15.34B 24 25.6 Source: gtnr.it/3B9xxhE",
-      "title": "",
-      "original_description_html": "<p>Public cloud market Revenue (USD)\nMarket Share (%)\nYoY Growth (%)\nAmazon Web Services\n26.20B\n40.8\n28.7\nMicrosoft Azure\n12.69B\n19.7\n59.2\nAlibaba Cloud\n6.12B\n9.5\n52.8\nGoogle Cloud Platform\n3.93B\n6.1\n202.8\nOthers\n15.34B\n24\n25.6\nSource: gtnr.it/3B9xxhE</p>\n"
+      "title": ""
     },
     {
       "id": "PZpwa4",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Real money is getting spent $64B Annual spend Source: gtnr.it/3B9xxhE 41% Annual growth",
-      "title": "",
-      "original_description_html": "<p>Real money is getting spent\n$64B Annual spend Source: gtnr.it/3B9xxhE\n41% Annual growth</p>\n"
+      "title": ""
     },
     {
       "id": "1tYkST",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Real money is getting wasted $64B $17B Annual spend Annual waste Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste",
-      "title": "",
-      "original_description_html": "<p>Real money is getting wasted\n$64B\n$17B\nAnnual spend\nAnnual waste\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste</p>\n"
+      "title": ""
     },
     {
       "id": "eDHYKs",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Real money is getting wasted “Between idle and over provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.” $6.6B Over-sized resources Source: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report",
-      "title": "",
-      "original_description_html": "<p>Real money is getting wasted “Between idle and over provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.”\n$6.6B\nOver-sized resources\nSource: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report</p>\n"
+      "title": ""
     },
     {
       "id": "GX0MDH",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Side-effects of cloud waste Reduced productivity - Increased risk - Resource misallocation",
-      "title": "",
-      "original_description_html": "<p>Side-effects of cloud waste</p>\n<ul>\n<li>Reduced productivity - Increased risk - Resource misallocation</li>\n</ul>\n"
+      "title": ""
     },
     {
       "id": "sqjA5g",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Wasted cloud spend is a vampire that is making your organisation weaker. ��",
-      "title": "",
-      "original_description_html": "<p>Wasted cloud spend is a vampire that is making your organisation weaker.\n��</p>\n"
+      "title": ""
     },
     {
       "id": "VARxy5",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Let’s talk about… Opportunity",
-      "title": "",
-      "original_description_html": "<p>Let’s talk about…\nOpportunity</p>\n"
+      "title": ""
     },
     {
       "id": "7UAlqU",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on cloud spend Availability of billing minutiae Billing data is just that: data Programmatic access to that data The data is metrics! This is absolutely our wheelhouse",
-      "title": "",
-      "original_description_html": "<h2>Shift-left on cloud spend</h2>\n<p>Availability of billing minutiae Billing data is just that: data Programmatic access to that data The data is metrics! This is absolutely our wheelhouse</p>\n"
+      "title": ""
     },
     {
       "id": "jntZit",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Yeah but why though? Get involved in product discussions Bring insight to business decisions Literally generate new value Level-up your career",
-      "title": "",
-      "original_description_html": "<h2>Yeah but why though?</h2>\n<p>Get involved in product discussions Bring insight to business decisions Literally generate new value Level-up your career</p>\n"
+      "title": ""
     },
     {
       "id": "M7cNbI",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "…yeah you probably saw that one coming ;)",
-      "title": "",
-      "original_description_html": "<p>…yeah you probably saw that one coming ;)</p>\n"
+      "title": ""
     },
     {
       "id": "yRLBTh",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "al3zM6",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     }
   ],
   "page_count": 15,
@@ -238,6 +223,5 @@
       "bytes": 2864600
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/E0yCMk/cloud-cost-optimisation-shift-left-on-cloud-costs"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 886,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     }
   ],
   "page_count": 1,
@@ -23,6 +22,5 @@
       "bytes": 600520
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/TrWhrC/panel-future-of-observability"
+  "processor": "notist-preserved-display-v1"
 }

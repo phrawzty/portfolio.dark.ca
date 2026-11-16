@@ -15,9 +15,6 @@ timezone = "Europe/London"
 virtual = false
 deck = "54736f7b5b4a900fddbf23837013e8c2826ff25926510fc4f8454ecae5c7b9a0"
 recording_url = "https://www.youtube.com/watch?v=hrbrnKtdUyQ"
-source_url = "https://speaking.dark.ca/2z1MmO/the-slings-and-arrows-of-open-source"
-source_event_id = "ev_eeciRB"
-source_published_on = "2024-09-26 08:00:00"
 feedback = []
 place = "london-gb"
 

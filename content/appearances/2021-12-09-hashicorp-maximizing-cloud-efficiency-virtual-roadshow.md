@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "5cfdc22aecc9c9e460c60ec5772393c7194708fea4ed1c43d556b984e37ab2e0"
 recording_url = "https://www.youtube.com/watch?v=6MBog2_JyZ8"
-source_url = "https://speaking.dark.ca/E0yCMk/cloud-cost-optimisation-shift-left-on-cloud-costs"
-source_event_id = "ev_AxIBHu"
-source_published_on = "2021-12-09 08:00:00"
 feedback = []
 location_label = "Virtual"
 

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 1000,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     }
   ],
   "page_count": 1,
@@ -23,6 +22,5 @@
       "bytes": 111515
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/MEZCHl/what-about-logs"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native: Chapter 3 Bringing your team on board into your cloud native journey",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native: Chapter 3 Bringing your team on board into your cloud native journey</p>\n"
+      "title": ""
     },
     {
       "id": "XoRq7n",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Stuti Desphande Solutions Architect at AWS Daniel Maher Technical Evangelist at Datadog @phrawzty Ara Pulido Technical Evangelist at Datadog @arapulido",
-      "title": "",
-      "original_description_html": "<p>Stuti Desphande Solutions Architect at AWS\nDaniel Maher Technical Evangelist at Datadog @phrawzty\nAra Pulido Technical Evangelist at Datadog @arapulido</p>\n"
+      "title": ""
     },
     {
       "id": "A8Ae0C",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (16 May) Episode 3: Bringing your company onboard! (Today)",
-      "title": "",
-      "original_description_html": "<p>Cruise to Cloud Native in 3 episodes Episode 1: From bare-metal to AWS (7 May) Episode 2: Getting more from advanced services (16 May) Episode 3: Bringing your company onboard! (Today)</p>\n"
+      "title": ""
     },
     {
       "id": "mRtRsb",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Top migration challenges we hear from customers “We see challenges with existing software contracts, license portability, and vendor willingness to price reasonably during the move of dozens/hundreds of vendors” “We want to evaluate and onboard new software vendors during migration” “We want to bring on-premises governance controls to cloud apps” “We need to drive culture change beyond IT as we transform our businesses to digital and from on-premises to cloud” © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4",
-      "title": "",
-      "original_description_html": "<p>Top migration challenges we hear from customers\n“We see challenges with existing software contracts, license portability, and vendor willingness to price reasonably during the move of dozens/hundreds of vendors”\n“We want to evaluate and onboard new software vendors during migration”\n“We want to bring on-premises governance controls to cloud apps”\n“We need to drive culture change beyond IT as we transform our businesses to digital and from on-premises to cloud”\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 4</p>\n"
+      "title": ""
     },
     {
       "id": "OlcFl0",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Culture Practices Tools © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5",
-      "title": "",
-      "original_description_html": "<p>Culture\nPractices\nTools\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 5</p>\n"
+      "title": ""
     },
     {
       "id": "15L3dP",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Consider how you integrate applications & modular services Synchronous: API-based Asynchronous: event-driven Inter/intra-service Common for communication between apps Common for communication within apps Scalability Tools required to manage point-to-point connections Nearly infinitely scalable Cost Provisioning for peak use leads to low CPU utilization Scales to 0—cost benefits of “pay for use” Latency Can be very low Higher in theory—but latency requirements are rarely as low as you think (think about P50, P99, etc.) Agility Easy to get started; hard to use point-to-point in large scale Decoupled systems increase agility dramatically © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6",
-      "title": "",
-      "original_description_html": "<p>Consider how you integrate applications &amp; modular services Synchronous: API-based\nAsynchronous: event-driven\nInter/intra-service\nCommon for communication between apps\nCommon for communication within apps\nScalability\nTools required to manage point-to-point connections\nNearly infinitely scalable\nCost\nProvisioning for peak use leads to low CPU utilization\nScales to 0—cost benefits of “pay for use”\nLatency\nCan be very low\nHigher in theory—but latency requirements are rarely as low as you think (think about P50, P99, etc.)\nAgility\nEasy to get started; hard to use point-to-point in large scale\nDecoupled systems increase agility dramatically\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 6</p>\n"
+      "title": ""
     },
     {
       "id": "dP3rVo",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "CLIENT EXPERIENCE ROI WITH ENTERPRISE MODERNIZATION WITHIN 36 MONTHS We asked a sample of our customers across different industries to share their experience around how they quantified benefits and return on investment (ROI) to measure the business impact of Enterprise Modernization. Source: The Total Economic Impact of ThoughtWorks Digital Transformation Services (2019) © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. “Customers realized an 88% ROI 79% Improved speed-to-market 10% Reduced cost of legacy application maintenance 6% Reduced cost of new application maintenance 5% Accelerated customer onboarding",
-      "title": "",
-      "original_description_html": "<p>CLIENT EXPERIENCE ROI WITH ENTERPRISE MODERNIZATION WITHIN 36 MONTHS\nWe asked a sample of our customers across different industries to share their experience around how they quantified benefits and return on investment (ROI) to measure the business impact of Enterprise Modernization.\nSource: The Total Economic Impact of ThoughtWorks Digital Transformation Services (2019)\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved.\n“Customers realized an\n88% ROI\n79%\nImproved speed-to-market\n10%\nReduced cost of legacy application maintenance\n6%\nReduced cost of new application maintenance\n5%\nAccelerated customer onboarding</p>\n"
+      "title": ""
     },
     {
       "id": "FimfOD",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Now… Move fast OR AND Stay secure © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8",
-      "title": "",
-      "original_description_html": "<p>Now…\nMove fast\nOR AND\nStay secure\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 8</p>\n"
+      "title": ""
     },
     {
       "id": "s2VTGc",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Layered Security Services Detect Amazon CloudWatch AWS Security Hub AWS Systems Manager Identify Amazon GuardDuty Amazon Macie Automate Amazon Inspector Detect Protect AWS Lambda Respond Recover Protect AWS Config Investigate Amazon VPC AWS Key Management Service AWS Secrets Manager AWS IoT Device Defender AWS Single Sign-On Archive AWS Shield AWS Firewall Manager AWS Identity and Access Management (IAM) Snapshot Amazon CloudWatch AWS CloudTrail AWS WAF © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9",
-      "title": "",
-      "original_description_html": "<p>Layered Security Services Detect\nAmazon CloudWatch AWS Security Hub\nAWS Systems Manager\nIdentify\nAmazon GuardDuty\nAmazon Macie\nAutomate\nAmazon Inspector\nDetect\nProtect\nAWS Lambda\nRespond\nRecover\nProtect AWS Config\nInvestigate Amazon VPC\nAWS Key Management Service\nAWS Secrets Manager\nAWS IoT Device Defender\nAWS Single Sign-On\nArchive\nAWS Shield\nAWS Firewall Manager\nAWS Identity and Access Management (IAM)\nSnapshot\nAmazon CloudWatch\nAWS CloudTrail\nAWS WAF\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 9</p>\n"
+      "title": ""
     },
     {
       "id": "UMEH91",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "AAA with AWS Authenticate Authorize Audit IAM Username/Password Access Key (+ MFA) Federation IAM Policies CloudTrail © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10",
-      "title": "",
-      "original_description_html": "<p>AAA with AWS\nAuthenticate\nAuthorize\nAudit\nIAM Username/Password Access Key (+ MFA) Federation\nIAM Policies\nCloudTrail\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 10</p>\n"
+      "title": ""
     },
     {
       "id": "6fx51Q",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS Principals Account Owner ID (Root Account) • • • • Access to all subscribed services. Access to billing. Access to console and APIs. Access to Customer Support. IAM Users, Groups and Roles • Access to specific services. • Access to console and/or APIs. • Access to Customer Support (Business and Enterprise). Temporary Security Credentials • Access to specific services. • Access to console and/or APIs. © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11",
-      "title": "",
-      "original_description_html": "<p>AWS Principals Account Owner ID (Root Account) • • • •\nAccess to all subscribed services. Access to billing. Access to console and APIs. Access to Customer Support.\nIAM Users, Groups and Roles • Access to specific services. • Access to console and/or APIs. • Access to Customer Support (Business and Enterprise).\nTemporary Security Credentials • Access to specific services. • Access to console and/or APIs. © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 11</p>\n"
+      "title": ""
     },
     {
       "id": "izfstp",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "General Best Practices • Clearly define an AWS account-creation process. • Define a company-wide AWS usage policy • Create a security account structure for managing multiple accounts. • Leverage AWS APIs and scripts. © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12",
-      "title": "",
-      "original_description_html": "<p>General Best Practices • Clearly define an AWS account-creation process. • Define a company-wide AWS usage policy • Create a security account structure for managing multiple accounts. • Leverage AWS APIs and scripts.\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 12</p>\n"
+      "title": ""
     },
     {
       "id": "LJOgmE",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "IAM General Best Practices • • • • • • • • • • • • Lock away your AWS account (root) access keys Create individual IAM users Use groups to assign permissions to IAM users Grant least privilege Configure a strong password policy for your users Enable MFA for privileged users Use roles for applications that run on Amazon EC2 instances Delegate by using roles instead of by sharing credentials Rotate credentials regularly Remove unnecessary credentials Use policy conditions for extra security Monitor activity in your AWS account © 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 13",
-      "title": "",
-      "original_description_html": "<p>IAM General Best Practices • • • • • • • • • • • •\nLock away your AWS account (root) access keys Create individual IAM users Use groups to assign permissions to IAM users Grant least privilege Configure a strong password policy for your users Enable MFA for privileged users Use roles for applications that run on Amazon EC2 instances Delegate by using roles instead of by sharing credentials Rotate credentials regularly Remove unnecessary credentials Use policy conditions for extra security Monitor activity in your AWS account\n© 2020, Amazon Web Services, Inc. or its Affiliates. All rights reserved. Amazon Confidential and Trademark 13</p>\n"
+      "title": ""
     },
     {
       "id": "xd7Ued",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLIs, SLOs, and SLAs",
-      "title": "",
-      "original_description_html": "<p>SLIs, SLOs, and SLAs</p>\n"
+      "title": ""
     },
     {
       "id": "ZwqIX2",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLIs A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric).",
-      "title": "",
-      "original_description_html": "<p>SLIs A Service Level Indicator is a quantitative measurement that expresses an aspect of the service (commonly a metric).</p>\n"
+      "title": ""
     },
     {
       "id": "CGZ6PR",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLOs A Service Level Objective is a target value for a service, as measured via an SLI.",
-      "title": "",
-      "original_description_html": "<p>SLOs\nA Service Level Objective is a target value for a service, as measured via an SLI.</p>\n"
+      "title": ""
     },
     {
       "id": "oaHuHq",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "SLAs A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs.",
-      "title": "",
-      "original_description_html": "<p>SLAs A Service Level Agreement is a contract that defines the results (and consequences) of meeting (or missing) one or more SLOs.</p>\n"
+      "title": ""
     },
     {
       "id": "Qu0iAF",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Business Stakeholders - Product Managers Developers SREs Executives Customers",
-      "title": "",
-      "original_description_html": "<p>Business Stakeholders -\nProduct Managers Developers SREs Executives Customers</p>\n"
+      "title": ""
     },
     {
       "id": "3DjW2e",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Data-driven decision making Good data helps you make good decisions by lowering cognitive load, empowering teams to be independent, and unlocking creativity and potential.",
-      "title": "",
-      "original_description_html": "<p>Data-driven decision making Good data helps you make good decisions by lowering cognitive load, empowering teams to be independent, and unlocking creativity and potential.</p>\n"
+      "title": ""
     },
     {
       "id": "fXSJv3",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Security Posture Management",
-      "title": "",
-      "original_description_html": "<p>Security Posture Management</p>\n"
+      "title": ""
     },
     {
       "id": "HrB7nS",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Security Posture Management Assess and visualize the current and historic security posture of your cloud environment, automate audit evidence collection, and catch configuration issues.",
-      "title": "",
-      "original_description_html": "<p>Security Posture Management Assess and visualize the current and historic security posture of your cloud environment, automate audit evidence collection, and catch configuration issues.</p>\n"
+      "title": ""
     },
     {
       "id": "uAtvfr",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Security Signals Security Signals are generated using Detection Rules. Detection Rules detect threats across different sources and are available out of the box for immediate use.",
-      "title": "",
-      "original_description_html": "<p>Security Signals Security Signals are generated using Detection Rules. Detection Rules detect threats across different sources and are available out of the box for immediate use.</p>\n"
+      "title": ""
     },
     {
       "id": "WUcjYG",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demo",
-      "title": "",
-      "original_description_html": "<p>Demo</p>\n"
+      "title": ""
     }
   ],
   "page_count": 23,
@@ -358,6 +335,5 @@
       "bytes": 1597229
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/jPB7xe/cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-native-journey"
+  "processor": "notist-preserved-display-v1"
 }

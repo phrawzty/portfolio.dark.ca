@@ -15,9 +15,6 @@ timezone = "Europe/Kiev"
 virtual = false
 deck = "4fc18c66f838a61a8b16a07c416760916e92e6af913c2776be483ffafcc2d45b"
 recording_url = "https://www.youtube.com/watch?v=-k9PQrORK9M&t=2414s"
-source_url = "https://speaking.dark.ca/2vdL0p/quick-what-time-is-it"
-source_event_id = "ev_h3MFsd"
-source_published_on = "2019-05-18 08:00:00"
 feedback = []
 place = "kyiv-ua"
 

@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "07a5614341af79265f3958e860451ae15bfbff64a140518e26925bdb4d009489"
 recording_url = ""
-source_url = "https://speaking.dark.ca/75SK5F/cruise-to-cloud-native-chapter-2-improving-your-toolset-profiting-from-containers-and-serverless-functions"
-source_event_id = "ev_ttsUxz"
-source_published_on = "2021-05-18 18:00:00"
 feedback = []
 location_label = "Virtual"
 

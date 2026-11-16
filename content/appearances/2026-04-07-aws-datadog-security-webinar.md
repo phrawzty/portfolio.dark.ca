@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = ""
 recording_url = ""
-source_url = "https://speaking.dark.ca/kGsmek/building-a-resilient-security-culture-in-the-ai-era-with-aws-datadog"
-source_event_id = "ev_oFH3ta"
-source_published_on = "2026-04-07 08:00:00"
 feedback = []
 location_label = "Virtual"
 

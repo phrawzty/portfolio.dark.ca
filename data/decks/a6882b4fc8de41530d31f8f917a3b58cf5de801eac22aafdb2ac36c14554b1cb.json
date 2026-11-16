@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Infobip Shift Conference 2026",
-      "title": "",
-      "original_description_html": "<p>Infobip Shift Conference 2026</p>\n"
+      "title": ""
     },
     {
       "id": "zuV1ow",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Building a (mostly) reliable research assistant Infobip Shift 2026 Dan Maher Senior Technical Advocate & Researcher Datadog",
-      "title": "",
-      "original_description_html": "<p>Building a (mostly) reliable research assistant Infobip Shift 2026\nDan Maher Senior Technical Advocate &amp; Researcher Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "cEDphL",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "The thing that needed me to make a thing • SSCSS: 50+ questions, 8 sections, yes / no / unknown • The evidence lives across source code, docs, blogs, RFC repos, policy pages, whitepapers, newsgroups, social media… • Docs and reality don’t always agree and simple web searches only get me the easy answers",
-      "title": "",
-      "original_description_html": "<p>The thing that needed me to make a thing • SSCSS: 50+ questions, 8 sections, yes / no / unknown • The evidence lives across source code, docs, blogs, RFC repos, policy pages, whitepapers, newsgroups, social media…\n• Docs and reality don’t always agree and simple web searches only get me the easy answers</p>\n"
+      "title": ""
     },
     {
       "id": "EXwdZk",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "{ “name”: “Dan Maher”, “handle”: “phrawzty”, “title”: “Senior Technical Advocate & Researcher”, “employer”: “Datadog”, “portfolio”: “https://speaking.dark.ca/”, ” “: “secretly French” }",
-      "title": "",
-      "original_description_html": "<p>{\n“name”: “Dan Maher”, “handle”: “phrawzty”, “title”: “Senior Technical Advocate &amp; Researcher”, “employer”: “Datadog”, “portfolio”: “https://speaking.dark.ca/”, ” “: “secretly French” }</p>\n"
+      "title": ""
     },
     {
       "id": "qrfRS9",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Warning: marketing statement follows! Datadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence.",
-      "title": "",
-      "original_description_html": "<p>Warning: marketing statement follows! Datadog is the leading observability and security platform for the AI era, providing businesses with unified visibility across the technology stack to manage complexity at scale. It brings applications, infrastructure, data, models, and security into one place, using AI to detect and resolve issues before they impact customers. Trusted globally by Fortune 500 companies and high-growth AI leaders, Datadog enables businesses to move faster with clarity and confidence.</p>\n"
+      "title": ""
     },
     {
       "id": "TBOFKY",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Four attempts (the third one will shock you!)",
-      "title": "",
-      "original_description_html": "<p>Four attempts (the third one will shock you!)</p>\n"
+      "title": ""
     },
     {
       "id": "5V73Cx",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Attempt one: head-first into a wall • One prompt in Claude: “here are 52 questions, here’s a registry, go” • Context limits, rate limits, truncated output • LOL this did not work • Lots of tokens though!",
-      "title": "",
-      "original_description_html": "<p>Attempt one: head-first into a wall • One prompt in Claude: “here are 52 questions, here’s a registry, go” • Context limits, rate limits, truncated output\n• LOL this did not work • Lots of tokens though!</p>\n"
+      "title": ""
     },
     {
       "id": "hopr5M",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Attempt two: the version you’d draw on a whiteboard • Orchestrator + eight parallel researcher agents, one per section, shared state file • Hanging agents, silent blank results reported as success, state file corruption (it’s just vibes y’all) • Bonne nouvelle ! I hardened it for weeks and it got more robust!",
-      "title": "",
-      "original_description_html": "<p>Attempt two: the version you’d draw on a whiteboard • Orchestrator + eight parallel researcher agents, one per section, shared state file • Hanging agents, silent blank results reported as success, state file corruption (it’s just vibes y’all)\n• Bonne nouvelle ! I hardened it for weeks and it got more robust!</p>\n"
+      "title": ""
     },
     {
       "id": "K8Yexl",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Attempt three: engineering mode activate • Full rewrite: JSON schema enforcement, real test suite, sandboxed egress, CI on every commit, parallelism… • The kind of codebase you’d be proud to ship • “Oh yeah that’s hot.” – me, at the time",
-      "title": "",
-      "original_description_html": "<p>Attempt three: engineering mode activate • Full rewrite: JSON schema enforcement, real test suite, sandboxed egress, CI on every commit, parallelism… • The kind of codebase you’d be proud to ship • “Oh yeah that’s hot.” – me, at the time</p>\n"
+      "title": ""
     },
     {
       "id": "wSHSqA",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "NOTHING (worse than)",
-      "title": "",
-      "original_description_html": "<p>NOTHING (worse than)</p>\n"
+      "title": ""
     },
     {
       "id": "Ym0GiZ",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Production-grade reliability theatre • Confident YES answers backed by evidence that said NO if you actually read the friggen source. URLs that didn’t exist. Notes attached to the wrong question. • “Evidence” that turned out to be the model narrating its own search process like what even",
-      "title": "",
-      "original_description_html": "<p>Production-grade reliability theatre • Confident YES answers backed by evidence that said NO if you actually read the friggen source. URLs that didn’t exist. Notes attached to the wrong question. • “Evidence” that turned out to be the model narrating its own search process like what even</p>\n"
+      "title": ""
     },
     {
       "id": "B5j4ay",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "What even is truth? • Farquhar et al., Nature, 2024: confabulation • Kalai et al. (OpenAI), 2025: models are trained to guess, not to say “I don’t know” • Hicks, Humphries & Slater, 2024: it’s not lying; it’s indifferent to truth",
-      "title": "",
-      "original_description_html": "<p>What even is truth? • Farquhar et al., Nature, 2024: confabulation • Kalai et al. (OpenAI), 2025: models are trained to guess, not to say “I don’t know” • Hicks, Humphries &amp; Slater, 2024: it’s not lying; it’s indifferent to truth</p>\n"
+      "title": ""
     },
     {
       "id": "nPRsTN",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "You cannot code your way out of an LLM quality problem",
-      "title": "",
-      "original_description_html": "<p>You cannot code your way out of an LLM quality problem</p>\n"
+      "title": ""
     },
     {
       "id": "PjAgLm",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "On the shoulders of giants • Huyen, 2022: ML systems fail silently; quality problems are harder to notice than operational ones • Husain & Shankar, 2025: start with error analysis, not infrastructure. Read 20 outputs before you build anything • Yan, 2025: “An LLM-as-Judge Won’t Save The Product”",
-      "title": "",
-      "original_description_html": "<p>On the shoulders of giants • Huyen, 2022: ML systems fail silently; quality problems are harder to notice than operational ones • Husain &amp; Shankar, 2025: start with error analysis, not infrastructure. Read 20 outputs before you build anything • Yan, 2025: “An LLM-as-Judge Won’t Save The Product”</p>\n"
+      "title": ""
     },
     {
       "id": "22tUEB",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Attempt four: Stop—constraint time! • Lead with constraints, not requirements • The bar isn’t “fast”, it’s “faster than what exists now” • Reduce or remove the failure surfaces. Minimum viable product first, then evolve from there",
-      "title": "",
-      "original_description_html": "<p>Attempt four: Stop—constraint time! • Lead with constraints, not requirements • The bar isn’t “fast”, it’s “faster than what exists now” • Reduce or remove the failure surfaces. Minimum viable product first, then evolve from there</p>\n"
+      "title": ""
     },
     {
       "id": "eMcI6a",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Models and harnesses matter",
-      "title": "",
-      "original_description_html": "<p>Models and harnesses matter</p>\n"
+      "title": ""
     },
     {
       "id": "GgL5yz",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Models and harnesses matter • Sonnet: good for process, bad for (this) research • Opus: bad for process, good for playing around with words • HumanLayer, 2026: “what looks like a model’s personality is very often a harness’s personality”",
-      "title": "",
-      "original_description_html": "<p>Models and harnesses matter • Sonnet: good for process, bad for (this) research • Opus: bad for process, good for playing around with words • HumanLayer, 2026: “what looks like a model’s personality is very often a harness’s personality”</p>\n"
+      "title": ""
     },
     {
       "id": "t03trO",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Simple, but not simplistic • Schluntz & Zhang (Anthropic), 2024: the best agent systems use simple, composable patterns, not frameworks • Willison, 2025: “an LLM agent runs tools in a loop to achieve a goal” (spoiler: that’s the whole abstraction)",
-      "title": "",
-      "original_description_html": "<p>Simple, but not simplistic • Schluntz &amp; Zhang (Anthropic), 2024: the best agent systems use simple, composable patterns, not frameworks • Willison, 2025: “an LLM agent runs tools in a loop to achieve a goal” (spoiler: that’s the whole abstraction)</p>\n"
+      "title": ""
     },
     {
       "id": "VJmhjn",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Seven things that work",
-      "title": "",
-      "original_description_html": "<p>Seven things that work</p>\n"
+      "title": ""
     },
     {
       "id": "7dVVcC",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Guardrails; or “the art of scoping your sources” • Decide where the agent is allowed to look, before it’s allowed to think • Prioritise good sources and deny bad ones up front • Exhaust all good sources before hitting the information superhighway (it’s not actually that safe)",
-      "title": "",
-      "original_description_html": "<ol>\n<li>Guardrails; or “the art of scoping your sources” • Decide where the agent is allowed to look, before it’s allowed to think • Prioritise good sources and deny bad ones up front • Exhaust all good sources before hitting the information superhighway (it’s not actually that safe)</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "jxEJUb",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Discipline; or “inference is not evidence” • Evidence includes a verbatim quote and a URL • Every question asked three different ways, even after a confirming hit • Gao et al., (HyDE), 2022: one phrasing is a sample, not a signal—sample more",
-      "title": "",
-      "original_description_html": "<ol start=\"2\">\n<li>Discipline; or “inference is not evidence” • Evidence includes a verbatim quote and a URL • Every question asked three different ways, even after a confirming hit • Gao et al., (HyDE), 2022: one phrasing is a sample, not a signal—sample more</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "MGx7N0",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Absence of evidence is not evidence of absence Altman & Bland (BMJ), 1995",
-      "title": "",
-      "original_description_html": "<p>Absence of evidence is not evidence of absence Altman &amp; Bland (BMJ), 1995</p>\n"
+      "title": ""
     },
     {
       "id": "yafvFP",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Logs; or “what the heck did the agent even do?” • Log the reasoning, not just the answer • This is how you build, debug, and improve • Can be operational, not just informational",
-      "title": "",
-      "original_description_html": "<ol start=\"3\">\n<li>Logs; or “what the heck did the agent even do?” • Log the reasoning, not just the answer • This is how you build, debug, and improve • Can be operational, not just informational</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "auOj7o",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Rigour; or “you can’t shortcut the methodology” • Once is not enough; use tokens intelligently • He et al. (Thinking Machines Lab), 2025: rerun variance is a property of the inference system • Variance is signal, be careful if there isn’t any",
-      "title": "",
-      "original_description_html": "<ol start=\"4\">\n<li>Rigour; or “you can’t shortcut the methodology” • Once is not enough; use tokens intelligently • He et al. (Thinking Machines Lab), 2025: rerun variance is a property of the inference system • Variance is signal, be careful if there isn’t any</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "DE7X0D",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Prompting; or “operational != behavioural” • Operational: what to do, in what order, with what tool • Behavioural: how to reason, communicate, set boundaries • Shankar et al. (UIST), 2024: criteria drift; “you can’t write the rules before you’ve seen them fail”",
-      "title": "",
-      "original_description_html": "<ol start=\"5\">\n<li>Prompting; or “operational != behavioural” • Operational: what to do, in what order, with what tool • Behavioural: how to reason, communicate, set boundaries • Shankar et al. (UIST), 2024: criteria drift; “you can’t write the rules before you’ve seen them fail”</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "pXqKsc",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Human-in-the-loop; or “can’t do my job yet” • Involve a human when the variance is stable; domain expertise and intuition matter • Where the runtime file and LLM experimentation shine • Faster is only better if the results are good",
-      "title": "",
-      "original_description_html": "<ol start=\"6\">\n<li>Human-in-the-loop; or “can’t do my job yet” • Involve a human when the variance is stable; domain expertise and intuition matter • Where the runtime file and LLM experimentation shine • Faster is only better if the results are good</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "RrZ8l1",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "“Human oversight is still needed even with automated evaluators.” Eugene Yan, 2025",
-      "title": "",
-      "original_description_html": "<p>“Human oversight is still needed even with automated evaluators.” Eugene Yan, 2025</p>\n"
+      "title": ""
     },
     {
       "id": "4BHwdQ",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Sandboxes; or “basic agentic security hygiene” • Willison’s lethal trifecta: private data, untrusted content, external communication • Greshake et al., 2023: hostile pages can hide instructions aimed at the agent, not the human reading it • I use a kernel-level sandbox on a virtual machine, fwiw",
-      "title": "",
-      "original_description_html": "<ol start=\"7\">\n<li>Sandboxes; or “basic agentic security hygiene” • Willison’s lethal trifecta: private data, untrusted content, external communication • Greshake et al., 2023: hostile pages can hide instructions aimed at the agent, not the human reading it • I use a kernel-level sandbox on a virtual machine, fwiw</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "gV0kVp",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Everything, on one slide • Architecture can make you more robust without making you more correct • Different tasks need different model and harnesses • Guardrails, Discipline, Logs, Rigour, Prompting, HITL, and don’t forget Sandboxes",
-      "title": "",
-      "original_description_html": "<p>Everything, on one slide • Architecture can make you more robust without making you more correct • Different tasks need different model and harnesses • Guardrails, Discipline, Logs, Rigour, Prompting, HITL, and don’t forget Sandboxes</p>\n"
+      "title": ""
     },
     {
       "id": "IojYOE",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Moral of the story • Research assistant, not leader • Don’t let the LLM boss you around • Seriously though: you can build this too!",
-      "title": "",
-      "original_description_html": "<p>Moral of the story • Research assistant, not leader • Don’t let the LLM boss you around • Seriously though: you can build this too!</p>\n"
+      "title": ""
     },
     {
       "id": "v8SMGd",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank you Dan Maher @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Thank you Dan Maher @phrawzty</p>\n"
+      "title": ""
     }
   ],
   "page_count": 31,
@@ -478,6 +447,5 @@
       "bytes": 786934
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/O4crob/building-a-mostly-reliable-ai-research-agent"
+  "processor": "notist-preserved-display-v1"
 }

@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Real-time Container Monitoring Best Practices Presented by AWS & Datadog",
-      "title": "",
-      "original_description_html": "<p>Real-time Container Monitoring Best Practices Presented by AWS &amp; Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "hZCQBe",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Today’s Speakers Daniel Maher Developer Advocate Datadog Igor Alekseev Data & Analytics Partner AWS",
-      "title": "",
-      "original_description_html": "<p>Today’s Speakers Daniel Maher Developer Advocate Datadog\nIgor Alekseev Data &amp; Analytics Partner AWS</p>\n"
+      "title": ""
     },
     {
       "id": "JsvE43",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Agenda – Introduction & Session Overview – Containers at AWS – Real-world Containers Best Practices & Use Cases – What’s Next? – Audience Q&A",
-      "title": "",
-      "original_description_html": "<p>Agenda – Introduction &amp; Session Overview – Containers at AWS – Real-world Containers Best Practices &amp; Use Cases – What’s Next? – Audience Q&amp;A</p>\n"
+      "title": ""
     },
     {
       "id": "wCe1wS",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Poll Question What container runtime are you currently using? – Docker – Containerd – CRI-O – Other",
-      "title": "",
-      "original_description_html": "<p>Poll Question What container runtime are you currently using? – Docker – Containerd – CRI-O – Other</p>\n"
+      "title": ""
     },
     {
       "id": "YWMpor",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Containers at AWS More options and power than ever before © 2022, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Containers at AWS More options and power than ever before\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "Aq5dhG",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "What customers ask for Build applications, not infrastructure © 2022 Amazon Web Services, Inc. or its Affiliates. Manage infrastructure to their requirements Scale quickly and seamlessly Security and isolation by design",
-      "title": "",
-      "original_description_html": "<p>What customers ask for\nBuild applications, not infrastructure\n© 2022 Amazon Web Services, Inc. or its Affiliates.\nManage infrastructure to their requirements\nScale quickly and seamlessly\nSecurity and isolation by design</p>\n"
+      "title": ""
     },
     {
       "id": "n9oRZf",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "What are our customers building? © 2022, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>What are our customers building?\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "PTXFS4",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Applications Shared services platform Enterprise app migration Machine learning Mobile & web applications CI/CD .NET Classic Windows apps Autonomous vehicle Back-end web services IaaS Linux apps Recommendation engines IoT Management, security, & governance Third-party applications Fraud detection Data processing Logging & monitoring © 2020, 2022, Amazon Web Services, Inc. or its Affiliates. Chatbots",
-      "title": "",
-      "original_description_html": "<p>Applications\nShared services platform\nEnterprise app migration\nMachine learning\nMobile &amp; web applications\nCI/CD\n.NET Classic Windows apps\nAutonomous vehicle\nBack-end web services\nIaaS\nLinux apps\nRecommendation engines\nIoT\nManagement, security, &amp; governance\nThird-party applications\nFraud detection\nData processing\nLogging &amp; monitoring\n© 2020, 2022, Amazon Web Services, Inc. or its Affiliates.\nChatbots</p>\n"
+      "title": ""
     },
     {
       "id": "1nG3KT",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "How are customers building? © 2022, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>How are customers building?\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "e6yrCs",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Compute operational models Least AWS Lambda Serverless functions AWS manages Customer manages Data source integrations Application code Physical hardware, software, networking, and facilities Provisioning Application code What you manage Container orchestration, provisioning AWS Fargate Cluster scaling Data source integrations Serverless containers Physical hardware, host OS/kernel, networking, and facilities Security config and updates Network config Management tasks Application code Amazon ECS/EKS Container-management -as-a-service Container orchestration control plane Physical hardware software, networking, and facilities Data source integrations Work clusters Security config and updates, network config, firewall, management tasks Application code Amazon EC2 Infrastructure-as-a-Service Most © 2022 Amazon Web Services, Inc. or its Affiliates. Physical hardware software, networking, and facilities Data source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers",
-      "title": "",
-      "original_description_html": "<p>Compute operational models\nLeast\nAWS Lambda Serverless functions\nAWS manages\nCustomer manages\nData source integrations\nApplication code\nPhysical hardware, software, networking, and facilities Provisioning Application code\nWhat you manage\nContainer orchestration, provisioning\nAWS Fargate\nCluster scaling\nData source integrations\nServerless containers\nPhysical hardware, host OS/kernel, networking, and facilities\nSecurity config and updates Network config Management tasks Application code\nAmazon ECS/EKS Container-management -as-a-service\nContainer orchestration control plane Physical hardware software, networking, and facilities\nData source integrations Work clusters Security config and updates, network config, firewall, management tasks\nApplication code\nAmazon EC2 Infrastructure-as-a-Service\nMost © 2022 Amazon Web Services, Inc. or its Affiliates.\nPhysical hardware software, networking, and facilities\nData source integrations Scaling Security config and updates Network config Management tasks Provisioning, managing scaling and patching of servers</p>\n"
+      "title": ""
     },
     {
       "id": "GQhf5H",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Poll Question Are you using or have aspirations to have aspirations to use AWS serverless technologies such as Fargate or Lambda? - Yes - No - Not yet, but we are planning to implement © 2022 Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Poll Question Are you using or have aspirations to have aspirations to use AWS serverless technologies such as Fargate or Lambda? - Yes - No - Not yet, but we are planning to implement\n© 2022 Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "skQSxg",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "The containers stack on AWS CONTAINERS CONTAINER SERVICE MANAGED KUBERNETES STORE & RETRIEVE DOCKER IMAGES COMPUTE AUTO SCALING HYBRID ARCHITECTURE AWS-SERVICES ON-PREMISES ACCESS CONTROL DATA INTEGRATION APPLICATION LIFECYCLE MANAGEMENT ASSESSMENT & REPORTING INTEGRATED DEVICES & EDGE SYSTEMS AUTHORING CONFIGURATION COMPLIANCE INTEGRATED IDENTITY & ACCESS BUILD & TEST DATA PROTECTION INTEGRATED NETWORKING CONTAINERS DDOS PROTECTION INTEGRATED RESOURCE & DEPLOYMENT MANAGEMENT DEVOPS RESOURCE MANAGEMENT IDENTITY MANAGEMENT VMWARE CLOUD ON AWS ONE CLICK APP DEVELOPMENT KEY MANAGEMENT & STORAGE PATCHING MONITORING & LODGING PIPELINE ORCHESTRATION RESOURCE MANAGEMENT RESOURCE TEMPLATES THREAT DETECTION TRIGGERS BATCH JOBS EVENT-DRIVEN SERVERLESS COMPUTING INFRASTRUCTURE INSTANCE TYPES AVAILABILITY ZONES MANAGED REPOSITORY FOR SERVERLESS APPS CUSTOM HARDWARE RUN & MANAGE WEB APPS DATA CENTER INFRASTRUCTURE SERVERLESS COMPUTE POINT OF PRESENCE ISOLATED COMPUTE ENVIRONMENTS (FOR NITRO ENCLAVES) ANALYSE & DEBUG WEB APPLICATION FIREWALL MANAGED VIRTUAL PRIVATE SERVERS VIRTUAL SERVERS GLOBAL NETWORK BACKBONE THREAT DETECTION & INVESTIGATION FOR AMAZON DETECTIVE AUTOMATED SECURITY POSTURE CHECKS FOR AWS SECURITY HUB DEVELOPMENT FRAMEWORK REGIONS STORAGE APPLICATION DELIVERY ARCHIVE STORAGE DEDICATED NETWORK CONNECTION BACKUP & RESTORE DOMAIN NAMING SERVICE BLOCK STORAGE LOAD BALANCING DATA TRANSFER MONITOR APIS EDGE PROCESSING & COMPUTING MONITOR MICROSERVICES FILE STORAGE NETWORK TOPOLOGY HIGH PERFORMANCE FILE SYSTEM NETWORKING HUG HYBRID CLOUD STORAGE PRIVATE CONNECTION TO APPS OBJECT STORAGE SCALE VPS & ACCOUNT CONNECTIONS WINDOWS FILE SYSTEM © SERVICE 2022 Amazon Web Services, Inc. or its Affiliates. DISCOVERY VIRTUAL PRIVATE CLOUD MOBILE API GATEWAY POWER INFRASTRUCTURE IDENTITY MANAGEMENT & GOVERNANCE NETWORKING & CONTENT DELIVERY DEV TOOLS SECURITY, IDENTITY, & COMPLIANCE MOBILE ANALYTICS MOBILE APP TESTING ACTIVITY & API USAGE TRACKING SINGLE INTEGRATED CONSOLE CHATBOT SYNC CONFIGURATION TRACKING TARGETED PUSH NOTIFICATIONS GOVERNANCE INVENTORY TRACKING LICENSE MANAGER MANAGE POLICIES MANAGE RESOURCES MONITORING PROVISIONING RESOURCE TEMPLATES SECURITY RECOMMENDATIONS SERVER MANAGEMENT SERVICE CATALOG SYSTEM MANAGER APPLICATION INTEGRATION EMAIL MESSAGE BROKER QUEUING & NOTIFICATIONS SEARCH TRANSCODING WORKFLOW",
-      "title": "",
-      "original_description_html": "<p>The containers stack on AWS CONTAINERS CONTAINER SERVICE MANAGED KUBERNETES STORE &amp; RETRIEVE DOCKER IMAGES\nCOMPUTE AUTO SCALING\nHYBRID ARCHITECTURE AWS-SERVICES ON-PREMISES\nACCESS CONTROL\nDATA INTEGRATION\nAPPLICATION LIFECYCLE MANAGEMENT\nASSESSMENT &amp; REPORTING\nINTEGRATED DEVICES &amp; EDGE SYSTEMS\nAUTHORING\nCONFIGURATION COMPLIANCE\nINTEGRATED IDENTITY &amp; ACCESS\nBUILD &amp; TEST\nDATA PROTECTION\nINTEGRATED NETWORKING\nCONTAINERS\nDDOS PROTECTION\nINTEGRATED RESOURCE &amp; DEPLOYMENT MANAGEMENT\nDEVOPS RESOURCE MANAGEMENT\nIDENTITY MANAGEMENT\nVMWARE CLOUD ON AWS\nONE CLICK APP DEVELOPMENT\nKEY MANAGEMENT &amp; STORAGE\nPATCHING\nMONITORING &amp; LODGING\nPIPELINE ORCHESTRATION\nRESOURCE MANAGEMENT\nRESOURCE TEMPLATES\nTHREAT DETECTION\nTRIGGERS\nBATCH JOBS EVENT-DRIVEN SERVERLESS COMPUTING\nINFRASTRUCTURE\nINSTANCE TYPES AVAILABILITY ZONES\nMANAGED REPOSITORY FOR SERVERLESS APPS\nCUSTOM HARDWARE\nRUN &amp; MANAGE WEB APPS\nDATA CENTER INFRASTRUCTURE\nSERVERLESS COMPUTE\nPOINT OF PRESENCE\nISOLATED COMPUTE ENVIRONMENTS (FOR NITRO ENCLAVES)\nANALYSE &amp; DEBUG\nWEB APPLICATION FIREWALL\nMANAGED VIRTUAL PRIVATE SERVERS\nVIRTUAL SERVERS\nGLOBAL NETWORK BACKBONE\nTHREAT DETECTION &amp; INVESTIGATION FOR AMAZON DETECTIVE AUTOMATED SECURITY POSTURE CHECKS FOR AWS SECURITY HUB\nDEVELOPMENT FRAMEWORK\nREGIONS\nSTORAGE\nAPPLICATION DELIVERY\nARCHIVE STORAGE\nDEDICATED NETWORK CONNECTION\nBACKUP &amp; RESTORE\nDOMAIN NAMING SERVICE\nBLOCK STORAGE\nLOAD BALANCING\nDATA TRANSFER\nMONITOR APIS\nEDGE PROCESSING &amp; COMPUTING\nMONITOR MICROSERVICES\nFILE STORAGE\nNETWORK TOPOLOGY\nHIGH PERFORMANCE FILE SYSTEM\nNETWORKING HUG\nHYBRID CLOUD STORAGE\nPRIVATE CONNECTION TO APPS\nOBJECT STORAGE\nSCALE VPS &amp; ACCOUNT CONNECTIONS\nWINDOWS FILE SYSTEM\n© SERVICE 2022 Amazon Web Services, Inc. or its Affiliates. DISCOVERY VIRTUAL PRIVATE CLOUD\nMOBILE API GATEWAY\nPOWER INFRASTRUCTURE\nIDENTITY\nMANAGEMENT &amp; GOVERNANCE NETWORKING &amp; CONTENT DELIVERY\nDEV TOOLS\nSECURITY, IDENTITY, &amp; COMPLIANCE\nMOBILE ANALYTICS MOBILE APP TESTING\nACTIVITY &amp; API USAGE TRACKING\nSINGLE INTEGRATED CONSOLE\nCHATBOT\nSYNC\nCONFIGURATION TRACKING\nTARGETED PUSH NOTIFICATIONS\nGOVERNANCE INVENTORY TRACKING LICENSE MANAGER MANAGE POLICIES MANAGE RESOURCES MONITORING PROVISIONING RESOURCE TEMPLATES SECURITY RECOMMENDATIONS SERVER MANAGEMENT SERVICE CATALOG SYSTEM MANAGER\nAPPLICATION INTEGRATION EMAIL MESSAGE BROKER QUEUING &amp; NOTIFICATIONS SEARCH TRANSCODING WORKFLOW</p>\n"
+      "title": ""
     },
     {
       "id": "V49Gq5",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS has the richest container portfolio anywhere APPLICATION NETWORKING Service discovery and service mesh MANAGEMENT Deployment, scheduling, scaling, and management of containerized applications HOSTING Where the containers run IMAGE REGISTRY Container image repository © 2022, Amazon Web Services, Inc. or its Affiliates. AWS Cloud Map AWS App Mesh Amazon Elastic Container Service (Amazon ECS) Amazon Elastic Kubernetes Service (Amazon EKS) Amazon Elastic Compute Cloud (Amazon EC2) AWS Fargate Amazon Elastic Container Registry (Amazon ECR) Red Hat OpenShift Service for AWS (ROSA)",
-      "title": "",
-      "original_description_html": "<p>AWS has the richest container portfolio anywhere APPLICATION NETWORKING Service discovery and service mesh\nMANAGEMENT Deployment, scheduling, scaling, and management of containerized applications\nHOSTING Where the containers run\nIMAGE REGISTRY Container image repository © 2022, Amazon Web Services, Inc. or its Affiliates.\nAWS Cloud Map\nAWS App Mesh\nAmazon Elastic Container Service (Amazon ECS)\nAmazon Elastic Kubernetes Service (Amazon EKS)\nAmazon Elastic Compute Cloud (Amazon EC2)\nAWS Fargate\nAmazon Elastic Container Registry (Amazon ECR)\nRed Hat OpenShift Service for AWS (ROSA)</p>\n"
+      "title": ""
     },
     {
       "id": "7Ns4iU",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Container technology © 2022, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Container technology\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "jhasat",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Management: Amazon EKS, Amazon ECS and now ROSA ECS EKS ROSA Powerful simplicity Open flexibility Opinionated platform © 2022, Amazon Web Services, Inc. or its Affiliates.",
-      "title": "",
-      "original_description_html": "<p>Management: Amazon EKS, Amazon ECS and now ROSA\nECS\nEKS\nROSA\nPowerful simplicity\nOpen flexibility\nOpinionated platform\n© 2022, Amazon Web Services, Inc. or its Affiliates.</p>\n"
+      "title": ""
     },
     {
       "id": "M1JgTI",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Powerful simplicity AWS-opinionated way to run containers at scale Reduce decisions without sacrificing scale or features ECS © 2022, Amazon Web Services, Inc. or its Affiliates. Reduce time to build, deploy, and migrate applications",
-      "title": "",
-      "original_description_html": "<p>Powerful simplicity\nAWS-opinionated way to run containers at scale Reduce decisions without sacrificing scale or features\nECS\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nReduce time to build, deploy, and migrate applications</p>\n"
+      "title": ""
     },
     {
       "id": "yL2ULh",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Open flexibility Gain agility and efficiency with AWS-optimized Kubernetes, and standardize operations everywhere Secure, highly available, with observability across all Kubernetes deployments EKS © 2022, Amazon Web Services, Inc. or its Affiliates. Build with choice of solutions from the broader community around Kubernetes",
-      "title": "",
-      "original_description_html": "<p>Open flexibility\nGain agility and efficiency with AWS-optimized Kubernetes, and standardize operations everywhere Secure, highly available, with observability across all Kubernetes deployments\nEKS\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nBuild with choice of solutions from the broader community around Kubernetes</p>\n"
+      "title": ""
     },
     {
       "id": "aelIE6",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Opinionated container platform Leverage integrated tools and services for developers and operators Transfer OpenShift skills and processes from on-prem environments ROSA © 2022, Amazon Web Services, Inc. or its Affiliates. Simplify management, support and billing of OpenShift environments",
-      "title": "",
-      "original_description_html": "<p>Opinionated container platform\nLeverage integrated tools and services for developers and operators Transfer OpenShift skills and processes from on-prem environments\nROSA\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nSimplify management, support and billing of OpenShift environments</p>\n"
+      "title": ""
     },
     {
       "id": "CyU66V",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Customers usually mix and match Team GitHub Jenkins ECR Flux CloudWatch ALB, NLB, NGINX, Traefik AWS App Mesh EKS Fargate © 2022, Amazon Web Services, Inc. or its Affiliates. OR ECS EC2 CloudFormation Application User",
-      "title": "",
-      "original_description_html": "<p>Customers usually mix and match\nTeam\nGitHub\nJenkins\nECR\nFlux\nCloudWatch ALB, NLB, NGINX, Traefik\nAWS App Mesh\nEKS Fargate\n© 2022, Amazon Web Services, Inc. or its Affiliates.\nOR\nECS EC2\nCloudFormation\nApplication\nUser</p>\n"
+      "title": ""
     },
     {
       "id": "pICtyu",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS App Runner Fully managed service for web applications AWS App Runner Web application Serverless Platform Backend server provides a highly abstracted and simple managed experience for running web applications and API hosting services © 2022 Amazon Web Services, Inc. or its Affiliates. • https://www.datadoghq.com/blog/aws-app-runner-monitoring",
-      "title": "",
-      "original_description_html": "<p>AWS App Runner Fully managed service for web applications AWS App Runner Web application\nServerless Platform\nBackend server provides a highly abstracted and simple managed experience for running web applications and API hosting services\n© 2022 Amazon Web Services, Inc. or its Affiliates.\n• https://www.datadoghq.com/blog/aws-app-runner-monitoring</p>\n"
+      "title": ""
     },
     {
       "id": "RbvhrJ",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Run your containers anywhere based on your workload needs Serverless EC2 options AWS Fargate Amazon EC2 Spot instance © 2022 Amazon Web Services, Inc. or its Affiliates. Edge and 5G AWS Local Zones AWS Wavelength On-premises AWS Outposts ECS EKS Anywhere Anywhere",
-      "title": "",
-      "original_description_html": "<p>Run your containers anywhere based on your workload needs\nServerless\nEC2 options\nAWS Fargate\nAmazon EC2\nSpot instance\n© 2022 Amazon Web Services, Inc. or its Affiliates.\nEdge and 5G\nAWS Local Zones\nAWS Wavelength\nOn-premises\nAWS Outposts\nECS EKS Anywhere Anywhere</p>\n"
+      "title": ""
     },
     {
       "id": "3veVji",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Containers are worth looking at",
-      "title": "",
-      "original_description_html": "<p>Containers are worth looking at</p>\n"
+      "title": ""
     },
     {
       "id": "gFNJc7",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Containers monitoring is not magic",
-      "title": "",
-      "original_description_html": "<p>Containers monitoring is not magic</p>\n"
+      "title": ""
     },
     {
       "id": "IZ67UW",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kubernetes is sort of magic though…",
-      "title": "",
-      "original_description_html": "<p>Kubernetes is sort of magic though…</p>\n"
+      "title": ""
     },
     {
       "id": "usovMv",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "10 Trends in Real World Containers https://datadoghq.com/container-report/",
-      "title": "",
-      "original_description_html": "<p>10 Trends in Real World Containers https://datadoghq.com/container-report/</p>\n"
+      "title": ""
     },
     {
       "id": "XCXjFK",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "EKS had a 20% increase in adoption among AWS orgs",
-      "title": "",
-      "original_description_html": "<p>EKS had a 20% increase in adoption among AWS orgs</p>\n"
+      "title": ""
     },
     {
       "id": "9WGX7j",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Stateful workloads, containers, and you",
-      "title": "",
-      "original_description_html": "<p>Stateful workloads, containers, and you</p>\n"
+      "title": ""
     },
     {
       "id": "lpzL08",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Images: the hot top ten!",
-      "title": "",
-      "original_description_html": "<p>Images: the hot top ten!</p>\n"
+      "title": ""
     },
     {
       "id": "O9i8sX",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Images: the hot top ten (DJ k8s remix!)",
-      "title": "",
-      "original_description_html": "<p>Images: the hot top ten (DJ k8s remix!)</p>\n"
+      "title": ""
     },
     {
       "id": "0TQwkw",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "Docker is champ, but new challengers are rising…",
-      "title": "",
-      "original_description_html": "<p>Docker is champ, but new challengers are rising…</p>\n"
+      "title": ""
     },
     {
       "id": "cn9kdL",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "How it started vs. how it’s going",
-      "title": "",
-      "original_description_html": "<p>How it started vs. how it’s going</p>\n"
+      "title": ""
     },
     {
       "id": "F6sYVk",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "It’s Speculation Time! – Edge computing (containers on the edge) – Increased importance of orchestration / mesh technology – Docker for dev, containerd (or other) for prod? – Moving towards higher levels of abstraction – Containers as a packaging and dependency mechanism",
-      "title": "",
-      "original_description_html": "<p>It’s Speculation Time! – Edge computing (containers on the edge) – Increased importance of orchestration / mesh technology – Docker for dev, containerd (or other) for prod? – Moving towards higher levels of abstraction – Containers as a packaging and dependency mechanism</p>\n"
+      "title": ""
     },
     {
       "id": "rQbMO9",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "Q&A",
-      "title": "",
-      "original_description_html": "<p>Q&amp;A</p>\n"
+      "title": ""
     },
     {
       "id": "TkKAGY",
@@ -341,8 +308,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank You",
-      "title": "",
-      "original_description_html": "<p>Thank You</p>\n"
+      "title": ""
     }
   ],
   "page_count": 34,
@@ -523,6 +489,5 @@
       "bytes": 6262423
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/ARNBw1/real-time-container-monitoring-best-practices"
+  "processor": "notist-preserved-display-v1"
 }

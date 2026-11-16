@@ -15,9 +15,6 @@ timezone = "Asia/Jerusalem"
 virtual = false
 deck = "39c37b4cf821fd94360dfc527926a7db667d143faa98cebbd5a704bee350a0e8"
 recording_url = "https://www.youtube.com/watch?v=3aaqjbgTluM"
-source_url = "https://speaking.dark.ca/rv0yeb/principles-of-observability"
-source_event_id = "ev_G7DA85"
-source_published_on = "2021-11-24 11:00:00"
 resources = []
 place = "tel-aviv-yafo-il"
 

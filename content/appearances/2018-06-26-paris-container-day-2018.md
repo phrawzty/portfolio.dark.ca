@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "b6bb63571a23a9f907af5fb888c3ece9535e3f4dfa76399852a8b4881900fe6e"
 recording_url = "https://www.youtube.com/watch?v=-3M0LwUkiYE"
-source_url = "https://speaking.dark.ca/PvNrMj/les-conteneurs-pieces-et-main-doeuvre"
-source_event_id = "ev_FhqaoN"
-source_published_on = "2018-06-26 15:00:00"
 place = "paris-fr"
 
 [[extra.resources]]

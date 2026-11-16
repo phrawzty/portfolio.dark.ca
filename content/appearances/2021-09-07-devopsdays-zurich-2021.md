@@ -15,9 +15,6 @@ timezone = "Europe/Zurich"
 virtual = false
 deck = "f2f5384d81a00e8d90c9470e525a75dee989861d4823fa8075f460f14090b112"
 recording_url = "https://vimeo.com/625199803?h=b9117be4c1&app_id=122963"
-source_url = "https://speaking.dark.ca/Dc18kv/principles-of-observability-ignite"
-source_event_id = "ev_NI99vY"
-source_published_on = "2021-09-06 08:00:00"
 resources = []
 place = "zurich-ch"
 

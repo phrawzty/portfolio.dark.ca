@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "3bb6f7222c9c01f2a588eae7d0c01a521bf4383c88ee54abe860077490414b32"
 recording_url = ""
-source_url = "https://speaking.dark.ca/jPB7xe/cruise-to-cloud-native-chapter-3-all-aboard-bringing-your-team-on-board-into-your-cloud-native-journey"
-source_event_id = "ev_WDbIqO"
-source_published_on = "2021-06-08 18:00:00"
 feedback = []
 location_label = "Virtual"
 

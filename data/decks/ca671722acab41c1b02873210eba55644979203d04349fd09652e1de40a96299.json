@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "THE CLOUD CONNECTIVITY COMPANY Kong Mesh Traﬃc Observability with Datadog Webinar",
-      "title": "",
-      "original_description_html": "<p>THE CLOUD CONNECTIVITY COMPANY\nKong Mesh Traﬃc Observability with Datadog\nWebinar</p>\n"
+      "title": ""
     },
     {
       "id": "XYChC3",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Welcome Daniel Maher Claudio Acquaviva Developer Evangelist, Datadog Solutions Architect, Kong",
-      "title": "",
-      "original_description_html": "<p>Welcome\nDaniel Maher\nClaudio Acquaviva\nDeveloper Evangelist, Datadog\nSolutions Architect, Kong</p>\n"
+      "title": ""
     },
     {
       "id": "9rvV4S",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Agenda ● Kong Mesh Overview and typical policies including mTLS, Traﬃc Route, Traﬃc Permission and Traﬃc Log ● Exploring the Datadog monitoring and observability for APIs and microservices. ● Demos ○ Monitoring Microservice deployment in Kong Mesh using Datadog. ○ Observing Service Mesh consumption. ● Q&A",
-      "title": "",
-      "original_description_html": "<p>Agenda ● Kong Mesh Overview and typical policies including mTLS, Traﬃc Route, Traﬃc Permission and Traﬃc Log ● Exploring the Datadog monitoring and observability for APIs and microservices. ● Demos ○ Monitoring Microservice deployment in Kong Mesh using Datadog. ○ Observing Service Mesh consumption. ● Q&amp;A</p>\n"
+      "title": ""
     },
     {
       "id": "mBeIwr",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Accelerate Your Journey to Decentralization Increase pace of innovation, gain new revenue streams, and lower TCO Fast and seamless scale through lightweight proxies Support yesterday, today and tomorrow Instantly add policies through flexible platform via out-of-the-box plugins Become technology agnostic across any cloud, orchestrator, platform or protocol MONOLITH 1 Service SERVICES MICROSERVICES 5 Services 100+ microservices SERVICE MESH 1,000+ microservices in a service mesh EMERGING PATTERNS 1,000,000+ functions in serverless Single source of truth with declarative configuration of Kubernetes and Gateways",
-      "title": "",
-      "original_description_html": "<p>Accelerate Your Journey to Decentralization Increase pace of innovation, gain new revenue streams, and lower TCO Fast and seamless scale through lightweight proxies\nSupport yesterday, today and tomorrow\nInstantly add policies\nthrough flexible platform\nvia out-of-the-box plugins\nBecome technology agnostic across any cloud, orchestrator, platform or protocol\nMONOLITH 1 Service\nSERVICES\nMICROSERVICES\n5 Services\n100+ microservices\nSERVICE MESH 1,000+ microservices in a service mesh\nEMERGING PATTERNS 1,000,000+ functions in serverless\nSingle source of truth with declarative configuration of Kubernetes and Gateways</p>\n"
+      "title": ""
     },
     {
       "id": "OVN6pG",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "KONG KONNECT",
-      "title": "",
-      "original_description_html": "<p>KONG KONNECT</p>\n"
+      "title": ""
     },
     {
       "id": "0p5uhf",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kuma & CNCF (Cloud Native Computing Foundation) Open source Service Mesh Project started by Kong in September 2019 and donated to CNCF https://landscape.cncf.io/?selected=kuma https://github.com/kumahq",
-      "title": "",
-      "original_description_html": "<p>Kuma &amp; CNCF (Cloud Native Computing Foundation) Open source Service Mesh Project started by Kong in September 2019 and donated to CNCF\nhttps://landscape.cncf.io/?selected=kuma\nhttps://github.com/kumahq</p>\n"
+      "title": ""
     },
     {
       "id": "d8oia4",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh Overview Why do you need a Service Mesh? Ensure service connectivity, discovery and traﬃc reliability Achieve Zero-Trust Security Gain Global Traﬃc Observability Intelligently route traﬃc across any platform and any cloud to meet expectations and SLAs Restrict access and encrypt all traﬃc by default to only complete transactions when identity is verified Gain a detailed understanding of service behavior to increase application reliability and the eﬃciency of teams",
-      "title": "",
-      "original_description_html": "<p>Kong Mesh Overview Why do you need a Service Mesh?\nEnsure service connectivity, discovery and traﬃc reliability\nAchieve Zero-Trust Security\nGain Global Traﬃc Observability\nIntelligently route traﬃc across any platform and any cloud to meet expectations and SLAs\nRestrict access and encrypt all traﬃc by default to only complete transactions when identity is verified\nGain a detailed understanding of service behavior to increase application reliability and the eﬃciency of teams</p>\n"
+      "title": ""
     },
     {
       "id": "FSXWST",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Multi-Zone deployment Global Kong Mesh Control plane Service Discovery Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster Remote Kong Mesh Control Plane Kong Mesh Ingress Platform, Cloud or Cluster",
-      "title": "",
-      "original_description_html": "<p>Multi-Zone deployment Global Kong Mesh Control plane\nService Discovery\nRemote Kong Mesh Control Plane\nKong Mesh Ingress\nPlatform, Cloud or Cluster\nRemote Kong Mesh Control Plane\nKong Mesh Ingress\nPlatform, Cloud or Cluster\nRemote Kong Mesh Control Plane\nKong Mesh Ingress\nPlatform, Cloud or Cluster</p>\n"
+      "title": ""
     },
     {
       "id": "rmGKKs",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Service Mesh Policies Kong Mesh Kuma",
-      "title": "",
-      "original_description_html": "<p>Service Mesh Policies\nKong Mesh\nKuma</p>\n"
+      "title": ""
     },
     {
       "id": "U5z8DH",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog",
-      "title": "",
-      "original_description_html": "<p>Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "6Phw5g",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog",
-      "title": "",
-      "original_description_html": "<p>Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "ijQjy5",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog One platform with seamlessly integrated, smart tooling Visit datadoghq.com",
-      "title": "",
-      "original_description_html": "<p>Datadog\nOne platform with seamlessly integrated, smart tooling\nVisit datadoghq.com</p>\n"
+      "title": ""
     },
     {
       "id": "L39XqU",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Cloud Console Traﬃc Log policy Microservice 1 2 Datadog Agent Consumers 1 Envoy Sidecar Microservice 2 Envoy Sidecar Admins Sidecar metrics Kong Mesh Control Plane AWS Elastic Kubernetes Engine Kong Mesh Traﬃc Log policy 2. Datadog Agent",
-      "title": "",
-      "original_description_html": "<p>Kong Mesh &amp; Datadog\nAdmins\nDatadog Cloud Console Traﬃc Log policy\nMicroservice 1\n2\nDatadog Agent\nConsumers\n1\nEnvoy Sidecar\nMicroservice 2 Envoy Sidecar Admins\nSidecar metrics\nKong Mesh Control Plane\nAWS Elastic Kubernetes Engine</p>\n<ol>\n<li>Kong Mesh Traﬃc Log policy 2. Datadog Agent</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "xMsLit",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Web Interface Traﬃc Log policy 1 Microservice 1 Datadog Agent Envoy Sidecar Sidecar metrics Consumers Microservice 2 Current release Envoy Sidecar Microservice 2 Canary Release Envoy Sidecar 2 Kong Mesh Control Plane AWS Elastic Kubernetes Engine 1. Kong Mesh Traﬃc Log policy 2. Datadog Agent Admins",
-      "title": "",
-      "original_description_html": "<p>Kong Mesh &amp; Datadog Admins\nDatadog Web Interface Traﬃc Log policy\n1\nMicroservice 1 Datadog Agent\nEnvoy Sidecar Sidecar metrics\nConsumers\nMicroservice 2 Current release Envoy Sidecar Microservice 2 Canary Release Envoy Sidecar\n2\nKong Mesh Control Plane\nAWS Elastic Kubernetes Engine 1. Kong Mesh Traﬃc Log policy 2. Datadog Agent\nAdmins</p>\n"
+      "title": ""
     },
     {
       "id": "Zgb9bI",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kong Mesh & Datadog Admins Datadog Cloud Console Traﬃc Log policy Microservice 1 2 Datadog Agent Consumers 1 Envoy Sidecar Microservice 2 Envoy Sidecar Admins Sidecar metrics Kong Mesh Control Plane Kong Mesh Kong Mesh Traﬃc Log policy 2. Datadog Agent",
-      "title": "",
-      "original_description_html": "<p>Kong Mesh &amp; Datadog\nAdmins\nDatadog Cloud Console Traﬃc Log policy\nMicroservice 1\n2\nDatadog Agent\nConsumers\n1\nEnvoy Sidecar\nMicroservice 2 Envoy Sidecar Admins\nSidecar metrics\nKong Mesh Control Plane\nKong Mesh</p>\n<ol>\n<li>Kong Mesh Traﬃc Log policy 2. Datadog Agent</li>\n</ol>\n"
+      "title": ""
     },
     {
       "id": "C0JxTh",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "THE CLOUD CONNECTIVITY COMPANY Kong Mesh Traﬃc Observability with Datadog Webinar",
-      "title": "",
-      "original_description_html": "<p>THE CLOUD CONNECTIVITY COMPANY\nKong Mesh Traﬃc Observability with Datadog\nWebinar</p>\n"
+      "title": ""
     }
   ],
   "page_count": 16,
@@ -253,6 +237,5 @@
       "bytes": 6504121
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/e0VGDZ/kong-mesh-traffic-observability-with-datadog"
+  "processor": "notist-preserved-display-v1"
 }

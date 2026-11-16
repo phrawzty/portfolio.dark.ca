@@ -15,9 +15,6 @@ timezone = "Europe/London"
 virtual = false
 deck = "3ba0d97781bd926fd57db9f1219925c376d2fcafe495b776ee83149c0428e102"
 recording_url = ""
-source_url = "https://speaking.dark.ca/IQT1rJ/monitoring-kubernetes-follow-the-data"
-source_event_id = "ev_UuRQsv"
-source_published_on = "2018-09-26 11:30:00"
 place = "london-gb"
 
 [[extra.resources]]

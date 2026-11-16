@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Cost Optimisation A Primer Daniel Maher Engineer (Community Team) at Datadog @phrawzty Kerim Satirli Sr. Developer Advocate at HashiCorp @ksatirli 6 October 2021",
-      "title": "",
-      "original_description_html": "<p>Cloud Cost Optimisation A Primer Daniel Maher Engineer (Community Team) at Datadog @phrawzty\nKerim Satirli Sr. Developer Advocate at HashiCorp @ksatirli\n6 October 2021</p>\n"
+      "title": ""
     },
     {
       "id": "t5KGBs",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Daniel Maher Engineer (Community Team) at Datadog he/him @phrawzty",
-      "title": "",
-      "original_description_html": "<p>Daniel Maher Engineer (Community Team) at Datadog he/him @phrawzty</p>\n"
+      "title": ""
     },
     {
       "id": "VP344H",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kerim Satirli Sr. Developer Advocate at HashiCorp he/him @ksatirli",
-      "title": "",
-      "original_description_html": "<p>Kerim Satirli Sr. Developer Advocate at HashiCorp he/him @ksatirli</p>\n"
+      "title": ""
     },
     {
       "id": "7ilrwg",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "01 Challenge Let’s talk about… The Cloud",
-      "title": "",
-      "original_description_html": "<p>01\nChallenge\nLet’s talk about…\nThe Cloud</p>\n"
+      "title": ""
     },
     {
       "id": "k2Ufp5",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Market revenue (USD) market share (%) YoY growth (%) Amazon Web Services 26,20 40.8 28.7 Microsoft Azure 12,69 19.7 59.2 Alibaba Cloud 6,12 9.5 52.8 Google Cloud Platform 3,93 6.1 202.8 Others 15,34 24 25.6 Source: gtnr.it/3B9xxhE",
-      "title": "",
-      "original_description_html": "<p>Cloud Market revenue (USD)\nmarket share (%)\nYoY growth (%)\nAmazon Web Services\n26,20\n40.8\n28.7\nMicrosoft Azure\n12,69\n19.7\n59.2\nAlibaba Cloud\n6,12\n9.5\n52.8\nGoogle Cloud Platform\n3,93\n6.1\n202.8\nOthers\n15,34\n24\n25.6\nSource: gtnr.it/3B9xxhE</p>\n"
+      "title": ""
     },
     {
       "id": "MMDThU",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Market $64B Annual spend on public cloud Source: gtnr.it/3B9xxhE",
-      "title": "",
-      "original_description_html": "<p>Cloud Market\n$64B Annual spend on public cloud\nSource: gtnr.it/3B9xxhE</p>\n"
+      "title": ""
     },
     {
       "id": "yfwHZt",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Market $64B 41% Annual spend on public cloud Annual growth of public cloud Source: gtnr.it/3B9xxhE",
-      "title": "",
-      "original_description_html": "<p>Cloud Market\n$64B\n41%\nAnnual spend on public cloud\nAnnual growth of public cloud\nSource: gtnr.it/3B9xxhE</p>\n"
+      "title": ""
     },
     {
       "id": "azf5SI",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste $64B Annual spend on public cloud Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste $17.6B Annual public cloud waste",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste\n$64B Annual spend on public cloud\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste\n$17.6B Annual public cloud waste</p>\n"
+      "title": ""
     },
     {
       "id": "DJNtKh",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste $64B Annual spend on public cloud $17.6B Annual public cloud waste 20-30% Spend attributed to cloud waste Source: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste\n$64B Annual spend on public cloud\n$17.6B Annual public cloud waste\n20-30% Spend attributed to cloud waste\nSource: flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report</p>\n"
+      "title": ""
     },
     {
       "id": "pd6hD6",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste “Between idle and over-provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.” $11B Annual public cloud waste $6.6B Wasted from over-sized resources Source: devops.com/the-cloud-is-booming-but-so-is-cloud-waste",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste “Between idle and over-provisioned resources alone, that’s $17.6B in cloud spend that will be completely wasted this year. And the potential is even higher […] That’s a minimum of about $5M wasted per day, every day this year, that could be reallocated toward other areas of the business.”\n$11B Annual public cloud waste\n$6.6B Wasted from over-sized resources\nSource: devops.com/the-cloud-is-booming-but-so-is-cloud-waste</p>\n"
+      "title": ""
     },
     {
       "id": "RwpV5V",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste Side - Effects",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste Side - Effects</p>\n"
+      "title": ""
     },
     {
       "id": "4GYIxu",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste Side - Effects Reduced Productivity Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.</p>\n"
+      "title": ""
     },
     {
       "id": "gaH6qJ",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste Side - Effects Reduced Productivity Risk Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. Lack of governance and oversight across the enterprise results in an increased risk surface. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again. Validated models are easier to reason about, which is part of a heightened security posture.",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity\nRisk\nWasted spend is correlated with poor standardisation, or worse yet: anti-patterns.\nLack of governance and oversight across the enterprise results in an increased risk surface.\nIf there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.\nValidated models are easier to reason about, which is part of a heightened security posture.</p>\n"
+      "title": ""
     },
     {
       "id": "Itzuii",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cloud Waste Side - Effects Reduced Productivity Risk Misallocation Wasted spend is correlated with poor standardisation, or worse yet: anti-patterns. Lack of governance and oversight across the enterprise results in an increased risk surface. Literally: money that could and should - be spent on other things. If there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again. Validated models are easier to reason about, which is part of a heightened security posture. Brass tacks: wasted cloud spend is basically a vampire that is making your organisation weaker.",
-      "title": "",
-      "original_description_html": "<p>Cloud Waste Side - Effects\nReduced Productivity\nRisk\nMisallocation\nWasted spend is correlated with poor standardisation, or worse yet: anti-patterns.\nLack of governance and oversight across the enterprise results in an increased risk surface.\nLiterally: money that could and should - be spent on other things.\nIf there’s no easy way for developers to re-use patterns, then everybody re-invents the wheel, over and over again.\nValidated models are easier to reason about, which is part of a heightened security posture.\nBrass tacks: wasted cloud spend is basically a vampire that is making your organisation weaker.</p>\n"
+      "title": ""
     },
     {
       "id": "vDiib7",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "02 Opportunity Let’s talk about… Opportunity",
-      "title": "",
-      "original_description_html": "<p>02\nOpportunity\nLet’s talk about…\nOpportunity</p>\n"
+      "title": ""
     },
     {
       "id": "XXRWTW",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers</p>\n"
+      "title": ""
     },
     {
       "id": "9rAKLv",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae</p>\n"
+      "title": ""
     },
     {
       "id": "mAt8EK",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data</p>\n"
+      "title": ""
     },
     {
       "id": "OUbw6j",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data</p>\n"
+      "title": ""
     },
     {
       "id": "0oKjz8",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics?",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics?</p>\n"
+      "title": ""
     },
     {
       "id": "d83XrX",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments?",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments?</p>\n"
+      "title": ""
     },
     {
       "id": "FRmLjw",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments? ▪ This sounds like a job for dashboards!",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend Engineers as the new cloud financial controllers ▪ Availability of billing minutiae ▪ Billing data is just that: data ▪ Programmatic access to that data ▪ Wait a minute… an API full of metrics? ▪ That can be correlated with deployments? ▪ This sounds like a job for dashboards!</p>\n"
+      "title": ""
     },
     {
       "id": "rlV9cL",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend …y tho?",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend …y tho?</p>\n"
+      "title": ""
     },
     {
       "id": "U5DxUk",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions</p>\n"
+      "title": ""
     },
     {
       "id": "6OwlN9",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions</p>\n"
+      "title": ""
     },
     {
       "id": "iifZFY",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value</p>\n"
+      "title": ""
     },
     {
       "id": "L2ON7x",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value ▪ Level-up your career",
-      "title": "",
-      "original_description_html": "<p>Shift-left on Cloud Spend …y tho? ▪ Get involved in product discussions ▪ Bring insight to business decisions ▪ Increase your capacity to generate value ▪ Level-up your career</p>\n"
+      "title": ""
     },
     {
       "id": "xM7B0M",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demo",
-      "title": "",
-      "original_description_html": "<p>Demo</p>\n"
+      "title": ""
     },
     {
       "id": "Zfpysl",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste",
-      "title": "",
-      "original_description_html": "<p>🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste</p>\n"
+      "title": ""
     },
     {
       "id": "BzYmlA",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste",
-      "title": "",
-      "original_description_html": "<p>🔒 app.terraform.io/app/ksatirli/workspaces/minimise-cloud-waste</p>\n"
+      "title": ""
     },
     {
       "id": "oJHadZ",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "🔒 app.datadoghq.com/dashboard/aws-ec2-cost-optimiser",
-      "title": "",
-      "original_description_html": "<p>🔒 app.datadoghq.com/dashboard/aws-ec2-cost-optimiser</p>\n"
+      "title": ""
     },
     {
       "id": "Qd0OVy",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank You! daniel.maher@datadoghq.com kerim@hashicorp.com",
-      "title": "",
-      "original_description_html": "<p>Thank You! daniel.maher@datadoghq.com kerim@hashicorp.com</p>\n"
+      "title": ""
     }
   ],
   "page_count": 32,
@@ -493,6 +461,5 @@
       "bytes": 15488388
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/DE8pT3/cloud-cost-optimisation-a-primer"
+  "processor": "notist-preserved-display-v1"
 }

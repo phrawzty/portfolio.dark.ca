@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "c9ecb2000c9870b3d7f012bd8f2e6418c5ac279dda307cfb36c8ee7e7e5c85f0"
 recording_url = "https://www.youtube.com/watch?v=3YX9znu3d2A"
-source_url = "https://speaking.dark.ca/y8vQqS/configure-observability-as-code-with-terraform-datadog"
-source_event_id = "ev_oWwc9v"
-source_published_on = "2020-09-23 08:00:00"
 resources = []
 feedback = []
 location_label = "Virtual"

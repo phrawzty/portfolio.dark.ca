@@ -15,9 +15,6 @@ timezone = "Europe/Oslo"
 virtual = false
 deck = "9571999acedc4d8c0e1c7f7f6594f13a60c7c158fc72a1725487ddf7116e2f46"
 recording_url = "https://www.youtube.com/watch?v=LvwDgOuGWds"
-source_url = "https://speaking.dark.ca/p9ZoLh/serverless-revealed"
-source_event_id = "ev_0zqGra"
-source_published_on = "2018-10-29 13:00:00"
 resources = []
 place = "oslo-no"
 

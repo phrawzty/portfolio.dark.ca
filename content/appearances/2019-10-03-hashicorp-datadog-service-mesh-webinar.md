@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = ""
 recording_url = "https://www.youtube.com/watch?v=4s0Z_p1FZ1M"
-source_url = "https://speaking.dark.ca/SHry3o/leveraging-hashicorp-consul-and-datadog-for-service-mesh-deployments"
-source_event_id = "ev_iE3w4C"
-source_published_on = "2019-10-03 17:00:00"
 resources = []
 feedback = []
 location_label = "Virtual"

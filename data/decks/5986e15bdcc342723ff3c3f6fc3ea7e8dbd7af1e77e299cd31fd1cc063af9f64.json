@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS + Datadog Sécuriser l’angle mort de votre pipeline Daniel « phrawzty » Maher Senior Security Advocate & Researcher",
-      "title": "",
-      "original_description_html": "<p>AWS + Datadog\nSécuriser l’angle mort de votre pipeline Daniel « phrawzty » Maher Senior Security Advocate &amp; Researcher</p>\n"
+      "title": ""
     },
     {
       "id": "gxHzBy",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "ç Vous savez ce qui entre dans votre application ? 2",
-      "title": "",
-      "original_description_html": "<p>ç\nVous savez ce qui entre dans votre application ?\n2</p>\n"
+      "title": ""
     },
     {
       "id": "JH0n4N",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Ce que les données nous disent npm PyPI RubyGems crates.io Hex.pm Packagist Max Auth (Human) 3 3 0 1 0 0 4 Auth (Machine) 6 4 4 4 2 2 7 Access Control 6 4 4 4 5 4 7 Build & Provenance 6 4 3 2 2 2 8 Integrity & Signing 5 5 6 2 3 2 6 Vulnerability Mgmt 7 3 4 3 4 4 7 Abuse Prevention 6 5 5 5 5 2 6 Transparency 5 4 5 3 3 2 7 3",
-      "title": "",
-      "original_description_html": "<p>Ce que les données nous disent npm\nPyPI\nRubyGems\ncrates.io\nHex.pm\nPackagist\nMax\nAuth (Human)\n3\n3\n0\n1\n0\n0\n4\nAuth (Machine)\n6\n4\n4\n4\n2\n2\n7\nAccess Control\n6\n4\n4\n4\n5\n4\n7\nBuild &amp; Provenance\n6\n4\n3\n2\n2\n2\n8\nIntegrity &amp; Signing\n5\n5\n6\n2\n3\n2\n6\nVulnerability Mgmt\n7\n3\n4\n3\n4\n4\n7\nAbuse Prevention\n6\n5\n5\n5\n5\n2\n6\nTransparency\n5\n4\n5\n3\n3\n2\n7\n3</p>\n"
+      "title": ""
     },
     {
       "id": "vajawm",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé 4",
-      "title": "",
-      "original_description_html": "<p>Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé\n4</p>\n"
+      "title": ""
     },
     {
       "id": "XuSOpB",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé Les registres ne sont pas votre équipe sécurité. Ce sont des infrastructures. 5",
-      "title": "",
-      "original_description_html": "<p>Les lacunes qui comptent ● Authentification ○ un contrôle optionnel n’est pas un contrôle ● Provenance ○ aucune garantie que le paquet vient de sa source ● Build ○ aucun registre n’impose un environnement de build isolé\nLes registres ne sont pas votre équipe sécurité. Ce sont des infrastructures.\n5</p>\n"
+      "title": ""
     },
     {
       "id": "AEBCha",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "L’IA amplifie le problème ● Les assistants IA ajoutent des dépendances automatiquement ● Le dernier point de friction humain vient de disparaître ● Ce qui était déjà invisible est maintenant plus rapide 6",
-      "title": "",
-      "original_description_html": "<p>L’IA amplifie le problème ● Les assistants IA ajoutent des dépendances automatiquement ● Le dernier point de friction humain vient de disparaître ● Ce qui était déjà invisible est maintenant plus rapide\n6</p>\n"
+      "title": ""
     },
     {
       "id": "mXu0Zz",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "2 h le mat … un mainteneur compromis une version malveillante publiée un build « latest » automatisé 7",
-      "title": "",
-      "original_description_html": "<p>2 h le mat … un mainteneur compromis une version malveillante publiée un build « latest » automatisé 7</p>\n"
+      "title": ""
     },
     {
       "id": "OrcoSO",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "AWS CodeArtifact : le contrôle préventif ● Service managé de dépôt d’artefacts ● Compatible avec npm, pip, Maven, NuGet, et plus encore ● Vos outils, votre workflow ● Vous définissez ce qui entre 8",
-      "title": "",
-      "original_description_html": "<p>AWS CodeArtifact : le contrôle préventif ● Service managé de dépôt d’artefacts ● Compatible avec npm, pip, Maven, NuGet, et plus encore ● Vos outils, votre workflow ● Vous définissez ce qui entre\n8</p>\n"
+      "title": ""
     },
     {
       "id": "1BLcKn",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "Architecture de contrôle 9",
-      "title": "",
-      "original_description_html": "<p>Architecture de contrôle\n9</p>\n"
+      "title": ""
     },
     {
       "id": "dV4QDC",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Trois barrières ● Isolation architecturale ○ vos builds ne parlent jamais aux registres publics ● Validation automatisée ○ chaque nouvelle version est scannée avant décision ● Promotion explicite ○ par défaut, rien ne passe (spoiler : version pinning) 10",
-      "title": "",
-      "original_description_html": "<p>Trois barrières ● Isolation architecturale ○ vos builds ne parlent jamais aux registres publics ● Validation automatisée ○ chaque nouvelle version est scannée avant décision ● Promotion explicite ○ par défaut, rien ne passe (spoiler : version pinning)\n10</p>\n"
+      "title": ""
     },
     {
       "id": "FonE5b",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Trois barrières ● Quarantaine architecturée ○ la version malveillante n’atteint jamais vos builds ● Épinglage de version ○ pas de mise à jour automatique ● Validation automatisée ○ workflow déclenché, promotion bloquée si échec 11",
-      "title": "",
-      "original_description_html": "<p>Trois barrières ● Quarantaine architecturée ○ la version malveillante n’atteint jamais vos builds ● Épinglage de version ○ pas de mise à jour automatique ● Validation automatisée ○ workflow déclenché, promotion bloquée si échec\n11</p>\n"
+      "title": ""
     },
     {
       "id": "s8W1y0",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (que ça) Runtime Code Analysis 12",
-      "title": "",
-      "original_description_html": "<p>Datadog Code Security\nSCA\nSAST\nSoftware Composition Analysis\nStatic Code Analysis\nSecret Scanning\nIAST\n(que ça)\nRuntime Code Analysis\n12</p>\n"
+      "title": ""
     },
     {
       "id": "USEpqP",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Code Security SCA SAST Software Composition Analysis Static Code Analysis Secret Scanning IAST (que ça) Runtime Code Analysis 13",
-      "title": "",
-      "original_description_html": "<p>Datadog Code Security\nSCA\nSAST\nSoftware Composition Analysis\nStatic Code Analysis\nSecret Scanning\nIAST\n(que ça)\nRuntime Code Analysis\n13</p>\n"
+      "title": ""
     },
     {
       "id": "6lxdio",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "6 mois plus tard … paquet malveillante publié (oups) vulnérabilité en prod (OUPS) panique ?! 14",
-      "title": "",
-      "original_description_html": "<p>6 mois plus tard … paquet malveillante publié (oups) vulnérabilité en prod (OUPS) panique ?! 14</p>\n"
+      "title": ""
     },
     {
       "id": "j5gRbD",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Six mois plus tard ● SCA « actif » (Software Composition Analysis) ○ la bibliothèque vulnérable est détectée (service, version, CVE, …) ● IAST (Interactive Application Security Testing) ○ le chemin d’appel est exercé et l’impact est confirmé 15",
-      "title": "",
-      "original_description_html": "<p>Six mois plus tard ● SCA « actif » (Software Composition Analysis) ○ la bibliothèque vulnérable est détectée (service, version, CVE, …) ● IAST (Interactive Application Security Testing) ○ le chemin d’appel est exercé et l’impact est confirmé\n15</p>\n"
+      "title": ""
     },
     {
       "id": "LPPFTc",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Préventif vs détectif ● Préventif : bloquer avant que ça entre ○ CodeArtifact, SAST, SCA (mode statique) ● Détectif : savoir ce qui est déjà là — et agir ○ SCA (mode actif), IAST 16",
-      "title": "",
-      "original_description_html": "<p>Préventif vs détectif ● Préventif : bloquer avant que ça entre ○ CodeArtifact, SAST, SCA (mode statique) ● Détectif : savoir ce qui est déjà là — et agir ○ SCA (mode actif), IAST\n16</p>\n"
+      "title": ""
     },
     {
       "id": "xj83M1",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "ç AWS et Datadog ensemble : défense en profondeur 17",
-      "title": "",
-      "original_description_html": "<p>ç\nAWS et Datadog ensemble : défense en profondeur\n17</p>\n"
+      "title": ""
     },
     {
       "id": "a2qrEQ",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production 18",
-      "title": "",
-      "original_description_html": "<p>Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production\n18</p>\n"
+      "title": ""
     },
     {
       "id": "CMZf6p",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production Ce ne sont pas quatre projets sur six mois. Ce sont quatre étapes que vous pouvez commencer dès cette semaine ! 19",
-      "title": "",
-      "original_description_html": "<p>Par où commencer ? ● Cartographiez votre graphe de dépendances — sachez ce sur quoi vous construisez ● Identifiez vos registres sources ● Instaurez une couche de contrôle préventif ● Assurez une visibilité totale en production\nCe ne sont pas quatre projets sur six mois. Ce sont quatre étapes que vous pouvez commencer dès cette semaine !\n19</p>\n"
+      "title": ""
     },
     {
       "id": "ogISzE",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Merci ! AWS CodeArtifact https://aws.amazon.com/codeartifact Datadog Code Security https://docs.datadoghq.com/security/code_security Notre blog super intéressant 😁 https://securitylabs.datadoghq.com 20",
-      "title": "",
-      "original_description_html": "<p>Merci ! AWS CodeArtifact https://aws.amazon.com/codeartifact\nDatadog Code Security https://docs.datadoghq.com/security/code_security\nNotre blog super intéressant 😁 https://securitylabs.datadoghq.com 20</p>\n"
+      "title": ""
     }
   ],
   "page_count": 20,
@@ -313,6 +293,5 @@
       "bytes": 993431
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/WWZEvd/aws-datadog-securiser-langle-mort-de-votre-pipeline"
+  "processor": "notist-preserved-display-v1"
 }

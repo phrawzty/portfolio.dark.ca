@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = ""
 recording_url = "https://www.youtube.com/watch?v=0GxwrDy0l98"
-source_url = "https://speaking.dark.ca/isqcts/scaling-to-win-serving-unprecedented-customer-demand"
-source_event_id = "ev_a5RA33"
-source_published_on = "2020-05-26 08:00:00"
 feedback = []
 location_label = "Virtual"
 

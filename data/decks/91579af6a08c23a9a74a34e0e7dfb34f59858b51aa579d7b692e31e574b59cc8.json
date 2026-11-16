@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Authz as a dev workflow • Dan phrawzty Maher • Cerbos 1 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Authz as a dev workflow • Dan phrawzty Maher • Cerbos\n1\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "F43V8Z",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "About Me • Open source nerd • Oldschool sysadmin (devops, sre, etc) • Really into opsec 2 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>About Me • Open source nerd • Oldschool sysadmin (devops, sre, etc) • Really into opsec\n2\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "rNmJ0y",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Authorization Paradox • Authorization is critical for every application • Often treated as an afterthought • Disconnect between importance and implementation 3 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>The Authorization Paradox • Authorization is critical for every application • Often treated as an afterthought • Disconnect between importance and implementation\n3\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "ThV6tN",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Evolution of Developer Primitives • Consider how cloud-native development has evolved • Networking: From manual configuration to service mesh and CNI • Storage: From volume management to persistent volume claims and CSI • Deployment: From manual scripts to GitOps and CI/CD pipelines • Each evolved from infrastructure concerns to developer primitives • Each transformation made developers more productive while improving quality 4 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>The Evolution of Developer Primitives • Consider how cloud-native development has evolved • Networking: From manual configuration to service mesh and CNI • Storage: From volume management to persistent volume claims and CSI • Deployment: From manual scripts to GitOps and CI/CD pipelines • Each evolved from infrastructure concerns to developer primitives • Each transformation made developers more productive while improving quality\n4\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "61Dulm",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "Why Authorization Has Lagged Behind • Deep coupling with application logic: Authorization often lives inside business logic • Domain-specific requirements: Financial services vs. SaaS vs. healthcare • Complex relationships: Modern applications have intricate permission models • No one-size-fits-all solution: Each framework reinvents authorization • Result: Authorization remains stuck as an infrastructure concern rather than a developer primitive 5 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Why Authorization Has Lagged Behind • Deep coupling with application logic: Authorization often lives inside business logic • Domain-specific requirements: Financial services vs. SaaS vs. healthcare • Complex relationships: Modern applications have intricate permission models • No one-size-fits-all solution: Each framework reinvents authorization • Result: Authorization remains stuck as an infrastructure concern rather than a developer primitive\n5\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "iKwieB",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "The High Cost of Complexity • Cognitive overhead: Developers constantly context-switch between business logic and auth • Security gaps: Inconsistent implementation leads to vulnerabilities • Velocity impact: Authorization changes require extensive regression testing • Onboarding friction: New team members struggle to understand permission models • This is both a security problem and a developer experience problem 6 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>The High Cost of Complexity • Cognitive overhead: Developers constantly context-switch between business logic and auth • Security gaps: Inconsistent implementation leads to vulnerabilities • Velocity impact: Authorization changes require extensive regression testing • Onboarding friction: New team members struggle to understand permission models • This is both a security problem and a developer experience problem\n6\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "KefWWa",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Workflow Opportunity • What if authorization was a creative tool rather than just a constraint? • Low friction is essential for good developer experience • Authorization can be declarative rather than imperative • The right abstractions can make authorization intuitive and maintainable • Transition to workflow-first thinking opens new possibilities 7 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>The Workflow Opportunity • What if authorization was a creative tool rather than just a constraint? • Low friction is essential for good developer experience • Authorization can be declarative rather than imperative • The right abstractions can make authorization intuitive and maintainable • Transition to workflow-first thinking opens new possibilities\n7\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "wyOKOz",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "Authorization as a Foundational Architectural Concern • Traditionally, authentication gets architectural attention, authorization becomes scattered if/else statements • The workflow-first approach makes authorization decisions first-class architectural elements • This creates clear boundaries between business logic and permission logic • Authorization becomes a service rather than embedded code 8 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Authorization as a Foundational Architectural Concern • Traditionally, authentication gets architectural attention, authorization becomes scattered if/else statements • The workflow-first approach makes authorization decisions first-class architectural elements • This creates clear boundaries between business logic and permission logic • Authorization becomes a service rather than embedded code\n8\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "ZI78HO",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "From Security Constraint to Product Feature • Traditional question: ‘What can’t users do?’ (negative framing) • Better question: ‘How do we enable the right access?’ (positive framing) • Permissions become part of product discussions - not just security reviews • Authorization drives user experience through progressive disclosure 9 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>From Security Constraint to Product Feature • Traditional question: ‘What can’t users do?’ (negative framing) • Better question: ‘How do we enable the right access?’ (positive framing) • Permissions become part of product discussions - not just security reviews • Authorization drives user experience through progressive disclosure\n9\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "Bbpw9n",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Domain-Driven Authorization • Model permissions around business domains not technical constructs • Permissions should speak the language of the product, not the codebase • Ubiquitous language between product, development, and security teams • Example: Document permissions that model ‘Editor’ and ‘Reviewer’ roles instead of CRUD operations • This aligns security with how users think about your application 10 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Core Design Principle: Domain-Driven Authorization • Model permissions around business domains not technical constructs • Permissions should speak the language of the product, not the codebase • Ubiquitous language between product, development, and security teams • Example: Document permissions that model ‘Editor’ and ‘Reviewer’ roles instead of CRUD operations • This aligns security with how users think about your application\n10\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "nvYk2C",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Declarative Policies • Move from imperative checks scattered throughout code • To declarative policies that describe intent • Policies become human-readable artifacts • Enables version control and review of authorization logic 11 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Core Design Principle: Declarative Policies • Move from imperative checks scattered throughout code • To declarative policies that describe intent • Policies become human-readable artifacts • Enables version control and review of authorization logic\n11\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "QFHXub",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: External Decision Points • Decouple authorization from application logic • Application asks ‘Can this user do this?’ to a dedicated service • Enables consistent enforcement across services • Allows independent scaling of authorization logic • Makes authorization logic testable in isolation 12 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Core Design Principle: External Decision Points • Decouple authorization from application logic • Application asks ‘Can this user do this?’ to a dedicated service • Enables consistent enforcement across services • Allows independent scaling of authorization logic • Makes authorization logic testable in isolation\n12\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "2Z0Ln0",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Core Design Principle: Context-Awareness • Move beyond simple role-based access control • Consider attributes like time, location, resource properties • Authorization that adapts to context is more flexible • Example: Different permission rules during business hours vs. after hours • Enables fine-grained control without explosion of roles 13 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Core Design Principle: Context-Awareness • Move beyond simple role-based access control • Consider attributes like time, location, resource properties • Authorization that adapts to context is more flexible • Example: Different permission rules during business hours vs. after hours • Enables fine-grained control without explosion of roles\n13\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "esj9fP",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "The Authorization Ecosystem • A rich ecosystem of open source tools has emerged • CNCF projects leading standardization efforts • Different tools for different architectural approaches • All share the goal of making authorization more manageable • Each addresses different parts of the authorization challenge 14 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>The Authorization Ecosystem • A rich ecosystem of open source tools has emerged • CNCF projects leading standardization efforts • Different tools for different architectural approaches • All share the goal of making authorization more manageable • Each addresses different parts of the authorization challenge\n14\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "HCRxXo",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Open Policy Agent (OPA) • CNCF graduated project for policy enforcement • General-purpose policy engine beyond just authorization • Rego policy language for expressing rules 15 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Open Policy Agent (OPA) • CNCF graduated project for policy enforcement • General-purpose policy engine beyond just authorization • Rego policy language for expressing rules\n15\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "tWAlQD",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "OpenFGA: Fine-Grained Authorization • CNCF Sandbox project focused on relationship-based authorization • Based on Google’s Zanzibar paper - same system that powers Google Drive permissions • Excels at modeling arbitrary relationships between objects 16 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>OpenFGA: Fine-Grained Authorization • CNCF Sandbox project focused on relationship-based authorization • Based on Google’s Zanzibar paper - same system that powers Google Drive permissions • Excels at modeling arbitrary relationships between objects\n16\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "VptZIc",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "AuthZen (OpenID Foundation) • Working group standardizing authorization APIs and interface • Building on success of OAuth 2.0 and OpenID Connect • Focus on interoperability between authorization systems • Important for long-term evolution of the authorization ecosystem 17 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>AuthZen (OpenID Foundation) • Working group standardizing authorization APIs and interface • Building on success of OAuth 2.0 and OpenID Connect • Focus on interoperability between authorization systems • Important for long-term evolution of the authorization ecosystem\n17\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "89cNB1",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Cerbos: Developer-Centric Authorization • Human-readable YAML policies that product teams can understand • IDE integrations for real-time policy validation • Designed for frictionless developer workflows • Particularly strong for testing and debugging authorization logic 18 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Cerbos: Developer-Centric Authorization • Human-readable YAML policies that product teams can understand • IDE integrations for real-time policy validation • Designed for frictionless developer workflows • Particularly strong for testing and debugging authorization logic\n18\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "kTLB3Q",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Choosing the Right Tool • No one-size-fits-all solution • Consider your architecture and team structure • OPA: Broad policy enforcement beyond just authorization • OpenFGA: Complex relationship-based permissions at scale • Cerbos: Developer workflow integration and simplicity • Many teams use multiple tools for different aspects 19 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Choosing the Right Tool • No one-size-fits-all solution • Consider your architecture and team structure • OPA: Broad policy enforcement beyond just authorization • OpenFGA: Complex relationship-based permissions at scale • Cerbos: Developer workflow integration and simplicity • Many teams use multiple tools for different aspects\n19\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "Mn3yvp",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Pattern Categories Overview • Architectural patterns: How authorization fits into your system architecture • Development patterns: How to integrate with developer workflows • Testing patterns: How to verify authorization logic effectively 20 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Pattern Categories Overview • Architectural patterns: How authorization fits into your system architecture • Development patterns: How to integrate with developer workflows • Testing patterns: How to verify authorization logic effectively\n20\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "z6mmoE",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Authz as a Service • Encapsulate authorization logic in a dedicated service • Applications make explicit authorization requests • Enables consistent enforcement across services • Simplifies policy updates without changing application code 21 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Architectural Pattern: Authz as a Service • Encapsulate authorization logic in a dedicated service • Applications make explicit authorization requests • Enables consistent enforcement across services • Simplifies policy updates without changing application code\n21\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "bQVagd",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Sidecar Deployment • Deploy authorization engine alongside each service instance • Low latency for authorization decisions • No network hop for every decision • Maintains consistent policies via centralized distribution • Perfect for Kubernetes environments 22 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Architectural Pattern: Sidecar Deployment • Deploy authorization engine alongside each service instance • Low latency for authorization decisions • No network hop for every decision • Maintains consistent policies via centralized distribution • Perfect for Kubernetes environments\n22\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "DkEOZ2",
@@ -231,8 +209,7 @@
       "width": 1600,
       "height": 900,
       "text": "Architectural Pattern: Multi-Layer Authorization • Authorization at multiple system layers • Coarse-grained at API gateway or ingress • Service-level for business logic authorization • Data-level for fine-grained access control • Each layer handles what it’s best suited for • Example: Combining API gateway rules, service policies, and row-level security 23 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Architectural Pattern: Multi-Layer Authorization • Authorization at multiple system layers • Coarse-grained at API gateway or ingress • Service-level for business logic authorization • Data-level for fine-grained access control • Each layer handles what it’s best suited for • Example: Combining API gateway rules, service policies, and row-level security\n23\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "q3xCRR",
@@ -241,8 +218,7 @@
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Policy-Driven Design • Start with authorization requirements before implementation • Define policies in domain-specific language or specification • Generate test cases from policy definitions • Use policies to drive API design • Enables clear separation of business logic and authorization 24 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Development Pattern: Policy-Driven Design • Start with authorization requirements before implementation • Define policies in domain-specific language or specification • Generate test cases from policy definitions • Use policies to drive API design • Enables clear separation of business logic and authorization\n24\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "SNg0Jq",
@@ -251,8 +227,7 @@
       "width": 1600,
       "height": 900,
       "text": "Development Pattern: Request Context Enrichment • Augment requests with rich context information • Move beyond simple user IDs to full context objects • Context includes user attributes, resource metadata, environmental factors • Enables sophisticated, context-aware decisions • Implementation using request middleware or interceptors 25 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Development Pattern: Request Context Enrichment • Augment requests with rich context information • Move beyond simple user IDs to full context objects • Context includes user attributes, resource metadata, environmental factors • Enables sophisticated, context-aware decisions • Implementation using request middleware or interceptors\n25\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "4hOoCF",
@@ -261,8 +236,7 @@
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Policy Unit Testing • Test policies independent of application code • Table-driven testing for multiple scenarios • Verify both allowed and denied cases • Test for edge cases and unusual conditions • Catch policy bugs before they reach production 26 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Testing Pattern: Policy Unit Testing • Test policies independent of application code • Table-driven testing for multiple scenarios • Verify both allowed and denied cases • Test for edge cases and unusual conditions • Catch policy bugs before they reach production\n26\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "h17c4e",
@@ -271,8 +245,7 @@
       "width": 1600,
       "height": 900,
       "text": "Testing Pattern: Authorization Test Fixtures • Create reusable test users with different permission profiles • Standard test resources with various access patterns • Authorization-aware test helpers for common operations • Makes writing permission-aware tests much easier 27 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Testing Pattern: Authorization Test Fixtures • Create reusable test users with different permission profiles • Standard test resources with various access patterns • Authorization-aware test helpers for common operations • Makes writing permission-aware tests much easier\n27\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "JKqPx3",
@@ -281,8 +254,7 @@
       "width": 1600,
       "height": 900,
       "text": "Practical Workflow Integration • Local development with policy simulation • IDE plugins for real-time policy validation • PR checks for policy consistency • Documentation generation from policies • Debugging tools for authorization decisions • Creates a seamless experience from dev to production 28 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Practical Workflow Integration • Local development with policy simulation • IDE plugins for real-time policy validation • PR checks for policy consistency • Documentation generation from policies • Debugging tools for authorization decisions • Creates a seamless experience from dev to production\n28\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "veZDpS",
@@ -291,8 +263,7 @@
       "width": 1600,
       "height": 900,
       "text": "Key Transformations • We’ve explored three fundamental transformations in how we approach authorization • From friction to flow in the development process • Security by design rather than security as an add-on • Empowered developers making better security decisions 29 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Key Transformations • We’ve explored three fundamental transformations in how we approach authorization • From friction to flow in the development process • Security by design rather than security as an add-on • Empowered developers making better security decisions\n29\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "XyI1hr",
@@ -301,8 +272,7 @@
       "width": 1600,
       "height": 900,
       "text": "From Friction to Flow • Traditional approach: Authorization interrupts development flow • New approach: Authorization tooling enhances productivity • The difference is measurable in developer satisfaction and output • When authorization is seamless, creativity flourishes 30 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>From Friction to Flow • Traditional approach: Authorization interrupts development flow • New approach: Authorization tooling enhances productivity • The difference is measurable in developer satisfaction and output • When authorization is seamless, creativity flourishes\n30\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "AI0paG",
@@ -311,8 +281,7 @@
       "width": 1600,
       "height": 900,
       "text": "Security by Design • Security isn’t something you add at the end • Authorization primitives built into your architecture from day one • This shift fundamentally changes the security posture of your applications • The result: more secure systems that are easier to maintain 31 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Security by Design • Security isn’t something you add at the end • Authorization primitives built into your architecture from day one • This shift fundamentally changes the security posture of your applications • The result: more secure systems that are easier to maintain\n31\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "mbjdSf",
@@ -321,8 +290,7 @@
       "width": 1600,
       "height": 900,
       "text": "Empowered Developers • Knowledge is power: developers who understand authorization make better decisions • Clear patterns and tools democratize security expertise • This creates a positive security culture across development teams • When developers are empowered, the entire organization benefits 32 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Empowered Developers • Knowledge is power: developers who understand authorization make better decisions • Clear patterns and tools democratize security expertise • This creates a positive security culture across development teams • When developers are empowered, the entire organization benefits\n32\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     },
     {
       "id": "OvSRL4",
@@ -331,8 +299,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank You • Authorization should enable great software, not hinder it • The tools and patterns exist today to transform your approach 33 @phrawzty // cerbos.dev",
-      "title": "",
-      "original_description_html": "<p>Thank You • Authorization should enable great software, not hinder it • The tools and patterns exist today to transform your approach\n33\n@phrawzty // cerbos.dev</p>\n"
+      "title": ""
     }
   ],
   "page_count": 33,
@@ -508,6 +475,5 @@
       "bytes": 1088585
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/riZNCJ/authz-as-a-dev-workflow"
+  "processor": "notist-preserved-display-v1"
 }

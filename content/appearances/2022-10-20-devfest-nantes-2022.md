@@ -15,9 +15,6 @@ timezone = "Europe/Paris"
 virtual = false
 deck = "0c8ba3e08b8f095ae3f2c15768bc8af5767f3193a9aab401f5161414c3693793"
 recording_url = "https://www.youtube.com/watch?v=39oA9W4J37I"
-source_url = "https://speaking.dark.ca/GDG8Lu/what-about-logs"
-source_event_id = "ev_qwFS6y"
-source_published_on = "2022-10-20 15:00:00"
 resources = []
 feedback = []
 place = "nantes-fr"

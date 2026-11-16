@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = false
 deck = "970aed2ab0136c62ae8e46be7df0293c9122c18239e83b8ce08d84b348991488"
 recording_url = "https://www.youtube.com/watch?v=8AMmeYNdP1k"
-source_url = "https://speaking.dark.ca/Cpr0TI/les-conteneurs-pieces-et-main-doeuvre"
-source_event_id = "ev_EJSm2r"
-source_published_on = "2018-11-15 08:00:00"
 feedback = []
 place = "marseille-fr"
 

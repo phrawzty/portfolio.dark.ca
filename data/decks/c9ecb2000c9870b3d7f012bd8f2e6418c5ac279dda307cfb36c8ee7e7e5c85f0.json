@@ -11,8 +11,7 @@
       "width": 1600,
       "height": 900,
       "text": "Observability as Code with Datadog and HashiCorp Terraform",
-      "title": "",
-      "original_description_html": "<p>Observability as Code with Datadog and HashiCorp Terraform</p>\n"
+      "title": ""
     },
     {
       "id": "04lhSW",
@@ -21,8 +20,7 @@
       "width": 1600,
       "height": 900,
       "text": "Kerim Satirli Daniel Maher @ksatirli @phrawzty Developer Advocate HashiCorp Developer Advocate Datadog",
-      "title": "",
-      "original_description_html": "<p>Kerim Satirli\nDaniel Maher\n@ksatirli\n@phrawzty\nDeveloper Advocate HashiCorp\nDeveloper Advocate Datadog</p>\n"
+      "title": ""
     },
     {
       "id": "cOUVKv",
@@ -31,8 +29,7 @@
       "width": 1600,
       "height": 900,
       "text": "Agenda ▪ What is Datadog? ▪ What is Terraform? ▪ What is Observability as Code? ▪ How do Datadog and Terraform integrate? ▪ Q&A",
-      "title": "",
-      "original_description_html": "<p>Agenda\n▪ What is Datadog? ▪ What is Terraform? ▪ What is Observability as Code? ▪ How do Datadog and Terraform integrate? ▪ Q&amp;A</p>\n"
+      "title": ""
     },
     {
       "id": "EiDJDK",
@@ -41,8 +38,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "r1w75j",
@@ -51,8 +47,7 @@
       "width": 1600,
       "height": 900,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     },
     {
       "id": "TLeuy8",
@@ -61,8 +56,7 @@
       "width": 1600,
       "height": 900,
       "text": "app.terraform.io",
-      "title": "",
-      "original_description_html": "<p>app.terraform.io</p>\n"
+      "title": ""
     },
     {
       "id": "5fNiqX",
@@ -71,8 +65,7 @@
       "width": 1600,
       "height": 900,
       "text": "storedog.example",
-      "title": "",
-      "original_description_html": "<p>storedog.example</p>\n"
+      "title": ""
     },
     {
       "id": "hz6Wiw",
@@ -81,8 +74,7 @@
       "width": 1600,
       "height": 900,
       "text": "What is Observability as Code ⁄",
-      "title": "",
-      "original_description_html": "<p>What is Observability as Code\n⁄</p>\n"
+      "title": ""
     },
     {
       "id": "KIpKbL",
@@ -91,8 +83,7 @@
       "width": 1600,
       "height": 900,
       "text": "How do Datadog and Terraform integrate? ⁄",
-      "title": "",
-      "original_description_html": "<p>How do Datadog and Terraform integrate?\n⁄</p>\n"
+      "title": ""
     },
     {
       "id": "wcY8Tk",
@@ -101,8 +92,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog</p>\n"
+      "title": ""
     },
     {
       "id": "YwGwM9",
@@ -111,8 +101,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform registry.terraform.io/providers/datadog/datadog</p>\n"
+      "title": ""
     },
     {
       "id": "BFzkEY",
@@ -121,8 +110,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR terraform { required_providers { datadog = { source = “datadog/datadog” version = “2.13.0” } } required_version = “~> 0.13” }",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform CODE EDITOR\nterraform { required_providers { datadog = { source = “datadog/datadog” version = “2.13.0” } } required_version = “~&gt; 0.13” }</p>\n"
+      "title": ""
     },
     {
       "id": "nZiY6x",
@@ -131,8 +119,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR provider “datadog” { # Datadog credentials }",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform CODE EDITOR\nprovider “datadog” { # Datadog credentials }</p>\n"
+      "title": ""
     },
     {
       "id": "PtRLzM",
@@ -141,8 +128,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR provider “datadog” { api_url = “https://api.datadoghq.com/” }",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform CODE EDITOR\nprovider “datadog” { api_url = “https://api.datadoghq.com/” }</p>\n"
+      "title": ""
     },
     {
       "id": "2DA9rl",
@@ -151,8 +137,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Provider for Terraform CODE EDITOR ! provider “datadog” { api_url = “https://api.datadoghq.eu/” }",
-      "title": "",
-      "original_description_html": "<p>Datadog Provider for Terraform CODE EDITOR\n!\nprovider “datadog” { api_url = “https://api.datadoghq.eu/” }</p>\n"
+      "title": ""
     },
     {
       "id": "eWsxkA",
@@ -161,8 +146,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitors Interface app.datadoghq.com/monitors/manage",
-      "title": "",
-      "original_description_html": "<p>Datadog Monitors Interface app.datadoghq.com/monitors/manage</p>\n"
+      "title": ""
     },
     {
       "id": "GqblcZ",
@@ -171,8 +155,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitor CODE EDITOR resource “datadog_monitor” “high_error_rate” { for_each = var.services name = “HIGH: ${each.key} (${each.value.env})” type = “query alert” message = “${each.key} has a high error rate!” … }",
-      "title": "",
-      "original_description_html": "<p>Datadog Monitor CODE EDITOR\nresource “datadog_monitor” “high_error_rate” { for_each = var.services name = “HIGH: ${each.key} (${each.value.env})” type = “query alert” message = “${each.key} has a high error rate!” … }</p>\n"
+      "title": ""
     },
     {
       "id": "tAKZUy",
@@ -181,8 +164,7 @@
       "width": 1600,
       "height": 900,
       "text": "Datadog Monitor CODE EDITOR … query = “avg(last_10m):(sum:trace.$ {each.value.framework}.request.errors{env:$ {each.value.environment},service:${each.key} } / sum:trace.$ {each.value.framework}.request.hits{env:$ {each.value.environment},service:${each.key} }) > $ {each.value.high_error_rate_critical}”",
-      "title": "",
-      "original_description_html": "<p>Datadog Monitor CODE EDITOR\n… query = “avg(last_10m):(sum:trace.$ {each.value.framework}.request.errors{env:$ {each.value.environment},service:${each.key} } / sum:trace.$ {each.value.framework}.request.hits{env:$ {each.value.environment},service:${each.key} }) &gt; $ {each.value.high_error_rate_critical}”</p>\n"
+      "title": ""
     },
     {
       "id": "VU3NNN",
@@ -191,8 +173,7 @@
       "width": 1600,
       "height": 900,
       "text": "Demonstration ⁄",
-      "title": "",
-      "original_description_html": "<p>Demonstration\n⁄</p>\n"
+      "title": ""
     },
     {
       "id": "7nmBFm",
@@ -201,8 +182,7 @@
       "width": 1600,
       "height": 900,
       "text": "Resources ▪ Datadog: datadoghq.com/free-datadog-trial ▪ Terraform Cloud: app.terraform.io/signup ▪ Terraform provider: registry.terraform.io/providers/datadog/datadog ▪ webshop code: github.com/datadog/ecommerce-workshop ▪ workshop code: github.com/hashicorp/observability-as-code",
-      "title": "",
-      "original_description_html": "<p>Resources ▪ Datadog: datadoghq.com/free-datadog-trial ▪ Terraform Cloud: app.terraform.io/signup ▪ Terraform provider: registry.terraform.io/providers/datadog/datadog ▪ webshop code: github.com/datadog/ecommerce-workshop ▪ workshop code: github.com/hashicorp/observability-as-code</p>\n"
+      "title": ""
     },
     {
       "id": "k7Uz8B",
@@ -211,8 +191,7 @@
       "width": 1600,
       "height": 900,
       "text": "Q&A ask us anything (related to today’s session)",
-      "title": "",
-      "original_description_html": "<p>Q&amp;A ask us anything (related to today’s session)</p>\n"
+      "title": ""
     },
     {
       "id": "MRDn0a",
@@ -221,8 +200,7 @@
       "width": 1600,
       "height": 900,
       "text": "Thank You kerim@hashicorp.com daniel.maher@datadoghq.com",
-      "title": "",
-      "original_description_html": "<p>Thank You kerim@hashicorp.com daniel.maher@datadoghq.com</p>\n"
+      "title": ""
     }
   ],
   "page_count": 22,
@@ -343,6 +321,5 @@
       "bytes": 3323527
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/y8vQqS/configure-observability-as-code-with-terraform-datadog"
+  "processor": "notist-preserved-display-v1"
 }

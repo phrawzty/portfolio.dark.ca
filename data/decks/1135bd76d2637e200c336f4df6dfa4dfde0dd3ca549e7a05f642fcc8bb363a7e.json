@@ -11,8 +11,7 @@
       "width": 1486,
       "height": 890,
       "text": "",
-      "title": "",
-      "original_description_html": ""
+      "title": ""
     }
   ],
   "page_count": 1,
@@ -23,6 +22,5 @@
       "bytes": 466825
     }
   ],
-  "processor": "notist-preserved-display-v1",
-  "source_url": "https://speaking.dark.ca/KVNWOW/datadog-vodafone-and-dunelm-sre-panel-discussion"
+  "processor": "notist-preserved-display-v1"
 }

@@ -15,9 +15,6 @@ timezone = "GMT"
 virtual = true
 deck = "884d72b9f395db05ffc36408eeeedbf2f00899ee321eee870bec54840df38bd4"
 recording_url = ""
-source_url = "https://speaking.dark.ca/Zq12X5/modern-frameworks-for-modern-alerting"
-source_event_id = "ev_R2bZgG"
-source_published_on = "2020-06-30 08:00:00"
 resources = []
 location_label = "Virtual"
 

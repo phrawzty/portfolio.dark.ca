@@ -4,7 +4,7 @@ date = 2023-03-07T08:00:00+01:00
 draft = false
 path = "N8m0dP"
 template = "appearance.html"
-aliases = ["N8m0dP/kubectl-ca-se-prononce-comment-ca", "videos/N8m0dP"]
+aliases = ["N8m0dP/kubectl-ca-se-prononce-comment-ca"]
 
 [extra]
 id = "N8m0dP"

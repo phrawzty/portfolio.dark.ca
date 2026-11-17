@@ -4,7 +4,7 @@ date = 2019-10-03T17:00:00Z
 draft = false
 path = "SHry3o"
 template = "appearance.html"
-aliases = ["SHry3o/leveraging-hashicorp-consul-and-datadog-for-service-mesh-deployments", "videos/SHry3o"]
+aliases = ["SHry3o/leveraging-hashicorp-consul-and-datadog-for-service-mesh-deployments"]
 
 [extra]
 id = "SHry3o"

@@ -4,7 +4,7 @@ date = 2021-06-02T12:30:00+02:00
 draft = false
 path = "glWuoa"
 template = "appearance.html"
-aliases = ["glWuoa/facts-about-real-world-container-use", "videos/glWuoa"]
+aliases = ["glWuoa/facts-about-real-world-container-use"]
 
 [extra]
 id = "glWuoa"

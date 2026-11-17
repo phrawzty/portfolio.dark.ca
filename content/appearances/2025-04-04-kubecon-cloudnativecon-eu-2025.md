@@ -4,7 +4,7 @@ date = 2025-04-04T15:15:00+01:00
 draft = false
 path = "RttifT"
 template = "appearance.html"
-aliases = ["RttifT/authz-as-a-dev-workflow-architecting-better-cloud-native-apps", "videos/RttifT"]
+aliases = ["RttifT/authz-as-a-dev-workflow-architecting-better-cloud-native-apps"]
 
 [extra]
 id = "RttifT"

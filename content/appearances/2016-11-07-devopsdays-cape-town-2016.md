@@ -4,7 +4,7 @@ date = 2016-11-07T09:00:00+02:00
 draft = false
 path = "tsnke2"
 template = "appearance.html"
-aliases = ["tsnke2/where-are-we-going-and-how-did-we-get-here", "videos/tsnke2"]
+aliases = ["tsnke2/where-are-we-going-and-how-did-we-get-here"]
 
 [extra]
 id = "tsnke2"

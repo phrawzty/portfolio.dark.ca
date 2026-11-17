@@ -4,7 +4,7 @@ date = 2020-05-26T08:00:00Z
 draft = false
 path = "isqcts"
 template = "appearance.html"
-aliases = ["isqcts/scaling-to-win-serving-unprecedented-customer-demand", "videos/isqcts"]
+aliases = ["isqcts/scaling-to-win-serving-unprecedented-customer-demand"]
 
 [extra]
 id = "isqcts"

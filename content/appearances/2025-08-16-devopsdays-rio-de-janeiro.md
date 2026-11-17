@@ -2,11 +2,11 @@
 title = "Code is not enough: Grow your career without leaving your terminal"
 date = 2025-08-16
 draft = false
-path = "2025-08-16-devopsdays-rio-de-janeiro"
+path = "Lxyex6"
 template = "appearance.html"
 
 [extra]
-id = "2025-08-16-devopsdays-rio-de-janeiro"
+id = "Lxyex6"
 talk = "code-is-not-enough-grow-your-career-without-leaving-your-terminal"
 event = "DevOpsDays Rio de Janeiro"
 event_url = ""

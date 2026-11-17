@@ -4,7 +4,7 @@ date = 2021-12-09T08:00:00Z
 draft = false
 path = "E0yCMk"
 template = "appearance.html"
-aliases = ["E0yCMk/cloud-cost-optimisation-shift-left-on-cloud-costs", "videos/E0yCMk"]
+aliases = ["E0yCMk/cloud-cost-optimisation-shift-left-on-cloud-costs"]
 
 [extra]
 id = "E0yCMk"

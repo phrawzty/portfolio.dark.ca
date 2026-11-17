@@ -4,7 +4,7 @@ date = 2022-10-20T17:20:00+02:00
 draft = false
 path = "GDG8Lu"
 template = "appearance.html"
-aliases = ["GDG8Lu/what-about-logs", "videos/GDG8Lu"]
+aliases = ["GDG8Lu/what-about-logs"]
 
 [extra]
 id = "GDG8Lu"

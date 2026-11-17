@@ -4,7 +4,7 @@ date = 2022-01-27T08:00:00Z
 draft = false
 path = "ARNBw1"
 template = "appearance.html"
-aliases = ["ARNBw1/real-time-container-monitoring-best-practices", "videos/ARNBw1"]
+aliases = ["ARNBw1/real-time-container-monitoring-best-practices"]
 
 [extra]
 id = "ARNBw1"

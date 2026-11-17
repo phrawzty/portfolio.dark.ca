@@ -4,7 +4,7 @@ date = 2020-09-23T08:00:00Z
 draft = false
 path = "y8vQqS"
 template = "appearance.html"
-aliases = ["y8vQqS/configure-observability-as-code-with-terraform-datadog", "videos/y8vQqS"]
+aliases = ["y8vQqS/configure-observability-as-code-with-terraform-datadog"]
 
 [extra]
 id = "y8vQqS"

@@ -10,7 +10,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from portfolio.cli import Portfolio, PortfolioError, UserCancelled, main, read_page, write_page, sha256
+from portfolio.cli import Portfolio, PortfolioError, UserCancelled, main, new_appearance_id, read_page, write_page, sha256
 import subprocess
 
 SOURCE = Path(__file__).resolve().parents[1]
@@ -213,6 +213,47 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(self.project.appearance("first")[0].name, "2030-05-01-example-event.md")
         self.assertEqual(self.project.appearance("second")[0].name, "2030-05-01-example-event-2.md")
         self.assertEqual(self.project.appearance("second")[1]["path"], "second")
+
+    def test_new_appearance_generates_stable_unique_ids_and_readable_filenames(self):
+        self.create("Abc123")
+        with patch("portfolio.cli.new_appearance_id", side_effect=["Abc123", "Def456"]):
+            self.call("new", "--title", "A new talk", "--event", "Example event",
+                      "--date", "2030-05-01", "--location", "Virtual")
+        path, meta, body = self.project.appearance("Def456")
+        self.assertEqual(path.name, "2030-05-01-example-event-2.md")
+        self.assertEqual(meta["path"], "Def456")
+        self.assertEqual(meta["extra"]["id"], "Def456")
+        meta["extra"]["event"] = "Renamed event"
+        write_page(path, meta, body)
+        self.assertEqual(self.project.appearance(path.stem)[1]["extra"]["id"], "Def456")
+
+    def test_new_id_uses_six_case_sensitive_alphanumeric_characters(self):
+        with patch("portfolio.cli.secrets.choice", side_effect=list("aZ09bY")) as choose:
+            self.assertEqual(new_appearance_id(), "aZ09bY")
+        self.assertEqual(choose.call_count, 6)
+        self.assertEqual(set(choose.call_args.args[0]), set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"))
+
+    def test_ambiguous_id_and_filename_selectors_are_rejected(self):
+        self.create("first")
+        self.create("second")
+        path, meta, body = self.project.appearance("second")
+        meta["extra"]["id"] = "2030-05-01-example-event"
+        write_page(path, meta, body)
+        with self.assertRaisesRegex(PortfolioError, "Ambiguous appearance"):
+            self.project.appearance("2030-05-01-example-event")
+
+    def test_generic_video_redirect_and_legacy_appearance_alias(self):
+        self.create("Legacy42", publish=True)
+        path, meta, body = self.project.appearance("Legacy42")
+        meta["aliases"] = ["Legacy42/previous-title"]
+        write_page(path, meta, body)
+        self.project.build()
+        redirects = (self.root / "public/_redirects").read_text().splitlines()
+        self.assertIn("/Legacy42/previous-title /Legacy42/ 301", redirects)
+        self.assertIn("/videos/:id /:id/#recording 301", redirects)
+        self.assertIn("/videos/:id/ /:id/#recording 301", redirects)
+        self.assertFalse(any(line.startswith("/videos/Legacy42 ") for line in redirects))
+        self.assertTrue((self.root / "public/Legacy42/index.html").exists())
 
     def test_id_lookup_rejects_duplicate_front_matter_ids(self):
         self.create("Legacy42")

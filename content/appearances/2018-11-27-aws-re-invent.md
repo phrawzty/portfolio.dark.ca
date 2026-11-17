@@ -4,7 +4,7 @@ date = 2018-11-27T13:00:00-08:00
 draft = false
 path = "RTIcE6"
 template = "appearance.html"
-aliases = ["RTIcE6/building-sre-from-scratch-at-coinbase-during-hypergrowth", "videos/RTIcE6"]
+aliases = ["RTIcE6/building-sre-from-scratch-at-coinbase-during-hypergrowth"]
 
 [extra]
 id = "RTIcE6"

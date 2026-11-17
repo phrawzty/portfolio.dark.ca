@@ -4,7 +4,7 @@ date = 2020-04-23T17:00:00Z
 draft = false
 path = "mIFScg"
 template = "appearance.html"
-aliases = ["mIFScg/configure-observability-as-code-with-terraform-datadog", "videos/mIFScg"]
+aliases = ["mIFScg/configure-observability-as-code-with-terraform-datadog"]
 
 [extra]
 id = "mIFScg"

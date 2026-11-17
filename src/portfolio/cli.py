@@ -14,6 +14,7 @@ import re
 import secrets
 import shlex
 import shutil
+import string
 import subprocess
 import sys
 import tempfile
@@ -100,6 +101,10 @@ def identifier(value):
     if not IDENTIFIER.fullmatch(value):
         raise PortfolioError(f"Invalid ID: {value!r}; use letters, digits, hyphens, or underscores")
     return value
+
+
+def new_appearance_id():
+    return "".join(secrets.choice(string.ascii_letters + string.digits) for _ in range(6))
 
 
 def run(command, **kwargs):
@@ -279,9 +284,9 @@ class Portfolio:
             if ident in used_ids:
                 raise PortfolioError(f"Appearance identifier {ident} is already in use; choose another --id")
         else:
-            ident = secrets.token_hex(6)
+            ident = new_appearance_id()
             while ident in used_ids:
-                ident = secrets.token_hex(6)
+                ident = new_appearance_id()
         destination = self.appearance_file_for(event_date, event)
         talk_id = identifier(args.talk or prior_extra.get("talk", slug(title)))
         place = self.locations.resolve(location)

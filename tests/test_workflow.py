@@ -10,7 +10,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from portfolio.cli import Portfolio, PortfolioError, UserCancelled, main, read_page, write_page, sha256
+from portfolio.cli import Portfolio, PortfolioError, UserCancelled, main, new_appearance_id, read_page, write_page, sha256
 import subprocess
 
 SOURCE = Path(__file__).resolve().parents[1]
@@ -215,17 +215,23 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(self.project.appearance("second")[1]["path"], "second")
 
     def test_new_appearance_generates_stable_unique_ids_and_readable_filenames(self):
-        self.create("abc123abc123")
-        with patch("portfolio.cli.secrets.token_hex", side_effect=["abc123abc123", "def456def456"]):
+        self.create("Abc123")
+        with patch("portfolio.cli.new_appearance_id", side_effect=["Abc123", "Def456"]):
             self.call("new", "--title", "A new talk", "--event", "Example event",
                       "--date", "2030-05-01", "--location", "Virtual")
-        path, meta, body = self.project.appearance("def456def456")
+        path, meta, body = self.project.appearance("Def456")
         self.assertEqual(path.name, "2030-05-01-example-event-2.md")
-        self.assertEqual(meta["path"], "def456def456")
-        self.assertEqual(meta["extra"]["id"], "def456def456")
+        self.assertEqual(meta["path"], "Def456")
+        self.assertEqual(meta["extra"]["id"], "Def456")
         meta["extra"]["event"] = "Renamed event"
         write_page(path, meta, body)
-        self.assertEqual(self.project.appearance(path.stem)[1]["extra"]["id"], "def456def456")
+        self.assertEqual(self.project.appearance(path.stem)[1]["extra"]["id"], "Def456")
+
+    def test_new_id_uses_six_case_sensitive_alphanumeric_characters(self):
+        with patch("portfolio.cli.secrets.choice", side_effect=list("aZ09bY")) as choose:
+            self.assertEqual(new_appearance_id(), "aZ09bY")
+        self.assertEqual(choose.call_count, 6)
+        self.assertEqual(set(choose.call_args.args[0]), set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"))
 
     def test_ambiguous_id_and_filename_selectors_are_rejected(self):
         self.create("first")

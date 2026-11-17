@@ -2,11 +2,11 @@
 title = "Your Supply Chain Has an Identity Problem"
 date = 2026-11-19
 draft = false
-path = "2026-11-19-devopsdays-portugal-2026"
+path = "lsz0nn"
 template = "appearance.html"
 
 [extra]
-id = "2026-11-19-devopsdays-portugal-2026"
+id = "lsz0nn"
 talk = "your-supply-chain-has-an-identity-problem"
 event = "DevOpsDays Portugal 2026"
 event_url = ""

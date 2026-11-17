@@ -823,7 +823,8 @@ class Portfolio:
             raise PortfolioError("Redirect rules exceed Pages' static-rule budget; move additional legacy paths to Bulk Redirects before deployment")
         # Two placeholders cover every slide, including future appearances, without
         # accumulating thousands of per-slide rules or consuming new rule slots.
-        redirects.extend(["/videos/:id /:id/#recording 301", "/:id/slides/:slide /:id/slides/#:slide 301", "/:id/slides/:slide/ /:id/slides/#:slide 301"])
+        redirects.extend(["/videos/:id /:id/#recording 301", "/videos/:id/ /:id/#recording 301",
+                          "/:id/slides/:slide /:id/slides/#:slide 301", "/:id/slides/:slide/ /:id/slides/#:slide 301"])
         (staging / "static/_redirects").write_text("\n".join(redirects) + "\n")
         return staging
 

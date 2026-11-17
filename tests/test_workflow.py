@@ -251,6 +251,7 @@ class WorkflowTests(unittest.TestCase):
         redirects = (self.root / "public/_redirects").read_text().splitlines()
         self.assertIn("/Legacy42/previous-title /Legacy42/ 301", redirects)
         self.assertIn("/videos/:id /:id/#recording 301", redirects)
+        self.assertIn("/videos/:id/ /:id/#recording 301", redirects)
         self.assertFalse(any(line.startswith("/videos/Legacy42 ") for line in redirects))
         self.assertTrue((self.root / "public/Legacy42/index.html").exists())
 

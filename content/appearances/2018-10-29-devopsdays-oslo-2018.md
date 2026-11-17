@@ -4,7 +4,7 @@ date = 2018-10-29T13:00:00+01:00
 draft = false
 path = "p9ZoLh"
 template = "appearance.html"
-aliases = ["p9ZoLh/serverless-revealed", "videos/p9ZoLh"]
+aliases = ["p9ZoLh/serverless-revealed"]
 
 [extra]
 id = "p9ZoLh"

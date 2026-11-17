@@ -4,7 +4,7 @@ date = 2021-01-21T18:00:00Z
 draft = false
 path = "PCrTkq"
 template = "appearance.html"
-aliases = ["PCrTkq/when-geography-and-the-cloud-collide", "videos/PCrTkq"]
+aliases = ["PCrTkq/when-geography-and-the-cloud-collide"]
 
 [extra]
 id = "PCrTkq"

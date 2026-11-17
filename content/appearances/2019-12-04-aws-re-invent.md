@@ -4,7 +4,7 @@ date = 2019-12-04T13:00:00-08:00
 draft = false
 path = "WMijEM"
 template = "appearance.html"
-aliases = ["WMijEM/more-than-rubber-on-the-road-tires-in-an-iot-world", "videos/WMijEM"]
+aliases = ["WMijEM/more-than-rubber-on-the-road-tires-in-an-iot-world"]
 
 [extra]
 id = "WMijEM"

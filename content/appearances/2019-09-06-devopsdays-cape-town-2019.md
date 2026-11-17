@@ -4,7 +4,7 @@ date = 2019-09-06T09:00:00+02:00
 draft = false
 path = "6hAV5U"
 template = "appearance.html"
-aliases = ["6hAV5U/what-mma-taught-me-about-working-in-tech", "videos/6hAV5U"]
+aliases = ["6hAV5U/what-mma-taught-me-about-working-in-tech"]
 
 [extra]
 id = "6hAV5U"

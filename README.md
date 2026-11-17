@@ -33,7 +33,9 @@ The menu handles talks, slides, recordings, slide notes, previews and publicatio
 
 Run `uv run portfolio --help` for direct commands and scripting options. In particular, `uv run portfolio remove` removes a cancelled appearance after confirmation but leaves shared talks, locations and assets intact.
 
-Appearance filenames use `YYYY-MM-DD-event.md`. Their public URLs are set separately in front matter; keep `path`, `extra.id` and aliases unchanged when renaming files.
+Appearance filenames use `YYYY-MM-DD-event.md`. Each new appearance receives an automatically generated, stable ID, which also forms its short public URL. Keep `path`, `extra.id` and aliases unchanged when renaming files. Select an appearance by title and event in the menu, or use its Markdown filename or ID with a direct command.
+
+Imported appearance URLs redirect to their short appearance URLs. A generic `/videos/:id` redirect opens the appearance at its recording section; if there is no recording, the appearance still provides the talk details.
 
 Add resources and feedback to an appearance’s front matter:
 

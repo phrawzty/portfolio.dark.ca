@@ -4,7 +4,7 @@ date = 2019-05-14T08:00:00+02:00
 draft = false
 path = "QbuX8Q"
 template = "appearance.html"
-aliases = ["QbuX8Q/quick-what-time-is-it", "videos/QbuX8Q"]
+aliases = ["QbuX8Q/quick-what-time-is-it"]
 
 [extra]
 id = "QbuX8Q"

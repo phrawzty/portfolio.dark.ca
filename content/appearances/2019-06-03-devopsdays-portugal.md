@@ -4,7 +4,7 @@ date = 2019-06-03T15:30:00+01:00
 draft = false
 path = "py9ABP"
 template = "appearance.html"
-aliases = ["py9ABP/quick-what-time-is-it", "videos/py9ABP"]
+aliases = ["py9ABP/quick-what-time-is-it"]
 
 [extra]
 id = "py9ABP"

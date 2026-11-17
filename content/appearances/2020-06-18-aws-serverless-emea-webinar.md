@@ -4,7 +4,7 @@ date = 2020-06-18T08:00:00Z
 draft = false
 path = "LCZQmH"
 template = "appearance.html"
-aliases = ["LCZQmH/the-datadog-serverless-report-2020", "videos/LCZQmH"]
+aliases = ["LCZQmH/the-datadog-serverless-report-2020"]
 
 [extra]
 id = "LCZQmH"

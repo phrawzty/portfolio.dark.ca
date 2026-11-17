@@ -4,7 +4,7 @@ date = 2020-11-24T14:50:00Z
 draft = false
 path = "Rj8FRx"
 template = "appearance.html"
-aliases = ["Rj8FRx/the-safety-dance-risk-assessment-for-devops-practitioners", "videos/Rj8FRx"]
+aliases = ["Rj8FRx/the-safety-dance-risk-assessment-for-devops-practitioners"]
 
 [extra]
 id = "Rj8FRx"

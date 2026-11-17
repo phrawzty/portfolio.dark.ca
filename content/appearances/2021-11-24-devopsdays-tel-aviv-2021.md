@@ -4,7 +4,7 @@ date = 2021-11-24T11:00:00+02:00
 draft = false
 path = "rv0yeb"
 template = "appearance.html"
-aliases = ["rv0yeb/principles-of-observability", "videos/rv0yeb"]
+aliases = ["rv0yeb/principles-of-observability"]
 
 [extra]
 id = "rv0yeb"

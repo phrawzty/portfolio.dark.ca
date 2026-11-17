@@ -4,7 +4,7 @@ date = 2024-09-26T11:00:00+01:00
 draft = false
 path = "2z1MmO"
 template = "appearance.html"
-aliases = ["2z1MmO/the-slings-and-arrows-of-open-source", "videos/2z1MmO"]
+aliases = ["2z1MmO/the-slings-and-arrows-of-open-source"]
 
 [extra]
 id = "2z1MmO"

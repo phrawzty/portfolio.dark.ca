@@ -4,7 +4,7 @@ date = 2020-04-17T21:00:00Z
 draft = false
 path = "9yWekH"
 template = "appearance.html"
-aliases = ["9yWekH/better-reliability-through-slos", "videos/9yWekH"]
+aliases = ["9yWekH/better-reliability-through-slos"]
 
 [extra]
 id = "9yWekH"

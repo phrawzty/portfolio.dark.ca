@@ -4,7 +4,7 @@ date = 2020-03-27T17:00:00Z
 draft = false
 path = "FNCWUM"
 template = "appearance.html"
-aliases = ["FNCWUM/demystifying-devops-sre", "videos/FNCWUM"]
+aliases = ["FNCWUM/demystifying-devops-sre"]
 
 [extra]
 id = "FNCWUM"

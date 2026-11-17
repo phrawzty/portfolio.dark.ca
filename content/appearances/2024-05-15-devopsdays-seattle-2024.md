@@ -4,7 +4,7 @@ date = 2024-05-15T13:00:00-07:00
 draft = false
 path = "FaNDFx"
 template = "appearance.html"
-aliases = ["FaNDFx/the-open-source-baggage-we-carry", "videos/FaNDFx"]
+aliases = ["FaNDFx/the-open-source-baggage-we-carry"]
 
 [extra]
 id = "FaNDFx"

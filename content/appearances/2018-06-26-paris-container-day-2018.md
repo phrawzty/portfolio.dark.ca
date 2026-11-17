@@ -4,7 +4,7 @@ date = 2018-06-26T14:00:00+02:00
 draft = false
 path = "PvNrMj"
 template = "appearance.html"
-aliases = ["PvNrMj/les-conteneurs-pieces-et-main-doeuvre", "videos/PvNrMj"]
+aliases = ["PvNrMj/les-conteneurs-pieces-et-main-doeuvre"]
 
 [extra]
 id = "PvNrMj"

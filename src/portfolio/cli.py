@@ -11,6 +11,7 @@ import json
 import os
 from pathlib import Path
 import re
+import secrets
 import shlex
 import shutil
 import subprocess
@@ -143,9 +144,7 @@ class Portfolio:
             return path, *read_page(path)
         value = identifier(ident)
         entries = self.appearances()
-        matches = [item for item in entries if item[1].get("extra", {}).get("id") == value]
-        if not matches:
-            matches = [item for item in entries if item[0].stem == value]
+        matches = [item for item in entries if item[1].get("extra", {}).get("id") == value or item[0].stem == value]
         if len(matches) > 1:
             raise PortfolioError(f"Ambiguous appearance {ident!r}; check for duplicate IDs and use a Markdown path")
         if not matches:
@@ -225,7 +224,7 @@ class Portfolio:
             if confirmation.casefold() != "remove":
                 raise UserCancelled("Removal cancelled.")
         path.unlink()
-        print(f"Removed {ident}. Shared talks, places, decks, and assets were left unchanged.")
+        print(f"Removed {meta['title']} — {event}. Shared talks, places, decks, and assets were left unchanged.")
 
     def deck(self, ident):
         identifier(ident)
@@ -271,16 +270,18 @@ class Portfolio:
                 ZoneInfo(args.timezone)
             except (ZoneInfoNotFoundError, ValueError) as error:
                 raise PortfolioError(f"Unknown timezone: {args.timezone}") from error
-        ident = identifier(args.id or f"{event_date.isoformat()}-{slug(event)}")
-        used_ids = {meta["extra"]["id"] for _, meta, _ in self.appearances()}
-        if args.id and ident in used_ids:
-            raise PortfolioError(f"Appearance {ident} already exists; choose another --id")
-        if not args.id:
-            base_ident = ident
-            number = 2
+        entries = self.appearances()
+        used_ids = {meta["extra"]["id"] for _, meta, _ in entries}
+        used_ids.update(path.stem for path, _, _ in entries)
+        used_ids.update({"appearances", "talks", "videos", "bio", "presentations", "photo", "assets", "css", "js"})
+        if args.id:
+            ident = identifier(args.id)
+            if ident in used_ids:
+                raise PortfolioError(f"Appearance identifier {ident} is already in use; choose another --id")
+        else:
+            ident = secrets.token_hex(6)
             while ident in used_ids:
-                ident = base_ident + "-" + str(number)
-                number += 1
+                ident = secrets.token_hex(6)
         destination = self.appearance_file_for(event_date, event)
         talk_id = identifier(args.talk or prior_extra.get("talk", slug(title)))
         place = self.locations.resolve(location)
@@ -389,7 +390,7 @@ class Portfolio:
                 print(f"Processed all {expected} pages into deck {version[:12]}")
         meta["extra"]["deck"] = version
         write_page(page_path, meta, body)
-        print(f"Attached to {ident}; previous appearances and deck versions are unchanged.")
+        print(f"Attached to {meta['title']} — {meta['extra']['event']}; previous appearances and deck versions are unchanged.")
         return version
 
     def recording(self, ident, url):
@@ -397,7 +398,7 @@ class Portfolio:
         path, meta, body = self.appearance(ident)
         meta["extra"]["recording_url"] = url
         write_page(path, meta, body)
-        print(f"Recording added to {ident}")
+        print(f"Recording added to {meta['title']} — {meta['extra']['event']}")
 
     def notes(self, ident):
         _, meta, _ = self.appearance(ident)
@@ -450,7 +451,7 @@ class Portfolio:
         talk_meta, talk_body = read_page(talk_path)
         talk_meta["draft"] = False
         write_page(talk_path, talk_meta, talk_body)
-        print(f"{ident} is ready for publication.")
+        print(f"{meta['title']} — {meta['extra']['event']} is ready for publication.")
 
     def git(self, *args, cwd=None, input=None):
         result = subprocess.run(["git", "-C", str(cwd or self.root), *args], input=input, capture_output=True)
@@ -547,7 +548,7 @@ class Portfolio:
             return
         print("\nPublish plan")
         if ident:
-            print("  Draft: " + ident)
+            print(f"  Draft: {meta['title']} — {meta['extra']['event']}")
         print(f"  Portfolio: {len(allowed)} changed file{'s' if len(allowed) != 1 else ''}")
         if pending_assets:
             print(f"  Assets: {len(pending_assets)} referenced file{'s' if len(pending_assets) != 1 else ''} need publication")
@@ -817,7 +818,7 @@ class Portfolio:
             raise PortfolioError("Redirect rules exceed Pages' static-rule budget; move additional legacy paths to Bulk Redirects before deployment")
         # Two placeholders cover every slide, including future appearances, without
         # accumulating thousands of per-slide rules or consuming new rule slots.
-        redirects.extend(["/:id/slides/:slide /:id/slides/#:slide 301", "/:id/slides/:slide/ /:id/slides/#:slide 301"])
+        redirects.extend(["/videos/:id /:id/#recording 301", "/:id/slides/:slide /:id/slides/#:slide 301", "/:id/slides/:slide/ /:id/slides/#:slide 301"])
         (staging / "static/_redirects").write_text("\n".join(redirects) + "\n")
         return staging
 

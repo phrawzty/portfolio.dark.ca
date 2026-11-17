@@ -4,7 +4,7 @@ date = 2021-09-07T14:30:00+02:00
 draft = false
 path = "Dc18kv"
 template = "appearance.html"
-aliases = ["Dc18kv/principles-of-observability-ignite", "videos/Dc18kv"]
+aliases = ["Dc18kv/principles-of-observability-ignite"]
 
 [extra]
 id = "Dc18kv"

@@ -4,7 +4,7 @@ date = 2026-02-03T08:00:00+01:00
 draft = false
 path = "4F6mZi"
 template = "appearance.html"
-aliases = ["4F6mZi/tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native", "videos/4F6mZi"]
+aliases = ["4F6mZi/tokyo-drift-containers-immuabilite-au-service-de-la-securite-cloud-native"]
 
 [extra]
 id = "4F6mZi"

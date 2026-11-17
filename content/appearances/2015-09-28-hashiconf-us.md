@@ -4,7 +4,7 @@ date = 2015-09-28T13:00:00-07:00
 draft = false
 path = "4balwD"
 template = "appearance.html"
-aliases = ["4balwD/genesis-terraforming-a-new-home-for-firefox-crash-reporter", "videos/4balwD"]
+aliases = ["4balwD/genesis-terraforming-a-new-home-for-firefox-crash-reporter"]
 
 [extra]
 id = "4balwD"

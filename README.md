@@ -77,6 +77,13 @@ uv run portfolio publish
 
 Choose a draft, or choose current changes for edits to something already published. The command detects whether referenced assets changed and shows the plan. Confirm once; it then runs the production build, creates the necessary Git commits, pushes assets first when needed and pushes the portfolio to trigger deployment.
 
+The homepage separates upcoming and recent appearances using the date at build time. `portfolio publish` only runs its production build after it finds publishable content, data, or asset changes. To refresh that classification when nothing else changed, push an empty commit to `main` so Cloudflare Pages performs a new build:
+
+```sh
+git commit --allow-empty -m "Rebuild portfolio for appearance rollover"
+git push
+```
+
 The lower-level `uv run portfolio assets publish` command is available for recovery, but is not part of the normal workflow.
 
 ## Hosting
